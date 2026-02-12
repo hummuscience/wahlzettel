@@ -1,4 +1,12 @@
 import { useTranslation } from 'react-i18next';
+import { useState, useRef, useEffect } from 'react';
+
+const LANGUAGES = [
+  { code: 'de', label: 'DE', name: 'Deutsch' },
+  { code: 'en', label: 'EN', name: 'English' },
+  { code: 'tr', label: 'TR', name: 'Türkçe' },
+  { code: 'ar', label: 'عر', name: 'العربية', rtl: true },
+] as const;
 
 interface HeaderProps {
   onTourRestart?: () => void;
@@ -9,7 +17,31 @@ interface HeaderProps {
 }
 
 export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onShare, shouldPulse }: HeaderProps) {
-  const { t } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
+  const [langOpen, setLangOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  const currentLang = LANGUAGES.find(l => l.code === i18n.language) ?? LANGUAGES[0];
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    if (!langOpen) return;
+    const handler = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, [langOpen]);
+
+  const switchLanguage = (code: string) => {
+    i18n.changeLanguage(code);
+    const isRtl = code === 'ar';
+    document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
+    document.documentElement.lang = code;
+    setLangOpen(false);
+  };
 
   return (
     <header className="bg-frankfurt-blue text-white">
@@ -19,6 +51,33 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
           <p className="text-sm text-white/80 mt-0.5">{t('appSubtitle')}</p>
         </div>
         <div className="flex items-center gap-2 shrink-0">
+          {/* Language switcher */}
+          <div className="relative" ref={dropdownRef}>
+            <button
+              onClick={() => setLangOpen(prev => !prev)}
+              className="h-8 px-2 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center text-xs font-bold transition-colors"
+              title={t('language')}
+            >
+              {currentLang.label}
+            </button>
+            {langOpen && (
+              <div className="absolute end-0 top-full mt-1 bg-white text-gray-900 rounded-lg shadow-lg overflow-hidden z-50 min-w-[120px]">
+                {LANGUAGES.map(lang => (
+                  <button
+                    key={lang.code}
+                    onClick={() => switchLanguage(lang.code)}
+                    className={`w-full px-3 py-2 text-sm text-start hover:bg-frankfurt-blue-light flex items-center justify-between ${
+                      lang.code === i18n.language ? 'bg-frankfurt-blue-light font-bold' : ''
+                    }`}
+                  >
+                    <span>{lang.name}</span>
+                    <span className="text-xs text-gray-400 ms-2">{lang.label}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
           {/* Walkthrough drawer toggle - mobile only */}
           {onWalkthroughToggle && (
             <button

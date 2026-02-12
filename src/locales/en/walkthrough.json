@@ -1,0 +1,20 @@
+{
+  "title": "How the municipal election works",
+  "step1Title": "You receive 3 ballots",
+  "step1Text": "In the municipal election, you receive three different ballots: for the City Council (the \"Römer\"), for the local council of your district, and – if you are an EU citizen – for the Municipal Foreigners' Advisory Council (KAV).",
+  "step2Title": "93 votes – as many seats as the Römer has",
+  "step2Text": "For the City Council, you have exactly 93 votes – one for each of the 93 seats. You can distribute all 93 votes freely among candidates of all parties.",
+  "step3Title": "Strategy 1: Vote for an entire list",
+  "step3Text": "If you trust a party, simply check the list header. Then all candidates on that list receive one vote each, from top to bottom, until your 93 votes are used up.",
+  "step4Title": "Strategy 2: Cumulate (stack votes)",
+  "step4Text": "You can give a single candidate up to 3 votes – this is called \"cumulating\". This way you strengthen your favourites.",
+  "step5Title": "Strategy 3: Split votes across parties",
+  "step5Text": "You can distribute your votes among candidates of different parties – this is called \"splitting\" (panaschieren). Pick the best candidates from all lists!",
+  "step6Title": "Strategy 4: Combine",
+  "step6Text": "You can also check a list AND additionally vote for individual candidates from other parties. The total must not exceed 93.",
+  "step7Title": "Caution: This makes your ballot invalid",
+  "step7Text": "Your ballot is invalid if you cast more than 93 votes, check more than one list, or give a candidate more than 3 votes. Watch the counter at the top!",
+  "step8Title": "Try it out!",
+  "step8Text": "Try it yourself with the interactive ballot above. Don't worry – you can't make any mistakes here!",
+  "tryItButton": "Go to ballot ↑"
+}

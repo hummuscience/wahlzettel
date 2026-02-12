@@ -1,0 +1,15 @@
+{
+  "title": "Pratik Bilgiler",
+  "electionDate": "Seçim günü",
+  "electionDateValue": "Pazar, 15 Mart 2026, 08:00–18:00",
+  "whoCanVote": "Kim oy kullanabilir?",
+  "whoCanVoteValue": "Frankfurt'ta en az 6 haftadır ikamet eden 18 yaş ve üzeri Alman ve AB vatandaşları.",
+  "whatToBring": "Ne getirmeli?",
+  "whatToBringValue": "Seçim bildirimin ve geçerli bir kimlik belgesi (nüfus cüzdanı veya pasaport).",
+  "postalVote": "Posta ile oy",
+  "postalVoteValue": "En geç 13 Mart 2026'ya kadar (4 Mart'a kadar tavsiye edilir). Çevrimiçi veya seçim dairesinde.",
+  "hotline": "Seçim dairesi hattı",
+  "hotlineValue": "069 / 212-40400",
+  "moreInfo": "Daha fazla bilgi",
+  "moreInfoLink": "frankfurt.de/wahlen"
+}

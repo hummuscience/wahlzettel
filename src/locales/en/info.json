@@ -1,0 +1,15 @@
+{
+  "title": "Practical Information",
+  "electionDate": "Election day",
+  "electionDateValue": "Sunday, 15 March 2026, 8:00 AM – 6:00 PM",
+  "whoCanVote": "Who can vote?",
+  "whoCanVoteValue": "German and EU citizens aged 18 and over who have been registered in Frankfurt for at least 6 weeks.",
+  "whatToBring": "What to bring?",
+  "whatToBringValue": "Your election notification and a valid ID (identity card or passport).",
+  "postalVote": "Postal vote",
+  "postalVoteValue": "Apply by 13 March 2026 at the latest (recommended by 4 March). Online or at the election office.",
+  "hotline": "Election office hotline",
+  "hotlineValue": "069 / 212-40400",
+  "moreInfo": "More information",
+  "moreInfoLink": "frankfurt.de/wahlen"
+}
