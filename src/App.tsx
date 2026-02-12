@@ -21,7 +21,12 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [walkthroughOpen, setWalkthroughOpen] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
-  const [shareData, setShareData] = useState<{ url: string; segments: PartySegment[] } | null>(null);
+  const [shareData, setShareData] = useState<{
+    url: string;
+    segments: PartySegment[];
+    totalUsed: number;
+    totalMax: number;
+  } | null>(null);
 
   const {
     state,
@@ -74,7 +79,12 @@ function App() {
       partyList,
       derived.totalStimmenUsed,
     );
-    setShareData({ url, segments });
+    setShareData({
+      url,
+      segments,
+      totalUsed: derived.totalStimmenUsed,
+      totalMax: electionData?.totalStimmen ?? 93,
+    });
   }, [state, electionData, derived.stimmenPerParty, derived.totalStimmenUsed]);
 
   useEffect(() => {
@@ -170,6 +180,8 @@ function App() {
         <ShareDialog
           shareUrl={shareData.url}
           partySegments={shareData.segments}
+          totalUsed={shareData.totalUsed}
+          totalMax={shareData.totalMax}
           onClose={() => setShareData(null)}
         />
       )}
