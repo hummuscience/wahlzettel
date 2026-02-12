@@ -31,8 +31,6 @@ export function buildPartySegments(
 interface ShareDialogProps {
   shareUrl: string;
   partySegments: PartySegment[];
-  totalUsed: number;
-  totalMax: number;
   onClose: () => void;
 }
 
@@ -118,8 +116,6 @@ function roundRect(
 
 // --- Share card rendering ---
 
-const CARD_W = 720;
-const CARD_H = 1080;
 const FRANKFURT_BLUE = '#003870';
 const FRANKFURT_BLUE_DARK = '#002650';
 
@@ -127,89 +123,42 @@ function renderShareCard(
   canvas: HTMLCanvasElement,
   shareUrl: string,
   segments: PartySegment[],
-  totalUsed: number,
-  totalMax: number,
 ) {
-  canvas.width = CARD_W;
-  canvas.height = CARD_H;
-  const ctx = canvas.getContext('2d')!;
   const pad = 48;
+  const qrSize = 360;
+  const titleY = pad + 44;
+  const subtitleY = titleY + 38;
+  const qrY = subtitleY + 36;
+  const cardW = qrSize + pad * 2;
+  const cardH = qrY + qrSize + pad;
+
+  canvas.width = cardW;
+  canvas.height = cardH;
+  const ctx = canvas.getContext('2d')!;
 
   // Background gradient
-  const grad = ctx.createLinearGradient(0, 0, 0, CARD_H);
+  const grad = ctx.createLinearGradient(0, 0, 0, cardH);
   grad.addColorStop(0, FRANKFURT_BLUE);
   grad.addColorStop(1, FRANKFURT_BLUE_DARK);
   ctx.fillStyle = grad;
-  roundRect(ctx, 0, 0, CARD_W, CARD_H, 24);
+  roundRect(ctx, 0, 0, cardW, cardH, 24);
   ctx.fill();
 
   // Title
   ctx.fillStyle = '#ffffff';
-  ctx.font = 'bold 40px system-ui, -apple-system, sans-serif';
+  ctx.font = 'bold 36px system-ui, -apple-system, sans-serif';
   ctx.textAlign = 'center';
-  ctx.fillText('Mein Wahlzettel', CARD_W / 2, pad + 40);
+  ctx.fillText('Mein Wahlzettel', cardW / 2, titleY);
 
   // Subtitle
   ctx.fillStyle = 'rgba(255,255,255,0.7)';
-  ctx.font = '22px system-ui, -apple-system, sans-serif';
-  ctx.fillText('Kommunalwahl Frankfurt 2026', CARD_W / 2, pad + 74);
-
-  // Stimmen counter
-  ctx.fillStyle = 'rgba(255,255,255,0.5)';
-  ctx.font = '18px system-ui, -apple-system, sans-serif';
-  ctx.fillText(`${totalUsed} / ${totalMax} Stimmen`, CARD_W / 2, pad + 106);
-
-  // Party breakdown bars (top 8)
-  const barTop = pad + 136;
-  const barAreaW = CARD_W - pad * 2;
-  const maxBarW = barAreaW - 160; // space for name + count
-  const barH = 28;
-  const barGap = 8;
-  const topSegments = segments.slice(0, 8);
-  const maxCount = topSegments.length > 0 ? topSegments[0].count : 1;
-
-  ctx.textAlign = 'left';
-  topSegments.forEach((seg, i) => {
-    const rowY = barTop + i * (barH + barGap);
-
-    // Party name
-    ctx.fillStyle = 'rgba(255,255,255,0.9)';
-    ctx.font = '16px system-ui, -apple-system, sans-serif';
-    ctx.fillText(seg.name, pad, rowY + barH / 2 + 5);
-
-    // Bar
-    const barX = pad + 130;
-    const barW = Math.max(4, (seg.count / maxCount) * maxBarW);
-    ctx.fillStyle = seg.color;
-    roundRect(ctx, barX, rowY, barW, barH, 4);
-    ctx.fill();
-
-    // Count
-    ctx.fillStyle = 'rgba(255,255,255,0.7)';
-    ctx.font = 'bold 16px system-ui, -apple-system, sans-serif';
-    ctx.textAlign = 'right';
-    ctx.fillText(String(seg.count), CARD_W - pad, rowY + barH / 2 + 5);
-    ctx.textAlign = 'left';
-  });
+  ctx.font = '20px system-ui, -apple-system, sans-serif';
+  ctx.fillText('Kommunalwahl Frankfurt 2026', cardW / 2, subtitleY);
 
   // QR code
-  const qrSize = 280;
-  const qrY = barTop + topSegments.length * (barH + barGap) + 32;
-  const qrX = (CARD_W - qrSize) / 2;
-
+  const qrX = (cardW - qrSize) / 2;
   const matrix = getQRMatrix(shareUrl);
   drawColoredQR(ctx, matrix, segments, qrX, qrY, qrSize);
-
-  // "Scan to load" hint
-  ctx.fillStyle = 'rgba(255,255,255,0.5)';
-  ctx.font = '16px system-ui, -apple-system, sans-serif';
-  ctx.textAlign = 'center';
-  ctx.fillText('QR-Code scannen zum Laden', CARD_W / 2, qrY + qrSize + 30);
-
-  // Footer branding
-  ctx.fillStyle = 'rgba(255,255,255,0.3)';
-  ctx.font = '14px system-ui, -apple-system, sans-serif';
-  ctx.fillText('wahlguide.frankfurt.de', CARD_W / 2, CARD_H - pad + 10);
 }
 
 // --- Component ---
@@ -217,8 +166,6 @@ function renderShareCard(
 export function ShareDialog({
   shareUrl,
   partySegments,
-  totalUsed,
-  totalMax,
   onClose,
 }: ShareDialogProps) {
   const { t } = useTranslation('ballot');
@@ -234,9 +181,9 @@ export function ShareDialog({
   const generateCard = useCallback(() => {
     const canvas = cardCanvasRef.current;
     if (!canvas) return;
-    renderShareCard(canvas, shareUrl, partySegments, totalUsed, totalMax);
+    renderShareCard(canvas, shareUrl, partySegments);
     setCardDataUrl(canvas.toDataURL('image/png'));
-  }, [shareUrl, partySegments, totalUsed, totalMax]);
+  }, [shareUrl, partySegments]);
 
   useEffect(() => {
     generateCard();

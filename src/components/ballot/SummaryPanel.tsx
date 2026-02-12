@@ -105,8 +105,6 @@ export function SummaryPanel({
         <ShareDialog
           shareUrl={shareData.url}
           partySegments={shareData.segments}
-          totalUsed={totalUsed}
-          totalMax={totalMax}
           onClose={() => setShareData(null)}
         />
       )}
