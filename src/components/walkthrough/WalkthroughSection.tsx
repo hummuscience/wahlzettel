@@ -15,25 +15,25 @@ export function WalkthroughSection() {
   const { t } = useTranslation('walkthrough');
 
   return (
-    <section className="max-w-5xl mx-auto px-4 py-8" id="walkthrough">
-      <h2 className="text-2xl font-bold text-center mb-6">{t('title')}</h2>
+    <section className="lg:w-64 lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto mb-4 lg:mb-0" id="walkthrough">
+      <h2 className="text-lg font-bold text-center mb-3">{t('title')}</h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-1 gap-2">
         {steps.map((step, i) => (
           <div
             key={step.key}
-            className="bg-white rounded-xl border border-gray-200 shadow-sm p-5 flex flex-col"
+            className="bg-white rounded-lg border border-gray-200 shadow-sm p-3 flex flex-col"
           >
-            <div className="flex items-center gap-2 mb-2">
-              <span className="text-2xl">{step.emoji}</span>
-              <span className="text-xs font-semibold text-frankfurt-blue/60 uppercase tracking-wider">
-                {i + 1} / {steps.length}
+            <div className="flex items-center gap-1.5 mb-1">
+              <span className="text-base">{step.emoji}</span>
+              <span className="text-[10px] font-semibold text-frankfurt-blue/60 uppercase tracking-wider">
+                {i + 1}/{steps.length}
               </span>
             </div>
-            <h3 className="text-sm font-bold text-gray-900 mb-1.5">
+            <h3 className="text-xs font-bold text-gray-900 mb-0.5">
               {t(`${step.key}Title`)}
             </h3>
-            <p className="text-xs text-gray-600 leading-relaxed flex-1">
+            <p className="text-[11px] text-gray-600 leading-relaxed flex-1">
               {t(`${step.key}Text`)}
             </p>
           </div>

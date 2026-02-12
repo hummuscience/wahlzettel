@@ -69,17 +69,21 @@ function App() {
       />
 
       <main className="flex-1">
-        <WalkthroughSection />
+        <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
+          <WalkthroughSection />
 
-        <BallotView
-          electionData={electionData}
-          candidateVotes={state.candidateVotes}
-          listSelections={state.listSelections}
-          derived={derived}
-          dispatch={dispatch}
-          isListVoteActive={isListVoteActive}
-          getListAllocation={getListAllocation}
-        />
+          <div className="flex-1 min-w-0">
+            <BallotView
+              electionData={electionData}
+              candidateVotes={state.candidateVotes}
+              listSelections={state.listSelections}
+              derived={derived}
+              dispatch={dispatch}
+              isListVoteActive={isListVoteActive}
+              getListAllocation={getListAllocation}
+            />
+          </div>
+        </div>
 
         <PracticalInfo />
       </main>

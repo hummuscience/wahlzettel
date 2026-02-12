@@ -52,7 +52,7 @@ export function BallotView({
   const struckIds = listSelections[activeParty.listNumber]?.struckCandidateIds || [];
 
   return (
-    <div data-tour="ballot" className="max-w-5xl mx-auto px-4 py-4" id="ballot">
+    <div data-tour="ballot" className="py-4" id="ballot">
       <div className="text-center mb-3">
         <h2 className="text-lg font-bold">{t('stimmzettel')}</h2>
         <p className="text-sm text-gray-500">
