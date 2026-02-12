@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { getPartyColor } from '../../data/partyColors';
 import type { VoteState } from '../../types';
 import { encodeVoteState } from '../../utils/shareState';
-import { ShareDialog } from './ShareDialog';
+import { ShareDialog, buildPartySegments, type PartySegment } from './ShareDialog';
 
 interface SummaryPanelProps {
   stimmenPerParty: Record<number, number>;
@@ -37,7 +37,7 @@ export function SummaryPanel({
   const maxCount = partyVotes.length > 0 ? Math.max(...partyVotes.map(p => p.count)) : 0;
   const remaining = totalMax - totalUsed;
 
-  const [shareUrl, setShareUrl] = useState<string | null>(null);
+  const [shareData, setShareData] = useState<{ url: string; segments: PartySegment[] } | null>(null);
 
   const handleReset = () => {
     if (window.confirm(t('resetConfirm'))) {
@@ -48,7 +48,8 @@ export function SummaryPanel({
   const handleShare = async () => {
     const encoded = await encodeVoteState(voteState);
     const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
-    setShareUrl(url);
+    const segments = buildPartySegments(stimmenPerParty, parties, totalUsed);
+    setShareData({ url, segments });
   };
 
   return (
@@ -100,8 +101,12 @@ export function SummaryPanel({
         </div>
       </div>
 
-      {shareUrl && (
-        <ShareDialog shareUrl={shareUrl} onClose={() => setShareUrl(null)} />
+      {shareData && (
+        <ShareDialog
+          shareUrl={shareData.url}
+          partySegments={shareData.segments}
+          onClose={() => setShareData(null)}
+        />
       )}
     </div>
   );

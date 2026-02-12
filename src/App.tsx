@@ -2,7 +2,8 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import type { ElectionData } from './types';
 import { useVoteState } from './hooks/useVoteState';
 import { decodeVoteState, encodeVoteState } from './utils/shareState';
-import { ShareDialog } from './components/ballot/ShareDialog';
+import { ShareDialog, buildPartySegments } from './components/ballot/ShareDialog';
+import type { PartySegment } from './components/ballot/ShareDialog';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { MobileDrawer } from './components/layout/MobileDrawer';
@@ -20,7 +21,7 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [walkthroughOpen, setWalkthroughOpen] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
-  const [shareUrl, setShareUrl] = useState<string | null>(null);
+  const [shareData, setShareData] = useState<{ url: string; segments: PartySegment[] } | null>(null);
 
   const {
     state,
@@ -64,8 +65,17 @@ function App() {
   const handleShare = useCallback(async () => {
     const encoded = await encodeVoteState(state);
     const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
-    setShareUrl(url);
-  }, [state]);
+    const partyList = electionData?.parties.map(p => ({
+      listNumber: p.listNumber,
+      shortName: p.shortName,
+    })) ?? [];
+    const segments = buildPartySegments(
+      derived.stimmenPerParty,
+      partyList,
+      derived.totalStimmenUsed,
+    );
+    setShareData({ url, segments });
+  }, [state, electionData, derived.stimmenPerParty, derived.totalStimmenUsed]);
 
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + 'data/stvv-candidates.json')
@@ -156,8 +166,12 @@ function App() {
         onClose={tour.close}
       />
 
-      {shareUrl && (
-        <ShareDialog shareUrl={shareUrl} onClose={() => setShareUrl(null)} />
+      {shareData && (
+        <ShareDialog
+          shareUrl={shareData.url}
+          partySegments={shareData.segments}
+          onClose={() => setShareData(null)}
+        />
       )}
     </div>
   );
