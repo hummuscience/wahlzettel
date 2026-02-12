@@ -26,7 +26,7 @@ const TOOLTIP_MARGIN = 16;
 function resolveTarget(selector: string): Element | null {
   // For party bookmarks, check which variant is visible
   if (selector === '[data-tour="party-bookmarks"]') {
-    const desktop = document.querySelector('[data-tour="party-bookmarks"]');
+    const desktop = document.querySelector('[data-tour="party-bookmarks"]') as HTMLElement | null;
     if (desktop && desktop.offsetParent !== null) return desktop;
     const mobile = document.querySelector('[data-tour="party-bookmarks-mobile"]');
     if (mobile) return mobile;
@@ -64,7 +64,6 @@ export function GuidedTour({ isActive, currentStep, onNext, onPrev, onClose }: G
   const [targetRect, setTargetRect] = useState<TargetRect | null>(null);
   const [tooltipStyle, setTooltipStyle] = useState<React.CSSProperties>({});
   const [arrowStyle, setArrowStyle] = useState<React.CSSProperties>({});
-  const [resolvedPosition, setResolvedPosition] = useState<Exclude<TooltipPosition, 'auto'>>('bottom');
   const tooltipRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef<number>(0);
 
@@ -93,8 +92,6 @@ export function GuidedTour({ isActive, currentStep, onNext, onPrev, onClose }: G
     const vw = window.innerWidth;
 
     const pos = resolvePosition(step.position, tr, tooltipW, tooltipH);
-    setResolvedPosition(pos);
-
     let top = 0;
     let left = 0;
     const arrowPos: React.CSSProperties = {};
