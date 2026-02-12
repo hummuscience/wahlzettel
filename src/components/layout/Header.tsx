@@ -44,7 +44,7 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
   };
 
   return (
-    <header className="bg-frankfurt-blue text-white">
+    <header className="bg-frankfurt-blue text-white relative z-60">
       <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
         <div>
           <h1 className="text-xl md:text-2xl font-bold">{t('appTitle')}</h1>
