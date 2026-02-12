@@ -2,11 +2,13 @@ import { useState, useCallback, useEffect } from 'react';
 import { tourSteps } from './tourSteps';
 
 const STORAGE_KEY = 'wahlguide-tour-completed';
+const MOBILE_BREAKPOINT = 1024; // matches lg: breakpoint
 
 export interface GuidedTourState {
   isActive: boolean;
   currentStep: number;
   totalSteps: number;
+  shouldPulse: boolean;
   next: () => void;
   prev: () => void;
   close: () => void;
@@ -16,13 +18,19 @@ export interface GuidedTourState {
 export function useGuidedTour(): GuidedTourState {
   const [isActive, setIsActive] = useState(false);
   const [currentStep, setCurrentStep] = useState(0);
+  const [shouldPulse, setShouldPulse] = useState(false);
 
-  // Auto-start on first visit after DOM is ready
+  // Auto-start on first visit (desktop only), pulse on mobile
   useEffect(() => {
     const completed = localStorage.getItem(STORAGE_KEY);
     if (!completed) {
-      const timer = setTimeout(() => setIsActive(true), 800);
-      return () => clearTimeout(timer);
+      const isMobile = window.innerWidth < MOBILE_BREAKPOINT;
+      if (isMobile) {
+        setShouldPulse(true);
+      } else {
+        const timer = setTimeout(() => setIsActive(true), 800);
+        return () => clearTimeout(timer);
+      }
     }
   }, []);
 
@@ -47,12 +55,14 @@ export function useGuidedTour(): GuidedTourState {
   const restart = useCallback(() => {
     setCurrentStep(0);
     setIsActive(true);
+    setShouldPulse(false);
   }, []);
 
   return {
     isActive,
     currentStep,
     totalSteps: tourSteps.length,
+    shouldPulse,
     next,
     prev,
     close,

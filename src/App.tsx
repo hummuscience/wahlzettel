@@ -1,18 +1,23 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import type { ElectionData } from './types';
 import { useVoteState } from './hooks/useVoteState';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
+import { MobileDrawer } from './components/layout/MobileDrawer';
 import { VoteStatusBar } from './components/ballot/VoteStatusBar';
 import { BallotView } from './components/ballot/BallotView';
 import { WalkthroughSection } from './components/walkthrough/WalkthroughSection';
+import { WalkthroughDrawerContent } from './components/walkthrough/WalkthroughDrawerContent';
 import { PracticalInfo } from './components/info/PracticalInfo';
+import { PracticalInfoDrawerContent } from './components/info/PracticalInfoDrawerContent';
 import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
 
 function App() {
   const [electionData, setElectionData] = useState<ElectionData | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [walkthroughOpen, setWalkthroughOpen] = useState(false);
+  const [infoOpen, setInfoOpen] = useState(false);
 
   const {
     state,
@@ -24,6 +29,16 @@ function App() {
   } = useVoteState(electionData);
 
   const tour = useGuidedTour();
+
+  const toggleWalkthrough = useCallback(() => {
+    setWalkthroughOpen(prev => !prev);
+    setInfoOpen(false);
+  }, []);
+
+  const toggleInfo = useCallback(() => {
+    setInfoOpen(prev => !prev);
+    setWalkthroughOpen(false);
+  }, []);
 
   useEffect(() => {
     fetch(import.meta.env.BASE_URL + 'data/stvv-candidates.json')
@@ -53,7 +68,12 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header onTourRestart={tour.restart} />
+      <Header
+        onTourRestart={tour.restart}
+        onWalkthroughToggle={toggleWalkthrough}
+        onInfoToggle={toggleInfo}
+        shouldPulse={tour.shouldPulse}
+      />
 
       <VoteStatusBar
         totalUsed={derived.totalStimmenUsed}
@@ -89,6 +109,15 @@ function App() {
       </main>
 
       <Footer />
+
+      {/* Mobile drawers */}
+      <MobileDrawer isOpen={walkthroughOpen} onClose={() => setWalkthroughOpen(false)} side="left">
+        <WalkthroughDrawerContent />
+      </MobileDrawer>
+
+      <MobileDrawer isOpen={infoOpen} onClose={() => setInfoOpen(false)} side="right">
+        <PracticalInfoDrawerContent />
+      </MobileDrawer>
 
       <GuidedTour
         isActive={tour.isActive}

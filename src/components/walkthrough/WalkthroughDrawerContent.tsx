@@ -11,18 +11,17 @@ const steps = [
   { key: 'step8', emoji: '✏️' },
 ];
 
-export function WalkthroughSection() {
+export function WalkthroughDrawerContent() {
   const { t } = useTranslation('walkthrough');
 
   return (
-    <section className="hidden lg:block lg:w-64 lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto" id="walkthrough">
-      <h2 className="text-lg font-bold text-center mb-3">{t('title')}</h2>
-
-      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-1 gap-2">
+    <div>
+      <h2 className="text-lg font-bold mb-3">{t('title')}</h2>
+      <div className="flex flex-col gap-2">
         {steps.map((step, i) => (
           <div
             key={step.key}
-            className="bg-white rounded-lg border border-gray-200 shadow-sm p-3 flex flex-col"
+            className="bg-white rounded-lg border border-gray-200 shadow-sm p-3"
           >
             <div className="flex items-center gap-1.5 mb-1">
               <span className="text-base">{step.emoji}</span>
@@ -33,12 +32,12 @@ export function WalkthroughSection() {
             <h3 className="text-xs font-bold text-gray-900 mb-0.5">
               {t(`${step.key}Title`)}
             </h3>
-            <p className="text-[11px] text-gray-600 leading-relaxed flex-1">
+            <p className="text-[11px] text-gray-600 leading-relaxed">
               {t(`${step.key}Text`)}
             </p>
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

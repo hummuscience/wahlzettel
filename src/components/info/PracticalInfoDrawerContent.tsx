@@ -8,14 +8,13 @@ const infoItems = [
   { titleKey: 'hotline', valueKey: 'hotlineValue', icon: '📞' },
 ];
 
-export function PracticalInfo() {
+export function PracticalInfoDrawerContent() {
   const { t } = useTranslation('info');
 
   return (
-    <section className="hidden lg:block lg:w-64 lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto">
-      <h2 className="text-lg font-bold text-center mb-3">{t('title')}</h2>
-
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-1 gap-2">
+    <div>
+      <h2 className="text-lg font-bold mb-3">{t('title')}</h2>
+      <div className="flex flex-col gap-2">
         {infoItems.map(item => (
           <div
             key={item.titleKey}
@@ -44,6 +43,6 @@ export function PracticalInfo() {
           </a>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
