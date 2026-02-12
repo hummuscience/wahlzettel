@@ -4,10 +4,11 @@ interface HeaderProps {
   onTourRestart?: () => void;
   onInfoToggle?: () => void;
   onWalkthroughToggle?: () => void;
+  onShare?: () => void;
   shouldPulse?: boolean;
 }
 
-export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, shouldPulse }: HeaderProps) {
+export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onShare, shouldPulse }: HeaderProps) {
   const { t } = useTranslation('common');
 
   return (
@@ -39,6 +40,19 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, shoul
               title={t('infoToggle', { defaultValue: 'Praktische Infos' })}
             >
               i
+            </button>
+          )}
+
+          {/* Share button */}
+          {onShare && (
+            <button
+              onClick={onShare}
+              className="w-8 h-8 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center transition-colors"
+              title={t('teilen', { ns: 'ballot', defaultValue: 'Teilen' })}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                <path d="M13 4.5a2.5 2.5 0 11.702 1.737L6.97 9.604a2.518 2.518 0 010 .799l6.733 3.366a2.5 2.5 0 11-.671 1.341l-6.733-3.366a2.5 2.5 0 110-3.483l6.733-3.366A2.52 2.52 0 0113 4.5z" />
+              </svg>
             </button>
           )}
 
