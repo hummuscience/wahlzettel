@@ -69,7 +69,7 @@ function App() {
       />
 
       <main className="flex-1">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
+        <div className="max-w-[1400px] mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
           <WalkthroughSection />
 
           <div className="flex-1 min-w-0">
@@ -83,9 +83,9 @@ function App() {
               getListAllocation={getListAllocation}
             />
           </div>
-        </div>
 
-        <PracticalInfo />
+          <PracticalInfo />
+        </div>
       </main>
 
       <Footer />
