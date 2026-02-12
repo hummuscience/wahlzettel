@@ -1,0 +1,15 @@
+{
+  "title": "Praktische Infos",
+  "electionDate": "Wahltag",
+  "electionDateValue": "Sonntag, 15. März 2026, 8:00–18:00 Uhr",
+  "whoCanVote": "Wer darf wählen?",
+  "whoCanVoteValue": "Deutsche und EU-Bürger/innen ab 18 Jahren mit mindestens 6 Wochen Wohnsitz in Frankfurt.",
+  "whatToBring": "Was mitbringen?",
+  "whatToBringValue": "Deine Wahlbenachrichtigung und einen gültigen Ausweis (Personalausweis oder Reisepass).",
+  "postalVote": "Briefwahl",
+  "postalVoteValue": "Antrag spätestens bis 13. März 2026 (empfohlen bis 4. März). Online oder beim Wahlamt.",
+  "hotline": "Wahlamt Hotline",
+  "hotlineValue": "069 / 212-40400",
+  "moreInfo": "Weitere Informationen",
+  "moreInfoLink": "frankfurt.de/wahlen"
+}

@@ -1,0 +1,22 @@
+{
+  "stimmenVergeben": "{{count}} / {{total}} Stimmen vergeben",
+  "zusammenfassung": "Zusammenfassung",
+  "dieseListeWaehlen": "Diese Liste komplett wählen",
+  "kopfleisteInfo": "Alle Kandidaten dieser Liste erhalten je 1 Stimme (von oben nach unten), bis deine Stimmen aufgebraucht sind.",
+  "stimmenAufListe": "{{count}} Stimmen werden auf diese Liste verteilt",
+  "alleStimmenVergeben": "Du hast alle {{total}} Stimmen vergeben! Prüfe deine Auswahl in der Zusammenfassung.",
+  "ungueltig": "UNGÜLTIG! Du hast mehr als {{total}} Stimmen vergeben.",
+  "stimmzettelZuruecksetzen": "Stimmzettel zurücksetzen",
+  "resetConfirm": "Möchtest du wirklich alle Stimmen zurücksetzen?",
+  "nichtVergeben": "Nicht vergeben: {{count}} Stimmen",
+  "stimmen": "Stimmen",
+  "stimme": "Stimme",
+  "liste": "Liste",
+  "prevParty": "Vorherige Partei",
+  "nextParty": "Nächste Partei",
+  "partyStimmen": "{{party}}: {{count}} Stimmen",
+  "stimmzettel": "Stimmzettel",
+  "fuerDieWahlDer": "für die Wahl der",
+  "stadtverordnetenversammlung": "Stadtverordnetenversammlung",
+  "am15Maerz": "der Stadt Frankfurt am Main am 15. März 2026"
+}
