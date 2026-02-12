@@ -1,6 +1,7 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import type { ElectionData } from './types';
 import { useVoteState } from './hooks/useVoteState';
+import { decodeVoteState } from './utils/shareState';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { MobileDrawer } from './components/layout/MobileDrawer';
@@ -29,6 +30,24 @@ function App() {
   } = useVoteState(electionData);
 
   const tour = useGuidedTour();
+  const hashLoaded = useRef(false);
+
+  // Restore vote state from URL hash (#v=...)
+  useEffect(() => {
+    if (hashLoaded.current || !electionData) return;
+    const hash = window.location.hash;
+    const match = hash.match(/^#v=(.+)$/);
+    if (!match) return;
+    hashLoaded.current = true;
+    decodeVoteState(match[1])
+      .then(loadedState => {
+        dispatch({ type: 'LOAD_STATE', state: loadedState });
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      })
+      .catch(() => {
+        // Invalid share link — silently ignore
+      });
+  }, [electionData, dispatch]);
 
   const toggleWalkthrough = useCallback(() => {
     setWalkthroughOpen(prev => !prev);
@@ -86,6 +105,7 @@ function App() {
           shortName: p.shortName,
         }))}
         onReset={resetBallot}
+        voteState={state}
       />
 
       <main className="flex-1">

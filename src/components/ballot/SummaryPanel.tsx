@@ -1,5 +1,9 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getPartyColor } from '../../data/partyColors';
+import type { VoteState } from '../../types';
+import { encodeVoteState } from '../../utils/shareState';
+import { ShareDialog } from './ShareDialog';
 
 interface SummaryPanelProps {
   stimmenPerParty: Record<number, number>;
@@ -7,6 +11,7 @@ interface SummaryPanelProps {
   totalUsed: number;
   totalMax: number;
   onReset: () => void;
+  voteState: VoteState;
 }
 
 export function SummaryPanel({
@@ -15,6 +20,7 @@ export function SummaryPanel({
   totalUsed,
   totalMax,
   onReset,
+  voteState,
 }: SummaryPanelProps) {
   const { t } = useTranslation('ballot');
 
@@ -31,10 +37,18 @@ export function SummaryPanel({
   const maxCount = partyVotes.length > 0 ? Math.max(...partyVotes.map(p => p.count)) : 0;
   const remaining = totalMax - totalUsed;
 
+  const [shareUrl, setShareUrl] = useState<string | null>(null);
+
   const handleReset = () => {
     if (window.confirm(t('resetConfirm'))) {
       onReset();
     }
+  };
+
+  const handleShare = async () => {
+    const encoded = await encodeVoteState(voteState);
+    const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
+    setShareUrl(url);
   };
 
   return (
@@ -70,13 +84,25 @@ export function SummaryPanel({
             : null
           }
         </span>
-        <button
-          onClick={handleReset}
-          className="text-sm text-status-invalid hover:underline"
-        >
-          {t('stimmzettelZuruecksetzen')}
-        </button>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={handleShare}
+            className="text-sm text-frankfurt-blue hover:underline"
+          >
+            {t('teilen')}
+          </button>
+          <button
+            onClick={handleReset}
+            className="text-sm text-status-invalid hover:underline"
+          >
+            {t('stimmzettelZuruecksetzen')}
+          </button>
+        </div>
       </div>
+
+      {shareUrl && (
+        <ShareDialog shareUrl={shareUrl} onClose={() => setShareUrl(null)} />
+      )}
     </div>
   );
 }

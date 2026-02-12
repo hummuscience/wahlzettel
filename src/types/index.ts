@@ -61,4 +61,5 @@ export type VoteAction =
   | { type: 'SET_CANDIDATE_VOTES'; candidateId: string; partyListNumber: number; stimmen: number }
   | { type: 'TOGGLE_LIST_VOTE'; partyListNumber: number }
   | { type: 'STRIKE_CANDIDATE'; candidateId: string; partyListNumber: number }
-  | { type: 'RESET_BALLOT' };
+  | { type: 'RESET_BALLOT' }
+  | { type: 'LOAD_STATE'; state: VoteState };

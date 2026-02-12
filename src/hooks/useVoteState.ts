@@ -101,6 +101,9 @@ function voteReducer(state: VoteState, action: VoteAction): VoteState {
     case 'RESET_BALLOT':
       return initialState;
 
+    case 'LOAD_STATE':
+      return action.state;
+
     default:
       return state;
   }
