@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { getPartyColor } from '../../data/partyColors';
 
 interface SummaryPanelProps {
   stimmenPerParty: Record<number, number>;
@@ -49,8 +50,11 @@ export function SummaryPanel({
               <span className="w-24 text-right font-medium truncate">{pv.shortName}</span>
               <div className="flex-1 h-4 bg-gray-200 rounded overflow-hidden">
                 <div
-                  className="h-full bg-frankfurt-blue rounded transition-all duration-300"
-                  style={{ width: `${(pv.count / maxCount) * 100}%` }}
+                  className="h-full rounded transition-all duration-300"
+                  style={{
+                    width: `${(pv.count / maxCount) * 100}%`,
+                    backgroundColor: getPartyColor(pv.shortName),
+                  }}
                 />
               </div>
               <span className="w-8 text-right text-gray-600">{pv.count}</span>

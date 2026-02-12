@@ -1,6 +1,6 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SummaryPanel } from './SummaryPanel';
+import { getPartyColor } from '../../data/partyColors';
 
 interface VoteStatusBarProps {
   totalUsed: number;
@@ -22,26 +22,29 @@ export function VoteStatusBar({
   onReset,
 }: VoteStatusBarProps) {
   const { t } = useTranslation('ballot');
-  const [isExpanded, setIsExpanded] = useState(false);
 
-  const percentage = Math.min((totalUsed / totalMax) * 100, 100);
-  const isWarning = totalUsed >= 80 && totalUsed < totalMax;
-
-  let barColor = 'bg-status-ok';
   let textColor = 'text-gray-700';
   let statusText = t('stimmenVergeben', { count: totalUsed, total: totalMax });
 
   if (isOverLimit) {
-    barColor = 'bg-status-invalid';
     textColor = 'text-status-invalid font-bold';
     statusText = t('ungueltig', { total: totalMax });
   } else if (isComplete) {
-    barColor = 'bg-status-complete animate-pulse';
     textColor = 'text-status-complete font-semibold';
     statusText = t('alleStimmenVergeben', { total: totalMax });
-  } else if (isWarning) {
-    barColor = 'bg-status-warning';
   }
+
+  // Build stacked bar segments from parties with votes
+  const segments = parties
+    .filter(p => (stimmenPerParty[p.listNumber] || 0) > 0)
+    .map(p => ({
+      shortName: p.shortName,
+      count: stimmenPerParty[p.listNumber] || 0,
+      color: getPartyColor(p.shortName),
+    }))
+    .sort((a, b) => b.count - a.count);
+
+  const remainingPct = Math.max(0, ((totalMax - totalUsed) / totalMax) * 100);
 
   return (
     <div data-tour="vote-counter" className={`sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm ${isOverLimit ? 'animate-shake' : ''}`}>
@@ -56,24 +59,31 @@ export function VoteStatusBar({
             )}
           </div>
 
-          {/* Progress bar */}
-          <div className="flex-1 h-2.5 bg-gray-200 rounded-full overflow-hidden">
-            <div
-              className={`h-full rounded-full transition-all duration-300 ${barColor}`}
-              style={{ width: `${percentage}%` }}
-            />
+          {/* Stacked progress bar */}
+          <div className="flex-1 h-2.5 bg-gray-200 rounded-full overflow-hidden flex">
+            {isOverLimit ? (
+              <div className="h-full w-full bg-status-invalid" />
+            ) : (
+              <>
+                {segments.map(seg => (
+                  <div
+                    key={seg.shortName}
+                    className="h-full transition-all duration-300"
+                    style={{
+                      width: `${(seg.count / totalMax) * 100}%`,
+                      backgroundColor: seg.color,
+                    }}
+                  />
+                ))}
+                {remainingPct > 0 && (
+                  <div
+                    className="h-full bg-gray-200 transition-all duration-300"
+                    style={{ width: `${remainingPct}%` }}
+                  />
+                )}
+              </>
+            )}
           </div>
-
-          {/* Summary toggle */}
-          <button
-            onClick={() => setIsExpanded(!isExpanded)}
-            className="text-sm text-frankfurt-blue hover:underline whitespace-nowrap flex items-center gap-1"
-          >
-            {t('zusammenfassung')}
-            <span className={`transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}>
-              ▾
-            </span>
-          </button>
         </div>
 
         {isComplete && !isOverLimit && (
@@ -83,16 +93,14 @@ export function VoteStatusBar({
         )}
       </div>
 
-      {/* Summary Panel */}
-      <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-96' : 'max-h-0'}`}>
-        <SummaryPanel
-          stimmenPerParty={stimmenPerParty}
-          parties={parties}
-          totalUsed={totalUsed}
-          totalMax={totalMax}
-          onReset={onReset}
-        />
-      </div>
+      {/* Summary Panel - always visible */}
+      <SummaryPanel
+        stimmenPerParty={stimmenPerParty}
+        parties={parties}
+        totalUsed={totalUsed}
+        totalMax={totalMax}
+        onReset={onReset}
+      />
     </div>
   );
 }
