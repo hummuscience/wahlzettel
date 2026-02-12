@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SummaryPanel } from './SummaryPanel';
 import { getPartyColor } from '../../data/partyColors';
@@ -22,6 +23,7 @@ export function VoteStatusBar({
   onReset,
 }: VoteStatusBarProps) {
   const { t } = useTranslation('ballot');
+  const [isExpanded, setIsExpanded] = useState(false);
 
   let textColor = 'text-gray-700';
   let statusText = t('stimmenVergeben', { count: totalUsed, total: totalMax });
@@ -59,31 +61,42 @@ export function VoteStatusBar({
             )}
           </div>
 
-          {/* Stacked progress bar */}
-          <div className="flex-1 h-2.5 bg-gray-200 rounded-full overflow-hidden flex">
-            {isOverLimit ? (
-              <div className="h-full w-full bg-status-invalid" />
-            ) : (
-              <>
-                {segments.map(seg => (
-                  <div
-                    key={seg.shortName}
-                    className="h-full transition-all duration-300"
-                    style={{
-                      width: `${(seg.count / totalMax) * 100}%`,
-                      backgroundColor: seg.color,
-                    }}
-                  />
-                ))}
-                {remainingPct > 0 && (
-                  <div
-                    className="h-full bg-gray-200 transition-all duration-300"
-                    style={{ width: `${remainingPct}%` }}
-                  />
-                )}
-              </>
-            )}
-          </div>
+          {/* Summary toggle */}
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="text-sm text-frankfurt-blue hover:underline whitespace-nowrap flex items-center gap-1"
+          >
+            {t('zusammenfassung')}
+            <span className={`transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}>
+              ▾
+            </span>
+          </button>
+        </div>
+
+        {/* Stacked progress bar */}
+        <div className="h-2.5 bg-gray-200 rounded-full overflow-hidden flex mt-1">
+          {isOverLimit ? (
+            <div className="h-full w-full bg-status-invalid" />
+          ) : (
+            <>
+              {segments.map(seg => (
+                <div
+                  key={seg.shortName}
+                  className="h-full transition-all duration-300"
+                  style={{
+                    width: `${(seg.count / totalMax) * 100}%`,
+                    backgroundColor: seg.color,
+                  }}
+                />
+              ))}
+              {remainingPct > 0 && (
+                <div
+                  className="h-full bg-gray-200 transition-all duration-300"
+                  style={{ width: `${remainingPct}%` }}
+                />
+              )}
+            </>
+          )}
         </div>
 
         {isComplete && !isOverLimit && (
@@ -93,14 +106,16 @@ export function VoteStatusBar({
         )}
       </div>
 
-      {/* Summary Panel - always visible */}
-      <SummaryPanel
-        stimmenPerParty={stimmenPerParty}
-        parties={parties}
-        totalUsed={totalUsed}
-        totalMax={totalMax}
-        onReset={onReset}
-      />
+      {/* Collapsible Summary Panel */}
+      <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-96' : 'max-h-0'}`}>
+        <SummaryPanel
+          stimmenPerParty={stimmenPerParty}
+          parties={parties}
+          totalUsed={totalUsed}
+          totalMax={totalMax}
+          onReset={onReset}
+        />
+      </div>
     </div>
   );
 }
