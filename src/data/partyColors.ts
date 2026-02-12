@@ -11,7 +11,7 @@ const PARTY_COLORS: Record<string, string> = {
   'ÖkoLinX': '#e60000',
   'ELF': '#1e3a5f',
   'IBF': '#ff8c00',
-  'BIG': '#008751',
+  'BIG': '#193D8B',
   'Gartenpartei Ffm': '#228b22',
   'PIRATEN': '#ff8800',
   'FREIE WÄHLER': '#f7a800',
