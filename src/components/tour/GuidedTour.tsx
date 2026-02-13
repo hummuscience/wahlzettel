@@ -1,5 +1,14 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
-import { createPortal } from 'react-dom';
+import { useEffect, useCallback, useRef, useState } from 'react';
+import {
+  useFloating,
+  offset,
+  flip,
+  shift,
+  arrow,
+  autoUpdate,
+  FloatingPortal,
+  FloatingArrow,
+} from '@floating-ui/react';
 import { useTranslation } from 'react-i18next';
 import { tourSteps } from './tourSteps';
 import type { TooltipPosition } from './tourSteps';
@@ -13,20 +22,15 @@ interface GuidedTourProps {
   onClose: () => void;
 }
 
-interface TargetRect {
-  top: number;
-  left: number;
-  width: number;
-  height: number;
+const PADDING = 8;
+
+/** Map tourSteps position names to Floating UI placement strings. */
+function toPlacement(pos: TooltipPosition) {
+  if (pos === 'auto') return 'bottom' as const;
+  return pos;
 }
 
-const PADDING = 8;
-const ARROW_SIZE = 8;
-const TOOLTIP_MAX_WIDTH = 340;
-const TOOLTIP_MARGIN = 16;
-
 function resolveTarget(selector: string): Element | null {
-  // For party bookmarks, check which variant is visible
   if (selector === '[data-tour="party-bookmarks"]') {
     const desktop = document.querySelector('[data-tour="party-bookmarks"]') as HTMLElement | null;
     if (desktop && desktop.offsetParent !== null) return desktop;
@@ -37,132 +41,39 @@ function resolveTarget(selector: string): Element | null {
   return document.querySelector(selector);
 }
 
-function resolvePosition(
-  preferred: TooltipPosition,
-  targetRect: TargetRect,
-  tooltipW: number,
-  tooltipH: number,
-): Exclude<TooltipPosition, 'auto'> {
-  const vw = window.innerWidth;
-  const vh = window.innerHeight;
-
-  if (preferred !== 'auto') return preferred;
-
-  // Prefer bottom, then top, then right, then left
-  const spaceBelow = vh - (targetRect.top + targetRect.height + PADDING);
-  const spaceAbove = targetRect.top - PADDING;
-  const spaceRight = vw - (targetRect.left + targetRect.width + PADDING);
-  const spaceLeft = targetRect.left - PADDING;
-
-  if (spaceBelow >= tooltipH + ARROW_SIZE + TOOLTIP_MARGIN) return 'bottom';
-  if (spaceAbove >= tooltipH + ARROW_SIZE + TOOLTIP_MARGIN) return 'top';
-  if (spaceRight >= tooltipW + ARROW_SIZE + TOOLTIP_MARGIN) return 'right';
-  if (spaceLeft >= tooltipW + ARROW_SIZE + TOOLTIP_MARGIN) return 'left';
-  return 'bottom';
-}
-
 export function GuidedTour({ isActive, currentStep, totalStimmen, onNext, onPrev, onClose }: GuidedTourProps) {
   const { t } = useTranslation('walkthrough');
   const tVars = { count: totalStimmen };
-  const [targetRect, setTargetRect] = useState<TargetRect | null>(null);
-  const [tooltipStyle, setTooltipStyle] = useState<React.CSSProperties>({});
-  const [arrowStyle, setArrowStyle] = useState<React.CSSProperties>({});
-  const tooltipRef = useRef<HTMLDivElement>(null);
-  const rafRef = useRef<number>(0);
-
   const step = tourSteps[currentStep];
+  const arrowRef = useRef<SVGSVGElement>(null);
 
-  const positionTooltip = useCallback(() => {
-    if (!step || !isActive) return;
+  // Track target rect for the overlay spotlight
+  const [spotRect, setSpotRect] = useState<DOMRect | null>(null);
 
-    const el = resolveTarget(step.target);
-    if (!el) return;
+  const { refs, floatingStyles, context } = useFloating({
+    placement: step ? toPlacement(step.position) : 'bottom',
+    middleware: [
+      offset(PADDING + 8), // padding around target + arrow height
+      flip({ fallbackAxisSideDirection: 'start' }),
+      shift({ padding: 16 }),
+      arrow({ element: arrowRef, padding: 12 }),
+    ],
+    whileElementsMounted: autoUpdate,
+  });
 
-    const rect = el.getBoundingClientRect();
-    const tr: TargetRect = {
-      top: rect.top,
-      left: rect.left,
-      width: rect.width,
-      height: rect.height,
-    };
-    setTargetRect(tr);
-
-    const tooltipEl = tooltipRef.current;
-    if (!tooltipEl) return;
-
-    const tooltipW = tooltipEl.offsetWidth;
-    const tooltipH = tooltipEl.offsetHeight;
-    const vw = window.innerWidth;
-
-    const pos = resolvePosition(step.position, tr, tooltipW, tooltipH);
-    let top = 0;
-    let left = 0;
-    const arrowPos: React.CSSProperties = {};
-
-    switch (pos) {
-      case 'bottom':
-        top = tr.top + tr.height + PADDING + ARROW_SIZE;
-        left = tr.left + tr.width / 2 - tooltipW / 2;
-        arrowPos.top = -ARROW_SIZE;
-        arrowPos.left = '50%';
-        arrowPos.transform = 'translateX(-50%)';
-        arrowPos.borderLeft = `${ARROW_SIZE}px solid transparent`;
-        arrowPos.borderRight = `${ARROW_SIZE}px solid transparent`;
-        arrowPos.borderBottom = `${ARROW_SIZE}px solid white`;
-        break;
-      case 'top':
-        top = tr.top - PADDING - ARROW_SIZE - tooltipH;
-        left = tr.left + tr.width / 2 - tooltipW / 2;
-        arrowPos.bottom = -ARROW_SIZE;
-        arrowPos.left = '50%';
-        arrowPos.transform = 'translateX(-50%)';
-        arrowPos.borderLeft = `${ARROW_SIZE}px solid transparent`;
-        arrowPos.borderRight = `${ARROW_SIZE}px solid transparent`;
-        arrowPos.borderTop = `${ARROW_SIZE}px solid white`;
-        break;
-      case 'right':
-        top = tr.top + tr.height / 2 - tooltipH / 2;
-        left = tr.left + tr.width + PADDING + ARROW_SIZE;
-        arrowPos.left = -ARROW_SIZE;
-        arrowPos.top = '50%';
-        arrowPos.transform = 'translateY(-50%)';
-        arrowPos.borderTop = `${ARROW_SIZE}px solid transparent`;
-        arrowPos.borderBottom = `${ARROW_SIZE}px solid transparent`;
-        arrowPos.borderRight = `${ARROW_SIZE}px solid white`;
-        break;
-      case 'left':
-        top = tr.top + tr.height / 2 - tooltipH / 2;
-        left = tr.left - PADDING - ARROW_SIZE - tooltipW;
-        arrowPos.right = -ARROW_SIZE;
-        arrowPos.top = '50%';
-        arrowPos.transform = 'translateY(-50%)';
-        arrowPos.borderTop = `${ARROW_SIZE}px solid transparent`;
-        arrowPos.borderBottom = `${ARROW_SIZE}px solid transparent`;
-        arrowPos.borderLeft = `${ARROW_SIZE}px solid white`;
-        break;
-    }
-
-    // Clamp horizontal position to viewport
-    left = Math.max(TOOLTIP_MARGIN, Math.min(left, vw - tooltipW - TOOLTIP_MARGIN));
-
-    // Adjust arrow if tooltip was clamped horizontally (top/bottom positions)
-    if (pos === 'bottom' || pos === 'top') {
-      const targetCenterX = tr.left + tr.width / 2;
-      const arrowLeft = targetCenterX - left;
-      arrowPos.left = `${Math.max(20, Math.min(arrowLeft, tooltipW - 20))}px`;
-      arrowPos.transform = 'translateX(-50%)';
-    }
-
-    setTooltipStyle({
-      position: 'fixed',
-      top: `${top}px`,
-      left: `${left}px`,
-      maxWidth: `min(${TOOLTIP_MAX_WIDTH}px, calc(100vw - ${TOOLTIP_MARGIN * 2}px))`,
+  // Anchor to the data-tour target via a virtual element
+  useEffect(() => {
+    if (!step) return;
+    refs.setPositionReference({
+      getBoundingClientRect() {
+        const el = resolveTarget(step.target);
+        if (!el) return new DOMRect();
+        return el.getBoundingClientRect();
+      },
     });
-    setArrowStyle(arrowPos);
-  }, [step, isActive]);
+  }, [step, refs]);
 
-  // Scroll target into view and position tooltip
+  // Scroll target into view when step changes
   useEffect(() => {
     if (!isActive || !step) return;
 
@@ -171,103 +82,88 @@ export function GuidedTour({ isActive, currentStep, totalStimmen, onNext, onPrev
 
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-    // Position after scroll settles
+    // Update spotlight rect after scroll settles
     const timer = setTimeout(() => {
-      positionTooltip();
+      const r = el.getBoundingClientRect();
+      setSpotRect(r);
     }, 400);
-
     return () => clearTimeout(timer);
-  }, [isActive, currentStep, step, positionTooltip]);
+  }, [isActive, currentStep, step]);
 
-  // Reposition on scroll/resize
+  // Keep spotlight rect in sync on scroll/resize
   useEffect(() => {
-    if (!isActive) return;
+    if (!isActive || !step) return;
 
-    const handleUpdate = () => {
-      cancelAnimationFrame(rafRef.current);
-      rafRef.current = requestAnimationFrame(positionTooltip);
+    const update = () => {
+      const el = resolveTarget(step.target);
+      if (el) setSpotRect(el.getBoundingClientRect());
     };
 
-    window.addEventListener('scroll', handleUpdate, true);
-    window.addEventListener('resize', handleUpdate);
+    window.addEventListener('scroll', update, true);
+    window.addEventListener('resize', update);
     return () => {
-      window.removeEventListener('scroll', handleUpdate, true);
-      window.removeEventListener('resize', handleUpdate);
-      cancelAnimationFrame(rafRef.current);
+      window.removeEventListener('scroll', update, true);
+      window.removeEventListener('resize', update);
     };
-  }, [isActive, positionTooltip]);
+  }, [isActive, step]);
 
   // Keyboard navigation (capture phase to override BallotView's arrow keys)
+  const handleKeydown = useCallback((e: KeyboardEvent) => {
+    switch (e.key) {
+      case 'ArrowRight':
+      case 'Enter':
+        e.preventDefault();
+        e.stopPropagation();
+        onNext();
+        break;
+      case 'ArrowLeft':
+        e.preventDefault();
+        e.stopPropagation();
+        onPrev();
+        break;
+      case 'Escape':
+        e.preventDefault();
+        e.stopPropagation();
+        onClose();
+        break;
+    }
+  }, [onNext, onPrev, onClose]);
+
   useEffect(() => {
     if (!isActive) return;
-
-    const handler = (e: KeyboardEvent) => {
-      switch (e.key) {
-        case 'ArrowRight':
-        case 'Enter':
-          e.preventDefault();
-          e.stopPropagation();
-          onNext();
-          break;
-        case 'ArrowLeft':
-          e.preventDefault();
-          e.stopPropagation();
-          onPrev();
-          break;
-        case 'Escape':
-          e.preventDefault();
-          e.stopPropagation();
-          onClose();
-          break;
-      }
-    };
-
-    window.addEventListener('keydown', handler, true);
-    return () => window.removeEventListener('keydown', handler, true);
-  }, [isActive, onNext, onPrev, onClose]);
+    window.addEventListener('keydown', handleKeydown, true);
+    return () => window.removeEventListener('keydown', handleKeydown, true);
+  }, [isActive, handleKeydown]);
 
   if (!isActive || !step) return null;
 
-  const spotlightRect = targetRect || { top: 0, left: 0, width: 0, height: 0 };
+  // Build clip-path polygon that covers the full screen with a rectangular cutout
+  const clipPath = spotRect
+    ? buildClipPath(spotRect)
+    : 'none';
 
-  return createPortal(
-    <>
-      {/* SVG overlay with spotlight cutout */}
-      <svg
-        className="fixed inset-0 w-full h-full pointer-events-none"
-        style={{ zIndex: 100 }}
-      >
-        <defs>
-          <mask id="tour-spotlight-mask">
-            <rect width="100%" height="100%" fill="white" />
-            <rect
-              x={spotlightRect.left - PADDING}
-              y={spotlightRect.top - PADDING}
-              width={spotlightRect.width + PADDING * 2}
-              height={spotlightRect.height + PADDING * 2}
-              rx="8"
-              fill="black"
-            />
-          </mask>
-        </defs>
-        <rect
-          width="100%"
-          height="100%"
-          fill="rgba(0,0,0,0.5)"
-          mask="url(#tour-spotlight-mask)"
-          className="pointer-events-auto cursor-pointer"
-          onClick={onClose}
-        />
-      </svg>
+  return (
+    <FloatingPortal>
+      {/* Backdrop overlay with spotlight cutout */}
+      <div
+        className="fixed inset-0 bg-black/50 cursor-pointer"
+        style={{ zIndex: 9998, clipPath }}
+        onClick={onClose}
+      />
 
       {/* Tooltip */}
       <div
-        ref={tooltipRef}
-        className="fixed bg-white rounded-xl shadow-2xl border border-gray-200 p-4 pointer-events-auto"
-        style={{ zIndex: 101, ...tooltipStyle }}
+        ref={refs.setFloating}
+        className="bg-white rounded-xl shadow-2xl border border-gray-200 p-4 max-w-[min(340px,calc(100vw-32px))] animate-in fade-in-0 zoom-in-95"
+        style={{ ...floatingStyles, zIndex: 9999 }}
       >
-        {/* Arrow */}
-        <div className="absolute w-0 h-0" style={arrowStyle} />
+        <FloatingArrow
+          ref={arrowRef}
+          context={context}
+          className="fill-white [&>path:first-of-type]:stroke-gray-200"
+          width={16}
+          height={8}
+        />
 
         {/* Header: emoji + step counter */}
         <div className="flex items-center gap-2 mb-2">
@@ -315,7 +211,32 @@ export function GuidedTour({ isActive, currentStep, totalStimmen, onNext, onPrev
           </button>
         </div>
       </div>
-    </>,
-    document.body,
+    </FloatingPortal>
   );
+}
+
+/**
+ * Build a CSS clip-path polygon that covers the entire viewport
+ * with a rectangular cutout around the target element.
+ *
+ * The polygon traces the outer edge of the viewport, then traces
+ * the cutout rectangle in reverse (counter-clockwise) to create a hole.
+ */
+function buildClipPath(rect: DOMRect): string {
+  const pad = PADDING;
+  const top = Math.max(0, rect.top - pad);
+  const left = Math.max(0, rect.left - pad);
+  const bottom = rect.bottom + pad;
+  const right = rect.right + pad;
+
+  // Outer rectangle (viewport) clockwise, then cutout counter-clockwise
+  // evenodd fill rule: outer clockwise + inner counter-clockwise = hole
+  return `polygon(evenodd,
+    0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%,
+    ${left}px ${top}px,
+    ${left}px ${bottom}px,
+    ${right}px ${bottom}px,
+    ${right}px ${top}px,
+    ${left}px ${top}px
+  )`;
 }
