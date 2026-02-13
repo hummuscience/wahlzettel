@@ -177,6 +177,7 @@ function App() {
         onPrint={handlePrint}
         onSwitchBallot={handleSwitchBallot}
         shouldPulse={tour.shouldPulse}
+        allVotesUsed={derived.isComplete}
       />
 
       <VoteStatusBar

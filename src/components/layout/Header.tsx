@@ -18,9 +18,10 @@ interface HeaderProps {
   onPrint?: () => void;
   onSwitchBallot?: () => void;
   shouldPulse?: boolean;
+  allVotesUsed?: boolean;
 }
 
-export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onShare, onPrint, onSwitchBallot, shouldPulse }: HeaderProps) {
+export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onShare, onPrint, onSwitchBallot, shouldPulse, allVotesUsed }: HeaderProps) {
   const { t, i18n } = useTranslation('common');
   const [langOpen, setLangOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -125,7 +126,7 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
               {onShare && (
                 <button
                   onClick={onShare}
-                  className="w-8 h-8 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center transition-colors"
+                  className={`w-8 h-8 rounded-full border-2 flex items-center justify-center transition-colors ${allVotesUsed ? 'border-white text-white animate-pulse-ring' : 'border-white/40 text-white/70 hover:border-white hover:text-white'}`}
                   title={t('teilen', { ns: 'ballot', defaultValue: 'Teilen' })}
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
@@ -136,7 +137,7 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
               {onPrint && (
                 <button
                   onClick={onPrint}
-                  className="w-8 h-8 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center transition-colors"
+                  className={`w-8 h-8 rounded-full border-2 flex items-center justify-center transition-colors ${allVotesUsed ? 'border-white text-white animate-pulse-ring' : 'border-white/40 text-white/70 hover:border-white hover:text-white'}`}
                   title={t('drucken', { ns: 'ballot', defaultValue: 'Drucken' })}
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
