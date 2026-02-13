@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
 import { tourSteps } from './tourSteps';
 import type { TooltipPosition } from './tourSteps';
@@ -227,7 +228,7 @@ export function GuidedTour({ isActive, currentStep, onNext, onPrev, onClose }: G
 
   const spotlightRect = targetRect || { top: 0, left: 0, width: 0, height: 0 };
 
-  return (
+  return createPortal(
     <>
       {/* SVG overlay with spotlight cutout */}
       <svg
@@ -312,6 +313,7 @@ export function GuidedTour({ isActive, currentStep, onNext, onPrev, onClose }: G
           </button>
         </div>
       </div>
-    </>
+    </>,
+    document.body,
   );
 }
