@@ -8,5 +8,12 @@
   "language": "Dil",
   "mobileHint": "En iyi deneyim için daha büyük bir ekran kullanın",
   "disclaimer": "Bu özel bir bilgilendirme hizmetidir ve Frankfurt am Main şehri veya seçim dairesi ile bağlantılı değildir. Tüm bilgiler garanti edilmez. Resmi seçim belgeleri için frankfurt.de/wahlen adresini ziyaret edin.",
-  "madeWith": "Frankfurt için ♥ ile yapıldı"
+  "madeWith": "Frankfurt için ♥ ile yapıldı",
+  "citizenshipTitle": "Hangi oy pusulasını denemek istiyorsun?",
+  "citizenshipSubtitle": "Vatandaşlığına uygun oy pusulasını seç.",
+  "germanCitizen": "Alman vatandaşlığı",
+  "germanCitizenDesc": "Belediye Meclisi (STVV) – \"Römer\" için oy pusulası.",
+  "nonGermanCitizen": "Alman vatandaşlığı dışı",
+  "nonGermanCitizenDesc": "Yabancılar Danışma Kurulu (KAV) için oy pusulası.",
+  "switchBallot": "Oy pusulasını değiştir"
 }

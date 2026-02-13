@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { SummaryPanel } from './SummaryPanel';
 import { getPartyColor } from '../../data/partyColors';
 import type { VoteState } from '../../types';
+import type { ElectionType } from '../../utils/shareState';
 
 interface VoteStatusBarProps {
   totalUsed: number;
@@ -13,6 +14,7 @@ interface VoteStatusBarProps {
   parties: { listNumber: number; shortName: string }[];
   onReset: () => void;
   voteState: VoteState;
+  electionType: ElectionType;
 }
 
 export function VoteStatusBar({
@@ -24,6 +26,7 @@ export function VoteStatusBar({
   parties,
   onReset,
   voteState,
+  electionType,
 }: VoteStatusBarProps) {
   const { t } = useTranslation('ballot');
   const [isExpanded, setIsExpanded] = useState(false);
@@ -118,6 +121,7 @@ export function VoteStatusBar({
           totalMax={totalMax}
           onReset={onReset}
           voteState={voteState}
+          electionType={electionType}
         />
       </div>
     </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import type { ElectionData } from './types';
+import type { ElectionType } from './utils/shareState';
 import { useVoteState } from './hooks/useVoteState';
 import { decodeVoteState, encodeVoteState } from './utils/shareState';
 import { ShareDialog, buildPartySegments } from './components/ballot/ShareDialog';
@@ -15,8 +16,10 @@ import { PracticalInfo } from './components/info/PracticalInfo';
 import { PracticalInfoDrawerContent } from './components/info/PracticalInfoDrawerContent';
 import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
+import { CitizenshipChoice } from './components/CitizenshipChoice';
 
 function App() {
+  const [ballotType, setBallotType] = useState<ElectionType | null>(null);
   const [electionData, setElectionData] = useState<ElectionData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [walkthroughOpen, setWalkthroughOpen] = useState(false);
@@ -38,21 +41,51 @@ function App() {
   const tour = useGuidedTour();
   const hashLoaded = useRef(false);
 
-  // Restore vote state from URL hash (#v=...)
+  // Check URL hash for shared ballot on mount (before showing choice screen)
   useEffect(() => {
-    if (hashLoaded.current || !electionData) return;
+    if (hashLoaded.current) return;
     const hash = window.location.hash;
     const match = hash.match(/^#v=(.+)$/);
     if (!match) return;
     hashLoaded.current = true;
     decodeVoteState(match[1])
-      .then(loadedState => {
-        dispatch({ type: 'LOAD_STATE', state: loadedState });
-        history.replaceState(null, '', window.location.pathname + window.location.search);
+      .then(decoded => {
+        setBallotType(decoded.electionType);
+        // We'll load the state after election data arrives
+        pendingState.current = decoded.state;
       })
       .catch(() => {
         // Invalid share link — silently ignore
       });
+  }, []);
+
+  const pendingState = useRef<import('./types').VoteState | null>(null);
+
+  // Load election data when ballot type changes
+  useEffect(() => {
+    if (!ballotType) {
+      setElectionData(null);
+      return;
+    }
+    setError(null);
+    fetch(import.meta.env.BASE_URL + `data/${ballotType}-candidates.json`)
+      .then(res => {
+        if (!res.ok) throw new Error('Failed to load candidate data');
+        return res.json();
+      })
+      .then(data => {
+        setElectionData(data);
+      })
+      .catch(err => setError(err.message));
+  }, [ballotType]);
+
+  // Apply pending shared state once election data arrives
+  useEffect(() => {
+    if (electionData && pendingState.current) {
+      dispatch({ type: 'LOAD_STATE', state: pendingState.current });
+      pendingState.current = null;
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
   }, [electionData, dispatch]);
 
   const toggleWalkthrough = useCallback(() => {
@@ -66,7 +99,8 @@ function App() {
   }, []);
 
   const handleShare = useCallback(async () => {
-    const encoded = await encodeVoteState(state);
+    if (!ballotType) return;
+    const encoded = await encodeVoteState(state, ballotType);
     const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
     const partyList = electionData?.parties.map(p => ({
       listNumber: p.listNumber,
@@ -78,22 +112,36 @@ function App() {
       derived.totalStimmenUsed,
     );
     setShareData({ url, segments });
-  }, [state, electionData, derived.stimmenPerParty, derived.totalStimmenUsed]);
+  }, [state, ballotType, electionData, derived.stimmenPerParty, derived.totalStimmenUsed]);
 
-  useEffect(() => {
-    fetch(import.meta.env.BASE_URL + 'data/stvv-candidates.json')
-      .then(res => {
-        if (!res.ok) throw new Error('Failed to load candidate data');
-        return res.json();
-      })
-      .then(data => setElectionData(data))
-      .catch(err => setError(err.message));
-  }, []);
+  const handleSwitchBallot = useCallback(() => {
+    resetBallot();
+    setElectionData(null);
+    setBallotType(null);
+  }, [resetBallot]);
+
+  const handleChooseBallot = useCallback((type: ElectionType) => {
+    resetBallot();
+    setBallotType(type);
+  }, [resetBallot]);
 
   if (error) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <p className="text-status-invalid">Fehler beim Laden: {error}</p>
+      </div>
+    );
+  }
+
+  // Show citizenship choice screen when no ballot type selected
+  if (!ballotType) {
+    return (
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1">
+          <CitizenshipChoice onChoose={handleChooseBallot} />
+        </main>
+        <Footer />
       </div>
     );
   }
@@ -113,6 +161,7 @@ function App() {
         onWalkthroughToggle={toggleWalkthrough}
         onInfoToggle={toggleInfo}
         onShare={handleShare}
+        onSwitchBallot={handleSwitchBallot}
         shouldPulse={tour.shouldPulse}
       />
 
@@ -128,11 +177,12 @@ function App() {
         }))}
         onReset={resetBallot}
         voteState={state}
+        electionType={ballotType}
       />
 
       <main className="flex-1">
         <div className="max-w-[1400px] mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
-          <WalkthroughSection />
+          <WalkthroughSection totalStimmen={electionData.totalStimmen} />
 
           <div className="flex-1 min-w-0">
             <BallotView
@@ -154,7 +204,7 @@ function App() {
 
       {/* Mobile drawers */}
       <MobileDrawer isOpen={walkthroughOpen} onClose={() => setWalkthroughOpen(false)} side="left">
-        <WalkthroughDrawerContent />
+        <WalkthroughDrawerContent totalStimmen={electionData.totalStimmen} />
       </MobileDrawer>
 
       <MobileDrawer isOpen={infoOpen} onClose={() => setInfoOpen(false)} side="right">

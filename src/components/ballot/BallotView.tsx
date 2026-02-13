@@ -56,7 +56,8 @@ export function BallotView({
       <div className="text-center mb-3">
         <h2 className="text-lg font-bold">{t('stimmzettel')}</h2>
         <p className="text-sm text-gray-500">
-          {t('fuerDieWahlDer')} {t('stadtverordnetenversammlung')}
+          {electionData.election === 'kav' ? t('fuerDieWahlZur') : t('fuerDieWahlDer')}{' '}
+          {electionData.election === 'kav' ? t('kavName') : t('stadtverordnetenversammlung')}
         </p>
         <p className="text-xs text-gray-400">{t('am15Maerz')}</p>
       </div>

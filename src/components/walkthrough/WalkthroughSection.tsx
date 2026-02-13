@@ -11,8 +11,13 @@ const steps = [
   { key: 'step8', emoji: '✏️' },
 ];
 
-export function WalkthroughSection() {
+interface WalkthroughSectionProps {
+  totalStimmen?: number;
+}
+
+export function WalkthroughSection({ totalStimmen = 93 }: WalkthroughSectionProps) {
   const { t } = useTranslation('walkthrough');
+  const interpolation = { count: totalStimmen };
 
   return (
     <section className="hidden lg:block lg:w-64 lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto" id="walkthrough">
@@ -31,10 +36,10 @@ export function WalkthroughSection() {
               </span>
             </div>
             <h3 className="text-xs font-bold text-gray-900 mb-0.5">
-              {t(`${step.key}Title`)}
+              {t(`${step.key}Title`, interpolation)}
             </h3>
             <p className="text-[11px] text-gray-600 leading-relaxed flex-1">
-              {t(`${step.key}Text`)}
+              {t(`${step.key}Text`, interpolation)}
             </p>
           </div>
         ))}

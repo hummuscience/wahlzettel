@@ -1,17 +1,23 @@
 import type { VoteState } from '../types';
 
+export type ElectionType = 'stvv' | 'kav';
+
 /**
  * Minimal serialization shape — only non-zero candidate votes and active list selections.
  */
 interface CompactState {
+  /** election type */
+  e?: ElectionType;
   /** [candidateId, partyListNumber, stimmen][] */
   c?: [string, number, number][];
   /** [partyListNumber, struckCandidateIds[]][] */
   l?: [number, string[]][];
 }
 
-function toCompact(state: VoteState): CompactState {
+function toCompact(state: VoteState, electionType: ElectionType): CompactState {
   const compact: CompactState = {};
+
+  compact.e = electionType;
 
   const votes = Object.values(state.candidateVotes).filter(v => v.stimmen > 0);
   if (votes.length > 0) {
@@ -114,18 +120,26 @@ function fromBase64Url(str: string): Uint8Array {
   return bytes;
 }
 
-export async function encodeVoteState(state: VoteState): Promise<string> {
-  const compact = toCompact(state);
+export async function encodeVoteState(state: VoteState, electionType: ElectionType): Promise<string> {
+  const compact = toCompact(state, electionType);
   const json = JSON.stringify(compact);
   const encoded = new TextEncoder().encode(json);
   const compressed = await compress(encoded);
   return toBase64Url(compressed);
 }
 
-export async function decodeVoteState(encoded: string): Promise<VoteState> {
+export interface DecodedShareState {
+  electionType: ElectionType;
+  state: VoteState;
+}
+
+export async function decodeVoteState(encoded: string): Promise<DecodedShareState> {
   const compressed = fromBase64Url(encoded);
   const decompressed = await decompress(compressed);
   const json = new TextDecoder().decode(decompressed);
   const compact: CompactState = JSON.parse(json);
-  return fromCompact(compact);
+  return {
+    electionType: compact.e ?? 'stvv',
+    state: fromCompact(compact),
+  };
 }

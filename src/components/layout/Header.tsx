@@ -6,6 +6,8 @@ const LANGUAGES = [
   { code: 'en', label: 'EN', name: 'English' },
   { code: 'tr', label: 'TR', name: 'Türkçe' },
   { code: 'ar', label: 'عر', name: 'العربية', rtl: true },
+  { code: 'uk', label: 'УК', name: 'Українська' },
+  { code: 'ru', label: 'РУ', name: 'Русский' },
 ] as const;
 
 interface HeaderProps {
@@ -13,10 +15,11 @@ interface HeaderProps {
   onInfoToggle?: () => void;
   onWalkthroughToggle?: () => void;
   onShare?: () => void;
+  onSwitchBallot?: () => void;
   shouldPulse?: boolean;
 }
 
-export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onShare, shouldPulse }: HeaderProps) {
+export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onShare, onSwitchBallot, shouldPulse }: HeaderProps) {
   const { t, i18n } = useTranslation('common');
   const [langOpen, setLangOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -51,6 +54,19 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
           <p className="text-sm text-white/80 mt-0.5">{t('appSubtitle')}</p>
         </div>
         <div className="flex items-center gap-2 shrink-0">
+          {/* Switch ballot button */}
+          {onSwitchBallot && (
+            <button
+              onClick={onSwitchBallot}
+              className="h-8 px-2.5 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center text-xs font-bold transition-colors gap-1"
+              title={t('switchBallot')}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5">
+                <path fillRule="evenodd" d="M15.312 11.424a5.5 5.5 0 01-9.201 2.466l-.312-.311h2.433a.75.75 0 000-1.5H4.598a.75.75 0 00-.75.75v3.634a.75.75 0 001.5 0v-2.033l.312.311a7 7 0 0011.712-3.138.75.75 0 00-1.449-.39zm-10.624-2.85a5.5 5.5 0 019.201-2.466l.312.311H11.77a.75.75 0 000 1.5h3.634a.75.75 0 00.75-.75V3.535a.75.75 0 00-1.5 0v2.033l-.312-.311A7 7 0 002.63 8.394a.75.75 0 001.45.39z" clipRule="evenodd" />
+              </svg>
+            </button>
+          )}
+
           {/* Language switcher */}
           <div className="relative" ref={dropdownRef}>
             <button

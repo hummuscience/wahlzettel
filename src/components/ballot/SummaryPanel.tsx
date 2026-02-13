@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getPartyColor } from '../../data/partyColors';
 import type { VoteState } from '../../types';
-import { encodeVoteState } from '../../utils/shareState';
+import { encodeVoteState, type ElectionType } from '../../utils/shareState';
 import { ShareDialog, buildPartySegments, type PartySegment } from './ShareDialog';
 
 interface SummaryPanelProps {
@@ -12,6 +12,7 @@ interface SummaryPanelProps {
   totalMax: number;
   onReset: () => void;
   voteState: VoteState;
+  electionType: ElectionType;
 }
 
 export function SummaryPanel({
@@ -21,6 +22,7 @@ export function SummaryPanel({
   totalMax,
   onReset,
   voteState,
+  electionType,
 }: SummaryPanelProps) {
   const { t } = useTranslation('ballot');
 
@@ -46,7 +48,7 @@ export function SummaryPanel({
   };
 
   const handleShare = async () => {
-    const encoded = await encodeVoteState(voteState);
+    const encoded = await encodeVoteState(voteState, electionType);
     const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
     const segments = buildPartySegments(stimmenPerParty, parties, totalUsed);
     setShareData({ url, segments });

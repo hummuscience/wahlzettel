@@ -8,5 +8,12 @@
   "language": "Language",
   "mobileHint": "For the best experience, use a larger screen",
   "disclaimer": "This is a private information service and is not affiliated with the City of Frankfurt am Main or the election office. All information without guarantee. Visit frankfurt.de/wahlen for official election documents.",
-  "madeWith": "Made with ♥ for Frankfurt"
+  "madeWith": "Made with ♥ for Frankfurt",
+  "citizenshipTitle": "Which ballot do you want to practice?",
+  "citizenshipSubtitle": "Choose the ballot that matches your citizenship.",
+  "germanCitizen": "German citizenship",
+  "germanCitizenDesc": "Ballot for the City Council (STVV) – the \"Römer\".",
+  "nonGermanCitizen": "Non-German citizenship",
+  "nonGermanCitizenDesc": "Ballot for the Municipal Foreigners' Advisory Council (KAV).",
+  "switchBallot": "Switch ballot"
 }

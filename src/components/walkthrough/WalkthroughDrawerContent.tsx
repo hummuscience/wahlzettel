@@ -11,8 +11,13 @@ const steps = [
   { key: 'step8', emoji: '✏️' },
 ];
 
-export function WalkthroughDrawerContent() {
+interface WalkthroughDrawerContentProps {
+  totalStimmen?: number;
+}
+
+export function WalkthroughDrawerContent({ totalStimmen = 93 }: WalkthroughDrawerContentProps) {
   const { t } = useTranslation('walkthrough');
+  const interpolation = { count: totalStimmen };
 
   return (
     <div>
@@ -30,10 +35,10 @@ export function WalkthroughDrawerContent() {
               </span>
             </div>
             <h3 className="text-xs font-bold text-gray-900 mb-0.5">
-              {t(`${step.key}Title`)}
+              {t(`${step.key}Title`, interpolation)}
             </h3>
             <p className="text-[11px] text-gray-600 leading-relaxed">
-              {t(`${step.key}Text`)}
+              {t(`${step.key}Text`, interpolation)}
             </p>
           </div>
         ))}
