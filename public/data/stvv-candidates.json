@@ -13,7 +13,7 @@
         {
           "id": "stvv-1-1",
           "position": 1,
-          "lastName": "Kößler",
+          "lastName": "Dr. Kößler",
           "firstName": "Nils",
           "profession": "Beamter"
         },
@@ -69,7 +69,7 @@
         {
           "id": "stvv-1-9",
           "position": 9,
-          "lastName": "Fabricius",
+          "lastName": "Dr. Fabricius",
           "firstName": "Veronica",
           "profession": "Unternehmerin"
         },
@@ -83,7 +83,7 @@
         {
           "id": "stvv-1-11",
           "position": 11,
-          "lastName": "Kochsiek",
+          "lastName": "Dr. Kochsiek",
           "firstName": "Albrecht",
           "profession": "Selbstständig"
         },
@@ -132,7 +132,7 @@
         {
           "id": "stvv-1-18",
           "position": 18,
-          "lastName": "Schmitt",
+          "lastName": "Dr. Schmitt",
           "firstName": "Christoph",
           "profession": "Rechtsanwalt"
         },
@@ -223,14 +223,14 @@
         {
           "id": "stvv-1-31",
           "position": 31,
-          "lastName": "Dürbeck",
+          "lastName": "Dr. Dürbeck",
           "firstName": "Thomas",
           "profession": "Rechtsanwalt"
         },
         {
           "id": "stvv-1-32",
           "position": 32,
-          "lastName": "Harsche",
+          "lastName": "Dr. Harsche",
           "firstName": "Johannes",
           "profession": "Wirtschaftsforscher"
         },
@@ -244,14 +244,14 @@
         {
           "id": "stvv-1-34",
           "position": 34,
-          "lastName": "Schulte",
+          "lastName": "Dr. Schulte",
           "firstName": "Oliver",
           "profession": "Leitender Angestellter"
         },
         {
           "id": "stvv-1-35",
           "position": 35,
-          "lastName": "Rhinow",
+          "lastName": "Dr. Rhinow",
           "firstName": "Daniel",
           "profession": "Dipl.-Physiker"
         },
@@ -272,7 +272,7 @@
         {
           "id": "stvv-1-38",
           "position": 38,
-          "lastName": "Kenedi",
+          "lastName": "Dr. Kenedi",
           "firstName": "Stephanie",
           "profession": "Unternehmensberaterin"
         },
@@ -328,7 +328,7 @@
         {
           "id": "stvv-1-46",
           "position": 46,
-          "lastName": "Burger",
+          "lastName": "Dr. Burger",
           "firstName": "Benedikt",
           "profession": "Rechtsanwalt"
         },
@@ -377,7 +377,7 @@
         {
           "id": "stvv-1-53",
           "position": 53,
-          "lastName": "Kowalkowski",
+          "lastName": "Dr. Kowalkowski",
           "firstName": "Rainer",
           "profession": "Schuldnerberater"
         },
@@ -524,7 +524,7 @@
         {
           "id": "stvv-1-74",
           "position": 74,
-          "lastName": "Staubach",
+          "lastName": "Dr. Staubach",
           "firstName": "Juliane",
           "profession": "Professorin"
         },
@@ -601,14 +601,14 @@
         {
           "id": "stvv-1-85",
           "position": 85,
-          "lastName": "Birkenfeld",
+          "lastName": "Dr. Birkenfeld",
           "firstName": "Daniela",
           "profession": "Juristin"
         },
         {
           "id": "stvv-1-86",
           "position": 86,
-          "lastName": "Heidenreich",
+          "lastName": "Dr. Heidenreich",
           "firstName": "Bernd",
           "profession": "Direktor a.D."
         },
@@ -636,7 +636,7 @@
         {
           "id": "stvv-1-90",
           "position": 90,
-          "lastName": "Saba",
+          "lastName": "Dr. Saba",
           "firstName": "Geraldine",
           "profession": "Zahnärztin"
         },
@@ -1093,7 +1093,7 @@
         {
           "id": "stvv-3-2",
           "position": 2,
-          "lastName": "Hartwig",
+          "lastName": "Dr. Hartwig",
           "firstName": "Ina",
           "profession": "Stadträtin"
         },
@@ -1149,7 +1149,7 @@
         {
           "id": "stvv-3-10",
           "position": 10,
-          "lastName": "Kanbiçak",
+          "lastName": "Dr. Kanbiçak",
           "firstName": "Türkân",
           "profession": "Dozentin i.R."
         },
@@ -1184,7 +1184,7 @@
         {
           "id": "stvv-3-15",
           "position": 15,
-          "lastName": "Brünn",
+          "lastName": "Dr. Brünn",
           "firstName": "Robin",
           "profession": "Apotheker"
         },
@@ -1198,7 +1198,7 @@
         {
           "id": "stvv-3-17",
           "position": 17,
-          "lastName": "Binger",
+          "lastName": "Dr. Binger",
           "firstName": "Jan",
           "profession": "Richter"
         },
@@ -1254,7 +1254,7 @@
         {
           "id": "stvv-3-25",
           "position": 25,
-          "lastName": "Steffen",
+          "lastName": "Dr. Steffen",
           "firstName": "Björn",
           "profession": "Arzt"
         },
@@ -1282,7 +1282,7 @@
         {
           "id": "stvv-3-29",
           "position": 29,
-          "lastName": "Gergin",
+          "lastName": "Dr. Gergin",
           "firstName": "Ulaş",
           "profession": "Kommunikationsmanager"
         },
@@ -1331,7 +1331,7 @@
         {
           "id": "stvv-3-36",
           "position": 36,
-          "lastName": "Sow",
+          "lastName": "Dr. Sow",
           "firstName": "Mariame",
           "profession": "Pädagogische Leitung"
         },
@@ -1359,7 +1359,7 @@
         {
           "id": "stvv-3-40",
           "position": 40,
-          "lastName": "Chionos",
+          "lastName": "Dr. Chionos",
           "firstName": "Tatjana",
           "profession": "Rechtsanwältin"
         },
@@ -1520,7 +1520,7 @@
         {
           "id": "stvv-3-63",
           "position": 63,
-          "lastName": "Bednarek",
+          "lastName": "Dr. Bednarek",
           "firstName": "Peter",
           "profession": "Beamter"
         },
@@ -1681,7 +1681,7 @@
         {
           "id": "stvv-3-86",
           "position": 86,
-          "lastName": "Neumann",
+          "lastName": "Dr. Neumann",
           "firstName": "Arijana",
           "profession": "Fachbereichsleitung"
         },
@@ -1702,7 +1702,7 @@
         {
           "id": "stvv-3-89",
           "position": 89,
-          "lastName": "Gwechenberger",
+          "lastName": "Dr. Gwechenberger",
           "firstName": "Marcus",
           "profession": "Stadtplaner"
         },
@@ -1745,7 +1745,7 @@
         {
           "id": "stvv-4-1",
           "position": 1,
-          "lastName": "Knacker",
+          "lastName": "Dr. Knacker",
           "firstName": "Katharina",
           "profession": "Geschäftsführerin"
         },
@@ -1780,7 +1780,7 @@
         {
           "id": "stvv-4-6",
           "position": 6,
-          "lastName": "Rosenbaum",
+          "lastName": "Dr. Rosenbaum",
           "firstName": "Christoph",
           "profession": "IT-Berater"
         },
@@ -1808,7 +1808,7 @@
         {
           "id": "stvv-4-10",
           "position": 10,
-          "lastName": "Strengmann-Kuhn",
+          "lastName": "Dr. Strengmann-Kuhn",
           "firstName": "Wolfgang",
           "profession": "Volkswirt"
         },
@@ -1941,7 +1941,7 @@
         {
           "id": "stvv-4-29",
           "position": 29,
-          "lastName": "von Franqué",
+          "lastName": "Dr. von Franqué",
           "firstName": "Friederike",
           "profession": "Referentin"
         },
@@ -2053,7 +2053,7 @@
         {
           "id": "stvv-4-45",
           "position": 45,
-          "lastName": "Göhring",
+          "lastName": "Dr. Göhring",
           "firstName": "Rebekka",
           "profession": "Verwaltungsangestellte"
         },
@@ -2151,7 +2151,7 @@
         {
           "id": "stvv-4-59",
           "position": 59,
-          "lastName": "Bunger",
+          "lastName": "Dr. Bunger",
           "firstName": "Thekla",
           "profession": "Ärztin"
         },
@@ -2165,7 +2165,7 @@
         {
           "id": "stvv-4-61",
           "position": 61,
-          "lastName": "Heinemann",
+          "lastName": "Dr. Heinemann",
           "firstName": "Hanneke",
           "profession": "Kunsthistorikerin"
         },
@@ -2277,14 +2277,14 @@
         {
           "id": "stvv-4-77",
           "position": 77,
-          "lastName": "Kneesch",
+          "lastName": "Dr. Kneesch",
           "firstName": "Marion",
           "profession": "Bankangestellte"
         },
         {
           "id": "stvv-4-78",
           "position": 78,
-          "lastName": "Eskandari-Grünberg",
+          "lastName": "Dr. Eskandari-Grünberg",
           "firstName": "Nargess",
           "profession": "Bürgermeisterin"
         },
@@ -2375,7 +2375,7 @@
         {
           "id": "stvv-4-91",
           "position": 91,
-          "lastName": "Nimmermann",
+          "lastName": "Dr. Nimmermann",
           "firstName": "Philipp",
           "profession": "Beamter"
         },
@@ -2439,7 +2439,7 @@
         {
           "id": "stvv-5-7",
           "position": 7,
-          "lastName": "Langner",
+          "lastName": "Dr. Langner",
           "firstName": "Julian",
           "profession": "Jurist"
         },
@@ -2460,14 +2460,14 @@
         {
           "id": "stvv-5-10",
           "position": 10,
-          "lastName": "Seeger",
+          "lastName": "Dr. Seeger",
           "firstName": "Arndt-Philipp",
           "profession": "Bauingenieur"
         },
         {
           "id": "stvv-5-11",
           "position": 11,
-          "lastName": "Schwaneck",
+          "lastName": "Dr. Schwaneck",
           "firstName": "Stefan",
           "profession": "Pressesprecher"
         },
@@ -2481,14 +2481,14 @@
         {
           "id": "stvv-5-13",
           "position": 13,
-          "lastName": "Hartmann",
+          "lastName": "Dr. Hartmann",
           "firstName": "Sophie",
           "profession": "Juristin"
         },
         {
           "id": "stvv-5-14",
           "position": 14,
-          "lastName": "Beck",
+          "lastName": "Dr. Beck",
           "firstName": "Günter",
           "profession": "Professor"
         },
@@ -2558,7 +2558,7 @@
         {
           "id": "stvv-5-24",
           "position": 24,
-          "lastName": "Schwager",
+          "lastName": "Dr. Schwager",
           "firstName": "Therese",
           "profession": "Angestellte"
         },
@@ -2614,7 +2614,7 @@
         {
           "id": "stvv-5-32",
           "position": 32,
-          "lastName": "Behrend",
+          "lastName": "Dr. Behrend",
           "firstName": "Rainer",
           "profession": "Volkswirt"
         },
@@ -2635,7 +2635,7 @@
         {
           "id": "stvv-5-35",
           "position": 35,
-          "lastName": "Staacke",
+          "lastName": "Dr. Staacke",
           "firstName": "Detlev",
           "profession": "Biologe"
         },
@@ -2684,7 +2684,7 @@
         {
           "id": "stvv-5-42",
           "position": 42,
-          "lastName": "Bulicz",
+          "lastName": "Dr. Bulicz",
           "firstName": "Jacek",
           "profession": "Apotheker"
         },
@@ -2705,14 +2705,14 @@
         {
           "id": "stvv-5-45",
           "position": 45,
-          "lastName": "Wahl",
+          "lastName": "Dr. Wahl",
           "firstName": "Peter",
           "profession": "Direktor des Amtsgerichts"
         },
         {
           "id": "stvv-5-46",
           "position": 46,
-          "lastName": "Wedekind",
+          "lastName": "Dr. Wedekind",
           "firstName": "Silke",
           "profession": "Freie Medizinjournalistin"
         },
@@ -2740,14 +2740,14 @@
         {
           "id": "stvv-5-50",
           "position": 50,
-          "lastName": "Lau",
+          "lastName": "Dr. Lau",
           "firstName": "Thomas",
           "profession": "Geschäftsführer"
         },
         {
           "id": "stvv-5-51",
           "position": 51,
-          "lastName": "Bellendorf",
+          "lastName": "Dr. Bellendorf",
           "firstName": "Heinz",
           "profession": "Bankangestellter i.R."
         },
@@ -2768,7 +2768,7 @@
         {
           "id": "stvv-5-54",
           "position": 54,
-          "lastName": "Borup",
+          "lastName": "Dr. Borup",
           "firstName": "Björn",
           "profession": "Chemiker"
         },
@@ -2796,7 +2796,7 @@
         {
           "id": "stvv-5-58",
           "position": 58,
-          "lastName": "Reiß",
+          "lastName": "Dr. Reiß",
           "firstName": "Ann-Kathrin",
           "profession": "Ärztin"
         },
@@ -2824,7 +2824,7 @@
         {
           "id": "stvv-5-62",
           "position": 62,
-          "lastName": "Kircher",
+          "lastName": "Dr. Kircher",
           "firstName": "Manfred",
           "profession": "Freiberufl. Berater"
         },
@@ -2887,7 +2887,7 @@
         {
           "id": "stvv-5-71",
           "position": 71,
-          "lastName": "Kerkfeld",
+          "lastName": "Dr. Kerkfeld",
           "firstName": "Constantin",
           "profession": "Apotheker"
         },
@@ -2908,7 +2908,7 @@
         {
           "id": "stvv-5-74",
           "position": 74,
-          "lastName": "Apostolov",
+          "lastName": "Dr. Apostolov",
           "firstName": "Apostol",
           "profession": "IT-Berater"
         },
@@ -2943,7 +2943,7 @@
         {
           "id": "stvv-5-79",
           "position": 79,
-          "lastName": "Gotsis",
+          "lastName": "Dr. Gotsis",
           "firstName": "Dimitrios",
           "profession": "Steuerberater"
         },
@@ -2978,14 +2978,14 @@
         {
           "id": "stvv-5-84",
           "position": 84,
-          "lastName": "Sterzel",
+          "lastName": "Dr. Sterzel",
           "firstName": "Renate",
           "profession": "Rentnerin"
         },
         {
           "id": "stvv-5-85",
           "position": 85,
-          "lastName": "Kriszeleit",
+          "lastName": "Dr. Kriszeleit",
           "firstName": "Rudolf",
           "profession": "Rechtsanwalt"
         },
@@ -3013,7 +3013,7 @@
         {
           "id": "stvv-5-89",
           "position": 89,
-          "lastName": "Lieb",
+          "lastName": "Dr. Lieb",
           "firstName": "Thorsten",
           "profession": "Rechtsanwalt"
         },
@@ -3091,7 +3091,7 @@
         {
           "id": "stvv-6-2",
           "position": 2,
-          "lastName": "Mehler-Würzbach",
+          "lastName": "Dr. Mehler-Würzbach",
           "firstName": "Daniela",
           "profession": "Referentin"
         },
@@ -3428,7 +3428,7 @@
         {
           "id": "stvv-7-7",
           "position": 7,
-          "lastName": "Adam",
+          "lastName": "Dr. Adam",
           "firstName": "Nina",
           "profession": "Büroleiterin"
         },
@@ -3674,7 +3674,7 @@
         {
           "id": "stvv-8-2",
           "position": 2,
-          "lastName": "Schulz",
+          "lastName": "Dr. Schulz",
           "firstName": "Uwe",
           "profession": "Rechtsanwalt"
         },
@@ -4305,14 +4305,14 @@
         {
           "id": "stvv-9-17",
           "position": 17,
-          "lastName": "Rinnert",
+          "lastName": "Dr. Rinnert",
           "firstName": "Andrea",
           "profession": "Redakteurin"
         },
         {
           "id": "stvv-9-18",
           "position": 18,
-          "lastName": "Post",
+          "lastName": "Dr. Post",
           "firstName": "Moritz",
           "profession": "Journalist"
         },
@@ -4971,7 +4971,7 @@
         {
           "id": "stvv-10-57",
           "position": 57,
-          "lastName": "Iltzsche",
+          "lastName": "Dr. Iltzsche",
           "firstName": "Robin",
           "profession": "Vertretungsprofessor"
         },
@@ -5021,7 +5021,7 @@
         {
           "id": "stvv-11-5",
           "position": 5,
-          "lastName": "Mancuso",
+          "lastName": "Dr. Mancuso",
           "firstName": "Vincenzo",
           "profession": "Chirurg"
         },
@@ -5077,7 +5077,7 @@
         {
           "id": "stvv-11-13",
           "position": 13,
-          "lastName": "Preuß",
+          "lastName": "Dr. Dr. Preuß",
           "firstName": "Alfred",
           "profession": "Zahnarzt"
         },
@@ -5941,7 +5941,7 @@
         {
           "id": "stvv-14-3",
           "position": 3,
-          "lastName": "Römer",
+          "lastName": "Dr. Römer",
           "firstName": "Erhard",
           "profession": "Arzt"
         },
@@ -6166,7 +6166,7 @@
         {
           "id": "stvv-15-1",
           "position": 1,
-          "lastName": "Gran",
+          "lastName": "Dr. Gran",
           "firstName": "Andreas",
           "profession": "Hochschullehrer"
         },
@@ -6307,7 +6307,7 @@
         {
           "id": "stvv-16-13",
           "position": 13,
-          "lastName": "Iranbomy",
+          "lastName": "Dr. Dr. Iranbomy",
           "firstName": "Shahram",
           "profession": "Strafverteidiger"
         },
@@ -6489,7 +6489,7 @@
         {
           "id": "stvv-16-39",
           "position": 39,
-          "lastName": "Gulati",
+          "lastName": "Dr. Gulati",
           "firstName": "Mukesh",
           "profession": "Berater"
         },
@@ -6924,7 +6924,7 @@
         {
           "id": "stvv-17-10",
           "position": 10,
-          "lastName": "Peisker",
+          "lastName": "Dr. Peisker",
           "firstName": "Axel",
           "profession": "Unternehmer"
         },
@@ -6966,7 +6966,7 @@
         {
           "id": "stvv-17-16",
           "position": 16,
-          "lastName": "Kaun",
+          "lastName": "Dr. Kaun",
           "firstName": "Andreas",
           "profession": "Wirtschaftspädagoge"
         },
@@ -7114,7 +7114,7 @@
         {
           "id": "stvv-18-4",
           "position": 4,
-          "lastName": "Rödler",
+          "lastName": "Dr. Rödler",
           "firstName": "Peter",
           "profession": "Professor i.R."
         },
@@ -7142,7 +7142,7 @@
         {
           "id": "stvv-18-8",
           "position": 8,
-          "lastName": "Al-Hilou",
+          "lastName": "Dr. Al-Hilou",
           "firstName": "Ali",
           "profession": "Arzt"
         },
@@ -7290,7 +7290,7 @@
         {
           "id": "stvv-19-1",
           "position": 1,
-          "lastName": "Schmidt",
+          "lastName": "Dr. Schmidt",
           "firstName": "Johannes",
           "profession": "Lehrer"
         },
@@ -7472,7 +7472,7 @@
         {
           "id": "stvv-19-27",
           "position": 27,
-          "lastName": "Fröhlich",
+          "lastName": "Dr. Fröhlich",
           "firstName": "Andreas",
           "profession": "Aktuar"
         },
@@ -7550,7 +7550,7 @@
         {
           "id": "stvv-20-3",
           "position": 3,
-          "lastName": "Buchmüller",
+          "lastName": "Dr. Buchmüller",
           "firstName": "Ilja",
           "profession": "Ingenieur"
         }
@@ -7761,7 +7761,7 @@
         {
           "id": "stvv-21-29",
           "position": 29,
-          "lastName": "Schott",
+          "lastName": "Dr. Schott",
           "firstName": "Barbara",
           "profession": "Rentnerin"
         },
@@ -7825,7 +7825,7 @@
         {
           "id": "stvv-22-6",
           "position": 6,
-          "lastName": "Häring",
+          "lastName": "Dr. Häring",
           "firstName": "Norbert",
           "profession": "Redakteur"
         },
@@ -7888,7 +7888,7 @@
         {
           "id": "stvv-22-15",
           "position": 15,
-          "lastName": "Backhaus",
+          "lastName": "Dr. Backhaus",
           "firstName": "Hans-Georg",
           "profession": "Rentner"
         },
@@ -8014,7 +8014,7 @@
         {
           "id": "stvv-22-33",
           "position": 33,
-          "lastName": "Leyhausen-Seibert",
+          "lastName": "Dr. Leyhausen-Seibert",
           "firstName": "Katja",
           "profession": "Publizistin"
         }

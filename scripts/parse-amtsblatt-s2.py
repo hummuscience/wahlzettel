@@ -135,8 +135,8 @@ def parse_candidate_name(raw_text):
 
     Returns: dict with lastName, firstName, profession
     """
-    # Strip title
-    text = strip_title(raw_text)
+    # Keep academic titles (Dr., Prof.) as they appear on the official ballot
+    text = raw_text.strip()
     # Strip nickname in parens
     text = strip_nickname(text)
     # Remove trailing comma if present

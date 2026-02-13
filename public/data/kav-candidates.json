@@ -960,7 +960,7 @@
         {
           "id": "kav-10-2",
           "position": 2,
-          "lastName": "Sow",
+          "lastName": "Dr. Sow",
           "firstName": "Mariame",
           "profession": "Pädagogische Leitung"
         },
@@ -1255,7 +1255,7 @@
         {
           "id": "kav-11-28",
           "position": 28,
-          "lastName": "Buchmüller",
+          "lastName": "Dr. Buchmüller",
           "firstName": "Ilja",
           "profession": "Ingenieur"
         },
@@ -2032,21 +2032,21 @@
         {
           "id": "kav-18-1",
           "position": 1,
-          "lastName": "Iranbomy",
+          "lastName": "Dr. Dr. Iranbomy",
           "firstName": "Shahram",
           "profession": "Strafverteidiger"
         },
         {
           "id": "kav-18-2",
           "position": 2,
-          "lastName": "Hanifzadeh",
+          "lastName": "Dr. Hanifzadeh",
           "firstName": "Massoud",
           "profession": ""
         },
         {
           "id": "kav-18-3",
           "position": 3,
-          "lastName": "Gulati",
+          "lastName": "Dr. Gulati",
           "firstName": "Mukesh",
           "profession": "Berater"
         },
@@ -2779,7 +2779,7 @@
         {
           "id": "kav-23-12",
           "position": 12,
-          "lastName": "Saternus",
+          "lastName": "Dr. Saternus",
           "firstName": "Zofia",
           "profession": "Wissenschaftlerin"
         },
@@ -2963,7 +2963,7 @@
         {
           "id": "kav-25-6",
           "position": 6,
-          "lastName": "O‘Sullivan",
+          "lastName": "Dr. O‘Sullivan",
           "firstName": "Sean",
           "profession": "Arzt"
         },
