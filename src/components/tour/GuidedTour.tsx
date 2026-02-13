@@ -7,6 +7,7 @@ import type { TooltipPosition } from './tourSteps';
 interface GuidedTourProps {
   isActive: boolean;
   currentStep: number;
+  totalStimmen: number;
   onNext: () => void;
   onPrev: () => void;
   onClose: () => void;
@@ -60,8 +61,9 @@ function resolvePosition(
   return 'bottom';
 }
 
-export function GuidedTour({ isActive, currentStep, onNext, onPrev, onClose }: GuidedTourProps) {
+export function GuidedTour({ isActive, currentStep, totalStimmen, onNext, onPrev, onClose }: GuidedTourProps) {
   const { t } = useTranslation('walkthrough');
+  const tVars = { count: totalStimmen };
   const [targetRect, setTargetRect] = useState<TargetRect | null>(null);
   const [tooltipStyle, setTooltipStyle] = useState<React.CSSProperties>({});
   const [arrowStyle, setArrowStyle] = useState<React.CSSProperties>({});
@@ -277,12 +279,12 @@ export function GuidedTour({ isActive, currentStep, onNext, onPrev, onClose }: G
 
         {/* Title */}
         <h3 className="text-sm font-bold text-gray-900 mb-1.5">
-          {t(step.titleKey)}
+          {t(step.titleKey, tVars)}
         </h3>
 
         {/* Body */}
         <p className="text-xs text-gray-600 leading-relaxed mb-3">
-          {t(step.bodyKey)}
+          {t(step.bodyKey, tVars)}
         </p>
 
         {/* Navigation buttons */}

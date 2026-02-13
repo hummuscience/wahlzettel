@@ -214,6 +214,7 @@ function App() {
       <GuidedTour
         isActive={tour.isActive}
         currentStep={tour.currentStep}
+        totalStimmen={electionData.totalStimmen}
         onNext={tour.next}
         onPrev={tour.prev}
         onClose={tour.close}
