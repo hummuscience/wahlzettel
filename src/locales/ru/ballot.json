@@ -26,5 +26,10 @@
   "schliessen": "Закрыть",
   "bildTeilen": "Поделиться изображением",
   "kavName": "Коммунальный совет представителей иностранцев (KAV)",
-  "fuerDieWahlZur": "для выборов в"
+  "fuerDieWahlZur": "для выборов в",
+  "drucken": "Печать",
+  "spickzettel": "Твоя шпаргалка к бюллетеню",
+  "listeGewaehlt": "Список выбран",
+  "gestrichen": "вычеркнут",
+  "keineStimmen": "Голоса ещё не отданы"
 }

@@ -37,7 +37,7 @@ interface ShareDialogProps {
 
 // --- QR rendering (reused for both preview and card) ---
 
-function getQRMatrix(url: string) {
+export function getQRMatrix(url: string) {
   const qr = QRCode.create(url, { errorCorrectionLevel: 'M' });
   return { size: qr.modules.size, data: qr.modules.data };
 }

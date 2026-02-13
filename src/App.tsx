@@ -5,6 +5,7 @@ import { useVoteState } from './hooks/useVoteState';
 import { decodeVoteState, encodeVoteState } from './utils/shareState';
 import { ShareDialog, buildPartySegments } from './components/ballot/ShareDialog';
 import type { PartySegment } from './components/ballot/ShareDialog';
+import { PrintSpickzettel } from './components/ballot/PrintSpickzettel';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { MobileDrawer } from './components/layout/MobileDrawer';
@@ -28,6 +29,7 @@ function App() {
     url: string;
     segments: PartySegment[];
   } | null>(null);
+  const [printUrl, setPrintUrl] = useState<string | null>(null);
 
   const {
     state,
@@ -114,6 +116,17 @@ function App() {
     setShareData({ url, segments });
   }, [state, ballotType, electionData, derived.stimmenPerParty, derived.totalStimmenUsed]);
 
+  const handlePrint = useCallback(async () => {
+    if (!ballotType) return;
+    const encoded = await encodeVoteState(state, ballotType);
+    const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
+    setPrintUrl(url);
+    // Let React render the print component, then trigger print
+    requestAnimationFrame(() => {
+      window.print();
+    });
+  }, [state, ballotType]);
+
   const handleSwitchBallot = useCallback(() => {
     resetBallot();
     setElectionData(null);
@@ -161,6 +174,7 @@ function App() {
         onWalkthroughToggle={toggleWalkthrough}
         onInfoToggle={toggleInfo}
         onShare={handleShare}
+        onPrint={handlePrint}
         onSwitchBallot={handleSwitchBallot}
         shouldPulse={tour.shouldPulse}
       />
@@ -227,6 +241,13 @@ function App() {
           onClose={() => setShareData(null)}
         />
       )}
+
+      <PrintSpickzettel
+        electionData={electionData}
+        state={state}
+        derived={derived}
+        shareUrl={printUrl}
+      />
     </div>
   );
 }

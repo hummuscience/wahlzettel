@@ -26,5 +26,10 @@
   "schliessen": "إغلاق",
   "bildTeilen": "مشاركة الصورة",
   "kavName": "مجلس استشارة الأجانب البلدي (KAV)",
-  "fuerDieWahlZur": "لانتخاب"
+  "fuerDieWahlZur": "لانتخاب",
+  "drucken": "طباعة",
+  "spickzettel": "ملخص ورقة الاقتراع",
+  "listeGewaehlt": "تم اختيار القائمة",
+  "gestrichen": "محذوف",
+  "keineStimmen": "لم يتم التصويت بعد"
 }
