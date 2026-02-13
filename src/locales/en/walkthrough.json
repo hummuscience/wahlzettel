@@ -16,5 +16,7 @@
   "step7Text": "Your ballot is invalid if you cast more than {{count}} votes, check more than one list, or give a candidate more than 3 votes. Watch the counter at the top!",
   "step8Title": "Try it out!",
   "step8Text": "Try it yourself with the interactive ballot above. Don't worry – you can't make any mistakes here!",
+  "step9Title": "Share & Print",
+  "step9Text": "When you're done, you can share your selections as a link or print a cheat sheet to take with you to the polling station!",
   "tryItButton": "Go to ballot ↑"
 }

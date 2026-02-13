@@ -9,6 +9,7 @@ const steps = [
   { key: 'step6', emoji: '🔀' },
   { key: 'step7', emoji: '⚠️' },
   { key: 'step8', emoji: '✏️' },
+  { key: 'step9', emoji: '🖨️' },
 ];
 
 interface WalkthroughSectionProps {

@@ -16,5 +16,7 @@
   "step7Text": "Dein Stimmzettel ist ungültig, wenn du mehr als {{count}} Stimmen vergibst, mehr als eine Liste ankreuzt, oder einem Kandidaten mehr als 3 Stimmen gibst. Achte auf den Zähler oben!",
   "step8Title": "Jetzt üben!",
   "step8Text": "Probiere es selbst aus mit dem interaktiven Stimmzettel oben. Keine Sorge – hier kannst du nichts falsch machen!",
+  "step9Title": "Teilen & Drucken",
+  "step9Text": "Wenn du fertig bist, kannst du deine Auswahl als Link teilen oder als Spickzettel ausdrucken – praktisch zum Mitnehmen ins Wahllokal!",
   "tryItButton": "Zum Stimmzettel ↑"
 }

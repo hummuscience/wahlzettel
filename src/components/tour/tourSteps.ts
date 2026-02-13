@@ -65,4 +65,11 @@ export const tourSteps: TourStep[] = [
     bodyKey: 'step8Text',
     position: 'bottom',
   },
+  {
+    target: '[data-tour="share-print"]',
+    emoji: '🖨️',
+    titleKey: 'step9Title',
+    bodyKey: 'step9Text',
+    position: 'bottom',
+  },
 ];

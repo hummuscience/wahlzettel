@@ -119,30 +119,32 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
             </button>
           )}
 
-          {/* Share button */}
-          {onShare && (
-            <button
-              onClick={onShare}
-              className="w-8 h-8 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center transition-colors"
-              title={t('teilen', { ns: 'ballot', defaultValue: 'Teilen' })}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
-                <path d="M13 4.5a2.5 2.5 0 11.702 1.737L6.97 9.604a2.518 2.518 0 010 .799l6.733 3.366a2.5 2.5 0 11-.671 1.341l-6.733-3.366a2.5 2.5 0 110-3.483l6.733-3.366A2.52 2.52 0 0113 4.5z" />
-              </svg>
-            </button>
-          )}
-
-          {/* Print button */}
-          {onPrint && (
-            <button
-              onClick={onPrint}
-              className="w-8 h-8 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center transition-colors"
-              title={t('drucken', { ns: 'ballot', defaultValue: 'Drucken' })}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
-                <path fillRule="evenodd" d="M5 2.75C5 1.784 5.784 1 6.75 1h6.5c.966 0 1.75.784 1.75 1.75v3.552c.377.046.752.097 1.126.153A2.212 2.212 0 0118 8.653v4.097A2.25 2.25 0 0115.75 15h-.75v3.25a.75.75 0 01-.75.75h-8.5a.75.75 0 01-.75-.75V15h-.75A2.25 2.25 0 012 12.75V8.653c0-1.082.775-2.034 1.874-2.198.374-.056.749-.107 1.126-.153V2.75zm1.5 0v3.379a74.587 74.587 0 017 0V2.75a.25.25 0 00-.25-.25h-6.5a.25.25 0 00-.25.25zM7.25 15.25v2.5h5.5v-2.5h-5.5z" clipRule="evenodd" />
-              </svg>
-            </button>
+          {/* Share & Print buttons */}
+          {(onShare || onPrint) && (
+            <div className="flex items-center gap-2" data-tour="share-print">
+              {onShare && (
+                <button
+                  onClick={onShare}
+                  className="w-8 h-8 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center transition-colors"
+                  title={t('teilen', { ns: 'ballot', defaultValue: 'Teilen' })}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                    <path d="M13 4.5a2.5 2.5 0 11.702 1.737L6.97 9.604a2.518 2.518 0 010 .799l6.733 3.366a2.5 2.5 0 11-.671 1.341l-6.733-3.366a2.5 2.5 0 110-3.483l6.733-3.366A2.52 2.52 0 0113 4.5z" />
+                  </svg>
+                </button>
+              )}
+              {onPrint && (
+                <button
+                  onClick={onPrint}
+                  className="w-8 h-8 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center transition-colors"
+                  title={t('drucken', { ns: 'ballot', defaultValue: 'Drucken' })}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                    <path fillRule="evenodd" d="M5 2.75C5 1.784 5.784 1 6.75 1h6.5c.966 0 1.75.784 1.75 1.75v3.552c.377.046.752.097 1.126.153A2.212 2.212 0 0118 8.653v4.097A2.25 2.25 0 0115.75 15h-.75v3.25a.75.75 0 01-.75.75h-8.5a.75.75 0 01-.75-.75V15h-.75A2.25 2.25 0 012 12.75V8.653c0-1.082.775-2.034 1.874-2.198.374-.056.749-.107 1.126-.153V2.75zm1.5 0v3.379a74.587 74.587 0 017 0V2.75a.25.25 0 00-.25-.25h-6.5a.25.25 0 00-.25.25zM7.25 15.25v2.5h5.5v-2.5h-5.5z" clipRule="evenodd" />
+                  </svg>
+                </button>
+              )}
+            </div>
           )}
 
           {/* Tour restart button */}

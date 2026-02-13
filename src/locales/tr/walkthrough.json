@@ -16,5 +16,7 @@
   "step7Text": "{{count}}'ten fazla oy verirsen, birden fazla listeyi işaretlersen veya bir adaya 3'ten fazla oy verirsen oy pusulan geçersiz olur. Üstteki sayaca dikkat et!",
   "step8Title": "Şimdi dene!",
   "step8Text": "Yukarıdaki interaktif oy pusulasıyla kendin dene. Endişelenme – burada hata yapamazsın!",
+  "step9Title": "Paylaş ve Yazdır",
+  "step9Text": "İşin bittiğinde seçimlerini link olarak paylaşabilir veya sandık başına götürmek için özet notu yazdırabilirsin!",
   "tryItButton": "Oy pusulasına git ↑"
 }
