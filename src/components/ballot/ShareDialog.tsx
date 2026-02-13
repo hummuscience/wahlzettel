@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { useTranslation } from 'react-i18next';
 import QRCode from 'qrcode';
 
@@ -228,7 +229,7 @@ export function ShareDialog({
     }
   };
 
-  return (
+  return createPortal(
     <dialog
       ref={dialogRef}
       onClose={onClose}
@@ -289,6 +290,7 @@ export function ShareDialog({
           </button>
         </div>
       </div>
-    </dialog>
+    </dialog>,
+    document.body,
   );
 }
