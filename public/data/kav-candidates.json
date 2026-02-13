@@ -6,8 +6,8 @@
   "parties": [
     {
       "listNumber": 1,
+      "fullName": "SERBISCHE LISTE",
       "shortName": "SL",
-      "fullName": "Serbische Liste",
       "candidateCount": 13,
       "candidates": [
         {
@@ -15,98 +15,98 @@
           "position": 1,
           "lastName": "Višnjić",
           "firstName": "Kristina",
-          "profession": ""
+          "profession": "Immobilienkauffrau"
         },
         {
           "id": "kav-1-2",
           "position": 2,
           "lastName": "Tomić",
           "firstName": "Dimitrija",
-          "profession": ""
+          "profession": "Bankkaufmann"
         },
         {
           "id": "kav-1-3",
           "position": 3,
           "lastName": "Milanović",
           "firstName": "Tatjana",
-          "profession": ""
+          "profession": "Lehrerin"
         },
         {
           "id": "kav-1-4",
           "position": 4,
           "lastName": "Trninić",
           "firstName": "Saša",
-          "profession": ""
+          "profession": "Rechtsanwalt"
         },
         {
           "id": "kav-1-5",
           "position": 5,
           "lastName": "Matijević",
           "firstName": "Vladimir",
-          "profession": ""
+          "profession": "Raumausstatter"
         },
         {
           "id": "kav-1-6",
           "position": 6,
           "lastName": "Vasiljević",
           "firstName": "Anna",
-          "profession": ""
+          "profession": "Bankangestellte"
         },
         {
           "id": "kav-1-7",
           "position": 7,
           "lastName": "Višnjić",
           "firstName": "Saša",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-1-8",
           "position": 8,
           "lastName": "Trajstarević",
           "firstName": "Aleksa",
-          "profession": ""
+          "profession": "Personalberater"
         },
         {
           "id": "kav-1-9",
           "position": 9,
           "lastName": "Pavlović",
           "firstName": "Oliver",
-          "profession": ""
+          "profession": "Bankangestellter"
         },
         {
           "id": "kav-1-10",
           "position": 10,
           "lastName": "Matijević",
           "firstName": "Mina",
-          "profession": ""
+          "profession": "Fußballerin"
         },
         {
           "id": "kav-1-11",
           "position": 11,
           "lastName": "Runjaić",
           "firstName": "Vojkan",
-          "profession": ""
+          "profession": "Musiker"
         },
         {
           "id": "kav-1-12",
           "position": 12,
           "lastName": "Mišić",
           "firstName": "Predrag",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-1-13",
           "position": 13,
           "lastName": "Tomić",
           "firstName": "Goran",
-          "profession": ""
+          "profession": "Selbstständig"
         }
       ]
     },
     {
       "listNumber": 2,
-      "shortName": "DFRA",
       "fullName": "DieFrankfurter",
+      "shortName": "DFRA",
       "candidateCount": 3,
       "candidates": [
         {
@@ -114,28 +114,28 @@
           "position": 1,
           "lastName": "Ploner",
           "firstName": "Jean",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-2-2",
           "position": 2,
           "lastName": "Ahmadi",
           "firstName": "Mohammad",
-          "profession": ""
+          "profession": "Systemadministrator"
         },
         {
           "id": "kav-2-3",
           "position": 3,
           "lastName": "Nguyễn",
           "firstName": "Quốc",
-          "profession": ""
+          "profession": "Student"
         }
       ]
     },
     {
       "listNumber": 3,
-      "shortName": "A.I.V.",
       "fullName": "Ausländische Interessenvertretung",
+      "shortName": "A.I.V.",
       "candidateCount": 20,
       "candidates": [
         {
@@ -143,147 +143,147 @@
           "position": 1,
           "lastName": "Kaya",
           "firstName": "Abdullah",
-          "profession": ""
+          "profession": "Fernmeldeelektroniker"
         },
         {
           "id": "kav-3-2",
           "position": 2,
           "lastName": "Gayretli",
           "firstName": "Mahmut",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-3-3",
           "position": 3,
           "lastName": "Acar-Gösterişli",
           "firstName": "Yelda",
-          "profession": ""
+          "profession": "Rechtsanwältin"
         },
         {
           "id": "kav-3-4",
           "position": 4,
           "lastName": "Şahin",
           "firstName": "Cengizhan",
-          "profession": ""
+          "profession": "Fahrer"
         },
         {
           "id": "kav-3-5",
           "position": 5,
           "lastName": "Can",
           "firstName": "Bilal",
-          "profession": ""
+          "profession": "Dipl.-Pädagoge"
         },
         {
           "id": "kav-3-6",
           "position": 6,
           "lastName": "Demir",
           "firstName": "Pele",
-          "profession": ""
+          "profession": "Handelsvertreter"
         },
         {
           "id": "kav-3-7",
           "position": 7,
           "lastName": "Burakçın",
           "firstName": "Zafer",
-          "profession": ""
+          "profession": "Architekturplaner im Hochbau"
         },
         {
           "id": "kav-3-8",
           "position": 8,
           "lastName": "Çalışkan",
           "firstName": "Hamza",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-3-9",
           "position": 9,
           "lastName": "Ayhan",
           "firstName": "Yunus",
-          "profession": ""
+          "profession": "Instandhalter"
         },
         {
           "id": "kav-3-10",
           "position": 10,
           "lastName": "Duru",
           "firstName": "Alpay",
-          "profession": ""
+          "profession": "Elektroniker"
         },
         {
           "id": "kav-3-11",
           "position": 11,
           "lastName": "Can",
           "firstName": "Orhan",
-          "profession": ""
+          "profession": "Eisenflechter"
         },
         {
           "id": "kav-3-12",
           "position": 12,
           "lastName": "Duran",
           "firstName": "Şaban",
-          "profession": ""
+          "profession": "Bahnbauer"
         },
         {
           "id": "kav-3-13",
           "position": 13,
           "lastName": "Kurt",
           "firstName": "Ayşe",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-3-14",
           "position": 14,
           "lastName": "Güler",
           "firstName": "Mustafa",
-          "profession": ""
+          "profession": "Imam"
         },
         {
           "id": "kav-3-15",
           "position": 15,
           "lastName": "Alkan",
           "firstName": "Habip",
-          "profession": ""
+          "profession": "Flugzeugabfertiger"
         },
         {
           "id": "kav-3-16",
           "position": 16,
           "lastName": "Akın",
           "firstName": "Abdullah",
-          "profession": ""
+          "profession": "Student"
         },
         {
           "id": "kav-3-17",
           "position": 17,
           "lastName": "Dincer",
           "firstName": "Celal",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-3-18",
           "position": 18,
           "lastName": "Yıldırım",
           "firstName": "Fahrettin",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-3-19",
           "position": 19,
           "lastName": "Alemdar",
           "firstName": "Nazim",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-3-20",
           "position": 20,
           "lastName": "Klein",
           "firstName": "Aygül",
-          "profession": ""
+          "profession": "Dozentin"
         }
       ]
     },
     {
       "listNumber": 4,
-      "shortName": "IFL",
       "fullName": "Internationale Freie Liste",
+      "shortName": "IFL",
       "candidateCount": 13,
       "candidates": [
         {
@@ -291,98 +291,98 @@
           "position": 1,
           "lastName": "Ölçek",
           "firstName": "Şevket",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-4-2",
           "position": 2,
           "lastName": "Lamjahdi",
           "firstName": "Nihal",
-          "profession": ""
+          "profession": "Schülerin"
         },
         {
           "id": "kav-4-3",
           "position": 3,
           "lastName": "Massaoudi",
           "firstName": "Zoheir",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-4-4",
           "position": 4,
           "lastName": "Souei",
           "firstName": "Intissar",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-4-5",
           "position": 5,
           "lastName": "Serçeöz",
           "firstName": "Rüçhan",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-4-6",
           "position": 6,
           "lastName": "Hamurcu",
           "firstName": "Ömer",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-4-7",
           "position": 7,
           "lastName": "Sakho",
           "firstName": "Mamadou",
-          "profession": ""
+          "profession": "Lehrer"
         },
         {
           "id": "kav-4-8",
           "position": 8,
           "lastName": "Harb",
           "firstName": "Monzèr",
-          "profession": ""
+          "profession": "Zahnarzt"
         },
         {
           "id": "kav-4-9",
           "position": 9,
           "lastName": "El Mezari",
           "firstName": "Mohammed",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-4-10",
           "position": 10,
           "lastName": "Baykurt",
           "firstName": "Mesut",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-4-11",
           "position": 11,
           "lastName": "Prabowo",
           "firstName": "Tito",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-4-12",
           "position": 12,
           "lastName": "Kara",
           "firstName": "Mehmed",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-4-13",
           "position": 13,
           "lastName": "Bahadir",
           "firstName": "Yilmaz",
-          "profession": ""
+          "profession": "Arbeiter"
         }
       ]
     },
     {
       "listNumber": 5,
-      "shortName": "CDU",
       "fullName": "Christlich Demokratische Union Deutschlands",
+      "shortName": "CDU",
       "candidateCount": 16,
       "candidates": [
         {
@@ -390,119 +390,119 @@
           "position": 1,
           "lastName": "Zengin",
           "firstName": "Yetkin",
-          "profession": ""
+          "profession": "Büroangestellter"
         },
         {
           "id": "kav-5-2",
           "position": 2,
           "lastName": "Rahmani",
           "firstName": "Fatima",
-          "profession": ""
+          "profession": "Referentin"
         },
         {
           "id": "kav-5-3",
           "position": 3,
           "lastName": "Čondić",
           "firstName": "Ivan",
-          "profession": ""
+          "profession": "Student"
         },
         {
           "id": "kav-5-4",
           "position": 4,
           "lastName": "Singh",
           "firstName": "Gurdial",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-5-5",
           "position": 5,
           "lastName": "Mijačević Mrnjavac",
           "firstName": "Marina",
-          "profession": ""
+          "profession": "Dipl.-Politologin"
         },
         {
           "id": "kav-5-6",
           "position": 6,
           "lastName": "Stamatis",
           "firstName": "Ioannis",
-          "profession": ""
+          "profession": "Bankangestellter"
         },
         {
           "id": "kav-5-7",
           "position": 7,
           "lastName": "Wagner",
           "firstName": "Cătălina",
-          "profession": ""
+          "profession": "Betriebswirtin"
         },
         {
           "id": "kav-5-8",
           "position": 8,
           "lastName": "Daftari",
           "firstName": "Adib",
-          "profession": ""
+          "profession": "Dolmetscher und Übersetzer"
         },
         {
           "id": "kav-5-9",
           "position": 9,
           "lastName": "Xu - Winterhager",
           "firstName": "Shan",
-          "profession": ""
+          "profession": "Unternehmensberaterin"
         },
         {
           "id": "kav-5-10",
           "position": 10,
           "lastName": "El Maziani",
-          "firstName": "M'hamed",
-          "profession": ""
+          "firstName": "M‘hamed",
+          "profession": "Rentner"
         },
         {
           "id": "kav-5-11",
           "position": 11,
           "lastName": "Martinez de Ganß",
           "firstName": "Valeria",
-          "profession": ""
+          "profession": "MA Humanitäre Hilfe"
         },
         {
           "id": "kav-5-12",
           "position": 12,
           "lastName": "Kahraman-Yarkın",
           "firstName": "Esra",
-          "profession": ""
+          "profession": "Sachbearbeiterin ö.D."
         },
         {
           "id": "kav-5-13",
           "position": 13,
           "lastName": "Zorena",
-          "firstName": "Anna s",
-          "profession": ""
+          "firstName": "Anna",
+          "profession": "Buchhalterin"
         },
         {
           "id": "kav-5-14",
           "position": 14,
           "lastName": "Bartal",
           "firstName": "Imre",
-          "profession": ""
+          "profession": "Kommunikationsmanager"
         },
         {
           "id": "kav-5-15",
           "position": 15,
           "lastName": "Rosenwein",
           "firstName": "Miriam",
-          "profession": ""
+          "profession": "Bauingenieurin"
         },
         {
           "id": "kav-5-16",
           "position": 16,
           "lastName": "Rakhamimov",
           "firstName": "Daniel",
-          "profession": ""
+          "profession": "Finanzanalyst"
         }
       ]
     },
     {
       "listNumber": 6,
-      "shortName": "LiberD",
       "fullName": "Liberales Deutschland",
+      "shortName": "LiberD",
       "candidateCount": 13,
       "candidates": [
         {
@@ -510,98 +510,98 @@
           "position": 1,
           "lastName": "Tuwari",
           "firstName": "Ashwani",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-6-2",
           "position": 2,
           "lastName": "Schmitt",
           "firstName": "Darshan",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-6-3",
           "position": 3,
           "lastName": "Tuli",
           "firstName": "Swarn",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-6-4",
           "position": 4,
           "lastName": "Mehdi",
           "firstName": "Hassan",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-6-5",
           "position": 5,
           "lastName": "Lăcătuș",
           "firstName": "Alina Ramona",
-          "profession": ""
+          "profession": "Vorarbeiterin"
         },
         {
           "id": "kav-6-6",
           "position": 6,
           "lastName": "Mehta",
           "firstName": "Vivek",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-6-7",
           "position": 7,
           "lastName": "Šimović",
           "firstName": "Mario",
-          "profession": ""
+          "profession": "Hausmeister"
         },
         {
           "id": "kav-6-8",
           "position": 8,
           "lastName": "Šimović",
           "firstName": "Zora",
-          "profession": ""
+          "profession": "Hauswirtschafterin"
         },
         {
           "id": "kav-6-9",
           "position": 9,
           "lastName": "Barakzai",
           "firstName": "Nasrullah",
-          "profession": ""
+          "profession": "Hotelkaufmann"
         },
         {
           "id": "kav-6-10",
           "position": 10,
           "lastName": "Didevar",
           "firstName": "Hodjat",
-          "profession": ""
+          "profession": "Hotelfachmann"
         },
         {
           "id": "kav-6-11",
           "position": 11,
           "lastName": "Kumar",
           "firstName": "Ranjiv",
-          "profession": ""
+          "profession": "Koch"
         },
         {
           "id": "kav-6-12",
           "position": 12,
           "lastName": "Ierusalim",
           "firstName": "Gianina",
-          "profession": ""
+          "profession": "Kassiererin"
         },
         {
           "id": "kav-6-13",
           "position": 13,
           "lastName": "Kumar",
           "firstName": "Anju",
-          "profession": ""
+          "profession": "Angestellte"
         }
       ]
     },
     {
       "listNumber": 7,
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
-      "fullName": "Bündnis 90/Die Grünen",
       "candidateCount": 15,
       "candidates": [
         {
@@ -609,112 +609,112 @@
           "position": 1,
           "lastName": "Maximino dos Santos",
           "firstName": "Adriana",
-          "profession": ""
+          "profession": "Übersetzerin"
         },
         {
           "id": "kav-7-2",
           "position": 2,
           "lastName": "Çetiner",
           "firstName": "Feyyaz",
-          "profession": ""
+          "profession": "Geschäftsführer"
         },
         {
           "id": "kav-7-3",
           "position": 3,
           "lastName": "Pavliuk",
           "firstName": "Oksana",
-          "profession": ""
+          "profession": "IT-Projektmanagerin"
         },
         {
           "id": "kav-7-4",
           "position": 4,
           "lastName": "Chiron",
           "firstName": "Florian",
-          "profession": ""
+          "profession": "Unternehmer"
         },
         {
           "id": "kav-7-5",
           "position": 5,
           "lastName": "Morattab",
           "firstName": "Shahnaz",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-7-6",
           "position": 6,
           "lastName": "Ghotra",
           "firstName": "Narinder",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-7-7",
           "position": 7,
           "lastName": "Bolat",
           "firstName": "Aylin",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-7-8",
           "position": 8,
           "lastName": "Ağatay",
           "firstName": "Mehmet",
-          "profession": ""
+          "profession": "Dolmetscher"
         },
         {
           "id": "kav-7-9",
           "position": 9,
           "lastName": "Ali",
           "firstName": "Nakhshin",
-          "profession": ""
+          "profession": "Erzieherin"
         },
         {
           "id": "kav-7-10",
           "position": 10,
           "lastName": "Toprak",
           "firstName": "Nihat Cenk",
-          "profession": ""
+          "profession": "Finanzierungsberater"
         },
         {
           "id": "kav-7-11",
           "position": 11,
           "lastName": "Cappelluti",
           "firstName": "Daniela",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-7-12",
           "position": 12,
           "lastName": "Khan",
           "firstName": "Hamidul",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-7-13",
           "position": 13,
           "lastName": "Moradi",
           "firstName": "Tara",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-7-14",
           "position": 14,
           "lastName": "Telyakar",
           "firstName": "Emre",
-          "profession": ""
+          "profession": "Sachbearbeiter ö.D."
         },
         {
           "id": "kav-7-15",
           "position": 15,
           "lastName": "Arslaner",
           "firstName": "Hilime",
-          "profession": ""
+          "profession": "Beraterin"
         }
       ]
     },
     {
       "listNumber": 8,
-      "shortName": "IBF",
       "fullName": "Ich bin ein Frankfurter",
+      "shortName": "IBF",
       "candidateCount": 15,
       "candidates": [
         {
@@ -722,112 +722,112 @@
           "position": 1,
           "lastName": "Medoff",
           "firstName": "Jumas",
-          "profession": ""
+          "profession": "Unternehmensberater"
         },
         {
           "id": "kav-8-2",
           "position": 2,
           "lastName": "Zakrevska",
           "firstName": "Iryna",
-          "profession": ""
+          "profession": "Lehrerin"
         },
         {
           "id": "kav-8-3",
           "position": 3,
           "lastName": "Ramm",
           "firstName": "Inna",
-          "profession": ""
+          "profession": "Dipl.-Soziologin"
         },
         {
           "id": "kav-8-4",
           "position": 4,
           "lastName": "Snatschkowska",
           "firstName": "Alexandra",
-          "profession": ""
+          "profession": "Webentwicklerin"
         },
         {
           "id": "kav-8-5",
           "position": 5,
           "lastName": "Volynskyi",
           "firstName": "Serhii",
-          "profession": ""
+          "profession": "Unternehmer"
         },
         {
           "id": "kav-8-6",
           "position": 6,
           "lastName": "Huseynova",
           "firstName": "Sevinj",
-          "profession": ""
+          "profession": "Bankkauffrau"
         },
         {
           "id": "kav-8-7",
           "position": 7,
           "lastName": "Toptaş",
           "firstName": "Madlen",
-          "profession": ""
+          "profession": "Bürokraft"
         },
         {
           "id": "kav-8-8",
           "position": 8,
           "lastName": "Garayev",
           "firstName": "Elshan",
-          "profession": ""
+          "profession": "Arzt"
         },
         {
           "id": "kav-8-9",
           "position": 9,
           "lastName": "Sinnyk",
           "firstName": "Viktoriia",
-          "profession": ""
+          "profession": "Feinbäckerin"
         },
         {
           "id": "kav-8-10",
           "position": 10,
           "lastName": "Taghiyev",
           "firstName": "Said",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-8-11",
           "position": 11,
-          "lastName": "t Akca-Emdadi",
+          "lastName": "Akca-Emdadi",
           "firstName": "Emel",
-          "profession": ""
+          "profession": "Geschäftsführerin"
         },
         {
           "id": "kav-8-12",
           "position": 12,
           "lastName": "Parvizi Emamzadeh",
           "firstName": "Alexandra",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-8-13",
           "position": 13,
           "lastName": "Lutska",
           "firstName": "Irina",
-          "profession": ""
+          "profession": "Krankenpflegerin"
         },
         {
           "id": "kav-8-14",
           "position": 14,
           "lastName": "Suslova",
           "firstName": "Inna",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-8-15",
           "position": 15,
           "lastName": "Riabenka",
           "firstName": "Nina",
-          "profession": ""
+          "profession": "Rentnerin"
         }
       ]
     },
     {
       "listNumber": 9,
-      "shortName": "UD",
       "fullName": "Ukrainische-Diaspora-Frankfurt",
+      "shortName": "UD",
       "candidateCount": 16,
       "candidates": [
         {
@@ -835,119 +835,119 @@
           "position": 1,
           "lastName": "Freifrau von Rosen",
           "firstName": "Viktoriia",
-          "profession": ""
+          "profession": "Wissenschaftlerin"
         },
         {
           "id": "kav-9-2",
           "position": 2,
           "lastName": "Petroshenko",
           "firstName": "Sofiia",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-9-3",
           "position": 3,
           "lastName": "Klyzhenko",
           "firstName": "Yana",
-          "profession": ""
+          "profession": "Psychologin"
         },
         {
           "id": "kav-9-4",
           "position": 4,
           "lastName": "Parukh",
           "firstName": "Iryna",
-          "profession": ""
+          "profession": "Bankkauffrau"
         },
         {
           "id": "kav-9-5",
           "position": 5,
           "lastName": "Kerste-Gavriluk",
           "firstName": "Alina",
-          "profession": ""
+          "profession": "Geschäftsführerin"
         },
         {
           "id": "kav-9-6",
           "position": 6,
           "lastName": "Grinberg",
           "firstName": "Denys",
-          "profession": ""
+          "profession": "Freiberufler"
         },
         {
           "id": "kav-9-7",
           "position": 7,
           "lastName": "Zhmur",
           "firstName": "Olena",
-          "profession": ""
+          "profession": "Bankberaterin"
         },
         {
           "id": "kav-9-8",
           "position": 8,
           "lastName": "Davitidze",
           "firstName": "Lali",
-          "profession": ""
+          "profession": "Ökonomin"
         },
         {
           "id": "kav-9-9",
           "position": 9,
           "lastName": "Pokhylko",
           "firstName": "Nataliia",
-          "profession": ""
+          "profession": "Kulturschaffende"
         },
         {
           "id": "kav-9-10",
           "position": 10,
           "lastName": "Manoilova",
           "firstName": "Iryna",
-          "profession": ""
+          "profession": "Ingenieurin"
         },
         {
           "id": "kav-9-11",
           "position": 11,
           "lastName": "Prokopenko",
           "firstName": "Svitlana",
-          "profession": ""
+          "profession": "Vertrieb"
         },
         {
           "id": "kav-9-12",
           "position": 12,
           "lastName": "Biegunova",
           "firstName": "Olga",
-          "profession": ""
+          "profession": "IT-Beraterin"
         },
         {
           "id": "kav-9-13",
           "position": 13,
           "lastName": "Kaplonova",
           "firstName": "Iryna",
-          "profession": ""
+          "profession": "Kauffrau"
         },
         {
           "id": "kav-9-14",
           "position": 14,
           "lastName": "Werner",
           "firstName": "Yelyzaveta",
-          "profession": ""
+          "profession": "Grafikdesignerin"
         },
         {
           "id": "kav-9-15",
           "position": 15,
           "lastName": "Levchenko",
           "firstName": "Olena",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-9-16",
           "position": 16,
           "lastName": "Kyselov",
           "firstName": "Igor",
-          "profession": ""
+          "profession": "Consultant"
         }
       ]
     },
     {
       "listNumber": 10,
-      "shortName": "SPD",
       "fullName": "Sozialdemokratische Partei Deutschlands",
+      "shortName": "SPD",
       "candidateCount": 15,
       "candidates": [
         {
@@ -955,63 +955,63 @@
           "position": 1,
           "lastName": "Achrait",
           "firstName": "Maria",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-10-2",
           "position": 2,
-          "lastName": "Dr. Sow",
+          "lastName": "Sow",
           "firstName": "Mariame",
-          "profession": ""
+          "profession": "Pädagogische Leitung"
         },
         {
           "id": "kav-10-3",
           "position": 3,
           "lastName": "Lamjahdi",
           "firstName": "Mustapha",
-          "profession": ""
+          "profession": "Lehrer"
         },
         {
           "id": "kav-10-4",
           "position": 4,
           "lastName": "Robiro",
           "firstName": "Cyrus",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-10-5",
           "position": 5,
           "lastName": "Ataç",
           "firstName": "Sarya",
-          "profession": ""
+          "profession": "Fachreferentin"
         },
         {
           "id": "kav-10-6",
           "position": 6,
           "lastName": "Avdić",
           "firstName": "Dijana",
-          "profession": ""
+          "profession": "Projektleitung"
         },
         {
           "id": "kav-10-7",
           "position": 7,
           "lastName": "Langlet",
           "firstName": "Jean-Marie",
-          "profession": ""
+          "profession": "Sprachlehrer"
         },
         {
           "id": "kav-10-8",
           "position": 8,
           "lastName": "Shafiq",
           "firstName": "Mohammad",
-          "profession": ""
+          "profession": "Geschäftsführer"
         },
         {
           "id": "kav-10-9",
           "position": 9,
           "lastName": "Chen",
           "firstName": "Dong",
-          "profession": ""
+          "profession": "DaF-Lehrkraft"
         },
         {
           "id": "kav-10-10",
@@ -1025,21 +1025,21 @@
           "position": 11,
           "lastName": "Kelly",
           "firstName": "Simon",
-          "profession": ""
+          "profession": "Sozialarbeiter"
         },
         {
           "id": "kav-10-12",
           "position": 12,
           "lastName": "Zapata González",
           "firstName": "Manuel",
-          "profession": ""
+          "profession": "Arzt"
         },
         {
           "id": "kav-10-13",
           "position": 13,
           "lastName": "Karaova",
           "firstName": "Derya",
-          "profession": ""
+          "profession": "Industriekauffrau"
         },
         {
           "id": "kav-10-14",
@@ -1053,14 +1053,14 @@
           "position": 15,
           "lastName": "Lenz",
           "firstName": "Alexander",
-          "profession": ""
+          "profession": "Student"
         }
       ]
     },
     {
       "listNumber": 11,
-      "shortName": "GUG",
       "fullName": "Global Unity in Germany",
+      "shortName": "GUG",
       "candidateCount": 37,
       "candidates": [
         {
@@ -1068,42 +1068,42 @@
           "position": 1,
           "lastName": "Sharma",
           "firstName": "Ramesh Kumar",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-11-2",
           "position": 2,
           "lastName": "Singh",
-          "firstName": "Harspreet",
-          "profession": ""
+          "firstName": "Harpreet",
+          "profession": "Taxifahrer"
         },
         {
           "id": "kav-11-3",
           "position": 3,
           "lastName": "Nagendrappa",
           "firstName": "Prahlada",
-          "profession": ""
+          "profession": "IT-Techniker"
         },
         {
           "id": "kav-11-4",
           "position": 4,
           "lastName": "Gadela",
           "firstName": "Prabhanjan",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-11-5",
           "position": 5,
           "lastName": "Chandhok",
           "firstName": "Mohanlal",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-11-6",
           "position": 6,
           "lastName": "Rai",
           "firstName": "Jyoti",
-          "profession": ""
+          "profession": "Ingenieur"
         },
         {
           "id": "kav-11-7",
@@ -1117,217 +1117,217 @@
           "position": 8,
           "lastName": "Katkar",
           "firstName": "Saket",
-          "profession": ""
+          "profession": "Architekt"
         },
         {
           "id": "kav-11-9",
           "position": 9,
           "lastName": "Ganapathi",
           "firstName": "Vikram",
-          "profession": ""
+          "profession": "Informatiker"
         },
         {
           "id": "kav-11-10",
           "position": 10,
           "lastName": "Singh",
           "firstName": "Rajesh",
-          "profession": ""
+          "profession": "Informatiker"
         },
         {
           "id": "kav-11-11",
           "position": 11,
           "lastName": "Rani",
           "firstName": "Pallavi",
-          "profession": ""
+          "profession": "Informatikerin"
         },
         {
           "id": "kav-11-12",
           "position": 12,
           "lastName": "Jain",
           "firstName": "Ankita",
-          "profession": ""
+          "profession": "Informatikerin"
         },
         {
           "id": "kav-11-13",
           "position": 13,
           "lastName": "Dutta Chowdhury",
           "firstName": "Chaitali",
-          "profession": ""
+          "profession": "Teaching Assistant"
         },
         {
           "id": "kav-11-14",
           "position": 14,
           "lastName": "Chauhan",
           "firstName": "Umesh",
-          "profession": ""
+          "profession": "Project Manager"
         },
         {
           "id": "kav-11-15",
           "position": 15,
           "lastName": "Singh",
           "firstName": "Nishit",
-          "profession": ""
+          "profession": "Informatiker"
         },
         {
           "id": "kav-11-16",
           "position": 16,
           "lastName": "Garg",
           "firstName": "Shivani",
-          "profession": ""
+          "profession": "Makeup- & Hair-Artist"
         },
         {
           "id": "kav-11-17",
           "position": 17,
           "lastName": "Singh",
           "firstName": "Jaskaran",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-11-18",
           "position": 18,
           "lastName": "Bhatnagar",
           "firstName": "Shalini",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-11-19",
           "position": 19,
           "lastName": "Kumar",
           "firstName": "Pawan",
-          "profession": ""
+          "profession": "Kellner"
         },
         {
           "id": "kav-11-20",
           "position": 20,
           "lastName": "Singh",
           "firstName": "Joga",
-          "profession": ""
+          "profession": "Informatiker"
         },
         {
           "id": "kav-11-21",
           "position": 21,
           "lastName": "Chouksey",
           "firstName": "Monika",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-11-22",
           "position": 22,
           "lastName": "Singh",
           "firstName": "Mamta",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-11-23",
           "position": 23,
           "lastName": "Dharne",
           "firstName": "Shridhar",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-11-24",
           "position": 24,
           "lastName": "Bidare Gangadharaiah",
           "firstName": "Sowmya",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-11-25",
           "position": 25,
           "lastName": "Chauhan",
           "firstName": "Bijal",
-          "profession": ""
+          "profession": "Physiotherapeutin"
         },
         {
           "id": "kav-11-26",
           "position": 26,
           "lastName": "Agrawal",
           "firstName": "Bhumija",
-          "profession": ""
+          "profession": "Logistik-Beraterin"
         },
         {
           "id": "kav-11-27",
           "position": 27,
           "lastName": "Nasir",
           "firstName": "Fareed",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-11-28",
           "position": 28,
-          "lastName": "Dr. Buchmüller",
+          "lastName": "Buchmüller",
           "firstName": "Ilja",
-          "profession": ""
+          "profession": "Ingenieur"
         },
         {
           "id": "kav-11-29",
           "position": 29,
           "lastName": "Tiwary",
           "firstName": "Dhananjay",
-          "profession": ""
+          "profession": "Informatiker"
         },
         {
           "id": "kav-11-30",
           "position": 30,
           "lastName": "Chand",
           "firstName": "Dayal",
-          "profession": ""
+          "profession": "Koch"
         },
         {
           "id": "kav-11-31",
           "position": 31,
           "lastName": "Varun",
           "firstName": "Anjali",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-11-32",
           "position": 32,
           "lastName": "Katkar",
           "firstName": "Ankita",
-          "profession": ""
+          "profession": "Ingenieurin"
         },
         {
           "id": "kav-11-33",
           "position": 33,
           "lastName": "Singh",
           "firstName": "Inderjeet",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-11-34",
           "position": 34,
           "lastName": "Garg",
           "firstName": "Deepak",
-          "profession": ""
+          "profession": "Informatiker"
         },
         {
           "id": "kav-11-35",
           "position": 35,
           "lastName": "Myathri",
           "firstName": "Anil",
-          "profession": ""
+          "profession": "Informatiker"
         },
         {
           "id": "kav-11-36",
           "position": 36,
           "lastName": "Singh",
           "firstName": "Bikram",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-11-37",
           "position": 37,
           "lastName": "Merugu",
           "firstName": "Nikitha",
-          "profession": ""
+          "profession": "Angestellte"
         }
       ]
     },
     {
       "listNumber": 12,
-      "shortName": "BIG",
       "fullName": "Bündnis für Innovation & Gerechtigkeit",
+      "shortName": "BIG",
       "candidateCount": 14,
       "candidates": [
         {
@@ -1335,105 +1335,105 @@
           "position": 1,
           "lastName": "Amiri",
           "firstName": "Parwiz",
-          "profession": ""
+          "profession": "Bauingenieur"
         },
         {
           "id": "kav-12-2",
           "position": 2,
           "lastName": "Faqiri",
           "firstName": "Gul Mohammad",
-          "profession": ""
+          "profession": "Berater"
         },
         {
           "id": "kav-12-3",
           "position": 3,
           "lastName": "Amiri",
           "firstName": "Jamsched",
-          "profession": ""
+          "profession": "Jurist"
         },
         {
           "id": "kav-12-4",
           "position": 4,
           "lastName": "Shahzade",
           "firstName": "Wahab",
-          "profession": ""
+          "profession": "Fahrer"
         },
         {
           "id": "kav-12-5",
           "position": 5,
           "lastName": "Raza",
           "firstName": "Syed",
-          "profession": ""
+          "profession": "Unternehmer"
         },
         {
           "id": "kav-12-6",
           "position": 6,
           "lastName": "Zaoui",
           "firstName": "Ifet",
-          "profession": ""
+          "profession": "Buchhalterin"
         },
         {
           "id": "kav-12-7",
           "position": 7,
           "lastName": "Taljbini",
           "firstName": "Rana",
-          "profession": ""
+          "profession": "Architektin"
         },
         {
           "id": "kav-12-8",
           "position": 8,
           "lastName": "Nurzaie",
           "firstName": "Mirwais",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-12-9",
           "position": 9,
           "lastName": "Ahmadi",
           "firstName": "Basir",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-12-10",
           "position": 10,
           "lastName": "Phumphuang",
           "firstName": "Od",
-          "profession": ""
+          "profession": "Architekt"
         },
         {
           "id": "kav-12-11",
           "position": 11,
           "lastName": "Sadat",
           "firstName": "Ramin",
-          "profession": ""
+          "profession": "Fahrer"
         },
         {
           "id": "kav-12-12",
           "position": 12,
           "lastName": "Asgharzadeh",
           "firstName": "Naser",
-          "profession": ""
+          "profession": "Fahrer"
         },
         {
           "id": "kav-12-13",
           "position": 13,
           "lastName": "Hosseini",
           "firstName": "Hasibullah",
-          "profession": ""
+          "profession": "Innendienstmitarbeiter"
         },
         {
           "id": "kav-12-14",
           "position": 14,
           "lastName": "Alizai",
           "firstName": "Firooz",
-          "profession": ""
+          "profession": "Handwerker"
         }
       ]
     },
     {
       "listNumber": 13,
-      "shortName": "DABEI",
       "fullName": "Deutsche und Ausländer für Bildung, Empowerment und Integration",
+      "shortName": "DABEI",
       "candidateCount": 15,
       "candidates": [
         {
@@ -1441,112 +1441,112 @@
           "position": 1,
           "lastName": "Tariq",
           "firstName": "Muhammad Hamza",
-          "profession": ""
+          "profession": "Einrichtungsleiter"
         },
         {
           "id": "kav-13-2",
           "position": 2,
           "lastName": "Ndiaye-Koumassi",
           "firstName": "Coumba",
-          "profession": ""
+          "profession": "Marketing-Manager"
         },
         {
           "id": "kav-13-3",
           "position": 3,
           "lastName": "Akhtar",
           "firstName": "Muhammad",
-          "profession": ""
+          "profession": "Empfangsmitarbeiter"
         },
         {
           "id": "kav-13-4",
           "position": 4,
           "lastName": "Arif",
           "firstName": "Shazia",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-13-5",
           "position": 5,
           "lastName": "Mian",
           "firstName": "Muhammad",
-          "profession": ""
+          "profession": "Sicherheitsmitarbeiter"
         },
         {
           "id": "kav-13-6",
           "position": 6,
           "lastName": "Tchanile",
           "firstName": "Rafatou",
-          "profession": ""
+          "profession": "Betriebswirtin"
         },
         {
           "id": "kav-13-7",
           "position": 7,
           "lastName": "Aǧin",
           "firstName": "Bektaș",
-          "profession": ""
+          "profession": "Hausmeister"
         },
         {
           "id": "kav-13-8",
           "position": 8,
           "lastName": "Desta",
           "firstName": "Lidia",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-13-9",
           "position": 9,
           "lastName": "Moustapha",
           "firstName": "Fataou",
-          "profession": ""
+          "profession": "Platzwart"
         },
         {
           "id": "kav-13-10",
           "position": 10,
           "lastName": "Anwar",
           "firstName": "Aliya",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-13-11",
           "position": 11,
           "lastName": "Mian",
           "firstName": "Tariq",
-          "profession": ""
+          "profession": "Sicherheitsmitarbeiter"
         },
         {
           "id": "kav-13-12",
           "position": 12,
           "lastName": "Diop",
           "firstName": "Marie",
-          "profession": ""
+          "profession": "Hotelfachfrau"
         },
         {
           "id": "kav-13-13",
           "position": 13,
           "lastName": "Hajri",
           "firstName": "Mohamed",
-          "profession": ""
+          "profession": "Hausmeister"
         },
         {
           "id": "kav-13-14",
           "position": 14,
           "lastName": "Ahmed",
           "firstName": "Marian",
-          "profession": ""
+          "profession": "Empfangsmitarbeiterin"
         },
         {
           "id": "kav-13-15",
           "position": 15,
           "lastName": "Ngankam Mballé",
           "firstName": "Jean",
-          "profession": ""
+          "profession": "Flugzeugabfertiger"
         }
       ]
     },
     {
       "listNumber": 14,
+      "fullName": "WIR IN FRANKFURT",
       "shortName": "WIF",
-      "fullName": "Wir in Frankfurt",
       "candidateCount": 20,
       "candidates": [
         {
@@ -1554,147 +1554,147 @@
           "position": 1,
           "lastName": "Balbi",
           "firstName": "Antonio",
-          "profession": ""
+          "profession": "Künstler"
         },
         {
           "id": "kav-14-2",
           "position": 2,
           "lastName": "Veneziano",
           "firstName": "Santino",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-14-3",
           "position": 3,
           "lastName": "Pelivan",
           "firstName": "Ankica",
-          "profession": ""
+          "profession": "Kita-Asisstentin"
         },
         {
           "id": "kav-14-4",
           "position": 4,
           "lastName": "Râtea",
           "firstName": "Maria-Daniela",
-          "profession": ""
+          "profession": "Sozialarbeiterin"
         },
         {
           "id": "kav-14-5",
           "position": 5,
           "lastName": "Iorio",
           "firstName": "Luigi",
-          "profession": ""
+          "profession": "Kfz-Mechaniker"
         },
         {
           "id": "kav-14-6",
           "position": 6,
           "lastName": "Ahmed Zaye",
           "firstName": "Rolla",
-          "profession": ""
+          "profession": "Regionalleiter"
         },
         {
           "id": "kav-14-7",
           "position": 7,
           "lastName": "De Vita",
           "firstName": "Angela",
-          "profession": ""
+          "profession": "Lehrerin"
         },
         {
           "id": "kav-14-8",
           "position": 8,
           "lastName": "Brillante",
           "firstName": "Luigi",
-          "profession": ""
+          "profession": "Geschäftsführer"
         },
         {
           "id": "kav-14-9",
           "position": 9,
           "lastName": "Mehrabian",
           "firstName": "Sofia",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-14-10",
           "position": 10,
           "lastName": "Dombrowski",
           "firstName": "Rosa",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-14-11",
           "position": 11,
           "lastName": "Madeo",
           "firstName": "Antonio",
-          "profession": ""
+          "profession": "Kaufmann"
         },
         {
           "id": "kav-14-12",
           "position": 12,
           "lastName": "Russo",
           "firstName": "Maria",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-14-13",
           "position": 13,
           "lastName": "Khan Bashir",
           "firstName": "Atif",
-          "profession": ""
+          "profession": "Taxifahrer"
         },
         {
           "id": "kav-14-14",
           "position": 14,
           "lastName": "Inserra",
           "firstName": "Maria",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-14-15",
           "position": 15,
           "lastName": "Ferraro Tunali",
           "firstName": "Caterina",
-          "profession": ""
+          "profession": "Kauffrau"
         },
         {
           "id": "kav-14-16",
           "position": 16,
           "lastName": "Parrino",
           "firstName": "Giusy",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-14-17",
           "position": 17,
           "lastName": "Mohammad",
           "firstName": "Sajad",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-14-18",
           "position": 18,
           "lastName": "Spinelli",
           "firstName": "Pasquale",
-          "profession": ""
+          "profession": "Kaufmann"
         },
         {
           "id": "kav-14-19",
           "position": 19,
           "lastName": "Minisci",
           "firstName": "Francesco",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-14-20",
           "position": 20,
           "lastName": "Fortino",
           "firstName": "Domenico",
-          "profession": ""
+          "profession": "Rentner"
         }
       ]
     },
     {
       "listNumber": 15,
-      "shortName": "LM",
       "fullName": "Liste Mezopotamya",
+      "shortName": "LM",
       "candidateCount": 18,
       "candidates": [
         {
@@ -1702,133 +1702,133 @@
           "position": 1,
           "lastName": "Hacioğlu",
           "firstName": "Haci",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-15-2",
           "position": 2,
           "lastName": "Danışır Akbaba",
           "firstName": "Meliha",
-          "profession": ""
+          "profession": "Erzieherin"
         },
         {
           "id": "kav-15-3",
           "position": 3,
           "lastName": "Yönden",
           "firstName": "Can",
-          "profession": ""
+          "profession": "Bürokaufmann"
         },
         {
           "id": "kav-15-4",
           "position": 4,
           "lastName": "Mohammad",
           "firstName": "Robara",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-15-5",
           "position": 5,
           "lastName": "Şekerli",
           "firstName": "Yazgül",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-15-6",
           "position": 6,
           "lastName": "Yildirim",
           "firstName": "Dilara",
-          "profession": ""
+          "profession": "DaF Lehrkraft"
         },
         {
           "id": "kav-15-7",
           "position": 7,
           "lastName": "Aksu",
           "firstName": "Haydar",
-          "profession": ""
+          "profession": "Kfz-Sachverständiger"
         },
         {
           "id": "kav-15-8",
           "position": 8,
           "lastName": "Kaya",
           "firstName": "İsmet",
-          "profession": ""
+          "profession": "Busfahrer"
         },
         {
           "id": "kav-15-9",
           "position": 9,
           "lastName": "Yaman",
           "firstName": "Delal",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-15-10",
           "position": 10,
           "lastName": "Durgun",
           "firstName": "Kemal",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-15-11",
           "position": 11,
           "lastName": "Kalkan",
           "firstName": "Elif",
-          "profession": ""
+          "profession": "Arbeiterin"
         },
         {
           "id": "kav-15-12",
           "position": 12,
           "lastName": "Zırığ",
           "firstName": "Haci",
-          "profession": ""
+          "profession": "Zahntechniker"
         },
         {
           "id": "kav-15-13",
           "position": 13,
           "lastName": "Yazar",
           "firstName": "Hüseyin",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-15-14",
           "position": 14,
           "lastName": "Taskala",
           "firstName": "Memet",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-15-15",
           "position": 15,
           "lastName": "Şekerli",
           "firstName": "Yilmaz",
-          "profession": ""
+          "profession": "Hausmeister"
         },
         {
           "id": "kav-15-16",
           "position": 16,
           "lastName": "Erbaş",
           "firstName": "Safiye",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-15-17",
           "position": 17,
           "lastName": "Akçay",
           "firstName": "Hasan",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-15-18",
           "position": 18,
           "lastName": "Vural",
           "firstName": "Kürsad Firat",
-          "profession": ""
+          "profession": "Sozialbetreuer"
         }
       ]
     },
     {
       "listNumber": 16,
-      "shortName": "PAU",
       "fullName": "Progressive Ausländer Union",
+      "shortName": "PAU",
       "candidateCount": 12,
       "candidates": [
         {
@@ -1836,91 +1836,91 @@
           "position": 1,
           "lastName": "Khokhar",
           "firstName": "Mabroor",
-          "profession": ""
+          "profession": "Kaufmann"
         },
         {
           "id": "kav-16-2",
           "position": 2,
           "lastName": "Ahmad",
           "firstName": "Amjad",
-          "profession": ""
+          "profession": "Dolmetscher"
         },
         {
           "id": "kav-16-3",
           "position": 3,
           "lastName": "Ahmad",
           "firstName": "Mansoor",
-          "profession": ""
+          "profession": "Senior IT Manager"
         },
         {
           "id": "kav-16-4",
           "position": 4,
           "lastName": "Rashid",
           "firstName": "Abdul",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-16-5",
           "position": 5,
           "lastName": "Abbasi",
           "firstName": "Yousuf",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-16-6",
           "position": 6,
           "lastName": "Ahmed",
           "firstName": "Imtiaz",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-16-7",
           "position": 7,
           "lastName": "Ahmad Ahmad",
           "firstName": "Musawar",
-          "profession": ""
+          "profession": "Arbeitssuchend"
         },
         {
           "id": "kav-16-8",
           "position": 8,
           "lastName": "Abbasi",
           "firstName": "Farhat",
-          "profession": ""
+          "profession": "Arbeiter"
         },
         {
           "id": "kav-16-9",
           "position": 9,
           "lastName": "Iqbal",
           "firstName": "Javed",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-16-10",
           "position": 10,
           "lastName": "Rai",
           "firstName": "Abdul Wahid",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-16-11",
           "position": 11,
           "lastName": "Nasir",
           "firstName": "Maqsood",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-16-12",
           "position": 12,
           "lastName": "Mirza",
           "firstName": "Adeel",
-          "profession": ""
+          "profession": "Angestellter"
         }
       ]
     },
     {
       "listNumber": 17,
-      "shortName": "IND/BHARAT",
       "fullName": "BHARAT",
+      "shortName": "IND",
       "candidateCount": 14,
       "candidates": [
         {
@@ -1928,239 +1928,239 @@
           "position": 1,
           "lastName": "Agarwal",
           "firstName": "Kishan Chand",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-17-2",
           "position": 2,
           "lastName": "Kalra",
           "firstName": "Tarun",
-          "profession": ""
+          "profession": "Informatiker"
         },
         {
           "id": "kav-17-3",
           "position": 3,
           "lastName": "Aujla",
           "firstName": "Gagandeep",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-17-4",
           "position": 4,
           "lastName": "Nangi",
           "firstName": "Arsh",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-17-5",
           "position": 5,
           "lastName": "Verma",
           "firstName": "Poonam",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-17-6",
           "position": 6,
           "lastName": "Nagi",
           "firstName": "Kabir",
-          "profession": ""
+          "profession": "Arbeitnehmer"
         },
         {
           "id": "kav-17-7",
           "position": 7,
           "lastName": "Ramadani",
           "firstName": "Lirije",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-17-8",
           "position": 8,
           "lastName": "Ramadani",
           "firstName": "Embrla",
-          "profession": ""
+          "profession": "Arbeitnehmer"
         },
         {
           "id": "kav-17-9",
           "position": 9,
           "lastName": "Ramadani",
           "firstName": "Mirjeta",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-17-10",
           "position": 10,
           "lastName": "Muttath Wilson",
           "firstName": "Aswin",
-          "profession": ""
+          "profession": "Student"
         },
         {
           "id": "kav-17-11",
           "position": 11,
           "lastName": "Merlin",
           "firstName": "Ashna",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-17-12",
           "position": 12,
           "lastName": "Asharaf",
           "firstName": "Ramshid",
-          "profession": ""
+          "profession": "Student"
         },
         {
           "id": "kav-17-13",
           "position": 13,
           "lastName": "Pattasseril Paulose",
           "firstName": "Jino",
-          "profession": ""
+          "profession": "Student"
         },
         {
           "id": "kav-17-14",
           "position": 14,
           "lastName": "Mehriyar",
           "firstName": "Wais Mohammad",
-          "profession": ""
+          "profession": "Arbeitnehmer"
         }
       ]
     },
     {
       "listNumber": 18,
+      "fullName": "FREIE WÄHLER",
       "shortName": "FREIE WÄHLER",
-      "fullName": "Freie Wähler",
       "candidateCount": 18,
       "candidates": [
         {
           "id": "kav-18-1",
           "position": 1,
-          "lastName": "Dr. Dr. Iranbomy",
+          "lastName": "Iranbomy",
           "firstName": "Shahram",
-          "profession": ""
+          "profession": "Strafverteidiger"
         },
         {
           "id": "kav-18-2",
           "position": 2,
-          "lastName": "Dr. Hanifzadeh",
+          "lastName": "Hanifzadeh",
           "firstName": "Massoud",
           "profession": ""
         },
         {
           "id": "kav-18-3",
           "position": 3,
-          "lastName": "Dr. Gulati",
+          "lastName": "Gulati",
           "firstName": "Mukesh",
-          "profession": ""
+          "profession": "Berater"
         },
         {
           "id": "kav-18-4",
           "position": 4,
           "lastName": "Smith",
           "firstName": "Avery",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-18-5",
           "position": 5,
           "lastName": "Singh",
           "firstName": "Attinderpal",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-18-6",
           "position": 6,
           "lastName": "Kleinschmidt",
           "firstName": "Dorota",
-          "profession": ""
+          "profession": "Pflegerin"
         },
         {
           "id": "kav-18-7",
           "position": 7,
           "lastName": "Merlinger",
           "firstName": "Alina",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-18-8",
           "position": 8,
           "lastName": "Yaâkoubi",
           "firstName": "Hamid",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-18-9",
           "position": 9,
           "lastName": "Yeşiltaş",
           "firstName": "Halil",
-          "profession": ""
+          "profession": "Selbstständiger Unternehmer"
         },
         {
           "id": "kav-18-10",
           "position": 10,
           "lastName": "Nowak",
           "firstName": "Hanna",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-18-11",
           "position": 11,
           "lastName": "Regaei-Arbabi",
           "firstName": "Ariane",
-          "profession": ""
+          "profession": "Ärztin"
         },
         {
           "id": "kav-18-12",
           "position": 12,
           "lastName": "Hornberger",
           "firstName": "Heidemarie",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-18-13",
           "position": 13,
           "lastName": "Singh",
           "firstName": "Sarbjit",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-18-14",
           "position": 14,
           "lastName": "Shafieha",
           "firstName": "Sadegh",
-          "profession": ""
+          "profession": "Dipl.-Ingenieur"
         },
         {
           "id": "kav-18-15",
           "position": 15,
           "lastName": "Zaribaf",
           "firstName": "Ashrafolsadat",
-          "profession": ""
+          "profession": "Dipl.-Soziologin"
         },
         {
           "id": "kav-18-16",
           "position": 16,
           "lastName": "Regaei-Arbabi",
           "firstName": "Assaddollah",
-          "profession": ""
+          "profession": "Dipl.-Ingenieur"
         },
         {
           "id": "kav-18-17",
           "position": 17,
           "lastName": "Hossain",
           "firstName": "Md Amir",
-          "profession": ""
+          "profession": "Hotelrezeptionist"
         },
         {
           "id": "kav-18-18",
           "position": 18,
           "lastName": "Boateng",
           "firstName": "Jamila",
-          "profession": ""
+          "profession": "Angestellte"
         }
       ]
     },
     {
       "listNumber": 19,
-      "shortName": "FDP",
       "fullName": "Freie Demokratische Partei",
+      "shortName": "FDP",
       "candidateCount": 24,
       "candidates": [
         {
@@ -2168,42 +2168,42 @@
           "position": 1,
           "lastName": "Suprun",
           "firstName": "Viktoriia",
-          "profession": ""
+          "profession": "Pflegedienstleiterin"
         },
         {
           "id": "kav-19-2",
           "position": 2,
           "lastName": "Lermioğlu",
           "firstName": "Hasbi",
-          "profession": ""
+          "profession": "Abteilungsleiter"
         },
         {
           "id": "kav-19-3",
           "position": 3,
           "lastName": "Rey Fernandez",
           "firstName": "Florian",
-          "profession": ""
+          "profession": "Beraterin"
         },
         {
           "id": "kav-19-4",
           "position": 4,
           "lastName": "Galizia",
           "firstName": "Giuseppe",
-          "profession": ""
+          "profession": "Kranführer"
         },
         {
           "id": "kav-19-5",
           "position": 5,
           "lastName": "Șahin",
           "firstName": "Bilal",
-          "profession": ""
+          "profession": "Kfz-Mechaniker"
         },
         {
           "id": "kav-19-6",
           "position": 6,
           "lastName": "Murečehajić",
           "firstName": "Emra",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-19-7",
@@ -2217,126 +2217,126 @@
           "position": 8,
           "lastName": "Lermioğlu",
           "firstName": "Sebil",
-          "profession": ""
+          "profession": "Tourismuskauffrau"
         },
         {
           "id": "kav-19-9",
           "position": 9,
           "lastName": "Isip",
           "firstName": "Mary",
-          "profession": ""
+          "profession": "Auszubildende"
         },
         {
           "id": "kav-19-10",
           "position": 10,
           "lastName": "Donges",
           "firstName": "Mary",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-19-11",
           "position": 11,
           "lastName": "Turhan",
           "firstName": "Hüseyin",
-          "profession": ""
+          "profession": "Objektleiter"
         },
         {
           "id": "kav-19-12",
           "position": 12,
           "lastName": "Löw",
           "firstName": "Calvin",
-          "profession": ""
+          "profession": "Student"
         },
         {
           "id": "kav-19-13",
           "position": 13,
           "lastName": "Lermioğlu",
           "firstName": "Furkan",
-          "profession": ""
+          "profession": "Auszubildender"
         },
         {
           "id": "kav-19-14",
           "position": 14,
           "lastName": "Loreto",
           "firstName": "Rosina",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-19-15",
           "position": 15,
           "lastName": "Saballa",
           "firstName": "Calvin",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-19-16",
           "position": 16,
           "lastName": "Gonzales",
           "firstName": "Janice",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-19-17",
           "position": 17,
           "lastName": "Calafiore",
           "firstName": "Giuseppe",
-          "profession": ""
+          "profession": "Auslieferungsfahrer"
         },
         {
           "id": "kav-19-18",
           "position": 18,
           "lastName": "Şahin",
           "firstName": "Yasemin",
-          "profession": ""
+          "profession": "Einzelhandelskauffrau"
         },
         {
           "id": "kav-19-19",
           "position": 19,
           "lastName": "Francem",
           "firstName": "Roselle",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-19-20",
           "position": 20,
           "lastName": "Papaccio",
           "firstName": "Raffaele",
-          "profession": ""
+          "profession": "Wertpapierhändler"
         },
         {
           "id": "kav-19-21",
           "position": 21,
           "lastName": "Sedlo",
           "firstName": "Marina",
-          "profession": ""
+          "profession": "Referentin"
         },
         {
           "id": "kav-19-22",
           "position": 22,
           "lastName": "Schnitzler",
           "firstName": "Isabel",
-          "profession": ""
+          "profession": "Rechtsanwältin"
         },
         {
           "id": "kav-19-23",
           "position": 23,
           "lastName": "Ziegler",
           "firstName": "Milagros",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-19-24",
           "position": 24,
           "lastName": "Papke",
           "firstName": "Joanna",
-          "profession": ""
+          "profession": "Angestellte"
         }
       ]
     },
     {
       "listNumber": 20,
-      "shortName": "ANA",
       "fullName": "Liste Anadolu",
+      "shortName": "ANA",
       "candidateCount": 13,
       "candidates": [
         {
@@ -2344,28 +2344,28 @@
           "position": 1,
           "lastName": "Altıok",
           "firstName": "Mesut",
-          "profession": ""
+          "profession": "Busfahrer"
         },
         {
           "id": "kav-20-2",
           "position": 2,
           "lastName": "Altıok",
           "firstName": "Mehmet",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-20-3",
           "position": 3,
           "lastName": "Öndemir",
           "firstName": "Selma",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-20-4",
           "position": 4,
           "lastName": "Günaydin",
           "firstName": "Sahinur",
-          "profession": ""
+          "profession": "Einzelhandelskauffrau"
         },
         {
           "id": "kav-20-5",
@@ -2379,63 +2379,63 @@
           "position": 6,
           "lastName": "Karataş",
           "firstName": "Canan",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-20-7",
           "position": 7,
           "lastName": "Altıok",
           "firstName": "Aylin",
-          "profession": ""
+          "profession": "Auszubildende"
         },
         {
           "id": "kav-20-8",
           "position": 8,
           "lastName": "Nurman",
           "firstName": "Fatma",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-20-9",
           "position": 9,
           "lastName": "Arslan",
           "firstName": "Nadir",
-          "profession": ""
+          "profession": "Taxiunternehmer"
         },
         {
           "id": "kav-20-10",
           "position": 10,
           "lastName": "Boşnak",
           "firstName": "Hasan",
-          "profession": ""
+          "profession": "Koch"
         },
         {
           "id": "kav-20-11",
           "position": 11,
           "lastName": "Turgut",
           "firstName": "Erçin",
-          "profession": ""
+          "profession": "Baumpfleger"
         },
         {
           "id": "kav-20-12",
           "position": 12,
           "lastName": "Ceyhan",
           "firstName": "Nurettin",
-          "profession": ""
+          "profession": "Berufskraftfahrer"
         },
         {
           "id": "kav-20-13",
           "position": 13,
           "lastName": "Duman",
           "firstName": "Ziya",
-          "profession": ""
+          "profession": "Selbstständig"
         }
       ]
     },
     {
       "listNumber": 21,
-      "shortName": "AFG",
       "fullName": "Afghanische Liste",
+      "shortName": "AFG",
       "candidateCount": 16,
       "candidates": [
         {
@@ -2443,119 +2443,119 @@
           "position": 1,
           "lastName": "Zarif-Ander",
           "firstName": "Hosai",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-21-2",
           "position": 2,
           "lastName": "Sher Khan",
           "firstName": "Rona",
-          "profession": ""
+          "profession": "Arbeitnehmerin"
         },
         {
           "id": "kav-21-3",
           "position": 3,
           "lastName": "Zarif",
           "firstName": "Suria",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-21-4",
           "position": 4,
           "lastName": "Shir",
           "firstName": "Narges",
-          "profession": ""
+          "profession": "Verkäuferin"
         },
         {
           "id": "kav-21-5",
           "position": 5,
           "lastName": "Noormalal",
           "firstName": "Worechmina",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-21-6",
           "position": 6,
           "lastName": "Zarif",
           "firstName": "Mohammad",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-21-7",
           "position": 7,
           "lastName": "Shir",
           "firstName": "Murad",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-21-8",
           "position": 8,
           "lastName": "Shir",
           "firstName": "Hemat",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-21-9",
           "position": 9,
           "lastName": "Shir",
           "firstName": "Parcha",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-21-10",
           "position": 10,
           "lastName": "Shir",
           "firstName": "Bibi",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-21-11",
           "position": 11,
           "lastName": "Shir",
           "firstName": "Daryakhan",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-21-12",
           "position": 12,
           "lastName": "Shir",
           "firstName": "Rahat",
-          "profession": ""
+          "profession": "Hausmann"
         },
         {
           "id": "kav-21-13",
           "position": 13,
           "lastName": "Shir",
           "firstName": "Kabela",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-21-14",
           "position": 14,
           "lastName": "Shir",
           "firstName": "Deewa",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-21-15",
           "position": 15,
           "lastName": "Shir",
           "firstName": "Sarah",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-21-16",
           "position": 16,
           "lastName": "Noormalal",
           "firstName": "Amanulla",
-          "profession": ""
+          "profession": "Rentner"
         }
       ]
     },
     {
       "listNumber": 22,
-      "shortName": "BFF",
       "fullName": "Bürger Für Frankfurt",
+      "shortName": "BFF",
       "candidateCount": 19,
       "candidates": [
         {
@@ -2563,56 +2563,56 @@
           "position": 1,
           "lastName": "Chen",
           "firstName": "Qing",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-22-2",
           "position": 2,
           "lastName": "Debessai",
           "firstName": "Amanuel",
-          "profession": ""
+          "profession": "Pastor"
         },
         {
           "id": "kav-22-3",
           "position": 3,
           "lastName": "Ndrejaj",
           "firstName": "Simon",
-          "profession": ""
+          "profession": "Kunstmaler/Lehrer"
         },
         {
           "id": "kav-22-4",
           "position": 4,
           "lastName": "Korchuk",
           "firstName": "Marina",
-          "profession": ""
+          "profession": "Psychologin"
         },
         {
           "id": "kav-22-5",
           "position": 5,
           "lastName": "Wernicke",
           "firstName": "Marta",
-          "profession": ""
+          "profession": "Kosmetikerin"
         },
         {
           "id": "kav-22-6",
           "position": 6,
           "lastName": "Ertaş",
           "firstName": "Serhat",
-          "profession": ""
+          "profession": "Objektleiter"
         },
         {
           "id": "kav-22-7",
           "position": 7,
           "lastName": "Liang",
           "firstName": "Yanzhu",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-22-8",
           "position": 8,
           "lastName": "De Palma",
           "firstName": "Francesco",
-          "profession": ""
+          "profession": "Friseurmeister"
         },
         {
           "id": "kav-22-9",
@@ -2626,77 +2626,77 @@
           "position": 10,
           "lastName": "de Barra",
           "firstName": "Angela",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-22-11",
           "position": 11,
           "lastName": "Gong",
           "firstName": "Jiangen",
-          "profession": ""
+          "profession": "Selbstständig"
         },
         {
           "id": "kav-22-12",
           "position": 12,
           "lastName": "Mikulić",
           "firstName": "Ivica",
-          "profession": ""
+          "profession": "Manager"
         },
         {
           "id": "kav-22-13",
           "position": 13,
           "lastName": "Tadros",
           "firstName": "Rashad",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-22-14",
           "position": 14,
           "lastName": "Zachariasz",
           "firstName": "Wiktoria",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-22-15",
           "position": 15,
           "lastName": "Li",
           "firstName": "Fang",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-22-16",
           "position": 16,
           "lastName": "Ndrejaj",
           "firstName": "Pashke",
-          "profession": ""
+          "profession": "Friseurin"
         },
         {
           "id": "kav-22-17",
           "position": 17,
           "lastName": "Chen",
           "firstName": "Meilin",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-22-18",
           "position": 18,
           "lastName": "Fengsheng",
           "firstName": "Nie",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-22-19",
           "position": 19,
           "lastName": "Liang",
           "firstName": "Xiao",
-          "profession": ""
+          "profession": "Hausfrau"
         }
       ]
     },
     {
       "listNumber": 23,
-      "shortName": "DIALOGINITIATIVE",
       "fullName": "DAJ ZNAK Polnische Dialoginitiative für Frankfurt",
+      "shortName": "DIALOGINITIATIVE",
       "candidateCount": 14,
       "candidates": [
         {
@@ -2704,105 +2704,105 @@
           "position": 1,
           "lastName": "Lange",
           "firstName": "Barbara",
-          "profession": ""
+          "profession": "Juristin"
         },
         {
           "id": "kav-23-2",
           "position": 2,
           "lastName": "Łuczak Krawczyk",
           "firstName": "Maria",
-          "profession": ""
+          "profession": "Grafikerin"
         },
         {
           "id": "kav-23-3",
           "position": 3,
           "lastName": "Krzeminski",
           "firstName": "Robert",
-          "profession": ""
+          "profession": "Werbekaufmann"
         },
         {
           "id": "kav-23-4",
           "position": 4,
           "lastName": "Lachowicz-Łuczak",
           "firstName": "Monika",
-          "profession": ""
+          "profession": "Juristin"
         },
         {
           "id": "kav-23-5",
           "position": 5,
           "lastName": "Tyra",
           "firstName": "Romuald",
-          "profession": ""
+          "profession": "Dipl.-Ingenieur"
         },
         {
           "id": "kav-23-6",
           "position": 6,
           "lastName": "Wąsowska",
           "firstName": "Paulina",
-          "profession": ""
+          "profession": "Zahnärztin"
         },
         {
           "id": "kav-23-7",
           "position": 7,
           "lastName": "von Bronk",
           "firstName": "Maximilian",
-          "profession": ""
+          "profession": "IT-Produktmanager"
         },
         {
           "id": "kav-23-8",
           "position": 8,
           "lastName": "Gryń",
           "firstName": "Danuta",
-          "profession": ""
+          "profession": "Germanistin"
         },
         {
           "id": "kav-23-9",
           "position": 9,
           "lastName": "Kozieński",
           "firstName": "Bronisław",
-          "profession": ""
+          "profession": "Tischler"
         },
         {
           "id": "kav-23-10",
           "position": 10,
           "lastName": "Olekszyk",
           "firstName": "Anna",
-          "profession": ""
+          "profession": "Philologin"
         },
         {
           "id": "kav-23-11",
           "position": 11,
           "lastName": "Kozieł",
           "firstName": "Natalia",
-          "profession": ""
+          "profession": "Hausfrau"
         },
         {
           "id": "kav-23-12",
           "position": 12,
-          "lastName": "Dr. Saternus",
+          "lastName": "Saternus",
           "firstName": "Zofia",
-          "profession": ""
+          "profession": "Wissenschaftlerin"
         },
         {
           "id": "kav-23-13",
           "position": 13,
           "lastName": "Rzeźnik",
           "firstName": "Patrycja",
-          "profession": ""
+          "profession": "Compliance Officer"
         },
         {
           "id": "kav-23-14",
           "position": 14,
           "lastName": "Janicka",
           "firstName": "Katarzyna",
-          "profession": ""
+          "profession": "Bankkauffrau"
         }
       ]
     },
     {
       "listNumber": 24,
-      "shortName": "CL",
       "fullName": "Chinesische Liste",
+      "shortName": "CL",
       "candidateCount": 16,
       "candidates": [
         {
@@ -2810,119 +2810,119 @@
           "position": 1,
           "lastName": "Gu",
           "firstName": "Yuhua",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-24-2",
           "position": 2,
           "lastName": "Zhang",
           "firstName": "Haichen",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-24-3",
           "position": 3,
           "lastName": "Liu",
           "firstName": "Xiaodong",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-24-4",
           "position": 4,
           "lastName": "Yang",
           "firstName": "Ming",
-          "profession": ""
+          "profession": "Unternehmensberater"
         },
         {
           "id": "kav-24-5",
           "position": 5,
           "lastName": "Xu",
           "firstName": "Guoqin",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-24-6",
           "position": 6,
           "lastName": "Yang",
           "firstName": "Yige",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-24-7",
           "position": 7,
           "lastName": "Shao",
           "firstName": "Yaqiong",
-          "profession": ""
+          "profession": "Rentnerin"
         },
         {
           "id": "kav-24-8",
           "position": 8,
           "lastName": "Liu",
           "firstName": "Xin",
-          "profession": ""
+          "profession": "Angestellte"
         },
         {
           "id": "kav-24-9",
           "position": 9,
           "lastName": "Li",
           "firstName": "Zhengjun",
-          "profession": ""
+          "profession": "Rentner"
         },
         {
           "id": "kav-24-10",
           "position": 10,
           "lastName": "Dong",
           "firstName": "Shude",
-          "profession": ""
+          "profession": "Freiberufler"
         },
         {
           "id": "kav-24-11",
           "position": 11,
           "lastName": "Zhu",
           "firstName": "Hanchao",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-24-12",
           "position": 12,
           "lastName": "Gao",
           "firstName": "Minghao",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-24-13",
           "position": 13,
           "lastName": "Cui",
           "firstName": "Li",
-          "profession": ""
+          "profession": "Unternehmer"
         },
         {
           "id": "kav-24-14",
           "position": 14,
           "lastName": "Li",
           "firstName": "Shun",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-24-15",
           "position": 15,
           "lastName": "Wang",
           "firstName": "Mengmeng",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-24-16",
           "position": 16,
           "lastName": "Han",
           "firstName": "Yu",
-          "profession": ""
+          "profession": "Freiberufler"
         }
       ]
     },
     {
       "listNumber": 25,
-      "shortName": "Volt",
       "fullName": "Volt Deutschland",
+      "shortName": "Volt",
       "candidateCount": 13,
       "candidates": [
         {
@@ -2930,98 +2930,98 @@
           "position": 1,
           "lastName": "Ivković",
           "firstName": "Maja",
-          "profession": ""
+          "profession": "B.A. BWL"
         },
         {
           "id": "kav-25-2",
           "position": 2,
           "lastName": "Iliev",
           "firstName": "Georgi",
-          "profession": ""
+          "profession": "Videoproduzent"
         },
         {
           "id": "kav-25-3",
           "position": 3,
           "lastName": "Koohestanian",
           "firstName": "Maral",
-          "profession": ""
+          "profession": "Dezernentin"
         },
         {
           "id": "kav-25-4",
           "position": 4,
           "lastName": "Lúcio Melgueira",
           "firstName": "Pedro",
-          "profession": ""
+          "profession": "Geschäftsführer"
         },
         {
           "id": "kav-25-5",
           "position": 5,
           "lastName": "Wieczorek",
           "firstName": "Katarzyna",
-          "profession": ""
+          "profession": "Musikerin"
         },
         {
           "id": "kav-25-6",
           "position": 6,
-          "lastName": "Dr. O'Sullivan",
+          "lastName": "O‘Sullivan",
           "firstName": "Sean",
-          "profession": ""
+          "profession": "Arzt"
         },
         {
           "id": "kav-25-7",
           "position": 7,
           "lastName": "Thoms",
           "firstName": "Sandra",
-          "profession": ""
+          "profession": "Geschäftsführerin"
         },
         {
           "id": "kav-25-8",
           "position": 8,
           "lastName": "Boumart",
           "firstName": "Rachid",
-          "profession": ""
+          "profession": "Geschäftsführer"
         },
         {
           "id": "kav-25-9",
           "position": 9,
           "lastName": "Bonarowska",
           "firstName": "Nina",
-          "profession": ""
+          "profession": "Regionalleitung Kitas"
         },
         {
           "id": "kav-25-10",
           "position": 10,
           "lastName": "Zelies",
           "firstName": "Cedric",
-          "profession": ""
+          "profession": "Angestellter"
         },
         {
           "id": "kav-25-11",
           "position": 11,
           "lastName": "Zilch",
           "firstName": "Dominique",
-          "profession": ""
+          "profession": "IT-Projektleiter"
         },
         {
           "id": "kav-25-12",
           "position": 12,
           "lastName": "Tabares Arias",
           "firstName": "Julian",
-          "profession": ""
+          "profession": "Grafiker"
         },
         {
           "id": "kav-25-13",
           "position": 13,
           "lastName": "Piątyszek",
           "firstName": "Tomasz",
-          "profession": ""
+          "profession": "Kfm. Angestellter"
         }
       ]
     },
     {
       "listNumber": 26,
-      "shortName": "Die Linke",
       "fullName": "Die Linke",
+      "shortName": "Die Linke",
       "candidateCount": 9,
       "candidates": [
         {
@@ -3029,35 +3029,35 @@
           "position": 1,
           "lastName": "Arsalahn",
           "firstName": "Djamil",
-          "profession": ""
+          "profession": "Projektmanager"
         },
         {
           "id": "kav-26-2",
           "position": 2,
           "lastName": "Rahi",
           "firstName": "Junes",
-          "profession": ""
+          "profession": "Student"
         },
         {
           "id": "kav-26-3",
           "position": 3,
           "lastName": "Zupčić",
           "firstName": "Marija Terezija",
-          "profession": ""
+          "profession": "Exam. Pflegefachfrau"
         },
         {
           "id": "kav-26-4",
           "position": 4,
           "lastName": "Ayboga",
           "firstName": "Ercan",
-          "profession": ""
+          "profession": "Bauingenieur"
         },
         {
           "id": "kav-26-5",
           "position": 5,
           "lastName": "Sharifi",
           "firstName": "Asada",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-26-6",
@@ -3071,21 +3071,21 @@
           "position": 7,
           "lastName": "Waissi",
           "firstName": "Mona",
-          "profession": ""
+          "profession": "Studentin"
         },
         {
           "id": "kav-26-8",
           "position": 8,
           "lastName": "Logan",
           "firstName": "Samuel",
-          "profession": ""
+          "profession": "Lehrer"
         },
         {
           "id": "kav-26-9",
           "position": 9,
           "lastName": "Kamboua",
           "firstName": "Anissa",
-          "profession": ""
+          "profession": "Studentin"
         }
       ]
     }

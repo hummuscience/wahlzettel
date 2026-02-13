@@ -33,7 +33,7 @@ const PARTY_COLORS: Record<string, string> = {
   'WIF': '#6a5acd',
   'LM': '#dc143c',
   'PAU': '#20b2aa',
-  'IND/BHARAT': '#ff6600',
+  'IND': '#ff6600',
   'ANA': '#c71585',
   'AFG': '#228b22',
   'DIALOGINITIATIVE': '#cd5c5c',
