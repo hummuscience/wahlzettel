@@ -47,10 +47,13 @@ function App() {
   useEffect(() => {
     if (hashLoaded.current) return;
     const hash = window.location.hash;
-    const match = hash.match(/^#v=(.+)$/);
+    const binaryMatch = hash.match(/^#b=(.+)$/);
+    const jsonMatch = hash.match(/^#v=(.+)$/);
+    const match = binaryMatch || jsonMatch;
     if (!match) return;
     hashLoaded.current = true;
-    decodeVoteState(match[1])
+    const format = binaryMatch ? 'binary' : 'json';
+    decodeVoteState(match[1], format as 'binary' | 'json')
       .then(decoded => {
         setBallotType(decoded.electionType);
         // We'll load the state after election data arrives
@@ -103,7 +106,7 @@ function App() {
   const handleShare = useCallback(async () => {
     if (!ballotType) return;
     const encoded = await encodeVoteState(state, ballotType);
-    const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
+    const url = `${window.location.origin}${window.location.pathname}#b=${encoded}`;
     const partyList = electionData?.parties.map(p => ({
       listNumber: p.listNumber,
       shortName: p.shortName,
@@ -119,7 +122,7 @@ function App() {
   const handlePrint = useCallback(async () => {
     if (!ballotType) return;
     const encoded = await encodeVoteState(state, ballotType);
-    const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
+    const url = `${window.location.origin}${window.location.pathname}#b=${encoded}`;
     setPrintUrl(url);
     // Let React render the print component, then trigger print
     requestAnimationFrame(() => {

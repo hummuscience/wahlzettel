@@ -49,7 +49,7 @@ export function SummaryPanel({
 
   const handleShare = async () => {
     const encoded = await encodeVoteState(voteState, electionType);
-    const url = `${window.location.origin}${window.location.pathname}#v=${encoded}`;
+    const url = `${window.location.origin}${window.location.pathname}#b=${encoded}`;
     const segments = buildPartySegments(stimmenPerParty, parties, totalUsed);
     setShareData({ url, segments });
   };
