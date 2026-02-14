@@ -50,12 +50,12 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
 
   return (
     <header className="bg-frankfurt-blue text-white relative z-60">
-      <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-        <div>
-          <h1 className="text-xl md:text-2xl font-bold">{t('appTitle')}</h1>
-          <p className="text-sm text-white/80 mt-0.5">{t('appSubtitle')}</p>
+      <div className="max-w-5xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-y-2">
+        <div className="min-w-0">
+          <h1 className="text-lg sm:text-xl md:text-2xl font-bold truncate">{t('appTitle')}</h1>
+          <p className="text-sm text-white/80 mt-0.5 hidden sm:block">{t('appSubtitle')}</p>
         </div>
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           {/* Switch ballot button */}
           {onSwitchBallot && (
             <button
