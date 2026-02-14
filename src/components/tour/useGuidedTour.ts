@@ -20,14 +20,13 @@ export function useGuidedTour(): GuidedTourState {
   const [currentStep, setCurrentStep] = useState(0);
   const [shouldPulse, setShouldPulse] = useState(false);
 
-  // Auto-start on first visit (desktop only), pulse on mobile
+  // Highlight ? button on first visit; auto-start tour on desktop
   useEffect(() => {
     const completed = localStorage.getItem(STORAGE_KEY);
     if (!completed) {
+      setShouldPulse(true);
       const isMobile = window.innerWidth < MOBILE_BREAKPOINT;
-      if (isMobile) {
-        setShouldPulse(true);
-      } else {
+      if (!isMobile) {
         const timer = setTimeout(() => setIsActive(true), 800);
         return () => clearTimeout(timer);
       }
@@ -37,6 +36,7 @@ export function useGuidedTour(): GuidedTourState {
   const close = useCallback(() => {
     setIsActive(false);
     setCurrentStep(0);
+    setShouldPulse(false);
     localStorage.setItem(STORAGE_KEY, 'true');
   }, []);
 
