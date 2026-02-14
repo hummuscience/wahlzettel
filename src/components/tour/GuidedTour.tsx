@@ -4,6 +4,7 @@ import {
   offset,
   flip,
   shift,
+  limitShift,
   arrow,
   autoUpdate,
   FloatingPortal,
@@ -54,21 +55,30 @@ export function GuidedTour({ isActive, currentStep, totalStimmen, onNext, onPrev
     placement: step ? toPlacement(step.position) : 'bottom',
     middleware: [
       offset(PADDING + 8), // padding around target + arrow height
-      flip({ fallbackAxisSideDirection: 'start' }),
-      shift({ padding: 16 }),
+      flip({ fallbackAxisSideDirection: 'start', padding: 16 }),
+      shift({ padding: 16, crossAxis: true, limiter: limitShift() }),
       arrow({ element: arrowRef, padding: 12 }),
     ],
     whileElementsMounted: autoUpdate,
   });
 
-  // Anchor to the data-tour target via a virtual element
+  // Anchor to the data-tour target via a virtual element.
+  // For elements taller than half the viewport, use a small rect at the
+  // top of the visible portion so the tooltip stays on-screen.
   useEffect(() => {
     if (!step) return;
     refs.setPositionReference({
       getBoundingClientRect() {
         const el = resolveTarget(step.target);
         if (!el) return new DOMRect();
-        return el.getBoundingClientRect();
+        const rect = el.getBoundingClientRect();
+        const vh = window.innerHeight;
+        // If the element fits comfortably, use it as-is
+        if (rect.height <= vh * 0.5) return rect;
+        // For oversized targets, anchor to a small rect at the top of
+        // the visible portion so there's room for the tooltip below
+        const visTop = Math.max(rect.top, 0);
+        return new DOMRect(rect.left, visTop, rect.width, Math.min(80, vh * 0.15));
       },
     });
   }, [step, refs]);
