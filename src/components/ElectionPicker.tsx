@@ -226,14 +226,14 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
   if (step.view === 'germany') {
     return (
       <div className="min-h-[60vh] flex items-center justify-center px-4 py-12">
-        <div className="max-w-2xl w-full">
+        <div className="max-w-3xl w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-2 text-gray-900">
             {t('citizenshipTitle')}
           </h2>
           <p className="text-center text-gray-500 mb-6 text-sm">
             {t('citizenshipSubtitle')}
           </p>
-          <div className="relative mx-auto max-w-md">
+          <div className="relative mx-auto max-w-md md:max-w-xl lg:max-w-2xl">
             <svg viewBox="0 0 586 793" className="w-full h-auto">
               {GERMANY_PATHS.map(state => {
                 const hasCities = STATES_WITH_CITIES.has(state.id);
