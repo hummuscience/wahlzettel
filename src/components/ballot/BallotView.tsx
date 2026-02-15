@@ -25,6 +25,7 @@ export function BallotView({
   getListAllocation,
 }: BallotViewProps) {
   const { t } = useTranslation('ballot');
+  const { t: te } = useTranslation('election');
   const [activeIndex, setActiveIndex] = useState(0);
 
   const parties = electionData.parties;
@@ -51,15 +52,29 @@ export function BallotView({
   const listAlloc = getListAllocation(activeParty.listNumber);
   const struckIds = listSelections[activeParty.listNumber]?.struckCandidateIds || [];
 
+  // When a list vote is active, individual votes reduce the list allocation,
+  // so we only block when individual votes alone reach totalStimmen.
+  const hasActiveList = Object.values(listSelections).some(s => s.isSelected);
+  let maxReached: boolean;
+  if (hasActiveList) {
+    let individualTotal = 0;
+    for (const vote of Object.values(candidateVotes)) {
+      individualTotal += vote.stimmen;
+    }
+    maxReached = individualTotal >= electionData.totalStimmen;
+  } else {
+    maxReached = derived.stimmenRemaining <= 0;
+  }
+
   return (
     <div data-tour="ballot" className="py-4" id="ballot">
       <div className="text-center mb-3">
         <h2 className="text-lg font-bold">{t('stimmzettel')}</h2>
         <p className="text-sm text-gray-500">
-          {electionData.election === 'kav' ? t('fuerDieWahlZur') : t('fuerDieWahlDer')}{' '}
-          {electionData.election === 'kav' ? t('kavName') : t('stadtverordnetenversammlung')}
+          {te('ballotBodyPreposition', { defaultValue: t('fuerDieWahlDer') })}{' '}
+          {te('ballotBodyName', { defaultValue: t('stadtverordnetenversammlung') })}
         </p>
-        <p className="text-xs text-gray-400">{t('am15Maerz')}</p>
+        <p className="text-xs text-gray-400">{te('ballotSubtitle', { defaultValue: t('am15Maerz') })}</p>
       </div>
 
       <div className="bg-white rounded-lg shadow-lg border border-gray-200 overflow-hidden flex flex-col lg:flex-row" style={{ height: 'min(75vh, 700px)' }}>
@@ -77,7 +92,7 @@ export function BallotView({
             listAllocation={listAlloc}
             candidateVotes={candidateVotes}
             struckCandidateIds={struckIds}
-            maxReached={derived.stimmenRemaining <= 0}
+            maxReached={maxReached}
             dispatch={dispatch}
             onPrev={handlePrev}
             onNext={handleNext}

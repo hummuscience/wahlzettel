@@ -117,14 +117,22 @@ function roundRect(
 
 // --- Share card rendering ---
 
-const FRANKFURT_BLUE = '#003870';
-const FRANKFURT_BLUE_DARK = '#002650';
+function getThemeColors() {
+  const style = getComputedStyle(document.documentElement);
+  return {
+    primary: style.getPropertyValue('--color-election-primary').trim() || '#003870',
+    dark: style.getPropertyValue('--color-election-primary-dark').trim() || '#002650',
+  };
+}
 
 function renderShareCard(
   canvas: HTMLCanvasElement,
   shareUrl: string,
   segments: PartySegment[],
+  title: string,
+  subtitle: string,
 ) {
+  const { primary, dark } = getThemeColors();
   const pad = 48;
   const qrSize = 360;
   const titleY = pad + 44;
@@ -139,8 +147,8 @@ function renderShareCard(
 
   // Background gradient
   const grad = ctx.createLinearGradient(0, 0, 0, cardH);
-  grad.addColorStop(0, FRANKFURT_BLUE);
-  grad.addColorStop(1, FRANKFURT_BLUE_DARK);
+  grad.addColorStop(0, primary);
+  grad.addColorStop(1, dark);
   ctx.fillStyle = grad;
   roundRect(ctx, 0, 0, cardW, cardH, 24);
   ctx.fill();
@@ -149,12 +157,12 @@ function renderShareCard(
   ctx.fillStyle = '#ffffff';
   ctx.font = 'bold 36px system-ui, -apple-system, sans-serif';
   ctx.textAlign = 'center';
-  ctx.fillText('Mein Wahlzettel', cardW / 2, titleY);
+  ctx.fillText(title, cardW / 2, titleY);
 
   // Subtitle
   ctx.fillStyle = 'rgba(255,255,255,0.7)';
   ctx.font = '20px system-ui, -apple-system, sans-serif';
-  ctx.fillText('Kommunalwahl Frankfurt 2026', cardW / 2, subtitleY);
+  ctx.fillText(subtitle, cardW / 2, subtitleY);
 
   // QR code
   const qrX = (cardW - qrSize) / 2;
@@ -179,12 +187,16 @@ export function ShareDialog({
     dialogRef.current?.showModal();
   }, []);
 
+  const { t: te } = useTranslation('election');
+  const shareTitle = te('shareCardTitle', { defaultValue: 'Mein Wahlzettel' });
+  const shareSubtitle = te('shareCardSubtitle', { defaultValue: 'Kommunalwahl 2026' });
+
   const generateCard = useCallback(() => {
     const canvas = cardCanvasRef.current;
     if (!canvas) return;
-    renderShareCard(canvas, shareUrl, partySegments);
+    renderShareCard(canvas, shareUrl, partySegments, shareTitle, shareSubtitle);
     setCardDataUrl(canvas.toDataURL('image/png'));
-  }, [shareUrl, partySegments]);
+  }, [shareUrl, partySegments, shareTitle, shareSubtitle]);
 
   useEffect(() => {
     generateCard();
@@ -210,8 +222,8 @@ export function ShareDialog({
     if (navigator.share && navigator.canShare?.({ files: [file] })) {
       await navigator.share({
         files: [file],
-        title: 'Mein Wahlzettel',
-        text: 'Schau dir meine Stimmverteilung an!',
+        title: shareTitle,
+        text: te('shareText', { defaultValue: 'Schau dir meine Stimmverteilung an!' }),
       });
     } else {
       // Fallback: download
@@ -253,7 +265,7 @@ export function ShareDialog({
         {/* Share / Download image button */}
         <button
           onClick={handleShareImage}
-          className="w-full mb-3 px-4 py-2.5 text-sm font-medium bg-frankfurt-blue text-white rounded-lg hover:bg-frankfurt-blue/90 flex items-center justify-center gap-2"
+          className="w-full mb-3 px-4 py-2.5 text-sm font-medium bg-election-primary text-white rounded-lg hover:bg-election-primary/90 flex items-center justify-center gap-2"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
             <path d="M13 4.5a2.5 2.5 0 11.702 1.737L6.97 9.604a2.518 2.518 0 010 .799l6.733 3.366a2.5 2.5 0 11-.671 1.341l-6.733-3.366a2.5 2.5 0 110-3.483l6.733-3.366A2.52 2.52 0 0113 4.5z" />

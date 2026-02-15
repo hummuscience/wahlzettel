@@ -10,13 +10,13 @@ export function KopfleisteCheckbox({ isChecked, onToggle, stimmenFromList }: Kop
   const { t } = useTranslation('ballot');
 
   return (
-    <div data-tour="kopfleiste" className={`px-3 py-2 border-b-2 border-gray-200 ${isChecked ? 'bg-frankfurt-blue-light' : 'bg-gray-50'}`}>
+    <div data-tour="kopfleiste" className={`px-3 py-2 border-b-2 border-gray-200 ${isChecked ? 'bg-election-primary-light' : 'bg-gray-50'}`}>
       <label className="flex items-center gap-2 cursor-pointer">
         <input
           type="checkbox"
           checked={isChecked}
           onChange={onToggle}
-          className="w-5 h-5 rounded border-gray-300 text-frankfurt-blue accent-frankfurt-blue"
+          className="w-5 h-5 rounded border-gray-300 text-election-primary accent-election-primary"
         />
         <span className="font-medium text-sm">{t('dieseListeWaehlen')}</span>
         <span

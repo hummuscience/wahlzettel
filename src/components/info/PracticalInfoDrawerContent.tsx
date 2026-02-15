@@ -10,6 +10,9 @@ const infoItems = [
 
 export function PracticalInfoDrawerContent() {
   const { t } = useTranslation('info');
+  const { t: te } = useTranslation('election');
+
+  const v = (key: string) => te(key, { defaultValue: t(key) });
 
   return (
     <div>
@@ -24,7 +27,7 @@ export function PracticalInfoDrawerContent() {
               <span className="text-base">{item.icon}</span>
               <h3 className="font-semibold text-xs">{t(item.titleKey)}</h3>
             </div>
-            <p className="text-[11px] text-gray-600 leading-relaxed">{t(item.valueKey)}</p>
+            <p className="text-[11px] text-gray-600 leading-relaxed">{v(item.valueKey)}</p>
           </div>
         ))}
 
@@ -34,12 +37,12 @@ export function PracticalInfoDrawerContent() {
             <h3 className="font-semibold text-xs">{t('moreInfo')}</h3>
           </div>
           <a
-            href="https://frankfurt.de/wahlen"
+            href={te('moreInfoUrl', { defaultValue: 'https://frankfurt.de/wahlen' })}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[11px] text-frankfurt-blue hover:underline"
+            className="text-[11px] text-election-primary hover:underline"
           >
-            {t('moreInfoLink')}
+            {v('moreInfoLink')}
           </a>
         </div>
       </div>

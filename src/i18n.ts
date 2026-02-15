@@ -76,7 +76,7 @@ i18n
     fallbackLng: 'de',
     supportedLngs: ['de', 'en', 'tr', 'ar', 'uk', 'ru'],
     defaultNS: 'common',
-    ns: ['common', 'ballot', 'walkthrough', 'info'],
+    ns: ['common', 'ballot', 'walkthrough', 'info', 'election'],
     interpolation: {
       escapeValue: false,
     },
@@ -86,5 +86,63 @@ i18n
 const lang = i18n.language;
 document.documentElement.lang = lang;
 document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+
+const SUPPORTED_LANGS = ['de', 'en', 'tr', 'ar', 'uk', 'ru'] as const;
+
+type ElectionI18nModule = { default: Record<string, string> };
+
+const I18N_IMPORTERS: Record<string, Record<string, () => Promise<ElectionI18nModule>>> = {
+  'frankfurt-stvv': {
+    de: () => import('./elections/frankfurt-stvv/i18n/de.json'),
+    en: () => import('./elections/frankfurt-stvv/i18n/en.json'),
+    tr: () => import('./elections/frankfurt-stvv/i18n/tr.json'),
+    ar: () => import('./elections/frankfurt-stvv/i18n/ar.json'),
+    uk: () => import('./elections/frankfurt-stvv/i18n/uk.json'),
+    ru: () => import('./elections/frankfurt-stvv/i18n/ru.json'),
+  },
+  'frankfurt-kav': {
+    de: () => import('./elections/frankfurt-kav/i18n/de.json'),
+    en: () => import('./elections/frankfurt-kav/i18n/en.json'),
+    tr: () => import('./elections/frankfurt-kav/i18n/tr.json'),
+    ar: () => import('./elections/frankfurt-kav/i18n/ar.json'),
+    uk: () => import('./elections/frankfurt-kav/i18n/uk.json'),
+    ru: () => import('./elections/frankfurt-kav/i18n/ru.json'),
+  },
+  'wiesbaden-stvv': {
+    de: () => import('./elections/wiesbaden-stvv/i18n/de.json'),
+    en: () => import('./elections/wiesbaden-stvv/i18n/en.json'),
+    tr: () => import('./elections/wiesbaden-stvv/i18n/tr.json'),
+    ar: () => import('./elections/wiesbaden-stvv/i18n/ar.json'),
+    uk: () => import('./elections/wiesbaden-stvv/i18n/uk.json'),
+    ru: () => import('./elections/wiesbaden-stvv/i18n/ru.json'),
+  },
+  'wiesbaden-kav': {
+    de: () => import('./elections/wiesbaden-kav/i18n/de.json'),
+    en: () => import('./elections/wiesbaden-kav/i18n/en.json'),
+    tr: () => import('./elections/wiesbaden-kav/i18n/tr.json'),
+    ar: () => import('./elections/wiesbaden-kav/i18n/ar.json'),
+    uk: () => import('./elections/wiesbaden-kav/i18n/uk.json'),
+    ru: () => import('./elections/wiesbaden-kav/i18n/ru.json'),
+  },
+};
+
+export async function loadElectionI18n(electionId: string): Promise<void> {
+  const importers = I18N_IMPORTERS[electionId];
+  if (!importers) return;
+
+  await Promise.all(
+    SUPPORTED_LANGS.map(async (lng) => {
+      const importer = importers[lng];
+      if (!importer) return;
+      try {
+        const mod = await importer();
+        const translations = mod.default ?? mod;
+        i18n.addResourceBundle(lng, 'election', translations, true, true);
+      } catch {
+        // Silently skip missing translations
+      }
+    }),
+  );
+}
 
 export default i18n;

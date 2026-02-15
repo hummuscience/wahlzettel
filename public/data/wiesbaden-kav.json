@@ -1,0 +1,1428 @@
+{
+  "totalStimmen": 31,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Bündnis für Integration und Chancengleichheit",
+      "shortName": "BIC",
+      "candidateCount": 16,
+      "candidates": [
+        {
+          "id": "wi-kav-1-1",
+          "position": 1,
+          "lastName": "Amer",
+          "firstName": "Mimoun",
+          "profession": "Lehrer"
+        },
+        {
+          "id": "wi-kav-1-2",
+          "position": 2,
+          "lastName": "El Yaznasni",
+          "firstName": "Aicha",
+          "profession": "Köchin"
+        },
+        {
+          "id": "wi-kav-1-3",
+          "position": 3,
+          "lastName": "Taouil",
+          "firstName": "Allal",
+          "profession": "Fahrer"
+        },
+        {
+          "id": "wi-kav-1-4",
+          "position": 4,
+          "lastName": "Ouadah",
+          "firstName": "Ayachi",
+          "profession": "Postbote"
+        },
+        {
+          "id": "wi-kav-1-5",
+          "position": 5,
+          "lastName": "El Bali",
+          "firstName": "Abdelhafid",
+          "profession": "Berufskraftfahrer"
+        },
+        {
+          "id": "wi-kav-1-6",
+          "position": 6,
+          "lastName": "Arena",
+          "firstName": "Farida",
+          "profession": "Selbstständig"
+        },
+        {
+          "id": "wi-kav-1-7",
+          "position": 7,
+          "lastName": "Karabila",
+          "firstName": "Khalid",
+          "profession": "Dipl.-Ingenieur Elektrotechnik"
+        },
+        {
+          "id": "wi-kav-1-8",
+          "position": 8,
+          "lastName": "Boutkoulicht",
+          "firstName": "Fikri",
+          "profession": "Rechtsanwalt"
+        },
+        {
+          "id": "wi-kav-1-9",
+          "position": 9,
+          "lastName": "Tajioui",
+          "firstName": "Salima",
+          "profession": "Gutachterin med. Dienst"
+        },
+        {
+          "id": "wi-kav-1-10",
+          "position": 10,
+          "lastName": "Chourak",
+          "firstName": "Abdelkarim",
+          "profession": "Müllwerker"
+        },
+        {
+          "id": "wi-kav-1-11",
+          "position": 11,
+          "lastName": "El Fachtali",
+          "firstName": "Yahya",
+          "profession": "Hausmeister"
+        },
+        {
+          "id": "wi-kav-1-12",
+          "position": 12,
+          "lastName": "El Mahyaoui",
+          "firstName": "Rachid",
+          "profession": "Sachbearbeiter"
+        },
+        {
+          "id": "wi-kav-1-13",
+          "position": 13,
+          "lastName": "El Idrissi",
+          "firstName": "Abdelhafid",
+          "profession": "Informatiker"
+        },
+        {
+          "id": "wi-kav-1-14",
+          "position": 14,
+          "lastName": "Houari",
+          "firstName": "Abdelhafid",
+          "profession": "Maschinenbauingenieur"
+        },
+        {
+          "id": "wi-kav-1-15",
+          "position": 15,
+          "lastName": "El Hamsi",
+          "firstName": "Samir",
+          "profession": "Busfahrer"
+        },
+        {
+          "id": "wi-kav-1-16",
+          "position": 16,
+          "lastName": "Boudraa",
+          "firstName": "Fouad",
+          "profession": "Industry- u. Strategic-Account-Manager"
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "FREIE WÄHLER",
+      "shortName": "FREIE WÄHLER",
+      "candidateCount": 9,
+      "candidates": [
+        {
+          "id": "wi-kav-2-1",
+          "position": 1,
+          "lastName": "Pawlik",
+          "firstName": "Janusz",
+          "profession": "Elektroniker"
+        },
+        {
+          "id": "wi-kav-2-2",
+          "position": 2,
+          "lastName": "Kadir",
+          "firstName": "Amir Omer",
+          "profession": "Monteur"
+        },
+        {
+          "id": "wi-kav-2-3",
+          "position": 3,
+          "lastName": "Abdolvahab",
+          "firstName": "Shahnas",
+          "profession": "Dipl.-Ingenieurin (FH)"
+        },
+        {
+          "id": "wi-kav-2-4",
+          "position": 4,
+          "lastName": "Creţu",
+          "firstName": "Marian-Vlad",
+          "profession": "Elektriker"
+        },
+        {
+          "id": "wi-kav-2-5",
+          "position": 5,
+          "lastName": "Ciobaniuc",
+          "firstName": "Vasile",
+          "profession": "Elektroniker"
+        },
+        {
+          "id": "wi-kav-2-6",
+          "position": 6,
+          "lastName": "Yusein",
+          "firstName": "Ali",
+          "profession": "Fahrradmechaniker"
+        },
+        {
+          "id": "wi-kav-2-7",
+          "position": 7,
+          "lastName": "Ferreira Viana Castela Gouveia",
+          "firstName": "Nadir",
+          "profession": "Büromaschinentechnikerin"
+        },
+        {
+          "id": "wi-kav-2-8",
+          "position": 8,
+          "lastName": "Beșca",
+          "firstName": "Horațiu",
+          "profession": "Kfz-Mechaniker"
+        },
+        {
+          "id": "wi-kav-2-9",
+          "position": 9,
+          "lastName": "Myustedzheb",
+          "firstName": "Erkan",
+          "profession": "Bauhelfer"
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "fullName": "Wiesbadener interkulturelle Frauenliste",
+      "shortName": "WiF",
+      "candidateCount": 8,
+      "candidates": [
+        {
+          "id": "wi-kav-3-1",
+          "position": 1,
+          "lastName": "Pop",
+          "firstName": "Raluca-Andreea",
+          "profession": "Politikwissenschaftlerin"
+        },
+        {
+          "id": "wi-kav-3-2",
+          "position": 2,
+          "lastName": "Krajnović",
+          "firstName": "Lana",
+          "profession": "Angestellte"
+        },
+        {
+          "id": "wi-kav-3-3",
+          "position": 3,
+          "lastName": "Nikolovski",
+          "firstName": "Ljence",
+          "profession": "Sozialpädagogin"
+        },
+        {
+          "id": "wi-kav-3-4",
+          "position": 4,
+          "lastName": "Panchenko",
+          "firstName": "Oksana",
+          "profession": "Architektin"
+        },
+        {
+          "id": "wi-kav-3-5",
+          "position": 5,
+          "lastName": "Verezub",
+          "firstName": "Veronika",
+          "profession": "Ingenieurin"
+        },
+        {
+          "id": "wi-kav-3-6",
+          "position": 6,
+          "lastName": "Laghai",
+          "firstName": "Mahshid",
+          "profession": "Med. Beraterin"
+        },
+        {
+          "id": "wi-kav-3-7",
+          "position": 7,
+          "lastName": "Oprica",
+          "firstName": "Anca Mihaela",
+          "profession": "Luftsicherheitsassistentin"
+        },
+        {
+          "id": "wi-kav-3-8",
+          "position": 8,
+          "lastName": "Spriestersbach",
+          "firstName": "Kiomi Soledad",
+          "profession": "Angestellte"
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "Multikulturelle Liste",
+      "shortName": "ML",
+      "candidateCount": 23,
+      "candidates": [
+        {
+          "id": "wi-kav-4-1",
+          "position": 1,
+          "lastName": "Gomes",
+          "firstName": "Julius",
+          "profession": "Rentner"
+        },
+        {
+          "id": "wi-kav-4-2",
+          "position": 2,
+          "lastName": "Upadhayay",
+          "firstName": "Neha Bhardwaj",
+          "profession": "Angestellte"
+        },
+        {
+          "id": "wi-kav-4-3",
+          "position": 3,
+          "lastName": "Wübbena",
+          "firstName": "Ram Bahadur",
+          "profession": "Arbeiter"
+        },
+        {
+          "id": "wi-kav-4-4",
+          "position": 4,
+          "lastName": "O Connor",
+          "firstName": "Elena",
+          "profession": "Angestellte"
+        },
+        {
+          "id": "wi-kav-4-5",
+          "position": 5,
+          "lastName": "Altshulyer",
+          "firstName": "Yakiv",
+          "profession": "Freiberufler"
+        },
+        {
+          "id": "wi-kav-4-6",
+          "position": 6,
+          "lastName": "Sharma",
+          "firstName": "Pratibha",
+          "profession": "Kfm. Sachbearbeiterin"
+        },
+        {
+          "id": "wi-kav-4-7",
+          "position": 7,
+          "lastName": "Tambascia",
+          "firstName": "Nicola",
+          "profession": "Arbeiter"
+        },
+        {
+          "id": "wi-kav-4-8",
+          "position": 8,
+          "lastName": "Ponomarova",
+          "firstName": "Yuliia",
+          "profession": "Buchhalterin"
+        },
+        {
+          "id": "wi-kav-4-9",
+          "position": 9,
+          "lastName": "Khadrou",
+          "firstName": "Aiman",
+          "profession": "Büromitarbeiter"
+        },
+        {
+          "id": "wi-kav-4-10",
+          "position": 10,
+          "lastName": "Tezonar",
+          "firstName": "Ezgi",
+          "profession": "Musiklehrerin"
+        },
+        {
+          "id": "wi-kav-4-11",
+          "position": 11,
+          "lastName": "Qayumi",
+          "firstName": "Walid",
+          "profession": "Arbeiter"
+        },
+        {
+          "id": "wi-kav-4-12",
+          "position": 12,
+          "lastName": "Matanic",
+          "firstName": "Ruzica",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "wi-kav-4-13",
+          "position": 13,
+          "lastName": "Binaku",
+          "firstName": "Arianit",
+          "profession": "Selbstständig"
+        },
+        {
+          "id": "wi-kav-4-14",
+          "position": 14,
+          "lastName": "Schmauß",
+          "firstName": "Oyun",
+          "profession": "Selbstständig"
+        },
+        {
+          "id": "wi-kav-4-15",
+          "position": 15,
+          "lastName": "Soni",
+          "firstName": "Suresh",
+          "profession": "Rentner"
+        },
+        {
+          "id": "wi-kav-4-16",
+          "position": 16,
+          "lastName": "Tewelde Asfaha",
+          "firstName": "Simon",
+          "profession": "Arbeiter"
+        },
+        {
+          "id": "wi-kav-4-17",
+          "position": 17,
+          "lastName": "Kolte",
+          "firstName": "Devashish Sharad",
+          "profession": "Praktikant"
+        },
+        {
+          "id": "wi-kav-4-18",
+          "position": 18,
+          "lastName": "Karimpur",
+          "firstName": "Sayed Wali",
+          "profession": "Hilfskoch"
+        },
+        {
+          "id": "wi-kav-4-19",
+          "position": 19,
+          "lastName": "Khan",
+          "firstName": "Shahin",
+          "profession": "Arbeiter"
+        },
+        {
+          "id": "wi-kav-4-20",
+          "position": 20,
+          "lastName": "Imran",
+          "firstName": "Muhammad",
+          "profession": "Kraftfahrer"
+        },
+        {
+          "id": "wi-kav-4-21",
+          "position": 21,
+          "lastName": "Parvaneh-Sayar",
+          "firstName": "Mohammad-Hossein",
+          "profession": "Arbeitslos"
+        },
+        {
+          "id": "wi-kav-4-22",
+          "position": 22,
+          "lastName": "Alam",
+          "firstName": "Khairul",
+          "profession": "Rentner"
+        },
+        {
+          "id": "wi-kav-4-23",
+          "position": 23,
+          "lastName": "Azad",
+          "firstName": "Mohammad Abul Kalam",
+          "profession": "Selbstständig"
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "Gemeinsam für Ukrainer mit Respekt und Toleranz",
+      "shortName": "GURT",
+      "candidateCount": 12,
+      "candidates": [
+        {
+          "id": "wi-kav-5-1",
+          "position": 1,
+          "lastName": "Desiak",
+          "firstName": "Serhii",
+          "profession": "Geschäftsführer"
+        },
+        {
+          "id": "wi-kav-5-2",
+          "position": 2,
+          "lastName": "Grytsai",
+          "firstName": "Maryna",
+          "profession": "Journalistin"
+        },
+        {
+          "id": "wi-kav-5-3",
+          "position": 3,
+          "lastName": "Platash",
+          "firstName": "Larysa",
+          "profession": "Lehrerin"
+        },
+        {
+          "id": "wi-kav-5-4",
+          "position": 4,
+          "lastName": "Skvortsova",
+          "firstName": "Olena",
+          "profession": "Wirtschaftsprüferin"
+        },
+        {
+          "id": "wi-kav-5-5",
+          "position": 5,
+          "lastName": "Erlikhman",
+          "firstName": "Ievgen",
+          "profession": "Selbstständig"
+        },
+        {
+          "id": "wi-kav-5-6",
+          "position": 6,
+          "lastName": "Kolesnik",
+          "firstName": "Olga",
+          "profession": "Selbstständig"
+        },
+        {
+          "id": "wi-kav-5-7",
+          "position": 7,
+          "lastName": "Shevchenko",
+          "firstName": "Iryna",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "wi-kav-5-8",
+          "position": 8,
+          "lastName": "Zakharova",
+          "firstName": "Anastasiia",
+          "profession": "Grundschullehrerin"
+        },
+        {
+          "id": "wi-kav-5-9",
+          "position": 9,
+          "lastName": "Ivashchenko",
+          "firstName": "Maryna",
+          "profession": "Account-Managerin"
+        },
+        {
+          "id": "wi-kav-5-10",
+          "position": 10,
+          "lastName": "Babenko",
+          "firstName": "Olena",
+          "profession": "Kunsttherapeutin"
+        },
+        {
+          "id": "wi-kav-5-11",
+          "position": 11,
+          "lastName": "Kryvoshei",
+          "firstName": "Yevdokiia",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "wi-kav-5-12",
+          "position": 12,
+          "lastName": "Kodria",
+          "firstName": "Denys",
+          "profession": "Lehrer"
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "fullName": "Alternative für Deutschland",
+      "shortName": "AfD",
+      "candidateCount": 15,
+      "candidates": [
+        {
+          "id": "wi-kav-6-1",
+          "position": 1,
+          "lastName": "Corian",
+          "firstName": "Darrel",
+          "profession": "Elektroniker"
+        },
+        {
+          "id": "wi-kav-6-2",
+          "position": 2,
+          "lastName": "Heller",
+          "firstName": "Gloria",
+          "profession": "Zugbegleiterin"
+        },
+        {
+          "id": "wi-kav-6-3",
+          "position": 3,
+          "lastName": "Sluzkij",
+          "firstName": "Dmitrij",
+          "profession": "Fachkraft f. Schutz u. Sicherheit"
+        },
+        {
+          "id": "wi-kav-6-4",
+          "position": 4,
+          "lastName": "Jose",
+          "firstName": "Santhosh",
+          "profession": "Ltd. Angestellter"
+        },
+        {
+          "id": "wi-kav-6-5",
+          "position": 5,
+          "lastName": "Rasin",
+          "firstName": "Arkadij",
+          "profession": "Speditionskaufmann"
+        },
+        {
+          "id": "wi-kav-6-6",
+          "position": 6,
+          "lastName": "Di Pace",
+          "firstName": "Luca",
+          "profession": "Auszubildender"
+        },
+        {
+          "id": "wi-kav-6-7",
+          "position": 7,
+          "lastName": "Ballandies",
+          "firstName": "Najat",
+          "profession": "Friseurin"
+        },
+        {
+          "id": "wi-kav-6-8",
+          "position": 8,
+          "lastName": "Oganesyan",
+          "firstName": "Artur",
+          "profession": "Fachkraft f. Schutz u. Sicherheit"
+        },
+        {
+          "id": "wi-kav-6-9",
+          "position": 9,
+          "lastName": "Knol",
+          "firstName": "Nina",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "wi-kav-6-10",
+          "position": 10,
+          "lastName": "Younan Maccemous",
+          "firstName": "Rodica",
+          "profession": "Fußpflegerin"
+        },
+        {
+          "id": "wi-kav-6-11",
+          "position": 11,
+          "lastName": "Propp",
+          "firstName": "Irina",
+          "profession": "Unternehmerin"
+        },
+        {
+          "id": "wi-kav-6-12",
+          "position": 12,
+          "lastName": "Tarabrin",
+          "firstName": "Artem",
+          "profession": "Fahrer"
+        },
+        {
+          "id": "wi-kav-6-13",
+          "position": 13,
+          "lastName": "Freundt",
+          "firstName": "Natalia",
+          "profession": "Buchhalterin"
+        },
+        {
+          "id": "wi-kav-6-14",
+          "position": 14,
+          "lastName": "Leuzzi",
+          "firstName": "Tatiana",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "wi-kav-6-15",
+          "position": 15,
+          "lastName": "Lambrou",
+          "firstName": "Robert",
+          "profession": "Dipl.-Kaufmann"
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "fullName": "Komitee der Migranten",
+      "shortName": "KDM",
+      "candidateCount": 11,
+      "candidates": [
+        {
+          "id": "wi-kav-7-1",
+          "position": 1,
+          "lastName": "Hassani",
+          "firstName": "Raheleh",
+          "profession": "Aushilfe"
+        },
+        {
+          "id": "wi-kav-7-2",
+          "position": 2,
+          "lastName": "Alizadeh",
+          "firstName": "Esmail",
+          "profession": "Warehouse Operator"
+        },
+        {
+          "id": "wi-kav-7-3",
+          "position": 3,
+          "lastName": "Hussaini",
+          "firstName": "Zahra",
+          "profession": "Hausfrau"
+        },
+        {
+          "id": "wi-kav-7-4",
+          "position": 4,
+          "lastName": "Ali",
+          "firstName": "Parwin",
+          "profession": "Dozentin"
+        },
+        {
+          "id": "wi-kav-7-5",
+          "position": 5,
+          "lastName": "Yosufi",
+          "firstName": "Kamran",
+          "profession": "Student"
+        },
+        {
+          "id": "wi-kav-7-6",
+          "position": 6,
+          "lastName": "Schakib",
+          "firstName": "Mahmuda",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "wi-kav-7-7",
+          "position": 7,
+          "lastName": "Roshan",
+          "firstName": "Sameer",
+          "profession": "Elektriker"
+        },
+        {
+          "id": "wi-kav-7-8",
+          "position": 8,
+          "lastName": "Naimi",
+          "firstName": "Hosnieh",
+          "profession": "Zahnarzthelferin"
+        },
+        {
+          "id": "wi-kav-7-9",
+          "position": 9,
+          "lastName": "Khawari",
+          "firstName": "Razia",
+          "profession": "Maßschneiderin"
+        },
+        {
+          "id": "wi-kav-7-10",
+          "position": 10,
+          "lastName": "Jan",
+          "firstName": "Farid",
+          "profession": "Koch"
+        },
+        {
+          "id": "wi-kav-7-11",
+          "position": 11,
+          "lastName": "Haidari",
+          "firstName": "Parwin",
+          "profession": "Rentnerin"
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "fullName": "Aktiv für Wiesbaden",
+      "shortName": "AKW",
+      "candidateCount": 9,
+      "candidates": [
+        {
+          "id": "wi-kav-8-1",
+          "position": 1,
+          "lastName": "Hassan",
+          "firstName": "Buqari Abdi",
+          "profession": "Dolmetscher"
+        },
+        {
+          "id": "wi-kav-8-2",
+          "position": 2,
+          "lastName": "Mohamed Mukhtar Mohamed Ali",
+          "firstName": "",
+          "profession": "Softwareentwickler"
+        },
+        {
+          "id": "wi-kav-8-3",
+          "position": 3,
+          "lastName": "Oumalkaire Moussa Abdi",
+          "firstName": "",
+          "profession": "Auszubildende"
+        },
+        {
+          "id": "wi-kav-8-4",
+          "position": 4,
+          "lastName": "Abdi Hassan",
+          "firstName": "Kaltuma",
+          "profession": "Auszubildende"
+        },
+        {
+          "id": "wi-kav-8-5",
+          "position": 5,
+          "lastName": "Mariano Rainde",
+          "firstName": "Octávio Rodrigo",
+          "profession": "Kfz-Mechatroniker"
+        },
+        {
+          "id": "wi-kav-8-6",
+          "position": 6,
+          "lastName": "Lopes Souto Amado",
+          "firstName": "Nelson",
+          "profession": "Lagerhelfer"
+        },
+        {
+          "id": "wi-kav-8-7",
+          "position": 7,
+          "lastName": "Abraham",
+          "firstName": "Lara",
+          "profession": "Erzieherin"
+        },
+        {
+          "id": "wi-kav-8-8",
+          "position": 8,
+          "lastName": "Owusu",
+          "firstName": "Paulina",
+          "profession": "Pflegehelferin"
+        },
+        {
+          "id": "wi-kav-8-9",
+          "position": 9,
+          "lastName": "Rozalin Ahmed Mohamed Fadalla",
+          "firstName": "",
+          "profession": "Studentin"
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "fullName": "Ukrainische Union Wiesbaden",
+      "shortName": "Ukrainische Union",
+      "candidateCount": 11,
+      "candidates": [
+        {
+          "id": "wi-kav-9-1",
+          "position": 1,
+          "lastName": "Yarova",
+          "firstName": "Larysa",
+          "profession": "Juristin"
+        },
+        {
+          "id": "wi-kav-9-2",
+          "position": 2,
+          "lastName": "Shtonda",
+          "firstName": "Olena",
+          "profession": "Industriekauffrau"
+        },
+        {
+          "id": "wi-kav-9-3",
+          "position": 3,
+          "lastName": "Babaieva",
+          "firstName": "Kateryna",
+          "profession": "Ingenieurin"
+        },
+        {
+          "id": "wi-kav-9-4",
+          "position": 4,
+          "lastName": "Stepaniuk",
+          "firstName": "Mykola",
+          "profession": "Erzieher"
+        },
+        {
+          "id": "wi-kav-9-5",
+          "position": 5,
+          "lastName": "Synytsia",
+          "firstName": "Anastasiia",
+          "profession": "Patent- und Markenanwältin"
+        },
+        {
+          "id": "wi-kav-9-6",
+          "position": 6,
+          "lastName": "Kormilets",
+          "firstName": "Nataliia",
+          "profession": "Fitnesstrainerin"
+        },
+        {
+          "id": "wi-kav-9-7",
+          "position": 7,
+          "lastName": "Melnyk",
+          "firstName": "Yuliia",
+          "profession": "Finanzbuchhalterin"
+        },
+        {
+          "id": "wi-kav-9-8",
+          "position": 8,
+          "lastName": "Nazarova",
+          "firstName": "Nataliia",
+          "profession": "Grundschullehrerin"
+        },
+        {
+          "id": "wi-kav-9-9",
+          "position": 9,
+          "lastName": "Nnajiofor",
+          "firstName": "Olga",
+          "profession": "Außenwirtschaftsmanagerin"
+        },
+        {
+          "id": "wi-kav-9-10",
+          "position": 10,
+          "lastName": "Ostapchenko",
+          "firstName": "Liubov",
+          "profession": "Pädagogin"
+        },
+        {
+          "id": "wi-kav-9-11",
+          "position": 11,
+          "lastName": "Petrova",
+          "firstName": "Mariia",
+          "profession": "Organisationsmanagerin"
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "fullName": "Syrische Demokratische Liste",
+      "shortName": "S.D.L.",
+      "candidateCount": 11,
+      "candidates": [
+        {
+          "id": "wi-kav-10-1",
+          "position": 1,
+          "lastName": "Haydo",
+          "firstName": "Sulayman",
+          "profession": "Friseurmeister"
+        },
+        {
+          "id": "wi-kav-10-2",
+          "position": 2,
+          "lastName": "Barsom",
+          "firstName": "Samir",
+          "profession": "Arbeiter"
+        },
+        {
+          "id": "wi-kav-10-3",
+          "position": 3,
+          "lastName": "Daho",
+          "firstName": "Rimon",
+          "profession": "Rentner"
+        },
+        {
+          "id": "wi-kav-10-4",
+          "position": 4,
+          "lastName": "Afram",
+          "firstName": "Abdulmasih",
+          "profession": "Fahrer"
+        },
+        {
+          "id": "wi-kav-10-5",
+          "position": 5,
+          "lastName": "Yacoub",
+          "firstName": "Nassra",
+          "profession": "Küchenhelferin"
+        },
+        {
+          "id": "wi-kav-10-6",
+          "position": 6,
+          "lastName": "Alid",
+          "firstName": "Roza",
+          "profession": "Hausfrau"
+        },
+        {
+          "id": "wi-kav-10-7",
+          "position": 7,
+          "lastName": "Ghabro",
+          "firstName": "Mansora",
+          "profession": "Erzieherin"
+        },
+        {
+          "id": "wi-kav-10-8",
+          "position": 8,
+          "lastName": "Falloh",
+          "firstName": "Issam",
+          "profession": "Elektroingenieur"
+        },
+        {
+          "id": "wi-kav-10-9",
+          "position": 9,
+          "lastName": "Geurges",
+          "firstName": "Samy",
+          "profession": "Fahrer"
+        },
+        {
+          "id": "wi-kav-10-10",
+          "position": 10,
+          "lastName": "Abyad",
+          "firstName": "Wael",
+          "profession": "Hausmeister"
+        },
+        {
+          "id": "wi-kav-10-11",
+          "position": 11,
+          "lastName": "Malki",
+          "firstName": "Gabriel",
+          "profession": "Schüler"
+        }
+      ]
+    },
+    {
+      "listNumber": 11,
+      "fullName": "Assyrische Union Wiesbaden",
+      "shortName": "AUW",
+      "candidateCount": 10,
+      "candidates": [
+        {
+          "id": "wi-kav-11-1",
+          "position": 1,
+          "lastName": "Alkan",
+          "firstName": "Sabri",
+          "profession": "Schneider"
+        },
+        {
+          "id": "wi-kav-11-2",
+          "position": 2,
+          "lastName": "Masoud",
+          "firstName": "Reta",
+          "profession": "Notarfachangestellte"
+        },
+        {
+          "id": "wi-kav-11-3",
+          "position": 3,
+          "lastName": "Masoud",
+          "firstName": "Shafer",
+          "profession": "Elektroniker"
+        },
+        {
+          "id": "wi-kav-11-4",
+          "position": 4,
+          "lastName": "Issa",
+          "firstName": "Samouil",
+          "profession": "Student"
+        },
+        {
+          "id": "wi-kav-11-5",
+          "position": 5,
+          "lastName": "Thomas",
+          "firstName": "Gabriela",
+          "profession": "Schülerin"
+        },
+        {
+          "id": "wi-kav-11-6",
+          "position": 6,
+          "lastName": "Eshaia",
+          "firstName": "Jasika",
+          "profession": "Sozialarbeiterin"
+        },
+        {
+          "id": "wi-kav-11-7",
+          "position": 7,
+          "lastName": "Isteifo",
+          "firstName": "Gabriel",
+          "profession": "Friseur"
+        },
+        {
+          "id": "wi-kav-11-8",
+          "position": 8,
+          "lastName": "Lahdo",
+          "firstName": "Simon",
+          "profession": "Elektroniker"
+        },
+        {
+          "id": "wi-kav-11-9",
+          "position": 9,
+          "lastName": "Aho",
+          "firstName": "Jouil",
+          "profession": "Zahnmed. Fachangestellte"
+        },
+        {
+          "id": "wi-kav-11-10",
+          "position": 10,
+          "lastName": "Astivo",
+          "firstName": "Gabriel",
+          "profession": "Sachbearbeiter"
+        }
+      ]
+    },
+    {
+      "listNumber": 12,
+      "fullName": "Wir gehören zum Stadtbild",
+      "shortName": "Wir gehören zum Stadtbild",
+      "candidateCount": 11,
+      "candidates": [
+        {
+          "id": "wi-kav-12-1",
+          "position": 1,
+          "lastName": "Krüger",
+          "firstName": "Inga",
+          "profession": "Co-Geschäftsführerin"
+        },
+        {
+          "id": "wi-kav-12-2",
+          "position": 2,
+          "lastName": "Talay",
+          "firstName": "Tamuna",
+          "profession": "Dozentin"
+        },
+        {
+          "id": "wi-kav-12-3",
+          "position": 3,
+          "lastName": "Ruiz Richter",
+          "firstName": "Carmen",
+          "profession": "Hauswirtschaftshelferin"
+        },
+        {
+          "id": "wi-kav-12-4",
+          "position": 4,
+          "lastName": "Soloveitchik",
+          "firstName": "Mikhail",
+          "profession": "Mathematiker"
+        },
+        {
+          "id": "wi-kav-12-5",
+          "position": 5,
+          "lastName": "Russi",
+          "firstName": "Anna Maria",
+          "profession": "Päd. Fachkraft"
+        },
+        {
+          "id": "wi-kav-12-6",
+          "position": 6,
+          "lastName": "Joshanlou",
+          "firstName": "Elham",
+          "profession": "Künstlerin"
+        },
+        {
+          "id": "wi-kav-12-7",
+          "position": 7,
+          "lastName": "Hayati",
+          "firstName": "Farkhondeh",
+          "profession": "Lehrerin"
+        },
+        {
+          "id": "wi-kav-12-8",
+          "position": 8,
+          "lastName": "de Nittis",
+          "firstName": "Gianluca",
+          "profession": "Schulbegleiter"
+        },
+        {
+          "id": "wi-kav-12-9",
+          "position": 9,
+          "lastName": "Szücs",
+          "firstName": "Luca",
+          "profession": "Studentin"
+        },
+        {
+          "id": "wi-kav-12-10",
+          "position": 10,
+          "lastName": "de Nittis",
+          "firstName": "Leandro",
+          "profession": "Schüler"
+        },
+        {
+          "id": "wi-kav-12-11",
+          "position": 11,
+          "lastName": "Barakzai",
+          "firstName": "Fareshta",
+          "profession": "Zahnärztin"
+        }
+      ]
+    },
+    {
+      "listNumber": 13,
+      "fullName": "WIESBADENER PARS UNION",
+      "shortName": "WPU",
+      "candidateCount": 14,
+      "candidates": [
+        {
+          "id": "wi-kav-13-1",
+          "position": 1,
+          "lastName": "Shahmohammadi",
+          "firstName": "Zinat",
+          "profession": "Willkommensmanagerin"
+        },
+        {
+          "id": "wi-kav-13-2",
+          "position": 2,
+          "lastName": "Noori",
+          "firstName": "Aisha",
+          "profession": "Arbeitssuchend"
+        },
+        {
+          "id": "wi-kav-13-3",
+          "position": 3,
+          "lastName": "Sediqi",
+          "firstName": "Shaker",
+          "profession": "Selbstständig"
+        },
+        {
+          "id": "wi-kav-13-4",
+          "position": 4,
+          "lastName": "Abdolahian Dehkordi",
+          "firstName": "Ali",
+          "profession": "Planer"
+        },
+        {
+          "id": "wi-kav-13-5",
+          "position": 5,
+          "lastName": "Noorzad",
+          "firstName": "Nasrin",
+          "profession": "Operationstechnische Assistentin"
+        },
+        {
+          "id": "wi-kav-13-6",
+          "position": 6,
+          "lastName": "Moradi",
+          "firstName": "Ilia",
+          "profession": "Schüler"
+        },
+        {
+          "id": "wi-kav-13-7",
+          "position": 7,
+          "lastName": "Maghsoudy",
+          "firstName": "Hajar",
+          "profession": "Verkäuferin"
+        },
+        {
+          "id": "wi-kav-13-8",
+          "position": 8,
+          "lastName": "Noori",
+          "firstName": "Zohreh",
+          "profession": "Auszubildende"
+        },
+        {
+          "id": "wi-kav-13-9",
+          "position": 9,
+          "lastName": "Moradi",
+          "firstName": "Nader",
+          "profession": "Fahrer"
+        },
+        {
+          "id": "wi-kav-13-10",
+          "position": 10,
+          "lastName": "Sediqi",
+          "firstName": "Khawja",
+          "profession": "Arbeitssuchend"
+        },
+        {
+          "id": "wi-kav-13-11",
+          "position": 11,
+          "lastName": "Taghadosifar",
+          "firstName": "Majid",
+          "profession": "Fahrer"
+        },
+        {
+          "id": "wi-kav-13-12",
+          "position": 12,
+          "lastName": "Mahdavifar",
+          "firstName": "Seyed Mostafa",
+          "profession": "Rentner"
+        },
+        {
+          "id": "wi-kav-13-13",
+          "position": 13,
+          "lastName": "Moghani",
+          "firstName": "Zahra",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "wi-kav-13-14",
+          "position": 14,
+          "lastName": "Razzaghi Esfahani",
+          "firstName": "Sharareh",
+          "profession": "Hausfrau"
+        }
+      ]
+    },
+    {
+      "listNumber": 14,
+      "fullName": "Demokratische Alternative Liste",
+      "shortName": "DAL",
+      "candidateCount": 11,
+      "candidates": [
+        {
+          "id": "wi-kav-14-1",
+          "position": 1,
+          "lastName": "Yüksel-Fener",
+          "firstName": "Songül",
+          "profession": "Erzieherin"
+        },
+        {
+          "id": "wi-kav-14-2",
+          "position": 2,
+          "lastName": "Kizilgöz",
+          "firstName": "Ibrahim",
+          "profession": "Angestellter"
+        },
+        {
+          "id": "wi-kav-14-3",
+          "position": 3,
+          "lastName": "Beyaz",
+          "firstName": "Birgül",
+          "profession": "Lehrerin"
+        },
+        {
+          "id": "wi-kav-14-4",
+          "position": 4,
+          "lastName": "Tosun",
+          "firstName": "Adile",
+          "profession": "Referentin"
+        },
+        {
+          "id": "wi-kav-14-5",
+          "position": 5,
+          "lastName": "Yildiz",
+          "firstName": "Muzaffer",
+          "profession": "Abwassertechniker"
+        },
+        {
+          "id": "wi-kav-14-6",
+          "position": 6,
+          "lastName": "Salah Andish",
+          "firstName": "Rozalin",
+          "profession": "Kursleiterin"
+        },
+        {
+          "id": "wi-kav-14-7",
+          "position": 7,
+          "lastName": "Al Abedi",
+          "firstName": "Alhareth",
+          "profession": "Praktikant"
+        },
+        {
+          "id": "wi-kav-14-8",
+          "position": 8,
+          "lastName": "Güler",
+          "firstName": "Hasan Hüseyin",
+          "profession": "Arbeiter"
+        },
+        {
+          "id": "wi-kav-14-9",
+          "position": 9,
+          "lastName": "Duman",
+          "firstName": "Dilek",
+          "profession": "Marketingexpertin"
+        },
+        {
+          "id": "wi-kav-14-10",
+          "position": 10,
+          "lastName": "Yerlikaya",
+          "firstName": "Yasemen",
+          "profession": "Sozialarbeiterin"
+        },
+        {
+          "id": "wi-kav-14-11",
+          "position": 11,
+          "lastName": "Altun Weller",
+          "firstName": "Zehra",
+          "profession": "Freelancerin"
+        }
+      ]
+    },
+    {
+      "listNumber": 15,
+      "fullName": "Progressive Ausländer Union",
+      "shortName": "PAU",
+      "candidateCount": 15,
+      "candidates": [
+        {
+          "id": "wi-kav-15-1",
+          "position": 1,
+          "lastName": "Dawood",
+          "firstName": "Mohammad",
+          "profession": "Rangierer"
+        },
+        {
+          "id": "wi-kav-15-2",
+          "position": 2,
+          "lastName": "Ahmad",
+          "firstName": "Jamil",
+          "profession": "Taxifahrer"
+        },
+        {
+          "id": "wi-kav-15-3",
+          "position": 3,
+          "lastName": "Ehsan",
+          "firstName": "Muhammad",
+          "profession": "Angestellter"
+        },
+        {
+          "id": "wi-kav-15-4",
+          "position": 4,
+          "lastName": "Maqsoom",
+          "firstName": "Mohammad",
+          "profession": "Angestellter"
+        },
+        {
+          "id": "wi-kav-15-5",
+          "position": 5,
+          "lastName": "Langah",
+          "firstName": "Saleem Akbar",
+          "profession": "Buchhalter"
+        },
+        {
+          "id": "wi-kav-15-6",
+          "position": 6,
+          "lastName": "Bashir",
+          "firstName": "Mudassar",
+          "profession": "Koch"
+        },
+        {
+          "id": "wi-kav-15-7",
+          "position": 7,
+          "lastName": "Ahmad",
+          "firstName": "Abid Mansoor",
+          "profession": "Angestellter"
+        },
+        {
+          "id": "wi-kav-15-8",
+          "position": 8,
+          "lastName": "Ahmed",
+          "firstName": "Bashir",
+          "profession": "Rentner"
+        },
+        {
+          "id": "wi-kav-15-9",
+          "position": 9,
+          "lastName": "Mehmood",
+          "firstName": "Tahir",
+          "profession": "Buchhalter"
+        },
+        {
+          "id": "wi-kav-15-10",
+          "position": 10,
+          "lastName": "Malik",
+          "firstName": "Khalid Waseem",
+          "profession": "Hausmann"
+        },
+        {
+          "id": "wi-kav-15-11",
+          "position": 11,
+          "lastName": "Rana",
+          "firstName": "Asif Javed",
+          "profession": "Taxifahrer"
+        },
+        {
+          "id": "wi-kav-15-12",
+          "position": 12,
+          "lastName": "Laeeq Ahmad",
+          "firstName": "",
+          "profession": "Selbstständig"
+        },
+        {
+          "id": "wi-kav-15-13",
+          "position": 13,
+          "lastName": "Saif Ur Rehman",
+          "firstName": "",
+          "profession": "Hausmann"
+        },
+        {
+          "id": "wi-kav-15-14",
+          "position": 14,
+          "lastName": "Inam Shamas",
+          "firstName": "",
+          "profession": "Hausmann"
+        },
+        {
+          "id": "wi-kav-15-15",
+          "position": 15,
+          "lastName": "Abrar Ahmed",
+          "firstName": "",
+          "profession": "Taxifahrer"
+        }
+      ]
+    }
+  ]
+}

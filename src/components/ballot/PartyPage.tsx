@@ -87,7 +87,7 @@ export function PartyPage({
         <h2 className="font-bold text-lg leading-tight">
           {party.fullName}
         </h2>
-        <div className="text-sm font-semibold text-frankfurt-blue">
+        <div className="text-sm font-semibold text-election-primary">
           {party.shortName}
         </div>
       </div>
@@ -134,7 +134,7 @@ export function PartyPage({
         <button
           onClick={onPrev}
           disabled={!hasPrev}
-          className={`text-sm font-medium ${hasPrev ? 'text-frankfurt-blue hover:underline' : 'text-gray-300'}`}
+          className={`text-sm font-medium ${hasPrev ? 'text-election-primary hover:underline' : 'text-gray-300'}`}
         >
           ‹ {prevName || t('prevParty')}
         </button>
@@ -142,7 +142,7 @@ export function PartyPage({
         <button
           onClick={onNext}
           disabled={!hasNext}
-          className={`text-sm font-medium ${hasNext ? 'text-frankfurt-blue hover:underline' : 'text-gray-300'}`}
+          className={`text-sm font-medium ${hasNext ? 'text-election-primary hover:underline' : 'text-gray-300'}`}
         >
           {nextName || t('nextParty')} ›
         </button>

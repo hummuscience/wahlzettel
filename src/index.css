@@ -2,9 +2,9 @@
 @import "tw-animate-css";
 
 @theme {
-  --color-frankfurt-blue: #003870;
-  --color-frankfurt-blue-light: #e8f0f8;
-  --color-frankfurt-blue-dark: #002650;
+  --color-election-primary: #003870;
+  --color-election-primary-light: #e8f0f8;
+  --color-election-primary-dark: #002650;
   --color-ballot-bg: #fafaf8;
   --color-ballot-border: #d1d5db;
   --color-status-ok: #2563eb;

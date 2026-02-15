@@ -70,7 +70,7 @@ export function VoteStatusBar({
           {/* Summary toggle */}
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="text-sm text-frankfurt-blue hover:underline whitespace-nowrap flex items-center gap-1"
+            className="text-sm text-election-primary hover:underline whitespace-nowrap flex items-center gap-1"
           >
             {t('zusammenfassung')}
             <span className={`transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}>

@@ -1,11 +1,12 @@
 import type { VoteState } from '../types';
+import { getElectionByShareCode, getAllElections } from '../elections/registry';
 
-export type ElectionType = 'stvv' | 'kav';
+export type ElectionType = string;
 
 // ---------- v1 JSON compact format (kept for decoding legacy #v= links) ----------
 
 interface CompactState {
-  e?: ElectionType;
+  e?: string;
   c?: [string, number, number][];
   l?: [number, string[]][];
 }
@@ -34,11 +35,28 @@ function fromCompact(compact: CompactState): VoteState {
 
 // ---------- v2 binary format ----------
 
-const ELECTION_TYPE_MAP: Record<ElectionType, number> = { stvv: 0, kav: 1 };
-const ELECTION_TYPE_REV: ElectionType[] = ['stvv', 'kav'];
+// Legacy mappings for backward compatibility with old 2-bit codes
+const LEGACY_SLUG_MAP: Record<string, number> = { stvv: 0, kav: 1 };
+const LEGACY_REV: string[] = ['stvv', 'kav'];
+
+function getShareCode(electionType: string): number {
+  if (electionType in LEGACY_SLUG_MAP) return LEGACY_SLUG_MAP[electionType];
+  for (const e of getAllElections()) {
+    if (e.slug === electionType) return e.shareTypeCode;
+  }
+  return 0;
+}
+
+function getSlugFromCode(code: number): string {
+  // Try registry first
+  const entry = getElectionByShareCode(code);
+  if (entry) return entry.slug;
+  // Fall back to legacy
+  return LEGACY_REV[code] ?? 'frankfurt-stvv';
+}
 
 function toBinary(state: VoteState, electionType: ElectionType): Uint8Array {
-  const electionNum = ELECTION_TYPE_MAP[electionType] ?? 0;
+  const electionNum = getShareCode(electionType);
 
   const selectedLists = Object.values(state.listSelections).filter(l => l.isSelected);
   const hasListVote = selectedLists.length > 0;
@@ -65,8 +83,8 @@ function toBinary(state: VoteState, electionType: ElectionType): Uint8Array {
   const buf = new Uint8Array(totalSize);
   let offset = 0;
 
-  // Header byte 0: [7:2]=version(0) | [1:0]=electionType
-  buf[offset++] = electionNum & 0x03;
+  // Header byte 0: [7:4]=0 | [3:0]=electionType (4-bit, supports 0-15)
+  buf[offset++] = electionNum & 0x0F;
 
   // Header byte 1: [7]=hasListVote | [6:2]=listVoteParty-1 | [1:0]=0
   buf[offset++] = (hasListVote ? 0x80 : 0) | ((hasListVote ? (listParty - 1) & 0x1F : 0) << 2);
@@ -100,10 +118,13 @@ function toBinary(state: VoteState, electionType: ElectionType): Uint8Array {
 function fromBinary(bytes: Uint8Array): { electionType: ElectionType; state: VoteState } {
   let offset = 0;
 
-  // Header
-  const electionNum = bytes[offset++] & 0x03;
-  const electionType = ELECTION_TYPE_REV[electionNum] ?? 'stvv';
-  const electionPrefix = electionType;
+  // Header - read 4-bit election type (backward compatible: old 2-bit codes 0,1 still work)
+  const electionNum = bytes[offset++] & 0x0F;
+  const electionSlug = getSlugFromCode(electionNum);
+
+  // Determine the prefix for candidate IDs
+  // Legacy URLs used 'stvv' / 'kav' as prefix, new ones use the slug
+  const electionPrefix = LEGACY_REV[electionNum] ?? electionSlug;
 
   const byte1 = bytes[offset++];
   const hasListVote = (byte1 & 0x80) !== 0;
@@ -139,7 +160,11 @@ function fromBinary(bytes: Uint8Array): { electionType: ElectionType; state: Vot
     state.candidateVotes[candidateId] = { candidateId, partyListNumber, stimmen };
   }
 
-  return { electionType, state };
+  // Map legacy short names to full slugs
+  const slugMap: Record<string, string> = { stvv: 'frankfurt-stvv', kav: 'frankfurt-kav' };
+  const resolvedSlug = slugMap[electionSlug] ?? electionSlug;
+
+  return { electionType: resolvedSlug, state };
 }
 
 async function compress(data: Uint8Array): Promise<Uint8Array> {
@@ -226,8 +251,11 @@ export async function decodeVoteState(encoded: string, format: 'binary' | 'json'
   if (format === 'json') {
     const json = new TextDecoder().decode(decompressed);
     const compact: CompactState = JSON.parse(json);
+    // Map legacy short names
+    const slugMap: Record<string, string> = { stvv: 'frankfurt-stvv', kav: 'frankfurt-kav' };
+    const rawType = compact.e ?? 'stvv';
     return {
-      electionType: compact.e ?? 'stvv',
+      electionType: slugMap[rawType] ?? rawType,
       state: fromCompact(compact),
     };
   }

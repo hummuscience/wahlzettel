@@ -42,7 +42,7 @@ function QRCodeSVG({ url, size }: { url: string; size: number }) {
   return (
     <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} xmlns="http://www.w3.org/2000/svg">
       <rect width={size} height={size} fill="white" />
-      <path d={paths.join('')} fill="#003870" />
+      <path d={paths.join('')} fill="var(--color-election-primary, #003870)" />
     </svg>
   );
 }

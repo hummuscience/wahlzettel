@@ -4,12 +4,13 @@ const steps = [
   { key: 'step1', emoji: '📨' },
   { key: 'step2', emoji: '🔢' },
   { key: 'step3', emoji: '☑️' },
-  { key: 'step4', emoji: '⬆️' },
-  { key: 'step5', emoji: '↔️' },
-  { key: 'step6', emoji: '🔀' },
-  { key: 'step7', emoji: '⚠️' },
-  { key: 'step8', emoji: '✏️' },
-  { key: 'step9', emoji: '🖨️' },
+  { key: 'step4', emoji: '✂️' },
+  { key: 'step5', emoji: '⬆️' },
+  { key: 'step6', emoji: '↔️' },
+  { key: 'step7', emoji: '🔀' },
+  { key: 'step8', emoji: '⚠️' },
+  { key: 'step9', emoji: '✏️' },
+  { key: 'step10', emoji: '🖨️' },
 ];
 
 interface WalkthroughSectionProps {
@@ -32,7 +33,7 @@ export function WalkthroughSection({ totalStimmen = 93 }: WalkthroughSectionProp
           >
             <div className="flex items-center gap-1.5 mb-1">
               <span className="text-base">{step.emoji}</span>
-              <span className="text-[10px] font-semibold text-frankfurt-blue/60 uppercase tracking-wider">
+              <span className="text-[10px] font-semibold text-election-primary/60 uppercase tracking-wider">
                 {i + 1}/{steps.length}
               </span>
             </div>

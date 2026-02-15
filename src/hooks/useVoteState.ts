@@ -76,18 +76,29 @@ function voteReducer(state: VoteState, action: VoteAction): VoteState {
     }
 
     case 'STRIKE_CANDIDATE': {
-      const selection = state.listSelections[action.partyListNumber];
-      if (!selection?.isSelected) return state;
+      const selection = state.listSelections[action.partyListNumber] || {
+        isSelected: false,
+        struckCandidateIds: [],
+      };
 
       const struckSet = new Set(selection.struckCandidateIds);
-      if (struckSet.has(action.candidateId)) {
+      const wasStruck = struckSet.has(action.candidateId);
+      if (wasStruck) {
         struckSet.delete(action.candidateId);
       } else {
         struckSet.add(action.candidateId);
       }
 
+      // When striking without a list vote, also clear individual votes
+      let newCandidateVotes = state.candidateVotes;
+      if (!selection.isSelected && !wasStruck && state.candidateVotes[action.candidateId]) {
+        const { [action.candidateId]: _, ...rest } = state.candidateVotes;
+        newCandidateVotes = rest;
+      }
+
       return {
         ...state,
+        candidateVotes: newCandidateVotes,
         listSelections: {
           ...state.listSelections,
           [action.partyListNumber]: {

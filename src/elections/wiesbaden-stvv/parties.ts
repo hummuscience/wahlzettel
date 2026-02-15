@@ -1,0 +1,17 @@
+export const PARTY_COLORS: Record<string, string> = {
+  'CDU': '#000000',
+  'AfD': '#009ee0',
+  'SPD': '#e3000f',
+  'GRÜNE': '#1AA037',
+  'FDP': '#ffed00',
+  'DIE LINKE': '#be3075',
+  'Volt': '#502379',
+  'PRO AUTO': '#f7a800',
+  'BLW': '#4a90d9',
+  'Die PARTEI': '#b5152b',
+  'Die Gerechtigkeitspartei': '#2e7d32',
+  'BSW': '#4C0B5F',
+  'FWG': '#e65100',
+  'PdF': '#1565c0',
+  'FREIE WÄHLER': '#f7a800',
+};

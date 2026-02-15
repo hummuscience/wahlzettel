@@ -1,5 +1,5 @@
 {
-  "appTitle": "Frankfurt Wahlguide 2026",
+  "appTitle": "Wahlguide 2026",
   "appSubtitle": "Übe die Kommunalwahl – interaktiv & verständlich",
   "back": "Zurück",
   "next": "Weiter",
@@ -8,12 +8,14 @@
   "language": "Sprache",
   "mobileHint": "Für das beste Erlebnis, nutze einen größeren Bildschirm",
   "disclaimer": "Dies ist ein privates Informationsangebot und steht in keinem Zusammenhang mit der Stadt Frankfurt am Main oder dem Wahlamt. Alle Angaben ohne Gewähr. Informiere dich auf frankfurt.de/wahlen über die offiziellen Wahlunterlagen.",
-  "madeWith": "Mit ♥ für Frankfurt",
+  "madeWith": "Mit ♥ gemacht",
   "citizenshipTitle": "Welchen Stimmzettel möchtest du üben?",
   "citizenshipSubtitle": "Wähle basierend auf deiner Staatsbürgerschaft den passenden Stimmzettel.",
   "germanCitizen": "Deutsche Staatsbürgerschaft",
   "germanCitizenDesc": "Stimmzettel für die Stadtverordnetenversammlung (STVV) – den \"Römer\".",
   "nonGermanCitizen": "Nicht-deutsche Staatsbürgerschaft",
   "nonGermanCitizenDesc": "Stimmzettel für die Kommunale Ausländer- und Ausländerinnenvertretung (KAV).",
+  "stvvDesc": "Das Stadtparlament – wählen alle Deutschen und EU-Bürger/innen ab 18.",
+  "kavDesc": "Vertretung für ausländische Einwohner/innen ohne EU-Pass ab 18.",
   "switchBallot": "Stimmzettel wechseln"
 }

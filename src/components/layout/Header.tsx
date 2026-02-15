@@ -2,12 +2,12 @@ import { useTranslation } from 'react-i18next';
 import { useState, useRef, useEffect } from 'react';
 
 const LANGUAGES = [
-  { code: 'de', label: 'DE', name: 'Deutsch' },
-  { code: 'en', label: 'EN', name: 'English' },
-  { code: 'tr', label: 'TR', name: 'Türkçe' },
-  { code: 'ar', label: 'عر', name: 'العربية', rtl: true },
-  { code: 'uk', label: 'УК', name: 'Українська' },
-  { code: 'ru', label: 'РУ', name: 'Русский' },
+  { code: 'de', label: 'DE', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'en', label: 'EN', name: 'English', flag: '🇬🇧' },
+  { code: 'tr', label: 'TR', name: 'Türkçe', flag: '🇹🇷' },
+  { code: 'ar', label: 'عر', name: 'العربية', rtl: true, flag: '🌍' },
+  { code: 'uk', label: 'УК', name: 'Українська', flag: '🇺🇦' },
+  { code: 'ru', label: 'РУ', name: 'Русский', flag: '🇷🇺' },
 ] as const;
 
 interface HeaderProps {
@@ -49,11 +49,11 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
   };
 
   return (
-    <header className="bg-frankfurt-blue text-white relative z-60">
+    <header className="bg-election-primary text-white relative z-60">
       <div className="max-w-5xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-y-2">
         <div className="min-w-0">
-          <h1 className="text-lg sm:text-xl md:text-2xl font-bold truncate">{t('appTitle')}</h1>
-          <p className="text-sm text-white/80 mt-0.5 hidden sm:block">{t('appSubtitle')}</p>
+          <h1 className="text-lg sm:text-xl md:text-2xl font-bold truncate">{t('title', { ns: 'election', defaultValue: t('appTitle') })}</h1>
+          <p className="text-sm text-white/80 mt-0.5 hidden sm:block">{t('subtitle', { ns: 'election', defaultValue: t('appSubtitle') })}</p>
         </div>
         <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           {/* Switch ballot button */}
@@ -73,10 +73,11 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
           <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setLangOpen(prev => !prev)}
-              className="h-8 px-2 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center text-xs font-bold transition-colors"
+              className="h-8 px-2.5 rounded-full border-2 border-white/40 text-white/70 hover:border-white hover:text-white flex items-center justify-center text-xs font-bold transition-colors gap-1"
               title={t('language')}
             >
-              {currentLang.label}
+              <span>{currentLang.flag}</span>
+              <span>{currentLang.label}</span>
             </button>
             {langOpen && (
               <div className="absolute end-0 top-full mt-1 bg-white text-gray-900 rounded-lg shadow-lg overflow-hidden z-50 min-w-[120px]">
@@ -84,8 +85,8 @@ export function Header({ onTourRestart, onInfoToggle, onWalkthroughToggle, onSha
                   <button
                     key={lang.code}
                     onClick={() => switchLanguage(lang.code)}
-                    className={`w-full px-3 py-2 text-sm text-start hover:bg-frankfurt-blue-light flex items-center justify-between ${
-                      lang.code === i18n.language ? 'bg-frankfurt-blue-light font-bold' : ''
+                    className={`w-full px-3 py-2 text-sm text-start hover:bg-election-primary-light flex items-center justify-between ${
+                      lang.code === i18n.language ? 'bg-election-primary-light font-bold' : ''
                     }`}
                   >
                     <span>{lang.name}</span>

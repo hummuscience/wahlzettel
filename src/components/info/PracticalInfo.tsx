@@ -10,6 +10,10 @@ const infoItems = [
 
 export function PracticalInfo() {
   const { t } = useTranslation('info');
+  const { t: te } = useTranslation('election');
+
+  // Election-overridable value getter: try election namespace first, fall back to info namespace
+  const v = (key: string) => te(key, { defaultValue: t(key) });
 
   return (
     <section className="hidden lg:block lg:w-64 lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto">
@@ -25,7 +29,7 @@ export function PracticalInfo() {
               <span className="text-base">{item.icon}</span>
               <h3 className="font-semibold text-xs">{t(item.titleKey)}</h3>
             </div>
-            <p className="text-[11px] text-gray-600 leading-relaxed">{t(item.valueKey)}</p>
+            <p className="text-[11px] text-gray-600 leading-relaxed">{v(item.valueKey)}</p>
           </div>
         ))}
 
@@ -35,12 +39,12 @@ export function PracticalInfo() {
             <h3 className="font-semibold text-xs">{t('moreInfo')}</h3>
           </div>
           <a
-            href="https://frankfurt.de/wahlen"
+            href={te('moreInfoUrl', { defaultValue: 'https://frankfurt.de/wahlen' })}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[11px] text-frankfurt-blue hover:underline"
+            className="text-[11px] text-election-primary hover:underline"
           >
-            {t('moreInfoLink')}
+            {v('moreInfoLink')}
           </a>
         </div>
       </div>

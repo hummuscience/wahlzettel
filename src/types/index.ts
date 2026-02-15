@@ -19,7 +19,7 @@ export interface Party {
 }
 
 export interface ElectionData {
-  election: 'stvv' | 'ortsbeirat' | 'kav';
+  election: string;
   name: string;
   totalStimmen: number;
   maxPerCandidate: number;

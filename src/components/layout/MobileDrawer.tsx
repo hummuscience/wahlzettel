@@ -43,7 +43,7 @@ export function MobileDrawer({ isOpen, onClose, side, children }: MobileDrawerPr
             : side === 'left' ? '-translate-x-full' : 'translate-x-full'
         }`}
       >
-        <div className="sticky top-0 bg-frankfurt-blue text-white px-4 py-3 flex items-center justify-between z-10">
+        <div className="sticky top-0 bg-election-primary text-white px-4 py-3 flex items-center justify-between z-10">
           <span className="font-bold text-sm">&nbsp;</span>
           <button
             onClick={onClose}

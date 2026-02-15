@@ -1,3 +1,5 @@
+// Fallback party colors combining all elections.
+// Components should prefer using useElection().partyColors when possible.
 const PARTY_COLORS: Record<string, string> = {
   // Shared parties (STVV + KAV)
   'CDU': '#000000',
@@ -40,6 +42,9 @@ const PARTY_COLORS: Record<string, string> = {
   'CL': '#b8860b',
 };
 
-export function getPartyColor(shortName: string): string {
+export function getPartyColor(shortName: string, electionColors?: Record<string, string>): string {
+  if (electionColors) {
+    return electionColors[shortName] ?? PARTY_COLORS[shortName] ?? '#9ca3af';
+  }
   return PARTY_COLORS[shortName] ?? '#9ca3af';
 }

@@ -41,7 +41,7 @@ export function PartyBookmarks({
                 text-left px-3 py-2 text-sm border-b border-gray-100
                 transition-colors duration-100 flex items-center justify-between
                 ${isActive
-                  ? 'bg-white font-bold text-frankfurt-blue border-r-0 shadow-sm relative z-10'
+                  ? 'bg-white font-bold text-election-primary border-r-0 shadow-sm relative z-10'
                   : 'hover:bg-gray-100 text-gray-700'
                 }
               `}
@@ -50,7 +50,7 @@ export function PartyBookmarks({
               {count > 0 && (
                 <span className={`
                   ml-1 text-xs px-1.5 py-0.5 rounded-full shrink-0
-                  ${isActive ? 'bg-frankfurt-blue text-white' : 'bg-frankfurt-blue/10 text-frankfurt-blue'}
+                  ${isActive ? 'bg-election-primary text-white' : 'bg-election-primary/10 text-election-primary'}
                 `}>
                   {count}
                 </span>
@@ -74,14 +74,14 @@ export function PartyBookmarks({
               className={`
                 shrink-0 px-3 py-2 text-xs border-b-2 transition-colors
                 ${isActive
-                  ? 'border-frankfurt-blue text-frankfurt-blue font-bold bg-white'
+                  ? 'border-election-primary text-election-primary font-bold bg-white'
                   : 'border-transparent text-gray-600 hover:text-gray-900'
                 }
               `}
             >
               {party.shortName}
               {count > 0 && (
-                <span className="ml-0.5 text-[10px] bg-frankfurt-blue/10 text-frankfurt-blue px-1 rounded-full">
+                <span className="ml-0.5 text-[10px] bg-election-primary/10 text-election-primary px-1 rounded-full">
                   {count}
                 </span>
               )}

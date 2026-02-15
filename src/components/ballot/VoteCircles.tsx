@@ -11,8 +11,12 @@ interface VoteCirclesProps {
 export function VoteCircles({ stimmen, maxReached, isListVoteDisplay, dataTour, onChange }: VoteCirclesProps) {
   const handleClick = useCallback(
     (circleIndex: number) => {
-      if (isListVoteDisplay) return;
       const clickedPosition = circleIndex + 1;
+      if (isListVoteDisplay) {
+        // Clicking a list-allocated circle sets individual votes (overrides list)
+        onChange(clickedPosition);
+        return;
+      }
       if (clickedPosition === stimmen) {
         // Clicking the last filled circle decrements
         onChange(stimmen - 1);
@@ -27,8 +31,8 @@ export function VoteCircles({ stimmen, maxReached, isListVoteDisplay, dataTour, 
     <div className="flex gap-1.5 shrink-0" role="group" aria-label="Stimmen" {...(dataTour ? { 'data-tour': dataTour } : {})}>
       {[0, 1, 2].map(i => {
         const isFilled = i < stimmen;
-        const isDisabled = !isFilled && maxReached && !isListVoteDisplay;
-        const isClickable = !isListVoteDisplay && !isDisabled;
+        const isDisabled = !isFilled && maxReached;
+        const isClickable = !isDisabled;
 
         return (
           <button
@@ -40,12 +44,12 @@ export function VoteCircles({ stimmen, maxReached, isListVoteDisplay, dataTour, 
             className={`
               w-7 h-7 md:w-6 md:h-6 rounded-full border-2 transition-all duration-150
               ${isFilled && isListVoteDisplay
-                ? 'bg-frankfurt-blue/30 border-frankfurt-blue/50'
+                ? 'bg-election-primary/30 border-election-primary/50'
                 : isFilled
-                  ? 'bg-frankfurt-blue border-frankfurt-blue scale-105'
+                  ? 'bg-election-primary border-election-primary scale-105'
                   : 'border-gray-300 bg-white'
               }
-              ${isClickable ? 'cursor-pointer hover:border-frankfurt-blue hover:scale-110' : ''}
+              ${isClickable ? 'cursor-pointer hover:border-election-primary hover:scale-110' : ''}
               ${isDisabled ? 'opacity-30 cursor-not-allowed' : ''}
             `}
           />

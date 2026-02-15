@@ -178,7 +178,7 @@ export function GuidedTour({ isActive, currentStep, totalStimmen, onNext, onPrev
         {/* Header: emoji + step counter */}
         <div className="flex items-center gap-2 mb-2">
           <span className="text-xl">{step.emoji}</span>
-          <span className="text-xs font-semibold text-frankfurt-blue/60 uppercase tracking-wider">
+          <span className="text-xs font-semibold text-election-primary/60 uppercase tracking-wider">
             {currentStep + 1} / {tourSteps.length}
           </span>
         </div>
@@ -212,7 +212,7 @@ export function GuidedTour({ isActive, currentStep, totalStimmen, onNext, onPrev
 
           <button
             onClick={onNext}
-            className="text-xs px-3 py-1.5 rounded-lg bg-frankfurt-blue text-white hover:bg-frankfurt-blue/90 transition-colors"
+            className="text-xs px-3 py-1.5 rounded-lg bg-election-primary text-white hover:bg-election-primary/90 transition-colors"
           >
             {currentStep === tourSteps.length - 1
               ? t('tourFinish', { defaultValue: 'Fertig!' })

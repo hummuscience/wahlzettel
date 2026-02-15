@@ -90,7 +90,7 @@ export function SummaryPanel({
         <div className="flex items-center gap-3">
           <button
             onClick={handleShare}
-            className="text-sm text-frankfurt-blue hover:underline"
+            className="text-sm text-election-primary hover:underline"
           >
             {t('teilen')}
           </button>
