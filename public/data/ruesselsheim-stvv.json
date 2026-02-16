@@ -1,0 +1,1842 @@
+{
+  "totalStimmen": 45,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "CDU",
+      "shortName": "CDU",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "rue-stvv-1-1",
+          "position": 1,
+          "lastName": "Burghardt",
+          "firstName": "Patrick",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-2",
+          "position": 2,
+          "lastName": "Kropp",
+          "firstName": "Stefanie",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-3",
+          "position": 3,
+          "lastName": "Alevizaki",
+          "firstName": "Chrisoula",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-4",
+          "position": 4,
+          "lastName": "Bernhardt",
+          "firstName": "Stephan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-5",
+          "position": 5,
+          "lastName": "Böcker",
+          "firstName": "Heide",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-6",
+          "position": 6,
+          "lastName": "Jagla",
+          "firstName": "Markus-Johannes",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-7",
+          "position": 7,
+          "lastName": "Kalaitzis",
+          "firstName": "Ioannis",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-8",
+          "position": 8,
+          "lastName": "Bergmann",
+          "firstName": "Nicole-Carolin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-9",
+          "position": 9,
+          "lastName": "Wormuth",
+          "firstName": "Paul Dieter",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-10",
+          "position": 10,
+          "lastName": "Beisel",
+          "firstName": "Ulla",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-11",
+          "position": 11,
+          "lastName": "Schleidt",
+          "firstName": "Johann Heinrich",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-12",
+          "position": 12,
+          "lastName": "Kulturidou",
+          "firstName": "Melbomeni",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-13",
+          "position": 13,
+          "lastName": "Karger",
+          "firstName": "Luca Sören",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-14",
+          "position": 14,
+          "lastName": "Eller",
+          "firstName": "Viviane Ninette",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-15",
+          "position": 15,
+          "lastName": "Skladny",
+          "firstName": "Thomas",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-16",
+          "position": 16,
+          "lastName": "Schmidt",
+          "firstName": "Roland",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-17",
+          "position": 17,
+          "lastName": "Heinrich",
+          "firstName": "Florian Kurt",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-18",
+          "position": 18,
+          "lastName": "Goergen",
+          "firstName": "Jennifer",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-19",
+          "position": 19,
+          "lastName": "Inci",
+          "firstName": "Yasin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-20",
+          "position": 20,
+          "lastName": "Kalaitzi",
+          "firstName": "Maria",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-21",
+          "position": 21,
+          "lastName": "Daum",
+          "firstName": "Gerhard",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-22",
+          "position": 22,
+          "lastName": "Streim",
+          "firstName": "Karin Anna",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-23",
+          "position": 23,
+          "lastName": "Stalmach",
+          "firstName": "Torben",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-24",
+          "position": 24,
+          "lastName": "Schick",
+          "firstName": "Markus",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-25",
+          "position": 25,
+          "lastName": "Heun",
+          "firstName": "Andrea",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-26",
+          "position": 26,
+          "lastName": "Oberfrank",
+          "firstName": "Gerd",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-27",
+          "position": 27,
+          "lastName": "Fistric",
+          "firstName": "Borislaw",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-28",
+          "position": 28,
+          "lastName": "Stahl",
+          "firstName": "Werner",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-29",
+          "position": 29,
+          "lastName": "Beranek",
+          "firstName": "Gudrun",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-30",
+          "position": 30,
+          "lastName": "Schemeit",
+          "firstName": "Jan-Dominik",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-31",
+          "position": 31,
+          "lastName": "Böcker",
+          "firstName": "Stephan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-32",
+          "position": 32,
+          "lastName": "Wohlfahrt",
+          "firstName": "Frank",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-33",
+          "position": 33,
+          "lastName": "Heil",
+          "firstName": "Henning",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-34",
+          "position": 34,
+          "lastName": "Safi",
+          "firstName": "Nektaria",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-35",
+          "position": 35,
+          "lastName": "Vogel",
+          "firstName": "Simone",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-36",
+          "position": 36,
+          "lastName": "Feldmann",
+          "firstName": "Cora",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-37",
+          "position": 37,
+          "lastName": "Jüppner",
+          "firstName": "Hilko",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-38",
+          "position": 38,
+          "lastName": "Quick",
+          "firstName": "Waltraud",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-39",
+          "position": 39,
+          "lastName": "Höll",
+          "firstName": "Gabriela",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-1-40",
+          "position": 40,
+          "lastName": "Höll",
+          "firstName": "Roland",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "AfD",
+      "shortName": "AfD",
+      "candidateCount": 14,
+      "candidates": [
+        {
+          "id": "rue-stvv-2-1",
+          "position": 1,
+          "lastName": "Horesnyi",
+          "firstName": "Irmgard Theresia",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-2",
+          "position": 2,
+          "lastName": "Zakharov",
+          "firstName": "Artem",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-3",
+          "position": 3,
+          "lastName": "Baar",
+          "firstName": "Engelbert",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-4",
+          "position": 4,
+          "lastName": "Grams",
+          "firstName": "Thorsten",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-5",
+          "position": 5,
+          "lastName": "Poniatowski",
+          "firstName": "Jürgen",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-6",
+          "position": 6,
+          "lastName": "Ocak",
+          "firstName": "Murat",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-7",
+          "position": 7,
+          "lastName": "Martens",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-8",
+          "position": 8,
+          "lastName": "Böhme",
+          "firstName": "Marcel",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-9",
+          "position": 9,
+          "lastName": "Brand",
+          "firstName": "Silvia",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-10",
+          "position": 10,
+          "lastName": "Seib",
+          "firstName": "Herbert Alfred",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-11",
+          "position": 11,
+          "lastName": "Arendarska",
+          "firstName": "Irena",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-12",
+          "position": 12,
+          "lastName": "Seib",
+          "firstName": "Karin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-13",
+          "position": 13,
+          "lastName": "Oberfrank",
+          "firstName": "Hans-Jürgen",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-2-14",
+          "position": 14,
+          "lastName": "Krause",
+          "firstName": "Oliver",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "fullName": "SPD",
+      "shortName": "SPD",
+      "candidateCount": 43,
+      "candidates": [
+        {
+          "id": "rue-stvv-3-1",
+          "position": 1,
+          "lastName": "Kotyga-Mirza",
+          "firstName": "Lea",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-2",
+          "position": 2,
+          "lastName": "Karakaya",
+          "firstName": "Murat",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-3",
+          "position": 3,
+          "lastName": "Meixner-Römer",
+          "firstName": "Renate",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-4",
+          "position": 4,
+          "lastName": "Bergemann",
+          "firstName": "Gerhard",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-5",
+          "position": 5,
+          "lastName": "Ben Fadhel",
+          "firstName": "Janina",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-6",
+          "position": 6,
+          "lastName": "Hauf",
+          "firstName": "Wilfried",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-7",
+          "position": 7,
+          "lastName": "Klatt",
+          "firstName": "Jessica",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-8",
+          "position": 8,
+          "lastName": "Grode",
+          "firstName": "Jens",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-9",
+          "position": 9,
+          "lastName": "Gilginberg",
+          "firstName": "Angelika",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-10",
+          "position": 10,
+          "lastName": "Dilekli",
+          "firstName": "Ulaş",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-11",
+          "position": 11,
+          "lastName": "Hahn",
+          "firstName": "Angela",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-12",
+          "position": 12,
+          "lastName": "Safel",
+          "firstName": "Yıldıray",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-13",
+          "position": 13,
+          "lastName": "Rougier",
+          "firstName": "Berit",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-14",
+          "position": 14,
+          "lastName": "Trautvetter",
+          "firstName": "Martin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-15",
+          "position": 15,
+          "lastName": "Kolb",
+          "firstName": "Natalie",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-16",
+          "position": 16,
+          "lastName": "Bartsch",
+          "firstName": "Peter",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-17",
+          "position": 17,
+          "lastName": "Ferraro",
+          "firstName": "Natali",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-18",
+          "position": 18,
+          "lastName": "Schmid",
+          "firstName": "Joachim",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-19",
+          "position": 19,
+          "lastName": "Somoza Fernandez",
+          "firstName": "Lorena",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-20",
+          "position": 20,
+          "lastName": "Bulut",
+          "firstName": "Tuncay",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-21",
+          "position": 21,
+          "lastName": "Altmayer",
+          "firstName": "Laura",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-22",
+          "position": 22,
+          "lastName": "Keck",
+          "firstName": "Jürgen",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-23",
+          "position": 23,
+          "lastName": "Dr. Dabelow",
+          "firstName": "Albena",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-24",
+          "position": 24,
+          "lastName": "Kantopoulos-Kestelidis",
+          "firstName": "Nicolas",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-25",
+          "position": 25,
+          "lastName": "Triendl",
+          "firstName": "Maria",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-26",
+          "position": 26,
+          "lastName": "Weilbächer",
+          "firstName": "Hans-Josef",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-27",
+          "position": 27,
+          "lastName": "Kallini",
+          "firstName": "Efrosini",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-28",
+          "position": 28,
+          "lastName": "Müller",
+          "firstName": "Stephan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-29",
+          "position": 29,
+          "lastName": "Cugali",
+          "firstName": "Cemre",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-30",
+          "position": 30,
+          "lastName": "Künzler",
+          "firstName": "Harald",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-31",
+          "position": 31,
+          "lastName": "Schmitt",
+          "firstName": "Alice",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-32",
+          "position": 32,
+          "lastName": "Hack",
+          "firstName": "Björn",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-33",
+          "position": 33,
+          "lastName": "Keck-Topuzluoglu",
+          "firstName": "Aysegül",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-34",
+          "position": 34,
+          "lastName": "Walter",
+          "firstName": "Christian",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-35",
+          "position": 35,
+          "lastName": "Theodoridou",
+          "firstName": "Athina",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-36",
+          "position": 36,
+          "lastName": "Schoch",
+          "firstName": "Michael",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-37",
+          "position": 37,
+          "lastName": "Kretschmer",
+          "firstName": "Helga",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-38",
+          "position": 38,
+          "lastName": "Yoltay",
+          "firstName": "Arslan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-39",
+          "position": 39,
+          "lastName": "Kotyga",
+          "firstName": "Ruth",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-40",
+          "position": 40,
+          "lastName": "Grohnert-Naumann",
+          "firstName": "Steve",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-41",
+          "position": 41,
+          "lastName": "Milivojević",
+          "firstName": "Eleni",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-42",
+          "position": 42,
+          "lastName": "Becke",
+          "firstName": "Konrad",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-3-43",
+          "position": 43,
+          "lastName": "Azap",
+          "firstName": "Esma",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "GRÜNE",
+      "shortName": "GRÜNE",
+      "candidateCount": 38,
+      "candidates": [
+        {
+          "id": "rue-stvv-4-1",
+          "position": 1,
+          "lastName": "Schmitz-Henkes",
+          "firstName": "Maria",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-2",
+          "position": 2,
+          "lastName": "Vogt",
+          "firstName": "Christian",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-3",
+          "position": 3,
+          "lastName": "Steinborn",
+          "firstName": "Birgit",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-4",
+          "position": 4,
+          "lastName": "Alsheimer",
+          "firstName": "Nicole",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-5",
+          "position": 5,
+          "lastName": "Rohark",
+          "firstName": "Erika",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-6",
+          "position": 6,
+          "lastName": "Fitzek",
+          "firstName": "Niklas",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-7",
+          "position": 7,
+          "lastName": "Dayankaç",
+          "firstName": "Neslihan Vildan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-8",
+          "position": 8,
+          "lastName": "Gocht",
+          "firstName": "Klaus",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-9",
+          "position": 9,
+          "lastName": "Scherer",
+          "firstName": "Brit",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-10",
+          "position": 10,
+          "lastName": "Tönsmann",
+          "firstName": "Michael",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-11",
+          "position": 11,
+          "lastName": "Scherer",
+          "firstName": "Sophia",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-12",
+          "position": 12,
+          "lastName": "El Khayari",
+          "firstName": "Samir",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-13",
+          "position": 13,
+          "lastName": "Alsheimer",
+          "firstName": "Hannah Marleen",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-14",
+          "position": 14,
+          "lastName": "Scherer",
+          "firstName": "Gernot",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-15",
+          "position": 15,
+          "lastName": "Hofmann",
+          "firstName": "Doris",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-16",
+          "position": 16,
+          "lastName": "de Haas",
+          "firstName": "Stephan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-17",
+          "position": 17,
+          "lastName": "Scholand",
+          "firstName": "Bernadett Ursula",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-18",
+          "position": 18,
+          "lastName": "Bullmann",
+          "firstName": "Kevin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-19",
+          "position": 19,
+          "lastName": "Schrimpf",
+          "firstName": "Sabine",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-20",
+          "position": 20,
+          "lastName": "Dayankaç",
+          "firstName": "Adnan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-21",
+          "position": 21,
+          "lastName": "Petersen",
+          "firstName": "Antje",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-22",
+          "position": 22,
+          "lastName": "Hinkel",
+          "firstName": "Thomas",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-23",
+          "position": 23,
+          "lastName": "Koban",
+          "firstName": "Kristine",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-24",
+          "position": 24,
+          "lastName": "Göttert",
+          "firstName": "Ernst",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-25",
+          "position": 25,
+          "lastName": "Hinkel",
+          "firstName": "Melanie",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-26",
+          "position": 26,
+          "lastName": "Hofmann",
+          "firstName": "Siegfried",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-27",
+          "position": 27,
+          "lastName": "Roth",
+          "firstName": "Mirjam",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-28",
+          "position": 28,
+          "lastName": "Schumacher",
+          "firstName": "Sören",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-29",
+          "position": 29,
+          "lastName": "Heydweiller",
+          "firstName": "Dorothea",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-30",
+          "position": 30,
+          "lastName": "Henkes",
+          "firstName": "Matthias",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-31",
+          "position": 31,
+          "lastName": "Di Tullio",
+          "firstName": "Melanie",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-32",
+          "position": 32,
+          "lastName": "Hamer",
+          "firstName": "Marcel",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-33",
+          "position": 33,
+          "lastName": "Röhr",
+          "firstName": "Edith",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-34",
+          "position": 34,
+          "lastName": "Schirmer",
+          "firstName": "Folkmar",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-35",
+          "position": 35,
+          "lastName": "Palm",
+          "firstName": "Elke",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-36",
+          "position": 36,
+          "lastName": "Dreiseitel",
+          "firstName": "Josef",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-37",
+          "position": 37,
+          "lastName": "Merz",
+          "firstName": "Martina",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-4-38",
+          "position": 38,
+          "lastName": "Grieser",
+          "firstName": "Dennis",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "FDP",
+      "shortName": "FDP",
+      "candidateCount": 17,
+      "candidates": [
+        {
+          "id": "rue-stvv-5-1",
+          "position": 1,
+          "lastName": "Sert",
+          "firstName": "Abdullah",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-2",
+          "position": 2,
+          "lastName": "Böhm",
+          "firstName": "Christoph",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-3",
+          "position": 3,
+          "lastName": "Römbach",
+          "firstName": "Ralph",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-4",
+          "position": 4,
+          "lastName": "Reinheimer",
+          "firstName": "Martin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-5",
+          "position": 5,
+          "lastName": "Dr. Petras",
+          "firstName": "Matthias",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-6",
+          "position": 6,
+          "lastName": "Müller",
+          "firstName": "Joachim",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-7",
+          "position": 7,
+          "lastName": "Adam",
+          "firstName": "Brigitte",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-8",
+          "position": 8,
+          "lastName": "Helgest",
+          "firstName": "Johannes",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-9",
+          "position": 9,
+          "lastName": "Janthur",
+          "firstName": "Ingo",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-10",
+          "position": 10,
+          "lastName": "Otto",
+          "firstName": "Christian Torsten",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-11",
+          "position": 11,
+          "lastName": "Koch",
+          "firstName": "Sebastian",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-12",
+          "position": 12,
+          "lastName": "Dr. Sünner",
+          "firstName": "Tobias",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-13",
+          "position": 13,
+          "lastName": "Arbib",
+          "firstName": "Yazid",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-14",
+          "position": 14,
+          "lastName": "Reuter",
+          "firstName": "Paul",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-15",
+          "position": 15,
+          "lastName": "Rückert",
+          "firstName": "Angelika",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-16",
+          "position": 16,
+          "lastName": "Erol",
+          "firstName": "Melek",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-5-17",
+          "position": 17,
+          "lastName": "Sert",
+          "firstName": "Aldemir",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "fullName": "WsR",
+      "shortName": "WsR",
+      "candidateCount": 46,
+      "candidates": [
+        {
+          "id": "rue-stvv-6-1",
+          "position": 1,
+          "lastName": "Walczuch",
+          "firstName": "Joachim",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-2",
+          "position": 2,
+          "lastName": "Prof. Dr. Flörsheimer",
+          "firstName": "Mathias",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-3",
+          "position": 3,
+          "lastName": "Reutershan",
+          "firstName": "Gabriele",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-4",
+          "position": 4,
+          "lastName": "Claus",
+          "firstName": "Joachim",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-5",
+          "position": 5,
+          "lastName": "Donges",
+          "firstName": "Udo",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-6",
+          "position": 6,
+          "lastName": "Moll",
+          "firstName": "Andreas",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-7",
+          "position": 7,
+          "lastName": "Schlosser-Münch",
+          "firstName": "Andrea",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-8",
+          "position": 8,
+          "lastName": "Martin",
+          "firstName": "Karin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-9",
+          "position": 9,
+          "lastName": "von Eynern",
+          "firstName": "Marion Doris",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-10",
+          "position": 10,
+          "lastName": "Bostan",
+          "firstName": "Aysel",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-11",
+          "position": 11,
+          "lastName": "Balß",
+          "firstName": "Ronald Werner",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-12",
+          "position": 12,
+          "lastName": "Neumann",
+          "firstName": "Mario",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-13",
+          "position": 13,
+          "lastName": "Gassauer",
+          "firstName": "Patrick",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-14",
+          "position": 14,
+          "lastName": "Wagner",
+          "firstName": "Rainer",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-15",
+          "position": 15,
+          "lastName": "Kruse",
+          "firstName": "Jil Eileen",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-16",
+          "position": 16,
+          "lastName": "Hüttenberger",
+          "firstName": "Paul",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-17",
+          "position": 17,
+          "lastName": "Grimm",
+          "firstName": "Bernd",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-18",
+          "position": 18,
+          "lastName": "Eckhardt",
+          "firstName": "Mario",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-19",
+          "position": 19,
+          "lastName": "Zumbansen",
+          "firstName": "Heinz",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-20",
+          "position": 20,
+          "lastName": "Schneider",
+          "firstName": "Heinz Eugen",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-21",
+          "position": 21,
+          "lastName": "Glenz",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-22",
+          "position": 22,
+          "lastName": "Trautwein",
+          "firstName": "Boris",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-23",
+          "position": 23,
+          "lastName": "Kunz",
+          "firstName": "Anja",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-24",
+          "position": 24,
+          "lastName": "Schlosser",
+          "firstName": "Bernd",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-25",
+          "position": 25,
+          "lastName": "Eckhardt",
+          "firstName": "Anja",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-26",
+          "position": 26,
+          "lastName": "Kulas",
+          "firstName": "Heinz-Joachim",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-27",
+          "position": 27,
+          "lastName": "Negatsch",
+          "firstName": "Wilfried",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-28",
+          "position": 28,
+          "lastName": "Walczuch",
+          "firstName": "Felix",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-29",
+          "position": 29,
+          "lastName": "Wehle",
+          "firstName": "Andrea",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-30",
+          "position": 30,
+          "lastName": "Trautwein",
+          "firstName": "Alexandra",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-31",
+          "position": 31,
+          "lastName": "Weirauch",
+          "firstName": "Frank",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-32",
+          "position": 32,
+          "lastName": "Hansel",
+          "firstName": "Günther",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-33",
+          "position": 33,
+          "lastName": "Burger",
+          "firstName": "Uwe",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-34",
+          "position": 34,
+          "lastName": "Schneider",
+          "firstName": "Anneliese",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-35",
+          "position": 35,
+          "lastName": "Şahin",
+          "firstName": "Talip",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-36",
+          "position": 36,
+          "lastName": "Thienger",
+          "firstName": "Armin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-37",
+          "position": 37,
+          "lastName": "Weirauch",
+          "firstName": "Cindy Roxane",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-38",
+          "position": 38,
+          "lastName": "Yaka",
+          "firstName": "Imam",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-39",
+          "position": 39,
+          "lastName": "Schmidt",
+          "firstName": "Ralf",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-40",
+          "position": 40,
+          "lastName": "Schmidt",
+          "firstName": "Andrea",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-41",
+          "position": 41,
+          "lastName": "Yaka",
+          "firstName": "Türkan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-42",
+          "position": 42,
+          "lastName": "Cyron",
+          "firstName": "Gisela",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-43",
+          "position": 43,
+          "lastName": "Maybach",
+          "firstName": "Stefan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-44",
+          "position": 44,
+          "lastName": "Höfeld",
+          "firstName": "Walter",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-45",
+          "position": 45,
+          "lastName": "Cyron",
+          "firstName": "Peter",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-6-46",
+          "position": 46,
+          "lastName": "Laut",
+          "firstName": "Franz",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "fullName": "Abi",
+      "shortName": "Abi",
+      "candidateCount": 16,
+      "candidates": [
+        {
+          "id": "rue-stvv-7-1",
+          "position": 1,
+          "lastName": "Yıldız",
+          "firstName": "Muhammed Ali",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-2",
+          "position": 2,
+          "lastName": "Oral",
+          "firstName": "Ömer Faruk",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-3",
+          "position": 3,
+          "lastName": "Alp",
+          "firstName": "Bilal",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-4",
+          "position": 4,
+          "lastName": "El Hallaoui",
+          "firstName": "Yusuf",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-5",
+          "position": 5,
+          "lastName": "Çoşkun",
+          "firstName": "Emre",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-6",
+          "position": 6,
+          "lastName": "Tokat",
+          "firstName": "Miraç",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-7",
+          "position": 7,
+          "lastName": "El Hallaoui",
+          "firstName": "Ilyas",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-8",
+          "position": 8,
+          "lastName": "Newton",
+          "firstName": "Prince Asamoah",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-9",
+          "position": 9,
+          "lastName": "Ben Yaflah",
+          "firstName": "Ahmed",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-10",
+          "position": 10,
+          "lastName": "El Hallaoui",
+          "firstName": "Amina",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-11",
+          "position": 11,
+          "lastName": "Bozdağ",
+          "firstName": "Enes",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-12",
+          "position": 12,
+          "lastName": "Altun",
+          "firstName": "Şüheda",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-13",
+          "position": 13,
+          "lastName": "Demir",
+          "firstName": "Deniz",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-14",
+          "position": 14,
+          "lastName": "Doğan",
+          "firstName": "Ömer Faruk",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-15",
+          "position": 15,
+          "lastName": "Ben Yaflah",
+          "firstName": "Amin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-7-16",
+          "position": 16,
+          "lastName": "Doğan",
+          "firstName": "Muhammed Yusuf",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "fullName": "Die Linke/OL",
+      "shortName": "Die Linke/OL",
+      "candidateCount": 20,
+      "candidates": [
+        {
+          "id": "rue-stvv-8-1",
+          "position": 1,
+          "lastName": "Schneckenberger",
+          "firstName": "Karl-Heinz",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-2",
+          "position": 2,
+          "lastName": "Geyer",
+          "firstName": "Petra",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-3",
+          "position": 3,
+          "lastName": "Kalpinis",
+          "firstName": "Anastasios",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-4",
+          "position": 4,
+          "lastName": "Dornheim",
+          "firstName": "Sandra",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-5",
+          "position": 5,
+          "lastName": "Dornheim",
+          "firstName": "Martin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-6",
+          "position": 6,
+          "lastName": "Massey",
+          "firstName": "Sophie",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-7",
+          "position": 7,
+          "lastName": "Cömert",
+          "firstName": "Robin Cenk",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-8",
+          "position": 8,
+          "lastName": "Pruschke-Löw",
+          "firstName": "Karola",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-9",
+          "position": 9,
+          "lastName": "Geyer",
+          "firstName": "Mark",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-10",
+          "position": 10,
+          "lastName": "Zeller",
+          "firstName": "Juliane",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-11",
+          "position": 11,
+          "lastName": "Grainger",
+          "firstName": "Kierran Reece",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-12",
+          "position": 12,
+          "lastName": "Kreiner",
+          "firstName": "Sascha",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-13",
+          "position": 13,
+          "lastName": "Baymus",
+          "firstName": "Marcel",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-14",
+          "position": 14,
+          "lastName": "Wieland-Reith",
+          "firstName": "Heike",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-15",
+          "position": 15,
+          "lastName": "Krug",
+          "firstName": "Heinz-Jürgen",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-16",
+          "position": 16,
+          "lastName": "Yildiz",
+          "firstName": "Fatma",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-17",
+          "position": 17,
+          "lastName": "Germeroth",
+          "firstName": "Reiner",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-18",
+          "position": 18,
+          "lastName": "Weger",
+          "firstName": "Arthur",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-19",
+          "position": 19,
+          "lastName": "Becker",
+          "firstName": "Wolfgang",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-8-20",
+          "position": 20,
+          "lastName": "König",
+          "firstName": "Heinz",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "fullName": "BIS",
+      "shortName": "BIS",
+      "candidateCount": 18,
+      "candidates": [
+        {
+          "id": "rue-stvv-9-1",
+          "position": 1,
+          "lastName": "Houmami",
+          "firstName": "Mimoun",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-2",
+          "position": 2,
+          "lastName": "Irmak",
+          "firstName": "Cuma Burak",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-3",
+          "position": 3,
+          "lastName": "Akpınar",
+          "firstName": "Adem",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-4",
+          "position": 4,
+          "lastName": "Sevimli-Allali",
+          "firstName": "Meltem",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-5",
+          "position": 5,
+          "lastName": "El Fanoui",
+          "firstName": "Abdelaziz",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-6",
+          "position": 6,
+          "lastName": "Memiş",
+          "firstName": "Alaettin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-7",
+          "position": 7,
+          "lastName": "Atmaca",
+          "firstName": "Emre",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-8",
+          "position": 8,
+          "lastName": "Selvi",
+          "firstName": "Uğur",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-9",
+          "position": 9,
+          "lastName": "Billor",
+          "firstName": "Fadime",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-10",
+          "position": 10,
+          "lastName": "Yerli",
+          "firstName": "Aylin",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-11",
+          "position": 11,
+          "lastName": "Irmak",
+          "firstName": "Oğuzhan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-12",
+          "position": 12,
+          "lastName": "Selvi",
+          "firstName": "Erva",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-13",
+          "position": 13,
+          "lastName": "Doğru",
+          "firstName": "İrfan",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-14",
+          "position": 14,
+          "lastName": "Allali",
+          "firstName": "Nassim",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-15",
+          "position": 15,
+          "lastName": "El Bouzidi",
+          "firstName": "Mohamed",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-16",
+          "position": 16,
+          "lastName": "Tezkaç",
+          "firstName": "Seval",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-17",
+          "position": 17,
+          "lastName": "Houmami",
+          "firstName": "Abdessamad",
+          "profession": ""
+        },
+        {
+          "id": "rue-stvv-9-18",
+          "position": 18,
+          "lastName": "Akpinar",
+          "firstName": "Hüseyin",
+          "profession": ""
+        }
+      ]
+    }
+  ]
+}

@@ -88,6 +88,142 @@ const CITIES: CityMarker[] = [
       },
     ],
   },
+  {
+    name: 'Darmstadt',
+    stateId: 'he',
+    x: 190,
+    y: 530,
+    labelSide: 'right',
+    elections: [
+      {
+        slug: 'darmstadt-stvv',
+        label: 'Stadtverordnetenversammlung',
+        descriptionKey: 'stvvDesc',
+        emoji: '🇩🇪',
+        stimmen: 71,
+        themeColor: '#004e8a',
+      },
+    ],
+  },
+  {
+    name: 'Kassel',
+    stateId: 'he',
+    x: 208,
+    y: 435,
+    labelSide: 'right',
+    elections: [
+      {
+        slug: 'kassel-stvv',
+        label: 'Stadtverordnetenversammlung',
+        descriptionKey: 'stvvDesc',
+        emoji: '🇩🇪',
+        stimmen: 71,
+        themeColor: '#004f9f',
+      },
+    ],
+  },
+  {
+    name: 'Offenbach',
+    stateId: 'he',
+    x: 196,
+    y: 517,
+    labelSide: 'right',
+    elections: [
+      {
+        slug: 'offenbach-stvv',
+        label: 'Stadtverordnetenversammlung',
+        descriptionKey: 'stvvDesc',
+        emoji: '🇩🇪',
+        stimmen: 71,
+        themeColor: '#1a5276',
+      },
+    ],
+  },
+  {
+    name: 'Hanau',
+    stateId: 'he',
+    x: 210,
+    y: 505,
+    labelSide: 'right',
+    elections: [
+      {
+        slug: 'hanau-stvv',
+        label: 'Stadtverordnetenversammlung',
+        descriptionKey: 'stvvDesc',
+        emoji: '🇩🇪',
+        stimmen: 59,
+        themeColor: '#c41e3a',
+      },
+    ],
+  },
+  {
+    name: 'Gießen',
+    stateId: 'he',
+    x: 193,
+    y: 470,
+    labelSide: 'right',
+    elections: [
+      {
+        slug: 'giessen-stvv',
+        label: 'Stadtverordnetenversammlung',
+        descriptionKey: 'stvvDesc',
+        emoji: '🇩🇪',
+        stimmen: 59,
+        themeColor: '#006633',
+      },
+    ],
+  },
+  {
+    name: 'Marburg',
+    stateId: 'he',
+    x: 192,
+    y: 454,
+    labelSide: 'left',
+    elections: [
+      {
+        slug: 'marburg-stvv',
+        label: 'Stadtverordnetenversammlung',
+        descriptionKey: 'stvvDesc',
+        emoji: '🇩🇪',
+        stimmen: 59,
+        themeColor: '#163455',
+      },
+    ],
+  },
+  {
+    name: 'Fulda',
+    stateId: 'he',
+    x: 228,
+    y: 468,
+    labelSide: 'right',
+    elections: [
+      {
+        slug: 'fulda-stvv',
+        label: 'Stadtverordnetenversammlung',
+        descriptionKey: 'stvvDesc',
+        emoji: '🇩🇪',
+        stimmen: 59,
+        themeColor: '#8B0000',
+      },
+    ],
+  },
+  {
+    name: 'Rüsselsheim',
+    stateId: 'he',
+    x: 170,
+    y: 518,
+    labelSide: 'left',
+    elections: [
+      {
+        slug: 'ruesselsheim-stvv',
+        label: 'Stadtverordnetenversammlung',
+        descriptionKey: 'stvvDesc',
+        emoji: '🇩🇪',
+        stimmen: 45,
+        themeColor: '#003399',
+      },
+    ],
+  },
 ];
 
 // Group cities by state for quick lookup

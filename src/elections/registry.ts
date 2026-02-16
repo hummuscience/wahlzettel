@@ -27,6 +27,46 @@ const ELECTIONS: ElectionEntry[] = [
     shareTypeCode: 3,
     load: () => import('./wiesbaden-kav/config').then(m => m.default),
   },
+  {
+    slug: 'darmstadt-stvv',
+    shareTypeCode: 4,
+    load: () => import('./darmstadt-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'kassel-stvv',
+    shareTypeCode: 5,
+    load: () => import('./kassel-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'hanau-stvv',
+    shareTypeCode: 6,
+    load: () => import('./hanau-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'offenbach-stvv',
+    shareTypeCode: 7,
+    load: () => import('./offenbach-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'giessen-stvv',
+    shareTypeCode: 8,
+    load: () => import('./giessen-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'marburg-stvv',
+    shareTypeCode: 9,
+    load: () => import('./marburg-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'fulda-stvv',
+    shareTypeCode: 10,
+    load: () => import('./fulda-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'ruesselsheim-stvv',
+    shareTypeCode: 11,
+    load: () => import('./ruesselsheim-stvv/config').then(m => m.default),
+  },
 ];
 
 export function getAllElections(): ElectionEntry[] {

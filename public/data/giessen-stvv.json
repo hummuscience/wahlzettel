@@ -1,0 +1,3056 @@
+{
+  "totalStimmen": 59,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "CDU",
+      "shortName": "CDU",
+      "candidateCount": 63,
+      "candidates": [
+        {
+          "id": "gi-stvv-1-1",
+          "position": 1,
+          "lastName": "Eser",
+          "firstName": "Dominic",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-2",
+          "position": 2,
+          "lastName": "Bouffier",
+          "firstName": "Frederik",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-3",
+          "position": 3,
+          "lastName": "Helmchen",
+          "firstName": "Anja",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-4",
+          "position": 4,
+          "lastName": "Möller",
+          "firstName": "Klaus Peter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-5",
+          "position": 5,
+          "lastName": "Schmidt",
+          "firstName": "Markus",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-6",
+          "position": 6,
+          "lastName": "Wagener",
+          "firstName": "Christine",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-7",
+          "position": 7,
+          "lastName": "Uelman",
+          "firstName": "Randy",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-8",
+          "position": 8,
+          "lastName": "Oswald",
+          "firstName": "Michael",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-9",
+          "position": 9,
+          "lastName": "Schmidt",
+          "firstName": "Kathrin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-10",
+          "position": 10,
+          "lastName": "Roth",
+          "firstName": "Thiemo",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-11",
+          "position": 11,
+          "lastName": "Zörb",
+          "firstName": "Carsten",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-12",
+          "position": 12,
+          "lastName": "Bulla-Garlonta",
+          "firstName": "Amalia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-13",
+          "position": 13,
+          "lastName": "Pfeffer",
+          "firstName": "Konstantin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-14",
+          "position": 14,
+          "lastName": "Schlicksupp",
+          "firstName": "Martin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-15",
+          "position": 15,
+          "lastName": "Küster",
+          "firstName": "Dorothe",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-16",
+          "position": 16,
+          "lastName": "Langsdorf",
+          "firstName": "Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-17",
+          "position": 17,
+          "lastName": "Schmitz",
+          "firstName": "Jan",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-18",
+          "position": 18,
+          "lastName": "Askinoglu",
+          "firstName": "Mualla",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-19",
+          "position": 19,
+          "lastName": "Ibraimtzik",
+          "firstName": "Nabi",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-20",
+          "position": 20,
+          "lastName": "Ehnis",
+          "firstName": "Frank",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-21",
+          "position": 21,
+          "lastName": "Münch",
+          "firstName": "Viktoria",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-22",
+          "position": 22,
+          "lastName": "Vural",
+          "firstName": "Kurtulus",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-23",
+          "position": 23,
+          "lastName": "Thiel",
+          "firstName": "Christoph",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-24",
+          "position": 24,
+          "lastName": "Schiffner",
+          "firstName": "Mara",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-25",
+          "position": 25,
+          "lastName": "Ramb",
+          "firstName": "Johannes-Benjamin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-26",
+          "position": 26,
+          "lastName": "Wismar",
+          "firstName": "Jan-Patrick",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-27",
+          "position": 27,
+          "lastName": "Appel",
+          "firstName": "Johanna",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-28",
+          "position": 28,
+          "lastName": "Oswald",
+          "firstName": "Bernhard",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-29",
+          "position": 29,
+          "lastName": "Ahlborn",
+          "firstName": "Nils",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-30",
+          "position": 30,
+          "lastName": "Dr. Becker",
+          "firstName": "Lara",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-31",
+          "position": 31,
+          "lastName": "Lischka",
+          "firstName": "Markus",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-32",
+          "position": 32,
+          "lastName": "Daniel",
+          "firstName": "Nicole",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-33",
+          "position": 33,
+          "lastName": "Braune",
+          "firstName": "John",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-34",
+          "position": 34,
+          "lastName": "Ströher",
+          "firstName": "Torsten",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-35",
+          "position": 35,
+          "lastName": "Görgülü-Ülger",
+          "firstName": "Seval",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-36",
+          "position": 36,
+          "lastName": "Walldorf",
+          "firstName": "Andre",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-37",
+          "position": 37,
+          "lastName": "Sames",
+          "firstName": "Markus",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-38",
+          "position": 38,
+          "lastName": "Nohl",
+          "firstName": "Alena",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-39",
+          "position": 39,
+          "lastName": "Dr. Reimer",
+          "firstName": "Franz",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-40",
+          "position": 40,
+          "lastName": "El-Jana",
+          "firstName": "Philipp",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-41",
+          "position": 41,
+          "lastName": "Weppler",
+          "firstName": "Marleen",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-42",
+          "position": 42,
+          "lastName": "Rozbitski",
+          "firstName": "Paul",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-43",
+          "position": 43,
+          "lastName": "Steinmüller",
+          "firstName": "Simon",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-44",
+          "position": 44,
+          "lastName": "Eser",
+          "firstName": "Jeanette",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-45",
+          "position": 45,
+          "lastName": "Pfeffer",
+          "firstName": "Sebastian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-46",
+          "position": 46,
+          "lastName": "Oswald",
+          "firstName": "Gudrun",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-47",
+          "position": 47,
+          "lastName": "Schmitt",
+          "firstName": "Heiko",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-48",
+          "position": 48,
+          "lastName": "Asboe",
+          "firstName": "Jörg",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-49",
+          "position": 49,
+          "lastName": "Heck-Tamburro",
+          "firstName": "Alexandra",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-50",
+          "position": 50,
+          "lastName": "Bernard",
+          "firstName": "Heide",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-51",
+          "position": 51,
+          "lastName": "Dr. Dittrich",
+          "firstName": "Johannes",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-52",
+          "position": 52,
+          "lastName": "Koltermann",
+          "firstName": "Susanne",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-53",
+          "position": 53,
+          "lastName": "Becker",
+          "firstName": "Jürgen",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-54",
+          "position": 54,
+          "lastName": "Pfeffer",
+          "firstName": "Axel",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-55",
+          "position": 55,
+          "lastName": "Bouffier-Pfeffer",
+          "firstName": "Karin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-56",
+          "position": 56,
+          "lastName": "Rausch",
+          "firstName": "Thomas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-57",
+          "position": 57,
+          "lastName": "Dr. Kölb",
+          "firstName": "Volker",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-58",
+          "position": 58,
+          "lastName": "Ohm-Winter",
+          "firstName": "Karin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-59",
+          "position": 59,
+          "lastName": "Becker",
+          "firstName": "Dirk",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-60",
+          "position": 60,
+          "lastName": "Kräske",
+          "firstName": "Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-61",
+          "position": 61,
+          "lastName": "Kölb",
+          "firstName": "Inge",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-62",
+          "position": 62,
+          "lastName": "Ohm-Winter",
+          "firstName": "Guntram",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-1-63",
+          "position": 63,
+          "lastName": "Pfeffer",
+          "firstName": "Maximilian",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "AfD",
+      "shortName": "AfD",
+      "candidateCount": 13,
+      "candidates": [
+        {
+          "id": "gi-stvv-2-1",
+          "position": 1,
+          "lastName": "Mampoteng",
+          "firstName": "Joachim",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-2",
+          "position": 2,
+          "lastName": "Bathen",
+          "firstName": "Bernd",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-3",
+          "position": 3,
+          "lastName": "Schmidt",
+          "firstName": "Martin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-4",
+          "position": 4,
+          "lastName": "Klinge",
+          "firstName": "Ralph",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-5",
+          "position": 5,
+          "lastName": "Enners",
+          "firstName": "Heidemarie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-6",
+          "position": 6,
+          "lastName": "Mampoteng",
+          "firstName": "Olga",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-7",
+          "position": 7,
+          "lastName": "Papenfuhs",
+          "firstName": "Michaela",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-8",
+          "position": 8,
+          "lastName": "Schmidt",
+          "firstName": "Regina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-9",
+          "position": 9,
+          "lastName": "Berk",
+          "firstName": "Regina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-10",
+          "position": 10,
+          "lastName": "Matthews",
+          "firstName": "Sandra",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-11",
+          "position": 11,
+          "lastName": "Finke",
+          "firstName": "Friedrich",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-12",
+          "position": 12,
+          "lastName": "Langhammer",
+          "firstName": "Armin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-2-13",
+          "position": 13,
+          "lastName": "Reitz",
+          "firstName": "Karl Heinz",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "fullName": "SPD",
+      "shortName": "SPD",
+      "candidateCount": 64,
+      "candidates": [
+        {
+          "id": "gi-stvv-3-1",
+          "position": 1,
+          "lastName": "Becher",
+          "firstName": "Frank-Tilo",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-2",
+          "position": 2,
+          "lastName": "Heidt-Sommer",
+          "firstName": "Nina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-3",
+          "position": 3,
+          "lastName": "Nübel",
+          "firstName": "Christopher",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-4",
+          "position": 4,
+          "lastName": "Eibelshäuser",
+          "firstName": "Astrid",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-5",
+          "position": 5,
+          "lastName": "Schmidt",
+          "firstName": "Frank Walter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-6",
+          "position": 6,
+          "lastName": "Beci",
+          "firstName": "Liza",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-7",
+          "position": 7,
+          "lastName": "Borke",
+          "firstName": "Michael",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-8",
+          "position": 8,
+          "lastName": "Heep",
+          "firstName": "Monika",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-9",
+          "position": 9,
+          "lastName": "Arman",
+          "firstName": "Francesco",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-10",
+          "position": 10,
+          "lastName": "Becker",
+          "firstName": "Larissa",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-11",
+          "position": 11,
+          "lastName": "Mansoori",
+          "firstName": "Kamyar",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-12",
+          "position": 12,
+          "lastName": "Kraft",
+          "firstName": "Stefanie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-13",
+          "position": 13,
+          "lastName": "Sahin",
+          "firstName": "Zeynal",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-14",
+          "position": 14,
+          "lastName": "Beukemann",
+          "firstName": "Marianne",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-15",
+          "position": 15,
+          "lastName": "Lucifero",
+          "firstName": "Jakob",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-16",
+          "position": 16,
+          "lastName": "Scheele-Brenne",
+          "firstName": "Sabine",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-17",
+          "position": 17,
+          "lastName": "Schaper",
+          "firstName": "Andreas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-18",
+          "position": 18,
+          "lastName": "Janzen",
+          "firstName": "Eva",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-19",
+          "position": 19,
+          "lastName": "Kerzmann",
+          "firstName": "Gerhard",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-20",
+          "position": 20,
+          "lastName": "Bandurka",
+          "firstName": "Katarzyna",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-21",
+          "position": 21,
+          "lastName": "Yilan",
+          "firstName": "Bekir",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-22",
+          "position": 22,
+          "lastName": "Wagner",
+          "firstName": "Vanessa",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-23",
+          "position": 23,
+          "lastName": "Menche",
+          "firstName": "Gerald",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-24",
+          "position": 24,
+          "lastName": "Bröckmann",
+          "firstName": "Petra",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-25",
+          "position": 25,
+          "lastName": "Augin",
+          "firstName": "Uriel",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-26",
+          "position": 26,
+          "lastName": "Ratzel",
+          "firstName": "Brita",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-27",
+          "position": 27,
+          "lastName": "Abbasi",
+          "firstName": "Amin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-28",
+          "position": 28,
+          "lastName": "Stabel-Schläfer",
+          "firstName": "Carmen",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-29",
+          "position": 29,
+          "lastName": "Engelking",
+          "firstName": "Claus",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-30",
+          "position": 30,
+          "lastName": "Jackson",
+          "firstName": "Stephanie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-31",
+          "position": 31,
+          "lastName": "Euler",
+          "firstName": "Andreas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-32",
+          "position": 32,
+          "lastName": "Younan",
+          "firstName": "Marline",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-33",
+          "position": 33,
+          "lastName": "Dietrich",
+          "firstName": "Hans",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-34",
+          "position": 34,
+          "lastName": "Kaminski",
+          "firstName": "Ingrid",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-35",
+          "position": 35,
+          "lastName": "Schaposchnikov",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-36",
+          "position": 36,
+          "lastName": "Schmidt",
+          "firstName": "Annegret",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-37",
+          "position": 37,
+          "lastName": "Zschocke",
+          "firstName": "Dirk",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-38",
+          "position": 38,
+          "lastName": "Schmidt",
+          "firstName": "Stefanie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-39",
+          "position": 39,
+          "lastName": "Dr. Hohl",
+          "firstName": "Fabian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-40",
+          "position": 40,
+          "lastName": "Dr. Benner",
+          "firstName": "Ilka",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-41",
+          "position": 41,
+          "lastName": "Jendorff",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-42",
+          "position": 42,
+          "lastName": "Dr. Deinzer",
+          "firstName": "Renate",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-43",
+          "position": 43,
+          "lastName": "Blöcher",
+          "firstName": "Tobias",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-44",
+          "position": 44,
+          "lastName": "Groothuis",
+          "firstName": "Nina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-45",
+          "position": 45,
+          "lastName": "Nübel",
+          "firstName": "Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-46",
+          "position": 46,
+          "lastName": "Deinzer Konrad",
+          "firstName": "Lea",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-47",
+          "position": 47,
+          "lastName": "Söhlke",
+          "firstName": "Detlef",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-48",
+          "position": 48,
+          "lastName": "Stockschläder",
+          "firstName": "Alisa",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-49",
+          "position": 49,
+          "lastName": "Sauer",
+          "firstName": "Jürgen",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-50",
+          "position": 50,
+          "lastName": "Sommer",
+          "firstName": "Nicola",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-51",
+          "position": 51,
+          "lastName": "Krieger",
+          "firstName": "Rolf",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-52",
+          "position": 52,
+          "lastName": "Beekmann-Mathar",
+          "firstName": "Gudrun",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-53",
+          "position": 53,
+          "lastName": "Buchholz",
+          "firstName": "Alfons",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-54",
+          "position": 54,
+          "lastName": "Becher",
+          "firstName": "Jutta",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-55",
+          "position": 55,
+          "lastName": "Euler",
+          "firstName": "Thomas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-56",
+          "position": 56,
+          "lastName": "Bietz",
+          "firstName": "Inge",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-57",
+          "position": 57,
+          "lastName": "Dr. Leinweber",
+          "firstName": "Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-58",
+          "position": 58,
+          "lastName": "Grabe-Bolz",
+          "firstName": "Dietlind",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-59",
+          "position": 59,
+          "lastName": "Döring",
+          "firstName": "Felix",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-60",
+          "position": 60,
+          "lastName": "Schneider",
+          "firstName": "Simon",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-61",
+          "position": 61,
+          "lastName": "Buß",
+          "firstName": "Reinhard",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-62",
+          "position": 62,
+          "lastName": "Keweloh",
+          "firstName": "Nabor",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-63",
+          "position": 63,
+          "lastName": "Link",
+          "firstName": "Dennis",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-3-64",
+          "position": 64,
+          "lastName": "van Slobbe",
+          "firstName": "Philipp",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "GRÜNE",
+      "shortName": "GRÜNE",
+      "candidateCount": 59,
+      "candidates": [
+        {
+          "id": "gi-stvv-4-1",
+          "position": 1,
+          "lastName": "Widdig",
+          "firstName": "Jana",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-2",
+          "position": 2,
+          "lastName": "Wright",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-3",
+          "position": 3,
+          "lastName": "Weigel-Greilich",
+          "firstName": "Gerda",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-4",
+          "position": 4,
+          "lastName": "Zörb",
+          "firstName": "Michel",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-5",
+          "position": 5,
+          "lastName": "Dr. Strobel",
+          "firstName": "Vera",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-6",
+          "position": 6,
+          "lastName": "Mirold-Stroh",
+          "firstName": "Fabian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-7",
+          "position": 7,
+          "lastName": "Janetzky-Klein",
+          "firstName": "Christiane",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-8",
+          "position": 8,
+          "lastName": "Martins",
+          "firstName": "Jan",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-9",
+          "position": 9,
+          "lastName": "Göttlich",
+          "firstName": "Lena",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-10",
+          "position": 10,
+          "lastName": "Amane",
+          "firstName": "Zacharias",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-11",
+          "position": 11,
+          "lastName": "Meyer",
+          "firstName": "Felicitas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-12",
+          "position": 12,
+          "lastName": "Dr. Jäger",
+          "firstName": "Moritz",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-13",
+          "position": 13,
+          "lastName": "Beyer",
+          "firstName": "Ronja",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-14",
+          "position": 14,
+          "lastName": "Klußmann",
+          "firstName": "Martin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-15",
+          "position": 15,
+          "lastName": "Turiyanskaya",
+          "firstName": "Polina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-16",
+          "position": 16,
+          "lastName": "Veissi",
+          "firstName": "Reza",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-17",
+          "position": 17,
+          "lastName": "Strobel",
+          "firstName": "Linda",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-18",
+          "position": 18,
+          "lastName": "Köhler",
+          "firstName": "Roman",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-19",
+          "position": 19,
+          "lastName": "Laudenbach",
+          "firstName": "Theresa",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-20",
+          "position": 20,
+          "lastName": "Müller",
+          "firstName": "Mika",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-21",
+          "position": 21,
+          "lastName": "Arnold",
+          "firstName": "Claudia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-22",
+          "position": 22,
+          "lastName": "Meyer",
+          "firstName": "Martin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-23",
+          "position": 23,
+          "lastName": "Weinel-Greilich",
+          "firstName": "Lea",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-24",
+          "position": 24,
+          "lastName": "Dr. Laudenbach",
+          "firstName": "Jan",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-25",
+          "position": 25,
+          "lastName": "Köhler",
+          "firstName": "Thi My-Duyen",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-26",
+          "position": 26,
+          "lastName": "Fritsch",
+          "firstName": "Marvin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-27",
+          "position": 27,
+          "lastName": "Nürnberger",
+          "firstName": "Edith",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-28",
+          "position": 28,
+          "lastName": "Niedecken",
+          "firstName": "Timon",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-29",
+          "position": 29,
+          "lastName": "Dahm",
+          "firstName": "Elisabeth",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-30",
+          "position": 30,
+          "lastName": "Grothe",
+          "firstName": "Klaus-Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-31",
+          "position": 31,
+          "lastName": "Gromes",
+          "firstName": "Kerstin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-32",
+          "position": 32,
+          "lastName": "Greilich",
+          "firstName": "Gerhard",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-33",
+          "position": 33,
+          "lastName": "Müller",
+          "firstName": "Sophie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-34",
+          "position": 34,
+          "lastName": "Dr. Labasch",
+          "firstName": "Markus",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-35",
+          "position": 35,
+          "lastName": "Dr. Wasmus-Arnold",
+          "firstName": "Anette",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-36",
+          "position": 36,
+          "lastName": "Federhen",
+          "firstName": "Franz-Xaver",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-37",
+          "position": 37,
+          "lastName": "Uhlmann",
+          "firstName": "Pauline",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-38",
+          "position": 38,
+          "lastName": "Kontz",
+          "firstName": "Pierre",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-39",
+          "position": 39,
+          "lastName": "de Jong",
+          "firstName": "Barbara",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-40",
+          "position": 40,
+          "lastName": "Dr. Zörb",
+          "firstName": "Christoph",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-41",
+          "position": 41,
+          "lastName": "Wright",
+          "firstName": "Katharina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-42",
+          "position": 42,
+          "lastName": "Arnold",
+          "firstName": "Steffen",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-43",
+          "position": 43,
+          "lastName": "Staffler",
+          "firstName": "Anja",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-44",
+          "position": 44,
+          "lastName": "Dr. de Jong",
+          "firstName": "Martin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-45",
+          "position": 45,
+          "lastName": "Gamper-Düsterhöft",
+          "firstName": "Paul",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-46",
+          "position": 46,
+          "lastName": "Dr. Speiser",
+          "firstName": "Bettina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-47",
+          "position": 47,
+          "lastName": "Weinel",
+          "firstName": "René",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-48",
+          "position": 48,
+          "lastName": "Dr. Burger",
+          "firstName": "Sabine",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-49",
+          "position": 49,
+          "lastName": "Dr. Rohlfing",
+          "firstName": "Werner",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-50",
+          "position": 50,
+          "lastName": "Grothe",
+          "firstName": "Claudia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-51",
+          "position": 51,
+          "lastName": "Dr. Brinkmann",
+          "firstName": "Heinrich",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-52",
+          "position": 52,
+          "lastName": "Werk",
+          "firstName": "Susanne",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-53",
+          "position": 53,
+          "lastName": "Grußdorf",
+          "firstName": "Joachim",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-54",
+          "position": 54,
+          "lastName": "Volp",
+          "firstName": "Angela",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-55",
+          "position": 55,
+          "lastName": "Baur-Weigand",
+          "firstName": "Ursula",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-56",
+          "position": 56,
+          "lastName": "Dr. Schwarzer",
+          "firstName": "Maria",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-57",
+          "position": 57,
+          "lastName": "Dr. Hennermann",
+          "firstName": "Simon",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-58",
+          "position": 58,
+          "lastName": "Klein",
+          "firstName": "Christine",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-4-59",
+          "position": 59,
+          "lastName": "Greilich",
+          "firstName": "Volker",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "FDP",
+      "shortName": "FDP",
+      "candidateCount": 54,
+      "candidates": [
+        {
+          "id": "gi-stvv-5-1",
+          "position": 1,
+          "lastName": "Erb",
+          "firstName": "Dominik",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-2",
+          "position": 2,
+          "lastName": "Giorgis",
+          "firstName": "Manuela",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-3",
+          "position": 3,
+          "lastName": "Dr. Greilich",
+          "firstName": "Klaus Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-4",
+          "position": 4,
+          "lastName": "Schikora",
+          "firstName": "Leonie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-5",
+          "position": 5,
+          "lastName": "Schleher",
+          "firstName": "Jörg",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-6",
+          "position": 6,
+          "lastName": "Yavuz",
+          "firstName": "Batuhan",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-7",
+          "position": 7,
+          "lastName": "Aviv",
+          "firstName": "Dow",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-8",
+          "position": 8,
+          "lastName": "Sesterhenn",
+          "firstName": "Luca-Maximilian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-9",
+          "position": 9,
+          "lastName": "Turba",
+          "firstName": "Hans-Jürgen",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-10",
+          "position": 10,
+          "lastName": "Hubing",
+          "firstName": "Ingrid",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-11",
+          "position": 11,
+          "lastName": "Petrick",
+          "firstName": "Sigmar",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-12",
+          "position": 12,
+          "lastName": "Schulze",
+          "firstName": "Frank",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-13",
+          "position": 13,
+          "lastName": "Heidenreich",
+          "firstName": "Sandra",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-14",
+          "position": 14,
+          "lastName": "Ladouz",
+          "firstName": "Rami",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-15",
+          "position": 15,
+          "lastName": "Gering",
+          "firstName": "Angelika",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-16",
+          "position": 16,
+          "lastName": "Hahn",
+          "firstName": "Jerome",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-17",
+          "position": 17,
+          "lastName": "Hombach",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-18",
+          "position": 18,
+          "lastName": "Ellermeier",
+          "firstName": "Hannelore",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-19",
+          "position": 19,
+          "lastName": "Schwarz",
+          "firstName": "Tom",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-20",
+          "position": 20,
+          "lastName": "Dr. Löwe",
+          "firstName": "Jan Thomas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-21",
+          "position": 21,
+          "lastName": "Dr. Kutscher",
+          "firstName": "Gerold",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-22",
+          "position": 22,
+          "lastName": "Dr. Göttlich",
+          "firstName": "Richard",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-23",
+          "position": 23,
+          "lastName": "Scherer",
+          "firstName": "Ilija",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-24",
+          "position": 24,
+          "lastName": "Dr. Hevelke",
+          "firstName": "Ulrich",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-25",
+          "position": 25,
+          "lastName": "Aviv-Hesse",
+          "firstName": "Magdalena",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-26",
+          "position": 26,
+          "lastName": "Dr. Rock",
+          "firstName": "Christopher",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-27",
+          "position": 27,
+          "lastName": "Greilich",
+          "firstName": "Annette",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-28",
+          "position": 28,
+          "lastName": "Egginger",
+          "firstName": "Oliver",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-29",
+          "position": 29,
+          "lastName": "Schneider",
+          "firstName": "Tim",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-30",
+          "position": 30,
+          "lastName": "Fago",
+          "firstName": "Benedikt",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-31",
+          "position": 31,
+          "lastName": "Dr. Friedrich",
+          "firstName": "Christian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-32",
+          "position": 32,
+          "lastName": "Zağli",
+          "firstName": "Kürşat",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-33",
+          "position": 33,
+          "lastName": "Dr. Kaiser",
+          "firstName": "Christian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-34",
+          "position": 34,
+          "lastName": "Krause",
+          "firstName": "Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-35",
+          "position": 35,
+          "lastName": "Dr. Kaufmann",
+          "firstName": "Herbert",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-36",
+          "position": 36,
+          "lastName": "Ellermeier",
+          "firstName": "Klaus",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-37",
+          "position": 37,
+          "lastName": "Hammel",
+          "firstName": "Jens",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-38",
+          "position": 38,
+          "lastName": "Knolle",
+          "firstName": "Joscha",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-39",
+          "position": 39,
+          "lastName": "Groll",
+          "firstName": "Julian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-40",
+          "position": 40,
+          "lastName": "Eckerkunst",
+          "firstName": "Louis",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-41",
+          "position": 41,
+          "lastName": "Heffler",
+          "firstName": "Markus",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-42",
+          "position": 42,
+          "lastName": "Rinne",
+          "firstName": "Nick",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-43",
+          "position": 43,
+          "lastName": "Kreiling",
+          "firstName": "Tim",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-44",
+          "position": 44,
+          "lastName": "Bernbeck",
+          "firstName": "Robbin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-45",
+          "position": 45,
+          "lastName": "Papey",
+          "firstName": "Arian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-46",
+          "position": 46,
+          "lastName": "Steinbach",
+          "firstName": "Björn",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-47",
+          "position": 47,
+          "lastName": "Profit",
+          "firstName": "Daniel",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-48",
+          "position": 48,
+          "lastName": "Meyer",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-49",
+          "position": 49,
+          "lastName": "Schramm",
+          "firstName": "Pascal",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-50",
+          "position": 50,
+          "lastName": "Michel",
+          "firstName": "Maximilian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-51",
+          "position": 51,
+          "lastName": "Naundorf",
+          "firstName": "Finn-Louis",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-52",
+          "position": 52,
+          "lastName": "Yavuz",
+          "firstName": "Sunguralp",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-53",
+          "position": 53,
+          "lastName": "Greilich",
+          "firstName": "Wolfgang",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-5-54",
+          "position": 54,
+          "lastName": "Dr. Kaufmann",
+          "firstName": "Reinhard",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "fullName": "Gigg",
+      "shortName": "Gigg",
+      "candidateCount": 27,
+      "candidates": [
+        {
+          "id": "gi-stvv-6-1",
+          "position": 1,
+          "lastName": "Hiestermann",
+          "firstName": "Lutz",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-2",
+          "position": 2,
+          "lastName": "Koch-Michel",
+          "firstName": "Elke",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-3",
+          "position": 3,
+          "lastName": "Rippl",
+          "firstName": "Johannes",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-4",
+          "position": 4,
+          "lastName": "Held",
+          "firstName": "Sophie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-5",
+          "position": 5,
+          "lastName": "Christiansen",
+          "firstName": "Marc",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-6",
+          "position": 6,
+          "lastName": "Witzel",
+          "firstName": "Elena",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-7",
+          "position": 7,
+          "lastName": "Bien",
+          "firstName": "Walter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-8",
+          "position": 8,
+          "lastName": "Fandrich",
+          "firstName": "Julia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-9",
+          "position": 9,
+          "lastName": "Balling",
+          "firstName": "Lothar",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-10",
+          "position": 10,
+          "lastName": "Schwaeppe",
+          "firstName": "Diana",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-11",
+          "position": 11,
+          "lastName": "Füllkrug",
+          "firstName": "Ralf",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-12",
+          "position": 12,
+          "lastName": "Werthmann",
+          "firstName": "Franziska",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-13",
+          "position": 13,
+          "lastName": "Lefèvre",
+          "firstName": "Bernhard",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-14",
+          "position": 14,
+          "lastName": "Coninx",
+          "firstName": "Mareile",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-15",
+          "position": 15,
+          "lastName": "Michel",
+          "firstName": "Maximilian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-16",
+          "position": 16,
+          "lastName": "Becker",
+          "firstName": "Finn",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-17",
+          "position": 17,
+          "lastName": "Dr. Otto",
+          "firstName": "Renate",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-18",
+          "position": 18,
+          "lastName": "Schwaeppe",
+          "firstName": "Charlotte",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-19",
+          "position": 19,
+          "lastName": "Jürgens",
+          "firstName": "Dietmar",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-20",
+          "position": 20,
+          "lastName": "Feistauer",
+          "firstName": "Conny",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-21",
+          "position": 21,
+          "lastName": "Schneider",
+          "firstName": "Eckart",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-22",
+          "position": 22,
+          "lastName": "Oehler",
+          "firstName": "Susanne",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-23",
+          "position": 23,
+          "lastName": "Coolhaas van der Woude",
+          "firstName": "Schelto",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-24",
+          "position": 24,
+          "lastName": "Maurer",
+          "firstName": "Lisa",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-25",
+          "position": 25,
+          "lastName": "Hilbrich",
+          "firstName": "Thomas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-26",
+          "position": 26,
+          "lastName": "Wolters",
+          "firstName": "Sabine",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-6-27",
+          "position": 27,
+          "lastName": "Zerche",
+          "firstName": "Peter",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "fullName": "FW",
+      "shortName": "FW",
+      "candidateCount": 27,
+      "candidates": [
+        {
+          "id": "gi-stvv-7-1",
+          "position": 1,
+          "lastName": "Helmchen",
+          "firstName": "Günter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-2",
+          "position": 2,
+          "lastName": "Hanisch",
+          "firstName": "Heiko",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-3",
+          "position": 3,
+          "lastName": "Walldorf",
+          "firstName": "Andreas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-4",
+          "position": 4,
+          "lastName": "Victor",
+          "firstName": "Elke",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-5",
+          "position": 5,
+          "lastName": "Mauthe",
+          "firstName": "Pia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-6",
+          "position": 6,
+          "lastName": "Geißler",
+          "firstName": "Heiner",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-7",
+          "position": 7,
+          "lastName": "Lenzer",
+          "firstName": "Andreas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-8",
+          "position": 8,
+          "lastName": "Victor",
+          "firstName": "Alfred",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-9",
+          "position": 9,
+          "lastName": "Dr. Neubert",
+          "firstName": "Bernd",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-10",
+          "position": 10,
+          "lastName": "Theiß",
+          "firstName": "Jürgen",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-11",
+          "position": 11,
+          "lastName": "Horn",
+          "firstName": "Michael",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-12",
+          "position": 12,
+          "lastName": "Schöps",
+          "firstName": "Christopher",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-13",
+          "position": 13,
+          "lastName": "Monz",
+          "firstName": "Ulrich",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-14",
+          "position": 14,
+          "lastName": "Runge",
+          "firstName": "Frank-Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-15",
+          "position": 15,
+          "lastName": "Friedrich",
+          "firstName": "Roger",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-16",
+          "position": 16,
+          "lastName": "Theiß",
+          "firstName": "Ute",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-17",
+          "position": 17,
+          "lastName": "Buschow",
+          "firstName": "Uwe",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-18",
+          "position": 18,
+          "lastName": "Mauthe",
+          "firstName": "Wolf-Dieter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-19",
+          "position": 19,
+          "lastName": "Tekinsen",
+          "firstName": "Erdem",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-20",
+          "position": 20,
+          "lastName": "Boßhammer",
+          "firstName": "Johannes",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-21",
+          "position": 21,
+          "lastName": "Berkowski",
+          "firstName": "Michael",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-22",
+          "position": 22,
+          "lastName": "Geißler",
+          "firstName": "Kirstin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-23",
+          "position": 23,
+          "lastName": "Sergeeva",
+          "firstName": "Ekaterina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-24",
+          "position": 24,
+          "lastName": "Wingefeld",
+          "firstName": "Hans Peter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-25",
+          "position": 25,
+          "lastName": "Prell",
+          "firstName": "Edeltraud",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-26",
+          "position": 26,
+          "lastName": "Bös",
+          "firstName": "Dagmar",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-7-27",
+          "position": 27,
+          "lastName": "Ruhwedel",
+          "firstName": "Peter",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "fullName": "Die PARTEI",
+      "shortName": "Die PARTEI",
+      "candidateCount": 20,
+      "candidates": [
+        {
+          "id": "gi-stvv-8-1",
+          "position": 1,
+          "lastName": "Walter",
+          "firstName": "Darwin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-2",
+          "position": 2,
+          "lastName": "Zippmann",
+          "firstName": "Sven",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-3",
+          "position": 3,
+          "lastName": "Kersting",
+          "firstName": "Felix",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-4",
+          "position": 4,
+          "lastName": "Kiefer",
+          "firstName": "Marvin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-5",
+          "position": 5,
+          "lastName": "Nicolay",
+          "firstName": "Gereon",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-6",
+          "position": 6,
+          "lastName": "Hammann",
+          "firstName": "Kim-Viktoria",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-7",
+          "position": 7,
+          "lastName": "Schultze",
+          "firstName": "Robert",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-8",
+          "position": 8,
+          "lastName": "Liebsch",
+          "firstName": "Thorsten",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-9",
+          "position": 9,
+          "lastName": "Prell",
+          "firstName": "Brigitte",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-10",
+          "position": 10,
+          "lastName": "Daum",
+          "firstName": "Anna",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-11",
+          "position": 11,
+          "lastName": "Hartmann",
+          "firstName": "Kristina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-12",
+          "position": 12,
+          "lastName": "Juchniewicz",
+          "firstName": "Guido",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-13",
+          "position": 13,
+          "lastName": "Naumann",
+          "firstName": "Katharina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-14",
+          "position": 14,
+          "lastName": "Viehl",
+          "firstName": "Nico",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-15",
+          "position": 15,
+          "lastName": "Kruschinski",
+          "firstName": "Uwe",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-16",
+          "position": 16,
+          "lastName": "Lampert",
+          "firstName": "Philipp",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-17",
+          "position": 17,
+          "lastName": "Dr. Liebsch",
+          "firstName": "Lothar",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-18",
+          "position": 18,
+          "lastName": "Meinlschmidt",
+          "firstName": "Paul",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-19",
+          "position": 19,
+          "lastName": "Bürkel",
+          "firstName": "Brigitte",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-8-20",
+          "position": 20,
+          "lastName": "Müller-Lenz",
+          "firstName": "Kai",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "fullName": "Volt",
+      "shortName": "Volt",
+      "candidateCount": 22,
+      "candidates": [
+        {
+          "id": "gi-stvv-9-1",
+          "position": 1,
+          "lastName": "Yashchenko",
+          "firstName": "Vyacheslav",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-2",
+          "position": 2,
+          "lastName": "Pranjic",
+          "firstName": "Monika",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-3",
+          "position": 3,
+          "lastName": "Döll",
+          "firstName": "Jonas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-4",
+          "position": 4,
+          "lastName": "Mittmann",
+          "firstName": "Anne",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-5",
+          "position": 5,
+          "lastName": "Find",
+          "firstName": "Pascal",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-6",
+          "position": 6,
+          "lastName": "Bauer",
+          "firstName": "Viktoria",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-7",
+          "position": 7,
+          "lastName": "Lauterbach",
+          "firstName": "Malte",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-8",
+          "position": 8,
+          "lastName": "Schuchard",
+          "firstName": "Jutta",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-9",
+          "position": 9,
+          "lastName": "Dorn",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-10",
+          "position": 10,
+          "lastName": "Speitkamp",
+          "firstName": "Carina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-11",
+          "position": 11,
+          "lastName": "Schuchard",
+          "firstName": "Frank",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-12",
+          "position": 12,
+          "lastName": "Töws",
+          "firstName": "Julia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-13",
+          "position": 13,
+          "lastName": "Schuchard",
+          "firstName": "Julian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-14",
+          "position": 14,
+          "lastName": "Heinemann",
+          "firstName": "Sarah",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-15",
+          "position": 15,
+          "lastName": "Hoepfner",
+          "firstName": "Noah",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-16",
+          "position": 16,
+          "lastName": "Marquardt",
+          "firstName": "Tessa",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-17",
+          "position": 17,
+          "lastName": "Pflug",
+          "firstName": "Jonas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-18",
+          "position": 18,
+          "lastName": "Isheim",
+          "firstName": "Lilith",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-19",
+          "position": 19,
+          "lastName": "Theiß",
+          "firstName": "Niklas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-20",
+          "position": 20,
+          "lastName": "Pranjic",
+          "firstName": "Jadranka",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-21",
+          "position": 21,
+          "lastName": "Wahl",
+          "firstName": "Kevin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-9-22",
+          "position": 22,
+          "lastName": "Ackermann",
+          "firstName": "Robert",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "fullName": "GSF",
+      "shortName": "GSF",
+      "candidateCount": 22,
+      "candidates": [
+        {
+          "id": "gi-stvv-10-1",
+          "position": 1,
+          "lastName": "Lennartz",
+          "firstName": "Martina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-2",
+          "position": 2,
+          "lastName": "Langner",
+          "firstName": "Zoë",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-3",
+          "position": 3,
+          "lastName": "Seelig",
+          "firstName": "Emilia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-4",
+          "position": 4,
+          "lastName": "Gierth",
+          "firstName": "Karl",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-5",
+          "position": 5,
+          "lastName": "Appel",
+          "firstName": "Helmut",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-6",
+          "position": 6,
+          "lastName": "Beltz",
+          "firstName": "Erika Hannelore",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-7",
+          "position": 7,
+          "lastName": "Mächerle",
+          "firstName": "Henning",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-8",
+          "position": 8,
+          "lastName": "Janik",
+          "firstName": "Werner",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-9",
+          "position": 9,
+          "lastName": "Linhart",
+          "firstName": "Gernot",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-10",
+          "position": 10,
+          "lastName": "Berger",
+          "firstName": "Mario",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-11",
+          "position": 11,
+          "lastName": "Wolff",
+          "firstName": "Barbara",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-12",
+          "position": 12,
+          "lastName": "Geisberger",
+          "firstName": "Anton",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-13",
+          "position": 13,
+          "lastName": "Geis",
+          "firstName": "Gunter",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-14",
+          "position": 14,
+          "lastName": "Tümer",
+          "firstName": "Ünal",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-15",
+          "position": 15,
+          "lastName": "Thum",
+          "firstName": "Tatjana",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-16",
+          "position": 16,
+          "lastName": "Drees",
+          "firstName": "Michael",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-17",
+          "position": 17,
+          "lastName": "Brück",
+          "firstName": "Axel",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-18",
+          "position": 18,
+          "lastName": "Lambeck",
+          "firstName": "Max",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-19",
+          "position": 19,
+          "lastName": "Beltz",
+          "firstName": "Karl Michael",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-20",
+          "position": 20,
+          "lastName": "Momberger",
+          "firstName": "Egon",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-21",
+          "position": 21,
+          "lastName": "Hassan",
+          "firstName": "Asis",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-10-22",
+          "position": 22,
+          "lastName": "Ortmüller",
+          "firstName": "Werner",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 11,
+      "fullName": "BSW",
+      "shortName": "BSW",
+      "candidateCount": 25,
+      "candidates": [
+        {
+          "id": "gi-stvv-11-1",
+          "position": 1,
+          "lastName": "Tepe",
+          "firstName": "Melanie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-2",
+          "position": 2,
+          "lastName": "Häbich",
+          "firstName": "Stefan",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-3",
+          "position": 3,
+          "lastName": "Mim",
+          "firstName": "Cornelia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-4",
+          "position": 4,
+          "lastName": "Al-Dailami",
+          "firstName": "Ali",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-5",
+          "position": 5,
+          "lastName": "Eckstein",
+          "firstName": "Daniel",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-6",
+          "position": 6,
+          "lastName": "Weismann",
+          "firstName": "Sebastian",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-7",
+          "position": 7,
+          "lastName": "Schumacher",
+          "firstName": "Jannis",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-8",
+          "position": 8,
+          "lastName": "Krüger",
+          "firstName": "Lydia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-9",
+          "position": 9,
+          "lastName": "Siegfried",
+          "firstName": "Ulrich",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-10",
+          "position": 10,
+          "lastName": "Güngör",
+          "firstName": "Seda",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-11",
+          "position": 11,
+          "lastName": "Noll",
+          "firstName": "Pierre",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-12",
+          "position": 12,
+          "lastName": "Abuziarov",
+          "firstName": "Sevim",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-13",
+          "position": 13,
+          "lastName": "Sencer",
+          "firstName": "Atila",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-14",
+          "position": 14,
+          "lastName": "Gkogka",
+          "firstName": "Maria",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-15",
+          "position": 15,
+          "lastName": "Balde",
+          "firstName": "Vitali",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-16",
+          "position": 16,
+          "lastName": "Ivanov",
+          "firstName": "Sevgi",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-17",
+          "position": 17,
+          "lastName": "Svolos",
+          "firstName": "Georgios",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-18",
+          "position": 18,
+          "lastName": "Külhan",
+          "firstName": "Dafina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-19",
+          "position": 19,
+          "lastName": "Kourlios",
+          "firstName": "Thomas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-20",
+          "position": 20,
+          "lastName": "Meral",
+          "firstName": "Hüseyin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-21",
+          "position": 21,
+          "lastName": "Atanasova",
+          "firstName": "Mirem",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-22",
+          "position": 22,
+          "lastName": "Svolos",
+          "firstName": "Stergios",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-23",
+          "position": 23,
+          "lastName": "Balde",
+          "firstName": "Alexander",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-24",
+          "position": 24,
+          "lastName": "Gkogka",
+          "firstName": "Elisavet",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-11-25",
+          "position": 25,
+          "lastName": "Schäfer",
+          "firstName": "Valentin",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 12,
+      "fullName": "Die Linke",
+      "shortName": "Die Linke",
+      "candidateCount": 26,
+      "candidates": [
+        {
+          "id": "gi-stvv-12-1",
+          "position": 1,
+          "lastName": "Maurer",
+          "firstName": "Natalie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-2",
+          "position": 2,
+          "lastName": "Jelinski",
+          "firstName": "Maurice",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-3",
+          "position": 3,
+          "lastName": "Herbert",
+          "firstName": "Kira",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-4",
+          "position": 4,
+          "lastName": "El Saeidi",
+          "firstName": "Chalid",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-5",
+          "position": 5,
+          "lastName": "Schmidt",
+          "firstName": "Lena-Johanna",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-6",
+          "position": 6,
+          "lastName": "Lanio",
+          "firstName": "Udo",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-7",
+          "position": 7,
+          "lastName": "Pisker",
+          "firstName": "Barbara",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-8",
+          "position": 8,
+          "lastName": "Möhler",
+          "firstName": "Phillip",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-9",
+          "position": 9,
+          "lastName": "Wolf",
+          "firstName": "Erika",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-10",
+          "position": 10,
+          "lastName": "Mayer",
+          "firstName": "Bruno",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-11",
+          "position": 11,
+          "lastName": "Hauter",
+          "firstName": "Elena",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-12",
+          "position": 12,
+          "lastName": "Walter",
+          "firstName": "Maxim",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-13",
+          "position": 13,
+          "lastName": "Krembzow",
+          "firstName": "Marie",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-14",
+          "position": 14,
+          "lastName": "Chrustek",
+          "firstName": "Paul",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-15",
+          "position": 15,
+          "lastName": "Hügelschäfer",
+          "firstName": "Kristin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-16",
+          "position": 16,
+          "lastName": "Beick",
+          "firstName": "Niklas",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-17",
+          "position": 17,
+          "lastName": "Herbert",
+          "firstName": "Karin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-18",
+          "position": 18,
+          "lastName": "Tieke",
+          "firstName": "Justin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-19",
+          "position": 19,
+          "lastName": "Ebert",
+          "firstName": "Saskia",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-20",
+          "position": 20,
+          "lastName": "Herbert",
+          "firstName": "Kim",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-21",
+          "position": 21,
+          "lastName": "Bauer",
+          "firstName": "Marvin",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-22",
+          "position": 22,
+          "lastName": "Pröstler",
+          "firstName": "Kristina",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-23",
+          "position": 23,
+          "lastName": "Steinbeck",
+          "firstName": "Luca",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-24",
+          "position": 24,
+          "lastName": "Zecher",
+          "firstName": "Klaus-Heinrich",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-25",
+          "position": 25,
+          "lastName": "Becker",
+          "firstName": "Desiree",
+          "profession": ""
+        },
+        {
+          "id": "gi-stvv-12-26",
+          "position": 26,
+          "lastName": "Janitzki",
+          "firstName": "Michael",
+          "profession": ""
+        }
+      ]
+    }
+  ]
+}
