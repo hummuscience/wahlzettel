@@ -172,7 +172,7 @@
         {
           "id": "mr-stvv-1-24",
           "position": 24,
-          "lastName": "Dr.Roos",
+          "lastName": "Dr. Roos",
           "firstName": "Elke",
           "profession": ""
         },
@@ -298,7 +298,7 @@
         {
           "id": "mr-stvv-1-42",
           "position": 42,
-          "lastName": "Dr.Bonacker",
+          "lastName": "Dr. Bonacker",
           "firstName": "Lutz",
           "profession": ""
         },
@@ -389,21 +389,21 @@
         {
           "id": "mr-stvv-1-55",
           "position": 55,
-          "lastName": "Dr.Stoffregen",
+          "lastName": "Dr. Stoffregen",
           "firstName": "Christa",
           "profession": ""
         },
         {
           "id": "mr-stvv-1-56",
           "position": 56,
-          "lastName": "Dr.Stoffregen",
+          "lastName": "Dr. Stoffregen",
           "firstName": "Heinz",
           "profession": ""
         },
         {
           "id": "mr-stvv-1-57",
           "position": 57,
-          "lastName": "Dr.Schulte",
+          "lastName": "Dr. Schulte",
           "firstName": "Mirko",
           "profession": ""
         },
@@ -580,7 +580,7 @@
         {
           "id": "mr-stvv-3-1",
           "position": 1,
-          "lastName": "Dr.Spies",
+          "lastName": "Dr. Spies",
           "firstName": "Thomas",
           "profession": ""
         },
@@ -650,7 +650,7 @@
         {
           "id": "mr-stvv-3-11",
           "position": 11,
-          "lastName": "Dr.Malmanesh",
+          "lastName": "Dr. Malmanesh",
           "firstName": "Mohammad",
           "profession": ""
         },
@@ -1015,7 +1015,7 @@
         {
           "id": "mr-stvv-4-3",
           "position": 3,
-          "lastName": "Dr.Neuwohner",
+          "lastName": "Dr. Neuwohner",
           "firstName": "Elke",
           "profession": ""
         },
@@ -1085,14 +1085,14 @@
         {
           "id": "mr-stvv-4-13",
           "position": 13,
-          "lastName": "Dr.Gärtner",
+          "lastName": "Dr. Gärtner",
           "firstName": "Laura",
           "profession": ""
         },
         {
           "id": "mr-stvv-4-14",
           "position": 14,
-          "lastName": "Dr.Demuth",
+          "lastName": "Dr. Demuth",
           "firstName": "Thomas",
           "profession": ""
         },
@@ -1106,7 +1106,7 @@
         {
           "id": "mr-stvv-4-16",
           "position": 16,
-          "lastName": "Dr.Katebini",
+          "lastName": "Dr. Katebini",
           "firstName": "Payam",
           "profession": ""
         },
@@ -1127,7 +1127,7 @@
         {
           "id": "mr-stvv-4-19",
           "position": 19,
-          "lastName": "Dr.Perabo",
+          "lastName": "Dr. Perabo",
           "firstName": "Christa",
           "profession": ""
         },
@@ -1162,7 +1162,7 @@
         {
           "id": "mr-stvv-4-24",
           "position": 24,
-          "lastName": "Dr.Mc Govern",
+          "lastName": "Dr. Mc Govern",
           "firstName": "Karsten",
           "profession": ""
         },
@@ -1190,7 +1190,7 @@
         {
           "id": "mr-stvv-4-28",
           "position": 28,
-          "lastName": "Dr.Nonne",
+          "lastName": "Dr. Nonne",
           "firstName": "Friedrich-Wilhelm",
           "profession": ""
         },
@@ -1520,7 +1520,7 @@
         {
           "id": "mr-stvv-5-16",
           "position": 16,
-          "lastName": "Dr.Stiller",
+          "lastName": "Dr. Stiller",
           "firstName": "Olaf",
           "profession": ""
         },
@@ -1534,7 +1534,7 @@
         {
           "id": "mr-stvv-5-18",
           "position": 18,
-          "lastName": "Dr.Dingeldein",
+          "lastName": "Dr. Dingeldein",
           "firstName": "Heinrich",
           "profession": ""
         },
@@ -1611,14 +1611,14 @@
         {
           "id": "mr-stvv-5-29",
           "position": 29,
-          "lastName": "Dr.Schwebel",
+          "lastName": "Dr. Schwebel",
           "firstName": "Horst",
           "profession": ""
         },
         {
           "id": "mr-stvv-5-30",
           "position": 30,
-          "lastName": "Dr.Babel",
+          "lastName": "Dr. Babel",
           "firstName": "Gisela",
           "profession": ""
         }
@@ -1640,7 +1640,7 @@
         {
           "id": "mr-stvv-6-2",
           "position": 2,
-          "lastName": "Dr.Weber",
+          "lastName": "Dr. Weber",
           "firstName": "Michael",
           "profession": ""
         },
@@ -1675,7 +1675,7 @@
         {
           "id": "mr-stvv-6-7",
           "position": 7,
-          "lastName": "Dr.Wöhr",
+          "lastName": "Dr. Wöhr",
           "firstName": "Markus",
           "profession": ""
         },
@@ -1892,7 +1892,7 @@
         {
           "id": "mr-stvv-6-38",
           "position": 38,
-          "lastName": "Dr.Hösler",
+          "lastName": "Dr. Hösler",
           "firstName": "Joachim",
           "profession": ""
         },
@@ -1913,7 +1913,7 @@
         {
           "id": "mr-stvv-6-41",
           "position": 41,
-          "lastName": "Dr.Baraki",
+          "lastName": "Dr. Baraki",
           "firstName": "Matin",
           "profession": ""
         },
@@ -1935,7 +1935,7 @@
         {
           "id": "mr-stvv-7-1",
           "position": 1,
-          "lastName": "Dr.Kopatz",
+          "lastName": "Dr. Kopatz",
           "firstName": "Michael",
           "profession": ""
         },
@@ -2054,14 +2054,14 @@
         {
           "id": "mr-stvv-7-18",
           "position": 18,
-          "lastName": "Dr.Zimmermann",
+          "lastName": "Dr. Zimmermann",
           "firstName": "Vera",
           "profession": ""
         },
         {
           "id": "mr-stvv-7-19",
           "position": 19,
-          "lastName": "Dr.Kuzu",
+          "lastName": "Dr. Kuzu",
           "firstName": "Istemi",
           "profession": ""
         },
@@ -2131,7 +2131,7 @@
         {
           "id": "mr-stvv-7-29",
           "position": 29,
-          "lastName": "Dr.Erdmann",
+          "lastName": "Dr. Erdmann",
           "firstName": "Axel",
           "profession": ""
         }
@@ -2287,7 +2287,7 @@
         {
           "id": "mr-stvv-9-1",
           "position": 1,
-          "lastName": "Dr.Michler",
+          "lastName": "Dr. Michler",
           "firstName": "Frank",
           "profession": ""
         },
@@ -2329,7 +2329,7 @@
         {
           "id": "mr-stvv-9-7",
           "position": 7,
-          "lastName": "Dr.Störmer",
+          "lastName": "Dr. Störmer",
           "firstName": "Sabine",
           "profession": ""
         },
@@ -2427,7 +2427,7 @@
         {
           "id": "mr-stvv-9-21",
           "position": 21,
-          "lastName": "Dr.Ivanova",
+          "lastName": "Dr. Ivanova",
           "firstName": "Teodora",
           "profession": ""
         }
@@ -3137,7 +3137,7 @@
         {
           "id": "mr-stvv-12-54",
           "position": 54,
-          "lastName": "Dr.Heusinger",
+          "lastName": "Dr. Heusinger",
           "firstName": "Lutz",
           "profession": ""
         },
@@ -3165,7 +3165,7 @@
         {
           "id": "mr-stvv-12-58",
           "position": 58,
-          "lastName": "Dr.Deppe",
+          "lastName": "Dr. Deppe",
           "firstName": "Frank",
           "profession": ""
         }

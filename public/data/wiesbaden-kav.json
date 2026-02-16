@@ -732,15 +732,15 @@
         {
           "id": "wi-kav-8-2",
           "position": 2,
-          "lastName": "Mohamed Mukhtar Mohamed Ali",
-          "firstName": "",
+          "lastName": "Ali",
+          "firstName": "Mohamed Mukhtar Mohamed",
           "profession": "Softwareentwickler"
         },
         {
           "id": "wi-kav-8-3",
           "position": 3,
-          "lastName": "Oumalkaire Moussa Abdi",
-          "firstName": "",
+          "lastName": "Abdi",
+          "firstName": "Oumalkaire Moussa",
           "profession": "Auszubildende"
         },
         {
@@ -781,8 +781,8 @@
         {
           "id": "wi-kav-8-9",
           "position": 9,
-          "lastName": "Rozalin Ahmed Mohamed Fadalla",
-          "firstName": "",
+          "lastName": "Fadalla",
+          "firstName": "Rozalin Ahmed Mohamed",
           "profession": "Studentin"
         }
       ]
@@ -1397,29 +1397,29 @@
         {
           "id": "wi-kav-15-12",
           "position": 12,
-          "lastName": "Laeeq Ahmad",
-          "firstName": "",
+          "lastName": "Ahmad",
+          "firstName": "Laeeq",
           "profession": "Selbstständig"
         },
         {
           "id": "wi-kav-15-13",
           "position": 13,
-          "lastName": "Saif Ur Rehman",
-          "firstName": "",
+          "lastName": "Rehman",
+          "firstName": "Saif Ur",
           "profession": "Hausmann"
         },
         {
           "id": "wi-kav-15-14",
           "position": 14,
-          "lastName": "Inam Shamas",
-          "firstName": "",
+          "lastName": "Shamas",
+          "firstName": "Inam",
           "profession": "Hausmann"
         },
         {
           "id": "wi-kav-15-15",
           "position": 15,
-          "lastName": "Abrar Ahmed",
-          "firstName": "",
+          "lastName": "Ahmed",
+          "firstName": "Abrar",
           "profession": "Taxifahrer"
         }
       ]
