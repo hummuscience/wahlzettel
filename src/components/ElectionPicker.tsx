@@ -28,206 +28,89 @@ interface Election {
   themeColor: string;
 }
 
-interface CityMarker {
+interface CityEntry {
   name: string;
   stateId: string;
-  x: number;
-  y: number;
-  labelSide?: 'left' | 'right';
   elections: Election[];
 }
 
-const CITIES: CityMarker[] = [
-  {
-    name: 'Frankfurt',
-    stateId: 'he',
-    x: 182,
-    y: 510,
-    labelSide: 'right',
-    elections: [
-      {
-        slug: 'frankfurt-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 93,
-        themeColor: '#003870',
-      },
-      {
-        slug: 'frankfurt-kav',
-        label: 'Kommunale Ausländervertretung',
-        descriptionKey: 'kavDesc',
-        emoji: '🌍',
-        stimmen: 37,
-        themeColor: '#003870',
-      },
-    ],
-  },
-  {
-    name: 'Wiesbaden',
-    stateId: 'he',
-    x: 148,
-    y: 493,
-    labelSide: 'left',
-    elections: [
-      {
-        slug: 'wiesbaden-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 81,
-        themeColor: '#00594f',
-      },
-      {
-        slug: 'wiesbaden-kav',
-        label: 'Ausländerbeirat',
-        descriptionKey: 'kavDesc',
-        emoji: '🌍',
-        stimmen: 31,
-        themeColor: '#00594f',
-      },
-    ],
-  },
+const CITIES: CityEntry[] = [
   {
     name: 'Darmstadt',
     stateId: 'he',
-    x: 190,
-    y: 530,
-    labelSide: 'right',
     elections: [
-      {
-        slug: 'darmstadt-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 71,
-        themeColor: '#004e8a',
-      },
+      { slug: 'darmstadt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004e8a' },
     ],
   },
   {
-    name: 'Kassel',
+    name: 'Frankfurt',
     stateId: 'he',
-    x: 208,
-    y: 435,
-    labelSide: 'right',
     elections: [
-      {
-        slug: 'kassel-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 71,
-        themeColor: '#004f9f',
-      },
-    ],
-  },
-  {
-    name: 'Offenbach',
-    stateId: 'he',
-    x: 196,
-    y: 517,
-    labelSide: 'right',
-    elections: [
-      {
-        slug: 'offenbach-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 71,
-        themeColor: '#1a5276',
-      },
-    ],
-  },
-  {
-    name: 'Hanau',
-    stateId: 'he',
-    x: 210,
-    y: 505,
-    labelSide: 'right',
-    elections: [
-      {
-        slug: 'hanau-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 59,
-        themeColor: '#c41e3a',
-      },
-    ],
-  },
-  {
-    name: 'Gießen',
-    stateId: 'he',
-    x: 193,
-    y: 470,
-    labelSide: 'right',
-    elections: [
-      {
-        slug: 'giessen-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 59,
-        themeColor: '#006633',
-      },
-    ],
-  },
-  {
-    name: 'Marburg',
-    stateId: 'he',
-    x: 192,
-    y: 454,
-    labelSide: 'left',
-    elections: [
-      {
-        slug: 'marburg-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 59,
-        themeColor: '#163455',
-      },
+      { slug: 'frankfurt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 93, themeColor: '#003870' },
+      { slug: 'frankfurt-kav', label: 'Kommunale Ausländervertretung', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 37, themeColor: '#003870' },
     ],
   },
   {
     name: 'Fulda',
     stateId: 'he',
-    x: 228,
-    y: 468,
-    labelSide: 'right',
     elections: [
-      {
-        slug: 'fulda-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 59,
-        themeColor: '#8B0000',
-      },
+      { slug: 'fulda-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#8B0000' },
+    ],
+  },
+  {
+    name: 'Gießen',
+    stateId: 'he',
+    elections: [
+      { slug: 'giessen-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#006633' },
+    ],
+  },
+  {
+    name: 'Hanau',
+    stateId: 'he',
+    elections: [
+      { slug: 'hanau-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#c41e3a' },
+    ],
+  },
+  {
+    name: 'Kassel',
+    stateId: 'he',
+    elections: [
+      { slug: 'kassel-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004f9f' },
+    ],
+  },
+  {
+    name: 'Marburg',
+    stateId: 'he',
+    elections: [
+      { slug: 'marburg-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#163455' },
+    ],
+  },
+  {
+    name: 'Offenbach',
+    stateId: 'he',
+    elections: [
+      { slug: 'offenbach-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#1a5276' },
     ],
   },
   {
     name: 'Rüsselsheim',
     stateId: 'he',
-    x: 170,
-    y: 518,
-    labelSide: 'left',
     elections: [
-      {
-        slug: 'ruesselsheim-stvv',
-        label: 'Stadtverordnetenversammlung',
-        descriptionKey: 'stvvDesc',
-        emoji: '🇩🇪',
-        stimmen: 45,
-        themeColor: '#003399',
-      },
+      { slug: 'ruesselsheim-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 45, themeColor: '#003399' },
+    ],
+  },
+  {
+    name: 'Wiesbaden',
+    stateId: 'he',
+    elections: [
+      { slug: 'wiesbaden-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 81, themeColor: '#00594f' },
+      { slug: 'wiesbaden-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 31, themeColor: '#00594f' },
     ],
   },
 ];
 
 // Group cities by state for quick lookup
-const CITIES_BY_STATE: Record<string, CityMarker[]> = {};
+const CITIES_BY_STATE: Record<string, CityEntry[]> = {};
 for (const city of CITIES) {
   (CITIES_BY_STATE[city.stateId] ??= []).push(city);
 }
@@ -237,89 +120,21 @@ const STATES_WITH_CITIES = new Set(Object.keys(CITIES_BY_STATE));
 type PickerStep =
   | { view: 'germany' }
   | { view: 'state'; stateId: string }
-  | { view: 'city'; city: CityMarker };
+  | { view: 'city'; city: CityEntry };
 
-/** Parse an SVG path `d` attr to extract bounding box (min/max x/y). */
-function pathBBox(d: string): { x: number; y: number; w: number; h: number } {
+/** Parse an SVG path `d` attr to extract bounding box center. */
+function pathCenter(d: string): { x: number; y: number } {
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-
-  // Parse path commands properly
-  const commands = d.match(/[MmLlHhVvCcSsQqTtAaZz][^MmLlHhVvCcSsQqTtAaZz]*/g) || [];
-  let cx = 0, cy = 0; // current point
-
-  for (const cmd of commands) {
-    const type = cmd[0];
-    const args: number[] = [];
-    const numRe = /[-+]?\d*\.?\d+/g;
-    let nm: RegExpExecArray | null;
-    while ((nm = numRe.exec(cmd.slice(1))) !== null) args.push(parseFloat(nm[0]));
-
-    const isRel = type === type.toLowerCase() && type !== 'z' && type !== 'Z';
-
-    switch (type.toLowerCase()) {
-      case 'm':
-      case 'l':
-      case 't':
-        for (let i = 0; i < args.length; i += 2) {
-          cx = isRel ? cx + args[i] : args[i];
-          cy = isRel ? cy + args[i + 1] : args[i + 1];
-          minX = Math.min(minX, cx); maxX = Math.max(maxX, cx);
-          minY = Math.min(minY, cy); maxY = Math.max(maxY, cy);
-        }
-        break;
-      case 'h':
-        for (const a of args) {
-          cx = isRel ? cx + a : a;
-          minX = Math.min(minX, cx); maxX = Math.max(maxX, cx);
-        }
-        break;
-      case 'v':
-        for (const a of args) {
-          cy = isRel ? cy + a : a;
-          minY = Math.min(minY, cy); maxY = Math.max(maxY, cy);
-        }
-        break;
-      case 'c':
-        // cubic bezier: 6 args per segment (3 points)
-        for (let i = 0; i < args.length; i += 6) {
-          for (let j = 0; j < 6; j += 2) {
-            const px = isRel ? cx + args[i + j] : args[i + j];
-            const py = isRel ? cy + args[i + j + 1] : args[i + j + 1];
-            minX = Math.min(minX, px); maxX = Math.max(maxX, px);
-            minY = Math.min(minY, py); maxY = Math.max(maxY, py);
-          }
-          cx = isRel ? cx + args[i + 4] : args[i + 4];
-          cy = isRel ? cy + args[i + 5] : args[i + 5];
-        }
-        break;
-      case 's':
-      case 'q':
-        // smooth cubic / quadratic: 4 args per segment
-        for (let i = 0; i < args.length; i += 4) {
-          for (let j = 0; j < 4; j += 2) {
-            const px = isRel ? cx + args[i + j] : args[i + j];
-            const py = isRel ? cy + args[i + j + 1] : args[i + j + 1];
-            minX = Math.min(minX, px); maxX = Math.max(maxX, px);
-            minY = Math.min(minY, py); maxY = Math.max(maxY, py);
-          }
-          cx = isRel ? cx + args[i + 2] : args[i + 2];
-          cy = isRel ? cy + args[i + 3] : args[i + 3];
-        }
-        break;
-      case 'a':
-        // arc: 7 args per segment, endpoint is last 2
-        for (let i = 0; i < args.length; i += 7) {
-          cx = isRel ? cx + args[i + 5] : args[i + 5];
-          cy = isRel ? cy + args[i + 6] : args[i + 6];
-          minX = Math.min(minX, cx); maxX = Math.max(maxX, cx);
-          minY = Math.min(minY, cy); maxY = Math.max(maxY, cy);
-        }
-        break;
-      // z: no coords
+  const nums = d.match(/[-+]?\d*\.?\d+/g) || [];
+  // Rough estimate from all numbers (pairs of x,y)
+  for (let i = 0; i < nums.length - 1; i += 2) {
+    const x = parseFloat(nums[i]), y = parseFloat(nums[i + 1]);
+    if (x > 0 && y > 0 && x < 1000 && y < 1000) {
+      minX = Math.min(minX, x); maxX = Math.max(maxX, x);
+      minY = Math.min(minY, y); maxY = Math.max(maxY, y);
     }
   }
-
-  return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
+  return { x: (minX + maxX) / 2, y: (minY + maxY) / 2 };
 }
 
 interface ElectionPickerProps {
@@ -337,23 +152,11 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
     document.documentElement.lang = code;
   };
 
-  // Precompute bounding boxes for states with cities
-  const stateBBoxes = useMemo(() => {
-    const boxes: Record<string, { x: number; y: number; w: number; h: number }> = {};
-    for (const state of GERMANY_PATHS) {
-      if (STATES_WITH_CITIES.has(state.id)) {
-        boxes[state.id] = pathBBox(state.d);
-      }
-    }
-    return boxes;
-  }, []);
-
-  // Compute center of each state for tooltip positioning
+  // Compute center of each state for label positioning
   const stateCenters = useMemo(() => {
     const centers: Record<string, { x: number; y: number }> = {};
     for (const state of GERMANY_PATHS) {
-      const bb = pathBBox(state.d);
-      centers[state.id] = { x: bb.x + bb.w / 2, y: bb.y + bb.h / 2 };
+      centers[state.id] = pathCenter(state.d);
     }
     return centers;
   }, []);
@@ -416,94 +219,60 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
     );
   }
 
-  // --- View: Zoomed State ---
+  // --- View: City List ---
   if (step.view === 'state') {
     const { stateId } = step;
-    const bb = stateBBoxes[stateId];
     const cities = CITIES_BY_STATE[stateId] || [];
-
-    // Add 20% padding
-    const pad = Math.max(bb.w, bb.h) * 0.2;
-    const vb = `${bb.x - pad} ${bb.y - pad} ${bb.w + pad * 2} ${bb.h + pad * 2}`;
 
     return (
       <div className="min-h-[60vh] flex items-center justify-center px-4 py-12">
-        <div className="max-w-2xl w-full">
+        <div className="max-w-lg w-full">
           <button
             onClick={() => setStep({ view: 'germany' })}
             className="mb-4 text-sm text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-1"
           >
             ← {t('back')}
           </button>
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-gray-900">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-2 text-gray-900">
             {STATE_NAMES[stateId] ?? stateId}
           </h2>
-          <div className="relative mx-auto max-w-md">
-            <svg viewBox={vb} className="w-full h-auto">
-              {/* Render all states, dim non-target */}
-              {GERMANY_PATHS.map(state => (
-                <path
-                  key={state.id}
-                  d={state.d}
-                  fill={state.id === stateId ? '#dbeafe' : '#f9fafb'}
-                  stroke={state.id === stateId ? '#93c5fd' : '#e5e7eb'}
-                  strokeWidth="1"
-                  opacity={state.id === stateId ? 1 : 0.3}
-                  className="pointer-events-none"
-                />
-              ))}
+          <p className="text-center text-gray-500 mb-6 text-sm">
+            {t('citizenshipSubtitle')}
+          </p>
 
-              {/* City markers */}
-              {cities.map(city => (
-                <g
-                  key={city.name}
-                  onClick={() => setStep({ view: 'city', city })}
-                  className="cursor-pointer"
-                  role="button"
-                  tabIndex={0}
-                  aria-label={city.name}
-                  onKeyDown={e => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                      e.preventDefault();
-                      setStep({ view: 'city', city });
-                    }
-                  }}
-                >
-                  {/* Pulse ring */}
-                  <circle
-                    cx={city.x}
-                    cy={city.y}
-                    r="8"
-                    fill="none"
-                    stroke={city.elections[0].themeColor}
-                    strokeWidth="1.5"
-                    opacity="0.4"
+          <div className="flex flex-col gap-2">
+            {cities.map(city => (
+              <button
+                key={city.name}
+                onClick={() => {
+                  // If city has only one election, go directly to it
+                  if (city.elections.length === 1) {
+                    onChoose(city.elections[0].slug);
+                  } else {
+                    setStep({ view: 'city', city });
+                  }
+                }}
+                className="flex items-center justify-between rounded-xl border border-gray-200 hover:border-gray-400 hover:shadow-sm px-5 py-4 transition-all bg-white group text-start"
+              >
+                <div className="flex items-center gap-3">
+                  <span
+                    className="w-2.5 h-2.5 rounded-full shrink-0"
+                    style={{ backgroundColor: city.elections[0].themeColor }}
                   />
-                  {/* Marker dot */}
-                  <circle
-                    cx={city.x}
-                    cy={city.y}
-                    r="4"
-                    fill={city.elections[0].themeColor}
-                    stroke="white"
-                    strokeWidth="1"
-                    className="transition-opacity duration-150 hover:opacity-80"
-                  />
-                  {/* City name */}
-                  <text
-                    x={city.labelSide === 'left' ? city.x - 8 : city.x + 8}
-                    y={city.y + 2}
-                    fontSize="8"
-                    fontWeight="600"
-                    fill="#374151"
-                    textAnchor={city.labelSide === 'left' ? 'end' : 'start'}
-                    className="pointer-events-none select-none"
-                  >
+                  <span className="font-semibold text-gray-900 group-hover:text-gray-700">
                     {city.name}
-                  </text>
-                </g>
-              ))}
-            </svg>
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 text-xs text-gray-400">
+                  {city.elections.length > 1 && (
+                    <span className="px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
+                      {city.elections.length} Wahlen
+                    </span>
+                  )}
+                  <span className="text-gray-300 group-hover:text-gray-500 transition-colors">›</span>
+                </div>
+              </button>
+            ))}
           </div>
         </div>
       </div>
