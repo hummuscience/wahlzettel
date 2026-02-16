@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { GERMANY_PATHS } from './germanyPaths';
 
@@ -122,20 +122,10 @@ type PickerStep =
   | { view: 'state'; stateId: string }
   | { view: 'city'; city: CityEntry };
 
-/** Parse an SVG path `d` attr to extract bounding box center. */
-function pathCenter(d: string): { x: number; y: number } {
-  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-  const nums = d.match(/[-+]?\d*\.?\d+/g) || [];
-  // Rough estimate from all numbers (pairs of x,y)
-  for (let i = 0; i < nums.length - 1; i += 2) {
-    const x = parseFloat(nums[i]), y = parseFloat(nums[i + 1]);
-    if (x > 0 && y > 0 && x < 1000 && y < 1000) {
-      minX = Math.min(minX, x); maxX = Math.max(maxX, x);
-      minY = Math.min(minY, y); maxY = Math.max(maxY, y);
-    }
-  }
-  return { x: (minX + maxX) / 2, y: (minY + maxY) / 2 };
-}
+// Hand-tuned label centers for states with elections (SVG viewBox 0 0 586 793)
+const STATE_LABEL_POS: Record<string, { x: number; y: number }> = {
+  he: { x: 230, y: 460 },
+};
 
 interface ElectionPickerProps {
   onChoose: (slug: string) => void;
@@ -152,14 +142,6 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
     document.documentElement.lang = code;
   };
 
-  // Compute center of each state for label positioning
-  const stateCenters = useMemo(() => {
-    const centers: Record<string, { x: number; y: number }> = {};
-    for (const state of GERMANY_PATHS) {
-      centers[state.id] = pathCenter(state.d);
-    }
-    return centers;
-  }, []);
 
   // --- View: Germany ---
   if (step.view === 'germany') {
@@ -200,8 +182,8 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
               {Array.from(STATES_WITH_CITIES).map(stateId => (
                 <text
                   key={`label-${stateId}`}
-                  x={stateCenters[stateId]?.x ?? 0}
-                  y={stateCenters[stateId]?.y ?? 0}
+                  x={STATE_LABEL_POS[stateId]?.x ?? 0}
+                  y={STATE_LABEL_POS[stateId]?.y ?? 0}
                   textAnchor="middle"
                   fontSize="14"
                   fontWeight="700"
