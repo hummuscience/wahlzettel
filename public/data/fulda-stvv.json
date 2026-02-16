@@ -4,7 +4,7 @@
   "parties": [
     {
       "listNumber": 1,
-      "fullName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
       "shortName": "CDU",
       "candidateCount": 59,
       "candidates": [
@@ -425,7 +425,7 @@
     },
     {
       "listNumber": 2,
-      "fullName": "AfD",
+      "fullName": "Alternative für Deutschland",
       "shortName": "AfD",
       "candidateCount": 22,
       "candidates": [
@@ -587,7 +587,7 @@
     },
     {
       "listNumber": 3,
-      "fullName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
       "shortName": "SPD",
       "candidateCount": 28,
       "candidates": [
@@ -791,7 +791,7 @@
     },
     {
       "listNumber": 4,
-      "fullName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
       "candidateCount": 50,
       "candidates": [
@@ -1149,7 +1149,7 @@
     },
     {
       "listNumber": 5,
-      "fullName": "FDP",
+      "fullName": "Freie Demokratische Partei",
       "shortName": "FDP",
       "candidateCount": 32,
       "candidates": [
@@ -1381,7 +1381,7 @@
     },
     {
       "listNumber": 6,
-      "fullName": "Die Linke",
+      "fullName": "DIE LINKE",
       "shortName": "Die Linke",
       "candidateCount": 20,
       "candidates": [
@@ -1529,7 +1529,7 @@
     },
     {
       "listNumber": 7,
-      "fullName": "CWE",
+      "fullName": "Christliche Wählereinheit",
       "shortName": "CWE",
       "candidateCount": 28,
       "candidates": [
@@ -1733,7 +1733,7 @@
     },
     {
       "listNumber": 8,
-      "fullName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
       "shortName": "Die PARTEI",
       "candidateCount": 21,
       "candidates": [
@@ -1888,7 +1888,7 @@
     },
     {
       "listNumber": 9,
-      "fullName": "Bündnis C",
+      "fullName": "Bündnis C – Christen für Deutschland",
       "shortName": "Bündnis C",
       "candidateCount": 29,
       "candidates": [
@@ -2099,7 +2099,7 @@
     },
     {
       "listNumber": 10,
-      "fullName": "Volt",
+      "fullName": "Volt Deutschland",
       "shortName": "Volt",
       "candidateCount": 23,
       "candidates": [
@@ -2409,7 +2409,7 @@
     },
     {
       "listNumber": 12,
-      "fullName": "FGG",
+      "fullName": "Fuldaer Grüne Gemeinsam",
       "shortName": "FGG",
       "candidateCount": 22,
       "candidates": [

@@ -4,7 +4,7 @@
   "parties": [
     {
       "listNumber": 1,
-      "fullName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
       "shortName": "CDU",
       "candidateCount": 59,
       "candidates": [
@@ -425,7 +425,7 @@
     },
     {
       "listNumber": 2,
-      "fullName": "AfD",
+      "fullName": "Alternative für Deutschland",
       "shortName": "AfD",
       "candidateCount": 20,
       "candidates": [
@@ -573,7 +573,7 @@
     },
     {
       "listNumber": 3,
-      "fullName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
       "shortName": "SPD",
       "candidateCount": 59,
       "candidates": [
@@ -994,7 +994,7 @@
     },
     {
       "listNumber": 4,
-      "fullName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
       "candidateCount": 58,
       "candidates": [
@@ -1408,7 +1408,7 @@
     },
     {
       "listNumber": 5,
-      "fullName": "FDP",
+      "fullName": "Freie Demokratische Partei",
       "shortName": "FDP",
       "candidateCount": 30,
       "candidates": [
@@ -1928,7 +1928,7 @@
     },
     {
       "listNumber": 7,
-      "fullName": "KLIMALISTE",
+      "fullName": "KLIMALISTE Marburg",
       "shortName": "KLIMALISTE",
       "candidateCount": 29,
       "candidates": [
@@ -2139,7 +2139,7 @@
     },
     {
       "listNumber": 8,
-      "fullName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
       "shortName": "Die PARTEI",
       "candidateCount": 19,
       "candidates": [
@@ -2280,7 +2280,7 @@
     },
     {
       "listNumber": 9,
-      "fullName": "WDMR",
+      "fullName": "Wählerinitiative Die Marburger",
       "shortName": "WDMR",
       "candidateCount": 21,
       "candidates": [
@@ -2611,7 +2611,7 @@
     },
     {
       "listNumber": 11,
-      "fullName": "Volt",
+      "fullName": "Volt Deutschland",
       "shortName": "Volt",
       "candidateCount": 20,
       "candidates": [
@@ -2759,7 +2759,7 @@
     },
     {
       "listNumber": 12,
-      "fullName": "Die Linke",
+      "fullName": "DIE LINKE",
       "shortName": "Die Linke",
       "candidateCount": 58,
       "candidates": [
@@ -3173,7 +3173,7 @@
     },
     {
       "listNumber": 13,
-      "fullName": "Move35",
+      "fullName": "Move35 – Marburg bewegen",
       "shortName": "Move35",
       "candidateCount": 29,
       "candidates": [
@@ -3384,7 +3384,7 @@
     },
     {
       "listNumber": 14,
-      "fullName": "APPD",
+      "fullName": "Anarchistische Pogo-Partei Deutschlands",
       "shortName": "APPD",
       "candidateCount": 20,
       "candidates": [

@@ -4,7 +4,7 @@
   "parties": [
     {
       "listNumber": 1,
-      "fullName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
       "shortName": "CDU",
       "candidateCount": 40,
       "candidates": [
@@ -292,7 +292,7 @@
     },
     {
       "listNumber": 2,
-      "fullName": "AfD",
+      "fullName": "Alternative für Deutschland",
       "shortName": "AfD",
       "candidateCount": 14,
       "candidates": [
@@ -398,7 +398,7 @@
     },
     {
       "listNumber": 3,
-      "fullName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
       "shortName": "SPD",
       "candidateCount": 43,
       "candidates": [
@@ -707,7 +707,7 @@
     },
     {
       "listNumber": 4,
-      "fullName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
       "candidateCount": 38,
       "candidates": [
@@ -981,7 +981,7 @@
     },
     {
       "listNumber": 5,
-      "fullName": "FDP",
+      "fullName": "Freie Demokratische Partei",
       "shortName": "FDP",
       "candidateCount": 17,
       "candidates": [
@@ -1108,7 +1108,7 @@
     },
     {
       "listNumber": 6,
-      "fullName": "WsR",
+      "fullName": "Wir sind Rüsselsheim",
       "shortName": "WsR",
       "candidateCount": 46,
       "candidates": [
@@ -1438,7 +1438,7 @@
     },
     {
       "listNumber": 7,
-      "fullName": "Abi",
+      "fullName": "Aktive Bürger Initiative",
       "shortName": "Abi",
       "candidateCount": 16,
       "candidates": [
@@ -1558,7 +1558,7 @@
     },
     {
       "listNumber": 8,
-      "fullName": "Die Linke/OL",
+      "fullName": "DIE LINKE / Offene Liste",
       "shortName": "Die Linke/OL",
       "candidateCount": 20,
       "candidates": [
@@ -1706,7 +1706,7 @@
     },
     {
       "listNumber": 9,
-      "fullName": "BIS",
+      "fullName": "Bürgerinitiative Soziales Rüsselsheim",
       "shortName": "BIS",
       "candidateCount": 18,
       "candidates": [

@@ -4,7 +4,7 @@
   "parties": [
     {
       "listNumber": 1,
-      "fullName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
       "shortName": "CDU",
       "candidateCount": 63,
       "candidates": [
@@ -453,7 +453,7 @@
     },
     {
       "listNumber": 2,
-      "fullName": "AfD",
+      "fullName": "Alternative für Deutschland",
       "shortName": "AfD",
       "candidateCount": 13,
       "candidates": [
@@ -552,7 +552,7 @@
     },
     {
       "listNumber": 3,
-      "fullName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
       "shortName": "SPD",
       "candidateCount": 64,
       "candidates": [
@@ -1008,7 +1008,7 @@
     },
     {
       "listNumber": 4,
-      "fullName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
       "candidateCount": 59,
       "candidates": [
@@ -1429,7 +1429,7 @@
     },
     {
       "listNumber": 5,
-      "fullName": "FDP",
+      "fullName": "Freie Demokratische Partei",
       "shortName": "FDP",
       "candidateCount": 54,
       "candidates": [
@@ -1815,7 +1815,7 @@
     },
     {
       "listNumber": 6,
-      "fullName": "Gigg",
+      "fullName": "Gießener Grüne im Gespräch",
       "shortName": "Gigg",
       "candidateCount": 27,
       "candidates": [
@@ -2012,7 +2012,7 @@
     },
     {
       "listNumber": 7,
-      "fullName": "FW",
+      "fullName": "FREIE WÄHLER",
       "shortName": "FW",
       "candidateCount": 27,
       "candidates": [
@@ -2209,7 +2209,7 @@
     },
     {
       "listNumber": 8,
-      "fullName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
       "shortName": "Die PARTEI",
       "candidateCount": 20,
       "candidates": [
@@ -2357,7 +2357,7 @@
     },
     {
       "listNumber": 9,
-      "fullName": "Volt",
+      "fullName": "Volt Deutschland",
       "shortName": "Volt",
       "candidateCount": 22,
       "candidates": [
@@ -2519,7 +2519,7 @@
     },
     {
       "listNumber": 10,
-      "fullName": "GSF",
+      "fullName": "Gießener Soziales Forum",
       "shortName": "GSF",
       "candidateCount": 22,
       "candidates": [
@@ -2681,7 +2681,7 @@
     },
     {
       "listNumber": 11,
-      "fullName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
       "shortName": "BSW",
       "candidateCount": 25,
       "candidates": [
@@ -2864,7 +2864,7 @@
     },
     {
       "listNumber": 12,
-      "fullName": "Die Linke",
+      "fullName": "DIE LINKE",
       "shortName": "Die Linke",
       "candidateCount": 26,
       "candidates": [

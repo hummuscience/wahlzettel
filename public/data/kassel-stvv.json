@@ -4,7 +4,7 @@
   "parties": [
     {
       "listNumber": 1,
-      "fullName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
       "shortName": "CDU",
       "candidateCount": 55,
       "candidates": [
@@ -397,7 +397,7 @@
     },
     {
       "listNumber": 2,
-      "fullName": "AfD",
+      "fullName": "Alternative für Deutschland",
       "shortName": "AfD",
       "candidateCount": 24,
       "candidates": [
@@ -573,7 +573,7 @@
     },
     {
       "listNumber": 3,
-      "fullName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
       "shortName": "SPD",
       "candidateCount": 71,
       "candidates": [
@@ -1078,7 +1078,7 @@
     },
     {
       "listNumber": 4,
-      "fullName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
       "candidateCount": 51,
       "candidates": [
@@ -1443,7 +1443,7 @@
     },
     {
       "listNumber": 5,
-      "fullName": "FDP",
+      "fullName": "Freie Demokratische Partei",
       "shortName": "FDP",
       "candidateCount": 58,
       "candidates": [
@@ -1857,7 +1857,7 @@
     },
     {
       "listNumber": 6,
-      "fullName": "Die Linke",
+      "fullName": "DIE LINKE",
       "shortName": "Die Linke",
       "candidateCount": 30,
       "candidates": [
@@ -2258,7 +2258,7 @@
     },
     {
       "listNumber": 8,
-      "fullName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
       "shortName": "Die PARTEI",
       "candidateCount": 14,
       "candidates": [
@@ -2364,7 +2364,7 @@
     },
     {
       "listNumber": 9,
-      "fullName": "Ehrenamt und Sport",
+      "fullName": "Ehrenamt und Sport für Kassel",
       "shortName": "Ehrenamt und Sport",
       "candidateCount": 13,
       "candidates": [
@@ -2463,7 +2463,7 @@
     },
     {
       "listNumber": 10,
-      "fullName": "MERA25",
+      "fullName": "MERA25 – Gemeinsam für Frieden, Solidarität und Freiheit",
       "shortName": "MERA25",
       "candidateCount": 9,
       "candidates": [
@@ -2534,7 +2534,7 @@
     },
     {
       "listNumber": 11,
-      "fullName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH UMWELT TIERSCHUTZ",
       "shortName": "Tierschutzpartei",
       "candidateCount": 24,
       "candidates": [
@@ -2710,7 +2710,7 @@
     },
     {
       "listNumber": 12,
-      "fullName": "Volt",
+      "fullName": "Volt Deutschland",
       "shortName": "Volt",
       "candidateCount": 12,
       "candidates": [
@@ -2802,7 +2802,7 @@
     },
     {
       "listNumber": 13,
-      "fullName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
       "shortName": "BSW",
       "candidateCount": 24,
       "candidates": [

@@ -4,7 +4,7 @@
   "parties": [
     {
       "listNumber": 1,
-      "fullName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
       "shortName": "CDU",
       "candidateCount": 67,
       "candidates": [
@@ -481,7 +481,7 @@
     },
     {
       "listNumber": 2,
-      "fullName": "AfD",
+      "fullName": "Alternative für Deutschland",
       "shortName": "AfD",
       "candidateCount": 27,
       "candidates": [
@@ -678,7 +678,7 @@
     },
     {
       "listNumber": 3,
-      "fullName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
       "shortName": "SPD",
       "candidateCount": 71,
       "candidates": [
@@ -1183,7 +1183,7 @@
     },
     {
       "listNumber": 4,
-      "fullName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
       "candidateCount": 71,
       "candidates": [
@@ -1688,7 +1688,7 @@
     },
     {
       "listNumber": 5,
-      "fullName": "FDP",
+      "fullName": "Freie Demokratische Partei",
       "shortName": "FDP",
       "candidateCount": 53,
       "candidates": [
@@ -2067,7 +2067,7 @@
     },
     {
       "listNumber": 6,
-      "fullName": "Die Linke",
+      "fullName": "DIE LINKE",
       "shortName": "Die Linke",
       "candidateCount": 30,
       "candidates": [
@@ -2285,7 +2285,7 @@
     },
     {
       "listNumber": 7,
-      "fullName": "Volt",
+      "fullName": "Volt Deutschland",
       "shortName": "Volt",
       "candidateCount": 52,
       "candidates": [
@@ -2657,7 +2657,7 @@
     },
     {
       "listNumber": 8,
-      "fullName": "UFFBASSE",
+      "fullName": "UFFBASSE – Darmstädter Bürger-Wählergemeinschaft",
       "shortName": "UFFBASSE",
       "candidateCount": 27,
       "candidates": [
@@ -2854,7 +2854,7 @@
     },
     {
       "listNumber": 9,
-      "fullName": "WGD",
+      "fullName": "Wählergemeinschaft Darmstadt",
       "shortName": "WGD",
       "candidateCount": 29,
       "candidates": [
@@ -3234,7 +3234,7 @@
     },
     {
       "listNumber": 11,
-      "fullName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH UMWELT TIERSCHUTZ",
       "shortName": "Tierschutzpartei",
       "candidateCount": 28,
       "candidates": [
@@ -3438,7 +3438,7 @@
     },
     {
       "listNumber": 12,
-      "fullName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
       "shortName": "BSW",
       "candidateCount": 26,
       "candidates": [
@@ -3628,7 +3628,7 @@
     },
     {
       "listNumber": 13,
-      "fullName": "SfD",
+      "fullName": "Stimmung für Darmstadt",
       "shortName": "SfD",
       "candidateCount": 26,
       "candidates": [
@@ -3818,7 +3818,7 @@
     },
     {
       "listNumber": 14,
-      "fullName": "DaGe",
+      "fullName": "Darmstädter Gerechtigkeitspartei",
       "shortName": "DaGe",
       "candidateCount": 12,
       "candidates": [
@@ -3910,7 +3910,7 @@
     },
     {
       "listNumber": 15,
-      "fullName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
       "shortName": "Die PARTEI",
       "candidateCount": 22,
       "candidates": [

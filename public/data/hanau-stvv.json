@@ -4,7 +4,7 @@
   "parties": [
     {
       "listNumber": 1,
-      "fullName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
       "shortName": "CDU",
       "candidateCount": 47,
       "candidates": [
@@ -341,7 +341,7 @@
     },
     {
       "listNumber": 2,
-      "fullName": "AfD",
+      "fullName": "Alternative für Deutschland",
       "shortName": "AfD",
       "candidateCount": 14,
       "candidates": [
@@ -447,7 +447,7 @@
     },
     {
       "listNumber": 3,
-      "fullName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
       "shortName": "SPD",
       "candidateCount": 44,
       "candidates": [
@@ -763,7 +763,7 @@
     },
     {
       "listNumber": 4,
-      "fullName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
       "candidateCount": 46,
       "candidates": [
@@ -1093,7 +1093,7 @@
     },
     {
       "listNumber": 5,
-      "fullName": "FDP",
+      "fullName": "Freie Demokratische Partei",
       "shortName": "FDP",
       "candidateCount": 25,
       "candidates": [
@@ -1276,7 +1276,7 @@
     },
     {
       "listNumber": 6,
-      "fullName": "BfH",
+      "fullName": "Bürger für Hanau",
       "shortName": "BfH",
       "candidateCount": 25,
       "candidates": [
@@ -1459,7 +1459,7 @@
     },
     {
       "listNumber": 7,
-      "fullName": "Die Linke",
+      "fullName": "DIE LINKE",
       "shortName": "Die Linke",
       "candidateCount": 24,
       "candidates": [
@@ -1635,7 +1635,7 @@
     },
     {
       "listNumber": 8,
-      "fullName": "Volt",
+      "fullName": "Volt Deutschland",
       "shortName": "Volt",
       "candidateCount": 13,
       "candidates": [
@@ -1734,7 +1734,7 @@
     },
     {
       "listNumber": 9,
-      "fullName": "FW",
+      "fullName": "FREIE WÄHLER",
       "shortName": "FW",
       "candidateCount": 31,
       "candidates": [
@@ -1959,7 +1959,7 @@
     },
     {
       "listNumber": 10,
-      "fullName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
       "shortName": "BSW",
       "candidateCount": 20,
       "candidates": [
@@ -2107,7 +2107,7 @@
     },
     {
       "listNumber": 11,
-      "fullName": "Team Todenhöfer",
+      "fullName": "Team Todenhöfer – Die Gerechtigkeitspartei",
       "shortName": "Team Todenhöfer",
       "candidateCount": 25,
       "candidates": [

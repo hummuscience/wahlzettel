@@ -4,7 +4,7 @@
   "parties": [
     {
       "listNumber": 1,
-      "fullName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
       "shortName": "CDU",
       "candidateCount": 50,
       "candidates": [
@@ -362,7 +362,7 @@
     },
     {
       "listNumber": 2,
-      "fullName": "AfD",
+      "fullName": "Alternative für Deutschland",
       "shortName": "AfD",
       "candidateCount": 7,
       "candidates": [
@@ -419,7 +419,7 @@
     },
     {
       "listNumber": 3,
-      "fullName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
       "shortName": "SPD",
       "candidateCount": 50,
       "candidates": [
@@ -777,7 +777,7 @@
     },
     {
       "listNumber": 4,
-      "fullName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
       "shortName": "GRÜNE",
       "candidateCount": 55,
       "candidates": [
@@ -1170,7 +1170,7 @@
     },
     {
       "listNumber": 5,
-      "fullName": "FDP",
+      "fullName": "Freie Demokratische Partei",
       "shortName": "FDP",
       "candidateCount": 60,
       "candidates": [
@@ -1598,7 +1598,7 @@
     },
     {
       "listNumber": 6,
-      "fullName": "Die Linke",
+      "fullName": "DIE LINKE",
       "shortName": "Die Linke",
       "candidateCount": 31,
       "candidates": [
@@ -2062,7 +2062,7 @@
     },
     {
       "listNumber": 8,
-      "fullName": "BIG",
+      "fullName": "Bündnis für Innovation & Gerechtigkeit",
       "shortName": "BIG",
       "candidateCount": 34,
       "candidates": [
@@ -2308,7 +2308,7 @@
     },
     {
       "listNumber": 9,
-      "fullName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
       "shortName": "BSW",
       "candidateCount": 29,
       "candidates": [
@@ -2519,7 +2519,7 @@
     },
     {
       "listNumber": 10,
-      "fullName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH UMWELT TIERSCHUTZ",
       "shortName": "Tierschutzpartei",
       "candidateCount": 24,
       "candidates": [
@@ -2695,7 +2695,7 @@
     },
     {
       "listNumber": 11,
-      "fullName": "Volt",
+      "fullName": "Volt Deutschland",
       "shortName": "Volt",
       "candidateCount": 14,
       "candidates": [
