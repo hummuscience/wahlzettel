@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# Wahlguide 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive practice ballot for the 2026 Hessian municipal elections (Kommunalwahl). Practice the complex cumulative and split voting system before election day.
 
-Currently, two official plugins are available:
+**Live at [whlztl.de](https://whlztl.de)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Supported Elections
 
-## React Compiler
+12 elections across 10 cities in Hessen:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| City | Election | Stimmen |
+|------|----------|---------|
+| Frankfurt | Stadtverordnetenversammlung | 93 |
+| Frankfurt | Kommunale Ausländervertretung (KAV) | 37 |
+| Wiesbaden | Stadtverordnetenversammlung | 81 |
+| Wiesbaden | Ausländerbeirat | 31 |
+| Darmstadt | Stadtverordnetenversammlung | 71 |
+| Kassel | Stadtverordnetenversammlung | 71 |
+| Offenbach | Stadtverordnetenversammlung | 71 |
+| Gießen | Stadtverordnetenversammlung | 59 |
+| Hanau | Stadtverordnetenversammlung | 59 |
+| Marburg | Stadtverordnetenversammlung | 59 |
+| Fulda | Stadtverordnetenversammlung | 59 |
+| Rüsselsheim | Stadtverordnetenversammlung | 45 |
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Voting
+- **Individual voting (Kumulieren)** — Assign 1-3 Stimmen to specific candidates across any party
+- **List voting (Kopfleiste)** — Check a party's list header to automatically distribute votes top-to-bottom
+- **Striking candidates (Streichen)** — Exclude individual candidates from the list vote distribution
+- **Split voting (Panaschieren)** — Combine votes across multiple parties
+- Real-time vote counter with validity checking (green = complete, red = over-limit)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Navigation
+- Interactive Germany map drill-down: state -> city -> election
+- Party bookmark tabs for quick jumping between parties
+- Keyboard navigation (arrow keys, tab, escape)
+- Fully responsive from mobile to desktop
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Languages
+Deutsch, English, Turkce, Arabic (RTL), Ukrainian, Russian
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Education
+- 10-step interactive guided tour with spotlight overlay
+- Walkthrough sidebar explaining each voting concept
+- Practical info panel: election date, voter eligibility, postal voting, official links
+
+### Sharing & Printing
+- Shareable links with compact binary-encoded vote state
+- QR code generation colored by party vote distribution
+- Image export of ballot snapshot
+- Printable "Spickzettel" (cheat sheet) optimized for taking into the voting booth
+
+## Tech Stack
+
+- React + TypeScript + Vite
+- Tailwind CSS v4
+- i18next (6 languages)
+- Deployed to GitHub Pages
+
+## Development
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Data Pipeline
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Candidate data is parsed from official Amtsblatt PDFs and city Probestimmzettel using scripts in `scripts/`. Output JSON files live in `public/data/`.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Disclaimer
+
+This is a private informational project and is not affiliated with any city government or election authority. All data is provided without guarantee. Consult your city's official election page for authoritative information.
