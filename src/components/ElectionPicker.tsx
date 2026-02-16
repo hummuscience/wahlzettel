@@ -124,7 +124,7 @@ type PickerStep =
 
 // Hand-tuned label centers for states with elections (SVG viewBox 0 0 586 793)
 const STATE_LABEL_POS: Record<string, { x: number; y: number }> = {
-  he: { x: 230, y: 460 },
+  he: { x: 200, y: 476 },
 };
 
 interface ElectionPickerProps {
