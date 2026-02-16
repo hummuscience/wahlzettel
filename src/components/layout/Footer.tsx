@@ -10,6 +10,15 @@ export function Footer() {
         <p className="text-xs text-gray-500 leading-relaxed">
           {te('disclaimer', { defaultValue: t('disclaimer') })}
         </p>
+        <details className="text-xs text-gray-400 mt-3">
+          <summary className="cursor-pointer hover:text-gray-600">Impressum</summary>
+          <p className="mt-1">
+            Dr. Muad Abd El Hay · Guentherstr. 8, 60528 Frankfurt am Main ·{' '}
+            <a href="mailto:muad.abdelhay@gmail.com" className="underline hover:text-gray-600">
+              muad.abdelhay@gmail.com
+            </a>
+          </p>
+        </details>
         <p className="text-xs text-gray-400 mt-3">
           {te('madeWith', { defaultValue: t('madeWith') })}
         </p>
