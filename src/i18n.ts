@@ -270,6 +270,11 @@ const I18N_IMPORTERS: Record<string, Record<string, () => Promise<ElectionI18nMo
   },
   'bw-landtagswahl': {
     de: () => import('./elections/bw-landtagswahl/i18n/de.json'),
+    en: () => import('./elections/bw-landtagswahl/i18n/en.json'),
+    tr: () => import('./elections/bw-landtagswahl/i18n/tr.json'),
+    ar: () => import('./elections/bw-landtagswahl/i18n/ar.json'),
+    uk: () => import('./elections/bw-landtagswahl/i18n/uk.json'),
+    ru: () => import('./elections/bw-landtagswahl/i18n/ru.json'),
   },
 };
 
