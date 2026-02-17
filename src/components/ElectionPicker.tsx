@@ -34,6 +34,23 @@ interface CityEntry {
   elections: Election[];
 }
 
+// Statewide elections that bypass city selection
+interface StatewideElection {
+  stateId: string;
+  slug: string;
+  label: string;
+  themeColor: string;
+}
+
+const STATEWIDE_ELECTIONS: StatewideElection[] = [
+  {
+    stateId: 'bw',
+    slug: 'bw-landtagswahl',
+    label: 'Landtagswahl 2026',
+    themeColor: '#d4a017',
+  },
+];
+
 const CITIES: CityEntry[] = [
   {
     name: 'Darmstadt',
@@ -185,7 +202,17 @@ for (const city of CITIES) {
   (CITIES_BY_STATE[city.stateId] ??= []).push(city);
 }
 
-const STATES_WITH_CITIES = new Set(Object.keys(CITIES_BY_STATE));
+// States that have elections (either city-level or statewide)
+const STATES_WITH_ELECTIONS = new Set([
+  ...Object.keys(CITIES_BY_STATE),
+  ...STATEWIDE_ELECTIONS.map(e => e.stateId),
+]);
+
+// Quick lookup for statewide elections
+const STATEWIDE_BY_STATE: Record<string, StatewideElection[]> = {};
+for (const e of STATEWIDE_ELECTIONS) {
+  (STATEWIDE_BY_STATE[e.stateId] ??= []).push(e);
+}
 
 type PickerStep =
   | { view: 'germany' }
@@ -194,6 +221,7 @@ type PickerStep =
 
 // Hand-tuned label centers for states with elections (SVG viewBox 0 0 586 793)
 const STATE_LABEL_POS: Record<string, { x: number; y: number }> = {
+  bw: { x: 180, y: 650 },
   he: { x: 200, y: 476 },
   by: { x: 370, y: 620 },
 };
@@ -228,7 +256,7 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
           <div className="relative mx-auto max-w-md md:max-w-xl lg:max-w-2xl">
             <svg viewBox="0 0 586 793" className="w-full h-auto">
               {GERMANY_PATHS.map(state => {
-                const hasCities = STATES_WITH_CITIES.has(state.id);
+                const hasCities = STATES_WITH_ELECTIONS.has(state.id);
                 const isHovered = hoveredState === state.id;
                 return (
                   <path
@@ -243,14 +271,24 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
                     strokeWidth="1"
                     className={`transition-colors duration-150 ${hasCities ? 'cursor-pointer' : ''}`}
                     style={{ pointerEvents: hasCities ? 'auto' : 'none' }}
-                    onClick={() => hasCities && setStep({ view: 'state', stateId: state.id })}
+                    onClick={() => {
+                      if (!hasCities) return;
+                      const statewide = STATEWIDE_BY_STATE[state.id];
+                      const cities = CITIES_BY_STATE[state.id];
+                      // If state has only one statewide election and no cities, go directly
+                      if (statewide?.length === 1 && !cities?.length) {
+                        onChoose(statewide[0].slug);
+                      } else {
+                        setStep({ view: 'state', stateId: state.id });
+                      }
+                    }}
                     onMouseEnter={() => hasCities && setHoveredState(state.id)}
                     onMouseLeave={() => setHoveredState(null)}
                   />
                 );
               })}
               {/* Labels for states with elections */}
-              {Array.from(STATES_WITH_CITIES).map(stateId => (
+              {Array.from(STATES_WITH_ELECTIONS).map(stateId => (
                 <text
                   key={`label-${stateId}`}
                   x={STATE_LABEL_POS[stateId]?.x ?? 0}
@@ -276,6 +314,7 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
   if (step.view === 'state') {
     const { stateId } = step;
     const cities = CITIES_BY_STATE[stateId] || [];
+    const statewideElections = STATEWIDE_BY_STATE[stateId] || [];
 
     return (
       <div className="min-h-[60vh] flex items-center justify-center px-4 py-12">
@@ -294,6 +333,27 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
           </p>
 
           <div className="flex flex-col gap-2">
+            {/* Statewide elections */}
+            {statewideElections.map(election => (
+              <button
+                key={election.slug}
+                onClick={() => onChoose(election.slug)}
+                className="flex items-center justify-between rounded-xl border-2 border-gray-300 hover:border-gray-500 hover:shadow-sm px-5 py-4 transition-all bg-white group text-start"
+              >
+                <div className="flex items-center gap-3">
+                  <span
+                    className="w-2.5 h-2.5 rounded-full shrink-0"
+                    style={{ backgroundColor: election.themeColor }}
+                  />
+                  <span className="font-semibold text-gray-900 group-hover:text-gray-700">
+                    {election.label}
+                  </span>
+                </div>
+                <span className="text-gray-300 group-hover:text-gray-500 transition-colors">›</span>
+              </button>
+            ))}
+
+            {/* City-level elections */}
             {cities.map(city => (
               <button
                 key={city.name}

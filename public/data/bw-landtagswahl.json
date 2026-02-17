@@ -1,0 +1,5106 @@
+{
+  "election": "bw-landtagswahl",
+  "type": "landtagswahl",
+  "name": "Landtagswahl Baden-Württemberg 2026",
+  "date": "2026-03-08",
+  "wahlkreise": [
+    {
+      "number": 1,
+      "name": "Stuttgart I",
+      "candidates": [
+        {
+          "id": "bw-lt-1-1",
+          "party": "GRÜNE",
+          "lastName": "Aras",
+          "firstName": "Muhterem",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-1-2",
+          "party": "CDU",
+          "lastName": "Schreiber",
+          "firstName": "Teresa",
+          "profession": "Staatsanwältin",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-1-3",
+          "party": "SPD",
+          "lastName": "Binder",
+          "firstName": "Hanna",
+          "profession": "Gewerkschaftssekretärin",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-1-4",
+          "party": "FDP",
+          "lastName": "Schober",
+          "firstName": "Claudia",
+          "profession": "Dipl.-Kauffrau",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-1-5",
+          "party": "AfD",
+          "lastName": "Hammerschmidt",
+          "firstName": "Arthur",
+          "profession": "Student",
+          "birthYear": 2004
+        },
+        {
+          "id": "bw-lt-1-6",
+          "party": "Die Linke",
+          "lastName": "Ghazaei",
+          "firstName": "Mersedeh",
+          "profession": "Studentin",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-1-7",
+          "party": "Die PARTEI",
+          "lastName": "Pannen",
+          "firstName": "Jasper",
+          "profession": "Sozialarbeiter",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-1-8",
+          "party": "Volt",
+          "lastName": "Hirschka",
+          "firstName": "Celine",
+          "profession": "Nachhaltigkeitsmanagerin",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-1-9",
+          "party": "Tierschutzpartei",
+          "lastName": "Riedacher",
+          "firstName": "Moritz",
+          "profession": "arbeitssuchend",
+          "birthYear": 1996
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Stuttgart II",
+      "candidates": [
+        {
+          "id": "bw-lt-2-1",
+          "party": "GRÜNE",
+          "lastName": "Özdemir",
+          "firstName": "Cem",
+          "profession": "Minister a.D.",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-2-2",
+          "party": "CDU",
+          "lastName": "Dr. Nopper",
+          "firstName": "Klaus",
+          "profession": "Rechtsanwalt, Fachanwalt für Steuerrecht",
+          "birthYear": 1967
+        },
+        {
+          "id": "bw-lt-2-3",
+          "party": "SPD",
+          "lastName": "Dahme",
+          "firstName": "Sara",
+          "profession": "Gymnasiallehrerin",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-2-4",
+          "party": "FDP",
+          "lastName": "Haag",
+          "firstName": "Friedrich",
+          "profession": "Landtagsabgeordneter, Einzelhandelskaufmann",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-2-5",
+          "party": "AfD",
+          "lastName": "Degler",
+          "firstName": "Steffen",
+          "profession": "Büroleiter",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-2-6",
+          "party": "Die Linke",
+          "lastName": "Osman",
+          "firstName": "Faisal",
+          "profession": "Student",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-2-7",
+          "party": "ÖDP",
+          "lastName": "Zielke",
+          "firstName": "Dieter",
+          "profession": "Volkswirt",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-2-8",
+          "party": "Volt",
+          "lastName": "Lehrfeld",
+          "firstName": "Andreas",
+          "profession": "Politologe",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-2-9",
+          "party": "BSW",
+          "lastName": "Stock",
+          "firstName": "Ronald",
+          "profession": "Maschinenbauingenieur i.R.",
+          "birthYear": 1947
+        },
+        {
+          "id": "bw-lt-2-10",
+          "party": "Tierschutzpartei",
+          "lastName": "Just",
+          "firstName": "Sandra",
+          "profession": "Einzelhandelskauffrau",
+          "birthYear": 1978
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Stuttgart III",
+      "candidates": [
+        {
+          "id": "bw-lt-3-1",
+          "party": "GRÜNE",
+          "lastName": "Hildenbrand",
+          "firstName": "Oliver",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-3-2",
+          "party": "CDU",
+          "lastName": "Thavakkumar",
+          "firstName": "Shajeevan",
+          "profession": "Geschäftsführer",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-3-3",
+          "party": "SPD",
+          "lastName": "Streitbürger",
+          "firstName": "Laura",
+          "profession": "Leiterin Stabsstelle Sozialpolitik",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-3-4",
+          "party": "FDP",
+          "lastName": "Heise",
+          "firstName": "Gabriele",
+          "profession": "Rechtsanwältin",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-3-5",
+          "party": "AfD",
+          "lastName": "Mürter",
+          "firstName": "Andreas",
+          "profession": "Maschinenbaumeister",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-3-6",
+          "party": "Die Linke",
+          "lastName": "Mörbe",
+          "firstName": "Utz",
+          "profession": "kommunaler Behindertenbeauftragter",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-3-7",
+          "party": "Die PARTEI",
+          "lastName": "Lallinger",
+          "firstName": "Franz",
+          "profession": "Xaver Radiomoderator",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-3-8",
+          "party": "Volt",
+          "lastName": "Bollow",
+          "firstName": "Tillmann",
+          "profession": "Architekt",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-3-9",
+          "party": "Bündnis C",
+          "lastName": "Papentin",
+          "firstName": "Christian",
+          "profession": "Servicetechniker",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-3-10",
+          "party": "BSW",
+          "lastName": "Seefeld-Sahraoui",
+          "firstName": "Chedly",
+          "profession": "Maschinenbaukonstrukteur i.R.",
+          "birthYear": 1949
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Stuttgart IV",
+      "candidates": [
+        {
+          "id": "bw-lt-4-1",
+          "party": "GRÜNE",
+          "lastName": "Olschowski",
+          "firstName": "Petra",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-4-2",
+          "party": "CDU",
+          "lastName": "Dr. Reiners",
+          "firstName": "Markus",
+          "profession": "Kriminalbeamter",
+          "birthYear": 1964
+        },
+        {
+          "id": "bw-lt-4-3",
+          "party": "SPD",
+          "lastName": "Steinhülb-Joos",
+          "firstName": "Katrin",
+          "profession": "Landtagsabgeordnete, Schulleiterin",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-4-4",
+          "party": "FDP",
+          "lastName": "Becker",
+          "firstName": "Juliane",
+          "profession": "Lehrerin",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-4-5",
+          "party": "AfD",
+          "lastName": "Köhler",
+          "firstName": "Christian",
+          "profession": "Politikwissenschaftler, M.A.",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-4-6",
+          "party": "Die Linke",
+          "lastName": "Monteiro Bailey",
+          "firstName": "Luna",
+          "profession": "Angestellte",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-4-7",
+          "party": "Volt",
+          "lastName": "Hueber",
+          "firstName": "Benjamin",
+          "profession": "wiss. Mitarbeiter",
+          "birthYear": 1996
+        },
+        {
+          "id": "bw-lt-4-8",
+          "party": "BSW",
+          "lastName": "Moreira Costeira",
+          "firstName": "Patrick",
+          "profession": "Fachangestellter f. Arbeitsmarktdienstleistungen",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-4-9",
+          "party": "BÜNDNIS DEUTSCHLAND",
+          "lastName": "Tozman",
+          "firstName": "Iprahim",
+          "profession": "Dipl.-Ing. Elektrotechnik",
+          "birthYear": 1982
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Böblingen",
+      "candidates": [
+        {
+          "id": "bw-lt-5-1",
+          "party": "GRÜNE",
+          "lastName": "Walker",
+          "firstName": "Thekla",
+          "profession": "Landesministerin, Landtagsabgeordnete",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-5-2",
+          "party": "CDU",
+          "lastName": "Dvořák-Vučetić",
+          "firstName": "Regina",
+          "profession": "Politikwissenschaftlerin",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-5-3",
+          "party": "SPD",
+          "lastName": "Wahl",
+          "firstName": "Florian",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1984
+        },
+        {
+          "id": "bw-lt-5-4",
+          "party": "FDP",
+          "lastName": "Dr. Watrinet",
+          "firstName": "Christine",
+          "profession": "Geschäftsführerin",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-5-5",
+          "party": "AfD",
+          "lastName": "Schäfer",
+          "firstName": "Christine",
+          "profession": "Bankkauffrau",
+          "birthYear": 1964
+        },
+        {
+          "id": "bw-lt-5-6",
+          "party": "Die Linke",
+          "lastName": "Kläger",
+          "firstName": "Marcel",
+          "profession": "Altenpfleger",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-5-7",
+          "party": "Volt",
+          "lastName": "Kulinski",
+          "firstName": "Patrick",
+          "profession": "Entwicklungsingenieur",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-5-8",
+          "party": "BSW",
+          "lastName": "Salameh",
+          "firstName": "Benjamin",
+          "profession": "Vertriebsingenieur",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-5-9",
+          "party": "Einzelbewerber",
+          "lastName": "Hammami",
+          "firstName": "Kai",
+          "profession": "Selbstständig",
+          "birthYear": 1966
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Leonberg",
+      "candidates": [
+        {
+          "id": "bw-lt-6-1",
+          "party": "GRÜNE",
+          "lastName": "Seimer",
+          "firstName": "Peter",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-6-2",
+          "party": "CDU",
+          "lastName": "Stickel",
+          "firstName": "Albrecht",
+          "profession": "Dipl.-Betriebswirt (FH)",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-6-3",
+          "party": "SPD",
+          "lastName": "Semler",
+          "firstName": "Farina",
+          "profession": "Lehrerin, Personalrätin",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-6-4",
+          "party": "FDP",
+          "lastName": "Scheerer",
+          "firstName": "Hans",
+          "profession": "Dieter Landtagsabgeordneter, Rechtsanwalt",
+          "birthYear": 1958
+        },
+        {
+          "id": "bw-lt-6-5",
+          "party": "AfD",
+          "lastName": "Auer",
+          "firstName": "Andreas",
+          "profession": "Bankkaufmann",
+          "birthYear": 1962
+        },
+        {
+          "id": "bw-lt-6-6",
+          "party": "Die Linke",
+          "lastName": "Walz",
+          "firstName": "Thomas",
+          "profession": "Historiker",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-6-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Welte",
+          "firstName": "Ingolf",
+          "profession": "Bürgermeister",
+          "birthYear": 1960
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Esslingen",
+      "candidates": [
+        {
+          "id": "bw-lt-7-1",
+          "party": "GRÜNE",
+          "lastName": "Lindlohr",
+          "firstName": "Andrea",
+          "profession": "Landtagsabgeordnete, Staatssekretärin",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-7-2",
+          "party": "CDU",
+          "lastName": "Deuschle",
+          "firstName": "Andreas",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-7-3",
+          "party": "SPD",
+          "lastName": "Fink",
+          "firstName": "Nicolas",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-7-4",
+          "party": "FDP",
+          "lastName": "Wirth",
+          "firstName": "Tobias",
+          "profession": "Auszubildender Fachinformatiker",
+          "birthYear": 2005
+        },
+        {
+          "id": "bw-lt-7-5",
+          "party": "AfD",
+          "lastName": "Köthe",
+          "firstName": "Stephan",
+          "profession": "Informatiker",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-7-6",
+          "party": "Die Linke",
+          "lastName": "Auerbach",
+          "firstName": "Martin",
+          "profession": "Jugend- und Heimerzieher",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-7-7",
+          "party": "Volt",
+          "lastName": "Marinović-Matičević",
+          "firstName": "Anita",
+          "profession": "Unternehmerin",
+          "birthYear": 1984
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Kirchheim",
+      "candidates": [
+        {
+          "id": "bw-lt-8-1",
+          "party": "GRÜNE",
+          "lastName": "Schwarz",
+          "firstName": "Andreas",
+          "profession": "Landtagsabgeordneter, Fraktionsvorsitzender",
+          "birthYear": 1979
+        },
+        {
+          "id": "bw-lt-8-2",
+          "party": "CDU",
+          "lastName": "Dr. Pfau-Weller",
+          "firstName": "Natalie",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-8-3",
+          "party": "SPD",
+          "lastName": "Brinks",
+          "firstName": "Tonja",
+          "profession": "Dipl.-Politikwissenschaftlerin",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-8-4",
+          "party": "FDP",
+          "lastName": "Falkenstein",
+          "firstName": "Nicole",
+          "profession": "Dipl.-Bankbetriebswirtin (FFS)",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-8-5",
+          "party": "AfD",
+          "lastName": "Berthold",
+          "firstName": "Markus",
+          "profession": "Rechtsanwalt",
+          "birthYear": 1959
+        },
+        {
+          "id": "bw-lt-8-6",
+          "party": "Die Linke",
+          "lastName": "Beşli",
+          "firstName": "Anil",
+          "profession": "Student",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-8-7",
+          "party": "Volt",
+          "lastName": "Clauß",
+          "firstName": "Marvin",
+          "profession": "Doktorand",
+          "birthYear": 1996
+        },
+        {
+          "id": "bw-lt-8-8",
+          "party": "BSW",
+          "lastName": "Brinker",
+          "firstName": "Heinrich",
+          "profession": "IT-Service Manager",
+          "birthYear": 1957
+        },
+        {
+          "id": "bw-lt-8-9",
+          "party": "WerteUnion",
+          "lastName": "Rieg",
+          "firstName": "Bernd",
+          "profession": "Bankkaufmann",
+          "birthYear": 1953
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Nürtingen",
+      "candidates": [
+        {
+          "id": "bw-lt-9-1",
+          "party": "GRÜNE",
+          "lastName": "Schweizer",
+          "firstName": "Clara",
+          "profession": "Studentin",
+          "birthYear": 2002
+        },
+        {
+          "id": "bw-lt-9-2",
+          "party": "CDU",
+          "lastName": "Steege",
+          "firstName": "Maren",
+          "profession": "Dipl.-Ökonomin",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-9-3",
+          "party": "SPD",
+          "lastName": "Reeth",
+          "firstName": "Tim",
+          "profession": "Marketing Specialist",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-9-4",
+          "party": "FDP",
+          "lastName": "Birnstock",
+          "firstName": "Dennis",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-9-5",
+          "party": "AfD",
+          "lastName": "Schneider",
+          "firstName": "Felix",
+          "profession": "Heizungsbaumeister",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-9-6",
+          "party": "Die Linke",
+          "lastName": "Meier",
+          "firstName": "Clara",
+          "profession": "Theaterpädagogin",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-9-7",
+          "party": "Volt",
+          "lastName": "Fehlen",
+          "firstName": "Raphaël",
+          "profession": "Student",
+          "birthYear": 2001
+        },
+        {
+          "id": "bw-lt-9-8",
+          "party": "WerteUnion",
+          "lastName": "Rogge",
+          "firstName": "Matthias",
+          "profession": "Geschäftsführer",
+          "birthYear": 1965
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Göppingen",
+      "candidates": [
+        {
+          "id": "bw-lt-10-1",
+          "party": "GRÜNE",
+          "lastName": "Dr. Ott",
+          "firstName": "Mariska",
+          "profession": "Wirtschaftspädagogin",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-10-2",
+          "party": "CDU",
+          "lastName": "Schweizer",
+          "firstName": "Sarah",
+          "profession": "Rechtsanwältin, Landtagsabgeordnete",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-10-3",
+          "party": "SPD",
+          "lastName": "Hartmann",
+          "firstName": "Sabrina",
+          "profession": "Referentin für Öffentlichkeitsarbeit",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-10-4",
+          "party": "FDP",
+          "lastName": "Körber",
+          "firstName": "Peter",
+          "profession": "Handwerksmeister, Sachverständiger",
+          "birthYear": 1964
+        },
+        {
+          "id": "bw-lt-10-5",
+          "party": "AfD",
+          "lastName": "Scheer",
+          "firstName": "Sandro",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-10-6",
+          "party": "Die Linke",
+          "lastName": "Bürger",
+          "firstName": "Alexandra",
+          "profession": "Erzieherin",
+          "birthYear": 1986
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Geislingen",
+      "candidates": [
+        {
+          "id": "bw-lt-11-1",
+          "party": "GRÜNE",
+          "lastName": "Beier",
+          "firstName": "Julian",
+          "profession": "wiss. Mitarbeiter",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-11-2",
+          "party": "CDU",
+          "lastName": "Razavi",
+          "firstName": "Nicole",
+          "profession": "Landesministerin, Landtagsabgeordnete",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-11-3",
+          "party": "SPD",
+          "lastName": "Binder",
+          "firstName": "Sascha",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-11-4",
+          "party": "FDP",
+          "lastName": "Röcker",
+          "firstName": "Jennifer",
+          "profession": "kfm. Leiterin",
+          "birthYear": 1979
+        },
+        {
+          "id": "bw-lt-11-5",
+          "party": "AfD",
+          "lastName": "Freiherr von Wangenheim",
+          "firstName": "Uwe",
+          "profession": "Büroleiter",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-11-6",
+          "party": "Die Linke",
+          "lastName": "Graßhof",
+          "firstName": "Bernd",
+          "profession": "Unternehmensberater",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-11-7",
+          "party": "WerteUnion",
+          "lastName": "Hildebrandt",
+          "firstName": "Alexander",
+          "profession": "Gymnasiallehrer",
+          "birthYear": 1972
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Ludwigsburg",
+      "candidates": [
+        {
+          "id": "bw-lt-12-1",
+          "party": "GRÜNE",
+          "lastName": "Gericke",
+          "firstName": "Silke",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-12-2",
+          "party": "CDU",
+          "lastName": "Tietze",
+          "firstName": "Lukas",
+          "profession": "Wirtschaftswissenschaftler",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-12-3",
+          "party": "SPD",
+          "lastName": "Ziwey",
+          "firstName": "Nathalie",
+          "profession": "Duale Studentin Logistik-Supply Chain Management",
+          "birthYear": 1996
+        },
+        {
+          "id": "bw-lt-12-4",
+          "party": "FDP",
+          "lastName": "Vogt",
+          "firstName": "Wolfgang",
+          "profession": "Jurist",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-12-5",
+          "party": "AfD",
+          "lastName": "Tsoulopoulos",
+          "firstName": "Christoforos",
+          "profession": "Architekt",
+          "birthYear": 1958
+        },
+        {
+          "id": "bw-lt-12-6",
+          "party": "Die Linke",
+          "lastName": "Schmidt",
+          "firstName": "Nadja",
+          "profession": "Gesundheits- und Krankenpflegerin",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-12-7",
+          "party": "dieBasis",
+          "lastName": "Johne",
+          "firstName": "Stephan",
+          "profession": "Geschäftsführender Gesellschafter",
+          "birthYear": 1962
+        },
+        {
+          "id": "bw-lt-12-8",
+          "party": "ÖDP",
+          "lastName": "Fröhlich",
+          "firstName": "Sascha",
+          "profession": "Entwicklungskonstrukteur",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-12-9",
+          "party": "Volt",
+          "lastName": "Metje",
+          "firstName": "Henrik",
+          "profession": "Sozialarbeiter, Diakon",
+          "birthYear": 1995
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Vaihingen",
+      "candidates": [
+        {
+          "id": "bw-lt-13-1",
+          "party": "GRÜNE",
+          "lastName": "Günter",
+          "firstName": "Meike",
+          "profession": "Angestellte",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-13-2",
+          "party": "CDU",
+          "lastName": "Epple",
+          "firstName": "Konrad",
+          "profession": "Landtagsabgeordneter, Schlossermeister",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-13-3",
+          "party": "SPD",
+          "lastName": "Liebig",
+          "firstName": "Torsten",
+          "profession": "Ministerialbeamter",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-13-4",
+          "party": "FDP",
+          "lastName": "Herzig",
+          "firstName": "Helena",
+          "profession": "Studentin",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-13-5",
+          "party": "AfD",
+          "lastName": "Boutakoglou",
+          "firstName": "Nikolaos",
+          "profession": "Installateur- und Heizungsbaumeister",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-13-6",
+          "party": "Die Linke",
+          "lastName": "Burgstett",
+          "firstName": "Steve",
+          "profession": "Lehrer",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-13-7",
+          "party": "WerteUnion",
+          "lastName": "Müller",
+          "firstName": "Walter",
+          "profession": "Dipl.-Kaufmann i.R.",
+          "birthYear": 1952
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Bietigheim-Bissingen",
+      "candidates": [
+        {
+          "id": "bw-lt-14-1",
+          "party": "GRÜNE",
+          "lastName": "Tok",
+          "firstName": "Tayfun",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-14-2",
+          "party": "CDU",
+          "lastName": "Vogt",
+          "firstName": "Tobias",
+          "profession": "Landtagsabgeordneter, Kfz.-Techniker-Meister",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-14-3",
+          "party": "SPD",
+          "lastName": "Haas",
+          "firstName": "Daniel",
+          "profession": "Marketingleiter",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-14-4",
+          "party": "FDP",
+          "lastName": "Wien",
+          "firstName": "Paul",
+          "profession": "Büroleiter",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-14-5",
+          "party": "AfD",
+          "lastName": "Geisler",
+          "firstName": "Reno",
+          "profession": "Groß- und Außenhandelskaufmann",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-14-6",
+          "party": "Die Linke",
+          "lastName": "Petri",
+          "firstName": "Ingrid",
+          "profession": "Gesundheits- und Krankenpflegerin",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-14-7",
+          "party": "ÖDP",
+          "lastName": "Bogisch",
+          "firstName": "Gerd",
+          "profession": "Geoinformatiker",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-14-8",
+          "party": "Volt",
+          "lastName": "Engelhardt",
+          "firstName": "Cal",
+          "profession": "Bäckereifachverkäufer",
+          "birthYear": 1990
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Waiblingen",
+      "candidates": [
+        {
+          "id": "bw-lt-15-1",
+          "party": "GRÜNE",
+          "lastName": "Sperling",
+          "firstName": "Swantje",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-15-2",
+          "party": "CDU",
+          "lastName": "Lorek",
+          "firstName": "Siegfried",
+          "profession": "Landtagsabgeordneter, Polizeioberrat a.D.",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-15-3",
+          "party": "SPD",
+          "lastName": "Süßmilch",
+          "firstName": "Bettina",
+          "profession": "Dipl.-Sozialwissenschaftlerin",
+          "birthYear": 1970
+        },
+        {
+          "id": "bw-lt-15-4",
+          "party": "FDP",
+          "lastName": "Goll",
+          "firstName": "Julia",
+          "profession": "Landtagsabgeordnete, Richterin am LG a.D.",
+          "birthYear": 1964
+        },
+        {
+          "id": "bw-lt-15-5",
+          "party": "AfD",
+          "lastName": "Braun",
+          "firstName": "Jürgen",
+          "profession": "Kommunikationsberater",
+          "birthYear": 1961
+        },
+        {
+          "id": "bw-lt-15-6",
+          "party": "Die Linke",
+          "lastName": "Bondarew",
+          "firstName": "Roman",
+          "profession": "Schüler",
+          "birthYear": 2007
+        },
+        {
+          "id": "bw-lt-15-7",
+          "party": "ÖDP",
+          "lastName": "Schmidt",
+          "firstName": "Patrick",
+          "profession": "Diakon",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-15-8",
+          "party": "Volt",
+          "lastName": "Kühne",
+          "firstName": "Marie",
+          "profession": "Juristin",
+          "birthYear": 1993
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Schorndorf",
+      "candidates": [
+        {
+          "id": "bw-lt-16-1",
+          "party": "GRÜNE",
+          "lastName": "Haßler",
+          "firstName": "Florian",
+          "profession": "Staatssekretär",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-16-2",
+          "party": "CDU",
+          "lastName": "Gehring",
+          "firstName": "Christian",
+          "profession": "Landtagsabgeordneter, Kriminalhauptkommissar a.D.",
+          "birthYear": 1979
+        },
+        {
+          "id": "bw-lt-16-3",
+          "party": "SPD",
+          "lastName": "Hutzel",
+          "firstName": "Peter",
+          "profession": "Gemeinschaftsschulkonrektor",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-16-4",
+          "party": "FDP",
+          "lastName": "Haußmann",
+          "firstName": "Jochen",
+          "profession": "Landtagsabgeordneter, Dipl.-Betriebswirt (DH)",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-16-5",
+          "party": "AfD",
+          "lastName": "Schwarz",
+          "firstName": "Stephan",
+          "profession": "Parl. Referent",
+          "birthYear": 1984
+        },
+        {
+          "id": "bw-lt-16-6",
+          "party": "Die Linke",
+          "lastName": "Emin",
+          "firstName": "Avra",
+          "profession": "Sozialarbeiterin, B. A.",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-16-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Dr. Manske",
+          "firstName": "Dirk",
+          "profession": "Professor für Theoretische Physik",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-16-8",
+          "party": "dieBasis",
+          "lastName": "Aldinger",
+          "firstName": "Brigitte",
+          "profession": "Softwareberaterin",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-16-9",
+          "party": "Volt",
+          "lastName": "Schmidt",
+          "firstName": "Sven",
+          "profession": "Gewerbelehrer",
+          "birthYear": 1980
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Backnang",
+      "candidates": [
+        {
+          "id": "bw-lt-17-1",
+          "party": "GRÜNE",
+          "lastName": "Nentwich",
+          "firstName": "Ralf",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-17-2",
+          "party": "CDU",
+          "lastName": "Dr. Steinat",
+          "firstName": "Jens",
+          "profession": "Facharzt für Allgemeinmedizin",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-17-3",
+          "party": "SPD",
+          "lastName": "Kirschbaum",
+          "firstName": "Simone",
+          "profession": "Hebamme, Landtagsabgeordnete",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-17-4",
+          "party": "FDP",
+          "lastName": "Juric",
+          "firstName": "Marc",
+          "profession": "Leiter Strat. Haushaltsmanagement",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-17-5",
+          "party": "AfD",
+          "lastName": "Lindenschmid",
+          "firstName": "Daniel",
+          "profession": "Landtagsabgeordneter, Fachinformatiker",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-17-6",
+          "party": "Die Linke",
+          "lastName": "Conrad",
+          "firstName": "Allegra",
+          "profession": "Sozialarbeiterin, B.A.",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-17-7",
+          "party": "Volt",
+          "lastName": "Lauffer",
+          "firstName": "Damaris",
+          "profession": "Betriebswirtin, Logistik",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-17-8",
+          "party": "PIRATEN",
+          "lastName": "Köngeter",
+          "firstName": "Philip",
+          "profession": "Mechatroniker",
+          "birthYear": 1991
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Heilbronn",
+      "candidates": [
+        {
+          "id": "bw-lt-18-1",
+          "party": "GRÜNE",
+          "lastName": "Achterberg",
+          "firstName": "Gudula",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-18-2",
+          "party": "CDU",
+          "lastName": "Strobl",
+          "firstName": "Thomas",
+          "profession": "Innenminister",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-18-3",
+          "party": "SPD",
+          "lastName": "Sagasser-Beil",
+          "firstName": "Tanja",
+          "profession": "Mediendesignerin",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-18-4",
+          "party": "FDP",
+          "lastName": "Weinmann",
+          "firstName": "Nico",
+          "profession": "Landtagsabgeordneter, Rechtsanwalt",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-18-5",
+          "party": "AfD",
+          "lastName": "Decker",
+          "firstName": "Maximilian",
+          "profession": "Oberbrandmeister",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-18-6",
+          "party": "Die Linke",
+          "lastName": "Mohammad Charif",
+          "firstName": "Hiba",
+          "profession": "Erzieherin",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-18-7",
+          "party": "ÖDP",
+          "lastName": "Ostfalk",
+          "firstName": "Julian",
+          "profession": "Produktmanager, B.Eng.",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-18-8",
+          "party": "Volt",
+          "lastName": "Simon",
+          "firstName": "Ignaz",
+          "profession": "Handwerksmeister",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-18-9",
+          "party": "BSW",
+          "lastName": "Tabler",
+          "firstName": "Joachim",
+          "profession": "Dipl.-Wirtschaftsingenieur",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-18-10",
+          "party": "Die Gerechtigkeitspartei",
+          "lastName": "El Beik",
+          "firstName": "Ismat",
+          "profession": "Kfz.-Techniker",
+          "birthYear": 1993
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Eppingen",
+      "candidates": [
+        {
+          "id": "bw-lt-19-1",
+          "party": "GRÜNE",
+          "lastName": "Köhler",
+          "firstName": "Erwin",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-19-2",
+          "party": "CDU",
+          "lastName": "Dr. Preusch",
+          "firstName": "Michael",
+          "profession": "Landtagsabgeordneter, Arzt",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-19-3",
+          "party": "SPD",
+          "lastName": "Fischer",
+          "firstName": "Bettina",
+          "profession": "Projektmanagerin Klima- und Umweltschutz",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-19-4",
+          "party": "FDP",
+          "lastName": "Heitlinger",
+          "firstName": "Georg",
+          "profession": "Landtagsabgeordneter, Landwirt",
+          "birthYear": 1970
+        },
+        {
+          "id": "bw-lt-19-5",
+          "party": "AfD",
+          "lastName": "Klecker",
+          "firstName": "Dennis",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-19-6",
+          "party": "Die Linke",
+          "lastName": "Weber",
+          "firstName": "Emma",
+          "profession": "Sozialwissenschaftlerin",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-19-7",
+          "party": "ÖDP",
+          "lastName": "Menakker",
+          "firstName": "Carina",
+          "profession": "Notfallsanitäterin",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-19-8",
+          "party": "WerteUnion",
+          "lastName": "Rothenhöfer",
+          "firstName": "Horst",
+          "profession": "Dipl.-Physiker",
+          "birthYear": 1967
+        },
+        {
+          "id": "bw-lt-19-9",
+          "party": "BÜNDNIS DEUTSCHLAND",
+          "lastName": "Holzmann",
+          "firstName": "Jochen",
+          "profession": "techn. Betriebswirt",
+          "birthYear": 1972
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Neckarsulm",
+      "candidates": [
+        {
+          "id": "bw-lt-20-1",
+          "party": "GRÜNE",
+          "lastName": "Riegger-Gnamm",
+          "firstName": "Sibylle",
+          "profession": "Berufseinstiegsbegleiterin",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-20-2",
+          "party": "CDU",
+          "lastName": "Huber",
+          "firstName": "Isabell",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-20-3",
+          "party": "SPD",
+          "lastName": "Ranger",
+          "firstName": "Klaus",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1961
+        },
+        {
+          "id": "bw-lt-20-4",
+          "party": "FDP",
+          "lastName": "Hampo",
+          "firstName": "Alexander",
+          "profession": "Kommunikationswissenschaftler",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-20-5",
+          "party": "AfD",
+          "lastName": "Wolle",
+          "firstName": "Carola",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-20-6",
+          "party": "Die Linke",
+          "lastName": "Vollert",
+          "firstName": "Florian",
+          "profession": "Sachbearbeiter",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-20-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Plath",
+          "firstName": "Jacqueline",
+          "profession": "Vertriebsleiterin Lebensmittelhandel i. R.",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-20-8",
+          "party": "ÖDP",
+          "lastName": "Hermann",
+          "firstName": "Ute",
+          "profession": "Kinderkrankenschwester",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-20-9",
+          "party": "Volt",
+          "lastName": "Schallenberg",
+          "firstName": "Anita",
+          "profession": "Nachhaltigkeitsmanagerin",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-20-10",
+          "party": "BSW",
+          "lastName": "Bačić",
+          "firstName": "Irhad",
+          "profession": "Lehrer",
+          "birthYear": 1988
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Hohenlohe",
+      "candidates": [
+        {
+          "id": "bw-lt-21-1",
+          "party": "GRÜNE",
+          "lastName": "Dietel",
+          "firstName": "Mario",
+          "profession": "Politikwissenschaftler",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-21-2",
+          "party": "CDU",
+          "lastName": "Dr. Breitkreuz",
+          "firstName": "Tim",
+          "profession": "Regierungsrat",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-21-3",
+          "party": "SPD",
+          "lastName": "Aberle",
+          "firstName": "Jonas",
+          "profession": "Mechatroniker",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-21-4",
+          "party": "FDP",
+          "lastName": "Pfaller",
+          "firstName": "Finn",
+          "profession": "Student der Mathematik",
+          "birthYear": 2002
+        },
+        {
+          "id": "bw-lt-21-5",
+          "party": "AfD",
+          "lastName": "Baron",
+          "firstName": "Anton",
+          "profession": "Landtagsabgeordneter, Wirtschaftsingenieur",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-21-6",
+          "party": "Die Linke",
+          "lastName": "Odenwald",
+          "firstName": "Matthias",
+          "profession": "Rentner",
+          "birthYear": 1954
+        },
+        {
+          "id": "bw-lt-21-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Bortt",
+          "firstName": "Falko",
+          "profession": "Landwirtschaftlicher Verkaufsberater, Landwirt",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-21-8",
+          "party": "BSW",
+          "lastName": "Günther",
+          "firstName": "Christin",
+          "profession": "Sozialpädagogin, B.A.",
+          "birthYear": 1984
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "name": "Schwäbisch Hall",
+      "candidates": [
+        {
+          "id": "bw-lt-22-1",
+          "party": "GRÜNE",
+          "lastName": "Geldner",
+          "firstName": "Lea",
+          "profession": "Sozialarbeiterin, M.A.",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-22-2",
+          "party": "CDU",
+          "lastName": "Rathgeb",
+          "firstName": "Isabell",
+          "profession": "Dipl.-Betriebswirtin (BA)",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-22-3",
+          "party": "SPD",
+          "lastName": "Multani",
+          "firstName": "Danny",
+          "profession": "Personalreferent",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-22-4",
+          "party": "FDP",
+          "lastName": "Köngeter",
+          "firstName": "Luca",
+          "profession": "Kaufmann Versicherungen u. Finanzanlagen",
+          "birthYear": 2004
+        },
+        {
+          "id": "bw-lt-22-5",
+          "party": "AfD",
+          "lastName": "Stein",
+          "firstName": "Udo",
+          "profession": "Einzelhandelskaufmann",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-22-6",
+          "party": "Die Linke",
+          "lastName": "Schumacher-Koelsch",
+          "firstName": "Ellena",
+          "profession": "Nilima Sozialarbeiterin, B.A.",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-22-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Ludwig",
+          "firstName": "Maximilian",
+          "profession": "Landwirtschaftsmeister",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-22-8",
+          "party": "ÖDP",
+          "lastName": "Roman",
+          "firstName": "Sylvain",
+          "profession": "Obstbaumpfleger",
+          "birthYear": 1970
+        },
+        {
+          "id": "bw-lt-22-9",
+          "party": "Volt",
+          "lastName": "Teuber",
+          "firstName": "Maximilian",
+          "profession": "Softwareentwickler",
+          "birthYear": 2003
+        },
+        {
+          "id": "bw-lt-22-10",
+          "party": "Bündnis C",
+          "lastName": "Krause",
+          "firstName": "Torsten",
+          "profession": "techn. Fernmeldebetriebsinspektor",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-22-11",
+          "party": "BSW",
+          "lastName": "Straub",
+          "firstName": "Matthias",
+          "profession": "Dipl.-Ing. Elektrotechnik (BA)",
+          "birthYear": 1966
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "name": "Main-Tauber",
+      "candidates": [
+        {
+          "id": "bw-lt-23-1",
+          "party": "GRÜNE",
+          "lastName": "Bayer",
+          "firstName": "Gerd",
+          "profession": "Landwirt",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-23-2",
+          "party": "CDU",
+          "lastName": "Dr. Reinhart",
+          "firstName": "Wolfgang",
+          "profession": "Rechtsanwalt, Landtagsabgeordneter",
+          "birthYear": 1956
+        },
+        {
+          "id": "bw-lt-23-3",
+          "party": "SPD",
+          "lastName": "Kurter",
+          "firstName": "Can",
+          "profession": "wiss. Referent",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-23-4",
+          "party": "FDP",
+          "lastName": "Schmidt",
+          "firstName": "Artur",
+          "profession": "selbst. Friseurmeister",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-23-5",
+          "party": "AfD",
+          "lastName": "Fischer",
+          "firstName": "Jeannette",
+          "profession": "Produktionsarbeiterin",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-23-6",
+          "party": "Die Linke",
+          "lastName": "Binder",
+          "firstName": "Robert",
+          "profession": "Bürofachkraft",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-23-7",
+          "party": "dieBasis",
+          "lastName": "Beck",
+          "firstName": "Elisabeth",
+          "profession": "Steuerfachangestellte",
+          "birthYear": 1963
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "name": "Heidenheim",
+      "candidates": [
+        {
+          "id": "bw-lt-24-1",
+          "party": "GRÜNE",
+          "lastName": "Resch",
+          "firstName": "Clara",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-24-2",
+          "party": "CDU",
+          "lastName": "Kolb",
+          "firstName": "Michael",
+          "profession": "Rechtsanwalt",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-24-3",
+          "party": "SPD",
+          "lastName": "Stoch",
+          "firstName": "Andreas",
+          "profession": "Landtagsabgeordneter, Fraktionsvorsitzender",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-24-4",
+          "party": "FDP",
+          "lastName": "Sanwald",
+          "firstName": "Klara",
+          "profession": "Juristin",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-24-5",
+          "party": "AfD",
+          "lastName": "Dr. Müller",
+          "firstName": "Jürgen",
+          "profession": "Geschäftsführer, Physiker",
+          "birthYear": 1967
+        },
+        {
+          "id": "bw-lt-24-6",
+          "party": "Die Linke",
+          "lastName": "Rolfs",
+          "firstName": "Daniel",
+          "profession": "Experte für IT Lösungen",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-24-7",
+          "party": "BSW",
+          "lastName": "Chesauan",
+          "firstName": "Maurice",
+          "profession": "Bankkaufmann",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-24-8",
+          "party": "BÜNDNIS DEUTSCHLAND",
+          "lastName": "Hackl",
+          "firstName": "Petra",
+          "profession": "Fremdsprachensekretärin",
+          "birthYear": 1968
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Schwäbisch Gmünd",
+      "candidates": [
+        {
+          "id": "bw-lt-25-1",
+          "party": "GRÜNE",
+          "lastName": "Häusler",
+          "firstName": "Martina",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1964
+        },
+        {
+          "id": "bw-lt-25-2",
+          "party": "CDU",
+          "lastName": "Bückner",
+          "firstName": "Tim",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-25-3",
+          "party": "SPD",
+          "lastName": "Freifrau von Streit",
+          "firstName": "Ulrike",
+          "profession": "Ministerialreferentin",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-25-4",
+          "party": "FDP",
+          "lastName": "Berendt",
+          "firstName": "Chris-Robert",
+          "profession": "Gymnasiallehrer",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-25-5",
+          "party": "AfD",
+          "lastName": "Rentschar",
+          "firstName": "Günter",
+          "profession": "Dipl.-Wirtschaftsingenieur, Unternehmer",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-25-6",
+          "party": "Die Linke",
+          "lastName": "Eisenmann",
+          "firstName": "Nina",
+          "profession": "Friseurmeisterin",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-25-7",
+          "party": "Die PARTEI",
+          "lastName": "Knödler",
+          "firstName": "Charlie",
+          "profession": "Student",
+          "birthYear": 2005
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "name": "Aalen",
+      "candidates": [
+        {
+          "id": "bw-lt-26-1",
+          "party": "GRÜNE",
+          "lastName": "Müller",
+          "firstName": "Bennet",
+          "profession": "Jurist, Regierungsdirektor",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-26-2",
+          "party": "CDU",
+          "lastName": "Mack",
+          "firstName": "Winfried",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-26-3",
+          "party": "SPD",
+          "lastName": "Bergerhoff",
+          "firstName": "Ariane",
+          "profession": "Studienrätin",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-26-4",
+          "party": "FDP",
+          "lastName": "Wanke",
+          "firstName": "Felix",
+          "profession": "Elektroniker",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-26-5",
+          "party": "AfD",
+          "lastName": "Hegel",
+          "firstName": "Chris",
+          "profession": "Polizeibeamter",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-26-6",
+          "party": "Die Linke",
+          "lastName": "Glaser",
+          "firstName": "Carola",
+          "profession": "Fachbereichsleiterin Erwachsenenbildung",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-26-7",
+          "party": "BSW",
+          "lastName": "Bunke",
+          "firstName": "Steffi",
+          "profession": "Heilpädagogin",
+          "birthYear": 1964
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "name": "Karlsruhe I",
+      "candidates": [
+        {
+          "id": "bw-lt-27-1",
+          "party": "GRÜNE",
+          "lastName": "Dr. Leidig",
+          "firstName": "Ute",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-27-2",
+          "party": "CDU",
+          "lastName": "Schuster",
+          "firstName": "Robin",
+          "profession": "Geschäftsführer",
+          "birthYear": 1984
+        },
+        {
+          "id": "bw-lt-27-3",
+          "party": "SPD",
+          "lastName": "Uhlig",
+          "firstName": "Meri",
+          "profession": "Leiterin Büro für Integration",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-27-4",
+          "party": "FDP",
+          "lastName": "Breier",
+          "firstName": "Jörg",
+          "profession": "Dipl.-Kaufmann (FH)",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-27-5",
+          "party": "AfD",
+          "lastName": "Schnell",
+          "firstName": "Oliver",
+          "profession": "Dipl.-Wirtschaftsingenieur",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-27-6",
+          "party": "Die Linke",
+          "lastName": "Jörger",
+          "firstName": "Rocco",
+          "profession": "Freiwilliges soziales Jahr (FSJ)",
+          "birthYear": 2007
+        },
+        {
+          "id": "bw-lt-27-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Thormann",
+          "firstName": "Rena",
+          "profession": "Lehrerin, Fachberaterin Sprachunterricht",
+          "birthYear": 1962
+        },
+        {
+          "id": "bw-lt-27-8",
+          "party": "Volt",
+          "lastName": "Kont",
+          "firstName": "Cem",
+          "profession": "IT-Berater",
+          "birthYear": 1994
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Karlsruhe II",
+      "candidates": [
+        {
+          "id": "bw-lt-28-1",
+          "party": "GRÜNE",
+          "lastName": "Bauer",
+          "firstName": "Benjamin",
+          "profession": "Gymnasiallehrer",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-28-2",
+          "party": "CDU",
+          "lastName": "Schütz",
+          "firstName": "Katrin",
+          "profession": "Leiterin Geschäftsmanagement",
+          "birthYear": 1967
+        },
+        {
+          "id": "bw-lt-28-3",
+          "party": "SPD",
+          "lastName": "Keller",
+          "firstName": "Adrian",
+          "profession": "Informatikstudent",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-28-4",
+          "party": "FDP",
+          "lastName": "Braun von Stumm",
+          "firstName": "Sean-Anthony",
+          "profession": "selbst. Unternehmer",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-28-5",
+          "party": "AfD",
+          "lastName": "Stolz",
+          "firstName": "Rouven",
+          "profession": "Bankfachwirt",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-28-6",
+          "party": "Die Linke",
+          "lastName": "Fessmann",
+          "firstName": "Louise",
+          "profession": "Mathematikerin",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-28-7",
+          "party": "Volt",
+          "lastName": "Langner",
+          "firstName": "Neo",
+          "profession": "Einzelhandelskaufmann, z.Zt. arbeitslos",
+          "birthYear": 1995
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "name": "Bruchsal",
+      "candidates": [
+        {
+          "id": "bw-lt-29-1",
+          "party": "GRÜNE",
+          "lastName": "Heger",
+          "firstName": "Nicole",
+          "profession": "Projektmanagerin",
+          "birthYear": 1970
+        },
+        {
+          "id": "bw-lt-29-2",
+          "party": "CDU",
+          "lastName": "Dr. Schwarz",
+          "firstName": "Thorsten",
+          "profession": "wiss. Angestellter",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-29-3",
+          "party": "SPD",
+          "lastName": "Holzer",
+          "firstName": "Christian",
+          "profession": "Geschäftsbereichsleiter, Prokurist",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-29-4",
+          "party": "FDP",
+          "lastName": "Dr. Moldenhauer",
+          "firstName": "Niclas",
+          "profession": "IT-Manager",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-29-5",
+          "party": "AfD",
+          "lastName": "Dammert",
+          "firstName": "Tobias",
+          "profession": "Wirtschaftswissenschaftler, B.Sc.",
+          "birthYear": 1984
+        },
+        {
+          "id": "bw-lt-29-6",
+          "party": "Die Linke",
+          "lastName": "Abduvaliev",
+          "firstName": "Saltanat",
+          "profession": "Marketing Specialist",
+          "birthYear": 1996
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Bretten",
+      "candidates": [
+        {
+          "id": "bw-lt-30-1",
+          "party": "GRÜNE",
+          "lastName": "Haggenmüller",
+          "firstName": "Pascal",
+          "profession": "Landesvorsitzender",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-30-2",
+          "party": "CDU",
+          "lastName": "Mayr",
+          "firstName": "Ansgar",
+          "profession": "Landtagsabgeordneter, Dipl.-Betriebswirt (BA)",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-30-3",
+          "party": "SPD",
+          "lastName": "Essafi",
+          "firstName": "Beate",
+          "profession": "Krankenschwester, Pflegesachverständige",
+          "birthYear": 1964
+        },
+        {
+          "id": "bw-lt-30-4",
+          "party": "FDP",
+          "lastName": "Dr. Jung",
+          "firstName": "Christian",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-30-5",
+          "party": "AfD",
+          "lastName": "Laitenberger",
+          "firstName": "Andreas",
+          "profession": "Immobilienvermittler",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-30-6",
+          "party": "Die Linke",
+          "lastName": "Poll",
+          "firstName": "Amely",
+          "profession": "Gewerkschaftssekretärin",
+          "birthYear": 1959
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "name": "Ettlingen",
+      "candidates": [
+        {
+          "id": "bw-lt-31-1",
+          "party": "GRÜNE",
+          "lastName": "Keune",
+          "firstName": "Kai",
+          "profession": "Manager Unternehmensentwicklung",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-31-2",
+          "party": "CDU",
+          "lastName": "Saladino",
+          "firstName": "Lorenzo",
+          "profession": "Bestattermeister",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-31-3",
+          "party": "SPD",
+          "lastName": "Graner",
+          "firstName": "Anneke",
+          "profession": "Juristin, Regierungsdirektorin",
+          "birthYear": 1979
+        },
+        {
+          "id": "bw-lt-31-4",
+          "party": "FDP",
+          "lastName": "Fink-Trauschel",
+          "firstName": "Alena",
+          "profession": "Landtagsabgeordnete, Studentin",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-31-5",
+          "party": "AfD",
+          "lastName": "Dr. Kastell",
+          "firstName": "Thomas",
+          "profession": "Arzt",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-31-6",
+          "party": "Die Linke",
+          "lastName": "Rinn",
+          "firstName": "Lars",
+          "profession": "Ingenieur für Verfahrenstechnik",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-31-7",
+          "party": "Volt",
+          "lastName": "Schulz-Ritz",
+          "firstName": "Markus",
+          "profession": "Physikstudent",
+          "birthYear": 1998
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Rastatt",
+      "candidates": [
+        {
+          "id": "bw-lt-32-1",
+          "party": "GRÜNE",
+          "lastName": "Hentschel",
+          "firstName": "Thomas",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1964
+        },
+        {
+          "id": "bw-lt-32-2",
+          "party": "CDU",
+          "lastName": "Dr. Becker",
+          "firstName": "Alexander",
+          "profession": "Landtagsabgeordneter, Musikwissenschaftler",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-32-3",
+          "party": "SPD",
+          "lastName": "Weber",
+          "firstName": "Jonas",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-32-4",
+          "party": "FDP",
+          "lastName": "Zink",
+          "firstName": "Petra",
+          "profession": "Dipl.-Betriebswirtin",
+          "birthYear": 1984
+        },
+        {
+          "id": "bw-lt-32-5",
+          "party": "AfD",
+          "lastName": "Helber",
+          "firstName": "Philipp",
+          "profession": "Angestellter",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-32-6",
+          "party": "Die Linke",
+          "lastName": "Richter",
+          "firstName": "Felix",
+          "profession": "Auszubildender zum Schreiner",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-32-7",
+          "party": "Volt",
+          "lastName": "Metzler",
+          "firstName": "Niko",
+          "profession": "Projektmanager",
+          "birthYear": 1987
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "name": "Baden-Baden",
+      "candidates": [
+        {
+          "id": "bw-lt-33-1",
+          "party": "GRÜNE",
+          "lastName": "Dr. Heck",
+          "firstName": "Joachim",
+          "profession": "Dipl.-Chemiker",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-33-2",
+          "party": "CDU",
+          "lastName": "von Loga",
+          "firstName": "Cornelia",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1979
+        },
+        {
+          "id": "bw-lt-33-3",
+          "party": "SPD",
+          "lastName": "Yadjo-Scheuerer",
+          "firstName": "Emile",
+          "profession": "Key Account Manager für Wasseranlagen",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-33-4",
+          "party": "FDP",
+          "lastName": "Degenhardt",
+          "firstName": "Karl-Georg",
+          "profession": "Unternehmensberater",
+          "birthYear": 1958
+        },
+        {
+          "id": "bw-lt-33-5",
+          "party": "AfD",
+          "lastName": "Hermann",
+          "firstName": "Kurt",
+          "profession": "techn. Betriebswirt",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-33-6",
+          "party": "Die Linke",
+          "lastName": "Tatzik",
+          "firstName": "Lothar",
+          "profession": "Bildtechniker",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-33-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Lehoux-Wäldele",
+          "firstName": "Jennifer",
+          "profession": "Landwirtin",
+          "birthYear": 1971
+        },
+        {
+          "id": "bw-lt-33-8",
+          "party": "Volt",
+          "lastName": "Ando",
+          "firstName": "Beate",
+          "profession": "Programm- & Alumni-Managerin",
+          "birthYear": 1965
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "name": "Heidelberg",
+      "candidates": [
+        {
+          "id": "bw-lt-34-1",
+          "party": "GRÜNE",
+          "lastName": "Kollmann",
+          "firstName": "Florian",
+          "profession": "Geschäftsführer",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-34-2",
+          "party": "CDU",
+          "lastName": "Huber",
+          "firstName": "Nicole",
+          "profession": "ltd. Angestellte",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-34-3",
+          "party": "SPD",
+          "lastName": "Palm",
+          "firstName": "Ines",
+          "profession": "Gymnasiallehrerin",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-34-4",
+          "party": "FDP",
+          "lastName": "Nusser",
+          "firstName": "Tim",
+          "profession": "IT-Consultant",
+          "birthYear": 1996
+        },
+        {
+          "id": "bw-lt-34-5",
+          "party": "AfD",
+          "lastName": "Geschinski",
+          "firstName": "Sven",
+          "profession": "Parl. Referent",
+          "birthYear": 1970
+        },
+        {
+          "id": "bw-lt-34-6",
+          "party": "Die Linke",
+          "lastName": "Bohnen",
+          "firstName": "Kim",
+          "profession": "wiss. Mitarbeiterin",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-34-7",
+          "party": "Die PARTEI",
+          "lastName": "Wagner",
+          "firstName": "Daniel",
+          "profession": "Büroleiter",
+          "birthYear": 1984
+        },
+        {
+          "id": "bw-lt-34-8",
+          "party": "Volt",
+          "lastName": "Hippert",
+          "firstName": "Elisa",
+          "profession": "Lehrerin",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-34-9",
+          "party": "Einzelbewerber",
+          "lastName": "Regele",
+          "firstName": "Sabine",
+          "profession": "freie Journalistin, Rentnerin",
+          "birthYear": 1958
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "name": "Mannheim I",
+      "candidates": [
+        {
+          "id": "bw-lt-35-1",
+          "party": "GRÜNE",
+          "lastName": "Rihm",
+          "firstName": "Chris",
+          "profession": "Selbstständig",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-35-2",
+          "party": "CDU",
+          "lastName": "Christ",
+          "firstName": "Lennart",
+          "profession": "Maschinenbauingenieur",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-35-3",
+          "party": "SPD",
+          "lastName": "Dr. Fulst-Blei",
+          "firstName": "Stefan",
+          "profession": "Landtagsabgeordneter, Berufsschullehrer",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-35-4",
+          "party": "FDP",
+          "lastName": "Weiß",
+          "firstName": "Oskar",
+          "profession": "Musikmanager",
+          "birthYear": 2003
+        },
+        {
+          "id": "bw-lt-35-5",
+          "party": "AfD",
+          "lastName": "Dr. Pepperl",
+          "firstName": "Bernhard",
+          "profession": "Zahnarzt",
+          "birthYear": 1954
+        },
+        {
+          "id": "bw-lt-35-6",
+          "party": "Die Linke",
+          "lastName": "Fränkle",
+          "firstName": "Philipp",
+          "profession": "Altenpflegehelfer",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-35-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Tiggeler",
+          "firstName": "Jan",
+          "profession": "techn. Leiter i.R.",
+          "birthYear": 1956
+        },
+        {
+          "id": "bw-lt-35-8",
+          "party": "Volt",
+          "lastName": "Ntamkas",
+          "firstName": "Erasmios",
+          "profession": "Medizinischer Technologe",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-35-9",
+          "party": "BSW",
+          "lastName": "Höhfeld",
+          "firstName": "Wolfgang",
+          "profession": "Rentner",
+          "birthYear": 1954
+        },
+        {
+          "id": "bw-lt-35-10",
+          "party": "Einzelbewerber",
+          "lastName": "Caglayan",
+          "firstName": "Cem",
+          "profession": "Angestellter",
+          "birthYear": 2001
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "name": "Mannheim II",
+      "candidates": [
+        {
+          "id": "bw-lt-36-1",
+          "party": "GRÜNE",
+          "lastName": "Zimmer",
+          "firstName": "Elke",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-36-2",
+          "party": "CDU",
+          "lastName": "Engelhorn",
+          "firstName": "Sengül",
+          "profession": "Dipl.-Betriebswirtin (FH)",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-36-3",
+          "party": "SPD",
+          "lastName": "Dr. Weirauch",
+          "firstName": "Boris",
+          "profession": "Landtagsabgeordneter, Rechtsanwalt",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-36-4",
+          "party": "FDP",
+          "lastName": "Kölbl",
+          "firstName": "Kathrin",
+          "profession": "Wirtschaftsprofessorin",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-36-5",
+          "party": "AfD",
+          "lastName": "Ernst",
+          "firstName": "Rüdiger",
+          "profession": "wiss. Mitarbeiter",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-36-6",
+          "party": "Die Linke",
+          "lastName": "Fuhrmann",
+          "firstName": "Isabell",
+          "profession": "BDSM-Sexualberaterin",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-36-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Rolke",
+          "firstName": "Thomas",
+          "profession": "Dipl.-Musiker, Geschäftsführer",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-36-8",
+          "party": "Volt",
+          "lastName": "Betgen",
+          "firstName": "Beate",
+          "profession": "Gesundheits- und Krankenpflegerin",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-36-9",
+          "party": "BSW",
+          "lastName": "Oršolić",
+          "firstName": "Mato",
+          "profession": "Sicherheitsunternehmer",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-36-10",
+          "party": "Einzelbewerber",
+          "lastName": "Sabah",
+          "firstName": "Ayhan",
+          "profession": "Student",
+          "birthYear": 1999
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "name": "Wiesloch",
+      "candidates": [
+        {
+          "id": "bw-lt-37-1",
+          "party": "GRÜNE",
+          "lastName": "Veits",
+          "firstName": "Yannick",
+          "profession": "Bankkaufmann",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-37-2",
+          "party": "CDU",
+          "lastName": "Staab",
+          "firstName": "Christiane",
+          "profession": "Landtagsabgeordnete, Bürgermeisterin a.D.",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-37-3",
+          "party": "SPD",
+          "lastName": "Rösch",
+          "firstName": "Xenia",
+          "profession": "Projektmanagerin",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-37-4",
+          "party": "FDP",
+          "lastName": "Felden",
+          "firstName": "Claudia",
+          "profession": "Bürgermeisterin",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-37-5",
+          "party": "AfD",
+          "lastName": "Nitz",
+          "firstName": "Thomas",
+          "profession": "Groß- und Außenhandelskaufmann",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-37-6",
+          "party": "Die Linke",
+          "lastName": "Käsemann",
+          "firstName": "Marlon",
+          "profession": "Auszubildender",
+          "birthYear": 2006
+        },
+        {
+          "id": "bw-lt-37-7",
+          "party": "Volt",
+          "lastName": "Matthes",
+          "firstName": "Mike",
+          "profession": "selbst. Finanzberater",
+          "birthYear": 1989
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Neckar-Odenwald",
+      "candidates": [
+        {
+          "id": "bw-lt-38-1",
+          "party": "GRÜNE",
+          "lastName": "Meuter",
+          "firstName": "Arno",
+          "profession": "Angestellter",
+          "birthYear": 1996
+        },
+        {
+          "id": "bw-lt-38-2",
+          "party": "CDU",
+          "lastName": "Hauk",
+          "firstName": "Peter",
+          "profession": "Minister für Ländlichen Raum, Dipl.-Forstwirt",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-38-3",
+          "party": "SPD",
+          "lastName": "Haag",
+          "firstName": "Patrick",
+          "profession": "Hausmeister",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-38-4",
+          "party": "FDP",
+          "lastName": "Ritter",
+          "firstName": "Christian",
+          "profession": "Feinwerkmechanikermeister",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-38-5",
+          "party": "AfD",
+          "lastName": "Huber",
+          "firstName": "Lukas",
+          "profession": "Mathematiker, M.Sc.",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-38-6",
+          "party": "Die Linke",
+          "lastName": "Gorecki",
+          "firstName": "Jeffry",
+          "profession": "Fachinformatiker",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-38-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Leutz",
+          "firstName": "Eberhard",
+          "profession": "Gymnasiallehrer",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-38-8",
+          "party": "ÖDP",
+          "lastName": "Dr. Assimus",
+          "firstName": "Claudia",
+          "profession": "Fachärztin für Allgemeinmedizin",
+          "birthYear": 1959
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "name": "Weinheim",
+      "candidates": [
+        {
+          "id": "bw-lt-39-1",
+          "party": "GRÜNE",
+          "lastName": "Tuncer",
+          "firstName": "Fadime",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-39-2",
+          "party": "CDU",
+          "lastName": "Dr. Schneider",
+          "firstName": "Bastian",
+          "profession": "Richter, Hauptmann d.R.",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-39-3",
+          "party": "SPD",
+          "lastName": "Cuny",
+          "firstName": "Sébastian",
+          "profession": "Landtagsabgeordneter, Politikwissenschaftler",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-39-4",
+          "party": "FDP",
+          "lastName": "Schwarz",
+          "firstName": "Christian",
+          "profession": "Unternehmensberater",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-39-5",
+          "party": "AfD",
+          "lastName": "Schäfer",
+          "firstName": "Christian",
+          "profession": "Geschäftsführer",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-39-6",
+          "party": "Die Linke",
+          "lastName": "Heine",
+          "firstName": "Justus",
+          "profession": "Student der Volkswirtschaftslehre",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-39-7",
+          "party": "Die PARTEI",
+          "lastName": "Vierling",
+          "firstName": "Jessica",
+          "profession": "Verwaltungsangestellte",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-39-8",
+          "party": "Volt",
+          "lastName": "Grimmeisen",
+          "firstName": "Kevin",
+          "profession": "Fachinformatiker",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-39-9",
+          "party": "Einzelbewerber",
+          "lastName": "Dr. Jiang",
+          "firstName": "Monika",
+          "profession": "Ärztin",
+          "birthYear": 1963
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "name": "Schwetzingen",
+      "candidates": [
+        {
+          "id": "bw-lt-40-1",
+          "party": "GRÜNE",
+          "lastName": "Dr. Baumann",
+          "firstName": "Andre",
+          "profession": "Staatssekretär",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-40-2",
+          "party": "CDU",
+          "lastName": "Sturm",
+          "firstName": "Andreas",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-40-3",
+          "party": "SPD",
+          "lastName": "Kilian",
+          "firstName": "Vincent",
+          "profession": "Student",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-40-4",
+          "party": "FDP",
+          "lastName": "Höfs",
+          "firstName": "Holger",
+          "profession": "Geschäftsführer",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-40-5",
+          "party": "AfD",
+          "lastName": "Kolb",
+          "firstName": "Karlheinz",
+          "profession": "Versicherungsfachwirt i.R.",
+          "birthYear": 1954
+        },
+        {
+          "id": "bw-lt-40-6",
+          "party": "Die Linke",
+          "lastName": "Zeltmann",
+          "firstName": "Mara",
+          "profession": "Einzelhandelskauffrau",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-40-7",
+          "party": "Volt",
+          "lastName": "Hild",
+          "firstName": "Yannick",
+          "profession": "Betriebswirt",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-40-8",
+          "party": "WerteUnion",
+          "lastName": "Mitsch",
+          "firstName": "Alexander",
+          "profession": "Dipl.-Kaufmann",
+          "birthYear": 1967
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "name": "Sinsheim",
+      "candidates": [
+        {
+          "id": "bw-lt-41-1",
+          "party": "GRÜNE",
+          "lastName": "Katzenstein",
+          "firstName": "Hermann",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-41-2",
+          "party": "CDU",
+          "lastName": "Dr. Schütte",
+          "firstName": "Albrecht",
+          "profession": "Landtagsabgeordneter, Dipl.-Physiker",
+          "birthYear": 1970
+        },
+        {
+          "id": "bw-lt-41-3",
+          "party": "SPD",
+          "lastName": "Röderer",
+          "firstName": "Jan-Peter",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-41-4",
+          "party": "FDP",
+          "lastName": "Hautzinger",
+          "firstName": "Olaf",
+          "profession": "Steuerberater",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-41-5",
+          "party": "AfD",
+          "lastName": "Bauer",
+          "firstName": "Patrick",
+          "profession": "Gesundheits- und Krankenpfleger",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-41-6",
+          "party": "Die Linke",
+          "lastName": "Vallon",
+          "firstName": "Nicola",
+          "profession": "Biologin",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-41-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Speer",
+          "firstName": "Alexander",
+          "profession": "Dipl.-Bauingenieur (FH)",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-41-8",
+          "party": "Volt",
+          "lastName": "Budraß",
+          "firstName": "Lion",
+          "profession": "Innenvertriebsmitarbeiter",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-41-9",
+          "party": "Bündnis C",
+          "lastName": "Maier",
+          "firstName": "Ralf",
+          "profession": "Berufsschullehrer",
+          "birthYear": 1973
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "name": "Pforzheim",
+      "candidates": [
+        {
+          "id": "bw-lt-42-1",
+          "party": "GRÜNE",
+          "lastName": "Schwarz",
+          "firstName": "Simon",
+          "profession": "Referent für Energiepolitik",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-42-2",
+          "party": "CDU",
+          "lastName": "Renner",
+          "firstName": "Andreas",
+          "profession": "Schulamtsdirektor",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-42-3",
+          "party": "SPD",
+          "lastName": "Wulff",
+          "firstName": "Annkathrin",
+          "profession": "Oberstudienrätin",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-42-4",
+          "party": "FDP",
+          "lastName": "Dr. Rülke",
+          "firstName": "Hans-Ulrich",
+          "profession": "Landtagsabgeordneter, Fraktionsvorsitzender",
+          "birthYear": 1961
+        },
+        {
+          "id": "bw-lt-42-5",
+          "party": "AfD",
+          "lastName": "Zimmer",
+          "firstName": "Alexsei",
+          "profession": "Leiter Buchhaltung",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-42-6",
+          "party": "Die Linke",
+          "lastName": "Weiß",
+          "firstName": "Marvin",
+          "profession": "Student",
+          "birthYear": 2002
+        },
+        {
+          "id": "bw-lt-42-7",
+          "party": "Volt",
+          "lastName": "Neuweiler-Tran",
+          "firstName": "Regine",
+          "profession": "kfm. Angestellte",
+          "birthYear": 1981
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "name": "Calw",
+      "candidates": [
+        {
+          "id": "bw-lt-43-1",
+          "party": "GRÜNE",
+          "lastName": "Rubehn",
+          "firstName": "Fynn",
+          "profession": "Politikwissenschaftler",
+          "birthYear": 2004
+        },
+        {
+          "id": "bw-lt-43-2",
+          "party": "CDU",
+          "lastName": "Hirsch",
+          "firstName": "Carl",
+          "profession": "Christian Geschäftsführer",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-43-3",
+          "party": "SPD",
+          "lastName": "Steinrode",
+          "firstName": "Daniela",
+          "profession": "Gymnasiallehrerin",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-43-4",
+          "party": "FDP",
+          "lastName": "Feldmann",
+          "firstName": "Johannes",
+          "profession": "Geschäftsführer",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-43-5",
+          "party": "AfD",
+          "lastName": "Klauß",
+          "firstName": "Miguel",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-43-6",
+          "party": "Die Linke",
+          "lastName": "Hanser",
+          "firstName": "Thomas",
+          "profession": "Kfz.-Mechatroniker",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-43-7",
+          "party": "Bündnis C",
+          "lastName": "Bender",
+          "firstName": "Markus",
+          "profession": "ev. Pfarrer i.R.",
+          "birthYear": 1961
+        },
+        {
+          "id": "bw-lt-43-8",
+          "party": "WerteUnion",
+          "lastName": "Schaible",
+          "firstName": "Stephan",
+          "profession": "Hausverwalter",
+          "birthYear": 1982
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "name": "Enz",
+      "candidates": [
+        {
+          "id": "bw-lt-44-1",
+          "party": "GRÜNE",
+          "lastName": "Seemann",
+          "firstName": "Stefanie",
+          "profession": "MdL, Soziologin",
+          "birthYear": 1959
+        },
+        {
+          "id": "bw-lt-44-2",
+          "party": "CDU",
+          "lastName": "Gunzelmann",
+          "firstName": "Nico",
+          "profession": "Stadtoberinspektor",
+          "birthYear": 2002
+        },
+        {
+          "id": "bw-lt-44-3",
+          "party": "SPD",
+          "lastName": "Hofsäß",
+          "firstName": "Michael",
+          "profession": "Projektmanager",
+          "birthYear": 1996
+        },
+        {
+          "id": "bw-lt-44-4",
+          "party": "FDP",
+          "lastName": "Dr. Schweickert",
+          "firstName": "Erik",
+          "profession": "MdL, Professor Internationale Weinwirtschaft",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-44-5",
+          "party": "AfD",
+          "lastName": "Steblau",
+          "firstName": "Alexander",
+          "profession": "Projektmanager",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-44-6",
+          "party": "Die Linke",
+          "lastName": "Strauß",
+          "firstName": "Cedric",
+          "profession": "Buchhändler",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-44-7",
+          "party": "Volt",
+          "lastName": "Seifert",
+          "firstName": "Vera",
+          "profession": "Autismustherapeutin",
+          "birthYear": 1988
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "name": "Freudenstadt",
+      "candidates": [
+        {
+          "id": "bw-lt-45-1",
+          "party": "GRÜNE",
+          "lastName": "Dr. Belling",
+          "firstName": "Daniel",
+          "profession": "Oberregierungsrat",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-45-2",
+          "party": "CDU",
+          "lastName": "Schindele",
+          "firstName": "Katrin",
+          "profession": "Landtagsabgeordnete, Entwicklungsingenieurin",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-45-3",
+          "party": "SPD",
+          "lastName": "Dr. Ahrens-Diez",
+          "firstName": "Bettina",
+          "profession": "Politische Referentin",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-45-4",
+          "party": "FDP",
+          "lastName": "Grünberg",
+          "firstName": "Veit",
+          "profession": "techn. Vertriebsmanager",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-45-5",
+          "party": "AfD",
+          "lastName": "Grammel",
+          "firstName": "Andreas",
+          "profession": "Industriemechaniker",
+          "birthYear": 1961
+        },
+        {
+          "id": "bw-lt-45-6",
+          "party": "Die Linke",
+          "lastName": "Walheim",
+          "firstName": "Yannic",
+          "profession": "Sozialarbeiter",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-45-7",
+          "party": "Bündnis C",
+          "lastName": "Schäuffele",
+          "firstName": "Walter",
+          "profession": "Werkzeugmachermeister i.R.",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-45-8",
+          "party": "BSW",
+          "lastName": "Frank",
+          "firstName": "Sabine",
+          "profession": "Radiologische Fachkraft",
+          "birthYear": 1963
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "name": "Freiburg I",
+      "candidates": [
+        {
+          "id": "bw-lt-46-1",
+          "party": "GRÜNE",
+          "lastName": "Evers",
+          "firstName": "Daniela",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1971
+        },
+        {
+          "id": "bw-lt-46-2",
+          "party": "CDU",
+          "lastName": "Bauer",
+          "firstName": "Ingo",
+          "profession": "Busunternehmer",
+          "birthYear": 1967
+        },
+        {
+          "id": "bw-lt-46-3",
+          "party": "SPD",
+          "lastName": "Krögner",
+          "firstName": "Walter",
+          "profession": "Dipl.-Ing. (FH) Forstwirtschaft",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-46-4",
+          "party": "FDP",
+          "lastName": "Hasan",
+          "firstName": "Heschu",
+          "profession": "Studentin",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-46-5",
+          "party": "AfD",
+          "lastName": "Ruth",
+          "firstName": "Sebastian",
+          "profession": "kfm. Auszubildender",
+          "birthYear": 2005
+        },
+        {
+          "id": "bw-lt-46-6",
+          "party": "Die Linke",
+          "lastName": "Böhm",
+          "firstName": "Sebastian",
+          "profession": "Lehrer",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-46-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Schneider",
+          "firstName": "Stephan",
+          "profession": "Landmaschinenverkäufer",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-46-8",
+          "party": "Die PARTEI",
+          "lastName": "Drexl",
+          "firstName": "Josef",
+          "profession": "Student",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-46-9",
+          "party": "dieBasis",
+          "lastName": "Geillinger",
+          "firstName": "Jürgen",
+          "profession": "kfm.-techn. Angestellter",
+          "birthYear": 1967
+        },
+        {
+          "id": "bw-lt-46-10",
+          "party": "Volt",
+          "lastName": "Dr. Köchling",
+          "firstName": "Georg",
+          "profession": "Arzt",
+          "birthYear": 1954
+        },
+        {
+          "id": "bw-lt-46-11",
+          "party": "BSW",
+          "lastName": "Riedlinger",
+          "firstName": "Peter",
+          "profession": "Künstler",
+          "birthYear": 1966
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "name": "Freiburg II",
+      "candidates": [
+        {
+          "id": "bw-lt-47-1",
+          "party": "GRÜNE",
+          "lastName": "Saint-Cast",
+          "firstName": "Nadyne",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1979
+        },
+        {
+          "id": "bw-lt-47-2",
+          "party": "CDU",
+          "lastName": "Kern",
+          "firstName": "Katrin",
+          "profession": "Polizeioberkommissarin",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-47-3",
+          "party": "SPD",
+          "lastName": "Sigg",
+          "firstName": "Viviane",
+          "profession": "Realschullehrerin",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-47-4",
+          "party": "FDP",
+          "lastName": "Kionka",
+          "firstName": "Linus",
+          "profession": "Student",
+          "birthYear": 2005
+        },
+        {
+          "id": "bw-lt-47-5",
+          "party": "AfD",
+          "lastName": "Schwarz",
+          "firstName": "Karl",
+          "profession": "Handwerksmeister",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-47-6",
+          "party": "Die Linke",
+          "lastName": "Schnitzler",
+          "firstName": "Sarah",
+          "profession": "Gewerkschaftsmitarbeiterin",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-47-7",
+          "party": "Die PARTEI",
+          "lastName": "Beck",
+          "firstName": "Oliver",
+          "profession": "Arzt",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-47-8",
+          "party": "Volt",
+          "lastName": "Gutheim",
+          "firstName": "Niklas",
+          "profession": "Student",
+          "birthYear": 2007
+        },
+        {
+          "id": "bw-lt-47-9",
+          "party": "BSW",
+          "lastName": "Büttner",
+          "firstName": "Rainer",
+          "profession": "Kindheitspädagoge, B.A.",
+          "birthYear": 1969
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "name": "Breisgau",
+      "candidates": [
+        {
+          "id": "bw-lt-48-1",
+          "party": "GRÜNE",
+          "lastName": "Deparnay-Grunenberg",
+          "firstName": "Anna",
+          "profession": "Forstwissenschaftlerin",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-48-2",
+          "party": "CDU",
+          "lastName": "Dr. Rapp",
+          "firstName": "Patrick",
+          "profession": "Staatssekretär, Landtagsabgeordneter",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-48-3",
+          "party": "SPD",
+          "lastName": "Wolf",
+          "firstName": "Philip",
+          "profession": "Student",
+          "birthYear": 2002
+        },
+        {
+          "id": "bw-lt-48-4",
+          "party": "FDP",
+          "lastName": "Hanser",
+          "firstName": "Lothar",
+          "profession": "Selbständiger",
+          "birthYear": 1954
+        },
+        {
+          "id": "bw-lt-48-5",
+          "party": "AfD",
+          "lastName": "Böswald",
+          "firstName": "Martina",
+          "profession": "Rechtsanwältin",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-48-6",
+          "party": "Die Linke",
+          "lastName": "Waibel",
+          "firstName": "Eric",
+          "profession": "Nachhaltigkeitsmanager",
+          "birthYear": 1992
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "name": "Emmendingen",
+      "candidates": [
+        {
+          "id": "bw-lt-49-1",
+          "party": "GRÜNE",
+          "lastName": "Tonojan",
+          "firstName": "Rüdiger",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-49-2",
+          "party": "CDU",
+          "lastName": "Wernet",
+          "firstName": "Stefanie",
+          "profession": "Rechtsanwaltsfachangestellte",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-49-3",
+          "party": "SPD",
+          "lastName": "Fuhrmann",
+          "firstName": "Martina",
+          "profession": "Steuerfachwirtin",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-49-4",
+          "party": "FDP",
+          "lastName": "Mand",
+          "firstName": "Matthias",
+          "profession": "Prokurist",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-49-5",
+          "party": "AfD",
+          "lastName": "Heckmann",
+          "firstName": "Rolf",
+          "profession": "Wirtschaftsinformatiker (FH)",
+          "birthYear": 1958
+        },
+        {
+          "id": "bw-lt-49-6",
+          "party": "Die Linke",
+          "lastName": "Rotermund-Kaplan",
+          "firstName": "Michaela",
+          "profession": "Dipl.-Sozialpädagogin",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-49-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Hesse",
+          "firstName": "Christina",
+          "profession": "Pflegewissenschaftlerin, B.A.",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-49-8",
+          "party": "Die PARTEI",
+          "lastName": "Ruppenthal",
+          "firstName": "Dirk",
+          "profession": "Projektleiter",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-49-9",
+          "party": "Volt",
+          "lastName": "Burger",
+          "firstName": "Lukas",
+          "profession": "Kfz.-Technikermeister",
+          "birthYear": 1992
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "name": "Lahr",
+      "candidates": [
+        {
+          "id": "bw-lt-50-1",
+          "party": "GRÜNE",
+          "lastName": "Boser",
+          "firstName": "Sandra",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-50-2",
+          "party": "CDU",
+          "lastName": "Gentges",
+          "firstName": "Marion",
+          "profession": "Justizministerin, Landtagsabgeordnete",
+          "birthYear": 1971
+        },
+        {
+          "id": "bw-lt-50-3",
+          "party": "SPD",
+          "lastName": "Schröder-Klings",
+          "firstName": "Kai",
+          "profession": "Geschäftsführer",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-50-4",
+          "party": "FDP",
+          "lastName": "Zahn",
+          "firstName": "Udo",
+          "profession": "Parkettlegermeister",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-50-5",
+          "party": "AfD",
+          "lastName": "Rösch",
+          "firstName": "Benjamin",
+          "profession": "Abgeordnetenmitarbeiter",
+          "birthYear": 1979
+        },
+        {
+          "id": "bw-lt-50-6",
+          "party": "Die Linke",
+          "lastName": "Kühl",
+          "firstName": "Jana",
+          "profession": "Studentin",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-50-7",
+          "party": "WerteUnion",
+          "lastName": "Buttenmüller",
+          "firstName": "Sandro",
+          "profession": "Schüler",
+          "birthYear": 2006
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "name": "Offenburg",
+      "candidates": [
+        {
+          "id": "bw-lt-51-1",
+          "party": "GRÜNE",
+          "lastName": "Seifert",
+          "firstName": "Maren",
+          "profession": "Volljuristin",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-51-2",
+          "party": "CDU",
+          "lastName": "Schebesta",
+          "firstName": "Volker",
+          "profession": "Staatssekretär, Landtagsabgeordneter",
+          "birthYear": 1971
+        },
+        {
+          "id": "bw-lt-51-3",
+          "party": "SPD",
+          "lastName": "Groß",
+          "firstName": "Richard",
+          "profession": "Fachbereichsleiter Pflege",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-51-4",
+          "party": "FDP",
+          "lastName": "Stulz",
+          "firstName": "Ann-Kathrin",
+          "profession": "Studentin",
+          "birthYear": 2003
+        },
+        {
+          "id": "bw-lt-51-5",
+          "party": "AfD",
+          "lastName": "Maygutiak",
+          "firstName": "Taras",
+          "profession": "Monteur",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-51-6",
+          "party": "Die Linke",
+          "lastName": "Vollmer",
+          "firstName": "Amelie",
+          "profession": "Bürosachbearbeiterin",
+          "birthYear": 2003
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "name": "Kehl",
+      "candidates": [
+        {
+          "id": "bw-lt-52-1",
+          "party": "GRÜNE",
+          "lastName": "Mettenleiter",
+          "firstName": "Bernd",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1971
+        },
+        {
+          "id": "bw-lt-52-2",
+          "party": "CDU",
+          "lastName": "Dr. Merkel",
+          "firstName": "Katrin",
+          "profession": "Studienrätin, Apothekerin",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-52-3",
+          "party": "SPD",
+          "lastName": "Kupferer",
+          "firstName": "Raphael",
+          "profession": "Altenpfleger",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-52-4",
+          "party": "FDP",
+          "lastName": "Tömmes",
+          "firstName": "Sanja",
+          "profession": "Dekanatsassistentin",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-52-5",
+          "party": "AfD",
+          "lastName": "Kinzinger",
+          "firstName": "Thomas",
+          "profession": "Werkzeugmacher",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-52-6",
+          "party": "Die Linke",
+          "lastName": "Quotadamo",
+          "firstName": "Amelie",
+          "profession": "Schülerin",
+          "birthYear": 2006
+        },
+        {
+          "id": "bw-lt-52-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Huber",
+          "firstName": "Adolf",
+          "profession": "Bautechniker",
+          "birthYear": 1961
+        },
+        {
+          "id": "bw-lt-52-8",
+          "party": "Volt",
+          "lastName": "Hübner",
+          "firstName": "Christian",
+          "profession": "Gesundheits- und Krankenpfleger",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-52-9",
+          "party": "BSW",
+          "lastName": "Dr. Falk",
+          "firstName": "Bernhard",
+          "profession": "Selbständig",
+          "birthYear": 1955
+        },
+        {
+          "id": "bw-lt-52-10",
+          "party": "WerteUnion",
+          "lastName": "Dr. Meuthen",
+          "firstName": "Jörg",
+          "profession": "Hochschullehrer",
+          "birthYear": 1961
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "name": "Rottweil",
+      "candidates": [
+        {
+          "id": "bw-lt-53-1",
+          "party": "GRÜNE",
+          "lastName": "Eichin",
+          "firstName": "Artur",
+          "profession": "Industriemeister",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-53-2",
+          "party": "CDU",
+          "lastName": "Teufel",
+          "firstName": "Stefan",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-53-3",
+          "party": "SPD",
+          "lastName": "Zarabi",
+          "firstName": "Ali",
+          "profession": "Masterstudent Politik- und Verwaltungswissenschaften",
+          "birthYear": 2002
+        },
+        {
+          "id": "bw-lt-53-4",
+          "party": "FDP",
+          "lastName": "Karrais",
+          "firstName": "Daniel",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-53-5",
+          "party": "AfD",
+          "lastName": "Sänze",
+          "firstName": "Emil",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1950
+        },
+        {
+          "id": "bw-lt-53-6",
+          "party": "Die Linke",
+          "lastName": "Hettich",
+          "firstName": "Daniel",
+          "profession": "Software-Entwickler",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-53-7",
+          "party": "ÖDP",
+          "lastName": "Eggebrecht",
+          "firstName": "Daniel",
+          "profession": "Wirtschaftsingenieur",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-53-8",
+          "party": "Volt",
+          "lastName": "Dettki",
+          "firstName": "Marius",
+          "profession": "Elektriker",
+          "birthYear": 2001
+        },
+        {
+          "id": "bw-lt-53-9",
+          "party": "Bündnis C",
+          "lastName": "Kriegelstein",
+          "firstName": "Mike",
+          "profession": "selbst. Kaufmann",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-53-10",
+          "party": "BSW",
+          "lastName": "Eith",
+          "firstName": "Karl-Heinz",
+          "profession": "Elektromeister",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-53-11",
+          "party": "WerteUnion",
+          "lastName": "Schultz",
+          "firstName": "Matthias",
+          "profession": "Fachwirt für Finanzberatung",
+          "birthYear": 1966
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "name": "Villingen-Schwenningen",
+      "candidates": [
+        {
+          "id": "bw-lt-54-1",
+          "party": "GRÜNE",
+          "lastName": "Braun",
+          "firstName": "Martina",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-54-2",
+          "party": "CDU",
+          "lastName": "Braun",
+          "firstName": "Andreas",
+          "profession": "Bürgermeister",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-54-3",
+          "party": "SPD",
+          "lastName": "Schurr",
+          "firstName": "Nicola",
+          "profession": "Erzieher",
+          "birthYear": 1984
+        },
+        {
+          "id": "bw-lt-54-4",
+          "party": "FDP",
+          "lastName": "Dr. Eisenbiegler",
+          "firstName": "Dirk",
+          "profession": "Professor für Informatik",
+          "birthYear": 1967
+        },
+        {
+          "id": "bw-lt-54-5",
+          "party": "AfD",
+          "lastName": "Rothweiler",
+          "firstName": "Martin",
+          "profession": "Betriebswirt",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-54-6",
+          "party": "Die Linke",
+          "lastName": "Karlikli",
+          "firstName": "Aynur",
+          "profession": "Industriekauffrau",
+          "birthYear": 1964
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "name": "Tuttlingen-Donaueschingen",
+      "candidates": [
+        {
+          "id": "bw-lt-55-1",
+          "party": "GRÜNE",
+          "lastName": "Metzger",
+          "firstName": "Jens",
+          "profession": "Schreiner",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-55-2",
+          "party": "CDU",
+          "lastName": "Wolf",
+          "firstName": "Guido",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1961
+        },
+        {
+          "id": "bw-lt-55-3",
+          "party": "SPD",
+          "lastName": "Treublut",
+          "firstName": "Christine",
+          "profession": "Lehrerin",
+          "birthYear": 1967
+        },
+        {
+          "id": "bw-lt-55-4",
+          "party": "FDP",
+          "lastName": "Reith",
+          "firstName": "Nikolai",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-55-5",
+          "party": "AfD",
+          "lastName": "Rittweg",
+          "firstName": "Kay",
+          "profession": "Lackierer",
+          "birthYear": 1979
+        },
+        {
+          "id": "bw-lt-55-6",
+          "party": "Die Linke",
+          "lastName": "Hermann",
+          "firstName": "Alexandra",
+          "profession": "Software Developer",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-55-7",
+          "party": "Volt",
+          "lastName": "Fichter",
+          "firstName": "Christiane",
+          "profession": "Betriebswirtin",
+          "birthYear": 1996
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "name": "Konstanz",
+      "candidates": [
+        {
+          "id": "bw-lt-56-1",
+          "party": "GRÜNE",
+          "lastName": "Erikli",
+          "firstName": "Nese",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-56-2",
+          "party": "CDU",
+          "lastName": "Gnann",
+          "firstName": "Andrea",
+          "profession": "Betriebswirtin im Sozialwesen",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-56-3",
+          "party": "SPD",
+          "lastName": "Ortolf",
+          "firstName": "Frank",
+          "profession": "Dipl.-Sozialarbeiter / Dipl.-Sozialpädagoge (FH)",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-56-4",
+          "party": "FDP",
+          "lastName": "Konopka",
+          "firstName": "Patrick",
+          "profession": "Studienrat",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-56-5",
+          "party": "AfD",
+          "lastName": "Jahnke",
+          "firstName": "Steffen",
+          "profession": "Betriebswirt",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-56-6",
+          "party": "Die Linke",
+          "lastName": "Hofmann",
+          "firstName": "Lars",
+          "profession": "Mitarbeiter im Einzelhandel",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-56-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Staab",
+          "firstName": "Martin",
+          "profession": "Oberbürgermeister a.D.",
+          "birthYear": 1964
+        },
+        {
+          "id": "bw-lt-56-8",
+          "party": "Volt",
+          "lastName": "Fiechtner",
+          "firstName": "Yannick",
+          "profession": "Student",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-56-9",
+          "party": "BSW",
+          "lastName": "Niedzwetzki",
+          "firstName": "Daniel",
+          "profession": "Einzelhandelskaufmann, Heilpraktiker",
+          "birthYear": 1980
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "name": "Singen",
+      "candidates": [
+        {
+          "id": "bw-lt-57-1",
+          "party": "GRÜNE",
+          "lastName": "Frank",
+          "firstName": "Saskia",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1987
+        },
+        {
+          "id": "bw-lt-57-2",
+          "party": "CDU",
+          "lastName": "Stetter",
+          "firstName": "Christoph",
+          "profession": "Dipl.-Kaufmann",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-57-3",
+          "party": "SPD",
+          "lastName": "Ioannidis",
+          "firstName": "Giuliana",
+          "profession": "wiss. Mitarbeiterin",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-57-4",
+          "party": "FDP",
+          "lastName": "Klemann",
+          "firstName": "Nico",
+          "profession": "Verleger",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-57-5",
+          "party": "AfD",
+          "lastName": "Eisenhut",
+          "firstName": "Bernhard",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1958
+        },
+        {
+          "id": "bw-lt-57-6",
+          "party": "Die Linke",
+          "lastName": "Löser",
+          "firstName": "John-Eric",
+          "profession": "Rettungssanitäter",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-57-7",
+          "party": "Volt",
+          "lastName": "Carstensen",
+          "firstName": "Nils",
+          "profession": "Ingenieur",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-57-8",
+          "party": "BSW",
+          "lastName": "Frey",
+          "firstName": "René",
+          "profession": "Zugbegleiter, Fachtrainer",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-57-9",
+          "party": "WerteUnion",
+          "lastName": "Schneider",
+          "firstName": "Ralph",
+          "profession": "Chirurg",
+          "birthYear": 1967
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "name": "Lörrach",
+      "candidates": [
+        {
+          "id": "bw-lt-58-1",
+          "party": "GRÜNE",
+          "lastName": "Hagmann",
+          "firstName": "Sarah",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-58-2",
+          "party": "CDU",
+          "lastName": "Schelshorn",
+          "firstName": "Peter",
+          "profession": "Bürgermeister",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-58-3",
+          "party": "SPD",
+          "lastName": "Hoffmann",
+          "firstName": "Jonas",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-58-4",
+          "party": "FDP",
+          "lastName": "Düster",
+          "firstName": "Felix",
+          "profession": "Hotelbetriebswirt",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-58-5",
+          "party": "AfD",
+          "lastName": "Koch",
+          "firstName": "Wolfgang",
+          "profession": "Polizeibeamter a.D.",
+          "birthYear": 1951
+        },
+        {
+          "id": "bw-lt-58-6",
+          "party": "Die Linke",
+          "lastName": "Biesenthal",
+          "firstName": "Lars",
+          "profession": "Student Soziale Arbeit",
+          "birthYear": 2002
+        },
+        {
+          "id": "bw-lt-58-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Dr. Kissel",
+          "firstName": "Ulrich",
+          "profession": "Fachapotheker pharma. Analytik",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-58-8",
+          "party": "Volt",
+          "lastName": "Brenneisen",
+          "firstName": "Thomas",
+          "profession": "Agraringenieur",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-58-9",
+          "party": "Die Gerechtigkeitspartei",
+          "lastName": "Bashir",
+          "firstName": "Ahsan",
+          "profession": "Ausbildungsleiter im ÖPNV",
+          "birthYear": 1982
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "name": "Waldshut",
+      "candidates": [
+        {
+          "id": "bw-lt-59-1",
+          "party": "GRÜNE",
+          "lastName": "Nüssle",
+          "firstName": "Niklas",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-59-2",
+          "party": "CDU",
+          "lastName": "Herzog",
+          "firstName": "Simon",
+          "profession": "Wirtschaftsinformatiker",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-59-3",
+          "party": "SPD",
+          "lastName": "Stöhrer da Costa",
+          "firstName": "Joana",
+          "profession": "Studentin",
+          "birthYear": 2003
+        },
+        {
+          "id": "bw-lt-59-4",
+          "party": "FDP",
+          "lastName": "Wagner",
+          "firstName": "Nathalie",
+          "profession": "Unternehmensberaterin",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-59-5",
+          "party": "AfD",
+          "lastName": "Jehle",
+          "firstName": "Matthias",
+          "profession": "Wirtschaftsfachwirt",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-59-6",
+          "party": "Die Linke",
+          "lastName": "Besemann",
+          "firstName": "Julian",
+          "profession": "Heilerziehungspflegehelfer",
+          "birthYear": 1989
+        },
+        {
+          "id": "bw-lt-59-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Ruppaner",
+          "firstName": "Stefan",
+          "profession": "Schulleiter a.D.",
+          "birthYear": 1959
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "name": "Reutlingen",
+      "candidates": [
+        {
+          "id": "bw-lt-60-1",
+          "party": "GRÜNE",
+          "lastName": "Poreski",
+          "firstName": "Thomas",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-60-2",
+          "party": "CDU",
+          "lastName": "Dr. Menton",
+          "firstName": "Maximilian",
+          "profession": "Arzt",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-60-3",
+          "party": "SPD",
+          "lastName": "Nothofer-Hahn",
+          "firstName": "Ronja",
+          "profession": "Leiterin Personalwesen",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-60-4",
+          "party": "FDP",
+          "lastName": "Geyer",
+          "firstName": "Sebastian",
+          "profession": "Versicherungs- und Finanzkaufmann",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-60-5",
+          "party": "AfD",
+          "lastName": "Gerner",
+          "firstName": "Maximilian",
+          "profession": "Parl. Berater",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-60-6",
+          "party": "Die Linke",
+          "lastName": "Knapp",
+          "firstName": "Jessica",
+          "profession": "Erzieherin",
+          "birthYear": 1984
+        },
+        {
+          "id": "bw-lt-60-7",
+          "party": "ÖDP",
+          "lastName": "Dietrich",
+          "firstName": "Matthias",
+          "profession": "Dipl.-Theologe",
+          "birthYear": 1971
+        },
+        {
+          "id": "bw-lt-60-8",
+          "party": "Bündnis C",
+          "lastName": "Maigler",
+          "firstName": "Joachim",
+          "profession": "Verwaltungswirt",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-60-9",
+          "party": "BSW",
+          "lastName": "Herbig",
+          "firstName": "Günter",
+          "profession": "Fachlehrer a.D., Außendienstleiter i.R.",
+          "birthYear": 1948
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "name": "Hechingen-Münsingen",
+      "candidates": [
+        {
+          "id": "bw-lt-61-1",
+          "party": "GRÜNE",
+          "lastName": "Holmberg",
+          "firstName": "Cindy",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-61-2",
+          "party": "CDU",
+          "lastName": "Hailfinger",
+          "firstName": "Manuel",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-61-3",
+          "party": "SPD",
+          "lastName": "Hummel",
+          "firstName": "Yannik",
+          "profession": "Student",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-61-4",
+          "party": "FDP",
+          "lastName": "Dr. Kern",
+          "firstName": "Timm",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-61-5",
+          "party": "AfD",
+          "lastName": "Gräff",
+          "firstName": "Alexander",
+          "profession": "Kfz.-Mechaniker",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-61-6",
+          "party": "Die Linke",
+          "lastName": "Schneiderat",
+          "firstName": "Sonja",
+          "profession": "Sozialarbeiterin",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-61-7",
+          "party": "BSW",
+          "lastName": "Schädler",
+          "firstName": "Julius",
+          "profession": "Studienberater",
+          "birthYear": 1993
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "name": "Tübingen",
+      "candidates": [
+        {
+          "id": "bw-lt-62-1",
+          "party": "GRÜNE",
+          "lastName": "Lede Abal",
+          "firstName": "Daniel",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-62-2",
+          "party": "CDU",
+          "lastName": "Arnold",
+          "firstName": "Diana",
+          "profession": "Polizeibeamtin",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-62-3",
+          "party": "SPD",
+          "lastName": "Dr. Kliche-Behnke",
+          "firstName": "Dorothea",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-62-4",
+          "party": "FDP",
+          "lastName": "Schuster",
+          "firstName": "Irene",
+          "profession": "Lehrerin",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-62-5",
+          "party": "AfD",
+          "lastName": "Schneider",
+          "firstName": "Anna",
+          "profession": "Mediengestalterin",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-62-6",
+          "party": "Die Linke",
+          "lastName": "Poppei",
+          "firstName": "Katharina",
+          "profession": "Software-Entwicklerin",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-62-7",
+          "party": "Die PARTEI",
+          "lastName": "Krahl",
+          "firstName": "Flavio",
+          "profession": "Medizininformatiker",
+          "birthYear": 1993
+        },
+        {
+          "id": "bw-lt-62-8",
+          "party": "Volt",
+          "lastName": "Treuer",
+          "firstName": "Pedro",
+          "profession": "KI-Ingenieur",
+          "birthYear": 2000
+        },
+        {
+          "id": "bw-lt-62-9",
+          "party": "BSW",
+          "lastName": "Lorenz",
+          "firstName": "Sören",
+          "profession": "Maschinenbauingenieur",
+          "birthYear": 1979
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "name": "Balingen",
+      "candidates": [
+        {
+          "id": "bw-lt-63-1",
+          "party": "GRÜNE",
+          "lastName": "Rößler",
+          "firstName": "Maurice",
+          "profession": "Lokführer",
+          "birthYear": 1995
+        },
+        {
+          "id": "bw-lt-63-2",
+          "party": "CDU",
+          "lastName": "Dr. Hoffmeister-Kraut",
+          "firstName": "Nicole",
+          "profession": "Wirtschaftsministerin, Landtagsabgeordnete",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-63-3",
+          "party": "SPD",
+          "lastName": "Weiger-Schick",
+          "firstName": "Katja",
+          "profession": "Redakteurin, Journalistin",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-63-4",
+          "party": "FDP",
+          "lastName": "Raible",
+          "firstName": "Albrecht",
+          "profession": "wiss. Referent",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-63-5",
+          "party": "AfD",
+          "lastName": "Hörner",
+          "firstName": "Hans-Peter",
+          "profession": "Landtagsabgeordneter, Oberstudienrat a.D.",
+          "birthYear": 1951
+        },
+        {
+          "id": "bw-lt-63-6",
+          "party": "Die Linke",
+          "lastName": "Krein",
+          "firstName": "Elena",
+          "profession": "Schülerin",
+          "birthYear": 2007
+        },
+        {
+          "id": "bw-lt-63-7",
+          "party": "Volt",
+          "lastName": "Weiß",
+          "firstName": "Anne",
+          "profession": "Lehrerin",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-63-8",
+          "party": "BÜNDNIS DEUTSCHLAND",
+          "lastName": "Buck",
+          "firstName": "Stefan",
+          "profession": "Privatier",
+          "birthYear": 1975
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "name": "Ulm",
+      "candidates": [
+        {
+          "id": "bw-lt-64-1",
+          "party": "GRÜNE",
+          "lastName": "Joukov",
+          "firstName": "Michael",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-64-2",
+          "party": "CDU",
+          "lastName": "Schneider",
+          "firstName": "Mario",
+          "profession": "Unternehmer",
+          "birthYear": 1980
+        },
+        {
+          "id": "bw-lt-64-3",
+          "party": "SPD",
+          "lastName": "Dr. Reik",
+          "firstName": "Steffen",
+          "profession": "Hochschullehrer",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-64-4",
+          "party": "FDP",
+          "lastName": "Hillmann-Richter",
+          "firstName": "Anke",
+          "profession": "Amtsleiterin",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-64-5",
+          "party": "AfD",
+          "lastName": "Rottmann",
+          "firstName": "Daniel",
+          "profession": "Parl. Referent",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-64-6",
+          "party": "Die Linke",
+          "lastName": "Süslü",
+          "firstName": "Mustafa",
+          "profession": "Fachkraft für Lagerlogistik",
+          "birthYear": 1965
+        },
+        {
+          "id": "bw-lt-64-7",
+          "party": "BSW",
+          "lastName": "Hoffmann",
+          "firstName": "Uwe",
+          "profession": "Immobilienmakler",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-64-8",
+          "party": "Tierschutzpartei",
+          "lastName": "Röhm",
+          "firstName": "Bastian",
+          "profession": "Maschinenbautechniker",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-64-9",
+          "party": "PIRATEN",
+          "lastName": "Hirschel",
+          "firstName": "Falk",
+          "profession": "Rechtsanwalt",
+          "birthYear": 1967
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "name": "Ehingen",
+      "candidates": [
+        {
+          "id": "bw-lt-65-1",
+          "party": "GRÜNE",
+          "lastName": "Hocke-Beck",
+          "firstName": "Tobias",
+          "profession": "Geschäftsführer",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-65-2",
+          "party": "CDU",
+          "lastName": "Hagel",
+          "firstName": "Manuel",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-65-3",
+          "party": "SPD",
+          "lastName": "Späth",
+          "firstName": "Lisa-Marie",
+          "profession": "Lehrerin",
+          "birthYear": 1981
+        },
+        {
+          "id": "bw-lt-65-4",
+          "party": "FDP",
+          "lastName": "Schwarz",
+          "firstName": "Uwe",
+          "profession": "Unternehmer",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-65-5",
+          "party": "AfD",
+          "lastName": "Scheffler",
+          "firstName": "Michael",
+          "profession": "Projektingenieur",
+          "birthYear": 1983
+        },
+        {
+          "id": "bw-lt-65-6",
+          "party": "Die Linke",
+          "lastName": "Boden",
+          "firstName": "Nicklas",
+          "profession": "Rettungssanitäter",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-65-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Stoll",
+          "firstName": "Ulrich",
+          "profession": "techn. Anwendungsberater für Photovoltaik",
+          "birthYear": 1985
+        },
+        {
+          "id": "bw-lt-65-8",
+          "party": "BSW",
+          "lastName": "Treß",
+          "firstName": "Markus",
+          "profession": "Arbeiter",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-65-9",
+          "party": "BÜNDNIS DEUTSCHLAND",
+          "lastName": "Spähn",
+          "firstName": "Manfred",
+          "profession": "Mechaniker",
+          "birthYear": 1967
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "name": "Biberach",
+      "candidates": [
+        {
+          "id": "bw-lt-66-1",
+          "party": "GRÜNE",
+          "lastName": "Gürbüz",
+          "firstName": "Berat",
+          "profession": "Student der Kultur- und Politikwissenschaft",
+          "birthYear": 2002
+        },
+        {
+          "id": "bw-lt-66-2",
+          "party": "CDU",
+          "lastName": "Dörflinger",
+          "firstName": "Thomas",
+          "profession": "Landtagsabgeordneter, Dipl.-Betriebswirt (FH)",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-66-3",
+          "party": "SPD",
+          "lastName": "Özkeleş",
+          "firstName": "Simon",
+          "profession": "Koch, Verwaltungsfachangestellter",
+          "birthYear": 1994
+        },
+        {
+          "id": "bw-lt-66-4",
+          "party": "FDP",
+          "lastName": "Lukner",
+          "firstName": "Oliver",
+          "profession": "Geschäftsführer",
+          "birthYear": 1970
+        },
+        {
+          "id": "bw-lt-66-5",
+          "party": "AfD",
+          "lastName": "Gulde",
+          "firstName": "Paula",
+          "profession": "Außenhandelskauffrau",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-66-6",
+          "party": "Die Linke",
+          "lastName": "Weber",
+          "firstName": "Jasmin",
+          "profession": "Versicherungskauffrau",
+          "birthYear": 1996
+        },
+        {
+          "id": "bw-lt-66-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Bopp",
+          "firstName": "Reinhold",
+          "profession": "Landwirtschaftsmeister",
+          "birthYear": 1960
+        },
+        {
+          "id": "bw-lt-66-8",
+          "party": "Volt",
+          "lastName": "Werkmann",
+          "firstName": "Karolin",
+          "profession": "Controllerin",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-66-9",
+          "party": "PIRATEN",
+          "lastName": "Schmid",
+          "firstName": "Samuel",
+          "profession": "IT-Systemadministrator",
+          "birthYear": 1991
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "name": "Bodensee",
+      "candidates": [
+        {
+          "id": "bw-lt-67-1",
+          "party": "GRÜNE",
+          "lastName": "Hahn",
+          "firstName": "Martin",
+          "profession": "Landtagsabgeordneter, Landwirt",
+          "birthYear": 1963
+        },
+        {
+          "id": "bw-lt-67-2",
+          "party": "CDU",
+          "lastName": "Dr. Bruns",
+          "firstName": "Alexander",
+          "profession": "Universitätsprofessor",
+          "birthYear": 1966
+        },
+        {
+          "id": "bw-lt-67-3",
+          "party": "SPD",
+          "lastName": "Dr. Röver",
+          "firstName": "Rainer",
+          "profession": "Arzt",
+          "birthYear": 1978
+        },
+        {
+          "id": "bw-lt-67-4",
+          "party": "FDP",
+          "lastName": "Hoher",
+          "firstName": "Klaus",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1968
+        },
+        {
+          "id": "bw-lt-67-5",
+          "party": "AfD",
+          "lastName": "Högel",
+          "firstName": "Christoph",
+          "profession": "Elektrotechnikingenieur",
+          "birthYear": 1990
+        },
+        {
+          "id": "bw-lt-67-6",
+          "party": "Die Linke",
+          "lastName": "Frank",
+          "firstName": "Sander",
+          "profession": "wiss. Mitarbeiter",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-67-7",
+          "party": "FREIE WÄHLER",
+          "lastName": "Rößler",
+          "firstName": "Adrian",
+          "profession": "Fachinformatiker",
+          "birthYear": 1988
+        },
+        {
+          "id": "bw-lt-67-8",
+          "party": "Volt",
+          "lastName": "Knäple",
+          "firstName": "David",
+          "profession": "Auszubildender zum Fachinformatiker",
+          "birthYear": 2004
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "name": "Wangen",
+      "candidates": [
+        {
+          "id": "bw-lt-68-1",
+          "party": "GRÜNE",
+          "lastName": "Krebs",
+          "firstName": "Petra",
+          "profession": "Landtagsabgeordnete",
+          "birthYear": 1969
+        },
+        {
+          "id": "bw-lt-68-2",
+          "party": "CDU",
+          "lastName": "Haser",
+          "firstName": "Raimund",
+          "profession": "Landtagsabgeordneter",
+          "birthYear": 1975
+        },
+        {
+          "id": "bw-lt-68-3",
+          "party": "SPD",
+          "lastName": "Hübner",
+          "firstName": "Rosalind",
+          "profession": "Gesundheitsmanagerin",
+          "birthYear": 1991
+        },
+        {
+          "id": "bw-lt-68-4",
+          "party": "FDP",
+          "lastName": "Derscheid",
+          "firstName": "Daniel",
+          "profession": "Ingenieur",
+          "birthYear": 1986
+        },
+        {
+          "id": "bw-lt-68-5",
+          "party": "AfD",
+          "lastName": "Haug",
+          "firstName": "Carmen",
+          "profession": "Angestellte",
+          "birthYear": 1976
+        },
+        {
+          "id": "bw-lt-68-6",
+          "party": "Die Linke",
+          "lastName": "Heiß",
+          "firstName": "Sophie",
+          "profession": "Verkäuferin",
+          "birthYear": 2001
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "name": "Ravensburg",
+      "candidates": [
+        {
+          "id": "bw-lt-69-1",
+          "party": "GRÜNE",
+          "lastName": "Wiech",
+          "firstName": "Anna",
+          "profession": "Politische Referentin",
+          "birthYear": 1977
+        },
+        {
+          "id": "bw-lt-69-2",
+          "party": "CDU",
+          "lastName": "Rommelspacher",
+          "firstName": "Antje",
+          "profession": "Rechtsanwältin",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-69-3",
+          "party": "SPD",
+          "lastName": "Frank",
+          "firstName": "Paul",
+          "profession": "Arzt",
+          "birthYear": 1996
+        },
+        {
+          "id": "bw-lt-69-4",
+          "party": "FDP",
+          "lastName": "Widenmann",
+          "firstName": "Anja",
+          "profession": "Doktorandin",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-69-5",
+          "party": "AfD",
+          "lastName": "Baur",
+          "firstName": "Hans-Peter",
+          "profession": "selbst. IT-Berater",
+          "birthYear": 1959
+        },
+        {
+          "id": "bw-lt-69-6",
+          "party": "Die Linke",
+          "lastName": "Wetzel",
+          "firstName": "Tim",
+          "profession": "kfm. Sachbearbeiter",
+          "birthYear": 1992
+        },
+        {
+          "id": "bw-lt-69-7",
+          "party": "Volt",
+          "lastName": "Zitterich",
+          "firstName": "Mario",
+          "profession": "Wirtschaftsinformatiker",
+          "birthYear": 1995
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "name": "Sigmaringen",
+      "candidates": [
+        {
+          "id": "bw-lt-70-1",
+          "party": "GRÜNE",
+          "lastName": "Stauß",
+          "firstName": "Hanna",
+          "profession": "Schauspielerin, Kulturmanagerin",
+          "birthYear": 1997
+        },
+        {
+          "id": "bw-lt-70-2",
+          "party": "CDU",
+          "lastName": "Boos",
+          "firstName": "Ilona",
+          "profession": "Dipl.-Verwaltungswirtin (FH), Wirtschaftsförderin (VWA)",
+          "birthYear": 1973
+        },
+        {
+          "id": "bw-lt-70-3",
+          "party": "SPD",
+          "lastName": "Fuchs",
+          "firstName": "Ramona",
+          "profession": "Studentin",
+          "birthYear": 1998
+        },
+        {
+          "id": "bw-lt-70-4",
+          "party": "FDP",
+          "lastName": "Dr. Brenner",
+          "firstName": "Björn",
+          "profession": "Facharzt für Neurologie",
+          "birthYear": 1982
+        },
+        {
+          "id": "bw-lt-70-5",
+          "party": "AfD",
+          "lastName": "Strobel",
+          "firstName": "Andreas",
+          "profession": "Polizeibeamter",
+          "birthYear": 1972
+        },
+        {
+          "id": "bw-lt-70-6",
+          "party": "Die Linke",
+          "lastName": "Nill",
+          "firstName": "Michael",
+          "profession": "IT-Techniker",
+          "birthYear": 1974
+        },
+        {
+          "id": "bw-lt-70-7",
+          "party": "Volt",
+          "lastName": "Oberdörffer",
+          "firstName": "Simon",
+          "profession": "Maschinenbaustudent",
+          "birthYear": 1999
+        },
+        {
+          "id": "bw-lt-70-8",
+          "party": "BSW",
+          "lastName": "Ehrich-Dornis",
+          "firstName": "Brigitte",
+          "profession": "Friedenspsychologin, Soziologin, M.A.",
+          "birthYear": 1952
+        }
+      ]
+    }
+  ],
+  "landeslisten": [
+    {
+      "listNumber": 1,
+      "shortName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "candidates": []
+    },
+    {
+      "listNumber": 2,
+      "shortName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
+      "candidates": []
+    },
+    {
+      "listNumber": 3,
+      "shortName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "candidates": []
+    },
+    {
+      "listNumber": 4,
+      "shortName": "FDP",
+      "fullName": "Freie Demokratische Partei",
+      "candidates": []
+    },
+    {
+      "listNumber": 5,
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "candidates": []
+    },
+    {
+      "listNumber": 6,
+      "shortName": "Die Linke",
+      "fullName": "Die Linke",
+      "candidates": []
+    },
+    {
+      "listNumber": 7,
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "candidates": []
+    },
+    {
+      "listNumber": 8,
+      "shortName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "candidates": []
+    },
+    {
+      "listNumber": 9,
+      "shortName": "PIRATEN",
+      "fullName": "Piratenpartei Deutschland",
+      "candidates": []
+    },
+    {
+      "listNumber": 10,
+      "shortName": "dieBasis",
+      "fullName": "Basisdemokratische Partei Deutschland",
+      "candidates": []
+    },
+    {
+      "listNumber": 11,
+      "shortName": "ÖDP",
+      "fullName": "Ökologisch-Demokratische Partei",
+      "candidates": []
+    },
+    {
+      "listNumber": 12,
+      "shortName": "Volt",
+      "fullName": "Volt Deutschland",
+      "candidates": []
+    },
+    {
+      "listNumber": 13,
+      "shortName": "Bündnis C",
+      "fullName": "Bündnis C – Christen für Deutschland",
+      "candidates": []
+    },
+    {
+      "listNumber": 14,
+      "shortName": "BÜNDNIS DEUTSCHLAND",
+      "fullName": "BÜNDNIS DEUTSCHLAND",
+      "candidates": []
+    },
+    {
+      "listNumber": 15,
+      "shortName": "WerteUnion",
+      "fullName": "WerteUnion",
+      "candidates": []
+    },
+    {
+      "listNumber": 16,
+      "shortName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
+      "candidates": []
+    },
+    {
+      "listNumber": 17,
+      "shortName": "Die Gerechtigkeitspartei",
+      "fullName": "Die Gerechtigkeitspartei",
+      "candidates": []
+    },
+    {
+      "listNumber": 18,
+      "shortName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH UMWELT TIERSCHUTZ",
+      "candidates": []
+    }
+  ]
+}

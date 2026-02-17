@@ -3,6 +3,9 @@ export interface ElectionConfig {
   slug: string;                  // URL path segment
   shareTypeCode: number;         // For binary share encoding (0-15)
 
+  // Election type (defaults to 'kommunalwahl' for backwards compat)
+  type?: 'kommunalwahl' | 'landtagswahl';
+
   // Rules
   totalStimmen: number;          // 93, 37, etc.
   maxPerCandidate: number;       // 3

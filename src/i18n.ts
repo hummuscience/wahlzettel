@@ -268,6 +268,9 @@ const I18N_IMPORTERS: Record<string, Record<string, () => Promise<ElectionI18nMo
     uk: () => import('./elections/bayreuth-stadtrat/i18n/uk.json'),
     ru: () => import('./elections/bayreuth-stadtrat/i18n/ru.json'),
   },
+  'bw-landtagswahl': {
+    de: () => import('./elections/bw-landtagswahl/i18n/de.json'),
+  },
 };
 
 export async function loadElectionI18n(electionId: string): Promise<void> {

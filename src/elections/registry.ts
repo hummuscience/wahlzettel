@@ -117,6 +117,11 @@ const ELECTIONS: ElectionEntry[] = [
     shareTypeCode: 21,
     load: () => import('./bayreuth-stadtrat/config').then(m => m.default),
   },
+  {
+    slug: 'bw-landtagswahl',
+    shareTypeCode: 22,
+    load: () => import('./bw-landtagswahl/config').then(m => m.default),
+  },
 ];
 
 export function getAllElections(): ElectionEntry[] {

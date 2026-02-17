@@ -21,6 +21,7 @@ import { PracticalInfoDrawerContent } from './components/info/PracticalInfoDrawe
 import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
+import { LandtagswahlBallot } from './components/ballot/LandtagswahlBallot';
 import i18n, { loadElectionI18n } from './i18n';
 
 function getSlugFromPath(): string | null {
@@ -40,6 +41,8 @@ function getSlugFromPath(): string | null {
 function App() {
   const [electionConfig, setElectionConfig] = useState<ElectionConfig | null>(null);
   const [electionData, setElectionData] = useState<ElectionData | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [landtagswahlData, setLandtagswahlData] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
   const [walkthroughOpen, setWalkthroughOpen] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
@@ -116,6 +119,7 @@ function App() {
   useEffect(() => {
     if (!electionConfig) {
       setElectionData(null);
+      setLandtagswahlData(null);
       return;
     }
     setError(null);
@@ -125,7 +129,13 @@ function App() {
         return res.json();
       })
       .then(data => {
-        setElectionData(data);
+        if (electionConfig.type === 'landtagswahl') {
+          setLandtagswahlData(data);
+          setElectionData(null);
+        } else {
+          setElectionData(data);
+          setLandtagswahlData(null);
+        }
       })
       .catch(err => setError(err.message));
   }, [electionConfig]);
@@ -181,9 +191,10 @@ function App() {
   const handleSwitchBallot = useCallback(() => {
     resetBallot();
     setElectionData(null);
+    setLandtagswahlData(null);
     setElectionConfig(null);
     history.pushState(null, '', '/');
-    document.title = 'Wahlzettel – Kommunalwahl üben';
+    document.title = 'Wahlzettel – Wahl üben';
   }, [resetBallot]);
 
   const handleChooseElection = useCallback((slug: string) => {
@@ -202,6 +213,7 @@ function App() {
       if (!slug) {
         resetBallot();
         setElectionData(null);
+        setLandtagswahlData(null);
         setElectionConfig(null);
       } else {
         const entry = getElectionBySlug(slug);
@@ -233,6 +245,28 @@ function App() {
         </main>
         <Footer />
       </div>
+    );
+  }
+
+  // Landtagswahl: separate render path
+  if (electionConfig.type === 'landtagswahl') {
+    if (!landtagswahlData) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <p className="text-gray-500">Lade Kandidatendaten...</p>
+        </div>
+      );
+    }
+    return (
+      <ElectionProvider config={electionConfig}>
+        <div className="min-h-screen flex flex-col">
+          <Header onSwitchBallot={handleSwitchBallot} />
+          <main className="flex-1">
+            <LandtagswahlBallot data={landtagswahlData} />
+          </main>
+          <Footer />
+        </div>
+      </ElectionProvider>
     );
   }
 
