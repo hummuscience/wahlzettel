@@ -188,11 +188,98 @@ const I18N_IMPORTERS: Record<string, Record<string, () => Promise<ElectionI18nMo
     uk: () => import('./elections/ruesselsheim-stvv/i18n/uk.json'),
     ru: () => import('./elections/ruesselsheim-stvv/i18n/ru.json'),
   },
+  'muenchen-stadtrat': {
+    de: () => import('./elections/muenchen-stadtrat/i18n/de.json'),
+    en: () => import('./elections/muenchen-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/muenchen-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/muenchen-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/muenchen-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/muenchen-stadtrat/i18n/ru.json'),
+  },
+  'nuernberg-stadtrat': {
+    de: () => import('./elections/nuernberg-stadtrat/i18n/de.json'),
+    en: () => import('./elections/nuernberg-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/nuernberg-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/nuernberg-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/nuernberg-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/nuernberg-stadtrat/i18n/ru.json'),
+  },
+  'augsburg-stadtrat': {
+    de: () => import('./elections/augsburg-stadtrat/i18n/de.json'),
+    en: () => import('./elections/augsburg-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/augsburg-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/augsburg-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/augsburg-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/augsburg-stadtrat/i18n/ru.json'),
+  },
+  'regensburg-stadtrat': {
+    de: () => import('./elections/regensburg-stadtrat/i18n/de.json'),
+    en: () => import('./elections/regensburg-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/regensburg-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/regensburg-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/regensburg-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/regensburg-stadtrat/i18n/ru.json'),
+  },
+  'ingolstadt-stadtrat': {
+    de: () => import('./elections/ingolstadt-stadtrat/i18n/de.json'),
+    en: () => import('./elections/ingolstadt-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/ingolstadt-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/ingolstadt-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/ingolstadt-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/ingolstadt-stadtrat/i18n/ru.json'),
+  },
+  'wuerzburg-stadtrat': {
+    de: () => import('./elections/wuerzburg-stadtrat/i18n/de.json'),
+    en: () => import('./elections/wuerzburg-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/wuerzburg-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/wuerzburg-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/wuerzburg-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/wuerzburg-stadtrat/i18n/ru.json'),
+  },
+  'fuerth-stadtrat': {
+    de: () => import('./elections/fuerth-stadtrat/i18n/de.json'),
+    en: () => import('./elections/fuerth-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/fuerth-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/fuerth-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/fuerth-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/fuerth-stadtrat/i18n/ru.json'),
+  },
+  'erlangen-stadtrat': {
+    de: () => import('./elections/erlangen-stadtrat/i18n/de.json'),
+    en: () => import('./elections/erlangen-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/erlangen-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/erlangen-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/erlangen-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/erlangen-stadtrat/i18n/ru.json'),
+  },
+  'bamberg-stadtrat': {
+    de: () => import('./elections/bamberg-stadtrat/i18n/de.json'),
+    en: () => import('./elections/bamberg-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/bamberg-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/bamberg-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/bamberg-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/bamberg-stadtrat/i18n/ru.json'),
+  },
+  'bayreuth-stadtrat': {
+    de: () => import('./elections/bayreuth-stadtrat/i18n/de.json'),
+    en: () => import('./elections/bayreuth-stadtrat/i18n/en.json'),
+    tr: () => import('./elections/bayreuth-stadtrat/i18n/tr.json'),
+    ar: () => import('./elections/bayreuth-stadtrat/i18n/ar.json'),
+    uk: () => import('./elections/bayreuth-stadtrat/i18n/uk.json'),
+    ru: () => import('./elections/bayreuth-stadtrat/i18n/ru.json'),
+  },
 };
 
 export async function loadElectionI18n(electionId: string): Promise<void> {
   const importers = I18N_IMPORTERS[electionId];
   if (!importers) return;
+
+  // Remove old election bundles so stale keys don't persist
+  for (const lng of SUPPORTED_LANGS) {
+    if (i18n.hasResourceBundle(lng, 'election')) {
+      i18n.removeResourceBundle(lng, 'election');
+    }
+  }
 
   await Promise.all(
     SUPPORTED_LANGS.map(async (lng) => {

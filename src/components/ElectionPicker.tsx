@@ -86,6 +86,76 @@ const CITIES: CityEntry[] = [
     ],
   },
   {
+    name: 'Augsburg',
+    stateId: 'by',
+    elections: [
+      { slug: 'augsburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 60, themeColor: '#006847' },
+    ],
+  },
+  {
+    name: 'Bamberg',
+    stateId: 'by',
+    elections: [
+      { slug: 'bamberg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#8B4513' },
+    ],
+  },
+  {
+    name: 'Bayreuth',
+    stateId: 'by',
+    elections: [
+      { slug: 'bayreuth-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#c41e3a' },
+    ],
+  },
+  {
+    name: 'Erlangen',
+    stateId: 'by',
+    elections: [
+      { slug: 'erlangen-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#003366' },
+    ],
+  },
+  {
+    name: 'Fürth',
+    stateId: 'by',
+    elections: [
+      { slug: 'fuerth-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#006633' },
+    ],
+  },
+  {
+    name: 'Ingolstadt',
+    stateId: 'by',
+    elections: [
+      { slug: 'ingolstadt-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#0072bc' },
+    ],
+  },
+  {
+    name: 'München',
+    stateId: 'by',
+    elections: [
+      { slug: 'muenchen-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 80, themeColor: '#1a4d8f' },
+    ],
+  },
+  {
+    name: 'Nürnberg',
+    stateId: 'by',
+    elections: [
+      { slug: 'nuernberg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 70, themeColor: '#c41e3a' },
+    ],
+  },
+  {
+    name: 'Regensburg',
+    stateId: 'by',
+    elections: [
+      { slug: 'regensburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#004f9f' },
+    ],
+  },
+  {
+    name: 'Würzburg',
+    stateId: 'by',
+    elections: [
+      { slug: 'wuerzburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#8B0000' },
+    ],
+  },
+  {
     name: 'Offenbach',
     stateId: 'he',
     elections: [
@@ -125,6 +195,7 @@ type PickerStep =
 // Hand-tuned label centers for states with elections (SVG viewBox 0 0 586 793)
 const STATE_LABEL_POS: Record<string, { x: number; y: number }> = {
   he: { x: 200, y: 476 },
+  by: { x: 370, y: 620 },
 };
 
 interface ElectionPickerProps {

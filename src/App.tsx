@@ -21,7 +21,7 @@ import { PracticalInfoDrawerContent } from './components/info/PracticalInfoDrawe
 import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
-import { loadElectionI18n } from './i18n';
+import i18n, { loadElectionI18n } from './i18n';
 
 function getSlugFromPath(): string | null {
   // Handle GitHub Pages SPA redirect from 404.html
@@ -106,8 +106,10 @@ function App() {
     root.style.setProperty('--color-election-primary', electionConfig.themeColor);
     root.style.setProperty('--color-election-primary-light', electionConfig.themeColorLight);
     root.style.setProperty('--color-election-primary-dark', electionConfig.themeColorDark);
-    loadElectionI18n(electionConfig.id);
-    document.title = `Wahlzettel – ${electionConfig.id}`;
+    loadElectionI18n(electionConfig.id).then(() => {
+      const title = i18n.t('title', { ns: 'election', defaultValue: electionConfig.id });
+      document.title = `Wahlzettel – ${title}`;
+    });
   }, [electionConfig]);
 
   // Load election data when config changes

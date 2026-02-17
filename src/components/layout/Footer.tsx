@@ -20,6 +20,15 @@ export function Footer() {
           </p>
         </details>
         <p className="text-xs text-gray-400 mt-3">
+          <a
+            href="https://github.com/hummuscience/wahlzettel/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-600"
+          >
+            Feedback
+          </a>
+          {' · '}
           {te('madeWith', { defaultValue: t('madeWith') })}
         </p>
       </div>

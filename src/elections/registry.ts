@@ -67,6 +67,56 @@ const ELECTIONS: ElectionEntry[] = [
     shareTypeCode: 11,
     load: () => import('./ruesselsheim-stvv/config').then(m => m.default),
   },
+  {
+    slug: 'muenchen-stadtrat',
+    shareTypeCode: 12,
+    load: () => import('./muenchen-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'nuernberg-stadtrat',
+    shareTypeCode: 13,
+    load: () => import('./nuernberg-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'augsburg-stadtrat',
+    shareTypeCode: 14,
+    load: () => import('./augsburg-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'regensburg-stadtrat',
+    shareTypeCode: 15,
+    load: () => import('./regensburg-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'ingolstadt-stadtrat',
+    shareTypeCode: 16,
+    load: () => import('./ingolstadt-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'wuerzburg-stadtrat',
+    shareTypeCode: 17,
+    load: () => import('./wuerzburg-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'fuerth-stadtrat',
+    shareTypeCode: 18,
+    load: () => import('./fuerth-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'erlangen-stadtrat',
+    shareTypeCode: 19,
+    load: () => import('./erlangen-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'bamberg-stadtrat',
+    shareTypeCode: 20,
+    load: () => import('./bamberg-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'bayreuth-stadtrat',
+    shareTypeCode: 21,
+    load: () => import('./bayreuth-stadtrat/config').then(m => m.default),
+  },
 ];
 
 export function getAllElections(): ElectionEntry[] {
