@@ -162,6 +162,11 @@ const ELECTIONS: ElectionEntry[] = [
     shareTypeCode: 30,
     load: () => import('./ruesselsheim-kav/config').then(m => m.default),
   },
+  {
+    slug: 'dadi-kreistag',
+    shareTypeCode: 31,
+    load: () => import('./dadi-kreistag/config').then(m => m.default),
+  },
 ];
 
 export function getAllElections(): ElectionEntry[] {

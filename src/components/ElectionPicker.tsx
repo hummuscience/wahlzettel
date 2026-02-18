@@ -58,6 +58,7 @@ const CITIES: CityEntry[] = [
     elections: [
       { slug: 'darmstadt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004e8a' },
       { slug: 'darmstadt-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 21, themeColor: '#004e8a' },
+      { slug: 'dadi-kreistag', label: 'Kreistag Darmstadt-Dieburg', descriptionKey: 'kreistagDesc', emoji: '🏛️', stimmen: 81, themeColor: '#2e5e3f' },
     ],
   },
   {
@@ -320,16 +321,6 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
                 </text>
               ))}
             </svg>
-            <p className="text-center text-sm text-gray-400 mt-4">
-              <a
-                href={buildCityRequestUrl()}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-gray-600 underline underline-offset-2 transition-colors"
-              >
-                {t('stateMissing')} → {t('suggestCity')}
-              </a>
-            </p>
           </div>
         </div>
       </div>

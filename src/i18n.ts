@@ -340,6 +340,14 @@ const I18N_IMPORTERS: Record<string, Record<string, () => Promise<ElectionI18nMo
     uk: () => import('./elections/ruesselsheim-kav/i18n/uk.json'),
     ru: () => import('./elections/ruesselsheim-kav/i18n/ru.json'),
   },
+  'dadi-kreistag': {
+    de: () => import('./elections/dadi-kreistag/i18n/de.json'),
+    en: () => import('./elections/dadi-kreistag/i18n/en.json'),
+    tr: () => import('./elections/dadi-kreistag/i18n/tr.json'),
+    ar: () => import('./elections/dadi-kreistag/i18n/ar.json'),
+    uk: () => import('./elections/dadi-kreistag/i18n/uk.json'),
+    ru: () => import('./elections/dadi-kreistag/i18n/ru.json'),
+  },
 };
 
 export async function loadElectionI18n(electionId: string): Promise<void> {
