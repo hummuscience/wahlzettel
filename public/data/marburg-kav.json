@@ -1,0 +1,312 @@
+{
+  "election": "marburg-kav",
+  "name": "Ausländerbeirat",
+  "totalStimmen": 15,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Gruppe ohne Grenzen",
+      "shortName": "GOG",
+      "candidates": [
+        {
+          "id": "mr-kav-1-1",
+          "position": 1,
+          "lastName": "Cloutier",
+          "firstName": "Sylvie",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-2",
+          "position": 2,
+          "lastName": "Donkova-Schalauske",
+          "firstName": "Kristiana",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-3",
+          "position": 3,
+          "lastName": "Shelbaya",
+          "firstName": "Linda",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-4",
+          "position": 4,
+          "lastName": "Shaheen",
+          "firstName": "Ibrahim Mohammad Ahmad",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-5",
+          "position": 5,
+          "lastName": "Rashidov",
+          "firstName": "Mirza",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-6",
+          "position": 6,
+          "lastName": "Milea",
+          "firstName": "loana",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-7",
+          "position": 7,
+          "lastName": "Alherz",
+          "firstName": "Younes",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-8",
+          "position": 8,
+          "lastName": "Dasdemir",
+          "firstName": "Büsra",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-9",
+          "position": 9,
+          "lastName": "Yamasaki",
+          "firstName": "Eriko",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-10",
+          "position": 10,
+          "lastName": "Taroun",
+          "firstName": "Abdullah",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-11",
+          "position": 11,
+          "lastName": "Kiefer",
+          "firstName": "Celine",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-12",
+          "position": 12,
+          "lastName": "Kuksenko",
+          "firstName": "Valentyna",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-13",
+          "position": 13,
+          "lastName": "Ceceli",
+          "firstName": "Dmitrii",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-14",
+          "position": 14,
+          "lastName": "Breton",
+          "firstName": "Francois",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-1-15",
+          "position": 15,
+          "lastName": "Abdirahman Farah",
+          "firstName": "Liban",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 15
+    },
+    {
+      "listNumber": 2,
+      "fullName": "Interkulturelle Liste",
+      "shortName": "IKL",
+      "candidates": [
+        {
+          "id": "mr-kav-2-1",
+          "position": 1,
+          "lastName": "Hanspal",
+          "firstName": "Nirmal",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-2",
+          "position": 2,
+          "lastName": "Kovatchev",
+          "firstName": "Svetlana",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-3",
+          "position": 3,
+          "lastName": "Taklikar",
+          "firstName": "Sunil",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-4",
+          "position": 4,
+          "lastName": "Karic Zoric",
+          "firstName": "Tijana",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-5",
+          "position": 5,
+          "lastName": "Mukha",
+          "firstName": "Dmytro",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-6",
+          "position": 6,
+          "lastName": "Wang",
+          "firstName": "Jin",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-7",
+          "position": 7,
+          "lastName": "Andrianov",
+          "firstName": "Grigory",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-8",
+          "position": 8,
+          "lastName": "Alish",
+          "firstName": "Ahmad",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-9",
+          "position": 9,
+          "lastName": "Shilbayeh",
+          "firstName": "Hasan",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-10",
+          "position": 10,
+          "lastName": "Afanasyeva",
+          "firstName": "Zhanna",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-11",
+          "position": 11,
+          "lastName": "Khalid",
+          "firstName": "Rana",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-12",
+          "position": 12,
+          "lastName": "Dolgushyna",
+          "firstName": "Tetiana",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-2-13",
+          "position": 13,
+          "lastName": "Dr. Baraki",
+          "firstName": "Matin",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 13
+    },
+    {
+      "listNumber": 3,
+      "fullName": "Verein Gießener Zugewanderter",
+      "shortName": "VGZ",
+      "candidates": [
+        {
+          "id": "mr-kav-3-1",
+          "position": 1,
+          "lastName": "Zheng",
+          "firstName": "Xin",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-2",
+          "position": 2,
+          "lastName": "Afoumba",
+          "firstName": "Dolly",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-3",
+          "position": 3,
+          "lastName": "Zhang",
+          "firstName": "Wenhui",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-4",
+          "position": 4,
+          "lastName": "Muhia",
+          "firstName": "Beatrice",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-5",
+          "position": 5,
+          "lastName": "Fazal",
+          "firstName": "Zoraiz",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-6",
+          "position": 6,
+          "lastName": "Fu",
+          "firstName": "Xiaotong",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-7",
+          "position": 7,
+          "lastName": "Kamgo Kamgo",
+          "firstName": "Siegfried",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-8",
+          "position": 8,
+          "lastName": "Laktineh",
+          "firstName": "Jehan",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-9",
+          "position": 9,
+          "lastName": "Barbara da Cruz",
+          "firstName": "Felipe",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-10",
+          "position": 10,
+          "lastName": "Mousson",
+          "firstName": "Ayeih",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-11",
+          "position": 11,
+          "lastName": "Korodowou",
+          "firstName": "Wouloh",
+          "profession": ""
+        },
+        {
+          "id": "mr-kav-3-12",
+          "position": 12,
+          "lastName": "Mamuda",
+          "firstName": "Suleman",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 12
+    }
+  ]
+}

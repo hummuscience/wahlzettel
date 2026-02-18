@@ -1,0 +1,150 @@
+{
+  "election": "hanau-kav",
+  "name": "Ausländerbeirat",
+  "totalStimmen": 15,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Die Gerechtigkeitspartei - Team Todenhöfer",
+      "shortName": "Gerechtigkeitspartei",
+      "candidateCount": 9,
+      "candidates": [
+        {
+          "id": "ha-kav-1-1",
+          "position": 1,
+          "lastName": "Talic",
+          "firstName": "Ajdin",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-1-2",
+          "position": 2,
+          "lastName": "Karahan",
+          "firstName": "Fatih",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-1-3",
+          "position": 3,
+          "lastName": "Korotkin",
+          "firstName": "Albert",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-1-4",
+          "position": 4,
+          "lastName": "Bilici",
+          "firstName": "Gülhan",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-1-5",
+          "position": 5,
+          "lastName": "Bayram",
+          "firstName": "Muhammed",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-1-6",
+          "position": 6,
+          "lastName": "Kamali",
+          "firstName": "Mehmet",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-1-13",
+          "position": 13,
+          "lastName": "Kivrak",
+          "firstName": "Elif",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-1-14",
+          "position": 14,
+          "lastName": "Koc",
+          "firstName": "Izzet",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-1-15",
+          "position": 15,
+          "lastName": "Gültekin",
+          "firstName": "Alpay",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "shortName": "SPD",
+      "candidateCount": 9,
+      "candidates": [
+        {
+          "id": "ha-kav-2-2",
+          "position": 2,
+          "lastName": "Reisinger",
+          "firstName": "Tolgahan",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-2-3",
+          "position": 3,
+          "lastName": "Jagust",
+          "firstName": "Anna",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-2-5",
+          "position": 5,
+          "lastName": "Agit",
+          "firstName": "Nurhan",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-2-6",
+          "position": 6,
+          "lastName": "Saroukh",
+          "firstName": "Mostafa",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-2-7",
+          "position": 7,
+          "lastName": "Köse",
+          "firstName": "Kadir",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-2-8",
+          "position": 8,
+          "lastName": "Celikkol",
+          "firstName": "Hakki",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-2-9",
+          "position": 9,
+          "lastName": "Darici",
+          "firstName": "Müsamettin",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-2-10",
+          "position": 10,
+          "lastName": "Jagust",
+          "firstName": "Gordan",
+          "profession": ""
+        },
+        {
+          "id": "ha-kav-2-11",
+          "position": 11,
+          "lastName": "Kurt",
+          "firstName": "Muzaffer",
+          "profession": ""
+        }
+      ]
+    }
+  ]
+}

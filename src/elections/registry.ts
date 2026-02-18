@@ -122,6 +122,46 @@ const ELECTIONS: ElectionEntry[] = [
     shareTypeCode: 22,
     load: () => import('./bw-landtagswahl/config').then(m => m.default),
   },
+  {
+    slug: 'darmstadt-kav',
+    shareTypeCode: 23,
+    load: () => import('./darmstadt-kav/config').then(m => m.default),
+  },
+  {
+    slug: 'fulda-kav',
+    shareTypeCode: 24,
+    load: () => import('./fulda-kav/config').then(m => m.default),
+  },
+  {
+    slug: 'giessen-kav',
+    shareTypeCode: 25,
+    load: () => import('./giessen-kav/config').then(m => m.default),
+  },
+  {
+    slug: 'hanau-kav',
+    shareTypeCode: 26,
+    load: () => import('./hanau-kav/config').then(m => m.default),
+  },
+  {
+    slug: 'kassel-kav',
+    shareTypeCode: 27,
+    load: () => import('./kassel-kav/config').then(m => m.default),
+  },
+  {
+    slug: 'marburg-kav',
+    shareTypeCode: 28,
+    load: () => import('./marburg-kav/config').then(m => m.default),
+  },
+  {
+    slug: 'offenbach-kav',
+    shareTypeCode: 29,
+    load: () => import('./offenbach-kav/config').then(m => m.default),
+  },
+  {
+    slug: 'ruesselsheim-kav',
+    shareTypeCode: 30,
+    load: () => import('./ruesselsheim-kav/config').then(m => m.default),
+  },
 ];
 
 export function getAllElections(): ElectionEntry[] {

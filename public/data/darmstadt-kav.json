@@ -1,0 +1,350 @@
+{
+  "election": "darmstadt-kav",
+  "name": "Ausländerbeirat",
+  "totalStimmen": 21,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Liste der Vielfalt Darmstadt",
+      "shortName": "LDV Darmstadt",
+      "candidateCount": 7,
+      "candidates": [
+        {
+          "id": "da-kav-1-1",
+          "position": 1,
+          "lastName": "Bensafi",
+          "firstName": "Said",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-1-2",
+          "position": 2,
+          "lastName": "Ettaqi",
+          "firstName": "Noura",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-1-3",
+          "position": 3,
+          "lastName": "Bensafi",
+          "firstName": "Jaouad",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-1-4",
+          "position": 4,
+          "lastName": "Lakud",
+          "firstName": "Yusuf",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-1-5",
+          "position": 5,
+          "lastName": "Elgayed",
+          "firstName": "Amir",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-1-6",
+          "position": 6,
+          "lastName": "Al Abdullah",
+          "firstName": "Omar",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-1-7",
+          "position": 7,
+          "lastName": "Kasem",
+          "firstName": "Nouralddin",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "Liste der Solidarität",
+      "shortName": "LdS",
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "id": "da-kav-2-1",
+          "position": 1,
+          "lastName": "Parlak",
+          "firstName": "Dursun",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-2-2",
+          "position": 2,
+          "lastName": "Zengin",
+          "firstName": "Elif",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-2-3",
+          "position": 3,
+          "lastName": "Parlak",
+          "firstName": "Gülsen",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "fullName": "Die Internationalen",
+      "shortName": "Die Internationalen",
+      "candidateCount": 8,
+      "candidates": [
+        {
+          "id": "da-kav-3-2",
+          "position": 2,
+          "lastName": "Kurt",
+          "firstName": "Eda",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-3-3",
+          "position": 3,
+          "lastName": "Dogan",
+          "firstName": "Nuriye",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-3-5",
+          "position": 5,
+          "lastName": "Zarifi",
+          "firstName": "Atiqullah",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-3-6",
+          "position": 6,
+          "lastName": "Ali Ulusow",
+          "firstName": "Abdishakur",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-3-7",
+          "position": 7,
+          "lastName": "Mahamed",
+          "firstName": "Aden Abdullahi",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-3-8",
+          "position": 8,
+          "lastName": "Eleftheriadis",
+          "firstName": "Bożena",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-3-9",
+          "position": 9,
+          "lastName": "Eleftheriadis",
+          "firstName": "Ioannis",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-3-10",
+          "position": 10,
+          "lastName": "Larosa",
+          "firstName": "Domenico",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "POLONIA DARMSTADT",
+      "shortName": "POLONIA DARMSTADT",
+      "candidateCount": 7,
+      "candidates": [
+        {
+          "id": "da-kav-4-1",
+          "position": 1,
+          "lastName": "Piotrowska",
+          "firstName": "Aleksandra",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-4-2",
+          "position": 2,
+          "lastName": "Babiś",
+          "firstName": "Barbara",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-4-3",
+          "position": 3,
+          "lastName": "Jankowski",
+          "firstName": "Magdalena",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-4-4",
+          "position": 4,
+          "lastName": "Dr. Karabowicz",
+          "firstName": "Radosław",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-4-5",
+          "position": 5,
+          "lastName": "Klich",
+          "firstName": "Anna",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-4-6",
+          "position": 6,
+          "lastName": "Heller",
+          "firstName": "Elżbieta",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-4-7",
+          "position": 7,
+          "lastName": "Stelter",
+          "firstName": "Antoni",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "Stimme für Darmstadt",
+      "shortName": "SfD",
+      "candidateCount": 7,
+      "candidates": [
+        {
+          "id": "da-kav-5-1",
+          "position": 1,
+          "lastName": "Altintas",
+          "firstName": "Senay",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-5-2",
+          "position": 2,
+          "lastName": "Cengiz",
+          "firstName": "Ümit",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-5-3",
+          "position": 3,
+          "lastName": "Tetik",
+          "firstName": "Orhan",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-5-4",
+          "position": 4,
+          "lastName": "Demirci",
+          "firstName": "Ercan",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-5-5",
+          "position": 5,
+          "lastName": "Demirci",
+          "firstName": "Bilal",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-5-6",
+          "position": 6,
+          "lastName": "Uğurlu",
+          "firstName": "Elyesa",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-5-7",
+          "position": 7,
+          "lastName": "Atlı",
+          "firstName": "Atila",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "fullName": "Progressive Ausländer Union",
+      "shortName": "PAU",
+      "candidateCount": 10,
+      "candidates": [
+        {
+          "id": "da-kav-6-1",
+          "position": 1,
+          "lastName": "Arshad Ahmad",
+          "firstName": "Shahbaz",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-2",
+          "position": 2,
+          "lastName": "Akbar",
+          "firstName": "Javed",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-3",
+          "position": 3,
+          "lastName": "Yaqub",
+          "firstName": "Muhammad",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-4",
+          "position": 4,
+          "lastName": "Mahmood",
+          "firstName": "Amer",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-5",
+          "position": 5,
+          "lastName": "Rashid",
+          "firstName": "Adnan",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-6",
+          "position": 6,
+          "lastName": "Nisar",
+          "firstName": "Syeda Rehana",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-7",
+          "position": 7,
+          "lastName": "Barry",
+          "firstName": "Adama Oury",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-8",
+          "position": 8,
+          "lastName": "Singh",
+          "firstName": "Davinder",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-9",
+          "position": 9,
+          "lastName": "Hamza Hammoud Mohammad Za'arir",
+          "firstName": "",
+          "profession": ""
+        },
+        {
+          "id": "da-kav-6-10",
+          "position": 10,
+          "lastName": "Loun",
+          "firstName": "Waheed Ahmad",
+          "profession": ""
+        }
+      ]
+    }
+  ]
+}

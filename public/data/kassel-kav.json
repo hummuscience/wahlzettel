@@ -1,0 +1,637 @@
+{
+  "election": "kassel-kav",
+  "name": "Ausländerbeirat",
+  "totalStimmen": 37,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Gemeinschaft 2000",
+      "shortName": "G 2000",
+      "candidates": [
+        {
+          "id": "ks-kav-1-1",
+          "position": 1,
+          "lastName": "Saygin",
+          "firstName": "Kamil",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-2",
+          "position": 2,
+          "lastName": "Kuchminskaja-Eimer",
+          "firstName": "Marina",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-3",
+          "position": 3,
+          "lastName": "Dergui",
+          "firstName": "Omar",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-4",
+          "position": 4,
+          "lastName": "Yazicioğlu",
+          "firstName": "Semra",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-5",
+          "position": 5,
+          "lastName": "Öztürk",
+          "firstName": "Caglar",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-6",
+          "position": 6,
+          "lastName": "Yazicioğlu",
+          "firstName": "Yasemin",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-7",
+          "position": 7,
+          "lastName": "Saleh",
+          "firstName": "Mustfa",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-8",
+          "position": 8,
+          "lastName": "Trifonova",
+          "firstName": "Teodora",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-9",
+          "position": 9,
+          "lastName": "EryörüMk",
+          "firstName": "Seyfettin",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-10",
+          "position": 10,
+          "lastName": "Yilmaz",
+          "firstName": "Müzeyyen",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-12",
+          "position": 12,
+          "lastName": "Galip",
+          "firstName": "Canan",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-13",
+          "position": 13,
+          "lastName": "Ahmadi",
+          "firstName": "Morteza",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-14",
+          "position": 14,
+          "lastName": "Jendoubi",
+          "firstName": "Saber",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-15",
+          "position": 15,
+          "lastName": "Alkhater",
+          "firstName": "Hasan",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-16",
+          "position": 16,
+          "lastName": "Yemdji Kuete",
+          "firstName": "Merlin",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-17",
+          "position": 17,
+          "lastName": "Salili",
+          "firstName": "Khalid",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-18",
+          "position": 18,
+          "lastName": "Saygin",
+          "firstName": "Ramazan",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-19",
+          "position": 19,
+          "lastName": "Turhal",
+          "firstName": "Kemal",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-20",
+          "position": 20,
+          "lastName": "Matouk",
+          "firstName": "Omar",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-21",
+          "position": 21,
+          "lastName": "Aksan",
+          "firstName": "Mustafa",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-22",
+          "position": 22,
+          "lastName": "Tanyeri",
+          "firstName": "Altan",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-23",
+          "position": 23,
+          "lastName": "Coban-Yildiz",
+          "firstName": "Hanife",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-24",
+          "position": 24,
+          "lastName": "Ezawik",
+          "firstName": "Ahmed",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-1-25",
+          "position": 25,
+          "lastName": "Beloufi a",
+          "firstName": "Rachid",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 24
+    },
+    {
+      "listNumber": 2,
+      "fullName": "Der Kreis – Kassel",
+      "shortName": "Der Kreis",
+      "candidates": [
+        {
+          "id": "ks-kav-2-1",
+          "position": 1,
+          "lastName": "Katrych",
+          "firstName": "Andrii",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-2",
+          "position": 2,
+          "lastName": "Katrych",
+          "firstName": "Oksana",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-3",
+          "position": 3,
+          "lastName": "Bohatyrova",
+          "firstName": "Tamara",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-4",
+          "position": 4,
+          "lastName": "Rusanova",
+          "firstName": "Iryna",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-5",
+          "position": 5,
+          "lastName": "Kremska",
+          "firstName": "Kateryna",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-6",
+          "position": 6,
+          "lastName": "Ievtukhovska",
+          "firstName": "Olga",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-7",
+          "position": 7,
+          "lastName": "Rudnyk",
+          "firstName": "Roman",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-8",
+          "position": 8,
+          "lastName": "Prykhodko",
+          "firstName": "Anna",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-9",
+          "position": 9,
+          "lastName": "Kliuchnikov",
+          "firstName": "Denys",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-10",
+          "position": 10,
+          "lastName": "Rudnyk",
+          "firstName": "Iryna",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-12",
+          "position": 12,
+          "lastName": "Havrylova",
+          "firstName": "Marharyta",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-13",
+          "position": 13,
+          "lastName": "Hrekova",
+          "firstName": "Olha",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-2-14",
+          "position": 14,
+          "lastName": "Yevtukhovska",
+          "firstName": "Olesia",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 13
+    },
+    {
+      "listNumber": 3,
+      "fullName": "EUROPA LISTE",
+      "shortName": "EUROPA LISTE",
+      "candidates": [
+        {
+          "id": "ks-kav-3-1",
+          "position": 1,
+          "lastName": "Malva",
+          "firstName": "Pasquale",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-3-2",
+          "position": 2,
+          "lastName": "Choutou",
+          "firstName": "Maria",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-3-3",
+          "position": 3,
+          "lastName": "Caruso",
+          "firstName": "Mariella",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-3-4",
+          "position": 4,
+          "lastName": "Valencia Pereira",
+          "firstName": "Guilermo",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-3-5",
+          "position": 5,
+          "lastName": "Taranczewska-Swiatkowska",
+          "firstName": "Joana",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-3-6",
+          "position": 6,
+          "lastName": "Ngo Ndjiki",
+          "firstName": "Nina",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-3-7",
+          "position": 7,
+          "lastName": "Leone",
+          "firstName": "Pasquale",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-3-8",
+          "position": 8,
+          "lastName": "Seminerio",
+          "firstName": "Carmelo",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-3-9",
+          "position": 9,
+          "lastName": "Lo Voi",
+          "firstName": "Giusepe",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 9
+    },
+    {
+      "listNumber": 4,
+      "fullName": "Democratic World",
+      "shortName": "DW",
+      "candidates": [
+        {
+          "id": "ks-kav-4-1",
+          "position": 1,
+          "lastName": "Becker-Hong",
+          "firstName": "Yuanyuan",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-2",
+          "position": 2,
+          "lastName": "Theleman",
+          "firstName": "Lidia",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-3",
+          "position": 3,
+          "lastName": "Curacachi-Wiedman",
+          "firstName": "Yesenia",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-4",
+          "position": 4,
+          "lastName": "Balta",
+          "firstName": "Guelsen",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-5",
+          "position": 5,
+          "lastName": "Tang",
+          "firstName": "Xiaoyan",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-6",
+          "position": 6,
+          "lastName": "Mashkina",
+          "firstName": "Anhelina",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-7",
+          "position": 7,
+          "lastName": "Musie",
+          "firstName": "Senet",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-8",
+          "position": 8,
+          "lastName": "Eremia",
+          "firstName": "Simona",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-9",
+          "position": 9,
+          "lastName": "Drzazga",
+          "firstName": "Ewa",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-10",
+          "position": 10,
+          "lastName": "Vejselovic-Hujdur",
+          "firstName": "Ifeta",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-4-11",
+          "position": 11,
+          "lastName": "Song-Boden",
+          "firstName": "Myong-Ree",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 11
+    },
+    {
+      "listNumber": 5,
+      "fullName": "Migrantinnen und Migranten Liste Kassel",
+      "shortName": "MML Kassel",
+      "candidates": [
+        {
+          "id": "ks-kav-5-1",
+          "position": 1,
+          "lastName": "Mohtadi Ilkhanizadeh",
+          "firstName": "Leila",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-2",
+          "position": 2,
+          "lastName": "Samuel-Ehiwario",
+          "firstName": "Chuks",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-3",
+          "position": 3,
+          "lastName": "Brune",
+          "firstName": "Anelia",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-4",
+          "position": 4,
+          "lastName": "Annesley",
+          "firstName": "Ratnasingham",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-5",
+          "position": 5,
+          "lastName": "Barros Moura Saathoff",
+          "firstName": "Leila",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-6",
+          "position": 6,
+          "lastName": "Andemeskel",
+          "firstName": "Jordanoz",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-7",
+          "position": 7,
+          "lastName": "Diallo",
+          "firstName": "Alhassane",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-8",
+          "position": 8,
+          "lastName": "Haupt-Kayaga",
+          "firstName": "Ivy Violet",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-9",
+          "position": 9,
+          "lastName": "Duru",
+          "firstName": "Eddy",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-10",
+          "position": 10,
+          "lastName": "De Sousa Brito",
+          "firstName": "Yasmin",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-11",
+          "position": 11,
+          "lastName": "Ndoh",
+          "firstName": "Simon",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-12",
+          "position": 12,
+          "lastName": "Almadani",
+          "firstName": "Zohreh",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-13",
+          "position": 13,
+          "lastName": "Araya-Quehl",
+          "firstName": "Freweini",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-5-14",
+          "position": 14,
+          "lastName": "Hamd",
+          "firstName": "Maram",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 14
+    },
+    {
+      "listNumber": 6,
+      "fullName": "ABK Liste",
+      "shortName": "ABK",
+      "candidates": [
+        {
+          "id": "ks-kav-6-1",
+          "position": 1,
+          "lastName": "Wacays",
+          "firstName": "Mohamed",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-2",
+          "position": 2,
+          "lastName": "Ishaq Husein",
+          "firstName": "Ibrahim",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-3",
+          "position": 3,
+          "lastName": "Abu Shahar",
+          "firstName": "Najah Khadar",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-5",
+          "position": 5,
+          "lastName": "Mohamed Yousef",
+          "firstName": "Ahmed",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-6",
+          "position": 6,
+          "lastName": "Osman",
+          "firstName": "Axmed",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-7",
+          "position": 7,
+          "lastName": "Yuusuf Aadan",
+          "firstName": "Ikraan",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-8",
+          "position": 8,
+          "lastName": "Kahin",
+          "firstName": "Kahin",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-9",
+          "position": 9,
+          "lastName": "Osman Moalim Muhamud",
+          "firstName": "Usama",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-10",
+          "position": 10,
+          "lastName": "Abdi",
+          "firstName": "Yasin",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-11",
+          "position": 11,
+          "lastName": "Mohamed",
+          "firstName": "Asmo",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-12",
+          "position": 12,
+          "lastName": "Abdullahi Yusuf",
+          "firstName": "Ahmed",
+          "profession": ""
+        },
+        {
+          "id": "ks-kav-6-14",
+          "position": 14,
+          "lastName": "Ahmed Nuur",
+          "firstName": "Abokar",
+          "profession": ""
+        }
+      ],
+      "candidateCount": 12
+    }
+  ]
+}

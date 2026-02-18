@@ -57,6 +57,7 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'darmstadt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004e8a' },
+      { slug: 'darmstadt-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 21, themeColor: '#004e8a' },
     ],
   },
   {
@@ -72,6 +73,7 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'fulda-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#8B0000' },
+      { slug: 'fulda-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 11, themeColor: '#8B0000' },
     ],
   },
   {
@@ -79,6 +81,7 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'giessen-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#006633' },
+      { slug: 'giessen-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 31, themeColor: '#006633' },
     ],
   },
   {
@@ -86,6 +89,7 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'hanau-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#c41e3a' },
+      { slug: 'hanau-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 15, themeColor: '#c41e3a' },
     ],
   },
   {
@@ -93,6 +97,7 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'kassel-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004f9f' },
+      { slug: 'kassel-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 37, themeColor: '#004f9f' },
     ],
   },
   {
@@ -100,6 +105,7 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'marburg-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#163455' },
+      { slug: 'marburg-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 15, themeColor: '#163455' },
     ],
   },
   {
@@ -177,6 +183,7 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'offenbach-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#1a5276' },
+      { slug: 'offenbach-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 25, themeColor: '#1a5276' },
     ],
   },
   {
@@ -184,6 +191,7 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'ruesselsheim-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 45, themeColor: '#003399' },
+      { slug: 'ruesselsheim-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 21, themeColor: '#003399' },
     ],
   },
   {

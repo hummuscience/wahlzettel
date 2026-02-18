@@ -1,0 +1,356 @@
+{
+  "election": "fulda-kav",
+  "name": "Ausländerbeirat",
+  "totalStimmen": 11,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Internationale Gruppe Ausländerbeirat",
+      "shortName": "IGA",
+      "candidateCount": 9,
+      "candidates": [
+        {
+          "id": "fu-kav-1-1",
+          "position": 1,
+          "lastName": "Dr. Wardak",
+          "firstName": "Naim",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-1-2",
+          "position": 2,
+          "lastName": "Mamlouk",
+          "firstName": "Delia",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-1-3",
+          "position": 3,
+          "lastName": "Torokhova",
+          "firstName": "Elizaveta",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-1-4",
+          "position": 4,
+          "lastName": "Sliusar",
+          "firstName": "Kateryna",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-1-5",
+          "position": 5,
+          "lastName": "Sydorianskyi",
+          "firstName": "Vadym",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-1-6",
+          "position": 6,
+          "lastName": "Katramiz",
+          "firstName": "Nadia",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-1-7",
+          "position": 7,
+          "lastName": "Uyguc",
+          "firstName": "Nafiye",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-1-8",
+          "position": 8,
+          "lastName": "Figen",
+          "firstName": "Tugba",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-1-9",
+          "position": 9,
+          "lastName": "Mamlouk",
+          "firstName": "Bana",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "Friedensbrücke",
+      "shortName": "FB",
+      "candidateCount": 10,
+      "candidates": [
+        {
+          "id": "fu-kav-2-1",
+          "position": 1,
+          "lastName": "Dalmis",
+          "firstName": "Nihat",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-2",
+          "position": 2,
+          "lastName": "Küçükler",
+          "firstName": "Ramazan",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-3",
+          "position": 3,
+          "lastName": "Eren",
+          "firstName": "Kadri",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-4",
+          "position": 4,
+          "lastName": "Akdogan",
+          "firstName": "Mahmut",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-5",
+          "position": 5,
+          "lastName": "Erdin",
+          "firstName": "Erman",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-6",
+          "position": 6,
+          "lastName": "Şahin",
+          "firstName": "Ahmet",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-7",
+          "position": 7,
+          "lastName": "Günay",
+          "firstName": "Murat",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-8",
+          "position": 8,
+          "lastName": "Soylu",
+          "firstName": "Ramazan",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-9",
+          "position": 9,
+          "lastName": "Bilgir",
+          "firstName": "Beyhan",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-2-10",
+          "position": 10,
+          "lastName": "Özger",
+          "firstName": "Hülya",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "fullName": "Alternative für Deutschland",
+      "shortName": "AfD",
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "id": "fu-kav-3-1",
+          "position": 1,
+          "lastName": "Kaffo Tallaffo",
+          "firstName": "Alain",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-3-2",
+          "position": 2,
+          "lastName": "Gilbert",
+          "firstName": "Artur",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-3-3",
+          "position": 3,
+          "lastName": "Reinisch",
+          "firstName": "Peter",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "Internationale Sozialdemokratische Liste",
+      "shortName": "ISL",
+      "candidateCount": 11,
+      "candidates": [
+        {
+          "id": "fu-kav-4-1",
+          "position": 1,
+          "lastName": "Demir",
+          "firstName": "Abdulkerim",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-2",
+          "position": 2,
+          "lastName": "Atanasova",
+          "firstName": "Ivana",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-3",
+          "position": 3,
+          "lastName": "Acar",
+          "firstName": "Ebru",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-4",
+          "position": 4,
+          "lastName": "Biçakci",
+          "firstName": "Silvia",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-5",
+          "position": 5,
+          "lastName": "Chelovan",
+          "firstName": "Svitlana",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-6",
+          "position": 6,
+          "lastName": "Stojovska",
+          "firstName": "Dragana",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-7",
+          "position": 7,
+          "lastName": "Urhan",
+          "firstName": "Filiz",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-8",
+          "position": 8,
+          "lastName": "Abdo",
+          "firstName": "Ghandi",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-9",
+          "position": 9,
+          "lastName": "Aydemir",
+          "firstName": "Ayten",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-10",
+          "position": 10,
+          "lastName": "Bayadrah",
+          "firstName": "Abdel Majid",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-4-11",
+          "position": 11,
+          "lastName": "Yilmaz",
+          "firstName": "Aysel",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "Demokratische Union Fulda",
+      "shortName": "DUF",
+      "candidateCount": 11,
+      "candidates": [
+        {
+          "id": "fu-kav-5-1",
+          "position": 1,
+          "lastName": "Panackal",
+          "firstName": "Cyriac Tomy",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-2",
+          "position": 2,
+          "lastName": "Majoros",
+          "firstName": "Attila",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-3",
+          "position": 3,
+          "lastName": "von Donop",
+          "firstName": "Solvita",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-4",
+          "position": 4,
+          "lastName": "Bodhe",
+          "firstName": "Vedant Vinayak",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-5",
+          "position": 5,
+          "lastName": "Guseva-Lind",
+          "firstName": "Regina",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-6",
+          "position": 6,
+          "lastName": "Iqbal",
+          "firstName": "Muhammad Haris",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-7",
+          "position": 7,
+          "lastName": "Anjum",
+          "firstName": "",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-8",
+          "position": 8,
+          "lastName": "Moolakkattu Sunny",
+          "firstName": "Albert",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-9",
+          "position": 9,
+          "lastName": "Kanombirira",
+          "firstName": "Mazvita Vanessa",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-10",
+          "position": 10,
+          "lastName": "Low",
+          "firstName": "Khang Ling",
+          "profession": ""
+        },
+        {
+          "id": "fu-kav-5-11",
+          "position": 11,
+          "lastName": "Siluks",
+          "firstName": "Aigars",
+          "profession": ""
+        }
+      ]
+    }
+  ]
+}

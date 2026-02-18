@@ -1,0 +1,447 @@
+{
+  "election": "giessen-kav",
+  "name": "Ausländerbeirat",
+  "totalStimmen": 31,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Avramkina, Daria (Einzelbewerberin)",
+      "shortName": "Avramkina",
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "id": "gi-kav-1-1",
+          "position": 1,
+          "lastName": "Avramkina",
+          "firstName": "Daria",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "Gießen International",
+      "shortName": "GI",
+      "candidateCount": 23,
+      "candidates": [
+        {
+          "id": "gi-kav-2-1",
+          "position": 1,
+          "lastName": "Tesfaghiorghis",
+          "firstName": "Eden",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-2",
+          "position": 2,
+          "lastName": "Sahin",
+          "firstName": "Zeynal",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-3",
+          "position": 3,
+          "lastName": "Joo Chang",
+          "firstName": "Lilia",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-4",
+          "position": 4,
+          "lastName": "Yemane",
+          "firstName": "Alem",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-5",
+          "position": 5,
+          "lastName": "Farah",
+          "firstName": "Sagell",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-6",
+          "position": 6,
+          "lastName": "Madjidian",
+          "firstName": "Nader",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-7",
+          "position": 7,
+          "lastName": "Cetin",
+          "firstName": "Sema",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-8",
+          "position": 8,
+          "lastName": "Safe Alden",
+          "firstName": "Hassan",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-9",
+          "position": 9,
+          "lastName": "Erdogan",
+          "firstName": "Zeynep",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-10",
+          "position": 10,
+          "lastName": "Tcheua Ngatchou",
+          "firstName": "Stephane",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-12",
+          "position": 12,
+          "lastName": "Jayakrishnan",
+          "firstName": "Selva",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-15",
+          "position": 15,
+          "lastName": "Atorvin",
+          "firstName": "Nataliia",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-16",
+          "position": 16,
+          "lastName": "Bewketu",
+          "firstName": "Michael",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-17",
+          "position": 17,
+          "lastName": "Asenai",
+          "firstName": "Rihan Mohammed",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-18",
+          "position": 18,
+          "lastName": "Seyfaldin",
+          "firstName": "Ferhad",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-19",
+          "position": 19,
+          "lastName": "Traore",
+          "firstName": "Alex",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-20",
+          "position": 20,
+          "lastName": "Koçyiğit",
+          "firstName": "Adar",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-21",
+          "position": 21,
+          "lastName": "Alwahbi",
+          "firstName": "Fatehia",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-23",
+          "position": 23,
+          "lastName": "Adhikari",
+          "firstName": "Anu",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-24",
+          "position": 24,
+          "lastName": "Alcheikho",
+          "firstName": "Alan",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-25",
+          "position": 25,
+          "lastName": "Malik",
+          "firstName": "Mhammad",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-26",
+          "position": 26,
+          "lastName": "Mesho",
+          "firstName": "Hasan",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-2-27",
+          "position": 27,
+          "lastName": "Mella Haji",
+          "firstName": "Haiffa",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "fullName": "Liste für Vielfalt und Teilhabe",
+      "shortName": "ViT",
+      "candidateCount": 8,
+      "candidates": [
+        {
+          "id": "gi-kav-3-1",
+          "position": 1,
+          "lastName": "Ruman",
+          "firstName": "Ehab",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-3-2",
+          "position": 2,
+          "lastName": "Faysal",
+          "firstName": "Ahmad",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-3-3",
+          "position": 3,
+          "lastName": "Şen",
+          "firstName": "Ayşe",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-3-4",
+          "position": 4,
+          "lastName": "Jalala",
+          "firstName": "Hamid",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-3-5",
+          "position": 5,
+          "lastName": "Bouzan",
+          "firstName": "Karim",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-3-9",
+          "position": 9,
+          "lastName": "Veeroju",
+          "firstName": "Venkatesh",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-3-10",
+          "position": 10,
+          "lastName": "Veeroju",
+          "firstName": "Swathi",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-3-11",
+          "position": 11,
+          "lastName": "Jouda",
+          "firstName": "Wesam",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "Kurdistan Liste",
+      "shortName": "KURD",
+      "candidateCount": 9,
+      "candidates": [
+        {
+          "id": "gi-kav-4-2",
+          "position": 2,
+          "lastName": "Özalp",
+          "firstName": "Rengin",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-4-3",
+          "position": 3,
+          "lastName": "Seyfaldin",
+          "firstName": "Eva",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-4-4",
+          "position": 4,
+          "lastName": "Saz",
+          "firstName": "Mahmut",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-4-5",
+          "position": 5,
+          "lastName": "Akinci",
+          "firstName": "Rafide",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-4-6",
+          "position": 6,
+          "lastName": "Özalp",
+          "firstName": "Emine",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-4-7",
+          "position": 7,
+          "lastName": "Özalp",
+          "firstName": "Mehmet",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-4-8",
+          "position": 8,
+          "lastName": "Özalp",
+          "firstName": "Abdulhalim",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-4-9",
+          "position": 9,
+          "lastName": "Altahlo",
+          "firstName": "Ayaz",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-4-10",
+          "position": 10,
+          "lastName": "Altahlo",
+          "firstName": "Houzan",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "Ukraine Liste",
+      "shortName": "UL",
+      "candidateCount": 16,
+      "candidates": [
+        {
+          "id": "gi-kav-5-1",
+          "position": 1,
+          "lastName": "Dzhukh",
+          "firstName": "Kateryna",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-2",
+          "position": 2,
+          "lastName": "Plitko",
+          "firstName": "Svitlana",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-3",
+          "position": 3,
+          "lastName": "Tkachyenko",
+          "firstName": "Oleh",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-4",
+          "position": 4,
+          "lastName": "Zakharova",
+          "firstName": "Liudmyla",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-5",
+          "position": 5,
+          "lastName": "Kulbachna",
+          "firstName": "Olena",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-6",
+          "position": 6,
+          "lastName": "Golub",
+          "firstName": "Alexandr",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-7",
+          "position": 7,
+          "lastName": "Kulish",
+          "firstName": "Hanna",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-8",
+          "position": 8,
+          "lastName": "Golub",
+          "firstName": "Inna",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-9",
+          "position": 9,
+          "lastName": "Komarova",
+          "firstName": "Liudmyla",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-10",
+          "position": 10,
+          "lastName": "Verkalets",
+          "firstName": "Roman",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-11",
+          "position": 11,
+          "lastName": "Gutsul",
+          "firstName": "Nazarii",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-12",
+          "position": 12,
+          "lastName": "Rubtsova",
+          "firstName": "Tetyana",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-13",
+          "position": 13,
+          "lastName": "Udod",
+          "firstName": "Tetiana",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-14",
+          "position": 14,
+          "lastName": "Kryzhanovska",
+          "firstName": "Olga",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-15",
+          "position": 15,
+          "lastName": "Rozbytskyi",
+          "firstName": "Vitalii",
+          "profession": ""
+        },
+        {
+          "id": "gi-kav-5-16",
+          "position": 16,
+          "lastName": "Levkova",
+          "firstName": "Yelizavieta",
+          "profession": ""
+        }
+      ]
+    }
+  ]
+}

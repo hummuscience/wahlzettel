@@ -1,0 +1,717 @@
+{
+  "election": "offenbach-kav",
+  "name": "Ausländerbeirat",
+  "totalStimmen": 25,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Offenbach Türk Birliği – Türkische Union Offenbach",
+      "shortName": "TUO",
+      "candidateCount": 6,
+      "candidates": [
+        {
+          "id": "of-kav-1-1",
+          "position": 1,
+          "lastName": "Tunç",
+          "firstName": "Selim",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-1-2",
+          "position": 2,
+          "lastName": "Ergisi",
+          "firstName": "Sevgi",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-1-3",
+          "position": 3,
+          "lastName": "Yeşilyurt",
+          "firstName": "Mehmet",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-1-4",
+          "position": 4,
+          "lastName": "Aber",
+          "firstName": "Cemal",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-1-5",
+          "position": 5,
+          "lastName": "Ülker",
+          "firstName": "Kismet",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-1-6",
+          "position": 6,
+          "lastName": "Babaoğlu",
+          "firstName": "Cemil",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "Progressive Ausländer Union",
+      "shortName": "PAU",
+      "candidateCount": 10,
+      "candidates": [
+        {
+          "id": "of-kav-2-1",
+          "position": 1,
+          "lastName": "Latif Mir",
+          "firstName": "Abdul",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-2",
+          "position": 2,
+          "lastName": "Khan",
+          "firstName": "Zafar Ullah",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-3",
+          "position": 3,
+          "lastName": "Asif",
+          "firstName": "Mahmood",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-4",
+          "position": 4,
+          "lastName": "Warraich",
+          "firstName": "Mukhtar",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-5",
+          "position": 5,
+          "lastName": "Ahmed",
+          "firstName": "Muzaffar",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-6",
+          "position": 6,
+          "lastName": "Hassan",
+          "firstName": "Shahid",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-7",
+          "position": 7,
+          "lastName": "Mir",
+          "firstName": "Shahzad Latif",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-8",
+          "position": 8,
+          "lastName": "Shoaib",
+          "firstName": "Muhammad",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-9",
+          "position": 9,
+          "lastName": "Latif",
+          "firstName": "Amtul Basit",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-2-10",
+          "position": 10,
+          "lastName": "Naz",
+          "firstName": "Najma",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "fullName": "Miteinander Offenbach",
+      "shortName": "MEO",
+      "candidateCount": 15,
+      "candidates": [
+        {
+          "id": "of-kav-3-1",
+          "position": 1,
+          "lastName": "Öztürk",
+          "firstName": "Servet",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-2",
+          "position": 2,
+          "lastName": "Elmas",
+          "firstName": "Filiz",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-3",
+          "position": 3,
+          "lastName": "Elmas",
+          "firstName": "Hüseyin",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-4",
+          "position": 4,
+          "lastName": "Saltik",
+          "firstName": "Muhammed",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-5",
+          "position": 5,
+          "lastName": "Dilci",
+          "firstName": "Fikri",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-6",
+          "position": 6,
+          "lastName": "Bark",
+          "firstName": "Ayşe Melek",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-7",
+          "position": 7,
+          "lastName": "Çavuş",
+          "firstName": "Merve",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-8",
+          "position": 8,
+          "lastName": "Coşkun",
+          "firstName": "Enise",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-9",
+          "position": 9,
+          "lastName": "Doğan",
+          "firstName": "Fatih",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-10",
+          "position": 10,
+          "lastName": "Sari",
+          "firstName": "Muhammed",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-11",
+          "position": 11,
+          "lastName": "Gölge",
+          "firstName": "Ergün",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-12",
+          "position": 12,
+          "lastName": "Kale",
+          "firstName": "Azra",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-13",
+          "position": 13,
+          "lastName": "Yüzgeç",
+          "firstName": "Yaşar",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-14",
+          "position": 14,
+          "lastName": "Koca",
+          "firstName": "Muhammed",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-3-15",
+          "position": 15,
+          "lastName": "Candan",
+          "firstName": "Yunus",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "Multikulturelle Liste",
+      "shortName": "ML",
+      "candidateCount": 12,
+      "candidates": [
+        {
+          "id": "of-kav-4-1",
+          "position": 1,
+          "lastName": "Rafoud",
+          "firstName": "Abdelkader",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-2",
+          "position": 2,
+          "lastName": "Larhemouchi",
+          "firstName": "Jamila",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-3",
+          "position": 3,
+          "lastName": "Velagić",
+          "firstName": "Ismet",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-4",
+          "position": 4,
+          "lastName": "Hadžić",
+          "firstName": "Jonuz",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-5",
+          "position": 5,
+          "lastName": "Madani",
+          "firstName": "Abedin",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-6",
+          "position": 6,
+          "lastName": "Sanfilippo Frittola",
+          "firstName": "Giuseppe",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-7",
+          "position": 7,
+          "lastName": "Chisari",
+          "firstName": "Giuseppe",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-8",
+          "position": 8,
+          "lastName": "Jama Abdi",
+          "firstName": "Farah",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-9",
+          "position": 9,
+          "lastName": "Madani",
+          "firstName": "Natasha",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-10",
+          "position": 10,
+          "lastName": "Maazouzi",
+          "firstName": "Ahmed",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-11",
+          "position": 11,
+          "lastName": "Saber",
+          "firstName": "Abdelkader",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-4-12",
+          "position": 12,
+          "lastName": "El Kadaui Zarioh",
+          "firstName": "El Mokhtar",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "Offenbach für alle e.V.",
+      "shortName": "Ofa e.V.",
+      "candidateCount": 10,
+      "candidates": [
+        {
+          "id": "of-kav-5-1",
+          "position": 1,
+          "lastName": "Cadena Perez de Prinz",
+          "firstName": "Yakeline",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-2",
+          "position": 2,
+          "lastName": "Edéus",
+          "firstName": "John",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-3",
+          "position": 3,
+          "lastName": "Junker-Latocha",
+          "firstName": "Brian",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-4",
+          "position": 4,
+          "lastName": "Henao Cadena",
+          "firstName": "Sarah",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-5",
+          "position": 5,
+          "lastName": "da Silva",
+          "firstName": "Helena",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-6",
+          "position": 6,
+          "lastName": "Zoth",
+          "firstName": "Karlheinz",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-7",
+          "position": 7,
+          "lastName": "Edéus",
+          "firstName": "Jana",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-8",
+          "position": 8,
+          "lastName": "Terka",
+          "firstName": "Kamil",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-9",
+          "position": 9,
+          "lastName": "Edéus",
+          "firstName": "Viking",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-5-10",
+          "position": 10,
+          "lastName": "Edéus",
+          "firstName": "Emil",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "fullName": "Piratenpartei Deutschland",
+      "shortName": "PIRATEN",
+      "candidateCount": 10,
+      "candidates": [
+        {
+          "id": "of-kav-6-1",
+          "position": 1,
+          "lastName": "Engels",
+          "firstName": "Grigorij",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-2",
+          "position": 2,
+          "lastName": "Milenkovic",
+          "firstName": "Tatjana",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-3",
+          "position": 3,
+          "lastName": "Dr. Kadyrbajewa",
+          "firstName": "Dschamilja",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-4",
+          "position": 4,
+          "lastName": "Silea",
+          "firstName": "Traian-Vlad",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-5",
+          "position": 5,
+          "lastName": "Dr. Engels",
+          "firstName": "Ilja",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-6",
+          "position": 6,
+          "lastName": "Melnikov",
+          "firstName": "Anatolii",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-7",
+          "position": 7,
+          "lastName": "Melnikova",
+          "firstName": "Elena",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-8",
+          "position": 8,
+          "lastName": "Novikov",
+          "firstName": "Mihail",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-9",
+          "position": 9,
+          "lastName": "Novikova",
+          "firstName": "Larisa",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-6-10",
+          "position": 10,
+          "lastName": "Chifeac",
+          "firstName": "Liubov",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "fullName": "Serbische Liste",
+      "shortName": "SL",
+      "candidateCount": 9,
+      "candidates": [
+        {
+          "id": "of-kav-7-1",
+          "position": 1,
+          "lastName": "Crnogorac",
+          "firstName": "Andjelka",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-7-2",
+          "position": 2,
+          "lastName": "Ugrčić",
+          "firstName": "Saša",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-7-3",
+          "position": 3,
+          "lastName": "Bakal",
+          "firstName": "Dalibor",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-7-4",
+          "position": 4,
+          "lastName": "Jovanovski",
+          "firstName": "Robert",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-7-5",
+          "position": 5,
+          "lastName": "Milovanović",
+          "firstName": "Sara",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-7-6",
+          "position": 6,
+          "lastName": "Ugrčić",
+          "firstName": "Arijela",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-7-7",
+          "position": 7,
+          "lastName": "Milenković",
+          "firstName": "Milorad",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-7-8",
+          "position": 8,
+          "lastName": "Čorlija",
+          "firstName": "Marko",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-7-9",
+          "position": 9,
+          "lastName": "Tomić",
+          "firstName": "Branislav",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "fullName": "Griechische Gemeinschaft Offenbach",
+      "shortName": "GGO",
+      "candidateCount": 10,
+      "candidates": [
+        {
+          "id": "of-kav-8-1",
+          "position": 1,
+          "lastName": "Bellou",
+          "firstName": "Zacharoula",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-2",
+          "position": 2,
+          "lastName": "Chantzaras",
+          "firstName": "Christos",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-3",
+          "position": 3,
+          "lastName": "Floudas",
+          "firstName": "Ioannis",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-4",
+          "position": 4,
+          "lastName": "Almpanaki",
+          "firstName": "Alexandra",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-5",
+          "position": 5,
+          "lastName": "Ananiadou",
+          "firstName": "Alexandra",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-6",
+          "position": 6,
+          "lastName": "Chatzisymeonidis",
+          "firstName": "Ioannis",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-7",
+          "position": 7,
+          "lastName": "Chantzara",
+          "firstName": "Eleni",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-8",
+          "position": 8,
+          "lastName": "Basiou",
+          "firstName": "Iliana",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-9",
+          "position": 9,
+          "lastName": "Gkimpis",
+          "firstName": "Ilias",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-8-10",
+          "position": 10,
+          "lastName": "Drantsiou Stampoulidou",
+          "firstName": "Eleanna",
+          "profession": ""
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "fullName": "Türkische Gemeinschaft",
+      "shortName": "TG",
+      "candidateCount": 9,
+      "candidates": [
+        {
+          "id": "of-kav-9-1",
+          "position": 1,
+          "lastName": "Demirezen",
+          "firstName": "Naime",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-9-2",
+          "position": 2,
+          "lastName": "Bayrak",
+          "firstName": "Fatih",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-9-3",
+          "position": 3,
+          "lastName": "Erol",
+          "firstName": "Gökhan",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-9-4",
+          "position": 4,
+          "lastName": "Türet",
+          "firstName": "Fikri",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-9-5",
+          "position": 5,
+          "lastName": "Yildiz",
+          "firstName": "Besir Ahmet Yasar",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-9-6",
+          "position": 6,
+          "lastName": "Kirmizioglu",
+          "firstName": "Ikra Hatun",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-9-7",
+          "position": 7,
+          "lastName": "Yildirim",
+          "firstName": "Naime",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-9-8",
+          "position": 8,
+          "lastName": "Yigit",
+          "firstName": "Hüseyin",
+          "profession": ""
+        },
+        {
+          "id": "of-kav-9-9",
+          "position": 9,
+          "lastName": "Yigit",
+          "firstName": "Melda",
+          "profession": ""
+        }
+      ]
+    }
+  ]
+}
