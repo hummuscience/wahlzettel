@@ -1,7 +1,7 @@
 {
   "title": "How the municipal election works",
-  "step1Title": "You receive 3 ballots",
-  "step1Text": "In the municipal election, you receive three different ballots: for the City Council (the \"Römer\"), for the local council of your district, and – if you are an EU citizen – for the Municipal Foreigners' Advisory Council (KAV).",
+  "step1Title": "Your ballots",
+  "step1Text": "In the municipal election, there are different ballots: German and EU citizens vote for the City Council (the city hall) and the local district council. Non-German residents vote for the Municipal Foreigners' Advisory Council (KAV).",
   "step2Title": "{{count}} votes – as many seats as are being filled",
   "step2Text": "For this ballot, you have exactly {{count}} votes. You can distribute all {{count}} votes freely among candidates of all parties.",
   "step3Title": "Strategy 1: Vote for an entire list",

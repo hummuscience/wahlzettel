@@ -1,7 +1,7 @@
 {
   "title": "So funktioniert die Kommunalwahl",
-  "step1Title": "Du bekommst 3 Stimmzettel",
-  "step1Text": "Bei der Kommunalwahl erhältst du drei verschiedene Stimmzettel: für die Stadtverordnetenversammlung (den \"Römer\"), für den Ortsbeirat deines Stadtteils, und – falls du EU-Bürger/in bist – für die Kommunale Ausländer- und Ausländerinnenvertretung (KAV).",
+  "step1Title": "Deine Stimmzettel",
+  "step1Text": "Bei der Kommunalwahl gibt es verschiedene Stimmzettel: Deutsche und EU-Bürger/innen wählen die Stadtverordnetenversammlung (das Rathaus) und den Ortsbeirat. Nicht-deutsche Einwohner/innen wählen die Kommunale Ausländer- und Ausländerinnenvertretung (KAV).",
   "step2Title": "{{count}} Stimmen – so viele Sitze werden vergeben",
   "step2Text": "Für diesen Stimmzettel hast du genau {{count}} Stimmen. Du kannst alle {{count}} Stimmen frei auf die Kandidaten aller Parteien verteilen.",
   "step3Title": "Strategie 1: Ganze Liste wählen",

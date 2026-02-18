@@ -1,7 +1,7 @@
 {
   "title": "Yerel seçim nasıl işliyor?",
-  "step1Title": "3 oy pusulası alırsın",
-  "step1Text": "Yerel seçimde üç farklı oy pusulası alırsın: Belediye Meclisi (\"Römer\") için, senin semtinin yerel meclisi için ve – AB vatandaşıysan – Yabancılar Danışma Kurulu (KAV) için.",
+  "step1Title": "Oy pusulaların",
+  "step1Text": "Yerel seçimde farklı oy pusulaları vardır: Alman ve AB vatandaşları Belediye Meclisi (belediye binası) ve mahalle meclisi için oy kullanır. Alman olmayan sakinler Yabancılar Danışma Kurulu (KAV) için oy kullanır.",
   "step2Title": "{{count}} oy – verilen koltuk sayısı kadar",
   "step2Text": "Bu oy pusulası için tam {{count}} oyun var. {{count}} oyunu tüm partilerin adaylarına serbestçe dağıtabilirsin.",
   "step3Title": "Strateji 1: Tüm listeyi seç",
