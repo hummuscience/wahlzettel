@@ -17,5 +17,8 @@
   "nonGermanCitizenDesc": "Stimmzettel für die Kommunale Ausländer- und Ausländerinnenvertretung (KAV).",
   "stvvDesc": "Das Stadtparlament – wählen alle Deutschen und EU-Bürger/innen ab 18.",
   "kavDesc": "Vertretung für ausländische Einwohner/innen ohne EU-Pass ab 18.",
-  "switchBallot": "Stimmzettel wechseln"
+  "switchBallot": "Stimmzettel wechseln",
+  "cityMissing": "Deine Stadt fehlt?",
+  "suggestCity": "Stadt vorschlagen",
+  "stateMissing": "Dein Bundesland oder deine Stadt fehlt?"
 }

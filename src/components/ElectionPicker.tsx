@@ -234,6 +234,14 @@ const STATE_LABEL_POS: Record<string, { x: number; y: number }> = {
   by: { x: 370, y: 620 },
 };
 
+function buildCityRequestUrl(stateId?: string): string {
+  const base = 'https://github.com/hummuscience/wahlzettel/issues/new?template=city-request.yml';
+  if (stateId && STATE_NAMES[stateId]) {
+    return `${base}&bundesland=${encodeURIComponent(STATE_NAMES[stateId])}`;
+  }
+  return base;
+}
+
 interface ElectionPickerProps {
   onChoose: (slug: string) => void;
 }
@@ -312,6 +320,16 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
                 </text>
               ))}
             </svg>
+            <p className="text-center text-sm text-gray-400 mt-4">
+              <a
+                href={buildCityRequestUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-600 underline underline-offset-2 transition-colors"
+              >
+                {t('stateMissing')} → {t('suggestCity')}
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -394,6 +412,24 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
                 </div>
               </button>
             ))}
+
+            {/* Suggest a city CTA */}
+            <a
+              href={buildCityRequestUrl(stateId)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 rounded-xl border-2 border-dashed border-gray-200 hover:border-gray-400 px-5 py-4 transition-all group text-start"
+            >
+              <span className="w-6 h-6 rounded-full border-2 border-gray-300 group-hover:border-gray-500 flex items-center justify-center text-gray-300 group-hover:text-gray-500 text-sm font-bold transition-colors shrink-0">+</span>
+              <div>
+                <span className="font-semibold text-gray-400 group-hover:text-gray-600 transition-colors text-sm">
+                  {t('cityMissing')}
+                </span>
+                <span className="block text-xs text-gray-300 group-hover:text-gray-500 transition-colors">
+                  {t('suggestCity')}
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </div>

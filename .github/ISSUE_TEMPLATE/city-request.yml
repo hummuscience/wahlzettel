@@ -1,0 +1,65 @@
+name: "Stadt vorschlagen / Request a city"
+description: "Schlage eine neue Stadt oder Wahl vor / Suggest a new city or election"
+title: "[Stadt] "
+labels: ["city-request"]
+body:
+  - type: dropdown
+    id: bundesland
+    attributes:
+      label: "Bundesland / Federal state"
+      options:
+        - Baden-Württemberg
+        - Bayern
+        - Berlin
+        - Brandenburg
+        - Bremen
+        - Hamburg
+        - Hessen
+        - Mecklenburg-Vorpommern
+        - Niedersachsen
+        - Nordrhein-Westfalen
+        - Rheinland-Pfalz
+        - Saarland
+        - Sachsen
+        - Sachsen-Anhalt
+        - Schleswig-Holstein
+        - Thüringen
+    validations:
+      required: true
+
+  - type: input
+    id: stadt
+    attributes:
+      label: "Stadt / City"
+      placeholder: "z.B. Köln"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: wahl-typ
+    attributes:
+      label: "Wahl-Typ / Election type"
+      options:
+        - Kommunalwahl
+        - Ausländerbeirat
+        - Landtagswahl
+        - Sonstige / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: "Links zu Kandidatenlisten / Links to candidate lists"
+      description: "PDFs, Amtsblätter, offizielle Seiten / PDFs, official gazettes, official pages"
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: anmerkungen
+    attributes:
+      label: "Anmerkungen / Notes"
+      description: "Weitere Infos / Additional information"
+    validations:
+      required: false
