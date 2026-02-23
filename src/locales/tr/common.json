@@ -21,5 +21,12 @@
   "switchBallot": "Oy pusulasını değiştir",
   "cityMissing": "Şehrin listede yok mu?",
   "suggestCity": "Şehir öner",
-  "stateMissing": "Eyaletin veya şehrin listede yok mu?"
+  "stateMissing": "Eyaletin veya şehrin listede yok mu?",
+  "contact": "İletişim",
+  "contactName": "Ad",
+  "contactEmail": "E-posta",
+  "contactMessage": "Mesaj",
+  "contactSend": "Gönder",
+  "contactSuccess": "Mesaj gönderildi – teşekkürler!",
+  "contactError": "Gönderilemedi. Lütfen tekrar deneyin."
 }

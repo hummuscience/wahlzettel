@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { ContactForm } from '../ContactForm';
 
 export function Footer() {
   const { t } = useTranslation('common');
@@ -18,6 +19,10 @@ export function Footer() {
               muad.abdelhay@gmail.com
             </a>
           </p>
+        </details>
+        <details className="text-xs text-gray-400 mt-3">
+          <summary className="cursor-pointer hover:text-gray-600">{t('contact')}</summary>
+          <ContactForm />
         </details>
         <p className="text-xs text-gray-400 mt-3">
           <a

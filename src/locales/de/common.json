@@ -21,5 +21,12 @@
   "switchBallot": "Stimmzettel wechseln",
   "cityMissing": "Deine Stadt fehlt?",
   "suggestCity": "Stadt vorschlagen",
-  "stateMissing": "Dein Bundesland oder deine Stadt fehlt?"
+  "stateMissing": "Dein Bundesland oder deine Stadt fehlt?",
+  "contact": "Kontakt",
+  "contactName": "Name",
+  "contactEmail": "E-Mail",
+  "contactMessage": "Nachricht",
+  "contactSend": "Absenden",
+  "contactSuccess": "Nachricht gesendet – vielen Dank!",
+  "contactError": "Fehler beim Senden. Bitte versuche es erneut."
 }

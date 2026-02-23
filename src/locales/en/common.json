@@ -21,5 +21,12 @@
   "switchBallot": "Switch ballot",
   "cityMissing": "Your city is missing?",
   "suggestCity": "Suggest a city",
-  "stateMissing": "Your state or city is missing?"
+  "stateMissing": "Your state or city is missing?",
+  "contact": "Contact",
+  "contactName": "Name",
+  "contactEmail": "Email",
+  "contactMessage": "Message",
+  "contactSend": "Send",
+  "contactSuccess": "Message sent – thank you!",
+  "contactError": "Failed to send. Please try again."
 }

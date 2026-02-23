@@ -21,5 +21,12 @@
   "switchBallot": "تغيير ورقة الاقتراع",
   "cityMissing": "مدينتك غير موجودة؟",
   "suggestCity": "اقترح مدينة",
-  "stateMissing": "ولايتك أو مدينتك غير موجودة؟"
+  "stateMissing": "ولايتك أو مدينتك غير موجودة؟",
+  "contact": "تواصل معنا",
+  "contactName": "الاسم",
+  "contactEmail": "البريد الإلكتروني",
+  "contactMessage": "الرسالة",
+  "contactSend": "إرسال",
+  "contactSuccess": "تم إرسال الرسالة – شكراً لك!",
+  "contactError": "فشل الإرسال. يرجى المحاولة مرة أخرى."
 }

@@ -21,5 +21,12 @@
   "switchBallot": "Сменить бюллетень",
   "cityMissing": "Твоего города нет?",
   "suggestCity": "Предложить город",
-  "stateMissing": "Твоей земли или города нет?"
+  "stateMissing": "Твоей земли или города нет?",
+  "contact": "Контакт",
+  "contactName": "Имя",
+  "contactEmail": "Электронная почта",
+  "contactMessage": "Сообщение",
+  "contactSend": "Отправить",
+  "contactSuccess": "Сообщение отправлено – спасибо!",
+  "contactError": "Ошибка отправки. Попробуйте ещё раз."
 }

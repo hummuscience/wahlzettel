@@ -21,5 +21,12 @@
   "switchBallot": "Змінити бюлетень",
   "cityMissing": "Твого міста немає?",
   "suggestCity": "Запропонувати місто",
-  "stateMissing": "Твоєї землі чи міста немає?"
+  "stateMissing": "Твоєї землі чи міста немає?",
+  "contact": "Контакт",
+  "contactName": "Ім'я",
+  "contactEmail": "Електронна пошта",
+  "contactMessage": "Повідомлення",
+  "contactSend": "Надіслати",
+  "contactSuccess": "Повідомлення надіслано – дякуємо!",
+  "contactError": "Помилка надсилання. Спробуйте ще раз."
 }
