@@ -8,7 +8,7 @@ export const PARTY_COLORS: Record<string, string> = {
   'FREIE WÄHLER': '#f7a800',
   'Die PARTEI': '#b5152b',
   'Ehrenamt und Sport': '#ff9800',
-  'MERA25': '#0072e5',
+  'MERA25': '#ef4f24',
   'Tierschutzpartei': '#06ABAA',
   'Volt': '#502379',
   'BSW': '#4C0B5F',

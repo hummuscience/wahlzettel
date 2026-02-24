@@ -21,7 +21,7 @@ const PARTY_COLORS: Record<string, string> = {
   'ELF': '#CC1919',
   'Gartenpartei Ffm': '#004001',
   'PIRATEN': '#FE7400',
-  'MERA25': '#0072e5',
+  'MERA25': '#ef4f24',
   'Tierschutzpartei': '#06ABAA',
   'Frankfurt-Sozial!': '#d32f2f',
   'BSW': '#4C0B5F',
