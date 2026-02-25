@@ -1,10 +1,8 @@
 export const PARTY_COLORS: Record<string, string> = {
   'BIC': '#2e8b57',
-  'FREIE WÄHLER': '#f7a800',
   'WiF': '#c71585',
   'ML': '#4682b4',
   'GURT': '#0057b7',
-  'AfD': '#009ee0',
   'KDM': '#8b4513',
   'AKW': '#dc143c',
   'Ukrainische Union': '#ffd700',
@@ -13,5 +11,4 @@ export const PARTY_COLORS: Record<string, string> = {
   'Wir gehören zum Stadtbild': '#228b22',
   'WPU': '#daa520',
   'DAL': '#e65100',
-  'PAU': '#20b2aa',
 };

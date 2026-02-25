@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getPartyColor } from '../../data/partyColors';
+import { useElection } from '../../elections/ElectionContext';
 import type { VoteState } from '../../types';
 import { encodeVoteState, type ElectionType } from '../../utils/shareState';
 import { ShareDialog, buildPartySegments, type PartySegment } from './ShareDialog';
@@ -25,6 +26,7 @@ export function SummaryPanel({
   electionType,
 }: SummaryPanelProps) {
   const { t } = useTranslation('ballot');
+  const { partyColors } = useElection();
 
   // Build sorted list of parties with votes
   const partyVotes = parties
@@ -50,7 +52,7 @@ export function SummaryPanel({
   const handleShare = async () => {
     const encoded = await encodeVoteState(voteState, electionType);
     const url = `${window.location.origin}${window.location.pathname}#b=${encoded}`;
-    const segments = buildPartySegments(stimmenPerParty, parties, totalUsed);
+    const segments = buildPartySegments(stimmenPerParty, parties, totalUsed, partyColors);
     setShareData({ url, segments });
   };
 
@@ -70,7 +72,7 @@ export function SummaryPanel({
                   className="h-full rounded transition-all duration-300"
                   style={{
                     width: `${(pv.count / maxCount) * 100}%`,
-                    backgroundColor: getPartyColor(pv.shortName),
+                    backgroundColor: getPartyColor(pv.shortName, partyColors),
                   }}
                 />
               </div>

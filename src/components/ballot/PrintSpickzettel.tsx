@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { ElectionData, VoteState, DerivedVoteState } from '../../types';
 import { getPartyColor } from '../../data/partyColors';
+import { useElection } from '../../elections/ElectionContext';
 import { getQRMatrix } from './ShareDialog';
 
 interface PrintSpickzettelProps {
@@ -49,6 +50,7 @@ function QRCodeSVG({ url, size }: { url: string; size: number }) {
 
 export function PrintSpickzettel({ electionData, state, derived, shareUrl }: PrintSpickzettelProps) {
   const { t } = useTranslation('ballot');
+  const { partyColors } = useElection();
 
   const partyGroups = useMemo(() => {
     const groups: PartyPrintData[] = [];
@@ -134,7 +136,7 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
                 <div className="flex items-center gap-1.5 font-bold text-[11px]">
                   <span
                     className="inline-block w-2.5 h-2.5 rounded-full shrink-0"
-                    style={{ backgroundColor: getPartyColor(pg.shortName) }}
+                    style={{ backgroundColor: getPartyColor(pg.shortName, partyColors) }}
                   />
                   <span>
                     {pg.hasListVote && <span className="mr-1">☑</span>}

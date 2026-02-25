@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { SummaryPanel } from './SummaryPanel';
 import { getPartyColor } from '../../data/partyColors';
+import { useElection } from '../../elections/ElectionContext';
 import type { VoteState } from '../../types';
 import type { ElectionType } from '../../utils/shareState';
 
@@ -29,6 +30,7 @@ export function VoteStatusBar({
   electionType,
 }: VoteStatusBarProps) {
   const { t } = useTranslation('ballot');
+  const { partyColors } = useElection();
   const [isExpanded, setIsExpanded] = useState(false);
 
   let textColor = 'text-gray-700';
@@ -48,7 +50,7 @@ export function VoteStatusBar({
     .map(p => ({
       shortName: p.shortName,
       count: stimmenPerParty[p.listNumber] || 0,
-      color: getPartyColor(p.shortName),
+      color: getPartyColor(p.shortName, partyColors),
     }))
     .sort((a, b) => b.count - a.count);
 

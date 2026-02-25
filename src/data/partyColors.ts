@@ -1,31 +1,35 @@
-// Fallback party colors combining all elections.
+// Fallback party colors shared across elections.
 // Components should prefer using useElection().partyColors when possible.
+// Election-specific parties stay in their respective parties.ts files.
 const PARTY_COLORS: Record<string, string> = {
-  // Shared parties (STVV + KAV)
+  // Major parties (appear in most elections)
   'CDU': '#000000',
+  'CSU': '#000000',
   'SPD': '#e3000f',
   'GRÜNE': '#1AA037',
   'FDP': '#ffed00',
+  'AfD': '#009ee0',
   'Die Linke': '#be3075',
+  'DIE LINKE': '#be3075',
+  'BSW': '#4C0B5F',
   'Volt': '#502379',
+  'FREIE WÄHLER': '#f7a800',
+  'Die PARTEI': '#b5152b',
+  'Tierschutzpartei': '#06ABAA',
+  'PIRATEN': '#FE7400',
+  'ÖDP': '#f58220',
+  'MERA25': '#ef4f24',
+  // Frankfurt shared (STVV + KAV)
   'BFF': '#f29400',
   'IBF': '#ff8c00',
   'BIG': '#193D8B',
-  'FREIE WÄHLER': '#f7a800',
   'DFRA': '#c41e3a',
   'GUG': '#F4EA00',
-  // STVV-only parties
-  'AfD': '#009ee0',
-  'Die PARTEI': '#b5152b',
   'ÖkoLinX': '#e60000',
   'ELF': '#CC1919',
   'Gartenpartei Ffm': '#004001',
-  'PIRATEN': '#FE7400',
-  'MERA25': '#ef4f24',
-  'Tierschutzpartei': '#06ABAA',
   'Frankfurt-Sozial!': '#d32f2f',
-  'BSW': '#4C0B5F',
-  // KAV-only parties
+  // Frankfurt KAV parties
   'SL': '#b22222',
   'A.I.V.': '#2e8b57',
   'IFL': '#4682b4',

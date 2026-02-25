@@ -16,12 +16,13 @@ export function buildPartySegments(
   stimmenPerParty: Record<number, number>,
   parties: { listNumber: number; shortName: string }[],
   totalUsed: number,
+  partyColors?: Record<string, string>,
 ): PartySegment[] {
   if (totalUsed === 0) return [];
   return parties
     .filter(p => (stimmenPerParty[p.listNumber] || 0) > 0)
     .map(p => ({
-      color: getPartyColor(p.shortName),
+      color: getPartyColor(p.shortName, partyColors),
       name: p.shortName,
       count: stimmenPerParty[p.listNumber] || 0,
       fraction: (stimmenPerParty[p.listNumber] || 0) / totalUsed,
