@@ -58,7 +58,13 @@ const CITIES: CityEntry[] = [
     elections: [
       { slug: 'darmstadt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004e8a' },
       { slug: 'darmstadt-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 21, themeColor: '#004e8a' },
-      { slug: 'dadi-kreistag', label: 'Kreistag Darmstadt-Dieburg', descriptionKey: 'kreistagDesc', emoji: '🏛️', stimmen: 81, themeColor: '#2e5e3f' },
+    ],
+  },
+  {
+    name: 'Landkreis Darmstadt-Dieburg',
+    stateId: 'he',
+    elections: [
+      { slug: 'dadi-kreistag', label: 'Kreistag', descriptionKey: 'kreistagDesc', emoji: '🏛️', stimmen: 81, themeColor: '#2e5e3f' },
     ],
   },
   {
