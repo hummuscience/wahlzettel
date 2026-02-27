@@ -9,6 +9,7 @@ const config: ElectionConfig = {
   totalStimmen: 50,
   maxPerCandidate: 3,
   allowListVote: true,
+  allowMultipleListVotes: true,
 
   themeColor: '#8B0000',
   themeColorLight: '#fce8e8',

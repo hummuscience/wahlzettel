@@ -10,6 +10,7 @@ export interface ElectionConfig {
   totalStimmen: number;          // 93, 37, etc.
   maxPerCandidate: number;       // 3
   allowListVote: boolean;
+  allowMultipleListVotes?: boolean; // Bayern: multiple list crosses allowed with strikeouts
 
   // Display
   themeColor: string;            // '#003870' (CSS variable)

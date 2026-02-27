@@ -59,7 +59,7 @@ function App() {
     isListVoteActive,
     getListAllocation,
     resetBallot,
-  } = useVoteState(electionData);
+  } = useVoteState(electionData, electionConfig?.allowMultipleListVotes);
 
   const tour = useGuidedTour();
   const hashLoaded = useRef(false);

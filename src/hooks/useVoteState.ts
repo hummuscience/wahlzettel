@@ -1,127 +1,148 @@
 import { useReducer, useMemo, useCallback } from 'react';
 import type { ElectionData, VoteState, VoteAction, DerivedVoteState } from '../types';
-import { calculateDerivedState, calculateListVoteDistribution, getEffectiveStimmen } from '../utils/voteCalculator';
+import { calculateDerivedState, calculateListVoteDistribution, calculateBayernListDistribution, getEffectiveStimmen } from '../utils/voteCalculator';
 
 const initialState: VoteState = {
   candidateVotes: {},
   listSelections: {},
 };
 
-function voteReducer(state: VoteState, action: VoteAction): VoteState {
-  switch (action.type) {
-    case 'TOGGLE_CANDIDATE_VOTE': {
-      const existing = state.candidateVotes[action.candidateId];
-      const currentStimmen = existing?.stimmen || 0;
-      const newStimmen = currentStimmen >= 3 ? 0 : currentStimmen + 1;
+function createVoteReducer(allowMultipleListVotes: boolean) {
+  return function voteReducer(state: VoteState, action: VoteAction): VoteState {
+    switch (action.type) {
+      case 'TOGGLE_CANDIDATE_VOTE': {
+        const existing = state.candidateVotes[action.candidateId];
+        const currentStimmen = existing?.stimmen || 0;
+        const newStimmen = currentStimmen >= 3 ? 0 : currentStimmen + 1;
 
-      if (newStimmen === 0) {
-        const { [action.candidateId]: _, ...rest } = state.candidateVotes;
-        return { ...state, candidateVotes: rest };
-      }
+        if (newStimmen === 0) {
+          const { [action.candidateId]: _, ...rest } = state.candidateVotes;
+          return { ...state, candidateVotes: rest };
+        }
 
-      return {
-        ...state,
-        candidateVotes: {
-          ...state.candidateVotes,
-          [action.candidateId]: {
-            candidateId: action.candidateId,
-            partyListNumber: action.partyListNumber,
-            stimmen: newStimmen,
+        return {
+          ...state,
+          candidateVotes: {
+            ...state.candidateVotes,
+            [action.candidateId]: {
+              candidateId: action.candidateId,
+              partyListNumber: action.partyListNumber,
+              stimmen: newStimmen,
+            },
           },
-        },
-      };
-    }
-
-    case 'SET_CANDIDATE_VOTES': {
-      if (action.stimmen === 0) {
-        const { [action.candidateId]: _, ...rest } = state.candidateVotes;
-        return { ...state, candidateVotes: rest };
+        };
       }
-      return {
-        ...state,
-        candidateVotes: {
-          ...state.candidateVotes,
-          [action.candidateId]: {
-            candidateId: action.candidateId,
-            partyListNumber: action.partyListNumber,
-            stimmen: Math.min(3, Math.max(0, action.stimmen)),
+
+      case 'SET_CANDIDATE_VOTES': {
+        if (action.stimmen === 0) {
+          const { [action.candidateId]: _, ...rest } = state.candidateVotes;
+          return { ...state, candidateVotes: rest };
+        }
+        return {
+          ...state,
+          candidateVotes: {
+            ...state.candidateVotes,
+            [action.candidateId]: {
+              candidateId: action.candidateId,
+              partyListNumber: action.partyListNumber,
+              stimmen: Math.min(3, Math.max(0, action.stimmen)),
+            },
           },
-        },
-      };
-    }
-
-    case 'TOGGLE_LIST_VOTE': {
-      const existing = state.listSelections[action.partyListNumber];
-      const isCurrentlySelected = existing?.isSelected || false;
-
-      if (isCurrentlySelected) {
-        const { [action.partyListNumber]: _, ...rest } = state.listSelections;
-        return { ...state, listSelections: rest };
+        };
       }
 
-      // Deactivate any other list vote first (only one list allowed)
-      const clearedSelections: Record<number, never> = {};
+      case 'TOGGLE_LIST_VOTE': {
+        const existing = state.listSelections[action.partyListNumber];
+        const isCurrentlySelected = existing?.isSelected || false;
 
-      return {
-        ...state,
-        listSelections: {
-          ...clearedSelections,
-          [action.partyListNumber]: {
-            partyListNumber: action.partyListNumber,
-            isSelected: true,
-            struckCandidateIds: [],
+        if (isCurrentlySelected) {
+          const { [action.partyListNumber]: _, ...rest } = state.listSelections;
+          return { ...state, listSelections: rest };
+        }
+
+        // Preserve any pre-existing strikeouts from before the list was crossed
+        const existingStrikes = existing?.struckCandidateIds || [];
+
+        if (allowMultipleListVotes) {
+          // Bayern: keep other list selections, add this one
+          return {
+            ...state,
+            listSelections: {
+              ...state.listSelections,
+              [action.partyListNumber]: {
+                partyListNumber: action.partyListNumber,
+                isSelected: true,
+                struckCandidateIds: existingStrikes,
+              },
+            },
+          };
+        }
+
+        // Hessen: deactivate any other list vote first (only one list allowed)
+        const clearedSelections: Record<number, never> = {};
+
+        return {
+          ...state,
+          listSelections: {
+            ...clearedSelections,
+            [action.partyListNumber]: {
+              partyListNumber: action.partyListNumber,
+              isSelected: true,
+              struckCandidateIds: existingStrikes,
+            },
           },
-        },
-      };
-    }
-
-    case 'STRIKE_CANDIDATE': {
-      const selection = state.listSelections[action.partyListNumber] || {
-        isSelected: false,
-        struckCandidateIds: [],
-      };
-
-      const struckSet = new Set(selection.struckCandidateIds);
-      const wasStruck = struckSet.has(action.candidateId);
-      if (wasStruck) {
-        struckSet.delete(action.candidateId);
-      } else {
-        struckSet.add(action.candidateId);
+        };
       }
 
-      // When striking without a list vote, also clear individual votes
-      let newCandidateVotes = state.candidateVotes;
-      if (!selection.isSelected && !wasStruck && state.candidateVotes[action.candidateId]) {
-        const { [action.candidateId]: _, ...rest } = state.candidateVotes;
-        newCandidateVotes = rest;
-      }
+      case 'STRIKE_CANDIDATE': {
+        const selection = state.listSelections[action.partyListNumber] || {
+          isSelected: false,
+          struckCandidateIds: [],
+        };
 
-      return {
-        ...state,
-        candidateVotes: newCandidateVotes,
-        listSelections: {
-          ...state.listSelections,
-          [action.partyListNumber]: {
-            ...selection,
-            struckCandidateIds: Array.from(struckSet),
+        const struckSet = new Set(selection.struckCandidateIds);
+        const wasStruck = struckSet.has(action.candidateId);
+        if (wasStruck) {
+          struckSet.delete(action.candidateId);
+        } else {
+          struckSet.add(action.candidateId);
+        }
+
+        // When striking without a list vote, also clear individual votes
+        let newCandidateVotes = state.candidateVotes;
+        if (!selection.isSelected && !wasStruck && state.candidateVotes[action.candidateId]) {
+          const { [action.candidateId]: _, ...rest } = state.candidateVotes;
+          newCandidateVotes = rest;
+        }
+
+        return {
+          ...state,
+          candidateVotes: newCandidateVotes,
+          listSelections: {
+            ...state.listSelections,
+            [action.partyListNumber]: {
+              ...selection,
+              struckCandidateIds: Array.from(struckSet),
+            },
           },
-        },
-      };
+        };
+      }
+
+      case 'RESET_BALLOT':
+        return initialState;
+
+      case 'LOAD_STATE':
+        return action.state;
+
+      default:
+        return state;
     }
-
-    case 'RESET_BALLOT':
-      return initialState;
-
-    case 'LOAD_STATE':
-      return action.state;
-
-    default:
-      return state;
-  }
+  };
 }
 
-export function useVoteState(electionData: ElectionData | null) {
-  const [state, dispatch] = useReducer(voteReducer, initialState);
+export function useVoteState(electionData: ElectionData | null, allowMultipleListVotes = false) {
+  const reducer = useMemo(() => createVoteReducer(allowMultipleListVotes), [allowMultipleListVotes]);
+  const [state, dispatch] = useReducer(reducer, initialState);
 
   const derived: DerivedVoteState = useMemo(() => {
     if (!electionData) {
@@ -134,8 +155,8 @@ export function useVoteState(electionData: ElectionData | null) {
         isOverLimit: false,
       };
     }
-    return calculateDerivedState(state, electionData);
-  }, [state, electionData]);
+    return calculateDerivedState(state, electionData, allowMultipleListVotes);
+  }, [state, electionData, allowMultipleListVotes]);
 
   const getListAllocation = useCallback(
     (partyListNumber: number): Record<string, number> | null => {
@@ -146,6 +167,16 @@ export function useVoteState(electionData: ElectionData | null) {
       const party = electionData.parties.find(p => p.listNumber === partyListNumber);
       if (!party) return null;
 
+      if (allowMultipleListVotes) {
+        // Bayern: 1 Stimme per eligible candidate
+        return calculateBayernListDistribution(
+          party,
+          selection.struckCandidateIds,
+          state.candidateVotes,
+        );
+      }
+
+      // Hessen: cycling with full remaining budget
       let individualTotal = 0;
       for (const vote of Object.values(state.candidateVotes)) {
         individualTotal += vote.stimmen;
@@ -161,7 +192,7 @@ export function useVoteState(electionData: ElectionData | null) {
         budgetForList,
       );
     },
-    [state, electionData],
+    [state, electionData, allowMultipleListVotes],
   );
 
   const getCandidateEffectiveVotes = useCallback(

@@ -2,7 +2,7 @@ import type { ElectionData, VoteState, DerivedVoteState, CandidateVote, Party } 
 
 /**
  * Calculate how many Stimmen a list vote distributes to each candidate.
- * Implements the official Kopfleiste cycling: distribute 1 Stimme per candidate
+ * Implements the official Kopfleiste cycling (Hessen): distribute 1 Stimme per candidate
  * top-to-bottom, then repeat (up to 3 per candidate) until budget runs out.
  * Candidates with individual votes or struck candidates are skipped.
  */
@@ -45,6 +45,28 @@ export function calculateListVoteDistribution(
 }
 
 /**
+ * Bayern multi-list: each Listenkreuz gives 1 Stimme per eligible candidate.
+ * No cycling — each candidate gets exactly 1 from the list cross.
+ */
+export function calculateBayernListDistribution(
+  party: Party,
+  struckCandidateIds: string[],
+  candidateVotes: Record<string, CandidateVote>,
+): Record<string, number> {
+  const allocation: Record<string, number> = {};
+  const struckSet = new Set(struckCandidateIds);
+
+  for (const candidate of party.candidates) {
+    if (struckSet.has(candidate.id)) continue;
+    const vote = candidateVotes[candidate.id];
+    if (vote && vote.stimmen > 0) continue;
+    allocation[candidate.id] = 1;
+  }
+
+  return allocation;
+}
+
+/**
  * Get the effective Stimmen for a candidate, considering both individual votes
  * and list vote allocation.
  */
@@ -65,6 +87,7 @@ export function getEffectiveStimmen(
 export function calculateDerivedState(
   state: VoteState,
   electionData: ElectionData,
+  allowMultipleListVotes?: boolean,
 ): DerivedVoteState {
   const { candidateVotes, listSelections } = state;
   const { totalStimmen, parties } = electionData;
@@ -79,24 +102,45 @@ export function calculateDerivedState(
   const listAllocations: Record<number, Record<string, number>> = {};
   let listTotal = 0;
 
-  for (const selection of Object.values(listSelections)) {
-    if (!selection.isSelected) continue;
-    const party = parties.find(p => p.listNumber === selection.partyListNumber);
-    if (!party) continue;
+  if (allowMultipleListVotes) {
+    // Bayern: each list gives 1 Stimme per eligible candidate, independently
+    for (const selection of Object.values(listSelections)) {
+      if (!selection.isSelected) continue;
+      const party = parties.find(p => p.listNumber === selection.partyListNumber);
+      if (!party) continue;
 
-    const budgetForList = totalStimmen - individualTotal;
-    if (budgetForList <= 0) continue;
+      const allocation = calculateBayernListDistribution(
+        party,
+        selection.struckCandidateIds,
+        candidateVotes,
+      );
+      listAllocations[selection.partyListNumber] = allocation;
 
-    const allocation = calculateListVoteDistribution(
-      party,
-      selection.struckCandidateIds,
-      candidateVotes,
-      budgetForList,
-    );
-    listAllocations[selection.partyListNumber] = allocation;
+      for (const votes of Object.values(allocation)) {
+        listTotal += votes;
+      }
+    }
+  } else {
+    // Hessen: single list gets the full remaining budget with cycling
+    for (const selection of Object.values(listSelections)) {
+      if (!selection.isSelected) continue;
+      const party = parties.find(p => p.listNumber === selection.partyListNumber);
+      if (!party) continue;
 
-    for (const votes of Object.values(allocation)) {
-      listTotal += votes;
+      const budgetForList = totalStimmen - individualTotal;
+      if (budgetForList <= 0) continue;
+
+      const allocation = calculateListVoteDistribution(
+        party,
+        selection.struckCandidateIds,
+        candidateVotes,
+        budgetForList,
+      );
+      listAllocations[selection.partyListNumber] = allocation;
+
+      for (const votes of Object.values(allocation)) {
+        listTotal += votes;
+      }
     }
   }
 
