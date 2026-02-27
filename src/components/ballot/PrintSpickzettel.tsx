@@ -50,7 +50,12 @@ function QRCodeSVG({ url, size }: { url: string; size: number }) {
 
 export function PrintSpickzettel({ electionData, state, derived, shareUrl }: PrintSpickzettelProps) {
   const { t } = useTranslation('ballot');
-  const { partyColors } = useElection();
+  const { t: te } = useTranslation('election');
+  const { t: ti } = useTranslation('info');
+  const electionConfig = useElection();
+  const { partyColors } = electionConfig;
+  const electionDate = te('electionDateValue', { defaultValue: ti('electionDateValue') });
+  const moreInfoLink = te('moreInfoLink', { defaultValue: ti('moreInfoLink') });
 
   const partyGroups = useMemo(() => {
     const groups: PartyPrintData[] = [];
@@ -120,7 +125,7 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
         <div className="text-center mb-3 pt-2">
           <h1 className="text-base font-bold">{t('spickzettel')}</h1>
           <p className="text-[10px] text-gray-600 mt-0.5">
-            {electionName} &middot; 15. März 2026 &middot;{' '}
+            {electionName} &middot; {electionDate} &middot;{' '}
             {t('stimmenVergeben', { count: derived.totalStimmenUsed, total: electionData.totalStimmen })}
           </p>
         </div>
@@ -184,7 +189,7 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
                 {t('nichtVergeben', { count: derived.stimmenRemaining })}
               </p>
             )}
-            <p>frankfurt.de/wahlen &middot; 15. März 2026</p>
+            <p>{moreInfoLink} &middot; {electionDate}</p>
           </div>
           {shareUrl && (
             <QRCodeSVG url={shareUrl} size={72} />
