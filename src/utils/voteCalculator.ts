@@ -103,21 +103,56 @@ export function calculateDerivedState(
   let listTotal = 0;
 
   if (allowMultipleListVotes) {
-    // Bayern: each list gives 1 Stimme per eligible candidate, independently
-    for (const selection of Object.values(listSelections)) {
-      if (!selection.isSelected) continue;
+    // Bayern: §75 GLKrWO rules for interaction of Einzelstimmen and Listenkreuze
+    const selectedLists = Object.values(listSelections).filter(s => s.isSelected);
+    const hasIndividualVotes = individualTotal > 0;
+
+    if (hasIndividualVotes && selectedLists.length > 1) {
+      // §75.5c: Multiple list crosses + individual votes → list crosses ignored entirely
+      // Only individual votes count. Ballot is still valid.
+    } else if (hasIndividualVotes && selectedLists.length === 1) {
+      // §75.5a: Exactly one list cross + individual votes → Reststimmen go to that list
+      const selection = selectedLists[0];
       const party = parties.find(p => p.listNumber === selection.partyListNumber);
-      if (!party) continue;
+      if (party) {
+        const reststimmen = totalStimmen - individualTotal;
+        if (reststimmen > 0) {
+          // Distribute Reststimmen: 1 per eligible candidate (no individual votes, not struck)
+          const allocation: Record<string, number> = {};
+          const struckSet = new Set(selection.struckCandidateIds);
+          let remaining = reststimmen;
 
-      const allocation = calculateBayernListDistribution(
-        party,
-        selection.struckCandidateIds,
-        candidateVotes,
-      );
-      listAllocations[selection.partyListNumber] = allocation;
+          for (const candidate of party.candidates) {
+            if (remaining <= 0) break;
+            if (struckSet.has(candidate.id)) continue;
+            const vote = candidateVotes[candidate.id];
+            if (vote && vote.stimmen > 0) continue;
+            allocation[candidate.id] = 1;
+            remaining--;
+          }
 
-      for (const votes of Object.values(allocation)) {
-        listTotal += votes;
+          listAllocations[selection.partyListNumber] = allocation;
+          for (const votes of Object.values(allocation)) {
+            listTotal += votes;
+          }
+        }
+      }
+    } else if (!hasIndividualVotes) {
+      // No individual votes: list crosses work normally (1 Stimme per eligible candidate)
+      for (const selection of selectedLists) {
+        const party = parties.find(p => p.listNumber === selection.partyListNumber);
+        if (!party) continue;
+
+        const allocation = calculateBayernListDistribution(
+          party,
+          selection.struckCandidateIds,
+          candidateVotes,
+        );
+        listAllocations[selection.partyListNumber] = allocation;
+
+        for (const votes of Object.values(allocation)) {
+          listTotal += votes;
+        }
       }
     }
   } else {
@@ -160,12 +195,15 @@ export function calculateDerivedState(
     }
   }
 
+  // Bayern §75: only individual votes determine validity (list crosses never make ballot invalid)
+  const overLimitBasis = allowMultipleListVotes ? individualTotal : totalUsed;
+
   return {
     totalStimmenUsed: totalUsed,
     stimmenRemaining: totalStimmen - totalUsed,
     stimmenPerParty,
-    isValid: totalUsed <= totalStimmen,
+    isValid: overLimitBasis <= totalStimmen,
     isComplete: totalUsed === totalStimmen,
-    isOverLimit: totalUsed > totalStimmen,
+    isOverLimit: overLimitBasis > totalStimmen,
   };
 }

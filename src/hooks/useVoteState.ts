@@ -168,7 +168,41 @@ export function useVoteState(electionData: ElectionData | null, allowMultipleLis
       if (!party) return null;
 
       if (allowMultipleListVotes) {
-        // Bayern: 1 Stimme per eligible candidate
+        // Bayern §75: check interaction of individual votes and list crosses
+        let individualTotal = 0;
+        for (const vote of Object.values(state.candidateVotes)) {
+          individualTotal += vote.stimmen;
+        }
+
+        const selectedListCount = Object.values(state.listSelections).filter(s => s.isSelected).length;
+
+        if (individualTotal > 0 && selectedListCount > 1) {
+          // §75.5c: Multiple list crosses + individual votes → lists ignored
+          return null;
+        }
+
+        if (individualTotal > 0) {
+          // §75.5a: Exactly one list cross + individual votes → Reststimmen only
+          const reststimmen = electionData.totalStimmen - individualTotal;
+          if (reststimmen <= 0) return null;
+
+          const allocation: Record<string, number> = {};
+          const struckSet = new Set(selection.struckCandidateIds);
+          let remaining = reststimmen;
+
+          for (const candidate of party.candidates) {
+            if (remaining <= 0) break;
+            if (struckSet.has(candidate.id)) continue;
+            const vote = state.candidateVotes[candidate.id];
+            if (vote && vote.stimmen > 0) continue;
+            allocation[candidate.id] = 1;
+            remaining--;
+          }
+
+          return Object.keys(allocation).length > 0 ? allocation : null;
+        }
+
+        // No individual votes: list cross works normally (1 Stimme per eligible candidate)
         return calculateBayernListDistribution(
           party,
           selection.struckCandidateIds,
@@ -205,11 +239,21 @@ export function useVoteState(electionData: ElectionData | null, allowMultipleLis
 
   const canAddVote = useCallback(
     (candidateId: string): boolean => {
-      if (derived.stimmenRemaining <= 0) return false;
+      if (allowMultipleListVotes) {
+        // Bayern: individual votes are always valid up to totalStimmen,
+        // regardless of list crosses (§75 GLKrWO)
+        let individualTotal = 0;
+        for (const vote of Object.values(state.candidateVotes)) {
+          individualTotal += vote.stimmen;
+        }
+        if (!electionData || individualTotal >= electionData.totalStimmen) return false;
+      } else {
+        if (derived.stimmenRemaining <= 0) return false;
+      }
       const current = state.candidateVotes[candidateId]?.stimmen || 0;
       return current < 3;
     },
-    [derived.stimmenRemaining, state.candidateVotes],
+    [derived.stimmenRemaining, state.candidateVotes, allowMultipleListVotes, electionData],
   );
 
   const isListVoteActive = useCallback(
