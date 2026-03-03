@@ -15,11 +15,10 @@ interface PrintSpickzettelProps {
 interface PartyPrintData {
   listNumber: number;
   shortName: string;
-  fullName: string;
   stimmen: number;
   hasListVote: boolean;
-  struckCandidates: { position: number; name: string }[];
-  individualVotes: { position: number; name: string; stimmen: number }[];
+  struckPositions: number[];
+  individualVotes: { position: number; stimmen: number }[];
 }
 
 function QRCodeSVG({ url, size }: { url: string; size: number }) {
@@ -48,6 +47,93 @@ function QRCodeSVG({ url, size }: { url: string; size: number }) {
   );
 }
 
+/** Three small circles: filled (●) or empty (○), representing up to 3 Stimmen */
+function VoteDots({ stimmen }: { stimmen: number }) {
+  return (
+    <span className="inline-flex gap-[2px] ml-1">
+      {[0, 1, 2].map(i => (
+        <span
+          key={i}
+          className={`inline-block w-[5px] h-[5px] rounded-full border ${
+            i < stimmen
+              ? 'bg-gray-800 border-gray-800'
+              : 'bg-white border-gray-400'
+          }`}
+        />
+      ))}
+    </span>
+  );
+}
+
+/** Struck-through dots: position number with a line through the dot area */
+function StrikeDots() {
+  return (
+    <span className="inline-flex items-center ml-1 relative">
+      <span className="inline-flex gap-[2px]">
+        {[0, 1, 2].map(i => (
+          <span
+            key={i}
+            className="inline-block w-[5px] h-[5px] rounded-full border border-gray-300 bg-white"
+          />
+        ))}
+      </span>
+      <span
+        className="absolute inset-0 flex items-center"
+        aria-hidden="true"
+      >
+        <span className="w-full h-[1.5px] bg-red-500" />
+      </span>
+    </span>
+  );
+}
+
+/** A single party box in the mini-ballot */
+function PartyBox({ pg, color }: { pg: PartyPrintData; color: string }) {
+  const hasDetails = pg.individualVotes.length > 0 || pg.struckPositions.length > 0;
+  const isListOnly = pg.hasListVote && !hasDetails;
+
+  return (
+    <div
+      className="border border-gray-300 rounded-sm overflow-hidden"
+      style={{ borderLeftWidth: '3px', borderLeftColor: color }}
+    >
+      {/* Party header row */}
+      <div className="flex items-center gap-1 px-1.5 py-[3px] bg-gray-50 border-b border-gray-200">
+        {isListOnly && (
+          <span className="text-[13px] leading-none font-bold">☒</span>
+        )}
+        {pg.hasListVote && !isListOnly && (
+          <span className="text-[9px] leading-none">☒</span>
+        )}
+        <span className="font-bold text-[9px] leading-tight">{pg.shortName}</span>
+        <span className="ml-auto text-[8px] text-gray-500 tabular-nums">{pg.stimmen}</span>
+      </div>
+
+      {/* Candidate rows: only individual votes and strikes */}
+      {hasDetails && (
+        <div className="px-1.5 py-[2px]">
+          {pg.individualVotes.map(iv => (
+            <div key={iv.position} className="flex items-center gap-0.5 py-[1px]">
+              <span className="text-[8px] text-gray-500 w-4 text-right tabular-nums shrink-0">
+                {iv.position}
+              </span>
+              <VoteDots stimmen={iv.stimmen} />
+            </div>
+          ))}
+          {pg.struckPositions.map(pos => (
+            <div key={`s${pos}`} className="flex items-center gap-0.5 py-[1px]">
+              <span className="text-[8px] text-gray-400 w-4 text-right tabular-nums shrink-0">
+                {pos}
+              </span>
+              <StrikeDots />
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function PrintSpickzettel({ electionData, state, derived, shareUrl }: PrintSpickzettelProps) {
   const { t } = useTranslation('ballot');
   const { t: te } = useTranslation('election');
@@ -67,47 +153,38 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
       const listSel = state.listSelections[party.listNumber];
       const hasListVote = !!listSel?.isSelected;
 
-      // Struck candidates (only relevant when list vote active)
-      const struckCandidates: PartyPrintData['struckCandidates'] = [];
+      const struckPositions: number[] = [];
       if (hasListVote && listSel.struckCandidateIds.length > 0) {
         const struckSet = new Set(listSel.struckCandidateIds);
         for (const c of party.candidates) {
           if (struckSet.has(c.id)) {
-            struckCandidates.push({
-              position: c.position,
-              name: `${c.lastName}, ${c.firstName}`,
-            });
+            struckPositions.push(c.position);
           }
         }
       }
 
-      // Individual votes (candidates with manually assigned stimmen)
       const individualVotes: PartyPrintData['individualVotes'] = [];
       for (const c of party.candidates) {
         const vote = state.candidateVotes[c.id];
         if (vote && vote.stimmen > 0) {
           individualVotes.push({
             position: c.position,
-            name: `${c.lastName}, ${c.firstName}`,
             stimmen: vote.stimmen,
           });
         }
       }
-      // Sort individual votes by stimmen descending, then position ascending
-      individualVotes.sort((a, b) => b.stimmen - a.stimmen || a.position - b.position);
+      individualVotes.sort((a, b) => a.position - b.position);
 
       groups.push({
         listNumber: party.listNumber,
         shortName: party.shortName,
-        fullName: party.fullName,
         stimmen: partyStimmen,
         hasListVote,
-        struckCandidates,
+        struckPositions,
         individualVotes,
       });
     }
 
-    // Sort by stimmen descending
     groups.sort((a, b) => b.stimmen - a.stimmen);
     return groups;
   }, [electionData, state, derived]);
@@ -120,11 +197,11 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
 
   return (
     <div id="print-spickzettel" className="hidden print:block">
-      <div className="max-w-[700px] mx-auto text-[11px] leading-tight text-black">
+      <div className="max-w-[700px] mx-auto text-black">
         {/* Header */}
-        <div className="text-center mb-3 pt-2">
-          <h1 className="text-base font-bold">{t('spickzettel')}</h1>
-          <p className="text-[10px] text-gray-600 mt-0.5">
+        <div className="text-center mb-2 pt-2">
+          <h1 className="text-sm font-bold">{t('spickzettel')}</h1>
+          <p className="text-[9px] text-gray-600 mt-0.5">
             {electionName} &middot; {electionDate} &middot;{' '}
             {t('stimmenVergeben', { count: derived.totalStimmenUsed, total: electionData.totalStimmen })}
           </p>
@@ -133,66 +210,29 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
         {!hasVotes ? (
           <p className="text-center text-gray-500 text-sm mt-8">{t('keineStimmen')}</p>
         ) : (
-          /* Party groups */
-          <div className="space-y-2">
+          <div className="flex flex-wrap gap-1.5">
             {partyGroups.map(pg => (
-              <div key={pg.listNumber} className="border-b border-gray-200 pb-1.5">
-                {/* Party header */}
-                <div className="flex items-center gap-1.5 font-bold text-[11px]">
-                  <span
-                    className="inline-block w-2.5 h-2.5 rounded-full shrink-0"
-                    style={{ backgroundColor: getPartyColor(pg.shortName, partyColors) }}
-                  />
-                  <span>
-                    {pg.hasListVote && <span className="mr-1">☑</span>}
-                    {pg.shortName}
-                    {pg.hasListVote && (
-                      <span className="font-normal text-gray-600 ml-1">({t('listeGewaehlt')})</span>
-                    )}
-                  </span>
-                  <span className="ml-auto tabular-nums">
-                    {pg.stimmen} {pg.stimmen === 1 ? t('stimme') : t('stimmen')}
-                  </span>
-                </div>
-
-                {/* Struck candidates */}
-                {pg.struckCandidates.length > 0 && (
-                  <div className="ml-4 text-[10px] text-gray-500 mt-0.5">
-                    {pg.struckCandidates.map(sc => (
-                      <div key={sc.position}>
-                        ✗ {sc.position}. {sc.name} ({t('gestrichen')})
-                      </div>
-                    ))}
-                  </div>
-                )}
-
-                {/* Individual votes */}
-                {pg.individualVotes.length > 0 && (
-                  <div className="ml-4 text-[10px] mt-0.5">
-                    {pg.individualVotes.map(iv => (
-                      <div key={iv.position}>
-                        {iv.stimmen}× {iv.position}. {iv.name}
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
+              <PartyBox
+                key={pg.listNumber}
+                pg={pg}
+                color={getPartyColor(pg.shortName, partyColors)}
+              />
             ))}
           </div>
         )}
 
         {/* Footer */}
-        <div className="mt-3 pt-2 border-t border-gray-300 flex items-end justify-between">
-          <div className="text-[9px] text-gray-500">
+        <div className="mt-3 pt-1.5 border-t border-gray-300 flex items-end justify-between">
+          <div className="text-[8px] text-gray-500">
             {derived.stimmenRemaining > 0 && (
-              <p className="mb-1">
+              <p className="mb-0.5">
                 {t('nichtVergeben', { count: derived.stimmenRemaining })}
               </p>
             )}
             <p>{moreInfoLink} &middot; {electionDate}</p>
           </div>
           {shareUrl && (
-            <QRCodeSVG url={shareUrl} size={72} />
+            <QRCodeSVG url={shareUrl} size={64} />
           )}
         </div>
       </div>
