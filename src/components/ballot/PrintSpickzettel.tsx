@@ -47,17 +47,17 @@ function QRCodeSVG({ url, size }: { url: string; size: number }) {
   );
 }
 
-/** Three small circles: filled (●) or empty (○), representing up to 3 Stimmen */
+/** Three circles: filled (●) or empty (○), representing up to 3 Stimmen */
 function VoteDots({ stimmen }: { stimmen: number }) {
   return (
-    <span className="inline-flex gap-[2px] ml-1">
+    <span className="inline-flex gap-[3px] ml-1.5">
       {[0, 1, 2].map(i => (
         <span
           key={i}
-          className={`inline-block w-[5px] h-[5px] rounded-full border ${
+          className={`inline-block w-[8px] h-[8px] rounded-full ${
             i < stimmen
-              ? 'bg-gray-800 border-gray-800'
-              : 'bg-white border-gray-400'
+              ? 'bg-black'
+              : 'border-[1.5px] border-gray-400'
           }`}
         />
       ))}
@@ -65,15 +65,15 @@ function VoteDots({ stimmen }: { stimmen: number }) {
   );
 }
 
-/** Struck-through dots: position number with a line through the dot area */
+/** Struck-through dots: a line through the dot area */
 function StrikeDots() {
   return (
-    <span className="inline-flex items-center ml-1 relative">
-      <span className="inline-flex gap-[2px]">
+    <span className="inline-flex items-center ml-1.5 relative">
+      <span className="inline-flex gap-[3px]">
         {[0, 1, 2].map(i => (
           <span
             key={i}
-            className="inline-block w-[5px] h-[5px] rounded-full border border-gray-300 bg-white"
+            className="inline-block w-[8px] h-[8px] rounded-full border-[1.5px] border-gray-300"
           />
         ))}
       </span>
@@ -81,7 +81,7 @@ function StrikeDots() {
         className="absolute inset-0 flex items-center"
         aria-hidden="true"
       >
-        <span className="w-full h-[1.5px] bg-red-500" />
+        <span className="w-full h-[2px] bg-red-500" />
       </span>
     </span>
   );
@@ -94,35 +94,35 @@ function PartyBox({ pg, color }: { pg: PartyPrintData; color: string }) {
 
   return (
     <div
-      className="border border-gray-300 rounded-sm overflow-hidden"
-      style={{ borderLeftWidth: '3px', borderLeftColor: color }}
+      className="border border-gray-300 rounded overflow-hidden"
+      style={{ borderLeftWidth: '4px', borderLeftColor: color }}
     >
       {/* Party header row */}
-      <div className="flex items-center gap-1 px-1.5 py-[3px] bg-gray-50 border-b border-gray-200">
+      <div className="flex items-center gap-1.5 px-2 py-1 bg-gray-50 border-b border-gray-200">
         {isListOnly && (
-          <span className="text-[13px] leading-none font-bold">☒</span>
+          <span className="text-[16px] leading-none font-bold">☒</span>
         )}
         {pg.hasListVote && !isListOnly && (
-          <span className="text-[9px] leading-none">☒</span>
+          <span className="text-[11px] leading-none">☒</span>
         )}
-        <span className="font-bold text-[9px] leading-tight">{pg.shortName}</span>
-        <span className="ml-auto text-[8px] text-gray-500 tabular-nums">{pg.stimmen}</span>
+        <span className="font-bold text-[11px] leading-tight">{pg.shortName}</span>
+        <span className="ml-auto text-[10px] text-gray-500 tabular-nums">{pg.stimmen}</span>
       </div>
 
       {/* Candidate rows: only individual votes and strikes */}
       {hasDetails && (
-        <div className="px-1.5 py-[2px]">
+        <div className="px-2 py-0.5">
           {pg.individualVotes.map(iv => (
-            <div key={iv.position} className="flex items-center gap-0.5 py-[1px]">
-              <span className="text-[8px] text-gray-500 w-4 text-right tabular-nums shrink-0">
+            <div key={iv.position} className="flex items-center gap-1 py-[2px]">
+              <span className="text-[10px] text-gray-600 w-5 text-right tabular-nums shrink-0">
                 {iv.position}
               </span>
               <VoteDots stimmen={iv.stimmen} />
             </div>
           ))}
           {pg.struckPositions.map(pos => (
-            <div key={`s${pos}`} className="flex items-center gap-0.5 py-[1px]">
-              <span className="text-[8px] text-gray-400 w-4 text-right tabular-nums shrink-0">
+            <div key={`s${pos}`} className="flex items-center gap-1 py-[2px]">
+              <span className="text-[10px] text-gray-400 w-5 text-right tabular-nums shrink-0">
                 {pos}
               </span>
               <StrikeDots />
@@ -210,7 +210,7 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
         {!hasVotes ? (
           <p className="text-center text-gray-500 text-sm mt-8">{t('keineStimmen')}</p>
         ) : (
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-2">
             {partyGroups.map(pg => (
               <PartyBox
                 key={pg.listNumber}
