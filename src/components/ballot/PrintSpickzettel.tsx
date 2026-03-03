@@ -56,7 +56,7 @@ function VoteDots({ stimmen }: { stimmen: number }) {
           key={i}
           className={`inline-block w-[8px] h-[8px] rounded-full ${
             i < stimmen
-              ? 'bg-black'
+              ? 'border-[4px] border-black'
               : 'border-[1.5px] border-gray-400'
           }`}
         />
