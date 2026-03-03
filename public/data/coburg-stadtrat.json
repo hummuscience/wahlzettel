@@ -1,0 +1,2740 @@
+{
+  "totalStimmen": 40,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Christlich-Soziale Union in Bayern e.V.",
+      "shortName": "CSU",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "co-sr-1-1",
+          "position": 1,
+          "lastName": "Hartan",
+          "firstName": "Hans-Herbert",
+          "profession": "Dipl.-Ing. (FH), Hochschulfachlehrer a.D., 2. Bürgermeister"
+        },
+        {
+          "id": "co-sr-1-2",
+          "position": 2,
+          "lastName": "Heß",
+          "firstName": "Anna-Carina",
+          "profession": "Erzieherin"
+        },
+        {
+          "id": "co-sr-1-3",
+          "position": 3,
+          "lastName": "Knoch",
+          "firstName": "Kurt",
+          "profession": "Dipl.-Betriebsw. (FH), Steuerberater, Stadtrat"
+        },
+        {
+          "id": "co-sr-1-4",
+          "position": 4,
+          "lastName": "Kammerscheid",
+          "firstName": "Barbara",
+          "profession": "Geschäftsführerin Sozialkaufhaus, Stadträtin, Schöffin, Beiersdorf"
+        },
+        {
+          "id": "co-sr-1-5",
+          "position": 5,
+          "lastName": "Hannusch",
+          "firstName": "Winnie",
+          "profession": "Referentin Unternehmensentwicklung, Cortendorf"
+        },
+        {
+          "id": "co-sr-1-6",
+          "position": 6,
+          "lastName": "Eibl",
+          "firstName": "Roland",
+          "profession": "Dipl.-Verw. (FH), Polizeihauptkommissar a. D., Stadtrat, Scheuerfeld"
+        },
+        {
+          "id": "co-sr-1-7",
+          "position": 7,
+          "lastName": "Forkel",
+          "firstName": "Maximilian",
+          "profession": "M.A., Mitarbeiter Konzernleitung, Stadtrat"
+        },
+        {
+          "id": "co-sr-1-8",
+          "position": 8,
+          "lastName": "Pfadenhauer",
+          "firstName": "Terzo",
+          "profession": "Versicherungsangestellte, Neuses"
+        },
+        {
+          "id": "co-sr-1-9",
+          "position": 9,
+          "lastName": "Zimmer",
+          "firstName": "Mathias",
+          "profession": "Kinderarzt"
+        },
+        {
+          "id": "co-sr-1-10",
+          "position": 10,
+          "lastName": "Reingruber",
+          "firstName": "Stefan",
+          "profession": "Werkzeugmechaniker, Ortssprecher, Feuerwehrkommandant, Löbelstein"
+        },
+        {
+          "id": "co-sr-1-11",
+          "position": 11,
+          "lastName": "Schultheiß",
+          "firstName": "Clarissa",
+          "profession": "Rechtsanwaltsfachangestellte"
+        },
+        {
+          "id": "co-sr-1-12",
+          "position": 12,
+          "lastName": "Spindler",
+          "firstName": "Sebastian",
+          "profession": "Dipl.-Finw. (FH), Zollbeamter"
+        },
+        {
+          "id": "co-sr-1-13",
+          "position": 13,
+          "lastName": "Falkowski",
+          "firstName": "Anja",
+          "profession": "Dipl.-Wirtschaftsjuristin (FH), Mediatorin"
+        },
+        {
+          "id": "co-sr-1-14",
+          "position": 14,
+          "lastName": "Peter",
+          "firstName": "Jens-Uwe",
+          "profession": "Dipl.-Phys., selbstständiger Softwareingenieur"
+        },
+        {
+          "id": "co-sr-1-15",
+          "position": 15,
+          "lastName": "Meyer",
+          "firstName": "Heike",
+          "profession": "selbstständige Immobilienverwalterin"
+        },
+        {
+          "id": "co-sr-1-16",
+          "position": 16,
+          "lastName": "Seufert",
+          "firstName": "Markus",
+          "profession": "Dipl.-Betriebsw. (FH), Versicherungsangestellter, Schöffe, Creidlitz"
+        },
+        {
+          "id": "co-sr-1-17",
+          "position": 17,
+          "lastName": "Mohr",
+          "firstName": "Patrick",
+          "profession": "B.Eng., Bauingenieur, Mitglied Führungsgruppe Katastrophenschutz, Creidlitz"
+        },
+        {
+          "id": "co-sr-1-18",
+          "position": 18,
+          "lastName": "Glodschei",
+          "firstName": "Claus",
+          "profession": "Dipl.-Ing. (FH), Architekt, Stadtplaner"
+        },
+        {
+          "id": "co-sr-1-19",
+          "position": 19,
+          "lastName": "Lederer",
+          "firstName": "Oliver",
+          "profession": "Dipl.-Ing. (FH), Architekt, Energieberater, ehrenamtlicher Richter, Beiersdorf"
+        },
+        {
+          "id": "co-sr-1-20",
+          "position": 20,
+          "lastName": "Freytag",
+          "firstName": "Florian",
+          "profession": "Maschinenbautechniker, Beiersdorf"
+        },
+        {
+          "id": "co-sr-1-21",
+          "position": 21,
+          "lastName": "Speer",
+          "firstName": "Julian",
+          "profession": "Steinmetz, Steinbildhauer"
+        },
+        {
+          "id": "co-sr-1-22",
+          "position": 22,
+          "lastName": "Keul-Weber",
+          "firstName": "Annemarie",
+          "profession": "Krankenschwester, Scheuerfeld"
+        },
+        {
+          "id": "co-sr-1-23",
+          "position": 23,
+          "lastName": "Cestone",
+          "firstName": "Marco",
+          "profession": "Dipl.-Kfm., geschäftsführender Gesellschafter"
+        },
+        {
+          "id": "co-sr-1-24",
+          "position": 24,
+          "lastName": "Dr. Cumbat",
+          "firstName": "Giorgio",
+          "profession": "Berater Ingenieurwesen, Seidmannsdorf"
+        },
+        {
+          "id": "co-sr-1-25",
+          "position": 25,
+          "lastName": "Dr. Medau",
+          "firstName": "Peer",
+          "profession": "Geschäftsführer"
+        },
+        {
+          "id": "co-sr-1-26",
+          "position": 26,
+          "lastName": "Götzl",
+          "firstName": "Viola",
+          "profession": "Versicherungsfachangestellte, Cortendorf"
+        },
+        {
+          "id": "co-sr-1-27",
+          "position": 27,
+          "lastName": "Dr. Deeb",
+          "firstName": "Iyad",
+          "profession": "Arzt"
+        },
+        {
+          "id": "co-sr-1-28",
+          "position": 28,
+          "lastName": "Dr. Prechtl",
+          "firstName": "Martin",
+          "profession": "Professor"
+        },
+        {
+          "id": "co-sr-1-29",
+          "position": 29,
+          "lastName": "Dr. Bartunek",
+          "firstName": "Rudolf",
+          "profession": "Chefarzt, Ketschendorf"
+        },
+        {
+          "id": "co-sr-1-30",
+          "position": 30,
+          "lastName": "Bender",
+          "firstName": "Holger",
+          "profession": "Vertriebsleiter Automobilbereich"
+        },
+        {
+          "id": "co-sr-1-31",
+          "position": 31,
+          "lastName": "Kilian",
+          "firstName": "Helga",
+          "profession": "Intensivkrankenschwester i.R."
+        },
+        {
+          "id": "co-sr-1-32",
+          "position": 32,
+          "lastName": "Krummholz",
+          "firstName": "Oliver",
+          "profession": "Metallbaumeister, Neuses"
+        },
+        {
+          "id": "co-sr-1-33",
+          "position": 33,
+          "lastName": "Hannusch",
+          "firstName": "Monty",
+          "profession": "Studiendirektor, stellv. Schulleiter, Cortendorf"
+        },
+        {
+          "id": "co-sr-1-34",
+          "position": 34,
+          "lastName": "Dr. Neu",
+          "firstName": "Peter",
+          "profession": "Tierarzt"
+        },
+        {
+          "id": "co-sr-1-35",
+          "position": 35,
+          "lastName": "Dr. Wulf",
+          "firstName": "Stefan",
+          "profession": "Zahnarzt"
+        },
+        {
+          "id": "co-sr-1-36",
+          "position": 36,
+          "lastName": "Iniengo",
+          "firstName": "Prosper Bruno",
+          "profession": "Dipl.-Ing., selbstständiger Informationstechniker"
+        },
+        {
+          "id": "co-sr-1-37",
+          "position": 37,
+          "lastName": "Pussert",
+          "firstName": "Jan",
+          "profession": "Immobilienmakler"
+        },
+        {
+          "id": "co-sr-1-38",
+          "position": 38,
+          "lastName": "Dr. Scheller",
+          "firstName": "Thomas",
+          "profession": "Arzt"
+        },
+        {
+          "id": "co-sr-1-39",
+          "position": 39,
+          "lastName": "Schneider",
+          "firstName": "Stefanie",
+          "profession": "Versicherungskauffrau"
+        },
+        {
+          "id": "co-sr-1-40",
+          "position": 40,
+          "lastName": "Pfadenhauer",
+          "firstName": "Hans-Joachim",
+          "profession": "Filmproduzent"
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "Freie Wähler Bayern/Freie Wähler-CSB Coburg e.V.",
+      "shortName": "FREIE WÄHLER/CSB",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "co-sr-2-1",
+          "position": 1,
+          "lastName": "Gunsenheimer",
+          "firstName": "Christian",
+          "profession": "geschäftsführender Vorstand, weiterer Stellv. des Landrats"
+        },
+        {
+          "id": "co-sr-2-2",
+          "position": 2,
+          "lastName": "Wank",
+          "firstName": "Andrea",
+          "profession": "kaufmännische Angestellte"
+        },
+        {
+          "id": "co-sr-2-3",
+          "position": 3,
+          "lastName": "Boldt",
+          "firstName": "René",
+          "profession": "Rechtsanwalt, Stadtrat"
+        },
+        {
+          "id": "co-sr-2-4",
+          "position": 4,
+          "lastName": "Pult",
+          "firstName": "Margarete",
+          "profession": "Pflegedienstleitung"
+        },
+        {
+          "id": "co-sr-2-5",
+          "position": 5,
+          "lastName": "Völker",
+          "firstName": "Frank",
+          "profession": "Berufskraftfahrer, Stadtrat"
+        },
+        {
+          "id": "co-sr-2-6",
+          "position": 6,
+          "lastName": "Fischer",
+          "firstName": "Lena",
+          "profession": "Schülerin"
+        },
+        {
+          "id": "co-sr-2-7",
+          "position": 7,
+          "lastName": "Maier",
+          "firstName": "Rainer",
+          "profession": "Dipl.-Finw. (FH), Geschäftsführer i.R."
+        },
+        {
+          "id": "co-sr-2-8",
+          "position": 8,
+          "lastName": "Kuttner",
+          "firstName": "Stephanie",
+          "profession": "selbstständige Grafikerin, Ketschendorf"
+        },
+        {
+          "id": "co-sr-2-9",
+          "position": 9,
+          "lastName": "Müller",
+          "firstName": "Christian",
+          "profession": "Rechtsanwalt, Stadtrat"
+        },
+        {
+          "id": "co-sr-2-10",
+          "position": 10,
+          "lastName": "Dr. Schüller",
+          "firstName": "Claudia",
+          "profession": "Ärztin"
+        },
+        {
+          "id": "co-sr-2-11",
+          "position": 11,
+          "lastName": "Schellhorn",
+          "firstName": "Hardi",
+          "profession": "Lehrer, Scheuerfeld"
+        },
+        {
+          "id": "co-sr-2-12",
+          "position": 12,
+          "lastName": "Schubert",
+          "firstName": "Stefan",
+          "profession": "selbstständiger Fahrzeuglackierermeister"
+        },
+        {
+          "id": "co-sr-2-13",
+          "position": 13,
+          "lastName": "Süße",
+          "firstName": "Kerstin",
+          "profession": "Verwaltungsangestellte"
+        },
+        {
+          "id": "co-sr-2-14",
+          "position": 14,
+          "lastName": "Gummenscheimer",
+          "firstName": "Andreas",
+          "profession": "Kraftfahrzeugsachverständiger"
+        },
+        {
+          "id": "co-sr-2-15",
+          "position": 15,
+          "lastName": "Florschütz",
+          "firstName": "Raphael",
+          "profession": "Bankfachwirt"
+        },
+        {
+          "id": "co-sr-2-16",
+          "position": 16,
+          "lastName": "Dose",
+          "firstName": "Ina",
+          "profession": "Versicherungskauffrau"
+        },
+        {
+          "id": "co-sr-2-17",
+          "position": 17,
+          "lastName": "Löffler",
+          "firstName": "Patrick",
+          "profession": "Lehrer"
+        },
+        {
+          "id": "co-sr-2-18",
+          "position": 18,
+          "lastName": "Heublein",
+          "firstName": "Philipp",
+          "profession": "Vertriebsleiter"
+        },
+        {
+          "id": "co-sr-2-19",
+          "position": 19,
+          "lastName": "König",
+          "firstName": "Antje",
+          "profession": "Fachkosmetikerin"
+        },
+        {
+          "id": "co-sr-2-20",
+          "position": 20,
+          "lastName": "Panusch",
+          "firstName": "Nicole",
+          "profession": "Verwaltungsfachangestellte"
+        },
+        {
+          "id": "co-sr-2-21",
+          "position": 21,
+          "lastName": "Gerg",
+          "firstName": "Michael",
+          "profession": "Polizeibeamter"
+        },
+        {
+          "id": "co-sr-2-22",
+          "position": 22,
+          "lastName": "Hahn",
+          "firstName": "Thorsten",
+          "profession": "Fahrlehrer, Cortendorf"
+        },
+        {
+          "id": "co-sr-2-23",
+          "position": 23,
+          "lastName": "Boldt",
+          "firstName": "Anna",
+          "profession": "Projektmanagerin, Creidlitz"
+        },
+        {
+          "id": "co-sr-2-24",
+          "position": 24,
+          "lastName": "Zelenova",
+          "firstName": "Vladlena",
+          "profession": "kaufmännische Angestellte"
+        },
+        {
+          "id": "co-sr-2-25",
+          "position": 25,
+          "lastName": "Schilling",
+          "firstName": "Bettina",
+          "profession": "Dipl.-Betriebsw. (FH), Personalreferentin, Scheuerfeld"
+        },
+        {
+          "id": "co-sr-2-26",
+          "position": 26,
+          "lastName": "Sander",
+          "firstName": "Dieter",
+          "profession": "Polizeihauptkommissar a.D."
+        },
+        {
+          "id": "co-sr-2-27",
+          "position": 27,
+          "lastName": "Panusch",
+          "firstName": "Christian",
+          "profession": "Arbeitsvorbereiter"
+        },
+        {
+          "id": "co-sr-2-28",
+          "position": 28,
+          "lastName": "Gummenscheimer",
+          "firstName": "Nicole",
+          "profession": "Kauffrau für Versicherungen und Finanzen"
+        },
+        {
+          "id": "co-sr-2-29",
+          "position": 29,
+          "lastName": "Weigandt",
+          "firstName": "Tim",
+          "profession": "Mechatroniker"
+        },
+        {
+          "id": "co-sr-2-30",
+          "position": 30,
+          "lastName": "Fries",
+          "firstName": "Kerstin",
+          "profession": "Dipl.-Wirtsch.-Ing. (FH), Testspezialistin Qualitätssicherung"
+        },
+        {
+          "id": "co-sr-2-31",
+          "position": 31,
+          "lastName": "Stößel",
+          "firstName": "Cindy",
+          "profession": "Dipl.-Betriebsw. (FH), Versicherungsangestellte"
+        },
+        {
+          "id": "co-sr-2-32",
+          "position": 32,
+          "lastName": "Müller",
+          "firstName": "Sophia",
+          "profession": "Schülerin"
+        },
+        {
+          "id": "co-sr-2-33",
+          "position": 33,
+          "lastName": "Sauer",
+          "firstName": "Norbert",
+          "profession": "Installateur i. R."
+        },
+        {
+          "id": "co-sr-2-34",
+          "position": 34,
+          "lastName": "Kob",
+          "firstName": "René",
+          "profession": "selbstständiger Unternehmer"
+        },
+        {
+          "id": "co-sr-2-35",
+          "position": 35,
+          "lastName": "Rothhaupt",
+          "firstName": "Jens",
+          "profession": "Handwerksmeister"
+        },
+        {
+          "id": "co-sr-2-36",
+          "position": 36,
+          "lastName": "Dr. Freiherr",
+          "firstName": "Pastor von Camperfelden Lars",
+          "profession": "IT-Projektleiter"
+        },
+        {
+          "id": "co-sr-2-37",
+          "position": 37,
+          "lastName": "Simon",
+          "firstName": "Ian",
+          "profession": "Student, Seidmannsdorf"
+        },
+        {
+          "id": "co-sr-2-38",
+          "position": 38,
+          "lastName": "Kramer",
+          "firstName": "Björn",
+          "profession": "Anlagenmechaniker, Creidlitz"
+        },
+        {
+          "id": "co-sr-2-39",
+          "position": 39,
+          "lastName": "Ulmann",
+          "firstName": "Hans-Heinrich",
+          "profession": "Bürgermeister a. D."
+        },
+        {
+          "id": "co-sr-2-40",
+          "position": 40,
+          "lastName": "Stößel",
+          "firstName": "Pascale",
+          "profession": "Leiter Projektmanagement"
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "fullName": "Alternative für Deutschland",
+      "shortName": "AfD",
+      "candidateCount": 13,
+      "candidates": [
+        {
+          "id": "co-sr-3-1",
+          "position": 1,
+          "lastName": "Gebhardt",
+          "firstName": "Michael",
+          "profession": "Einzelhandelskaufmann, Stadtrat"
+        },
+        {
+          "id": "co-sr-3-2",
+          "position": 2,
+          "lastName": "Liebing",
+          "firstName": "Sonja",
+          "profession": "Hotelfachfrau, Beiersdorf"
+        },
+        {
+          "id": "co-sr-3-3",
+          "position": 3,
+          "lastName": "Tretter",
+          "firstName": "Bettina",
+          "profession": "Versicherungsangestellte"
+        },
+        {
+          "id": "co-sr-3-4",
+          "position": 4,
+          "lastName": "Forkel",
+          "firstName": "Sarah",
+          "profession": "Konditoreifachverkäuferin, Neuses"
+        },
+        {
+          "id": "co-sr-3-5",
+          "position": 5,
+          "lastName": "Rose",
+          "firstName": "Detlev",
+          "profession": "M.A., Parlamentarischer Mitarbeiter"
+        },
+        {
+          "id": "co-sr-3-6",
+          "position": 6,
+          "lastName": "Roß",
+          "firstName": "Peter",
+          "profession": "Rentner"
+        },
+        {
+          "id": "co-sr-3-7",
+          "position": 7,
+          "lastName": "Pröbstel",
+          "firstName": "OIiver",
+          "profession": "Kranführer, Ketschendorf"
+        },
+        {
+          "id": "co-sr-3-8",
+          "position": 8,
+          "lastName": "Krämer",
+          "firstName": "Horst",
+          "profession": "Energiedisponent"
+        },
+        {
+          "id": "co-sr-3-9",
+          "position": 9,
+          "lastName": "Majowski",
+          "firstName": "Konrad",
+          "profession": "Rentner"
+        },
+        {
+          "id": "co-sr-3-10",
+          "position": 10,
+          "lastName": "Nökel",
+          "firstName": "Friedhelm",
+          "profession": "Rentner"
+        },
+        {
+          "id": "co-sr-3-11",
+          "position": 11,
+          "lastName": "Oberrecht",
+          "firstName": "Felix",
+          "profession": "Rentner, Cortendorf"
+        },
+        {
+          "id": "co-sr-3-12",
+          "position": 12,
+          "lastName": "Wehrmeister",
+          "firstName": "Elke",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "co-sr-3-13",
+          "position": 13,
+          "lastName": "Oberrecht",
+          "firstName": "Heidi",
+          "profession": "Industriefachwirtin i. R., Cortendorf"
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "shortName": "GRÜNE",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "co-sr-4-1",
+          "position": 1,
+          "lastName": "Wöhner",
+          "firstName": "Petra",
+          "profession": "M.A., Lehrerin"
+        },
+        {
+          "id": "co-sr-4-2",
+          "position": 2,
+          "lastName": "Dr. Haupt",
+          "firstName": "Wolfram",
+          "profession": "Professor, Stadtrat"
+        },
+        {
+          "id": "co-sr-4-3",
+          "position": 3,
+          "lastName": "Neumann",
+          "firstName": "Juliane",
+          "profession": "B.A., Sozialarbeiterin"
+        },
+        {
+          "id": "co-sr-4-4",
+          "position": 4,
+          "lastName": "Dorant",
+          "firstName": "Michael",
+          "profession": "Kommunikationsdesigner, Stadtrat"
+        },
+        {
+          "id": "co-sr-4-5",
+          "position": 5,
+          "lastName": "Beetz",
+          "firstName": "Johanna",
+          "profession": "Dipl.-Kffr., Betriebswirtin"
+        },
+        {
+          "id": "co-sr-4-6",
+          "position": 6,
+          "lastName": "Klüglein",
+          "firstName": "Kevin",
+          "profession": "Fachinformatiker, Stadtrat"
+        },
+        {
+          "id": "co-sr-4-7",
+          "position": 7,
+          "lastName": "Nadj",
+          "firstName": "Michaela",
+          "profession": "Apothekerin, Creidlitz"
+        },
+        {
+          "id": "co-sr-4-8",
+          "position": 8,
+          "lastName": "Dr. von",
+          "firstName": "Deimling Florian",
+          "profession": "Kinderarzt, Stadtrat"
+        },
+        {
+          "id": "co-sr-4-9",
+          "position": 9,
+          "lastName": "Müller",
+          "firstName": "Alexandra",
+          "profession": "Fachwirtin im Sozial- und Gesundheitswesen"
+        },
+        {
+          "id": "co-sr-4-10",
+          "position": 10,
+          "lastName": "Weiß",
+          "firstName": "Wolfgang",
+          "profession": "Förster, Stadtrat, Rögen"
+        },
+        {
+          "id": "co-sr-4-11",
+          "position": 11,
+          "lastName": "Rose",
+          "firstName": "Birgit",
+          "profession": "Redakteurin"
+        },
+        {
+          "id": "co-sr-4-12",
+          "position": 12,
+          "lastName": "Schwuchow",
+          "firstName": "Stefan",
+          "profession": "Sozialbetriebswirt"
+        },
+        {
+          "id": "co-sr-4-13",
+          "position": 13,
+          "lastName": "Wehrmann",
+          "firstName": "Nicole",
+          "profession": "B.A., Sozialarbeiterin"
+        },
+        {
+          "id": "co-sr-4-14",
+          "position": 14,
+          "lastName": "Wölfert",
+          "firstName": "Lukas",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-4-15",
+          "position": 15,
+          "lastName": "Schönau",
+          "firstName": "Helena",
+          "profession": "Studentin"
+        },
+        {
+          "id": "co-sr-4-16",
+          "position": 16,
+          "lastName": "Wagner",
+          "firstName": "Johannes",
+          "profession": "Mitglied des Bundestages"
+        },
+        {
+          "id": "co-sr-4-17",
+          "position": 17,
+          "lastName": "Paulus",
+          "firstName": "Stefanie",
+          "profession": "Studentin"
+        },
+        {
+          "id": "co-sr-4-18",
+          "position": 18,
+          "lastName": "Leuthäußer",
+          "firstName": "Bernd",
+          "profession": "Dipl.-Ing., Maschinenbauingenieur i.R."
+        },
+        {
+          "id": "co-sr-4-19",
+          "position": 19,
+          "lastName": "Böhm",
+          "firstName": "Claudia",
+          "profession": "Lehrerin"
+        },
+        {
+          "id": "co-sr-4-20",
+          "position": 20,
+          "lastName": "Engels",
+          "firstName": "Stephan",
+          "profession": "Werbetexter, Creidlitz"
+        },
+        {
+          "id": "co-sr-4-21",
+          "position": 21,
+          "lastName": "Frank",
+          "firstName": "Regina",
+          "profession": "Heilpraktikerin"
+        },
+        {
+          "id": "co-sr-4-22",
+          "position": 22,
+          "lastName": "Mertl",
+          "firstName": "Stephan",
+          "profession": "Schauspieler i.R."
+        },
+        {
+          "id": "co-sr-4-23",
+          "position": 23,
+          "lastName": "Dr. Gröne",
+          "firstName": "Susanne",
+          "profession": "Professorin, Beiersdorf"
+        },
+        {
+          "id": "co-sr-4-24",
+          "position": 24,
+          "lastName": "Stahl",
+          "firstName": "Felix",
+          "profession": "IT-Projektleiter, Creidlitz"
+        },
+        {
+          "id": "co-sr-4-25",
+          "position": 25,
+          "lastName": "Beck",
+          "firstName": "Stephanie",
+          "profession": "M.A., Kinderpädagogin"
+        },
+        {
+          "id": "co-sr-4-26",
+          "position": 26,
+          "lastName": "Hollering",
+          "firstName": "Rolf",
+          "profession": "Kundenbetreuer"
+        },
+        {
+          "id": "co-sr-4-27",
+          "position": 27,
+          "lastName": "Schuller",
+          "firstName": "Gabriela",
+          "profession": "Schulsekretärin i.R."
+        },
+        {
+          "id": "co-sr-4-28",
+          "position": 28,
+          "lastName": "Pax",
+          "firstName": "Dietrich",
+          "profession": "Gärtnermeister, Beiersdorf"
+        },
+        {
+          "id": "co-sr-4-29",
+          "position": 29,
+          "lastName": "Köhn",
+          "firstName": "Angela",
+          "profession": "Leiterin eines Nachhilfeinstituts, Schöffin"
+        },
+        {
+          "id": "co-sr-4-30",
+          "position": 30,
+          "lastName": "Tippelt",
+          "firstName": "Thomas",
+          "profession": "M.Sc., Geschäftsführer"
+        },
+        {
+          "id": "co-sr-4-31",
+          "position": 31,
+          "lastName": "Baur",
+          "firstName": "Sarah",
+          "profession": "M.A., Wirtschaftssinologin"
+        },
+        {
+          "id": "co-sr-4-32",
+          "position": 32,
+          "lastName": "Loßmann",
+          "firstName": "Matthias",
+          "profession": "Dipl. Volkswirt, Rechtsanwalt"
+        },
+        {
+          "id": "co-sr-4-33",
+          "position": 33,
+          "lastName": "Aufschläger",
+          "firstName": "Maria",
+          "profession": "Physiotherapeutin"
+        },
+        {
+          "id": "co-sr-4-34",
+          "position": 34,
+          "lastName": "Heinold",
+          "firstName": "Constantin",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-4-35",
+          "position": 35,
+          "lastName": "Paulus",
+          "firstName": "Sofie",
+          "profession": "M.Sc., Ökologin"
+        },
+        {
+          "id": "co-sr-4-36",
+          "position": 36,
+          "lastName": "Dr. Rossner",
+          "firstName": "Michael",
+          "profession": "Professor"
+        },
+        {
+          "id": "co-sr-4-37",
+          "position": 37,
+          "lastName": "Weiß",
+          "firstName": "Dorothea",
+          "profession": "Dipl.-Ing. (FH), Kunsttherapeutin, Rögen"
+        },
+        {
+          "id": "co-sr-4-38",
+          "position": 38,
+          "lastName": "Dr. Habel",
+          "firstName": "Hubertus",
+          "profession": "M.A., Kulturwissenschaftler, Naturschutzbeirat"
+        },
+        {
+          "id": "co-sr-4-39",
+          "position": 39,
+          "lastName": "Fischer",
+          "firstName": "Lisa",
+          "profession": "Dipl.-Soz.päd. (FH), Sozialpädagogin"
+        },
+        {
+          "id": "co-sr-4-40",
+          "position": 40,
+          "lastName": "Woik",
+          "firstName": "Peter",
+          "profession": "Rechtsanwalt"
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "shortName": "SPD",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "co-sr-5-1",
+          "position": 1,
+          "lastName": "Sauerteig",
+          "firstName": "Dominik",
+          "profession": "Dipl.-Jur. (Univ.), Oberbürgermeister"
+        },
+        {
+          "id": "co-sr-5-2",
+          "position": 2,
+          "lastName": "Hess",
+          "firstName": "Astrid",
+          "profession": "Dipl.-Ing., Fachlehrerin"
+        },
+        {
+          "id": "co-sr-5-3",
+          "position": 3,
+          "lastName": "Aydin",
+          "firstName": "Can",
+          "profession": "MBA, 3. Bürgermeister, Patientenvertreter"
+        },
+        {
+          "id": "co-sr-5-4",
+          "position": 4,
+          "lastName": "Brehm",
+          "firstName": "Ramona",
+          "profession": "Schornsteinfegerin, Stadträtin"
+        },
+        {
+          "id": "co-sr-5-5",
+          "position": 5,
+          "lastName": "Sauerteig",
+          "firstName": "Stefan",
+          "profession": "stellv.Schulleiter, Stadtrat"
+        },
+        {
+          "id": "co-sr-5-6",
+          "position": 6,
+          "lastName": "Ritz",
+          "firstName": "Franziska",
+          "profession": "M.Sc., Forschungsmanagerin"
+        },
+        {
+          "id": "co-sr-5-7",
+          "position": 7,
+          "lastName": "Metzner",
+          "firstName": "Fabian",
+          "profession": "Vertriebsleiter Logistik"
+        },
+        {
+          "id": "co-sr-5-8",
+          "position": 8,
+          "lastName": "Nowak",
+          "firstName": "Lara",
+          "profession": "Studentin"
+        },
+        {
+          "id": "co-sr-5-9",
+          "position": 9,
+          "lastName": "Unglaub",
+          "firstName": "Stefan",
+          "profession": "Prozess- und Organisationsberater"
+        },
+        {
+          "id": "co-sr-5-10",
+          "position": 10,
+          "lastName": "Morper-Marr",
+          "firstName": "Gabriele",
+          "profession": "Medizinische Fachangestellte, Stadträtin"
+        },
+        {
+          "id": "co-sr-5-11",
+          "position": 11,
+          "lastName": "Drexler-Löffler",
+          "firstName": "Volker",
+          "profession": "Leiter Rettungsdienst"
+        },
+        {
+          "id": "co-sr-5-12",
+          "position": 12,
+          "lastName": "Schneider",
+          "firstName": "Petra",
+          "profession": "Dipl.-Ing. (FH), selbstständige Architektin, Stadträtin"
+        },
+        {
+          "id": "co-sr-5-13",
+          "position": 13,
+          "lastName": "Pieschel",
+          "firstName": "Oliver",
+          "profession": "selbstständiger Medientechniker"
+        },
+        {
+          "id": "co-sr-5-14",
+          "position": 14,
+          "lastName": "Kastner",
+          "firstName": "Sabine",
+          "profession": "selbstständige Steuerberaterin, Stadträtin"
+        },
+        {
+          "id": "co-sr-5-15",
+          "position": 15,
+          "lastName": "Dr. Rühl",
+          "firstName": "Maximilian",
+          "profession": "Dipl.-Phys., Technischer Vorstand"
+        },
+        {
+          "id": "co-sr-5-16",
+          "position": 16,
+          "lastName": "Niestroy",
+          "firstName": "Angela",
+          "profession": "Marketingkauffrau, Seniorenbeirätin"
+        },
+        {
+          "id": "co-sr-5-17",
+          "position": 17,
+          "lastName": "Ünsac",
+          "firstName": "Özcan",
+          "profession": "selbstständiger Unternehmer"
+        },
+        {
+          "id": "co-sr-5-18",
+          "position": 18,
+          "lastName": "Harmandaroglu",
+          "firstName": "Esra",
+          "profession": "Pädagogische Fachkraft"
+        },
+        {
+          "id": "co-sr-5-19",
+          "position": 19,
+          "lastName": "Desombre",
+          "firstName": "Wolfgang",
+          "profession": "Dipl.-Verw. (FH), 1. Kriminalhauptkommissar a.D."
+        },
+        {
+          "id": "co-sr-5-20",
+          "position": 20,
+          "lastName": "Nestmann",
+          "firstName": "Bianca",
+          "profession": "Büromanagerin"
+        },
+        {
+          "id": "co-sr-5-21",
+          "position": 21,
+          "lastName": "Lücke",
+          "firstName": "Martin",
+          "profession": "Oberarzt, Stadtrat"
+        },
+        {
+          "id": "co-sr-5-22",
+          "position": 22,
+          "lastName": "Hinterleitner",
+          "firstName": "Karin",
+          "profession": "Media-Beraterin"
+        },
+        {
+          "id": "co-sr-5-23",
+          "position": 23,
+          "lastName": "Schultheiß",
+          "firstName": "Mario",
+          "profession": "selbstständiger Friseurmeister"
+        },
+        {
+          "id": "co-sr-5-24",
+          "position": 24,
+          "lastName": "Herz-El",
+          "firstName": "Hanbli Julia",
+          "profession": "M.A., Kulturwissenschaftlerin"
+        },
+        {
+          "id": "co-sr-5-25",
+          "position": 25,
+          "lastName": "Kornherr",
+          "firstName": "Matthias",
+          "profession": "Schreiner"
+        },
+        {
+          "id": "co-sr-5-26",
+          "position": 26,
+          "lastName": "Kuhlenkamp",
+          "firstName": "Elke",
+          "profession": "Dipl. Pflegewirtin (FH), selbstständige Unternehmerin"
+        },
+        {
+          "id": "co-sr-5-27",
+          "position": 27,
+          "lastName": "Ehrl",
+          "firstName": "Peter",
+          "profession": "selbstständiger Automatenkaufmann"
+        },
+        {
+          "id": "co-sr-5-28",
+          "position": 28,
+          "lastName": "Blietzsch",
+          "firstName": "Liane",
+          "profession": "Dipl.Soz.päd. (FH), Leiterin Mehrgenerationenhaus"
+        },
+        {
+          "id": "co-sr-5-29",
+          "position": 29,
+          "lastName": "Kastner",
+          "firstName": "Max",
+          "profession": "Dipl.-Jur. (Univ.), Volljurist"
+        },
+        {
+          "id": "co-sr-5-30",
+          "position": 30,
+          "lastName": "Schubert",
+          "firstName": "Kristin",
+          "profession": "M.A., Pädagogin"
+        },
+        {
+          "id": "co-sr-5-31",
+          "position": 31,
+          "lastName": "Neuf",
+          "firstName": "Matthias",
+          "profession": "Verbandsreferent"
+        },
+        {
+          "id": "co-sr-5-32",
+          "position": 32,
+          "lastName": "Schunk",
+          "firstName": "Leslie",
+          "profession": "Gesundheits- und Krankenpflegerin"
+        },
+        {
+          "id": "co-sr-5-33",
+          "position": 33,
+          "lastName": "Eggers",
+          "firstName": "Lars",
+          "profession": "B.Eng., selbstständiger Unternehmer"
+        },
+        {
+          "id": "co-sr-5-34",
+          "position": 34,
+          "lastName": "Thomack",
+          "firstName": "Johanna",
+          "profession": "Dipl.Soz.päd.(FH), Sozialpädagogin"
+        },
+        {
+          "id": "co-sr-5-35",
+          "position": 35,
+          "lastName": "Gehring",
+          "firstName": "Andreas",
+          "profession": "Dipl.-Ing (FH), selbstständiger Bauingenieur und Tragwerksplaner"
+        },
+        {
+          "id": "co-sr-5-36",
+          "position": 36,
+          "lastName": "Bernreuther",
+          "firstName": "Silvia",
+          "profession": "Versicherungsangestellte"
+        },
+        {
+          "id": "co-sr-5-37",
+          "position": 37,
+          "lastName": "Eckardt",
+          "firstName": "Mathias",
+          "profession": "M.A., Gewerkschaftssekretär"
+        },
+        {
+          "id": "co-sr-5-38",
+          "position": 38,
+          "lastName": "Dr. Deffner",
+          "firstName": "Martin",
+          "profession": "Chefarzt"
+        },
+        {
+          "id": "co-sr-5-39",
+          "position": 39,
+          "lastName": "Fröbel",
+          "firstName": "Eberhard",
+          "profession": "Amtsleiter i.R."
+        },
+        {
+          "id": "co-sr-5-40",
+          "position": 40,
+          "lastName": "Tessmer",
+          "firstName": "Norbert",
+          "profession": "Dipl.-Verw. (FH), Oberbürgermeister a.D., Stadtrat"
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "fullName": "Wählergemeinschaft PRO COBURG e.V.",
+      "shortName": "PRO COBURG",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "co-sr-6-1",
+          "position": 1,
+          "lastName": "Heeb",
+          "firstName": "Jürgen",
+          "profession": "Qualitätsingenieur i.R., Stadtrat, Ketschendorf"
+        },
+        {
+          "id": "co-sr-6-2",
+          "position": 2,
+          "lastName": "Brückner",
+          "firstName": "Catrin",
+          "profession": "Referentin Unternehmenskommunikation, Ketschendorf"
+        },
+        {
+          "id": "co-sr-6-3",
+          "position": 3,
+          "lastName": "Apfel",
+          "firstName": "Thomas",
+          "profession": "Studioleiter, Stadtrat"
+        },
+        {
+          "id": "co-sr-6-4",
+          "position": 4,
+          "lastName": "Yilmaz",
+          "firstName": "Tuncer",
+          "profession": "Taxiunternehmer, Stadtrat"
+        },
+        {
+          "id": "co-sr-6-5",
+          "position": 5,
+          "lastName": "Bafas",
+          "firstName": "Antoinetta",
+          "profession": "M.A., Freischaffende Musikerin, Stadträtin"
+        },
+        {
+          "id": "co-sr-6-6",
+          "position": 6,
+          "lastName": "Böhme",
+          "firstName": "Rico",
+          "profession": "Rundfunkredakteur"
+        },
+        {
+          "id": "co-sr-6-7",
+          "position": 7,
+          "lastName": "Andiel",
+          "firstName": "Sarah",
+          "profession": "Kommunikationstrainerin, Ketschendorf"
+        },
+        {
+          "id": "co-sr-6-8",
+          "position": 8,
+          "lastName": "Dr. Engel",
+          "firstName": "Andreas",
+          "profession": "Geschäftsführer, Stadtrat"
+        },
+        {
+          "id": "co-sr-6-9",
+          "position": 9,
+          "lastName": "Kerscher",
+          "firstName": "Sabrina",
+          "profession": "Gastronomin"
+        },
+        {
+          "id": "co-sr-6-10",
+          "position": 10,
+          "lastName": "Meyer",
+          "firstName": "Uwe",
+          "profession": "Systemtechniker"
+        },
+        {
+          "id": "co-sr-6-11",
+          "position": 11,
+          "lastName": "Dr. Bergenthal",
+          "firstName": "Gerolf",
+          "profession": "Arzt, Cortendorf"
+        },
+        {
+          "id": "co-sr-6-12",
+          "position": 12,
+          "lastName": "Walter",
+          "firstName": "Grit Mara",
+          "profession": "selbstständige Fußpflegerin, Creidlitz"
+        },
+        {
+          "id": "co-sr-6-13",
+          "position": 13,
+          "lastName": "Kessel",
+          "firstName": "Stephan",
+          "profession": "Maler- und Lackierermeister, Ketschendorf"
+        },
+        {
+          "id": "co-sr-6-14",
+          "position": 14,
+          "lastName": "Grambs",
+          "firstName": "Oliver",
+          "profession": "Pflegehelfer"
+        },
+        {
+          "id": "co-sr-6-15",
+          "position": 15,
+          "lastName": "Leybold",
+          "firstName": "Regina",
+          "profession": "Immobilienmaklerin i.R."
+        },
+        {
+          "id": "co-sr-6-16",
+          "position": 16,
+          "lastName": "Geuter",
+          "firstName": "Horst",
+          "profession": "Geschäftsführer i.R."
+        },
+        {
+          "id": "co-sr-6-17",
+          "position": 17,
+          "lastName": "Meyer",
+          "firstName": "David",
+          "profession": "Auszubildender"
+        },
+        {
+          "id": "co-sr-6-18",
+          "position": 18,
+          "lastName": "Jurchen",
+          "firstName": "Peter",
+          "profession": "Betriebsratsvorsitzender, Bertelsdorf"
+        },
+        {
+          "id": "co-sr-6-19",
+          "position": 19,
+          "lastName": "Eberlein",
+          "firstName": "Steffen",
+          "profession": "Projektmanager Bau- und Anlagentechnik, Scheuerfeld"
+        },
+        {
+          "id": "co-sr-6-20",
+          "position": 20,
+          "lastName": "Bernhardt",
+          "firstName": "Oliver",
+          "profession": "Fachkraft für Lagerlogistik, Cortendorf"
+        },
+        {
+          "id": "co-sr-6-21",
+          "position": 21,
+          "lastName": "Blankenburg",
+          "firstName": "Christian",
+          "profession": "Diplomingenieur für Versorgungstechnik"
+        },
+        {
+          "id": "co-sr-6-22",
+          "position": 22,
+          "lastName": "Mautner",
+          "firstName": "Bettina",
+          "profession": "Diplomkommunikationdesignerin (FH)"
+        },
+        {
+          "id": "co-sr-6-23",
+          "position": 23,
+          "lastName": "Trommer",
+          "firstName": "Rüdiger",
+          "profession": "Betriebsrat, Neuses"
+        },
+        {
+          "id": "co-sr-6-24",
+          "position": 24,
+          "lastName": "Haring",
+          "firstName": "Andrea",
+          "profession": "Personalsachbearbeiterin, Cortendorf"
+        },
+        {
+          "id": "co-sr-6-25",
+          "position": 25,
+          "lastName": "Yilmaz",
+          "firstName": "Mehmet",
+          "profession": "Taxifahrer"
+        },
+        {
+          "id": "co-sr-6-26",
+          "position": 26,
+          "lastName": "Schmöe",
+          "firstName": "Nicole",
+          "profession": "B.A., Architektin"
+        },
+        {
+          "id": "co-sr-6-27",
+          "position": 27,
+          "lastName": "Jenn",
+          "firstName": "Martin",
+          "profession": "Versicherungsangestellter, Scheuerfeld"
+        },
+        {
+          "id": "co-sr-6-28",
+          "position": 28,
+          "lastName": "Ranzinger",
+          "firstName": "Katharina",
+          "profession": "M.A., Interieur Designerin, Ketschendorf"
+        },
+        {
+          "id": "co-sr-6-29",
+          "position": 29,
+          "lastName": "Kachel",
+          "firstName": "Wolfgang",
+          "profession": "Elektromeister i.R."
+        },
+        {
+          "id": "co-sr-6-30",
+          "position": 30,
+          "lastName": "Vogt",
+          "firstName": "Karin",
+          "profession": "kaufmännische Angestellte"
+        },
+        {
+          "id": "co-sr-6-31",
+          "position": 31,
+          "lastName": "Dr. Heinrich",
+          "firstName": "Michael",
+          "profession": "Professor"
+        },
+        {
+          "id": "co-sr-6-32",
+          "position": 32,
+          "lastName": "Aydin-Jürß",
+          "firstName": "Melike",
+          "profession": "geb. Aydin, Erzieherin, Neuses"
+        },
+        {
+          "id": "co-sr-6-33",
+          "position": 33,
+          "lastName": "Zeitz",
+          "firstName": "Cornelia",
+          "profession": "Sozialpädagogin, Creidlitz"
+        },
+        {
+          "id": "co-sr-6-34",
+          "position": 34,
+          "lastName": "Dewitz",
+          "firstName": "Karin",
+          "profession": "Bankfachwirtin i.R."
+        },
+        {
+          "id": "co-sr-6-35",
+          "position": 35,
+          "lastName": "Kachel",
+          "firstName": "Roswitha",
+          "profession": "Bürokauffrau i.R."
+        },
+        {
+          "id": "co-sr-6-36",
+          "position": 36,
+          "lastName": "Ner",
+          "firstName": "Bogdan",
+          "profession": "Orthopädieschuhmachermeister, Beiersdorf"
+        },
+        {
+          "id": "co-sr-6-37",
+          "position": 37,
+          "lastName": "Wölfert",
+          "firstName": "Susanne",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "co-sr-6-38",
+          "position": 38,
+          "lastName": "Herzog",
+          "firstName": "Michael",
+          "profession": "Verkaufsleiter, Beiersdorf"
+        },
+        {
+          "id": "co-sr-6-39",
+          "position": 39,
+          "lastName": "Heeb",
+          "firstName": "Petra",
+          "profession": "Floristmeisterin, Ketschendorf"
+        },
+        {
+          "id": "co-sr-6-40",
+          "position": 40,
+          "lastName": "Ruppenstein",
+          "firstName": "Dirk",
+          "profession": "Verwaltungsfachangestellter"
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "fullName": "Freie Demokratische Partei",
+      "shortName": "FDP",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "co-sr-7-1",
+          "position": 1,
+          "lastName": "Dr. Zimmermann",
+          "firstName": "Michael",
+          "profession": "Arzt, Stadtrat"
+        },
+        {
+          "id": "co-sr-7-2",
+          "position": 2,
+          "lastName": "Cooper",
+          "firstName": "David",
+          "profession": "Vertriebsleiter"
+        },
+        {
+          "id": "co-sr-7-3",
+          "position": 3,
+          "lastName": "Latta",
+          "firstName": "Markus",
+          "profession": "Finanzwirt"
+        },
+        {
+          "id": "co-sr-7-4",
+          "position": 4,
+          "lastName": "Dr. Herbert",
+          "firstName": "Ulrich",
+          "profession": "Rechtsanwalt"
+        },
+        {
+          "id": "co-sr-7-5",
+          "position": 5,
+          "lastName": "Dr. Eidt",
+          "firstName": "Hans-Heinrich",
+          "profession": "Rechtsanwalt, Stadtrat"
+        },
+        {
+          "id": "co-sr-7-6",
+          "position": 6,
+          "lastName": "Özdemir",
+          "firstName": "Akin-Ziya",
+          "profession": "Dipl.-Ing., Projektleiter"
+        },
+        {
+          "id": "co-sr-7-7",
+          "position": 7,
+          "lastName": "Meixner",
+          "firstName": "Justus",
+          "profession": "B.A., Ökonom"
+        },
+        {
+          "id": "co-sr-7-8",
+          "position": 8,
+          "lastName": "Zimmermann",
+          "firstName": "David",
+          "profession": "Schüler, Rögen"
+        },
+        {
+          "id": "co-sr-7-9",
+          "position": 9,
+          "lastName": "Zimmermann",
+          "firstName": "Daniel",
+          "profession": "Personalplaner"
+        },
+        {
+          "id": "co-sr-7-10",
+          "position": 10,
+          "lastName": "Grau",
+          "firstName": "Leo",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-7-11",
+          "position": 11,
+          "lastName": "Ettel",
+          "firstName": "Harald",
+          "profession": "Unternehmer"
+        },
+        {
+          "id": "co-sr-7-12",
+          "position": 12,
+          "lastName": "Bauer",
+          "firstName": "Lukas",
+          "profession": "Sachbearbeiter im Forderungsmanagement"
+        },
+        {
+          "id": "co-sr-7-13",
+          "position": 13,
+          "lastName": "Burkon",
+          "firstName": "Birgit",
+          "profession": "Versicherungsfachwirtin, Lützelbuch"
+        },
+        {
+          "id": "co-sr-7-14",
+          "position": 14,
+          "lastName": "Wolf",
+          "firstName": "Yannik",
+          "profession": "M.Sc., Informatiker"
+        },
+        {
+          "id": "co-sr-7-15",
+          "position": 15,
+          "lastName": "Dr. Stüber",
+          "firstName": "Frauke",
+          "profession": "Ärztin"
+        },
+        {
+          "id": "co-sr-7-16",
+          "position": 16,
+          "lastName": "Ritter",
+          "firstName": "Gunter",
+          "profession": "Lehrer i.R."
+        },
+        {
+          "id": "co-sr-7-17",
+          "position": 17,
+          "lastName": "Dr. Palitza",
+          "firstName": "Peter",
+          "profession": "Rentner"
+        },
+        {
+          "id": "co-sr-7-18",
+          "position": 18,
+          "lastName": "Arnold-Abrahamyan",
+          "firstName": "Alexander",
+          "profession": "Projektleiter"
+        },
+        {
+          "id": "co-sr-7-19",
+          "position": 19,
+          "lastName": "Bichas",
+          "firstName": "Konstantinos",
+          "profession": "selbstständiger Gastronom"
+        },
+        {
+          "id": "co-sr-7-20",
+          "position": 20,
+          "lastName": "Gemeinder",
+          "firstName": "Julia",
+          "profession": "Versicherungsfachfrau, Bertelsdorf"
+        },
+        {
+          "id": "co-sr-7-21",
+          "position": 21,
+          "lastName": "Gräfin",
+          "firstName": "von Brühl Claudia",
+          "profession": "Fachkrankenschwester Intensivpflege/Anästhesie"
+        },
+        {
+          "id": "co-sr-7-22",
+          "position": 22,
+          "lastName": "Nguyen",
+          "firstName": "Quang Anh",
+          "profession": "Gastronom"
+        },
+        {
+          "id": "co-sr-7-23",
+          "position": 23,
+          "lastName": "Graf",
+          "firstName": "von Brühl Robert",
+          "profession": "Finanzwirt"
+        },
+        {
+          "id": "co-sr-7-24",
+          "position": 24,
+          "lastName": "Herbert",
+          "firstName": "Jens",
+          "profession": "B.Eng., amtlich anerkannter Kraftfahrzeugsachverständiger"
+        },
+        {
+          "id": "co-sr-7-25",
+          "position": 25,
+          "lastName": "Kocak",
+          "firstName": "Vehbi",
+          "profession": "Gastronom"
+        },
+        {
+          "id": "co-sr-7-26",
+          "position": 26,
+          "lastName": "Heister",
+          "firstName": "Christine",
+          "profession": "Purser"
+        },
+        {
+          "id": "co-sr-7-27",
+          "position": 27,
+          "lastName": "Schaarschmidt",
+          "firstName": "Roschi",
+          "profession": "Gesundheitspraktikerin"
+        },
+        {
+          "id": "co-sr-7-28",
+          "position": 28,
+          "lastName": "Meinke",
+          "firstName": "Sebastian",
+          "profession": "Bauleiter"
+        },
+        {
+          "id": "co-sr-7-29",
+          "position": 29,
+          "lastName": "Herbert",
+          "firstName": "Jörn",
+          "profession": "M.Sc., Teilprojektleiter Industrialisierung"
+        },
+        {
+          "id": "co-sr-7-30",
+          "position": 30,
+          "lastName": "Brückner",
+          "firstName": "Sascha",
+          "profession": "Vermögensberater"
+        },
+        {
+          "id": "co-sr-7-31",
+          "position": 31,
+          "lastName": "Rückert",
+          "firstName": "Uwe",
+          "profession": "Einzelhandelskaufmann"
+        },
+        {
+          "id": "co-sr-7-32",
+          "position": 32,
+          "lastName": "Reiter",
+          "firstName": "Klaus-Joachim",
+          "profession": "Dipl.-Kfm., Rentner"
+        },
+        {
+          "id": "co-sr-7-33",
+          "position": 33,
+          "lastName": "Rohrbeck",
+          "firstName": "Dirk",
+          "profession": "Arzt"
+        },
+        {
+          "id": "co-sr-7-34",
+          "position": 34,
+          "lastName": "Meißner",
+          "firstName": "Gisela",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "co-sr-7-35",
+          "position": 35,
+          "lastName": "Heister",
+          "firstName": "Wieland",
+          "profession": "Dipl. Wirtschaftsingenieur"
+        },
+        {
+          "id": "co-sr-7-36",
+          "position": 36,
+          "lastName": "Weber",
+          "firstName": "Lutz",
+          "profession": "Steuerberater"
+        },
+        {
+          "id": "co-sr-7-37",
+          "position": 37,
+          "lastName": "Dittrich",
+          "firstName": "Jens",
+          "profession": "Steuerberater"
+        },
+        {
+          "id": "co-sr-7-38",
+          "position": 38,
+          "lastName": "Glasgow",
+          "firstName": "Graham",
+          "profession": "Golflehrer"
+        },
+        {
+          "id": "co-sr-7-39",
+          "position": 39,
+          "lastName": "Piendl",
+          "firstName": "Christa",
+          "profession": "Berufsschullehrerin"
+        },
+        {
+          "id": "co-sr-7-40",
+          "position": 40,
+          "lastName": "Wohlfromm",
+          "firstName": "Michael",
+          "profession": "Bauingenieur"
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "fullName": "Die Linke",
+      "shortName": "Die Linke",
+      "candidateCount": 30,
+      "candidates": [
+        {
+          "id": "co-sr-8-1",
+          "position": 1,
+          "lastName": "Kießling",
+          "firstName": "Lena",
+          "profession": "Arbeitslose"
+        },
+        {
+          "id": "co-sr-8-2",
+          "position": 2,
+          "lastName": "Hoppe",
+          "firstName": "Joachim",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-8-3",
+          "position": 3,
+          "lastName": "Reichel",
+          "firstName": "Leonie",
+          "profession": "Studentin"
+        },
+        {
+          "id": "co-sr-8-4",
+          "position": 4,
+          "lastName": "Deckert",
+          "firstName": "Nils",
+          "profession": "Dachdecker"
+        },
+        {
+          "id": "co-sr-8-5",
+          "position": 5,
+          "lastName": "Jacobi",
+          "firstName": "Hildegard",
+          "profession": "Lehrerin i.R., Ketschendorf"
+        },
+        {
+          "id": "co-sr-8-6",
+          "position": 6,
+          "lastName": "Röhrig",
+          "firstName": "Jonas",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-8-7",
+          "position": 7,
+          "lastName": "Wolf",
+          "firstName": "Linnea",
+          "profession": "Auszubildende"
+        },
+        {
+          "id": "co-sr-8-8",
+          "position": 8,
+          "lastName": "Hartwig",
+          "firstName": "Hannes",
+          "profession": "Postangestellter, Cortendorf"
+        },
+        {
+          "id": "co-sr-8-9",
+          "position": 9,
+          "lastName": "Steinhorst",
+          "firstName": "Jennifer",
+          "profession": "Souffleuse"
+        },
+        {
+          "id": "co-sr-8-10",
+          "position": 10,
+          "lastName": "Seeler",
+          "firstName": "Christian",
+          "profession": "Angestellter Marketing"
+        },
+        {
+          "id": "co-sr-8-11",
+          "position": 11,
+          "lastName": "Spindler",
+          "firstName": "Nele",
+          "profession": "Verkäuferin"
+        },
+        {
+          "id": "co-sr-8-12",
+          "position": 12,
+          "lastName": "Reuter",
+          "firstName": "Benjamin",
+          "profession": "Elektriker"
+        },
+        {
+          "id": "co-sr-8-13",
+          "position": 13,
+          "lastName": "Gloy",
+          "firstName": "Henriette",
+          "profession": "Studentin, Cortendorf"
+        },
+        {
+          "id": "co-sr-8-14",
+          "position": 14,
+          "lastName": "Roos",
+          "firstName": "Frank",
+          "profession": "Rentner"
+        },
+        {
+          "id": "co-sr-8-15",
+          "position": 15,
+          "lastName": "Ibba",
+          "firstName": "Anna-Lena",
+          "profession": "Einzelhandelskauffrau, Cortendorf"
+        },
+        {
+          "id": "co-sr-8-16",
+          "position": 16,
+          "lastName": "Arik",
+          "firstName": "Sam",
+          "profession": "Verkehrsüberwacher"
+        },
+        {
+          "id": "co-sr-8-17",
+          "position": 17,
+          "lastName": "Ehemann",
+          "firstName": "Elea",
+          "profession": "Auszubildende"
+        },
+        {
+          "id": "co-sr-8-18",
+          "position": 18,
+          "lastName": "Vortkamp",
+          "firstName": "Pascal",
+          "profession": "Zimmerer, Neuses"
+        },
+        {
+          "id": "co-sr-8-19",
+          "position": 19,
+          "lastName": "Kubitz",
+          "firstName": "Saskia",
+          "profession": "Leiterin heilpädagogischer Einrichtung"
+        },
+        {
+          "id": "co-sr-8-20",
+          "position": 20,
+          "lastName": "Neeb",
+          "firstName": "Niko",
+          "profession": "selbstständiger Mediengestalter"
+        },
+        {
+          "id": "co-sr-8-21",
+          "position": 21,
+          "lastName": "Roth",
+          "firstName": "Dominik",
+          "profession": "Versicherungskaufmann"
+        },
+        {
+          "id": "co-sr-8-22",
+          "position": 22,
+          "lastName": "Strötzel",
+          "firstName": "Lukas",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-8-23",
+          "position": 23,
+          "lastName": "Herpich",
+          "firstName": "Julius",
+          "profession": "Informatiker"
+        },
+        {
+          "id": "co-sr-8-24",
+          "position": 24,
+          "lastName": "Arzberger",
+          "firstName": "Florian",
+          "profession": "IT-Berater"
+        },
+        {
+          "id": "co-sr-8-25",
+          "position": 25,
+          "lastName": "Gartzlaff",
+          "firstName": "Carolin",
+          "profession": "Sozialpädagogin"
+        },
+        {
+          "id": "co-sr-8-26",
+          "position": 26,
+          "lastName": "Wagner",
+          "firstName": "Jonas",
+          "profession": "Lagerlogistiker"
+        },
+        {
+          "id": "co-sr-8-27",
+          "position": 27,
+          "lastName": "Meyer",
+          "firstName": "David",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-8-28",
+          "position": 28,
+          "lastName": "Schellhorn",
+          "firstName": "Stefan",
+          "profession": "Postangestellter"
+        },
+        {
+          "id": "co-sr-8-29",
+          "position": 29,
+          "lastName": "Pirinc",
+          "firstName": "Asli",
+          "profession": "Studentin"
+        },
+        {
+          "id": "co-sr-8-30",
+          "position": 30,
+          "lastName": "Cramer",
+          "firstName": "Trejo Dieter",
+          "profession": "Student"
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "fullName": "Ökologisch-Demokratische Partei Bayern",
+      "shortName": "ÖDP",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "co-sr-9-1",
+          "position": 1,
+          "lastName": "Wolf",
+          "firstName": "Tristan",
+          "profession": "Biolandwirt, Stadtrat"
+        },
+        {
+          "id": "co-sr-9-2",
+          "position": 2,
+          "lastName": "Murmann-Patzek",
+          "firstName": "Dagmar",
+          "profession": "Hebamme"
+        },
+        {
+          "id": "co-sr-9-3",
+          "position": 3,
+          "lastName": "Wohnig",
+          "firstName": "Erich",
+          "profession": "Dipl.-Inf., Unternehmensarchitekt"
+        },
+        {
+          "id": "co-sr-9-4",
+          "position": 4,
+          "lastName": "Maag",
+          "firstName": "Christiane",
+          "profession": "Dipl.-Theol., Theologin"
+        },
+        {
+          "id": "co-sr-9-5",
+          "position": 5,
+          "lastName": "Schiek",
+          "firstName": "Bernward",
+          "profession": "kaufmännischer Angestellter"
+        },
+        {
+          "id": "co-sr-9-6",
+          "position": 6,
+          "lastName": "Czwielong",
+          "firstName": "Nicole",
+          "profession": "Ergotherapeutin"
+        },
+        {
+          "id": "co-sr-9-7",
+          "position": 7,
+          "lastName": "Roth",
+          "firstName": "Christof",
+          "profession": "Geschäftsführer"
+        },
+        {
+          "id": "co-sr-9-8",
+          "position": 8,
+          "lastName": "Rosenthal",
+          "firstName": "Mirjam",
+          "profession": "Lehrerin"
+        },
+        {
+          "id": "co-sr-9-9",
+          "position": 9,
+          "lastName": "Götze",
+          "firstName": "Jürgen",
+          "profession": "Bademeister"
+        },
+        {
+          "id": "co-sr-9-10",
+          "position": 10,
+          "lastName": "Dr. Saranti",
+          "firstName": "Konstantina",
+          "profession": "Projektmanagerin"
+        },
+        {
+          "id": "co-sr-9-11",
+          "position": 11,
+          "lastName": "Ott",
+          "firstName": "Jürgen",
+          "profession": "Geschäftsstellenleiter"
+        },
+        {
+          "id": "co-sr-9-12",
+          "position": 12,
+          "lastName": "Napiorkowski",
+          "firstName": "Rita",
+          "profession": "Controllerin"
+        },
+        {
+          "id": "co-sr-9-13",
+          "position": 13,
+          "lastName": "Wohnig",
+          "firstName": "Paul",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-9-14",
+          "position": 14,
+          "lastName": "Minogue",
+          "firstName": "Pia",
+          "profession": "selbstständige Industriekauffrau"
+        },
+        {
+          "id": "co-sr-9-15",
+          "position": 15,
+          "lastName": "Fischer",
+          "firstName": "Michael",
+          "profession": "Medienfachwirt"
+        },
+        {
+          "id": "co-sr-9-16",
+          "position": 16,
+          "lastName": "Czwielong",
+          "firstName": "Theresa",
+          "profession": "M.A., Denkmalpflegerin"
+        },
+        {
+          "id": "co-sr-9-17",
+          "position": 17,
+          "lastName": "Haaf",
+          "firstName": "Sebastian",
+          "profession": "M.Eng., Ingenieur"
+        },
+        {
+          "id": "co-sr-9-18",
+          "position": 18,
+          "lastName": "Heinz",
+          "firstName": "Franziska",
+          "profession": "Kunsttherapeutin"
+        },
+        {
+          "id": "co-sr-9-19",
+          "position": 19,
+          "lastName": "Hassan",
+          "firstName": "Mehmood UI",
+          "profession": "Zerspanungsmechaniker"
+        },
+        {
+          "id": "co-sr-9-20",
+          "position": 20,
+          "lastName": "Rosenthal",
+          "firstName": "Eva-Maria",
+          "profession": "Dozentin"
+        },
+        {
+          "id": "co-sr-9-21",
+          "position": 21,
+          "lastName": "Bär",
+          "firstName": "Barbara",
+          "profession": "Studentin"
+        },
+        {
+          "id": "co-sr-9-22",
+          "position": 22,
+          "lastName": "Büchner",
+          "firstName": "David",
+          "profession": "M.Sc., Ingenieur"
+        },
+        {
+          "id": "co-sr-9-23",
+          "position": 23,
+          "lastName": "Patzek",
+          "firstName": "Luisa",
+          "profession": "Physiotherapeutin"
+        },
+        {
+          "id": "co-sr-9-24",
+          "position": 24,
+          "lastName": "Bauer",
+          "firstName": "Xaver",
+          "profession": "B.A., Unternehmensberater"
+        },
+        {
+          "id": "co-sr-9-25",
+          "position": 25,
+          "lastName": "Dr. Quiros",
+          "firstName": "Ramirez Maria",
+          "profession": "Wissenschaftlerin"
+        },
+        {
+          "id": "co-sr-9-26",
+          "position": 26,
+          "lastName": "Ott",
+          "firstName": "Florian",
+          "profession": "Verkäufer"
+        },
+        {
+          "id": "co-sr-9-27",
+          "position": 27,
+          "lastName": "Liebkopf",
+          "firstName": "Martina",
+          "profession": "Dorfhelferin"
+        },
+        {
+          "id": "co-sr-9-28",
+          "position": 28,
+          "lastName": "Resch",
+          "firstName": "Ulrich",
+          "profession": "Sozialversicherungs-Fachangestellter i. R."
+        },
+        {
+          "id": "co-sr-9-29",
+          "position": 29,
+          "lastName": "Androni",
+          "firstName": "Athanasia",
+          "profession": "soziale Betreuerin"
+        },
+        {
+          "id": "co-sr-9-30",
+          "position": 30,
+          "lastName": "Sobotta",
+          "firstName": "Heinz",
+          "profession": "Dipl.-Ing. (FH), Architekt"
+        },
+        {
+          "id": "co-sr-9-31",
+          "position": 31,
+          "lastName": "Hartlieb-Koch",
+          "firstName": "Heike",
+          "profession": "Erzieherin"
+        },
+        {
+          "id": "co-sr-9-32",
+          "position": 32,
+          "lastName": "Grün",
+          "firstName": "Ursula",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "co-sr-9-33",
+          "position": 33,
+          "lastName": "Rosenthal",
+          "firstName": "Daniel",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-9-34",
+          "position": 34,
+          "lastName": "Louwengo",
+          "firstName": "Esther",
+          "profession": "kaufmännische Fremdsprachen-Assistentin"
+        },
+        {
+          "id": "co-sr-9-35",
+          "position": 35,
+          "lastName": "Dr. Streuber",
+          "firstName": "Stephan",
+          "profession": "Professor"
+        },
+        {
+          "id": "co-sr-9-36",
+          "position": 36,
+          "lastName": "Minogue",
+          "firstName": "David",
+          "profession": "Landschaftsgärtner"
+        },
+        {
+          "id": "co-sr-9-37",
+          "position": 37,
+          "lastName": "Resch",
+          "firstName": "Marion",
+          "profession": "Bürokauffrau"
+        },
+        {
+          "id": "co-sr-9-38",
+          "position": 38,
+          "lastName": "Grün",
+          "firstName": "Matthias",
+          "profession": "Werkzeugmechaniker"
+        },
+        {
+          "id": "co-sr-9-39",
+          "position": 39,
+          "lastName": "Raiminger",
+          "firstName": "Manfred",
+          "profession": "Betriebswirt"
+        },
+        {
+          "id": "co-sr-9-40",
+          "position": 40,
+          "lastName": "Thomas",
+          "firstName": "Robert",
+          "profession": "Hochschulprofessor a. D."
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "fullName": "Bündnis Sahra Wagenknecht",
+      "shortName": "BSW",
+      "candidateCount": 15,
+      "candidates": [
+        {
+          "id": "co-sr-10-1",
+          "position": 1,
+          "lastName": "Hähnlein",
+          "firstName": "René",
+          "profession": "Landesgeschäftsführer einer Partei, Stadtrat"
+        },
+        {
+          "id": "co-sr-10-2",
+          "position": 2,
+          "lastName": "Hasirci",
+          "firstName": "Alper",
+          "profession": "Jurist, Stadtrat, Scheuerfeld"
+        },
+        {
+          "id": "co-sr-10-3",
+          "position": 3,
+          "lastName": "Dr. Alhmidi",
+          "firstName": "Mohamad",
+          "profession": "Arzt"
+        },
+        {
+          "id": "co-sr-10-4",
+          "position": 4,
+          "lastName": "Rinke",
+          "firstName": "Stephan",
+          "profession": "Teamleiter"
+        },
+        {
+          "id": "co-sr-10-5",
+          "position": 5,
+          "lastName": "Tretau",
+          "firstName": "Peter",
+          "profession": "Verwaltungsangestellter i.R., Seidmannsdorf"
+        },
+        {
+          "id": "co-sr-10-6",
+          "position": 6,
+          "lastName": "Saeidi",
+          "firstName": "Babette",
+          "profession": "Verkäuferin"
+        },
+        {
+          "id": "co-sr-10-7",
+          "position": 7,
+          "lastName": "Krauß",
+          "firstName": "Daniela",
+          "profession": "Hausfrau"
+        },
+        {
+          "id": "co-sr-10-8",
+          "position": 8,
+          "lastName": "Hofmann",
+          "firstName": "Heiko",
+          "profession": "Postangestellter"
+        },
+        {
+          "id": "co-sr-10-9",
+          "position": 9,
+          "lastName": "Wank",
+          "firstName": "Bernd",
+          "profession": "Sachbearbeiter für Versicherungen"
+        },
+        {
+          "id": "co-sr-10-10",
+          "position": 10,
+          "lastName": "Meier",
+          "firstName": "Axel-Ragnar",
+          "profession": "Kaufmann für Versicherungen"
+        },
+        {
+          "id": "co-sr-10-11",
+          "position": 11,
+          "lastName": "Bräutigam",
+          "firstName": "Dieter",
+          "profession": "Rentner"
+        },
+        {
+          "id": "co-sr-10-12",
+          "position": 12,
+          "lastName": "Christ",
+          "firstName": "Christine",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "co-sr-10-13",
+          "position": 13,
+          "lastName": "Akgül",
+          "firstName": "Dila",
+          "profession": "Verkäuferin"
+        },
+        {
+          "id": "co-sr-10-14",
+          "position": 14,
+          "lastName": "Kraut",
+          "firstName": "Peter",
+          "profession": "selbstständiger EDV-Systembetreuer"
+        },
+        {
+          "id": "co-sr-10-15",
+          "position": 15,
+          "lastName": "Hähnlein",
+          "firstName": "Petra",
+          "profession": "Rentnerin"
+        }
+      ]
+    },
+    {
+      "listNumber": 11,
+      "fullName": "Junge Union Bayern",
+      "shortName": "JU",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "co-sr-11-1",
+          "position": 1,
+          "lastName": "Bätz",
+          "firstName": "Nick",
+          "profession": "Verwaltungsfachangestellter"
+        },
+        {
+          "id": "co-sr-11-2",
+          "position": 2,
+          "lastName": "Wutke",
+          "firstName": "Jakob",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-3",
+          "position": 3,
+          "lastName": "Scheler",
+          "firstName": "Laura",
+          "profession": "Studentin"
+        },
+        {
+          "id": "co-sr-11-4",
+          "position": 4,
+          "lastName": "Wenning",
+          "firstName": "Maximilian",
+          "profession": "M.Sc., Wirtschaftsmathematiker"
+        },
+        {
+          "id": "co-sr-11-5",
+          "position": 5,
+          "lastName": "Altenfelder",
+          "firstName": "Noah",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-6",
+          "position": 6,
+          "lastName": "Luft",
+          "firstName": "Oskar",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-7",
+          "position": 7,
+          "lastName": "Heitmann",
+          "firstName": "Tim",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-8",
+          "position": 8,
+          "lastName": "Glodschei",
+          "firstName": "Leopold",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-9",
+          "position": 9,
+          "lastName": "Heitmann",
+          "firstName": "Niklas",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-10",
+          "position": 10,
+          "lastName": "Schubart",
+          "firstName": "Pauline",
+          "profession": "Auszubildende"
+        },
+        {
+          "id": "co-sr-11-11",
+          "position": 11,
+          "lastName": "Then",
+          "firstName": "Sascha",
+          "profession": "Beamtenanwärter"
+        },
+        {
+          "id": "co-sr-11-12",
+          "position": 12,
+          "lastName": "Knight",
+          "firstName": "Kevin",
+          "profession": "Baugruppenmonteur"
+        },
+        {
+          "id": "co-sr-11-13",
+          "position": 13,
+          "lastName": "Luft",
+          "firstName": "Anton",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-14",
+          "position": 14,
+          "lastName": "Seufert",
+          "firstName": "Michel",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-15",
+          "position": 15,
+          "lastName": "Wenning",
+          "firstName": "Katharina",
+          "profession": "M.Ed., Lehrerin"
+        },
+        {
+          "id": "co-sr-11-16",
+          "position": 16,
+          "lastName": "Scheller",
+          "firstName": "Robert",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-17",
+          "position": 17,
+          "lastName": "Sener",
+          "firstName": "Ugurcan",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-18",
+          "position": 18,
+          "lastName": "Gräßel",
+          "firstName": "Luca",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-19",
+          "position": 19,
+          "lastName": "Langer",
+          "firstName": "Lisa",
+          "profession": "Kauffrau für Versicherungen und Finanzen"
+        },
+        {
+          "id": "co-sr-11-20",
+          "position": 20,
+          "lastName": "Raab",
+          "firstName": "Leopold",
+          "profession": "Soldat"
+        },
+        {
+          "id": "co-sr-11-21",
+          "position": 21,
+          "lastName": "Schilling",
+          "firstName": "Lars",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-22",
+          "position": 22,
+          "lastName": "Hannusch",
+          "firstName": "Yannik",
+          "profession": "B.Eng., Ingenieur Produktionstechnik"
+        },
+        {
+          "id": "co-sr-11-23",
+          "position": 23,
+          "lastName": "Grinko",
+          "firstName": "Alexander",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-24",
+          "position": 24,
+          "lastName": "Fischer",
+          "firstName": "Anna",
+          "profession": "Produktionsmitarbeiterin"
+        },
+        {
+          "id": "co-sr-11-25",
+          "position": 25,
+          "lastName": "Radulovic",
+          "firstName": "Aleksandar",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-26",
+          "position": 26,
+          "lastName": "Schlüter",
+          "firstName": "Tim",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-27",
+          "position": 27,
+          "lastName": "Spichall",
+          "firstName": "Julius",
+          "profession": "Schüler"
+        },
+        {
+          "id": "co-sr-11-28",
+          "position": 28,
+          "lastName": "Voß",
+          "firstName": "Mia-Sophie",
+          "profession": "Auszubildende"
+        },
+        {
+          "id": "co-sr-11-29",
+          "position": 29,
+          "lastName": "Greßler",
+          "firstName": "Elias",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-30",
+          "position": 30,
+          "lastName": "Elitzke",
+          "firstName": "Kilian",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-31",
+          "position": 31,
+          "lastName": "Heinze",
+          "firstName": "Tim",
+          "profession": "Automobilkaufmann"
+        },
+        {
+          "id": "co-sr-11-32",
+          "position": 32,
+          "lastName": "Schneider",
+          "firstName": "Florian",
+          "profession": "Projektleiter"
+        },
+        {
+          "id": "co-sr-11-33",
+          "position": 33,
+          "lastName": "Konggann",
+          "firstName": "Laurin",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-34",
+          "position": 34,
+          "lastName": "Meier",
+          "firstName": "Sophia",
+          "profession": "Auszubildende"
+        },
+        {
+          "id": "co-sr-11-35",
+          "position": 35,
+          "lastName": "Reißmann",
+          "firstName": "Tim",
+          "profession": "Kaufmann Groß- und Außenhandelsmanagement"
+        },
+        {
+          "id": "co-sr-11-36",
+          "position": 36,
+          "lastName": "Nerz",
+          "firstName": "Marcel",
+          "profession": "Student"
+        },
+        {
+          "id": "co-sr-11-37",
+          "position": 37,
+          "lastName": "Schmidt",
+          "firstName": "Anton-Ludwig",
+          "profession": "Informatiker"
+        },
+        {
+          "id": "co-sr-11-38",
+          "position": 38,
+          "lastName": "Mandlik",
+          "firstName": "Merlin",
+          "profession": "Anwärter"
+        },
+        {
+          "id": "co-sr-11-39",
+          "position": 39,
+          "lastName": "Lauterbach",
+          "firstName": "Tim",
+          "profession": "Auszubildender"
+        },
+        {
+          "id": "co-sr-11-40",
+          "position": 40,
+          "lastName": "Gerken",
+          "firstName": "Jan",
+          "profession": "Schüler"
+        }
+      ]
+    }
+  ]
+}

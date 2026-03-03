@@ -1,0 +1,1871 @@
+[
+  {
+    "name": "CSU",
+    "fullName": "Christlich-Soziale Union in Bayern e.V.",
+    "listNumber": 1,
+    "candidates": [
+      {
+        "id": 101,
+        "name": "Dr. Thomas Haslinger"
+      },
+      {
+        "id": 102,
+        "name": "Dr. Kerstin Kastl"
+      },
+      {
+        "id": 103,
+        "name": "Dr. Thomas Küffner"
+      },
+      {
+        "id": 104,
+        "name": "Manuela Nemela"
+      },
+      {
+        "id": 105,
+        "name": "Helmut Radlmeier"
+      },
+      {
+        "id": 106,
+        "name": "Astrid Eisenschink-Rampf"
+      },
+      {
+        "id": 107,
+        "name": "Ludwig Zellner"
+      },
+      {
+        "id": 108,
+        "name": "Ursula Weger"
+      },
+      {
+        "id": 109,
+        "name": "Ludwig Schnur"
+      },
+      {
+        "id": 110,
+        "name": "Monika Voland-Kleemann"
+      },
+      {
+        "id": 111,
+        "name": "Hans-Peter Summer"
+      },
+      {
+        "id": 112,
+        "name": "Philipp Wetzstein"
+      },
+      {
+        "id": 113,
+        "name": "Lothar Reichwein"
+      },
+      {
+        "id": 114,
+        "name": "Dr. Stephan Beuer"
+      },
+      {
+        "id": 115,
+        "name": "Florian Lechner"
+      },
+      {
+        "id": 116,
+        "name": "Florian Eller"
+      },
+      {
+        "id": 117,
+        "name": "Anke Humpeneder-Graf"
+      },
+      {
+        "id": 118,
+        "name": "Sebastian Vogl"
+      },
+      {
+        "id": 119,
+        "name": "Andreas Löscher"
+      },
+      {
+        "id": 120,
+        "name": "Michael Moser"
+      },
+      {
+        "id": 121,
+        "name": "Winfried Wiethaler"
+      },
+      {
+        "id": 122,
+        "name": "Michael Kretzschmar"
+      },
+      {
+        "id": 123,
+        "name": "Blasius Kubanek"
+      },
+      {
+        "id": 124,
+        "name": "Sigrid Sikorski"
+      },
+      {
+        "id": 125,
+        "name": "Marion Schmidt"
+      },
+      {
+        "id": 126,
+        "name": "Thomas Wilhelm"
+      },
+      {
+        "id": 127,
+        "name": "Mariana Gronewald-Haake"
+      },
+      {
+        "id": 128,
+        "name": "Herbert Lanzinger"
+      },
+      {
+        "id": 129,
+        "name": "Barbara Zinkl-Funk"
+      },
+      {
+        "id": 130,
+        "name": "Dr. Isabella Bubb"
+      },
+      {
+        "id": 131,
+        "name": "Dr. Dr. Karl Semmelmayer"
+      },
+      {
+        "id": 132,
+        "name": "Carmen Koslow"
+      },
+      {
+        "id": 133,
+        "name": "Dr. Stefan Kluge"
+      },
+      {
+        "id": 134,
+        "name": "Stefanie Löchli"
+      },
+      {
+        "id": 135,
+        "name": "Attila Gereb"
+      },
+      {
+        "id": 136,
+        "name": "Stefan Schäck"
+      },
+      {
+        "id": 137,
+        "name": "Stefan Ludolfinger"
+      },
+      {
+        "id": 138,
+        "name": "Martina Dambacher"
+      },
+      {
+        "id": 139,
+        "name": "Andreas Kei"
+      },
+      {
+        "id": 140,
+        "name": "Rudolf Napholtz"
+      },
+      {
+        "id": 141,
+        "name": "Dr. Christian Gamel"
+      },
+      {
+        "id": 142,
+        "name": "Andrea Lapper"
+      },
+      {
+        "id": 143,
+        "name": "Prof. Dr. Matthias Sachsenweger"
+      },
+      {
+        "id": 144,
+        "name": "Dr. Bernhard Schaub"
+      }
+    ]
+  },
+  {
+    "name": "FREIE WÄHLER",
+    "fullName": "FREIE WÄHLER",
+    "listNumber": 2,
+    "candidates": [
+      {
+        "id": 201,
+        "name": "Jutta Widmann"
+      },
+      {
+        "id": 202,
+        "name": "Klaus Pauli"
+      },
+      {
+        "id": 203,
+        "name": "Sonja Axthaler"
+      },
+      {
+        "id": 204,
+        "name": "Robert Mader"
+      },
+      {
+        "id": 205,
+        "name": "Johanna Schramm"
+      },
+      {
+        "id": 206,
+        "name": "Rudolf Schnur"
+      },
+      {
+        "id": 207,
+        "name": "Alfons Bach"
+      },
+      {
+        "id": 208,
+        "name": "Franz Wenninger-Kreuzer"
+      },
+      {
+        "id": 209,
+        "name": "Ralf Bachmann"
+      },
+      {
+        "id": 210,
+        "name": "Maximilian Schreiner-Stockheimer"
+      },
+      {
+        "id": 211,
+        "name": "Wolfgang Ziegler"
+      },
+      {
+        "id": 212,
+        "name": "Petra Strasser"
+      },
+      {
+        "id": 213,
+        "name": "Kathrin Rinderer"
+      },
+      {
+        "id": 214,
+        "name": "Marco Altinger"
+      },
+      {
+        "id": 215,
+        "name": "Florian Zenk"
+      },
+      {
+        "id": 216,
+        "name": "Albrecht Schöllhorn-Gaar"
+      },
+      {
+        "id": 217,
+        "name": "Dr. Christian Heizer"
+      },
+      {
+        "id": 218,
+        "name": "Peter Ziegler"
+      },
+      {
+        "id": 219,
+        "name": "Resmie Schwarzmaier"
+      },
+      {
+        "id": 220,
+        "name": "Günther Schwarzmaier"
+      },
+      {
+        "id": 221,
+        "name": "Bianca Nürnberg"
+      },
+      {
+        "id": 222,
+        "name": "Karl Dressel"
+      },
+      {
+        "id": 223,
+        "name": "Michaela Baumgartner"
+      },
+      {
+        "id": 224,
+        "name": "Markus Brunner"
+      },
+      {
+        "id": 225,
+        "name": "Claus Nußrainer"
+      },
+      {
+        "id": 226,
+        "name": "Christian Edenhofner"
+      },
+      {
+        "id": 227,
+        "name": "Albertine Gundermann"
+      },
+      {
+        "id": 228,
+        "name": "Ursula Althammer"
+      },
+      {
+        "id": 229,
+        "name": "Franz Pusl"
+      },
+      {
+        "id": 230,
+        "name": "Marcus Streb"
+      },
+      {
+        "id": 231,
+        "name": "Franz Prokosch"
+      },
+      {
+        "id": 232,
+        "name": "Cornelia Bauer"
+      },
+      {
+        "id": 233,
+        "name": "Rosemarie Schwenkert"
+      },
+      {
+        "id": 234,
+        "name": "Christian Siller"
+      },
+      {
+        "id": 235,
+        "name": "Johanna Kreitmeier"
+      },
+      {
+        "id": 236,
+        "name": "Sybille Fiedler"
+      },
+      {
+        "id": 237,
+        "name": "Herbert Daiberl"
+      },
+      {
+        "id": 238,
+        "name": "Graziano Maraglino"
+      },
+      {
+        "id": 239,
+        "name": "Monika Weinzierl"
+      },
+      {
+        "id": 240,
+        "name": "Emanuel Hölzl"
+      },
+      {
+        "id": 241,
+        "name": "Rita Wenninger-Kreuzer"
+      },
+      {
+        "id": 242,
+        "name": "Petra Ranke"
+      },
+      {
+        "id": 243,
+        "name": "Alexander Naumann"
+      },
+      {
+        "id": 244,
+        "name": "Heidemarie Gerauer"
+      }
+    ]
+  },
+  {
+    "name": "AfD",
+    "fullName": "Alternative für Deutschland",
+    "listNumber": 3,
+    "candidates": [
+      {
+        "id": 301,
+        "name": "Günter Straßberger"
+      },
+      {
+        "id": 302,
+        "name": "Rainer Ecker"
+      },
+      {
+        "id": 303,
+        "name": "Simon Straßer"
+      },
+      {
+        "id": 304,
+        "name": "Rainer Mittermeier"
+      },
+      {
+        "id": 305,
+        "name": "Sergej Schulz"
+      },
+      {
+        "id": 306,
+        "name": "Zongyu Lu"
+      },
+      {
+        "id": 307,
+        "name": "Bernhard Heinrich"
+      },
+      {
+        "id": 308,
+        "name": "Thilo Poppek"
+      },
+      {
+        "id": 309,
+        "name": "Markus Kretz"
+      },
+      {
+        "id": 310,
+        "name": "Ralf Mai"
+      },
+      {
+        "id": 311,
+        "name": "Wolfram Schubert"
+      },
+      {
+        "id": 312,
+        "name": "Irene Schulz"
+      },
+      {
+        "id": 313,
+        "name": "Anton Lini"
+      },
+      {
+        "id": 314,
+        "name": "Dr. Christian Liebl"
+      },
+      {
+        "id": 315,
+        "name": "Kurt Bankhofer"
+      },
+      {
+        "id": 316,
+        "name": "Dominik Weber"
+      },
+      {
+        "id": 317,
+        "name": "Harald Pock"
+      }
+    ]
+  },
+  {
+    "name": "GRÜNE",
+    "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+    "listNumber": 4,
+    "candidates": [
+      {
+        "id": 401,
+        "name": "Iris Haas"
+      },
+      {
+        "id": 402,
+        "name": "Christoph Rabl"
+      },
+      {
+        "id": 403,
+        "name": "Julia Oberland"
+      },
+      {
+        "id": 404,
+        "name": "Dr. Sebastian Bröckner-Kiss"
+      },
+      {
+        "id": 405,
+        "name": "Hedwig Borgmann"
+      },
+      {
+        "id": 406,
+        "name": "Rudolf Ruhland"
+      },
+      {
+        "id": 407,
+        "name": "Elke Rümmelein"
+      },
+      {
+        "id": 408,
+        "name": "Tobias Weger-Behl"
+      },
+      {
+        "id": 409,
+        "name": "Ingrid Ruhland"
+      },
+      {
+        "id": 410,
+        "name": "Stefan Gruber"
+      },
+      {
+        "id": 411,
+        "name": "Anita Gromotka"
+      },
+      {
+        "id": 412,
+        "name": "Robert Fuchsgruber"
+      },
+      {
+        "id": 413,
+        "name": "Petra Zander"
+      },
+      {
+        "id": 414,
+        "name": "Detlef Rüsch"
+      },
+      {
+        "id": 415,
+        "name": "Laura Pollard"
+      },
+      {
+        "id": 416,
+        "name": "Marek Cina"
+      },
+      {
+        "id": 417,
+        "name": "Albina Thaqi"
+      },
+      {
+        "id": 418,
+        "name": "Jochen Decker"
+      },
+      {
+        "id": 419,
+        "name": "Isabel Käsbauer"
+      },
+      {
+        "id": 420,
+        "name": "Dr. Gerald Hofmann"
+      },
+      {
+        "id": 421,
+        "name": "Susanne Höppner"
+      },
+      {
+        "id": 422,
+        "name": "Emil Meisl"
+      },
+      {
+        "id": 423,
+        "name": "Lena Blumenthal"
+      },
+      {
+        "id": 424,
+        "name": "Simon Staudinger"
+      },
+      {
+        "id": 425,
+        "name": "Monika Bartz"
+      },
+      {
+        "id": 426,
+        "name": "Christian Klein"
+      },
+      {
+        "id": 427,
+        "name": "Birgit Corall"
+      },
+      {
+        "id": 428,
+        "name": "Christian Günzel"
+      },
+      {
+        "id": 429,
+        "name": "Dr. Theresia Strasser"
+      },
+      {
+        "id": 430,
+        "name": "Dr. Ingo Bartha"
+      },
+      {
+        "id": 431,
+        "name": "Gertrud Fackelmann"
+      },
+      {
+        "id": 432,
+        "name": "Kunibert Herzing"
+      },
+      {
+        "id": 433,
+        "name": "Anke Koch"
+      },
+      {
+        "id": 434,
+        "name": "Stefan Bartz"
+      },
+      {
+        "id": 435,
+        "name": "Malottki Heike von"
+      },
+      {
+        "id": 436,
+        "name": "Karl Heinz Huber"
+      },
+      {
+        "id": 437,
+        "name": "Dr. Hannah Jörg"
+      },
+      {
+        "id": 438,
+        "name": "Markus Scheuermann"
+      },
+      {
+        "id": 439,
+        "name": "Elisabeth Strasser"
+      },
+      {
+        "id": 440,
+        "name": "Ferdinand Schoßer"
+      },
+      {
+        "id": 441,
+        "name": "Petra Maier"
+      },
+      {
+        "id": 442,
+        "name": "Philipp Hutzenthaler"
+      },
+      {
+        "id": 443,
+        "name": "Dr. Simone Hartmann"
+      },
+      {
+        "id": 444,
+        "name": "Sigrid Hagl"
+      }
+    ]
+  },
+  {
+    "name": "SPD",
+    "fullName": "Sozialdemokratische Partei Deutschlands",
+    "listNumber": 5,
+    "candidates": [
+      {
+        "id": 501,
+        "name": "Patricia Steinberger"
+      },
+      {
+        "id": 502,
+        "name": "Vincent Hogenkamp"
+      },
+      {
+        "id": 503,
+        "name": "Anja König"
+      },
+      {
+        "id": 504,
+        "name": "Gerd Steinberger"
+      },
+      {
+        "id": 505,
+        "name": "Kim Celin Seibert-Hogenkamp"
+      },
+      {
+        "id": 506,
+        "name": "Fabian Dobmeier"
+      },
+      {
+        "id": 507,
+        "name": "Lucie Pable"
+      },
+      {
+        "id": 508,
+        "name": "Niklas Fuchs"
+      },
+      {
+        "id": 509,
+        "name": "Maria Sidorova-Spilker"
+      },
+      {
+        "id": 510,
+        "name": "Frank Domakowski"
+      },
+      {
+        "id": 511,
+        "name": "Gisela Bogner"
+      },
+      {
+        "id": 512,
+        "name": "Herbert Lohmeyer"
+      },
+      {
+        "id": 513,
+        "name": "Jutta Schönecker"
+      },
+      {
+        "id": 514,
+        "name": "Franz Schneider"
+      },
+      {
+        "id": 515,
+        "name": "Jamila Fox"
+      },
+      {
+        "id": 516,
+        "name": "Patrick Jean-Baptiste"
+      },
+      {
+        "id": 517,
+        "name": "Anita Kubatschka"
+      },
+      {
+        "id": 518,
+        "name": "Bernd Heinze"
+      },
+      {
+        "id": 519,
+        "name": "Monika Faltermeier"
+      },
+      {
+        "id": 520,
+        "name": "Johann Luger"
+      },
+      {
+        "id": 521,
+        "name": "Beate Köbler"
+      },
+      {
+        "id": 522,
+        "name": "Horst Kirch"
+      },
+      {
+        "id": 523,
+        "name": "Karola Hübner"
+      },
+      {
+        "id": 524,
+        "name": "Axel Oßner"
+      },
+      {
+        "id": 525,
+        "name": "Katharina Knau"
+      },
+      {
+        "id": 526,
+        "name": "Jona Münch"
+      },
+      {
+        "id": 527,
+        "name": "Elisabeth Wittmann-Baumgartner"
+      },
+      {
+        "id": 528,
+        "name": "Michael Knau"
+      },
+      {
+        "id": 529,
+        "name": "Ramona Hogenkamp"
+      },
+      {
+        "id": 530,
+        "name": "Vladimir Bourbo"
+      },
+      {
+        "id": 531,
+        "name": "Bärbel Gasteiger"
+      },
+      {
+        "id": 532,
+        "name": "Lennart Hogenkamp"
+      },
+      {
+        "id": 533,
+        "name": "Gabriele Saller"
+      },
+      {
+        "id": 534,
+        "name": "Achim Reinhart"
+      },
+      {
+        "id": 535,
+        "name": "Christina Meindl"
+      },
+      {
+        "id": 536,
+        "name": "Florian Emberger"
+      },
+      {
+        "id": 537,
+        "name": "Doris Reithmeier-Erhard"
+      },
+      {
+        "id": 538,
+        "name": "Heinz Haupt"
+      },
+      {
+        "id": 539,
+        "name": "Maria Haucke"
+      },
+      {
+        "id": 540,
+        "name": "Gerhard Wick"
+      },
+      {
+        "id": 541,
+        "name": "Eduard Beck"
+      },
+      {
+        "id": 542,
+        "name": "Bernhard Haupt"
+      },
+      {
+        "id": 543,
+        "name": "Walter Müller"
+      },
+      {
+        "id": 544,
+        "name": "Harald Unfried"
+      }
+    ]
+  },
+  {
+    "name": "FDP",
+    "fullName": "Freie Demokratische Partei",
+    "listNumber": 6,
+    "candidates": [
+      {
+        "id": 601,
+        "name": "Jürgen Wachter"
+      },
+      {
+        "id": 602,
+        "name": "Kirstin Sauter"
+      },
+      {
+        "id": 603,
+        "name": "Frank Schräder"
+      },
+      {
+        "id": 604,
+        "name": "Brigitte Soyer-Stauffert"
+      },
+      {
+        "id": 605,
+        "name": "Valentin Waechter"
+      },
+      {
+        "id": 606,
+        "name": "Sebastian Beer"
+      },
+      {
+        "id": 607,
+        "name": "Aneta Kulak"
+      },
+      {
+        "id": 608,
+        "name": "Severin Andres"
+      },
+      {
+        "id": 609,
+        "name": "Dr. Dagmar Ludolph-Hauser"
+      },
+      {
+        "id": 610,
+        "name": "Gunthard Goresch"
+      },
+      {
+        "id": 611,
+        "name": "Karl-Heinz Nuber"
+      },
+      {
+        "id": 612,
+        "name": "Michael Marx"
+      },
+      {
+        "id": 613,
+        "name": "Prof. Dr. Thomas Stauffert"
+      },
+      {
+        "id": 614,
+        "name": "Erica Häglsperger"
+      },
+      {
+        "id": 615,
+        "name": "Christian Knödel"
+      },
+      {
+        "id": 616,
+        "name": "Monika Wolff"
+      },
+      {
+        "id": 617,
+        "name": "Günter Nötzold"
+      },
+      {
+        "id": 618,
+        "name": "Moritz Lönne"
+      },
+      {
+        "id": 619,
+        "name": "Andreas Sauter"
+      },
+      {
+        "id": 620,
+        "name": "Patrick Wachter"
+      },
+      {
+        "id": 621,
+        "name": "Reinhilde Nuber"
+      },
+      {
+        "id": 622,
+        "name": "Katja Zrenner"
+      },
+      {
+        "id": 623,
+        "name": "Markus Wahle"
+      },
+      {
+        "id": 624,
+        "name": "Filip Dama"
+      },
+      {
+        "id": 625,
+        "name": "Florian Vierthaler"
+      },
+      {
+        "id": 626,
+        "name": "Stefan Esterl"
+      },
+      {
+        "id": 627,
+        "name": "Ulrich Atzert"
+      },
+      {
+        "id": 628,
+        "name": "Jonathan Schuster"
+      },
+      {
+        "id": 629,
+        "name": "Robin Schröder"
+      },
+      {
+        "id": 630,
+        "name": "Tim Kammermayer"
+      },
+      {
+        "id": 631,
+        "name": "Marcus Gluch"
+      },
+      {
+        "id": 632,
+        "name": "Michael Hell"
+      },
+      {
+        "id": 633,
+        "name": "Richard Schuller"
+      },
+      {
+        "id": 634,
+        "name": "Lydia Spachowski"
+      },
+      {
+        "id": 635,
+        "name": "Nicole Bolz"
+      },
+      {
+        "id": 636,
+        "name": "Michéle Hofmeister"
+      },
+      {
+        "id": 637,
+        "name": "Thomas Glemser"
+      },
+      {
+        "id": 638,
+        "name": "Gabriele Maisch"
+      },
+      {
+        "id": 639,
+        "name": "Matteo Gerkensmeyer"
+      },
+      {
+        "id": 640,
+        "name": "Sascha Pfordte"
+      },
+      {
+        "id": 641,
+        "name": "Nicolas Schreiber"
+      },
+      {
+        "id": 642,
+        "name": "Michael Pauker"
+      },
+      {
+        "id": 643,
+        "name": "Joris Baelen"
+      },
+      {
+        "id": 644,
+        "name": "Edmund Pelikan"
+      }
+    ]
+  },
+  {
+    "name": "ÖDP",
+    "fullName": "Ökologisch-Demokratische Partei",
+    "listNumber": 7,
+    "candidates": [
+      {
+        "id": 701,
+        "name": "Heiko Helmbrecht"
+      },
+      {
+        "id": 702,
+        "name": "Elke März-Granda"
+      },
+      {
+        "id": 703,
+        "name": "Wolfgang Gratz"
+      },
+      {
+        "id": 704,
+        "name": "Anja Helmbrecht-Schaar"
+      },
+      {
+        "id": 705,
+        "name": "Herbert Eichner"
+      },
+      {
+        "id": 706,
+        "name": "Jonas Ackermann"
+      },
+      {
+        "id": 707,
+        "name": "Anna Romascheva"
+      },
+      {
+        "id": 708,
+        "name": "Anneliese Keil"
+      },
+      {
+        "id": 709,
+        "name": "Claus Sixt"
+      },
+      {
+        "id": 710,
+        "name": "Wolfgang Hiemer"
+      },
+      {
+        "id": 711,
+        "name": "Christine Ackermann"
+      },
+      {
+        "id": 712,
+        "name": "Felice Elia Cafariello"
+      },
+      {
+        "id": 713,
+        "name": "Axel Brunken"
+      },
+      {
+        "id": 714,
+        "name": "Dr. Hans-Friedrich Arnold"
+      },
+      {
+        "id": 715,
+        "name": "Peter Keil"
+      },
+      {
+        "id": 716,
+        "name": "Dr. Johann Schuster"
+      },
+      {
+        "id": 717,
+        "name": "Norbert Berthold"
+      },
+      {
+        "id": 718,
+        "name": "Helga Engelsdorfer"
+      },
+      {
+        "id": 719,
+        "name": "Christoph Neub"
+      },
+      {
+        "id": 720,
+        "name": "Elisabeth Sommer"
+      },
+      {
+        "id": 721,
+        "name": "Dr. Hermann Ebert"
+      },
+      {
+        "id": 722,
+        "name": "Andrea Gratz"
+      },
+      {
+        "id": 723,
+        "name": "Diana März"
+      },
+      {
+        "id": 724,
+        "name": "Martina Kerndl"
+      },
+      {
+        "id": 725,
+        "name": "Dr. Ioannis Charalampakis"
+      },
+      {
+        "id": 726,
+        "name": "Sonja Würfel"
+      },
+      {
+        "id": 727,
+        "name": "Sandra Rüter"
+      },
+      {
+        "id": 728,
+        "name": "Winfried Wiesnet"
+      },
+      {
+        "id": 729,
+        "name": "Matthias Keil"
+      },
+      {
+        "id": 730,
+        "name": "Paul Helmbrecht"
+      },
+      {
+        "id": 731,
+        "name": "Joseph Danzer"
+      },
+      {
+        "id": 732,
+        "name": "Gabriele Arnold"
+      },
+      {
+        "id": 733,
+        "name": "Susanne Rieck"
+      },
+      {
+        "id": 734,
+        "name": "Helena Huber"
+      },
+      {
+        "id": 735,
+        "name": "Siegbert Hartauer"
+      },
+      {
+        "id": 736,
+        "name": "Barbara Erhart"
+      },
+      {
+        "id": 737,
+        "name": "Claudia Reischl"
+      },
+      {
+        "id": 738,
+        "name": "Susanne Berthold"
+      },
+      {
+        "id": 739,
+        "name": "Harald Meier"
+      },
+      {
+        "id": 740,
+        "name": "Hans-Christoph Höllerer"
+      },
+      {
+        "id": 741,
+        "name": "Gabriele Hans"
+      },
+      {
+        "id": 742,
+        "name": "Martina Seitzinger"
+      },
+      {
+        "id": 743,
+        "name": "Geralda Xhebraj"
+      },
+      {
+        "id": 744,
+        "name": "Gabriele Huber"
+      }
+    ]
+  },
+  {
+    "name": "Die Linke",
+    "fullName": "Die Linke",
+    "listNumber": 8,
+    "candidates": [
+      {
+        "id": 801,
+        "name": "Gabriella Lando"
+      },
+      {
+        "id": 802,
+        "name": "Falk Bräcklein"
+      },
+      {
+        "id": 803,
+        "name": "Anja Wessely"
+      },
+      {
+        "id": 804,
+        "name": "Johannes Schlieter"
+      },
+      {
+        "id": 805,
+        "name": "Derya Seven"
+      },
+      {
+        "id": 806,
+        "name": "Eva-Maria Hierlmeier"
+      },
+      {
+        "id": 807,
+        "name": "Linda Dubiel"
+      },
+      {
+        "id": 808,
+        "name": "Sánchez Verónica Hidalgo"
+      },
+      {
+        "id": 809,
+        "name": "Erika Gamper"
+      },
+      {
+        "id": 810,
+        "name": "Sebastian Meier"
+      },
+      {
+        "id": 811,
+        "name": "Natalie Berkl"
+      },
+      {
+        "id": 812,
+        "name": "Thomas Keil"
+      },
+      {
+        "id": 813,
+        "name": "Gabriele Grundl"
+      },
+      {
+        "id": 814,
+        "name": "Wilfried Maxim"
+      },
+      {
+        "id": 815,
+        "name": "Anna Rahbauer"
+      },
+      {
+        "id": 816,
+        "name": "Moritz Tille"
+      },
+      {
+        "id": 817,
+        "name": "Maren Roggenkamp"
+      },
+      {
+        "id": 818,
+        "name": "Sam Busch"
+      },
+      {
+        "id": 819,
+        "name": "Marion Kroiß"
+      },
+      {
+        "id": 820,
+        "name": "Philipp Krebs"
+      },
+      {
+        "id": 821,
+        "name": "Jasmin Wetzel"
+      },
+      {
+        "id": 822,
+        "name": "Aaron Schmidt"
+      },
+      {
+        "id": 823,
+        "name": "Selina Simmerl"
+      },
+      {
+        "id": 824,
+        "name": "Thomas Kahl"
+      },
+      {
+        "id": 825,
+        "name": "Luisa Reinisch"
+      },
+      {
+        "id": 826,
+        "name": "Mathias Schild"
+      },
+      {
+        "id": 827,
+        "name": "Annika Späh"
+      },
+      {
+        "id": 828,
+        "name": "Alexander Böhles"
+      },
+      {
+        "id": 829,
+        "name": "Corinna Kindler"
+      },
+      {
+        "id": 830,
+        "name": "Moritz Pappenberger"
+      },
+      {
+        "id": 831,
+        "name": "Christian Müller"
+      },
+      {
+        "id": 832,
+        "name": "Tim Schwedas"
+      },
+      {
+        "id": 833,
+        "name": "Hartmut Goebel"
+      },
+      {
+        "id": 834,
+        "name": "Thomas Königbauer"
+      },
+      {
+        "id": 835,
+        "name": "Klaus Wenzel"
+      }
+    ]
+  },
+  {
+    "name": "BP",
+    "fullName": "Bayernpartei",
+    "listNumber": 9,
+    "candidates": [
+      {
+        "id": 901,
+        "name": "Robert Neuhauser"
+      },
+      {
+        "id": 902,
+        "name": "Richard Gruber"
+      },
+      {
+        "id": 903,
+        "name": "Christoph Götz"
+      },
+      {
+        "id": 904,
+        "name": "Nicole Berger"
+      },
+      {
+        "id": 905,
+        "name": "Gabriele Wünsch"
+      },
+      {
+        "id": 906,
+        "name": "Alfred Schnellinger"
+      },
+      {
+        "id": 907,
+        "name": "Rebecca Neuhauser"
+      },
+      {
+        "id": 908,
+        "name": "Thomas Kiermeier"
+      },
+      {
+        "id": 909,
+        "name": "Jürgen Faßler"
+      },
+      {
+        "id": 910,
+        "name": "Armin Boiger"
+      },
+      {
+        "id": 911,
+        "name": "Rudolf Cranz"
+      },
+      {
+        "id": 912,
+        "name": "Klaus Ebert"
+      },
+      {
+        "id": 913,
+        "name": "Florian Obermayr"
+      },
+      {
+        "id": 914,
+        "name": "Eva Guse"
+      },
+      {
+        "id": 915,
+        "name": "Renate Huber"
+      },
+      {
+        "id": 916,
+        "name": "Siegfried Lehrhuber"
+      },
+      {
+        "id": 917,
+        "name": "Ludwiga Klinger"
+      },
+      {
+        "id": 918,
+        "name": "Tanja Mittermaier"
+      },
+      {
+        "id": 919,
+        "name": "Werner Klinger"
+      },
+      {
+        "id": 920,
+        "name": "Christine Stein"
+      },
+      {
+        "id": 921,
+        "name": "Giuseppe d'Ambra"
+      },
+      {
+        "id": 922,
+        "name": "Julia Weigert"
+      },
+      {
+        "id": 923,
+        "name": "Klaus Weiß"
+      },
+      {
+        "id": 924,
+        "name": "Helmut Mack"
+      },
+      {
+        "id": 925,
+        "name": "Barbara Weigert"
+      },
+      {
+        "id": 926,
+        "name": "Günther Mikula"
+      },
+      {
+        "id": 927,
+        "name": "Manfred Weiß"
+      },
+      {
+        "id": 928,
+        "name": "Georg Prkenný"
+      },
+      {
+        "id": 929,
+        "name": "Heinz Schuba"
+      },
+      {
+        "id": 930,
+        "name": "Josef Schmidt"
+      },
+      {
+        "id": 931,
+        "name": "Josef Ziegler"
+      },
+      {
+        "id": 932,
+        "name": "Rudolf Mientus"
+      },
+      {
+        "id": 933,
+        "name": "Josip Klicper"
+      },
+      {
+        "id": 934,
+        "name": "Michael Saffer"
+      },
+      {
+        "id": 935,
+        "name": "Hans Bianchini"
+      },
+      {
+        "id": 936,
+        "name": "Graziella Lando"
+      },
+      {
+        "id": 937,
+        "name": "Oviedo Lucía Muñoz"
+      },
+      {
+        "id": 938,
+        "name": "Moya Rolando Medrano"
+      },
+      {
+        "id": 939,
+        "name": "Ludwig Weingart"
+      },
+      {
+        "id": 940,
+        "name": "Karola Saffer"
+      },
+      {
+        "id": 941,
+        "name": "Christine Mikula"
+      },
+      {
+        "id": 942,
+        "name": "Michael Gschaider"
+      },
+      {
+        "id": 943,
+        "name": "Gerhard Striever"
+      },
+      {
+        "id": 944,
+        "name": "Graciela Kochseder"
+      }
+    ]
+  },
+  {
+    "name": "JU",
+    "fullName": "Junge Union",
+    "listNumber": 11,
+    "candidates": [
+      {
+        "id": 1101,
+        "name": "Johannes Alfery"
+      },
+      {
+        "id": 1102,
+        "name": "Vjosa Sejdija"
+      },
+      {
+        "id": 1103,
+        "name": "Simons Leonard Brandl"
+      },
+      {
+        "id": 1104,
+        "name": "Luca Heldrung"
+      },
+      {
+        "id": 1105,
+        "name": "Alexandra Baier"
+      },
+      {
+        "id": 1106,
+        "name": "Leonie Reith"
+      },
+      {
+        "id": 1107,
+        "name": "Sebastian Heinze"
+      },
+      {
+        "id": 1108,
+        "name": "Laura Ahrens"
+      },
+      {
+        "id": 1109,
+        "name": "Mohammad Kharsa"
+      },
+      {
+        "id": 1110,
+        "name": "Tiziana Pichler"
+      },
+      {
+        "id": 1111,
+        "name": "Florian Luginger"
+      },
+      {
+        "id": 1112,
+        "name": "Marc Breitenbauch"
+      },
+      {
+        "id": 1113,
+        "name": "Matthias Brandhuber"
+      },
+      {
+        "id": 1114,
+        "name": "Jasmin Trapp"
+      },
+      {
+        "id": 1115,
+        "name": "Michael Bayer"
+      },
+      {
+        "id": 1116,
+        "name": "Jacqueline Horwath"
+      },
+      {
+        "id": 1117,
+        "name": "Patrick Fuchs"
+      },
+      {
+        "id": 1118,
+        "name": "Alexander Wagner"
+      },
+      {
+        "id": 1119,
+        "name": "Corinna Schreiber"
+      },
+      {
+        "id": 1120,
+        "name": "Walter Kreuzer"
+      },
+      {
+        "id": 1121,
+        "name": "Lukas Zellner"
+      },
+      {
+        "id": 1122,
+        "name": "Georg Hofmair"
+      },
+      {
+        "id": 1123,
+        "name": "Gamze Tanriverdi"
+      },
+      {
+        "id": 1124,
+        "name": "Ashley Gibbons"
+      },
+      {
+        "id": 1125,
+        "name": "Fabian Hartl"
+      },
+      {
+        "id": 1126,
+        "name": "Helena Tinis"
+      },
+      {
+        "id": 1127,
+        "name": "Valentin Weber"
+      },
+      {
+        "id": 1128,
+        "name": "Jeremy Hüttner"
+      },
+      {
+        "id": 1129,
+        "name": "Vanessa Horwath"
+      },
+      {
+        "id": 1130,
+        "name": "Thomas Sagberger"
+      },
+      {
+        "id": 1131,
+        "name": "Max Retzer"
+      },
+      {
+        "id": 1132,
+        "name": "Lukas Alt"
+      },
+      {
+        "id": 1133,
+        "name": "Maria Drago"
+      },
+      {
+        "id": 1134,
+        "name": "Laurin Steimer"
+      },
+      {
+        "id": 1135,
+        "name": "Eduard Tinis"
+      },
+      {
+        "id": 1136,
+        "name": "Robert Stein"
+      },
+      {
+        "id": 1137,
+        "name": "Jetmira Lajqi"
+      },
+      {
+        "id": 1138,
+        "name": "Deniz Küçükay"
+      },
+      {
+        "id": 1139,
+        "name": "Alexandra Veress"
+      },
+      {
+        "id": 1140,
+        "name": "Alexander Schwanner"
+      },
+      {
+        "id": 1141,
+        "name": "Sonja Kluge"
+      },
+      {
+        "id": 1142,
+        "name": "Christoph Stein"
+      },
+      {
+        "id": 1143,
+        "name": "Jean-Christophe Atideka"
+      },
+      {
+        "id": 1144,
+        "name": "Johannes Oberhauser"
+      }
+    ]
+  },
+  {
+    "name": "ZL",
+    "fullName": "Zukunft Landshut e.V.",
+    "listNumber": 12,
+    "candidates": [
+      {
+        "id": 1201,
+        "name": "Christian Pöhner"
+      },
+      {
+        "id": 1202,
+        "name": "Norbert Hoffmann"
+      },
+      {
+        "id": 1203,
+        "name": "Claudia Hahn"
+      },
+      {
+        "id": 1204,
+        "name": "Dr. Thomas Richter"
+      },
+      {
+        "id": 1205,
+        "name": "Benedikt Häring"
+      },
+      {
+        "id": 1206,
+        "name": "Thomas Rogler"
+      },
+      {
+        "id": 1207,
+        "name": "Barbara Hofmockel-Nikola"
+      },
+      {
+        "id": 1208,
+        "name": "Robert Gewies"
+      },
+      {
+        "id": 1209,
+        "name": "Christian Baier"
+      },
+      {
+        "id": 1210,
+        "name": "Ida Möller"
+      },
+      {
+        "id": 1211,
+        "name": "Elias Pöhner"
+      },
+      {
+        "id": 1212,
+        "name": "Petra Schwertl"
+      },
+      {
+        "id": 1213,
+        "name": "Maximilian Hösl"
+      },
+      {
+        "id": 1214,
+        "name": "Florian Aichinger"
+      },
+      {
+        "id": 1215,
+        "name": "Katja Hölzl"
+      },
+      {
+        "id": 1216,
+        "name": "Leon Abstreiter"
+      },
+      {
+        "id": 1217,
+        "name": "Alexandra Balint"
+      },
+      {
+        "id": 1218,
+        "name": "Armin Dantl"
+      },
+      {
+        "id": 1219,
+        "name": "Matthias Niedermeier"
+      },
+      {
+        "id": 1220,
+        "name": "Gerda Ludwig"
+      },
+      {
+        "id": 1221,
+        "name": "Christoph Mühlbauer"
+      },
+      {
+        "id": 1222,
+        "name": "Laetitia Laurent"
+      },
+      {
+        "id": 1223,
+        "name": "Simon Untertrifaller"
+      },
+      {
+        "id": 1224,
+        "name": "Sophie Huber"
+      },
+      {
+        "id": 1225,
+        "name": "Denis Andrianov"
+      },
+      {
+        "id": 1226,
+        "name": "Fabian Engelhardt"
+      },
+      {
+        "id": 1227,
+        "name": "Svetlana Marčinković"
+      },
+      {
+        "id": 1228,
+        "name": "Radostina Parmakova"
+      },
+      {
+        "id": 1229,
+        "name": "Maximilian Stelzer"
+      },
+      {
+        "id": 1230,
+        "name": "Pasquale Bianco"
+      },
+      {
+        "id": 1231,
+        "name": "Alexandra Bscheid"
+      },
+      {
+        "id": 1232,
+        "name": "Matthias Frick"
+      },
+      {
+        "id": 1233,
+        "name": "Tara-Julia Eichler"
+      },
+      {
+        "id": 1234,
+        "name": "Alexander Rott"
+      },
+      {
+        "id": 1235,
+        "name": "Maria Schmautz"
+      },
+      {
+        "id": 1236,
+        "name": "Lena Ludwig"
+      },
+      {
+        "id": 1237,
+        "name": "Doris Henle"
+      },
+      {
+        "id": 1238,
+        "name": "Christian Mayer"
+      },
+      {
+        "id": 1239,
+        "name": "Johann Agerer"
+      },
+      {
+        "id": 1240,
+        "name": "Kathrin Häring"
+      },
+      {
+        "id": 1241,
+        "name": "David Kezkiç"
+      },
+      {
+        "id": 1242,
+        "name": "Andreas Schwertl"
+      },
+      {
+        "id": 1243,
+        "name": "Mira Schiemann"
+      },
+      {
+        "id": 1244,
+        "name": "Gerhart Lederer"
+      }
+    ]
+  }
+]

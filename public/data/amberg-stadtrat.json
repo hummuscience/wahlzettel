@@ -1,0 +1,2067 @@
+{
+  "totalStimmen": 40,
+  "maxPerCandidate": 3,
+  "parties": [
+    {
+      "listNumber": 1,
+      "fullName": "Christlich-Soziale Union in Bayern e.V.",
+      "shortName": "CSU",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "ab-sr-1-1",
+          "position": 1,
+          "lastName": "Ott",
+          "firstName": "Stefan",
+          "profession": "Büroleiter, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-2",
+          "position": 2,
+          "lastName": "Herding",
+          "firstName": "Susanne",
+          "profession": "Industrietechnologin, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-3",
+          "position": 3,
+          "lastName": "Cerny",
+          "firstName": "Michael",
+          "profession": "Dipl.-Inf., Oberbürgermeister"
+        },
+        {
+          "id": "ab-sr-1-4",
+          "position": 4,
+          "lastName": "Schörner",
+          "firstName": "Claudia",
+          "profession": "Büroangestellte"
+        },
+        {
+          "id": "ab-sr-1-5",
+          "position": 5,
+          "lastName": "Lanzinger",
+          "firstName": "Elisabeth",
+          "profession": "Verwaltungsbeamtin"
+        },
+        {
+          "id": "ab-sr-1-6",
+          "position": 6,
+          "lastName": "Preuß",
+          "firstName": "Martin",
+          "profession": "Heimleiter, 2. Bürgermeister, Bezirksrat, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-7",
+          "position": 7,
+          "lastName": "Bärthlein",
+          "firstName": "Thomas",
+          "profession": "M.A., Redakteur, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-8",
+          "position": 8,
+          "lastName": "Frauendorfer",
+          "firstName": "Michaela",
+          "profession": "Amtsgerichtsdirektorin, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-9",
+          "position": 9,
+          "lastName": "Bauer",
+          "firstName": "Jürgen",
+          "profession": "Marketing- und Vertriebsmanager"
+        },
+        {
+          "id": "ab-sr-1-10",
+          "position": 10,
+          "lastName": "Seidl",
+          "firstName": "Kathrin",
+          "profession": "M.A., Verw.-Angestellte"
+        },
+        {
+          "id": "ab-sr-1-11",
+          "position": 11,
+          "lastName": "Schittko",
+          "firstName": "Michael",
+          "profession": "Gastronom, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-12",
+          "position": 12,
+          "lastName": "Mußemann",
+          "firstName": "Dieter",
+          "profession": "Maschinenbautechniker, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-13",
+          "position": 13,
+          "lastName": "Weigl",
+          "firstName": "Helmut",
+          "profession": "Dipl.-Ing. (FH), Kaminkehrermeister, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-14",
+          "position": 14,
+          "lastName": "Dr. Winkler",
+          "firstName": "Robert",
+          "profession": "Apotheker"
+        },
+        {
+          "id": "ab-sr-1-15",
+          "position": 15,
+          "lastName": "Barth",
+          "firstName": "Dominik",
+          "profession": "Fachlehrer, Schöffe"
+        },
+        {
+          "id": "ab-sr-1-16",
+          "position": 16,
+          "lastName": "Holzner",
+          "firstName": "Michaela",
+          "profession": "Dipl.-Ing. Bau (FH), Geschäftsführerin, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-17",
+          "position": 17,
+          "lastName": "Schafbauer",
+          "firstName": "Christian",
+          "profession": "Verwaltungsleiter, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-1-18",
+          "position": 18,
+          "lastName": "Donhauser",
+          "firstName": "Gabriele",
+          "profession": "Erzieherin, Stadtratsmitglied, Ammersricht"
+        },
+        {
+          "id": "ab-sr-1-19",
+          "position": 19,
+          "lastName": "Müller",
+          "firstName": "Daniel",
+          "profession": "Geschäftsstellenleiter, Stadtratsmitglied, Raigering"
+        },
+        {
+          "id": "ab-sr-1-20",
+          "position": 20,
+          "lastName": "Arendt",
+          "firstName": "Birgit",
+          "profession": "Redakteurin"
+        },
+        {
+          "id": "ab-sr-1-21",
+          "position": 21,
+          "lastName": "Zunner",
+          "firstName": "Georg",
+          "profession": "Architekt"
+        },
+        {
+          "id": "ab-sr-1-22",
+          "position": 22,
+          "lastName": "Asmus",
+          "firstName": "Martin",
+          "profession": "Rechtsanwalt"
+        },
+        {
+          "id": "ab-sr-1-23",
+          "position": 23,
+          "lastName": "Paulus",
+          "firstName": "Patrick",
+          "profession": "Strategischer Einkäufer"
+        },
+        {
+          "id": "ab-sr-1-24",
+          "position": 24,
+          "lastName": "Jakimowicz",
+          "firstName": "Carsten",
+          "profession": "Dipl.-Religionspädagoge (FH), Heimleiter"
+        },
+        {
+          "id": "ab-sr-1-25",
+          "position": 25,
+          "lastName": "Großer",
+          "firstName": "Maximilian",
+          "profession": "Dipl.-Verw. (FH), Verwaltungsbeamter"
+        },
+        {
+          "id": "ab-sr-1-26",
+          "position": 26,
+          "lastName": "Wilhelm",
+          "firstName": "Manfred",
+          "profession": "Dipl.-Kommunikations-Designer (FH), Geschäftsführer"
+        },
+        {
+          "id": "ab-sr-1-27",
+          "position": 27,
+          "lastName": "Wasner",
+          "firstName": "Susanne",
+          "profession": "B.A., Betriebswirtin"
+        },
+        {
+          "id": "ab-sr-1-28",
+          "position": 28,
+          "lastName": "Kätzlmeier",
+          "firstName": "Christian",
+          "profession": "Verw. Fachwirt, Jugendschöffe, Ammersricht"
+        },
+        {
+          "id": "ab-sr-1-29",
+          "position": 29,
+          "lastName": "Neudecker",
+          "firstName": "Tobias",
+          "profession": "Sachbearbeiter, Ammersricht"
+        },
+        {
+          "id": "ab-sr-1-30",
+          "position": 30,
+          "lastName": "Hermann",
+          "firstName": "Tatjana",
+          "profession": "Dipl.-Betrw. (FH), Verwaltungsleiterin"
+        },
+        {
+          "id": "ab-sr-1-31",
+          "position": 31,
+          "lastName": "Koller",
+          "firstName": "Michael",
+          "profession": "Lehrer"
+        },
+        {
+          "id": "ab-sr-1-32",
+          "position": 32,
+          "lastName": "Rubenbauer",
+          "firstName": "Marcel",
+          "profession": "ILS-Disponent"
+        },
+        {
+          "id": "ab-sr-1-33",
+          "position": 33,
+          "lastName": "Winkler",
+          "firstName": "Regina",
+          "profession": "Kaufmännische Fachwirtin"
+        },
+        {
+          "id": "ab-sr-1-34",
+          "position": 34,
+          "lastName": "Rumpler",
+          "firstName": "Thomas",
+          "profession": "Dipl.-Kfm., Steuerberater"
+        },
+        {
+          "id": "ab-sr-1-35",
+          "position": 35,
+          "lastName": "Heinrich",
+          "firstName": "Christina",
+          "profession": "Bilanzbuchhalterin"
+        },
+        {
+          "id": "ab-sr-1-36",
+          "position": 36,
+          "lastName": "Stubenvoll",
+          "firstName": "Tobias",
+          "profession": "freigest. Betriebsrat, Ammersricht"
+        },
+        {
+          "id": "ab-sr-1-37",
+          "position": 37,
+          "lastName": "Junginger",
+          "firstName": "Sven",
+          "profession": "Immobilienmakler"
+        },
+        {
+          "id": "ab-sr-1-38",
+          "position": 38,
+          "lastName": "Neiswirth",
+          "firstName": "Gertraud",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-1-39",
+          "position": 39,
+          "lastName": "Schweiger",
+          "firstName": "Helmut",
+          "profession": "Unternehmer"
+        },
+        {
+          "id": "ab-sr-1-40",
+          "position": 40,
+          "lastName": "Hüttner",
+          "firstName": "Achim",
+          "profession": "Unternehmer"
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "fullName": "FREIE WÄHLER/ Freie Wähler Amberg e.V.",
+      "shortName": "FREIE WÄHLER/FWA",
+      "candidateCount": 20,
+      "candidates": [
+        {
+          "id": "ab-sr-2-1",
+          "position": 1,
+          "lastName": "Fritz",
+          "firstName": "Michael",
+          "profession": "Polizeibeamter"
+        },
+        {
+          "id": "ab-sr-2-2",
+          "position": 2,
+          "lastName": "Werthner",
+          "firstName": "Manuel",
+          "profession": "Geschäftsführer, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-2-3",
+          "position": 3,
+          "lastName": "Niklaus",
+          "firstName": "Veronika",
+          "profession": "Pflegefachkraft, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-2-4",
+          "position": 4,
+          "lastName": "Heinisch",
+          "firstName": "Bernd",
+          "profession": "Landtagsabgeordneter"
+        },
+        {
+          "id": "ab-sr-2-5",
+          "position": 5,
+          "lastName": "Pömsl",
+          "firstName": "Alexander",
+          "profession": "Strategischer Einkäufer"
+        },
+        {
+          "id": "ab-sr-2-6",
+          "position": 6,
+          "lastName": "Pulkert",
+          "firstName": "Patricia",
+          "profession": "Apothekerin"
+        },
+        {
+          "id": "ab-sr-2-7",
+          "position": 7,
+          "lastName": "Naber",
+          "firstName": "Danny",
+          "profession": "Mitarbeiter Hausverwaltung"
+        },
+        {
+          "id": "ab-sr-2-8",
+          "position": 8,
+          "lastName": "Schwendner",
+          "firstName": "André",
+          "profession": "Kaufmann"
+        },
+        {
+          "id": "ab-sr-2-9",
+          "position": 9,
+          "lastName": "Strohmayer",
+          "firstName": "Maximilian",
+          "profession": "Dr. iur., Rechtsanwalt"
+        },
+        {
+          "id": "ab-sr-2-10",
+          "position": 10,
+          "lastName": "Stiegler",
+          "firstName": "Ulrich",
+          "profession": "Personalleiter"
+        },
+        {
+          "id": "ab-sr-2-11",
+          "position": 11,
+          "lastName": "Appel",
+          "firstName": "Andreas",
+          "profession": "Dipl.-Ing. (FH), M.Ed., Berufsschullehrer"
+        },
+        {
+          "id": "ab-sr-2-12",
+          "position": 12,
+          "lastName": "Werthner",
+          "firstName": "Susanne",
+          "profession": "B.Sc., Medizintechnikerin"
+        },
+        {
+          "id": "ab-sr-2-13",
+          "position": 13,
+          "lastName": "Fischer",
+          "firstName": "Rosi",
+          "profession": "Krankenschwester i.R., Eglsee"
+        },
+        {
+          "id": "ab-sr-2-14",
+          "position": 14,
+          "lastName": "Bäumler",
+          "firstName": "Bernhard",
+          "profession": "Facharzt für Chirurgie-Unfallchirurgie"
+        },
+        {
+          "id": "ab-sr-2-15",
+          "position": 15,
+          "lastName": "Fischer",
+          "firstName": "Stephan",
+          "profession": "Versicherungsfachmann"
+        },
+        {
+          "id": "ab-sr-2-16",
+          "position": 16,
+          "lastName": "Jäger",
+          "firstName": "Cornelia",
+          "profession": "Medizinisch-technische Assistentin"
+        },
+        {
+          "id": "ab-sr-2-17",
+          "position": 17,
+          "lastName": "Schinhammer",
+          "firstName": "Anton",
+          "profession": "Maschinenbaumeister i.R., Atzlricht"
+        },
+        {
+          "id": "ab-sr-2-18",
+          "position": 18,
+          "lastName": "Niklaus",
+          "firstName": "Erwin",
+          "profession": "Oberstleutnant a.D."
+        },
+        {
+          "id": "ab-sr-2-19",
+          "position": 19,
+          "lastName": "Hanysz",
+          "firstName": "Uwe",
+          "profession": "Rentner"
+        },
+        {
+          "id": "ab-sr-2-20",
+          "position": 20,
+          "lastName": "Carstiuc",
+          "firstName": "Horst",
+          "profession": "Pensionär"
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "shortName": "GRÜNE",
+      "candidateCount": 32,
+      "candidates": [
+        {
+          "id": "ab-sr-4-1",
+          "position": 1,
+          "lastName": "Ried",
+          "firstName": "Claudia",
+          "profession": "Lehrerin, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-4-2",
+          "position": 2,
+          "lastName": "Gürtler",
+          "firstName": "Piet",
+          "profession": "Geschäftsführer"
+        },
+        {
+          "id": "ab-sr-4-3",
+          "position": 3,
+          "lastName": "Schleicher",
+          "firstName": "Ina",
+          "profession": "Lehrerin, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-4-4",
+          "position": 4,
+          "lastName": "Heil",
+          "firstName": "Florian",
+          "profession": "Schüler"
+        },
+        {
+          "id": "ab-sr-4-5",
+          "position": 5,
+          "lastName": "Maaß",
+          "firstName": "Simone",
+          "profession": "Diplom-Sozialpädagogin (FH), Sozialpädagogin, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-4-6",
+          "position": 6,
+          "lastName": "Dr. Ebenburger",
+          "firstName": "Klaus",
+          "profession": "Arzt, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-4-7",
+          "position": 7,
+          "lastName": "Peuleke",
+          "firstName": "Simone",
+          "profession": "M.A., B.Sc., Fachkraft für Naturschutz und Landschaftspflege"
+        },
+        {
+          "id": "ab-sr-4-8",
+          "position": 8,
+          "lastName": "Schmidt",
+          "firstName": "Harald",
+          "profession": "Betriebswirt"
+        },
+        {
+          "id": "ab-sr-4-9",
+          "position": 9,
+          "lastName": "Miller",
+          "firstName": "Mareike",
+          "profession": "Business Development Managerin"
+        },
+        {
+          "id": "ab-sr-4-10",
+          "position": 10,
+          "lastName": "Seemann",
+          "firstName": "Mateo",
+          "profession": "Schüler"
+        },
+        {
+          "id": "ab-sr-4-11",
+          "position": 11,
+          "lastName": "Freifrau",
+          "firstName": "von Eyb Heike",
+          "profession": "Media Managerin"
+        },
+        {
+          "id": "ab-sr-4-12",
+          "position": 12,
+          "lastName": "Lopez",
+          "firstName": "Schmidt Luis",
+          "profession": "Schüler"
+        },
+        {
+          "id": "ab-sr-4-13",
+          "position": 13,
+          "lastName": "Etzold",
+          "firstName": "Raphaela",
+          "profession": "Dr., Richterin"
+        },
+        {
+          "id": "ab-sr-4-14",
+          "position": 14,
+          "lastName": "Madl",
+          "firstName": "Philipp",
+          "profession": "Schüler"
+        },
+        {
+          "id": "ab-sr-4-15",
+          "position": 15,
+          "lastName": "Dr. Rickert",
+          "firstName": "Daniela",
+          "profession": "Amtstierärztin"
+        },
+        {
+          "id": "ab-sr-4-16",
+          "position": 16,
+          "lastName": "Dr. Friedl",
+          "firstName": "Hans",
+          "profession": "Dr. med., Rentner"
+        },
+        {
+          "id": "ab-sr-4-17",
+          "position": 17,
+          "lastName": "Rösch",
+          "firstName": "Bärbel",
+          "profession": "Lehrerin"
+        },
+        {
+          "id": "ab-sr-4-18",
+          "position": 18,
+          "lastName": "Bui",
+          "firstName": "David",
+          "profession": "Schüler"
+        },
+        {
+          "id": "ab-sr-4-19",
+          "position": 19,
+          "lastName": "Schuvalov",
+          "firstName": "Alexandra",
+          "profession": "Schülerin"
+        },
+        {
+          "id": "ab-sr-4-20",
+          "position": 20,
+          "lastName": "Kuban",
+          "firstName": "Thomas",
+          "profession": "Realschuldirektor, Fuchsstein"
+        },
+        {
+          "id": "ab-sr-4-21",
+          "position": 21,
+          "lastName": "Edenharter",
+          "firstName": "Ricarda",
+          "profession": "Juristin"
+        },
+        {
+          "id": "ab-sr-4-22",
+          "position": 22,
+          "lastName": "Schminke",
+          "firstName": "Fabian",
+          "profession": "Unternehmer, Speckmannshof"
+        },
+        {
+          "id": "ab-sr-4-23",
+          "position": 23,
+          "lastName": "Borst",
+          "firstName": "Karin",
+          "profession": "Altenpflegerin"
+        },
+        {
+          "id": "ab-sr-4-24",
+          "position": 24,
+          "lastName": "Lehner",
+          "firstName": "Franz",
+          "profession": "M.Sc., Bereichsleiter"
+        },
+        {
+          "id": "ab-sr-4-25",
+          "position": 25,
+          "lastName": "Bezold",
+          "firstName": "Maria",
+          "profession": "Dipl.-Ing. (FH), Rentnerin"
+        },
+        {
+          "id": "ab-sr-4-26",
+          "position": 26,
+          "lastName": "Meisen",
+          "firstName": "Klaus",
+          "profession": "Teamleiter Berufsgenossenschaft"
+        },
+        {
+          "id": "ab-sr-4-27",
+          "position": 27,
+          "lastName": "Friedl",
+          "firstName": "Gabriele",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-4-28",
+          "position": 28,
+          "lastName": "Endreß",
+          "firstName": "Christoph",
+          "profession": "Maschinenbauingenieur"
+        },
+        {
+          "id": "ab-sr-4-29",
+          "position": 29,
+          "lastName": "Bumes",
+          "firstName": "Susanna",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-4-30",
+          "position": 30,
+          "lastName": "Spörer",
+          "firstName": "Thomas",
+          "profession": "Realschullehrer"
+        },
+        {
+          "id": "ab-sr-4-31",
+          "position": 31,
+          "lastName": "Renner",
+          "firstName": "Artur",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-4-32",
+          "position": 32,
+          "lastName": "Bernreuter",
+          "firstName": "Berthold",
+          "profession": "Obstbaumwart"
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "shortName": "SPD",
+      "candidateCount": 36,
+      "candidates": [
+        {
+          "id": "ab-sr-5-1",
+          "position": 1,
+          "lastName": "Fruth",
+          "firstName": "Birgit",
+          "profession": "Krankenkassenangestellte, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-5-2",
+          "position": 2,
+          "lastName": "Hollweck",
+          "firstName": "Christoph",
+          "profession": "Mittelschullehrer"
+        },
+        {
+          "id": "ab-sr-5-3",
+          "position": 3,
+          "lastName": "Böhm-Donhauser",
+          "firstName": "Simone",
+          "profession": "Diplom-Sozialpädagogin, Sozialpädagogin, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-5-4",
+          "position": 4,
+          "lastName": "Hübner",
+          "firstName": "Uli",
+          "profession": "Richter am Landgericht, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-5-5",
+          "position": 5,
+          "lastName": "Jelinek",
+          "firstName": "Helen",
+          "profession": "Finanzanlagenfachfrau"
+        },
+        {
+          "id": "ab-sr-5-6",
+          "position": 6,
+          "lastName": "Fuchs",
+          "firstName": "Florian",
+          "profession": "Schulleiter, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-5-7",
+          "position": 7,
+          "lastName": "Braun",
+          "firstName": "Liane",
+          "profession": "Studienrätin"
+        },
+        {
+          "id": "ab-sr-5-8",
+          "position": 8,
+          "lastName": "Lay",
+          "firstName": "Elias",
+          "profession": "Informatiker"
+        },
+        {
+          "id": "ab-sr-5-9",
+          "position": 9,
+          "lastName": "Weber",
+          "firstName": "Rita",
+          "profession": "Diplom-Sozialpädagogin, Rentnerin"
+        },
+        {
+          "id": "ab-sr-5-10",
+          "position": 10,
+          "lastName": "Plößl",
+          "firstName": "Lukas",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-5-11",
+          "position": 11,
+          "lastName": "Höhne",
+          "firstName": "Monika",
+          "profession": "Dipl.-oec.troph., Angestellte"
+        },
+        {
+          "id": "ab-sr-5-12",
+          "position": 12,
+          "lastName": "Weiß",
+          "firstName": "Dieter",
+          "profession": "Finanzwirt a.D."
+        },
+        {
+          "id": "ab-sr-5-13",
+          "position": 13,
+          "lastName": "Fuchs",
+          "firstName": "Maresa",
+          "profession": "Studentin"
+        },
+        {
+          "id": "ab-sr-5-14",
+          "position": 14,
+          "lastName": "Seibert",
+          "firstName": "Simon",
+          "profession": "Physiotherapeut"
+        },
+        {
+          "id": "ab-sr-5-15",
+          "position": 15,
+          "lastName": "Ströhl",
+          "firstName": "Eva",
+          "profession": "B.A., Gesundheits- und Kinderkrankenschwester"
+        },
+        {
+          "id": "ab-sr-5-16",
+          "position": 16,
+          "lastName": "Amann",
+          "firstName": "Dieter",
+          "profession": "Kriminalbeamter a.D., Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-5-17",
+          "position": 17,
+          "lastName": "Pirzer",
+          "firstName": "Christian",
+          "profession": "zertifizierter BEM-Manager"
+        },
+        {
+          "id": "ab-sr-5-18",
+          "position": 18,
+          "lastName": "Lukas",
+          "firstName": "Albert",
+          "profession": "Rentner"
+        },
+        {
+          "id": "ab-sr-5-19",
+          "position": 19,
+          "lastName": "Kosche",
+          "firstName": "Mario",
+          "profession": "Diplom-Sozialpädagoge, Rentner"
+        },
+        {
+          "id": "ab-sr-5-20",
+          "position": 20,
+          "lastName": "Seibert",
+          "firstName": "Daniel",
+          "profession": "Altenpfleger"
+        },
+        {
+          "id": "ab-sr-5-21",
+          "position": 21,
+          "lastName": "Höcherl",
+          "firstName": "Sonja",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-5-22",
+          "position": 22,
+          "lastName": "Ostler",
+          "firstName": "Stefan",
+          "profession": "Ingenieur Elektrotechnik"
+        },
+        {
+          "id": "ab-sr-5-23",
+          "position": 23,
+          "lastName": "Schall",
+          "firstName": "Andrea",
+          "profession": "Mittelschullehrerin"
+        },
+        {
+          "id": "ab-sr-5-24",
+          "position": 24,
+          "lastName": "Willner",
+          "firstName": "Lukas",
+          "profession": "Werkzeugmacher"
+        },
+        {
+          "id": "ab-sr-5-25",
+          "position": 25,
+          "lastName": "Senft",
+          "firstName": "Eva",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-5-26",
+          "position": 26,
+          "lastName": "Pritzl",
+          "firstName": "Walter",
+          "profession": "Rentner"
+        },
+        {
+          "id": "ab-sr-5-27",
+          "position": 27,
+          "lastName": "Söllner",
+          "firstName": "Corinna",
+          "profession": "Gesetzliche Betreuerin"
+        },
+        {
+          "id": "ab-sr-5-28",
+          "position": 28,
+          "lastName": "Eppinger",
+          "firstName": "Sergius",
+          "profession": "M.A., Dipl.-Ing. (FH), Unternehmensberater"
+        },
+        {
+          "id": "ab-sr-5-29",
+          "position": 29,
+          "lastName": "Kiener",
+          "firstName": "Albert",
+          "profession": "Gymnasiallehrer a.D."
+        },
+        {
+          "id": "ab-sr-5-30",
+          "position": 30,
+          "lastName": "Niedermeier",
+          "firstName": "Jonas",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-5-31",
+          "position": 31,
+          "lastName": "Heine",
+          "firstName": "Samuel",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-5-32",
+          "position": 32,
+          "lastName": "Heim",
+          "firstName": "Simon",
+          "profession": "M.Eng., Projektleiter für Photovoltaikanlagen, Gailoh"
+        },
+        {
+          "id": "ab-sr-5-33",
+          "position": 33,
+          "lastName": "Wittmann",
+          "firstName": "Klaus",
+          "profession": "Diplom-Sozialpädagoge, Familientherapeut"
+        },
+        {
+          "id": "ab-sr-5-34",
+          "position": 34,
+          "lastName": "Meixner-Nentwig",
+          "firstName": "Karin",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-5-35",
+          "position": 35,
+          "lastName": "Wanninger",
+          "firstName": "Alfons",
+          "profession": "Beamter i.R."
+        },
+        {
+          "id": "ab-sr-5-36",
+          "position": 36,
+          "lastName": "Donhauser",
+          "firstName": "Michael",
+          "profession": "Koch"
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "fullName": "DIE LISTE Amberg e.V.",
+      "shortName": "DIE LISTE",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "ab-sr-6-1",
+          "position": 1,
+          "lastName": "Frey",
+          "firstName": "Martin",
+          "profession": "Professor, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-6-2",
+          "position": 2,
+          "lastName": "Dandorfer",
+          "firstName": "Tanja",
+          "profession": "freigestellte Personalrätin"
+        },
+        {
+          "id": "ab-sr-6-3",
+          "position": 3,
+          "lastName": "Holzapfel",
+          "firstName": "Daniel",
+          "profession": "Dipl.-Jur., Elektroingenieur"
+        },
+        {
+          "id": "ab-sr-6-4",
+          "position": 4,
+          "lastName": "Netta",
+          "firstName": "Brigitte",
+          "profession": "Erzieherin, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-6-5",
+          "position": 5,
+          "lastName": "Dr. Scharl",
+          "firstName": "Rudolf",
+          "profession": "Dr. med., Facharzt für Urologie, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-6-6",
+          "position": 6,
+          "lastName": "Zapf",
+          "firstName": "Hannelore",
+          "profession": "B.A., Master-Studierende, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-6-7",
+          "position": 7,
+          "lastName": "Hottner",
+          "firstName": "Herbert",
+          "profession": "Metzgermeister"
+        },
+        {
+          "id": "ab-sr-6-8",
+          "position": 8,
+          "lastName": "Dr. Kleindienst",
+          "firstName": "Andrea",
+          "profession": "Prof. Dr. med., Dr. med. habil., Neurochirurgin"
+        },
+        {
+          "id": "ab-sr-6-9",
+          "position": 9,
+          "lastName": "Schindlbeck",
+          "firstName": "Albert",
+          "profession": "Rektor i.R."
+        },
+        {
+          "id": "ab-sr-6-10",
+          "position": 10,
+          "lastName": "Mayerl",
+          "firstName": "Mercedes",
+          "profession": "Veranstaltungskauffrau"
+        },
+        {
+          "id": "ab-sr-6-11",
+          "position": 11,
+          "lastName": "Lutz",
+          "firstName": "Mario",
+          "profession": "Krankenpfleger"
+        },
+        {
+          "id": "ab-sr-6-12",
+          "position": 12,
+          "lastName": "Rosenbaum",
+          "firstName": "Anna-Lena",
+          "profession": "M.A., Architektin"
+        },
+        {
+          "id": "ab-sr-6-13",
+          "position": 13,
+          "lastName": "Wenzel",
+          "firstName": "Andreas",
+          "profession": "Polizeibeamter"
+        },
+        {
+          "id": "ab-sr-6-14",
+          "position": 14,
+          "lastName": "Scharl-Wolf",
+          "firstName": "Christine",
+          "profession": "Bankkauffrau"
+        },
+        {
+          "id": "ab-sr-6-15",
+          "position": 15,
+          "lastName": "Weldert",
+          "firstName": "Markus",
+          "profession": "Lehrer für Pflegeberufe"
+        },
+        {
+          "id": "ab-sr-6-16",
+          "position": 16,
+          "lastName": "Borth",
+          "firstName": "Monika",
+          "profession": "Studienrätin a.D."
+        },
+        {
+          "id": "ab-sr-6-17",
+          "position": 17,
+          "lastName": "Shekho",
+          "firstName": "Seleman Daoud",
+          "profession": "Hausmeister"
+        },
+        {
+          "id": "ab-sr-6-18",
+          "position": 18,
+          "lastName": "Bieberstein",
+          "firstName": "Timo",
+          "profession": "Heilerziehungspfleger"
+        },
+        {
+          "id": "ab-sr-6-19",
+          "position": 19,
+          "lastName": "Frey",
+          "firstName": "Kerstin",
+          "profession": "Grundschullehrerin"
+        },
+        {
+          "id": "ab-sr-6-20",
+          "position": 20,
+          "lastName": "Torunsky",
+          "firstName": "Florian",
+          "profession": "Dipl.-Betrw., Betriebswirt"
+        },
+        {
+          "id": "ab-sr-6-21",
+          "position": 21,
+          "lastName": "Scholz",
+          "firstName": "Michael",
+          "profession": "Dipl.-Kfm., freiberuflicher Dozent"
+        },
+        {
+          "id": "ab-sr-6-22",
+          "position": 22,
+          "lastName": "Schön",
+          "firstName": "Christian",
+          "profession": "Realschullehrer"
+        },
+        {
+          "id": "ab-sr-6-23",
+          "position": 23,
+          "lastName": "Auer",
+          "firstName": "Michael",
+          "profession": "Dipl.-Kfm., Angestellter"
+        },
+        {
+          "id": "ab-sr-6-24",
+          "position": 24,
+          "lastName": "Graf",
+          "firstName": "Johann",
+          "profession": "Gastwirt"
+        },
+        {
+          "id": "ab-sr-6-25",
+          "position": 25,
+          "lastName": "Metzler",
+          "firstName": "Hannelore",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-6-26",
+          "position": 26,
+          "lastName": "Dr. Strobl",
+          "firstName": "Ulrich",
+          "profession": "Homöomediator"
+        },
+        {
+          "id": "ab-sr-6-27",
+          "position": 27,
+          "lastName": "Münch",
+          "firstName": "Katharina",
+          "profession": "Ergotherapeutin"
+        },
+        {
+          "id": "ab-sr-6-28",
+          "position": 28,
+          "lastName": "Dandorfer",
+          "firstName": "Michael",
+          "profession": "Berufsmusiker"
+        },
+        {
+          "id": "ab-sr-6-29",
+          "position": 29,
+          "lastName": "Bongert",
+          "firstName": "Christopher",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-6-30",
+          "position": 30,
+          "lastName": "Dederichs",
+          "firstName": "Frank",
+          "profession": "Niederlassungsleiter Bildungsakademie"
+        },
+        {
+          "id": "ab-sr-6-31",
+          "position": 31,
+          "lastName": "Große",
+          "firstName": "Heinz",
+          "profession": "Rentner"
+        },
+        {
+          "id": "ab-sr-6-32",
+          "position": 32,
+          "lastName": "Dandorfer",
+          "firstName": "Jonas",
+          "profession": "B.Sc., Student Sportwissenschaften"
+        },
+        {
+          "id": "ab-sr-6-33",
+          "position": 33,
+          "lastName": "Kirschner",
+          "firstName": "Monika",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-6-34",
+          "position": 34,
+          "lastName": "Schötz",
+          "firstName": "Olaf",
+          "profession": "Offizier"
+        },
+        {
+          "id": "ab-sr-6-35",
+          "position": 35,
+          "lastName": "Kuchler",
+          "firstName": "Anna",
+          "profession": "Diplom-Sozialpädagogin (FH), Sozialpädagogin"
+        },
+        {
+          "id": "ab-sr-6-36",
+          "position": 36,
+          "lastName": "Beck",
+          "firstName": "Florian",
+          "profession": "Studienrat im Förderschuldienst"
+        },
+        {
+          "id": "ab-sr-6-37",
+          "position": 37,
+          "lastName": "Große",
+          "firstName": "Susanne",
+          "profession": "Rentnerin"
+        },
+        {
+          "id": "ab-sr-6-38",
+          "position": 38,
+          "lastName": "Lehmeier",
+          "firstName": "Martina",
+          "profession": "Fußpflegerin"
+        },
+        {
+          "id": "ab-sr-6-39",
+          "position": 39,
+          "lastName": "Torunsky",
+          "firstName": "Silke",
+          "profession": "Krankenschwester"
+        },
+        {
+          "id": "ab-sr-6-40",
+          "position": 40,
+          "lastName": "Hohl",
+          "firstName": "Heinrich",
+          "profession": "Künstler"
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "fullName": "Ökologisch-Demokratische Partei",
+      "shortName": "ÖDP",
+      "candidateCount": 30,
+      "candidates": [
+        {
+          "id": "ab-sr-7-1",
+          "position": 1,
+          "lastName": "Mrasek",
+          "firstName": "Klaus",
+          "profession": "Dipl.-Verw. (FH), Erster Polizeihauptkommissar a.D., Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-7-2",
+          "position": 2,
+          "lastName": "Witt",
+          "firstName": "Susanne",
+          "profession": "Dipl.-Volksw. (Univ.), Diplom-Volkswirtin, Ehrenamtliche Richterin Verwaltungsgericht"
+        },
+        {
+          "id": "ab-sr-7-3",
+          "position": 3,
+          "lastName": "Witt",
+          "firstName": "Josef",
+          "profession": "Studiendirektor, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-7-4",
+          "position": 4,
+          "lastName": "Badura",
+          "firstName": "Franz",
+          "profession": "Dipl.-Instrumentalpädagoge, Selbstständiger Musikschulleiter, 3. Bürgermeister, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-7-5",
+          "position": 5,
+          "lastName": "Ertl",
+          "firstName": "Daniel",
+          "profession": "Oberstudienrat"
+        },
+        {
+          "id": "ab-sr-7-6",
+          "position": 6,
+          "lastName": "Biehler",
+          "firstName": "Brigitta",
+          "profession": "Oberstudienrätin"
+        },
+        {
+          "id": "ab-sr-7-7",
+          "position": 7,
+          "lastName": "Müller",
+          "firstName": "Doris",
+          "profession": "Fachlehrerin i.R."
+        },
+        {
+          "id": "ab-sr-7-8",
+          "position": 8,
+          "lastName": "Müllers",
+          "firstName": "Ulrike",
+          "profession": "Musiklehrerin"
+        },
+        {
+          "id": "ab-sr-7-9",
+          "position": 9,
+          "lastName": "Urmann",
+          "firstName": "Florian",
+          "profession": "Selbstständiger Ingenieur"
+        },
+        {
+          "id": "ab-sr-7-10",
+          "position": 10,
+          "lastName": "Hummel",
+          "firstName": "Wolfgang",
+          "profession": "Selbstständiger Bauunternehmer, Gailoh"
+        },
+        {
+          "id": "ab-sr-7-11",
+          "position": 11,
+          "lastName": "Witt",
+          "firstName": "Miriam",
+          "profession": "B.Sc., Masterstudentin Physik"
+        },
+        {
+          "id": "ab-sr-7-12",
+          "position": 12,
+          "lastName": "Diener",
+          "firstName": "Arno",
+          "profession": "Dipl.-Inf. (FH), Bierbrauer"
+        },
+        {
+          "id": "ab-sr-7-13",
+          "position": 13,
+          "lastName": "Dr. Albertin-Hummel",
+          "firstName": "Ursula",
+          "profession": "Dr.-Ing., Professorin Bauingenieurwesen, Gailoh"
+        },
+        {
+          "id": "ab-sr-7-14",
+          "position": 14,
+          "lastName": "Erras",
+          "firstName": "Herbert",
+          "profession": "EDV-Dozent"
+        },
+        {
+          "id": "ab-sr-7-15",
+          "position": 15,
+          "lastName": "Diener",
+          "firstName": "Birgitta",
+          "profession": "Dipl.-Math. (FH), Lehrerin"
+        },
+        {
+          "id": "ab-sr-7-16",
+          "position": 16,
+          "lastName": "Köpl",
+          "firstName": "Elfriede",
+          "profession": "Beamtin a.D."
+        },
+        {
+          "id": "ab-sr-7-17",
+          "position": 17,
+          "lastName": "Irmer",
+          "firstName": "Karl-Heinz",
+          "profession": "Dipl.-Betriebsw. (FH), Rentner"
+        },
+        {
+          "id": "ab-sr-7-18",
+          "position": 18,
+          "lastName": "Reich",
+          "firstName": "Franz",
+          "profession": "Dipl.-Ing., Diplom-Ingenieur i.R., Schäflohe"
+        },
+        {
+          "id": "ab-sr-7-19",
+          "position": 19,
+          "lastName": "Neumann",
+          "firstName": "Günter",
+          "profession": "Polizeihauptkommissar a.D."
+        },
+        {
+          "id": "ab-sr-7-20",
+          "position": 20,
+          "lastName": "Schanderl",
+          "firstName": "Michael",
+          "profession": "Elektromonteur, Fuchsstein"
+        },
+        {
+          "id": "ab-sr-7-21",
+          "position": 21,
+          "lastName": "Hummel",
+          "firstName": "Jonas",
+          "profession": "Student Bauingenieurwesen, Gailoh"
+        },
+        {
+          "id": "ab-sr-7-22",
+          "position": 22,
+          "lastName": "Leitl",
+          "firstName": "Rudolf",
+          "profession": "Dipl.-Forstw. (Univ.), Diplom-Forstwirt"
+        },
+        {
+          "id": "ab-sr-7-23",
+          "position": 23,
+          "lastName": "Lederer",
+          "firstName": "Martha",
+          "profession": "Krankenschwester i.R."
+        },
+        {
+          "id": "ab-sr-7-24",
+          "position": 24,
+          "lastName": "Hummel",
+          "firstName": "Lukas",
+          "profession": "B.Sc., Masterstudent Biologie, Gailoh"
+        },
+        {
+          "id": "ab-sr-7-25",
+          "position": 25,
+          "lastName": "Müllers",
+          "firstName": "Bernhard",
+          "profession": "M. Mus., Kirchenmusiker"
+        },
+        {
+          "id": "ab-sr-7-26",
+          "position": 26,
+          "lastName": "Bauer",
+          "firstName": "Johann",
+          "profession": "Pastoralreferent i.R."
+        },
+        {
+          "id": "ab-sr-7-27",
+          "position": 27,
+          "lastName": "Hummel",
+          "firstName": "Silas",
+          "profession": "Elektroniker in Meisterausbildung, Gailoh"
+        },
+        {
+          "id": "ab-sr-7-28",
+          "position": 28,
+          "lastName": "Koll",
+          "firstName": "Michael",
+          "profession": "Sonderpädagoge"
+        },
+        {
+          "id": "ab-sr-7-29",
+          "position": 29,
+          "lastName": "Neumann",
+          "firstName": "Martina",
+          "profession": "Angestellte"
+        },
+        {
+          "id": "ab-sr-7-30",
+          "position": 30,
+          "lastName": "Sonntag",
+          "firstName": "Sebastian",
+          "profession": "Dipl.-Psych., Dipl.-Theol., Sebstständiger Psychotherapeut, Ammersricht"
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "fullName": "Amberger Bunt",
+      "shortName": "Amberger Bunt",
+      "candidateCount": 15,
+      "candidates": [
+        {
+          "id": "ab-sr-8-1",
+          "position": 1,
+          "lastName": "Ayten",
+          "firstName": "Tuncer",
+          "profession": "B.Eng., Key-Account-Manager"
+        },
+        {
+          "id": "ab-sr-8-2",
+          "position": 2,
+          "lastName": "Raab",
+          "firstName": "Andreas",
+          "profession": "Unternehmer"
+        },
+        {
+          "id": "ab-sr-8-3",
+          "position": 3,
+          "lastName": "Duran",
+          "firstName": "Ramazan",
+          "profession": "Rechtsanwalt"
+        },
+        {
+          "id": "ab-sr-8-4",
+          "position": 4,
+          "lastName": "Lorenz",
+          "firstName": "Josef",
+          "profession": "Schulleiter a.D."
+        },
+        {
+          "id": "ab-sr-8-5",
+          "position": 5,
+          "lastName": "Drapej",
+          "firstName": "Sarah",
+          "profession": "Sozialpädagogin"
+        },
+        {
+          "id": "ab-sr-8-6",
+          "position": 6,
+          "lastName": "Ayten",
+          "firstName": "Aydin",
+          "profession": "Pflegehelfer, Stadtratsmitglied"
+        },
+        {
+          "id": "ab-sr-8-7",
+          "position": 7,
+          "lastName": "Weiß",
+          "firstName": "Markus",
+          "profession": "Gymnasiallehrer"
+        },
+        {
+          "id": "ab-sr-8-8",
+          "position": 8,
+          "lastName": "Drapej",
+          "firstName": "Eduard",
+          "profession": "Account-Manager"
+        },
+        {
+          "id": "ab-sr-8-9",
+          "position": 9,
+          "lastName": "Raab",
+          "firstName": "Andrea",
+          "profession": "Pflegehelferin"
+        },
+        {
+          "id": "ab-sr-8-10",
+          "position": 10,
+          "lastName": "Alsedo",
+          "firstName": "Khalid",
+          "profession": "Kaufmann für Büromanagement"
+        },
+        {
+          "id": "ab-sr-8-11",
+          "position": 11,
+          "lastName": "Gehrig",
+          "firstName": "Daniel",
+          "profession": "Webmaster"
+        },
+        {
+          "id": "ab-sr-8-12",
+          "position": 12,
+          "lastName": "Géza",
+          "firstName": "Ján",
+          "profession": "Sozialer Betreuer"
+        },
+        {
+          "id": "ab-sr-8-13",
+          "position": 13,
+          "lastName": "Carchedi",
+          "firstName": "Claudio",
+          "profession": "Gastronom"
+        },
+        {
+          "id": "ab-sr-8-14",
+          "position": 14,
+          "lastName": "Zappek",
+          "firstName": "Markus",
+          "profession": "Sozialer Betreuer"
+        },
+        {
+          "id": "ab-sr-8-15",
+          "position": 15,
+          "lastName": "Gattow",
+          "firstName": "Dieter",
+          "profession": "Webmaster"
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "fullName": "Freie Demokratische Partei",
+      "shortName": "FDP",
+      "candidateCount": 15,
+      "candidates": [
+        {
+          "id": "ab-sr-9-1",
+          "position": 1,
+          "lastName": "Rohn",
+          "firstName": "Jens",
+          "profession": "Informatiker"
+        },
+        {
+          "id": "ab-sr-9-2",
+          "position": 2,
+          "lastName": "Kosche",
+          "firstName": "Benjamin",
+          "profession": "Kundenbetreuer"
+        },
+        {
+          "id": "ab-sr-9-3",
+          "position": 3,
+          "lastName": "Hochholdinger",
+          "firstName": "Markus",
+          "profession": "Mediengestalter"
+        },
+        {
+          "id": "ab-sr-9-4",
+          "position": 4,
+          "lastName": "Feuerer",
+          "firstName": "Christoph",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-9-5",
+          "position": 5,
+          "lastName": "Kleber",
+          "firstName": "Benedikt",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-9-6",
+          "position": 6,
+          "lastName": "Dreßler",
+          "firstName": "Silke",
+          "profession": "Empfangsmitarbeiterin"
+        },
+        {
+          "id": "ab-sr-9-7",
+          "position": 7,
+          "lastName": "Hottner",
+          "firstName": "Wolfgang",
+          "profession": "Rechtsanwalt"
+        },
+        {
+          "id": "ab-sr-9-8",
+          "position": 8,
+          "lastName": "Rohn",
+          "firstName": "Janik",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-9-9",
+          "position": 9,
+          "lastName": "Bings",
+          "firstName": "Jens",
+          "profession": "Dipl.-Bauingenieur (TU), Prüfstatiker"
+        },
+        {
+          "id": "ab-sr-9-10",
+          "position": 10,
+          "lastName": "Bader",
+          "firstName": "Sebastian",
+          "profession": "B.Sc., Selbstständiger Versicherungs- und Finanzmakler"
+        },
+        {
+          "id": "ab-sr-9-11",
+          "position": 11,
+          "lastName": "Kiener",
+          "firstName": "Leon",
+          "profession": "Industriemechaniker"
+        },
+        {
+          "id": "ab-sr-9-12",
+          "position": 12,
+          "lastName": "Neuhierl",
+          "firstName": "Sandra",
+          "profession": "Fachkraft Küche"
+        },
+        {
+          "id": "ab-sr-9-13",
+          "position": 13,
+          "lastName": "Müller",
+          "firstName": "Benedikt",
+          "profession": "Polizeianwärter, Krumbach"
+        },
+        {
+          "id": "ab-sr-9-14",
+          "position": 14,
+          "lastName": "Brunner",
+          "firstName": "Hans-Jürgen",
+          "profession": "Dipl.-Päd., Dipl.-Finw., Zollbeamter a.D., Raigering"
+        },
+        {
+          "id": "ab-sr-9-15",
+          "position": 15,
+          "lastName": "Hochholdinger",
+          "firstName": "Christine",
+          "profession": "Altenpflegerin"
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "fullName": "Die Linke",
+      "shortName": "Die Linke",
+      "candidateCount": 15,
+      "candidates": [
+        {
+          "id": "ab-sr-10-1",
+          "position": 1,
+          "lastName": "Winter",
+          "firstName": "Tobias",
+          "profession": "Einzelhandelskaufmann"
+        },
+        {
+          "id": "ab-sr-10-2",
+          "position": 2,
+          "lastName": "Bergler",
+          "firstName": "Ronja",
+          "profession": "Erzieherin"
+        },
+        {
+          "id": "ab-sr-10-3",
+          "position": 3,
+          "lastName": "Macura",
+          "firstName": "Tijana",
+          "profession": "B.A., Sozialarbeiterin"
+        },
+        {
+          "id": "ab-sr-10-4",
+          "position": 4,
+          "lastName": "Giacalone",
+          "firstName": "Francesco",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-10-5",
+          "position": 5,
+          "lastName": "Kratzer",
+          "firstName": "Pia",
+          "profession": "Studentin"
+        },
+        {
+          "id": "ab-sr-10-6",
+          "position": 6,
+          "lastName": "Donhauser",
+          "firstName": "Thiemo",
+          "profession": "Lehrer"
+        },
+        {
+          "id": "ab-sr-10-7",
+          "position": 7,
+          "lastName": "Roth",
+          "firstName": "Hanna",
+          "profession": "Studentin"
+        },
+        {
+          "id": "ab-sr-10-8",
+          "position": 8,
+          "lastName": "Kolodziej",
+          "firstName": "Justin",
+          "profession": "Einzelhandelskaufmann"
+        },
+        {
+          "id": "ab-sr-10-9",
+          "position": 9,
+          "lastName": "Schmid",
+          "firstName": "Lisa-Marie",
+          "profession": "Bäckereifachverkäuferin"
+        },
+        {
+          "id": "ab-sr-10-10",
+          "position": 10,
+          "lastName": "Franz",
+          "firstName": "Denny",
+          "profession": "Unternehmensberater"
+        },
+        {
+          "id": "ab-sr-10-11",
+          "position": 11,
+          "lastName": "Wienzek",
+          "firstName": "Anna-Louisa",
+          "profession": "Studentin"
+        },
+        {
+          "id": "ab-sr-10-12",
+          "position": 12,
+          "lastName": "Kinzell",
+          "firstName": "Leon",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-10-13",
+          "position": 13,
+          "lastName": "Höhn",
+          "firstName": "Ruben",
+          "profession": "Angestellter"
+        },
+        {
+          "id": "ab-sr-10-14",
+          "position": 14,
+          "lastName": "Hofmann",
+          "firstName": "Birte",
+          "profession": "Medizinische Fachangestellte"
+        },
+        {
+          "id": "ab-sr-10-15",
+          "position": 15,
+          "lastName": "Boßle",
+          "firstName": "Alexander",
+          "profession": "Student"
+        }
+      ]
+    },
+    {
+      "listNumber": 11,
+      "fullName": "Junge Union Bayern",
+      "shortName": "JU",
+      "candidateCount": 40,
+      "candidates": [
+        {
+          "id": "ab-sr-11-1",
+          "position": 1,
+          "lastName": "Füger",
+          "firstName": "Florian",
+          "profession": "M.Sc., Geschäftsführer, Stadtratsmitgllied"
+        },
+        {
+          "id": "ab-sr-11-2",
+          "position": 2,
+          "lastName": "Preuß",
+          "firstName": "Wolfgang",
+          "profession": "Polizeibeamter"
+        },
+        {
+          "id": "ab-sr-11-3",
+          "position": 3,
+          "lastName": "Netta",
+          "firstName": "Peter",
+          "profession": "B.Sc., Informatiker"
+        },
+        {
+          "id": "ab-sr-11-4",
+          "position": 4,
+          "lastName": "Weiß",
+          "firstName": "Franziska",
+          "profession": "M.A., Sozialpädagogin, Mitglied Jugendhilfeausschuss"
+        },
+        {
+          "id": "ab-sr-11-5",
+          "position": 5,
+          "lastName": "Giedl",
+          "firstName": "Niklas",
+          "profession": "Bankkaufmann"
+        },
+        {
+          "id": "ab-sr-11-6",
+          "position": 6,
+          "lastName": "Bauer",
+          "firstName": "Marcel",
+          "profession": "Auszubildender Steuerfachangestellter"
+        },
+        {
+          "id": "ab-sr-11-7",
+          "position": 7,
+          "lastName": "Harrer",
+          "firstName": "Nico",
+          "profession": "B.A., Gewerbekundenberater"
+        },
+        {
+          "id": "ab-sr-11-8",
+          "position": 8,
+          "lastName": "Schlee",
+          "firstName": "Julia",
+          "profession": "Polizeibeamtin"
+        },
+        {
+          "id": "ab-sr-11-9",
+          "position": 9,
+          "lastName": "Lotter",
+          "firstName": "Andreas",
+          "profession": "Projektleiter Erneuerbare Großkraftwerke"
+        },
+        {
+          "id": "ab-sr-11-10",
+          "position": 10,
+          "lastName": "Schlosser",
+          "firstName": "Jonas",
+          "profession": "Geschäftsführer"
+        },
+        {
+          "id": "ab-sr-11-11",
+          "position": 11,
+          "lastName": "Lumley",
+          "firstName": "Lucy",
+          "profession": "B.Sc., Psychologin"
+        },
+        {
+          "id": "ab-sr-11-12",
+          "position": 12,
+          "lastName": "Ott",
+          "firstName": "Manuel",
+          "profession": "Lagerist, Karmensölden"
+        },
+        {
+          "id": "ab-sr-11-13",
+          "position": 13,
+          "lastName": "Kies",
+          "firstName": "Maximilian",
+          "profession": "Selbstständiger Fliesen-, Platten- und Mosaiklegemeister"
+        },
+        {
+          "id": "ab-sr-11-14",
+          "position": 14,
+          "lastName": "Schörner",
+          "firstName": "Dennis",
+          "profession": "Projektleiter"
+        },
+        {
+          "id": "ab-sr-11-15",
+          "position": 15,
+          "lastName": "Herdegen",
+          "firstName": "Ludwig",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-11-16",
+          "position": 16,
+          "lastName": "Erhard",
+          "firstName": "Nino",
+          "profession": "Auszubildender Industriemechaniker"
+        },
+        {
+          "id": "ab-sr-11-17",
+          "position": 17,
+          "lastName": "Lotter",
+          "firstName": "Johanna",
+          "profession": "Fliesen-, Platten- und Mosaiklegermeisterin"
+        },
+        {
+          "id": "ab-sr-11-18",
+          "position": 18,
+          "lastName": "Kammerl",
+          "firstName": "Marco",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-11-19",
+          "position": 19,
+          "lastName": "Grell",
+          "firstName": "Julian",
+          "profession": "Auszubildender Kaufmann für Hotelmanagement"
+        },
+        {
+          "id": "ab-sr-11-20",
+          "position": 20,
+          "lastName": "Prechtl",
+          "firstName": "Bastian",
+          "profession": "Dr. med., Arzt"
+        },
+        {
+          "id": "ab-sr-11-21",
+          "position": 21,
+          "lastName": "Schwab",
+          "firstName": "Theresa",
+          "profession": "Gesundheits- und Krankenpflegerin"
+        },
+        {
+          "id": "ab-sr-11-22",
+          "position": 22,
+          "lastName": "Lotter",
+          "firstName": "Jakob",
+          "profession": "Selbstständiger Maurer- und Betonbaumeister"
+        },
+        {
+          "id": "ab-sr-11-23",
+          "position": 23,
+          "lastName": "Czarneć",
+          "firstName": "Jan",
+          "profession": "Kaufmännischer Angestellter"
+        },
+        {
+          "id": "ab-sr-11-24",
+          "position": 24,
+          "lastName": "Töpert",
+          "firstName": "Bastian",
+          "profession": "Gärtner für Garten-, Landschafts-, Spiel- und Sportplatzbau"
+        },
+        {
+          "id": "ab-sr-11-25",
+          "position": 25,
+          "lastName": "Kaluza",
+          "firstName": "Nick",
+          "profession": "Fachspezialist Anlagenführung"
+        },
+        {
+          "id": "ab-sr-11-26",
+          "position": 26,
+          "lastName": "Schwab",
+          "firstName": "Lukas",
+          "profession": "Gastronom"
+        },
+        {
+          "id": "ab-sr-11-27",
+          "position": 27,
+          "lastName": "Lehner",
+          "firstName": "Sven",
+          "profession": "Staatsanwalt"
+        },
+        {
+          "id": "ab-sr-11-28",
+          "position": 28,
+          "lastName": "Köstler",
+          "firstName": "Robin",
+          "profession": "Auszubildender Industriemechaniker"
+        },
+        {
+          "id": "ab-sr-11-29",
+          "position": 29,
+          "lastName": "Rubenbauer",
+          "firstName": "Thomas",
+          "profession": "Geschäftsführer, Gailoh"
+        },
+        {
+          "id": "ab-sr-11-30",
+          "position": 30,
+          "lastName": "Kiener",
+          "firstName": "Jan",
+          "profession": "Gastronom"
+        },
+        {
+          "id": "ab-sr-11-31",
+          "position": 31,
+          "lastName": "Herbrich",
+          "firstName": "Andreas",
+          "profession": "Student"
+        },
+        {
+          "id": "ab-sr-11-32",
+          "position": 32,
+          "lastName": "Trage",
+          "firstName": "Barbara",
+          "profession": "Gesundheits- und Krankenpflegerin"
+        },
+        {
+          "id": "ab-sr-11-33",
+          "position": 33,
+          "lastName": "Wiehrl",
+          "firstName": "Luca",
+          "profession": "Auszubildender Einzelhandelskaufmann"
+        },
+        {
+          "id": "ab-sr-11-34",
+          "position": 34,
+          "lastName": "Masszi",
+          "firstName": "Jakob",
+          "profession": "Schüler"
+        },
+        {
+          "id": "ab-sr-11-35",
+          "position": 35,
+          "lastName": "Neudecker",
+          "firstName": "Marcelo",
+          "profession": "Soldat"
+        },
+        {
+          "id": "ab-sr-11-36",
+          "position": 36,
+          "lastName": "Pickel",
+          "firstName": "Maximilian",
+          "profession": "Schüler"
+        },
+        {
+          "id": "ab-sr-11-37",
+          "position": 37,
+          "lastName": "Herdegen",
+          "firstName": "Elisabeth",
+          "profession": "Gesundheits- und Krankenpflegerin"
+        },
+        {
+          "id": "ab-sr-11-38",
+          "position": 38,
+          "lastName": "Schlaffer",
+          "firstName": "Thomas",
+          "profession": "Industriekaufmann"
+        },
+        {
+          "id": "ab-sr-11-39",
+          "position": 39,
+          "lastName": "Doleschal",
+          "firstName": "Timo",
+          "profession": "B.Ed., Student"
+        },
+        {
+          "id": "ab-sr-11-40",
+          "position": 40,
+          "lastName": "Ott",
+          "firstName": "Selina",
+          "profession": "Auszubildende Pflegefachkfraft, Karmensölden"
+        }
+      ]
+    }
+  ]
+}

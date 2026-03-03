@@ -167,6 +167,86 @@ const ELECTIONS: ElectionEntry[] = [
     shareTypeCode: 31,
     load: () => import('./dadi-kreistag/config').then(m => m.default),
   },
+  {
+    slug: 'bad-homburg-stvv',
+    shareTypeCode: 32,
+    load: () => import('./bad-homburg-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'wetzlar-stvv',
+    shareTypeCode: 33,
+    load: () => import('./wetzlar-stvv/config').then(m => m.default),
+  },
+  {
+    slug: 'amberg-stadtrat',
+    shareTypeCode: 34,
+    load: () => import('./amberg-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'coburg-stadtrat',
+    shareTypeCode: 35,
+    load: () => import('./coburg-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'kempten-stadtrat',
+    shareTypeCode: 36,
+    load: () => import('./kempten-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'schweinfurt-stadtrat',
+    shareTypeCode: 37,
+    load: () => import('./schweinfurt-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'rosenheim-stadtrat',
+    shareTypeCode: 38,
+    load: () => import('./rosenheim-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'straubing-stadtrat',
+    shareTypeCode: 39,
+    load: () => import('./straubing-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'hof-stadtrat',
+    shareTypeCode: 40,
+    load: () => import('./hof-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'passau-stadtrat',
+    shareTypeCode: 41,
+    load: () => import('./passau-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'landshut-stadtrat',
+    shareTypeCode: 42,
+    load: () => import('./landshut-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'weiden-stadtrat',
+    shareTypeCode: 43,
+    load: () => import('./weiden-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'schwabach-stadtrat',
+    shareTypeCode: 44,
+    load: () => import('./schwabach-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'aschaffenburg-stadtrat',
+    shareTypeCode: 45,
+    load: () => import('./aschaffenburg-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'kaufbeuren-stadtrat',
+    shareTypeCode: 46,
+    load: () => import('./kaufbeuren-stadtrat/config').then(m => m.default),
+  },
+  {
+    slug: 'memmingen-stadtrat',
+    shareTypeCode: 47,
+    load: () => import('./memmingen-stadtrat/config').then(m => m.default),
+  },
 ];
 
 export function getAllElections(): ElectionEntry[] {
