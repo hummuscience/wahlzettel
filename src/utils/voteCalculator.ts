@@ -195,8 +195,23 @@ export function calculateDerivedState(
     }
   }
 
-  // Bayern §75: only individual votes determine validity (list crosses never make ballot invalid)
-  const overLimitBasis = allowMultipleListVotes ? individualTotal : totalUsed;
+  let overLimitBasis: number;
+  if (allowMultipleListVotes) {
+    const selectedLists = Object.values(listSelections).filter(s => s.isSelected);
+    if (individualTotal > 0) {
+      // §75.5c / §85.2: only individual votes determine validity
+      overLimitBasis = individualTotal;
+    } else if (selectedLists.length > 1) {
+      // §85.1: multiple list crosses with no individual votes —
+      // invalid if total eligible candidates across lists > totalStimmen
+      overLimitBasis = listTotal;
+    } else {
+      // Single list or no list: list total is fine (never exceeds totalStimmen)
+      overLimitBasis = 0;
+    }
+  } else {
+    overLimitBasis = totalUsed;
+  }
 
   return {
     totalStimmenUsed: totalUsed,
