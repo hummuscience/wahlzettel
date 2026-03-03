@@ -88,25 +88,22 @@ function PartyBox({ pg, color }: { pg: PartyPrintData; color: string }) {
         <span className="ml-auto text-[10px] text-gray-500 tabular-nums">{pg.stimmen}</span>
       </div>
 
-      {/* Candidate rows: only individual votes and strikes */}
+      {/* Candidate rows: individual votes and strikes merged by position */}
       {hasDetails && (
         <div className="px-2 py-0.5">
-          {pg.individualVotes.map(iv => (
-            <div key={iv.position} className="flex items-center gap-1 py-[2px]">
-              <span className="text-[10px] text-gray-600 w-5 text-right tabular-nums shrink-0">
-                {iv.position}
-              </span>
-              <VoteDots stimmen={iv.stimmen} />
-            </div>
-          ))}
-          {pg.struckPositions.map(pos => (
-            <div key={`s${pos}`} className="flex items-center gap-1 py-[2px]">
-              <span className="text-[10px] text-gray-400 w-5 text-right tabular-nums shrink-0">
-                {pos}
-              </span>
-              <StrikeDots />
-            </div>
-          ))}
+          {[
+            ...pg.individualVotes.map(iv => ({ position: iv.position, type: 'vote' as const, stimmen: iv.stimmen })),
+            ...pg.struckPositions.map(pos => ({ position: pos, type: 'strike' as const, stimmen: 0 })),
+          ]
+            .sort((a, b) => a.position - b.position)
+            .map(row => (
+              <div key={row.type === 'strike' ? `s${row.position}` : row.position} className="flex items-center gap-1 py-[2px]">
+                <span className={`text-[10px] w-5 text-right tabular-nums shrink-0 ${row.type === 'strike' ? 'text-gray-400' : 'text-gray-600'}`}>
+                  {row.position}
+                </span>
+                {row.type === 'strike' ? <StrikeDots /> : <VoteDots stimmen={row.stimmen} />}
+              </div>
+            ))}
         </div>
       )}
     </div>
