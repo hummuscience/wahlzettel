@@ -50,39 +50,18 @@ function QRCodeSVG({ url, size }: { url: string; size: number }) {
 /** Three circles: filled (●) or empty (○), representing up to 3 Stimmen */
 function VoteDots({ stimmen }: { stimmen: number }) {
   return (
-    <span className="inline-flex gap-[3px] ml-1.5">
-      {[0, 1, 2].map(i => (
-        <span
-          key={i}
-          className={`inline-block w-[8px] h-[8px] rounded-full ${
-            i < stimmen
-              ? 'border-[4px] border-black'
-              : 'border-[1.5px] border-gray-400'
-          }`}
-        />
-      ))}
+    <span className="ml-1 text-[10px] tracking-[1px]">
+      {'●'.repeat(stimmen)}
+      {'○'.repeat(3 - stimmen)}
     </span>
   );
 }
 
-/** Struck-through dots: a line through the dot area */
+/** Struck-through candidate: line through the dots */
 function StrikeDots() {
   return (
-    <span className="inline-flex items-center ml-1.5 relative">
-      <span className="inline-flex gap-[3px]">
-        {[0, 1, 2].map(i => (
-          <span
-            key={i}
-            className="inline-block w-[8px] h-[8px] rounded-full border-[1.5px] border-gray-300"
-          />
-        ))}
-      </span>
-      <span
-        className="absolute inset-0 flex items-center"
-        aria-hidden="true"
-      >
-        <span className="w-full h-[2px] bg-red-500" />
-      </span>
+    <span className="ml-1 text-[10px] text-gray-400 line-through decoration-red-500 decoration-2">
+      ○○○
     </span>
   );
 }
