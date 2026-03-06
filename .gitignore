@@ -28,6 +28,7 @@ dist-ssr
 *.org~
 *.pdf
 *.png
+!public/og-image.png
 grade-dlc-behavior/
 pk-modelling-of-medikinet/
 wahlzettel/

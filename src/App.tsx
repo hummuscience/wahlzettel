@@ -111,7 +111,12 @@ function App() {
     root.style.setProperty('--color-election-primary-dark', electionConfig.themeColorDark);
     loadElectionI18n(electionConfig.id).then(() => {
       const title = i18n.t('title', { ns: 'election', defaultValue: electionConfig.id });
-      document.title = `Wahlzettel – ${title}`;
+      document.title = `${title} – Musterstimmzettel | Wahlzettel`;
+      const ballotBody = i18n.t('ballotBodyName', { ns: 'election', defaultValue: '' });
+      const desc = ballotBody
+        ? `Interaktiver Musterstimmzettel ${ballotBody} – Kumulieren & Panaschieren üben.`
+        : `Interaktiver Musterstimmzettel – Kumulieren & Panaschieren üben.`;
+      document.querySelector('meta[name="description"]')?.setAttribute('content', desc);
     });
   }, [electionConfig]);
 
@@ -194,7 +199,9 @@ function App() {
     setLandtagswahlData(null);
     setElectionConfig(null);
     history.pushState(null, '', '/');
-    document.title = 'Wahlzettel – Wahl üben';
+    document.title = 'Wahlzettel – Kommunalwahl üben';
+    document.querySelector('meta[name="description"]')?.setAttribute('content',
+      'Übe die Kommunalwahl mit einem interaktiven Musterstimmzettel. Kumulieren & Panaschieren leicht gemacht.');
   }, [resetBallot]);
 
   const handleChooseElection = useCallback((slug: string) => {
