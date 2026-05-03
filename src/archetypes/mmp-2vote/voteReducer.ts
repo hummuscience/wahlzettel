@@ -14,10 +14,14 @@ function reducer(state: Mmp2VoteState, action: Mmp2VoteAction): Mmp2VoteState {
       return { ...state, selectedWahlkreis: action.wahlkreis, erststimme: null };
     case 'SET_ERSTSTIMME':
       return { ...state, erststimme: action.candidateId };
-    case 'SET_ZWEITSTIMME':
-      return { ...state, zweitstimme: { listType: action.listType, listNumber: action.listNumber } };
+    case 'SET_ZWEITSTIMME': {
+      const { listType, listNumber } = action;
+      return { ...state, zweitstimme: { listType, listNumber } };
+    }
     case 'CLEAR_ZWEITSTIMME':
       return { ...state, zweitstimme: null };
+    case 'CLEAR_WAHLKREIS':
+      return { ...state, selectedWahlkreis: null, erststimme: null };
     case 'RESET':
       return initialState;
     case 'LOAD_STATE':

@@ -11,5 +11,6 @@ export type Mmp2VoteAction =
   | { type: 'SET_ERSTSTIMME'; candidateId: string | null }
   | { type: 'SET_ZWEITSTIMME'; listType: 'landesliste' | 'bezirksliste'; listNumber: number }
   | { type: 'CLEAR_ZWEITSTIMME' }
+  | { type: 'CLEAR_WAHLKREIS' }
   | { type: 'RESET' }
   | { type: 'LOAD_STATE'; state: Mmp2VoteState };
