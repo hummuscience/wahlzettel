@@ -247,6 +247,71 @@ const ELECTIONS: ElectionEntry[] = [
     shareTypeCode: 47,
     load: () => import('./memmingen-stadtrat/config').then(m => m.default),
   },
+  {
+    slug: 'berlin-abgh',
+    shareTypeCode: 48,
+    load: () => import('./berlin-abgh/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-mitte',
+    shareTypeCode: 49,
+    load: () => import('./berlin-bvv-mitte/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-friedrichshain-kreuzberg',
+    shareTypeCode: 50,
+    load: () => import('./berlin-bvv-friedrichshain-kreuzberg/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-pankow',
+    shareTypeCode: 51,
+    load: () => import('./berlin-bvv-pankow/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-charlottenburg-wilmersdorf',
+    shareTypeCode: 52,
+    load: () => import('./berlin-bvv-charlottenburg-wilmersdorf/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-spandau',
+    shareTypeCode: 53,
+    load: () => import('./berlin-bvv-spandau/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-steglitz-zehlendorf',
+    shareTypeCode: 54,
+    load: () => import('./berlin-bvv-steglitz-zehlendorf/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-tempelhof-schoeneberg',
+    shareTypeCode: 55,
+    load: () => import('./berlin-bvv-tempelhof-schoeneberg/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-neukoelln',
+    shareTypeCode: 56,
+    load: () => import('./berlin-bvv-neukoelln/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-treptow-koepenick',
+    shareTypeCode: 57,
+    load: () => import('./berlin-bvv-treptow-koepenick/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-marzahn-hellersdorf',
+    shareTypeCode: 58,
+    load: () => import('./berlin-bvv-marzahn-hellersdorf/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-lichtenberg',
+    shareTypeCode: 59,
+    load: () => import('./berlin-bvv-lichtenberg/config').then(m => m.default),
+  },
+  {
+    slug: 'berlin-bvv-reinickendorf',
+    shareTypeCode: 60,
+    load: () => import('./berlin-bvv-reinickendorf/config').then(m => m.default),
+  },
 ];
 
 export function getAllElections(): ElectionEntry[] {
