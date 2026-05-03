@@ -1,3 +1,4 @@
+// Spickzettel deferred — added per archetype as needed (see plan Wave 2/3).
 export { LandtagswahlBallot as Ballot } from './Ballot';
 export {
   useMmp2VoteState,

@@ -199,7 +199,7 @@ This task does not commit on its own. Move on to Task 1.3 immediately; Tasks 1.2
 
 ---
 
-### Task 1.3: Migrate the 50 existing election configs to the new schema
+### Task 1.3: Migrate the 48 existing election configs to the new schema
 
 For each config under `src/elections/<slug>/config.ts`, perform a mechanical rewrite. The fields required for `SuedKommunalConfig`:
 - replace `type: 'kommunalwahl'` (if present) with `ballotKind: 'sued-kommunal'`
@@ -208,7 +208,7 @@ For each config under `src/elections/<slug>/config.ts`, perform a mechanical rew
 - ensure `maxPerCandidate: 3` is the literal `3` (TS checks union compatibility)
 
 **Files:**
-- Modify: every `src/elections/*/config.ts` (50 files)
+- Modify: every `src/elections/*/config.ts` (48 files)
 
 - [ ] **Step 1: Migrate Hessen STVV configs**
 
@@ -262,7 +262,7 @@ For each of `bad-homburg-stvv`, `dadi-kreistag`, `darmstadt-stvv`, `darmstadt-ka
 
 (`dadi-kreistag` is a Kreistag, not a city: use `region: { land: 'HE', bezirk: 'Darmstadt-Dieburg' }`.)
 
-- [ ] **Step 3: Migrate the 25 Bayern Stadtrat configs**
+- [ ] **Step 3: Migrate the 24 Bayern Stadtrat configs**
 
 For each of `amberg-stadtrat`, `aschaffenburg-stadtrat`, `augsburg-stadtrat`, `bamberg-stadtrat`, `bayreuth-stadtrat`, `coburg-stadtrat`, `erlangen-stadtrat`, `fuerth-stadtrat`, `hof-stadtrat`, `ingolstadt-stadtrat`, `kaufbeuren-stadtrat`, `kempten-stadtrat`, `landshut-stadtrat`, `memmingen-stadtrat`, `muenchen-stadtrat`, `nuernberg-stadtrat`, `passau-stadtrat`, `regensburg-stadtrat`, `rosenheim-stadtrat`, `schwabach-stadtrat`, `schweinfurt-stadtrat`, `straubing-stadtrat`, `weiden-stadtrat`, `wuerzburg-stadtrat`:
 
