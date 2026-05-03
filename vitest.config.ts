@@ -7,6 +7,8 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     include: ['src/**/*.test.{ts,tsx}'],
+    setupFiles: ['./src/test/setup.ts'],
+    // TODO: remove once the first test file lands and `npm test` always finds tests.
     passWithNoTests: true,
   },
 });
