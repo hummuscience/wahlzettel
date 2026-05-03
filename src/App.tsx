@@ -1,7 +1,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import type { ComponentType } from 'react';
 import type { ElectionData } from './types';
 import type { ElectionType } from './utils/shareState';
 import type { ElectionConfig } from './elections/types';
+import { ARCHETYPES } from './archetypes';
 import { getElectionBySlug } from './elections/registry';
 import { ElectionProvider } from './elections/ElectionContext';
 import { useSuedKommunalState as useVoteState } from './archetypes/sued-kommunal';
@@ -315,6 +317,22 @@ function App() {
     );
   }
 
+  // Stub archetypes: lazy-load via ARCHETYPES registry
+  // (mmp-2vote and closed-list already returned above)
+  if (electionConfig.ballotKind !== 'sued-kommunal') {
+    return (
+      <ElectionProvider config={electionConfig}>
+        <div className="min-h-screen flex flex-col">
+          <Header onSwitchBallot={handleSwitchBallot} />
+          <main className="flex-1">
+            <LazyArchetypeMount config={electionConfig} />
+          </main>
+          <Footer />
+        </div>
+      </ElectionProvider>
+    );
+  }
+
   if (!electionData) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -409,6 +427,19 @@ function App() {
       </div>
     </ElectionProvider>
   );
+}
+
+function LazyArchetypeMount({ config }: { config: ElectionConfig }) {
+  const [Comp, setComp] = useState<ComponentType<{ config: ElectionConfig }> | null>(null);
+  useEffect(() => {
+    let live = true;
+    ARCHETYPES[config.ballotKind]().then(m => {
+      if (live) setComp(() => m.Ballot as ComponentType<{ config: ElectionConfig }>);
+    });
+    return () => { live = false; };
+  }, [config.ballotKind]);
+  if (!Comp) return <div className="p-12 text-center text-gray-500">Lade…</div>;
+  return <Comp config={config} />;
 }
 
 export default App;
