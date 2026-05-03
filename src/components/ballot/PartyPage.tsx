@@ -37,7 +37,8 @@ export function PartyPage({
   nextName,
 }: PartyPageProps) {
   const { t } = useTranslation('ballot');
-  const { candidateNumbering } = useElection();
+  const electionConfig = useElection();
+  const candidateNumbering = electionConfig.ballotKind === 'sued-kommunal' ? electionConfig.candidateNumbering : undefined;
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

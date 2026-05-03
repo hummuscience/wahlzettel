@@ -4,16 +4,16 @@ import type { ElectionType } from './utils/shareState';
 import type { ElectionConfig } from './elections/types';
 import { getElectionBySlug } from './elections/registry';
 import { ElectionProvider } from './elections/ElectionContext';
-import { useVoteState } from './hooks/useVoteState';
+import { useSuedKommunalState as useVoteState } from './archetypes/sued-kommunal';
 import { decodeVoteState, encodeVoteState } from './utils/shareState';
 import { ShareDialog, buildPartySegments } from './components/ballot/ShareDialog';
 import type { PartySegment } from './components/ballot/ShareDialog';
-import { PrintSpickzettel } from './components/ballot/PrintSpickzettel';
+import { Spickzettel as PrintSpickzettel } from './archetypes/sued-kommunal';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { MobileDrawer } from './components/layout/MobileDrawer';
 import { VoteStatusBar } from './components/ballot/VoteStatusBar';
-import { BallotView } from './components/ballot/BallotView';
+import { Ballot as BallotView } from './archetypes/sued-kommunal';
 import { WalkthroughSection } from './components/walkthrough/WalkthroughSection';
 import { WalkthroughDrawerContent } from './components/walkthrough/WalkthroughDrawerContent';
 import { PracticalInfo } from './components/info/PracticalInfo';
@@ -21,7 +21,7 @@ import { PracticalInfoDrawerContent } from './components/info/PracticalInfoDrawe
 import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
-import { LandtagswahlBallot } from './components/ballot/LandtagswahlBallot';
+import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
 import i18n, { loadElectionI18n } from './i18n';
 
 function getSlugFromPath(): string | null {
@@ -52,6 +52,10 @@ function App() {
   } | null>(null);
   const [printUrl, setPrintUrl] = useState<string | null>(null);
 
+  const allowMultipleListVotes =
+    electionConfig?.ballotKind === 'sued-kommunal'
+      ? electionConfig.allowMultipleListVotes
+      : false;
   const {
     state,
     derived,
@@ -59,7 +63,7 @@ function App() {
     isListVoteActive,
     getListAllocation,
     resetBallot,
-  } = useVoteState(electionData, electionConfig?.allowMultipleListVotes);
+  } = useVoteState(electionData, allowMultipleListVotes);
 
   const tour = useGuidedTour();
   const hashLoaded = useRef(false);
@@ -134,7 +138,7 @@ function App() {
         return res.json();
       })
       .then(data => {
-        if (electionConfig.type === 'landtagswahl') {
+        if (electionConfig.ballotKind === 'mmp-2vote') {
           setLandtagswahlData(data);
           setElectionData(null);
         } else {
@@ -256,7 +260,7 @@ function App() {
   }
 
   // Landtagswahl: separate render path
-  if (electionConfig.type === 'landtagswahl') {
+  if (electionConfig.ballotKind === 'mmp-2vote') {
     if (!landtagswahlData) {
       return (
         <div className="min-h-screen flex items-center justify-center">

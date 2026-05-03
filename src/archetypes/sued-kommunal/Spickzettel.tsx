@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import type { ElectionData, VoteState, DerivedVoteState } from '../../types';
 import { getPartyColor } from '../../data/partyColors';
 import { useElection } from '../../elections/ElectionContext';
-import { getQRMatrix } from './ShareDialog';
+import { getQRMatrix } from '../../components/ballot/ShareDialog';
 
 interface PrintSpickzettelProps {
   electionData: ElectionData;
@@ -115,7 +115,8 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
   const { t: te } = useTranslation('election');
   const { t: ti } = useTranslation('info');
   const electionConfig = useElection();
-  const { partyColors, candidateNumbering } = electionConfig;
+  const { partyColors } = electionConfig;
+  const candidateNumbering = electionConfig.ballotKind === 'sued-kommunal' ? electionConfig.candidateNumbering : undefined;
   const electionDate = te('electionDateValue', { defaultValue: ti('electionDateValue') });
   const moreInfoLink = te('moreInfoLink', { defaultValue: ti('moreInfoLink') });
 
