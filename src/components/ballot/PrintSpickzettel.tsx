@@ -98,7 +98,7 @@ function PartyBox({ pg, color }: { pg: PartyPrintData; color: string }) {
             .sort((a, b) => a.position - b.position)
             .map(row => (
               <div key={row.type === 'strike' ? `s${row.position}` : row.position} className="flex items-center gap-1 py-[2px]">
-                <span className={`text-[10px] w-5 text-right tabular-nums shrink-0 ${row.type === 'strike' ? 'text-gray-400' : 'text-gray-600'}`}>
+                <span className={`text-[10px] w-7 text-right tabular-nums shrink-0 ${row.type === 'strike' ? 'text-gray-400' : 'text-gray-600'}`}>
                   {row.position}
                 </span>
                 {row.type === 'strike' ? <StrikeDots /> : <VoteDots stimmen={row.stimmen} />}
@@ -115,7 +115,7 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
   const { t: te } = useTranslation('election');
   const { t: ti } = useTranslation('info');
   const electionConfig = useElection();
-  const { partyColors } = electionConfig;
+  const { partyColors, candidateNumbering } = electionConfig;
   const electionDate = te('electionDateValue', { defaultValue: ti('electionDateValue') });
   const moreInfoLink = te('moreInfoLink', { defaultValue: ti('moreInfoLink') });
 
@@ -129,12 +129,15 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
       const listSel = state.listSelections[party.listNumber];
       const hasListVote = !!listSel?.isSelected;
 
+      const displayPos = (pos: number) =>
+        candidateNumbering === 'list-prefix' ? party.listNumber * 100 + pos : pos;
+
       const struckPositions: number[] = [];
       if (hasListVote && listSel.struckCandidateIds.length > 0) {
         const struckSet = new Set(listSel.struckCandidateIds);
         for (const c of party.candidates) {
           if (struckSet.has(c.id)) {
-            struckPositions.push(c.position);
+            struckPositions.push(displayPos(c.position));
           }
         }
       }
@@ -144,7 +147,7 @@ export function PrintSpickzettel({ electionData, state, derived, shareUrl }: Pri
         const vote = state.candidateVotes[c.id];
         if (vote && vote.stimmen > 0) {
           individualVotes.push({
-            position: c.position,
+            position: displayPos(c.position),
             stimmen: vote.stimmen,
           });
         }

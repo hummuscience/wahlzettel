@@ -11,6 +11,7 @@ export interface ElectionConfig {
   maxPerCandidate: number;       // 3
   allowListVote: boolean;
   allowMultipleListVotes?: boolean; // Bayern: multiple list crosses allowed with strikeouts
+  candidateNumbering?: 'list-prefix'; // Hessen: candidates numbered as listNumber*100+position (e.g. 101, 102...)
 
   // Display
   themeColor: string;            // '#003870' (CSS variable)
