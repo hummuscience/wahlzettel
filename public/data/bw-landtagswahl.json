@@ -4993,113 +4993,131 @@
       ]
     }
   ],
-  "landeslisten": [
+  "listen": [
     {
       "listNumber": 1,
       "shortName": "GRÜNE",
       "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 2,
       "shortName": "CDU",
       "fullName": "Christlich Demokratische Union Deutschlands",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 3,
       "shortName": "SPD",
       "fullName": "Sozialdemokratische Partei Deutschlands",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 4,
       "shortName": "FDP",
       "fullName": "Freie Demokratische Partei",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 5,
       "shortName": "AfD",
       "fullName": "Alternative für Deutschland",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 6,
       "shortName": "Die Linke",
       "fullName": "Die Linke",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 7,
       "shortName": "FREIE WÄHLER",
       "fullName": "FREIE WÄHLER",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 8,
       "shortName": "Die PARTEI",
       "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 9,
       "shortName": "PIRATEN",
       "fullName": "Piratenpartei Deutschland",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 10,
       "shortName": "dieBasis",
       "fullName": "Basisdemokratische Partei Deutschland",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 11,
       "shortName": "ÖDP",
       "fullName": "Ökologisch-Demokratische Partei",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 12,
       "shortName": "Volt",
       "fullName": "Volt Deutschland",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 13,
       "shortName": "Bündnis C",
       "fullName": "Bündnis C – Christen für Deutschland",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 14,
       "shortName": "BÜNDNIS DEUTSCHLAND",
       "fullName": "BÜNDNIS DEUTSCHLAND",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 15,
       "shortName": "WerteUnion",
       "fullName": "WerteUnion",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 16,
       "shortName": "BSW",
       "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 17,
       "shortName": "Die Gerechtigkeitspartei",
       "fullName": "Die Gerechtigkeitspartei",
+      "type": "landesliste",
       "candidates": []
     },
     {
       "listNumber": 18,
       "shortName": "Tierschutzpartei",
       "fullName": "PARTEI MENSCH UMWELT TIERSCHUTZ",
+      "type": "landesliste",
       "candidates": []
     }
   ]

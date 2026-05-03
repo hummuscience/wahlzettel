@@ -22,6 +22,7 @@ import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
 import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
+import type { Mmp2VoteData } from './archetypes/mmp-2vote';
 import i18n, { loadElectionI18n } from './i18n';
 
 function getSlugFromPath(): string | null {
@@ -41,8 +42,7 @@ function getSlugFromPath(): string | null {
 function App() {
   const [electionConfig, setElectionConfig] = useState<ElectionConfig | null>(null);
   const [electionData, setElectionData] = useState<ElectionData | null>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [landtagswahlData, setLandtagswahlData] = useState<any>(null);
+  const [landtagswahlData, setLandtagswahlData] = useState<Mmp2VoteData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [walkthroughOpen, setWalkthroughOpen] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
@@ -273,7 +273,7 @@ function App() {
         <div className="min-h-screen flex flex-col">
           <Header onSwitchBallot={handleSwitchBallot} />
           <main className="flex-1">
-            <LandtagswahlBallot data={landtagswahlData} />
+            <LandtagswahlBallot config={electionConfig} data={landtagswahlData} />
           </main>
           <Footer />
         </div>

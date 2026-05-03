@@ -7,10 +7,7 @@ const initialState: Mmp2VoteState = {
   zweitstimme: null,
 };
 
-/**
- * Reducer for Mmp-2vote state. Wired into Ballot.tsx in Wave 2.2; currently
- * exported but unused — Ballot.tsx still uses local useState until then.
- */
+/** Reducer for Mmp-2vote state, used by Ballot.tsx for both BW Landtag and Berlin Abgh. */
 function reducer(state: Mmp2VoteState, action: Mmp2VoteAction): Mmp2VoteState {
   switch (action.type) {
     case 'SET_WAHLKREIS':
@@ -18,7 +15,9 @@ function reducer(state: Mmp2VoteState, action: Mmp2VoteAction): Mmp2VoteState {
     case 'SET_ERSTSTIMME':
       return { ...state, erststimme: action.candidateId };
     case 'SET_ZWEITSTIMME':
-      return { ...state, zweitstimme: action.listNumber };
+      return { ...state, zweitstimme: { listType: action.listType, listNumber: action.listNumber } };
+    case 'CLEAR_ZWEITSTIMME':
+      return { ...state, zweitstimme: null };
     case 'RESET':
       return initialState;
     case 'LOAD_STATE':
