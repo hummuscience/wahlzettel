@@ -13,13 +13,15 @@ export interface ArchetypeModule {
   Spickzettel?: ComponentType<any>;
 }
 
-/**
- * Registry of ballot-archetype dynamic imports. `Partial<>` until Wave 3 fills
- * in entries for every archetype; subsequent waves tighten this to a full
- * `Record<BallotKind, ...>`.
- */
-export const ARCHETYPES: Partial<Record<BallotKind, () => Promise<ArchetypeModule>>> = {
-  'sued-kommunal': () =>
-    import('./sued-kommunal').then(m => ({ Ballot: m.Ballot, Spickzettel: m.Spickzettel })),
-  'mmp-2vote': () => import('./mmp-2vote').then(m => ({ Ballot: m.Ballot })),
+export const ARCHETYPES: Record<BallotKind, () => Promise<ArchetypeModule>> = {
+  'sued-kommunal':       () => import('./sued-kommunal').then(m => ({ Ballot: m.Ballot, Spickzettel: m.Spickzettel })),
+  'mmp-2vote':           () => import('./mmp-2vote').then(m => ({ Ballot: m.Ballot })),
+  'closed-list':         () => import('./closed-list').then(m => ({ Ballot: m.Ballot })),
+  'ost-kommunal':        () => import('./ost-kommunal').then(m => ({ Ballot: m.Ballot })),
+  'closed-list-direkt':  () => import('./closed-list-direkt').then(m => ({ Ballot: m.Ballot })),
+  'hamburg-2x5':         () => import('./hamburg-2x5').then(m => ({ Ballot: m.Ballot })),
+  'bremen-1x5':          () => import('./bremen-1x5').then(m => ({ Ballot: m.Ballot })),
+  'bayern-landtag':      () => import('./bayern-landtag').then(m => ({ Ballot: m.Ballot })),
+  'single-candidate':    () => import('./single-candidate').then(m => ({ Ballot: m.Ballot })),
+  'referendum':          () => import('./referendum').then(m => ({ Ballot: m.Ballot })),
 };
