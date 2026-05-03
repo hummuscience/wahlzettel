@@ -23,6 +23,8 @@ import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
 import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
 import type { Mmp2VoteData } from './archetypes/mmp-2vote';
+import { Ballot as ClosedListBallot } from './archetypes/closed-list';
+import type { ClosedListData } from './archetypes/closed-list';
 import i18n, { loadElectionI18n } from './i18n';
 
 function getSlugFromPath(): string | null {
@@ -43,6 +45,7 @@ function App() {
   const [electionConfig, setElectionConfig] = useState<ElectionConfig | null>(null);
   const [electionData, setElectionData] = useState<ElectionData | null>(null);
   const [landtagswahlData, setLandtagswahlData] = useState<Mmp2VoteData | null>(null);
+  const [closedListData, setClosedListData] = useState<ClosedListData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [walkthroughOpen, setWalkthroughOpen] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
@@ -129,6 +132,7 @@ function App() {
     if (!electionConfig) {
       setElectionData(null);
       setLandtagswahlData(null);
+      setClosedListData(null);
       return;
     }
     setError(null);
@@ -141,9 +145,15 @@ function App() {
         if (electionConfig.ballotKind === 'mmp-2vote') {
           setLandtagswahlData(data);
           setElectionData(null);
+          setClosedListData(null);
+        } else if (electionConfig.ballotKind === 'closed-list') {
+          setClosedListData(data);
+          setElectionData(null);
+          setLandtagswahlData(null);
         } else {
           setElectionData(data);
           setLandtagswahlData(null);
+          setClosedListData(null);
         }
       })
       .catch(err => setError(err.message));
@@ -201,6 +211,7 @@ function App() {
     resetBallot();
     setElectionData(null);
     setLandtagswahlData(null);
+    setClosedListData(null);
     setElectionConfig(null);
     history.pushState(null, '', '/');
     document.title = 'Wahlzettel – Kommunalwahl üben';
@@ -225,6 +236,7 @@ function App() {
         resetBallot();
         setElectionData(null);
         setLandtagswahlData(null);
+        setClosedListData(null);
         setElectionConfig(null);
       } else {
         const entry = getElectionBySlug(slug);
@@ -274,6 +286,28 @@ function App() {
           <Header onSwitchBallot={handleSwitchBallot} />
           <main className="flex-1">
             <LandtagswahlBallot config={electionConfig} data={landtagswahlData} />
+          </main>
+          <Footer />
+        </div>
+      </ElectionProvider>
+    );
+  }
+
+  // Closed-list (BVV-style): separate render path
+  if (electionConfig.ballotKind === 'closed-list') {
+    if (!closedListData) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <p className="text-gray-500">Lade Kandidatendaten...</p>
+        </div>
+      );
+    }
+    return (
+      <ElectionProvider config={electionConfig}>
+        <div className="min-h-screen flex flex-col">
+          <Header onSwitchBallot={handleSwitchBallot} />
+          <main className="flex-1">
+            <ClosedListBallot config={electionConfig} data={closedListData} />
           </main>
           <Footer />
         </div>
