@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import type { ComponentType } from 'react';
 import type { ElectionData } from './types';
+import type { ResultsData } from './types/results';
 import type { ElectionType } from './utils/shareState';
 import type { ElectionConfig } from './elections/types';
 import { ARCHETYPES } from './archetypes';
@@ -46,6 +47,7 @@ function getSlugFromPath(): string | null {
 function App() {
   const [electionConfig, setElectionConfig] = useState<ElectionConfig | null>(null);
   const [electionData, setElectionData] = useState<ElectionData | null>(null);
+  const [electionResults, setElectionResults] = useState<ResultsData | null>(null);
   const [landtagswahlData, setLandtagswahlData] = useState<Mmp2VoteData | null>(null);
   const [closedListData, setClosedListData] = useState<ClosedListData | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -135,9 +137,11 @@ function App() {
       setElectionData(null);
       setLandtagswahlData(null);
       setClosedListData(null);
+      setElectionResults(null);
       return;
     }
     setError(null);
+    setElectionResults(null);
     fetch(import.meta.env.BASE_URL + `data/${electionConfig.dataFile}`)
       .then(res => {
         if (!res.ok) throw new Error('Failed to load candidate data');
@@ -159,6 +163,15 @@ function App() {
         }
       })
       .catch(err => setError(err.message));
+
+    // Load official results in parallel when the config opts in. Failures here
+    // are non-fatal: the ballot still works, just without result annotations.
+    if (electionConfig.resultsFile) {
+      fetch(import.meta.env.BASE_URL + `data/${electionConfig.resultsFile}`)
+        .then(res => (res.ok ? res.json() : null))
+        .then(data => setElectionResults(data))
+        .catch(() => setElectionResults(null));
+    }
   }, [electionConfig]);
 
   // Apply pending shared state once election data arrives
@@ -377,6 +390,7 @@ function App() {
             <div className="flex-1 min-w-0">
               <BallotView
                 electionData={electionData}
+                electionResults={electionResults}
                 candidateVotes={state.candidateVotes}
                 listSelections={state.listSelections}
                 derived={derived}
