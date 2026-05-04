@@ -1,15 +1,21 @@
-import type { ElectionConfig } from '../types';
+import type { SuedKommunalConfig } from '../types';
 import { PARTY_COLORS } from './parties';
 
-const config: ElectionConfig = {
+const config: SuedKommunalConfig = {
   id: 'straubing-stadtrat',
   slug: 'straubing-stadtrat',
   shareTypeCode: 39,
+  ballotKind: 'sued-kommunal',
+
+  level: 'kommunal',
+  date: '2026-03-08',
+  region: { land: 'BY', gemeinde: 'Straubing' },
 
   totalStimmen: 40,
   maxPerCandidate: 3,
   allowListVote: true,
   allowMultipleListVotes: true,
+  listenkreuzMode: 'perCandidateOnce',
 
   themeColor: '#004e8a',
   themeColorLight: '#e6f0f8',
@@ -17,7 +23,6 @@ const config: ElectionConfig = {
 
   dataFile: 'straubing-stadtrat.json',
   partyColors: PARTY_COLORS,
-
   infoUrl: 'https://www.straubing.de/rathaus-verwaltung/politik/kommunalwahl-2026/',
 };
 

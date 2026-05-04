@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import type { Party, VoteAction, CandidateVote } from '../../types';
 import { CandidateRow } from './CandidateRow';
 import { KopfleisteCheckbox } from './KopfleisteCheckbox';
+import { useElection } from '../../elections/ElectionContext';
 
 interface PartyPageProps {
   party: Party;
@@ -36,6 +37,8 @@ export function PartyPage({
   nextName,
 }: PartyPageProps) {
   const { t } = useTranslation('ballot');
+  const electionConfig = useElection();
+  const candidateNumbering = electionConfig.ballotKind === 'sued-kommunal' ? electionConfig.candidateNumbering : undefined;
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -110,11 +113,15 @@ export function PartyPage({
               ? individualVote.stimmen
               : listVotes;
 
+          const displayPosition = candidateNumbering === 'list-prefix'
+            ? party.listNumber * 100 + candidate.position
+            : candidate.position;
+
           return (
             <CandidateRow
               key={candidate.id}
               candidateId={candidate.id}
-              position={candidate.position}
+              position={displayPosition}
               lastName={candidate.lastName}
               firstName={candidate.firstName}
               profession={candidate.profession}

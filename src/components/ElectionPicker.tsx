@@ -49,6 +49,12 @@ const STATEWIDE_ELECTIONS: StatewideElection[] = [
     label: 'Landtagswahl 2026',
     themeColor: '#d4a017',
   },
+  {
+    stateId: 'be',
+    slug: 'berlin-abgh',
+    label: 'Abgeordnetenhaus 2026',
+    themeColor: '#e30613',
+  },
 ];
 
 const CITIES: CityEntry[] = [
@@ -321,6 +327,90 @@ const CITIES: CityEntry[] = [
       { slug: 'wiesbaden-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 31, themeColor: '#00594f' },
     ],
   },
+  {
+    name: 'Charlottenburg-Wilmersdorf',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-charlottenburg-wilmersdorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Friedrichshain-Kreuzberg',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-friedrichshain-kreuzberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Lichtenberg',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-lichtenberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Marzahn-Hellersdorf',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-marzahn-hellersdorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Mitte',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-mitte', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Neukölln',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-neukoelln', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Pankow',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-pankow', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Reinickendorf',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-reinickendorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Spandau',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-spandau', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Steglitz-Zehlendorf',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-steglitz-zehlendorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Tempelhof-Schöneberg',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-tempelhof-schoeneberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
+  {
+    name: 'Treptow-Köpenick',
+    stateId: 'be',
+    elections: [
+      { slug: 'berlin-bvv-treptow-koepenick', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+    ],
+  },
 ];
 
 // Group cities by state for quick lookup
@@ -351,6 +441,7 @@ const STATE_LABEL_POS: Record<string, { x: number; y: number }> = {
   bw: { x: 180, y: 650 },
   he: { x: 200, y: 476 },
   by: { x: 370, y: 620 },
+  be: { x: 410, y: 280 },
 };
 
 function buildCityRequestUrl(stateId?: string): string {

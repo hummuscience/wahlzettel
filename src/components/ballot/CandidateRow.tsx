@@ -52,7 +52,7 @@ export const CandidateRow = memo(function CandidateRow({
         ${isStruck ? 'bg-gray-50' : ''}
       `}
     >
-      <span className="w-7 text-right text-xs text-gray-400 font-ballot shrink-0">
+      <span className="w-9 text-right text-xs text-gray-400 font-ballot shrink-0 tabular-nums">
         {position}
       </span>
 

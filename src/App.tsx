@@ -1,19 +1,21 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import type { ComponentType } from 'react';
 import type { ElectionData } from './types';
 import type { ElectionType } from './utils/shareState';
 import type { ElectionConfig } from './elections/types';
+import { ARCHETYPES } from './archetypes';
 import { getElectionBySlug } from './elections/registry';
 import { ElectionProvider } from './elections/ElectionContext';
-import { useVoteState } from './hooks/useVoteState';
+import { useSuedKommunalState as useVoteState } from './archetypes/sued-kommunal';
 import { decodeVoteState, encodeVoteState } from './utils/shareState';
 import { ShareDialog, buildPartySegments } from './components/ballot/ShareDialog';
 import type { PartySegment } from './components/ballot/ShareDialog';
-import { PrintSpickzettel } from './components/ballot/PrintSpickzettel';
+import { Spickzettel as PrintSpickzettel } from './archetypes/sued-kommunal';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { MobileDrawer } from './components/layout/MobileDrawer';
 import { VoteStatusBar } from './components/ballot/VoteStatusBar';
-import { BallotView } from './components/ballot/BallotView';
+import { Ballot as BallotView } from './archetypes/sued-kommunal';
 import { WalkthroughSection } from './components/walkthrough/WalkthroughSection';
 import { WalkthroughDrawerContent } from './components/walkthrough/WalkthroughDrawerContent';
 import { PracticalInfo } from './components/info/PracticalInfo';
@@ -21,7 +23,10 @@ import { PracticalInfoDrawerContent } from './components/info/PracticalInfoDrawe
 import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
-import { LandtagswahlBallot } from './components/ballot/LandtagswahlBallot';
+import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
+import type { Mmp2VoteData } from './archetypes/mmp-2vote';
+import { Ballot as ClosedListBallot } from './archetypes/closed-list';
+import type { ClosedListData } from './archetypes/closed-list';
 import i18n, { loadElectionI18n } from './i18n';
 
 function getSlugFromPath(): string | null {
@@ -41,8 +46,8 @@ function getSlugFromPath(): string | null {
 function App() {
   const [electionConfig, setElectionConfig] = useState<ElectionConfig | null>(null);
   const [electionData, setElectionData] = useState<ElectionData | null>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const [landtagswahlData, setLandtagswahlData] = useState<any>(null);
+  const [landtagswahlData, setLandtagswahlData] = useState<Mmp2VoteData | null>(null);
+  const [closedListData, setClosedListData] = useState<ClosedListData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [walkthroughOpen, setWalkthroughOpen] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
@@ -52,6 +57,10 @@ function App() {
   } | null>(null);
   const [printUrl, setPrintUrl] = useState<string | null>(null);
 
+  const allowMultipleListVotes =
+    electionConfig?.ballotKind === 'sued-kommunal'
+      ? electionConfig.allowMultipleListVotes
+      : false;
   const {
     state,
     derived,
@@ -59,7 +68,7 @@ function App() {
     isListVoteActive,
     getListAllocation,
     resetBallot,
-  } = useVoteState(electionData, electionConfig?.allowMultipleListVotes);
+  } = useVoteState(electionData, allowMultipleListVotes);
 
   const tour = useGuidedTour();
   const hashLoaded = useRef(false);
@@ -125,6 +134,7 @@ function App() {
     if (!electionConfig) {
       setElectionData(null);
       setLandtagswahlData(null);
+      setClosedListData(null);
       return;
     }
     setError(null);
@@ -134,12 +144,18 @@ function App() {
         return res.json();
       })
       .then(data => {
-        if (electionConfig.type === 'landtagswahl') {
+        if (electionConfig.ballotKind === 'mmp-2vote') {
           setLandtagswahlData(data);
           setElectionData(null);
+          setClosedListData(null);
+        } else if (electionConfig.ballotKind === 'closed-list') {
+          setClosedListData(data);
+          setElectionData(null);
+          setLandtagswahlData(null);
         } else {
           setElectionData(data);
           setLandtagswahlData(null);
+          setClosedListData(null);
         }
       })
       .catch(err => setError(err.message));
@@ -197,6 +213,7 @@ function App() {
     resetBallot();
     setElectionData(null);
     setLandtagswahlData(null);
+    setClosedListData(null);
     setElectionConfig(null);
     history.pushState(null, '', '/');
     document.title = 'Wahlzettel – Kommunalwahl üben';
@@ -221,6 +238,7 @@ function App() {
         resetBallot();
         setElectionData(null);
         setLandtagswahlData(null);
+        setClosedListData(null);
         setElectionConfig(null);
       } else {
         const entry = getElectionBySlug(slug);
@@ -256,7 +274,7 @@ function App() {
   }
 
   // Landtagswahl: separate render path
-  if (electionConfig.type === 'landtagswahl') {
+  if (electionConfig.ballotKind === 'mmp-2vote') {
     if (!landtagswahlData) {
       return (
         <div className="min-h-screen flex items-center justify-center">
@@ -269,7 +287,45 @@ function App() {
         <div className="min-h-screen flex flex-col">
           <Header onSwitchBallot={handleSwitchBallot} />
           <main className="flex-1">
-            <LandtagswahlBallot data={landtagswahlData} />
+            <LandtagswahlBallot config={electionConfig} data={landtagswahlData} />
+          </main>
+          <Footer />
+        </div>
+      </ElectionProvider>
+    );
+  }
+
+  // Closed-list (BVV-style): separate render path
+  if (electionConfig.ballotKind === 'closed-list') {
+    if (!closedListData) {
+      return (
+        <div className="min-h-screen flex items-center justify-center">
+          <p className="text-gray-500">Lade Kandidatendaten...</p>
+        </div>
+      );
+    }
+    return (
+      <ElectionProvider config={electionConfig}>
+        <div className="min-h-screen flex flex-col">
+          <Header onSwitchBallot={handleSwitchBallot} />
+          <main className="flex-1">
+            <ClosedListBallot config={electionConfig} data={closedListData} />
+          </main>
+          <Footer />
+        </div>
+      </ElectionProvider>
+    );
+  }
+
+  // Stub archetypes: lazy-load via ARCHETYPES registry
+  // (mmp-2vote and closed-list already returned above)
+  if (electionConfig.ballotKind !== 'sued-kommunal') {
+    return (
+      <ElectionProvider config={electionConfig}>
+        <div className="min-h-screen flex flex-col">
+          <Header onSwitchBallot={handleSwitchBallot} />
+          <main className="flex-1">
+            <LazyArchetypeMount config={electionConfig} />
           </main>
           <Footer />
         </div>
@@ -371,6 +427,19 @@ function App() {
       </div>
     </ElectionProvider>
   );
+}
+
+function LazyArchetypeMount({ config }: { config: ElectionConfig }) {
+  const [Comp, setComp] = useState<ComponentType<{ config: ElectionConfig }> | null>(null);
+  useEffect(() => {
+    let live = true;
+    ARCHETYPES[config.ballotKind]().then(m => {
+      if (live) setComp(() => m.Ballot as ComponentType<{ config: ElectionConfig }>);
+    });
+    return () => { live = false; };
+  }, [config.ballotKind]);
+  if (!Comp) return <div className="p-12 text-center text-gray-500">Lade…</div>;
+  return <Comp config={config} />;
 }
 
 export default App;

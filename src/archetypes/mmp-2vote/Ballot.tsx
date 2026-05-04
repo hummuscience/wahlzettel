@@ -1,50 +1,22 @@
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useElection } from '../../elections/ElectionContext';
+import { useMmp2VoteState } from './voteReducer';
+import type { Mmp2VoteConfig } from './types';
+import type { Mmp2VoteData, Mmp2VoteListe } from './dataSchema';
 
-interface WahlkreisCandidate {
-  id: string;
-  party: string;
-  lastName: string;
-  firstName: string;
-  profession: string;
-  birthYear: number;
+interface BallotProps {
+  config: Mmp2VoteConfig;
+  data: Mmp2VoteData;
 }
 
-interface Wahlkreis {
-  number: number;
-  name: string;
-  candidates: WahlkreisCandidate[];
-}
-
-interface Landesliste {
-  listNumber: number;
-  shortName: string;
-  fullName: string;
-  candidates: { position: number; lastName: string; firstName: string; profession: string }[];
-}
-
-interface LandtagswahlData {
-  election: string;
-  type: string;
-  name: string;
-  date: string;
-  wahlkreise: Wahlkreis[];
-  landeslisten: Landesliste[];
-}
-
-interface LandtagswahlBallotProps {
-  data: LandtagswahlData;
-}
-
-export function LandtagswahlBallot({ data }: LandtagswahlBallotProps) {
+export function Ballot({ config, data }: BallotProps) {
   const { t } = useTranslation('election');
-  const config = useElection();
-
-  const [selectedWahlkreis, setSelectedWahlkreis] = useState<number | null>(null);
+  const { state, dispatch } = useMmp2VoteState();
+  const { selectedWahlkreis, erststimme, zweitstimme } = state;
   const [wahlkreisSearch, setWahlkreisSearch] = useState('');
-  const [erststimme, setErststimme] = useState<string | null>(null);
-  const [zweitstimme, setZweitstimme] = useState<number | null>(null);
+  const [zweitstimmeTab, setZweitstimmeTab] = useState<'bezirksliste' | 'landesliste'>(
+    config.hasBezirkslisten ? 'bezirksliste' : 'landesliste',
+  );
 
   const wahlkreis = useMemo(
     () => data.wahlkreise.find(wk => wk.number === selectedWahlkreis) ?? null,
@@ -59,11 +31,27 @@ export function LandtagswahlBallot({ data }: LandtagswahlBallotProps) {
     );
   }, [data.wahlkreise, wahlkreisSearch]);
 
+  const visibleListen: Mmp2VoteListe[] = useMemo(() => {
+    if (!config.hasBezirkslisten) {
+      return data.listen.filter(l => l.type === 'landesliste');
+    }
+    if (zweitstimmeTab === 'landesliste') {
+      return data.listen.filter(l => l.type === 'landesliste');
+    }
+    // Bezirksliste tab: show only those for the Wahlkreis's Bezirk
+    if (!wahlkreis?.bezirk) return [];
+    return data.listen.filter(l => l.type === 'bezirksliste' && l.bezirk === wahlkreis.bezirk);
+  }, [config.hasBezirkslisten, data.listen, zweitstimmeTab, wahlkreis]);
+
   const voteSummary = useMemo(() => {
     const erstCandidate = wahlkreis?.candidates.find(c => c.id === erststimme) ?? null;
-    const zweitPartei = data.landeslisten.find(ll => ll.listNumber === zweitstimme) ?? null;
-    return { erstCandidate, zweitPartei };
-  }, [erststimme, zweitstimme, wahlkreis, data.landeslisten]);
+    const zweitListe = zweitstimme
+      ? data.listen.find(
+          l => l.listNumber === zweitstimme.listNumber && l.type === zweitstimme.listType,
+        ) ?? null
+      : null;
+    return { wahlkreis, erstCandidate, zweitListe };
+  }, [data.listen, wahlkreis, erststimme, zweitstimme]);
 
   const bothVotesUsed = erststimme !== null && zweitstimme !== null;
 
@@ -99,8 +87,8 @@ export function LandtagswahlBallot({ data }: LandtagswahlBallotProps) {
           </div>
           <div className="flex-1">
             <span className="font-semibold text-gray-700">{t('zweitstimme', { defaultValue: 'Zweitstimme' })}:</span>{' '}
-            {voteSummary.zweitPartei ? (
-              <span className="text-gray-900">{voteSummary.zweitPartei.shortName}</span>
+            {voteSummary.zweitListe ? (
+              <span className="text-gray-900">{voteSummary.zweitListe.shortName}</span>
             ) : (
               <span className="text-gray-400">{t('noZweitstimme', { defaultValue: '—' })}</span>
             )}
@@ -134,8 +122,7 @@ export function LandtagswahlBallot({ data }: LandtagswahlBallotProps) {
                 <button
                   key={wk.number}
                   onClick={() => {
-                    setSelectedWahlkreis(wk.number);
-                    setErststimme(null);
+                    dispatch({ type: 'SET_WAHLKREIS', wahlkreis: wk.number });
                     setWahlkreisSearch('');
                   }}
                   className="w-full text-start px-4 py-2.5 hover:bg-gray-50 transition-colors text-sm border-b border-gray-50 last:border-b-0"
@@ -154,8 +141,7 @@ export function LandtagswahlBallot({ data }: LandtagswahlBallotProps) {
             </span>
             <button
               onClick={() => {
-                setSelectedWahlkreis(null);
-                setErststimme(null);
+                dispatch({ type: 'CLEAR_WAHLKREIS' });
               }}
               className="text-xs px-2 py-1 rounded-md border border-gray-200 text-gray-500 hover:text-gray-700 hover:border-gray-400 transition-colors"
             >
@@ -196,8 +182,8 @@ export function LandtagswahlBallot({ data }: LandtagswahlBallotProps) {
                       type="radio"
                       name="erststimme"
                       checked={isSelected}
-                      onChange={() => setErststimme(isSelected ? null : candidate.id)}
-                      onClick={() => isSelected && setErststimme(null)}
+                      onChange={() => dispatch({ type: 'SET_ERSTSTIMME', candidateId: isSelected ? null : candidate.id })}
+                      onClick={() => isSelected && dispatch({ type: 'SET_ERSTSTIMME', candidateId: null })}
                       className="mt-1 shrink-0 accent-gray-900"
                     />
                     <div className="min-w-0 flex-1">
@@ -228,17 +214,62 @@ export function LandtagswahlBallot({ data }: LandtagswahlBallotProps) {
           <div className="px-4 py-3" style={{ backgroundColor: config.themeColor }}>
             <h2 className="font-bold text-lg text-white">{t('zweitstimme', { defaultValue: 'Zweitstimme' })}</h2>
             <p className="text-white/70 text-xs mt-0.5">
-              {t('zweitstimmeDesc', { defaultValue: 'Wählen Sie eine Landesliste' })}
+              {t(
+                zweitstimmeTab === 'bezirksliste' ? 'zweitstimmeDescBezirk' : 'zweitstimmeDescLand',
+                {
+                  defaultValue: zweitstimmeTab === 'bezirksliste'
+                    ? 'Wählen Sie eine Bezirksliste'
+                    : 'Wählen Sie eine Landesliste',
+                },
+              )}
             </p>
           </div>
 
+          {config.hasBezirkslisten && (
+            <div className="flex border-b mb-2">
+              <button
+                type="button"
+                className={`flex-1 py-2 ${zweitstimmeTab === 'bezirksliste' ? 'border-b-2 border-current font-medium' : 'text-gray-500'}`}
+                onClick={() => {
+                  if (zweitstimme && zweitstimme.listType !== 'bezirksliste') {
+                    dispatch({ type: 'CLEAR_ZWEITSTIMME' });
+                  }
+                  setZweitstimmeTab('bezirksliste');
+                }}
+              >
+                {t('bezirkslisteTab', { defaultValue: 'Bezirksliste' })}
+              </button>
+              <button
+                type="button"
+                className={`flex-1 py-2 ${zweitstimmeTab === 'landesliste' ? 'border-b-2 border-current font-medium' : 'text-gray-500'}`}
+                onClick={() => {
+                  if (zweitstimme && zweitstimme.listType !== 'landesliste') {
+                    dispatch({ type: 'CLEAR_ZWEITSTIMME' });
+                  }
+                  setZweitstimmeTab('landesliste');
+                }}
+              >
+                {t('landeslisteTab', { defaultValue: 'Landesliste' })}
+              </button>
+            </div>
+          )}
+
           <div className="divide-y divide-gray-100">
-            {data.landeslisten.map(liste => {
-              const isSelected = zweitstimme === liste.listNumber;
+            {config.hasBezirkslisten && zweitstimmeTab === 'bezirksliste' && selectedWahlkreis === null ? (
+              <p className="text-center text-gray-500 text-sm py-8">
+                {t('bezirkslisteNeedWahlkreis', {
+                  defaultValue: 'Bitte zuerst einen Wahlkreis auswählen, um die Bezirksliste zu sehen.',
+                })}
+              </p>
+            ) : visibleListen.map(liste => {
+              const isSelected =
+                zweitstimme !== null &&
+                zweitstimme.listNumber === liste.listNumber &&
+                zweitstimme.listType === liste.type;
               const partyColor = config.partyColors[liste.shortName] ?? '#888';
               return (
                 <label
-                  key={liste.listNumber}
+                  key={`${liste.type}-${liste.listNumber}`}
                   className={`flex items-start gap-3 px-4 py-3 cursor-pointer transition-colors ${
                     isSelected ? 'bg-gray-50' : 'hover:bg-gray-50/50'
                   }`}
@@ -247,8 +278,14 @@ export function LandtagswahlBallot({ data }: LandtagswahlBallotProps) {
                     type="radio"
                     name="zweitstimme"
                     checked={isSelected}
-                    onChange={() => setZweitstimme(isSelected ? null : liste.listNumber)}
-                    onClick={() => isSelected && setZweitstimme(null)}
+                    onChange={() => {
+                      if (isSelected) {
+                        dispatch({ type: 'CLEAR_ZWEITSTIMME' });
+                      } else {
+                        dispatch({ type: 'SET_ZWEITSTIMME', listType: liste.type, listNumber: liste.listNumber });
+                      }
+                    }}
+                    onClick={() => isSelected && dispatch({ type: 'CLEAR_ZWEITSTIMME' })}
                     className="mt-1 shrink-0"
                     style={{ accentColor: config.themeColor }}
                   />

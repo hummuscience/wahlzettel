@@ -2,8 +2,8 @@ import { useState, useCallback, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { ElectionData, VoteAction, CandidateVote, ListSelection } from '../../types';
 import type { DerivedVoteState } from '../../types';
-import { PartyBookmarks } from './PartyBookmarks';
-import { PartyPage } from './PartyPage';
+import { PartyBookmarks } from '../../components/ballot/PartyBookmarks';
+import { PartyPage } from '../../components/ballot/PartyPage';
 
 interface BallotViewProps {
   electionData: ElectionData;

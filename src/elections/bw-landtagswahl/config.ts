@@ -1,25 +1,29 @@
-import type { ElectionConfig } from '../types';
+import type { Mmp2VoteConfig } from '../types';
 import { PARTY_COLORS } from './parties';
 
-const config: ElectionConfig = {
+const config: Mmp2VoteConfig = {
   id: 'bw-landtagswahl',
   slug: 'bw-landtagswahl',
   shareTypeCode: 22,
+  ballotKind: 'mmp-2vote',
 
-  type: 'landtagswahl',
+  level: 'land',
+  date: '2026-03-08',
+  region: { land: 'BW' },
 
-  // Landtagswahl: 1 Erststimme + 1 Zweitstimme = 2
-  totalStimmen: 2,
-  maxPerCandidate: 1,
-  allowListVote: false,
+  threshold: 5,
+  grundmandatsklausel: null,
+  seatMethod: 'sainteLague',
+  hasOverhang: true,
+  combinedBallot: true,
+  hasBezirkslisten: false,
 
-  themeColor: '#d4a017',       // BW gold
+  themeColor: '#d4a017',
   themeColorLight: '#fdf6e3',
   themeColorDark: '#8b6914',
 
   dataFile: 'bw-landtagswahl.json',
   partyColors: PARTY_COLORS,
-
   infoUrl: 'https://www.landtagswahl-bw.de',
 };
 

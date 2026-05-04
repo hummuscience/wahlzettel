@@ -187,7 +187,7 @@ def parse_kreiswahlvorschlaege():
     return wahlkreise
 
 
-def build_landeslisten(wahlkreise):
+def build_listen(wahlkreise):
     """
     Build Landeslisten from known party data.
     Since the actual Landeslisten are in Datawrapper embeds and not scrapable,
@@ -263,12 +263,13 @@ def main():
     # Only parties with a Landesliste (not Einzelbewerber)
     parties_seen = collect_parties_from_wahlkreise(wahlkreise)
     print(f"\nParties with Landeslisten:")
-    landeslisten = []
+    listen = []
     for party, nr in sorted(OFFICIAL_LIST_NUMBERS.items(), key=lambda x: x[1]):
         if party not in parties_seen:
             continue
         print(f"  {nr:2d} {party}")
-        landeslisten.append({
+        listen.append({
+            "type": "landesliste",
             "listNumber": nr,
             "shortName": party,
             "fullName": PARTY_FULL_NAMES.get(party, party),
@@ -281,7 +282,7 @@ def main():
         "name": "Landtagswahl Baden-Württemberg 2026",
         "date": "2026-03-08",
         "wahlkreise": wahlkreise,
-        "landeslisten": landeslisten,
+        "listen": listen,
     }
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
@@ -290,7 +291,7 @@ def main():
 
     print(f"\nOutput written to {OUTPUT}")
     print(f"  {len(wahlkreise)} Wahlkreise, {total_candidates} candidates")
-    print(f"  {len(landeslisten)} Landeslisten")
+    print(f"  {len(listen)} Landeslisten")
 
 
 if __name__ == "__main__":

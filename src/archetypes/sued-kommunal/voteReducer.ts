@@ -1,6 +1,6 @@
 import { useReducer, useMemo, useCallback } from 'react';
-import type { ElectionData, VoteState, VoteAction, DerivedVoteState } from '../types';
-import { calculateDerivedState, calculateListVoteDistribution, calculateBayernListDistribution, getEffectiveStimmen } from '../utils/voteCalculator';
+import type { ElectionData, VoteState, VoteAction, DerivedVoteState } from '../../types';
+import { calculateDerivedState, calculateListVoteDistribution, calculateBayernListDistribution, getEffectiveStimmen } from '../../utils/voteCalculator';
 
 const initialState: VoteState = {
   candidateVotes: {},

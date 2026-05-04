@@ -1,15 +1,21 @@
-import type { ElectionConfig } from '../types';
+import type { SuedKommunalConfig } from '../types';
 import { PARTY_COLORS } from './parties';
 
-const config: ElectionConfig = {
+const config: SuedKommunalConfig = {
   id: 'bamberg-stadtrat',
   slug: 'bamberg-stadtrat',
   shareTypeCode: 20,
+  ballotKind: 'sued-kommunal',
+
+  level: 'kommunal',
+  date: '2026-03-08',
+  region: { land: 'BY', gemeinde: 'Bamberg' },
 
   totalStimmen: 44,
   maxPerCandidate: 3,
   allowListVote: true,
   allowMultipleListVotes: true,
+  listenkreuzMode: 'perCandidateOnce',
 
   themeColor: '#8B4513',
   themeColorLight: '#faf0e6',
@@ -17,7 +23,6 @@ const config: ElectionConfig = {
 
   dataFile: 'bamberg-stadtrat.json',
   partyColors: PARTY_COLORS,
-
   infoUrl: 'https://www.stadt.bamberg.de/wahlen',
 };
 

@@ -1,15 +1,21 @@
-import type { ElectionConfig } from '../types';
+import type { SuedKommunalConfig } from '../types';
 import { PARTY_COLORS } from './parties';
 
-const config: ElectionConfig = {
+const config: SuedKommunalConfig = {
   id: 'amberg-stadtrat',
   slug: 'amberg-stadtrat',
   shareTypeCode: 34,
+  ballotKind: 'sued-kommunal',
+
+  level: 'kommunal',
+  date: '2026-03-08',
+  region: { land: 'BY', gemeinde: 'Amberg' },
 
   totalStimmen: 40,
   maxPerCandidate: 3,
   allowListVote: true,
   allowMultipleListVotes: true,
+  listenkreuzMode: 'perCandidateOnce',
 
   themeColor: '#4a6741',
   themeColorLight: '#e8efe6',
@@ -17,7 +23,6 @@ const config: ElectionConfig = {
 
   dataFile: 'amberg-stadtrat.json',
   partyColors: PARTY_COLORS,
-
   infoUrl: 'https://amberg.de/kommunalwahl',
 };
 
