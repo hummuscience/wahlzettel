@@ -1,9 +1,12 @@
 import { useCallback, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { Party, VoteAction, CandidateVote } from '../../types';
+import type { ResultsCandidate } from '../../types/results';
 import { CandidateRow } from './CandidateRow';
 import { KopfleisteCheckbox } from './KopfleisteCheckbox';
 import { useElection } from '../../elections/ElectionContext';
+import { lookupCandidate } from '../../utils/candidateMatch';
+import { getPartyColor } from '../../data/partyColors';
 
 interface PartyPageProps {
   party: Party;
@@ -19,6 +22,10 @@ interface PartyPageProps {
   hasNext: boolean;
   prevName?: string;
   nextName?: string;
+  /** Index of {"Lastname, Firstname" → ResultsCandidate} for THIS party. Null when no results available. */
+  resultsIndex?: Map<string, ResultsCandidate> | null;
+  /** Highest Stimmen any elected candidate of THIS party received — denominator for the shade bar. */
+  partyMaxStimmen?: number | null;
 }
 
 export function PartyPage({
@@ -35,10 +42,13 @@ export function PartyPage({
   hasNext,
   prevName,
   nextName,
+  resultsIndex,
+  partyMaxStimmen,
 }: PartyPageProps) {
   const { t } = useTranslation('ballot');
   const electionConfig = useElection();
   const candidateNumbering = electionConfig.ballotKind === 'sued-kommunal' ? electionConfig.candidateNumbering : undefined;
+  const partyColor = getPartyColor(party.shortName, electionConfig.partyColors);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -117,6 +127,10 @@ export function PartyPage({
             ? party.listNumber * 100 + candidate.position
             : candidate.position;
 
+          const resultMatch = resultsIndex
+            ? lookupCandidate(resultsIndex, candidate.lastName, candidate.firstName)
+            : null;
+
           return (
             <CandidateRow
               key={candidate.id}
@@ -132,6 +146,9 @@ export function PartyPage({
               hasIndividualVotes={hasIndividualVotes}
               onVoteChange={handleVoteChange}
               onStrike={handleStrike}
+              actualStimmen={resultMatch?.stimmen ?? null}
+              partyMaxStimmen={partyMaxStimmen ?? null}
+              partyColor={partyColor}
             />
           );
         })}

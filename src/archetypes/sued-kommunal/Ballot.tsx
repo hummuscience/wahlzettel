@@ -1,12 +1,15 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { ElectionData, VoteAction, CandidateVote, ListSelection } from '../../types';
 import type { DerivedVoteState } from '../../types';
+import type { ResultsData, ResultsParty } from '../../types/results';
 import { PartyBookmarks } from '../../components/ballot/PartyBookmarks';
 import { PartyPage } from '../../components/ballot/PartyPage';
+import { indexResultsParty } from '../../utils/candidateMatch';
 
 interface BallotViewProps {
   electionData: ElectionData;
+  electionResults?: ResultsData | null;
   candidateVotes: Record<string, CandidateVote>;
   listSelections: Record<number, ListSelection>;
   derived: DerivedVoteState;
@@ -17,6 +20,7 @@ interface BallotViewProps {
 
 export function BallotView({
   electionData,
+  electionResults,
   candidateVotes,
   listSelections,
   derived,
@@ -51,6 +55,27 @@ export function BallotView({
   const listActive = isListVoteActive(activeParty.listNumber);
   const listAlloc = getListAllocation(activeParty.listNumber);
   const struckIds = listSelections[activeParty.listNumber]?.struckCandidateIds || [];
+
+  // Look up the results for the active party (may be missing if party didn't
+  // win seats, or absent entirely if no results are configured for this election).
+  const activePartyResults = useMemo<ResultsParty | null>(() => {
+    if (!electionResults) return null;
+    return (
+      electionResults.parties.find(p => p.shortName === activeParty.shortName) ?? null
+    );
+  }, [electionResults, activeParty.shortName]);
+
+  const resultsIndex = useMemo(() => {
+    if (!activePartyResults) return null;
+    return indexResultsParty(activePartyResults);
+  }, [activePartyResults]);
+
+  // Per-party shade-bar denominator: the highest Stimmen any elected member of
+  // this party received. Falls back to null when this party didn't elect anyone.
+  const partyMaxStimmen = useMemo(() => {
+    if (!activePartyResults || activePartyResults.elected.length === 0) return null;
+    return Math.max(...activePartyResults.elected.map(c => c.stimmen));
+  }, [activePartyResults]);
 
   // When a list vote is active, individual votes reduce the list allocation,
   // so we only block when individual votes alone reach totalStimmen.
@@ -100,6 +125,8 @@ export function BallotView({
             hasNext={activeIndex < parties.length - 1}
             prevName={activeIndex > 0 ? parties[activeIndex - 1].shortName : undefined}
             nextName={activeIndex < parties.length - 1 ? parties[activeIndex + 1].shortName : undefined}
+            resultsIndex={resultsIndex}
+            partyMaxStimmen={partyMaxStimmen}
           />
         </div>
       </div>

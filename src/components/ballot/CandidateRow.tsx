@@ -14,6 +14,17 @@ interface CandidateRowProps {
   hasIndividualVotes: boolean;
   onVoteChange: (candidateId: string, stimmen: number) => void;
   onStrike: (candidateId: string) => void;
+  /** Citywide Stimmen this candidate received in the actual election. Null if not elected or no results data. */
+  actualStimmen?: number | null;
+  /** Highest Stimmen any elected candidate of this party got — denominator for the shade-bar. */
+  partyMaxStimmen?: number | null;
+  /** Resolved party color hex for tinting the shade-bar background. */
+  partyColor?: string | null;
+}
+
+/** Format an integer with German thousands separators: 75628 → "75.628". */
+function formatStimmen(n: number): string {
+  return n.toLocaleString('de-DE');
 }
 
 export const CandidateRow = memo(function CandidateRow({
@@ -29,6 +40,9 @@ export const CandidateRow = memo(function CandidateRow({
   hasIndividualVotes,
   onVoteChange,
   onStrike,
+  actualStimmen,
+  partyMaxStimmen,
+  partyColor,
 }: CandidateRowProps) {
   const handleVoteChange = useCallback(
     (newStimmen: number) => {
@@ -43,16 +57,36 @@ export const CandidateRow = memo(function CandidateRow({
 
   const isListVoteDisplay = isListVoteActive && !hasIndividualVotes && !isStruck;
 
+  // Shade bar is shown only when results are available and this candidate
+  // was elected. Width is the candidate's Stimmen as a fraction of the
+  // top-vote-getter from the same party.
+  const shadePercent =
+    actualStimmen !== null && actualStimmen !== undefined &&
+    partyMaxStimmen && partyMaxStimmen > 0
+      ? Math.max(0, Math.min(100, (actualStimmen / partyMaxStimmen) * 100))
+      : null;
+
   return (
     <div
       className={`
-        flex items-center gap-2 px-3 py-1.5 border-b border-gray-100
+        relative flex items-center gap-2 px-3 py-1.5 border-b border-gray-100
         transition-colors duration-100
         ${effectiveStimmen > 0 && !isStruck ? 'bg-election-primary-light/50' : ''}
         ${isStruck ? 'bg-gray-50' : ''}
       `}
     >
-      <span className="w-9 text-right text-xs text-gray-400 font-ballot shrink-0 tabular-nums">
+      {shadePercent !== null && !isStruck && (
+        <div
+          aria-hidden="true"
+          className="absolute inset-y-0 left-0 pointer-events-none transition-[width] duration-300"
+          style={{
+            width: `${shadePercent}%`,
+            backgroundColor: partyColor ?? '#9ca3af',
+            opacity: 0.18,
+          }}
+        />
+      )}
+      <span className="relative w-9 text-right text-xs text-gray-400 font-ballot shrink-0 tabular-nums">
         {position}
       </span>
 
@@ -62,7 +96,7 @@ export const CandidateRow = memo(function CandidateRow({
         title={isStruck ? 'Wiederherstellen' : 'Streichen'}
         aria-label={isStruck ? `${lastName} wiederherstellen` : `${lastName} streichen`}
         className={`
-          w-5 h-5 shrink-0 flex items-center justify-center rounded
+          relative w-5 h-5 shrink-0 flex items-center justify-center rounded
           text-xs font-bold transition-all duration-150
           ${isStruck
             ? 'bg-red-100 text-red-500 hover:bg-red-200'
@@ -74,7 +108,7 @@ export const CandidateRow = memo(function CandidateRow({
         ✕
       </button>
 
-      <div className="flex-1 min-w-0">
+      <div className="relative flex-1 min-w-0">
         <div className={`font-ballot text-sm leading-tight truncate ${isStruck ? 'line-through text-gray-400' : ''}`}>
           {lastName}, {firstName}
         </div>
@@ -82,6 +116,15 @@ export const CandidateRow = memo(function CandidateRow({
           {profession}
         </div>
       </div>
+
+      {actualStimmen !== null && actualStimmen !== undefined && (
+        <span
+          className="relative shrink-0 text-xs tabular-nums text-gray-500 px-1 font-ballot"
+          title={`${formatStimmen(actualStimmen)} Stimmen citywide`}
+        >
+          {formatStimmen(actualStimmen)}
+        </span>
+      )}
 
       <VoteCircles
         stimmen={effectiveStimmen}

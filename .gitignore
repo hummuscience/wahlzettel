@@ -34,3 +34,7 @@ pk-modelling-of-medikinet/
 wahlzettel/
 SPEC.md
 scripts/extracted_text.txt
+
+# Tooling caches
+.claude/
+.playwright-mcp/

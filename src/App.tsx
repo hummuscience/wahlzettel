@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import type { ComponentType } from 'react';
 import type { ElectionData } from './types';
+import type { ResultsData } from './types/results';
 import type { ElectionType } from './utils/shareState';
 import type { ElectionConfig } from './elections/types';
 import { ARCHETYPES } from './archetypes';
@@ -23,6 +24,9 @@ import { PracticalInfoDrawerContent } from './components/info/PracticalInfoDrawe
 import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
+import { ResultsSummary } from './components/results/ResultsSummary';
+import { ResultsSeatsPanel } from './components/results/ResultsSeatsPanel';
+import { getElectionMode } from './utils/electionMode';
 import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
 import type { Mmp2VoteData } from './archetypes/mmp-2vote';
 import { Ballot as ClosedListBallot } from './archetypes/closed-list';
@@ -46,6 +50,7 @@ function getSlugFromPath(): string | null {
 function App() {
   const [electionConfig, setElectionConfig] = useState<ElectionConfig | null>(null);
   const [electionData, setElectionData] = useState<ElectionData | null>(null);
+  const [electionResults, setElectionResults] = useState<ResultsData | null>(null);
   const [landtagswahlData, setLandtagswahlData] = useState<Mmp2VoteData | null>(null);
   const [closedListData, setClosedListData] = useState<ClosedListData | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -135,9 +140,11 @@ function App() {
       setElectionData(null);
       setLandtagswahlData(null);
       setClosedListData(null);
+      setElectionResults(null);
       return;
     }
     setError(null);
+    setElectionResults(null);
     fetch(import.meta.env.BASE_URL + `data/${electionConfig.dataFile}`)
       .then(res => {
         if (!res.ok) throw new Error('Failed to load candidate data');
@@ -159,6 +166,15 @@ function App() {
         }
       })
       .catch(err => setError(err.message));
+
+    // Load official results in parallel when the config opts in. Failures here
+    // are non-fatal: the ballot still works, just without result annotations.
+    if (electionConfig.resultsFile) {
+      fetch(import.meta.env.BASE_URL + `data/${electionConfig.resultsFile}`)
+        .then(res => (res.ok ? res.json() : null))
+        .then(data => setElectionResults(data))
+        .catch(() => setElectionResults(null));
+    }
   }, [electionConfig]);
 
   // Apply pending shared state once election data arrives
@@ -341,6 +357,9 @@ function App() {
     );
   }
 
+  const mode = getElectionMode(electionConfig, electionResults);
+  const isPost = mode === 'post';
+
   return (
     <ElectionProvider config={electionConfig}>
       <div className="min-h-screen flex flex-col">
@@ -351,7 +370,7 @@ function App() {
           onShare={handleShare}
           onPrint={handlePrint}
           onSwitchBallot={handleSwitchBallot}
-          shouldPulse={tour.shouldPulse}
+          shouldPulse={!isPost && tour.shouldPulse}
           allVotesUsed={derived.isComplete}
         />
 
@@ -372,11 +391,16 @@ function App() {
 
         <main className="flex-1">
           <div className="max-w-[1400px] mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
-            <WalkthroughSection totalStimmen={electionData.totalStimmen} />
+            {isPost && electionResults ? (
+              <ResultsSummary results={electionResults} electionConfig={electionConfig} />
+            ) : (
+              <WalkthroughSection totalStimmen={electionData.totalStimmen} />
+            )}
 
             <div className="flex-1 min-w-0">
               <BallotView
                 electionData={electionData}
+                electionResults={electionResults}
                 candidateVotes={state.candidateVotes}
                 listSelections={state.listSelections}
                 derived={derived}
@@ -386,7 +410,11 @@ function App() {
               />
             </div>
 
-            <PracticalInfo />
+            {isPost && electionResults ? (
+              <ResultsSeatsPanel results={electionResults} partyColors={electionConfig.partyColors} />
+            ) : (
+              <PracticalInfo />
+            )}
           </div>
         </main>
 
@@ -401,14 +429,16 @@ function App() {
           <PracticalInfoDrawerContent />
         </MobileDrawer>
 
-        <GuidedTour
-          isActive={tour.isActive}
-          currentStep={tour.currentStep}
-          totalStimmen={electionData.totalStimmen}
-          onNext={tour.next}
-          onPrev={tour.prev}
-          onClose={tour.close}
-        />
+        {!isPost && (
+          <GuidedTour
+            isActive={tour.isActive}
+            currentStep={tour.currentStep}
+            totalStimmen={electionData.totalStimmen}
+            onNext={tour.next}
+            onPrev={tour.prev}
+            onClose={tour.close}
+          />
+        )}
 
         {shareData && (
           <ShareDialog

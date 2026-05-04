@@ -1,0 +1,630 @@
+{
+  "election": "frankfurt-stvv",
+  "stand": "2026-03-27",
+  "totalSeats": 93,
+  "totals": {
+    "validVotes": 22300148,
+    "validBallots": 246224,
+    "turnout": 49.6,
+    "kandidatenInsgesamt": 1120,
+    "frauenInsgesamt": 458,
+    "ballotsWithListenkreuz": 172188,
+    "ballotsWithListenkreuzPercent": 67.7
+  },
+  "parties": [
+    {
+      "shortName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
+      "color": "#3D3D3D",
+      "percent": 25.0,
+      "votesAbsolute": 5574438,
+      "votesWeighted": 61549,
+      "seats": 23,
+      "elected": [
+        {
+          "name": "Dr. Kößler, Nils",
+          "stimmen": 75628
+        },
+        {
+          "name": "Serke, Susanne",
+          "stimmen": 72687
+        },
+        {
+          "name": "Schwander, Yannick",
+          "stimmen": 70665
+        },
+        {
+          "name": "Akmadža, Anita",
+          "stimmen": 69558
+        },
+        {
+          "name": "Dr. Fabricius, Veronica",
+          "stimmen": 69340
+        },
+        {
+          "name": "Schäfer, Martin-Benedikt",
+          "stimmen": 68907
+        },
+        {
+          "name": "Steinhardt, Sara",
+          "stimmen": 68850
+        },
+        {
+          "name": "Becker, Christian",
+          "stimmen": 68447
+        },
+        {
+          "name": "Zengin, Ömer",
+          "stimmen": 67903
+        },
+        {
+          "name": "Fischer, Sabine",
+          "stimmen": 67044
+        },
+        {
+          "name": "Ringer, Christina",
+          "stimmen": 66586
+        },
+        {
+          "name": "Korenke, Claudia",
+          "stimmen": 65780
+        },
+        {
+          "name": "Dr. Kochsiek, Albrecht",
+          "stimmen": 65409
+        },
+        {
+          "name": "Shefatja, Avi",
+          "stimmen": 65369
+        },
+        {
+          "name": "Friedrich, Carolin",
+          "stimmen": 65204
+        },
+        {
+          "name": "Lange, Robert",
+          "stimmen": 65096
+        },
+        {
+          "name": "Nagel, Frank",
+          "stimmen": 64916
+        },
+        {
+          "name": "David, Verena",
+          "stimmen": 64868
+        },
+        {
+          "name": "Dr. Dürbeck, Thomas",
+          "stimmen": 64858
+        },
+        {
+          "name": "Dr. Schmitt, Christoph",
+          "stimmen": 63996
+        },
+        {
+          "name": "Georgalis, Evangelia",
+          "stimmen": 63716
+        },
+        {
+          "name": "Rausch, Tom",
+          "stimmen": 63587
+        },
+        {
+          "name": "Schmidt, Marie",
+          "stimmen": 63429
+        }
+      ]
+    },
+    {
+      "shortName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "color": "#339900",
+      "percent": 20.8,
+      "votesAbsolute": 4641480,
+      "votesWeighted": 51248,
+      "seats": 19,
+      "elected": [
+        {
+          "name": "Dr. Knacker, Katharina",
+          "stimmen": 108895
+        },
+        {
+          "name": "Arslaner, Hilime",
+          "stimmen": 66209
+        },
+        {
+          "name": "Bakakis, Dimitrios",
+          "stimmen": 65717
+        },
+        {
+          "name": "Eberz, Julia",
+          "stimmen": 65668
+        },
+        {
+          "name": "Troßbach, Pia",
+          "stimmen": 63409
+        },
+        {
+          "name": "Telyakar, Emre",
+          "stimmen": 63373
+        },
+        {
+          "name": "Kauder, Natascha",
+          "stimmen": 62296
+        },
+        {
+          "name": "Dr. Rosenbaum, Christoph",
+          "stimmen": 61139
+        },
+        {
+          "name": "Düwel, Martina",
+          "stimmen": 59262
+        },
+        {
+          "name": "Schlimme, Thomas",
+          "stimmen": 59149
+        },
+        {
+          "name": "Çetiner, Feyyaz",
+          "stimmen": 58999
+        },
+        {
+          "name": "Momsen, Sylvia",
+          "stimmen": 58770
+        },
+        {
+          "name": "Zarif-Ander, Hosai",
+          "stimmen": 58720
+        },
+        {
+          "name": "Dr. Strengmann-Kuhn, Wolfgang",
+          "stimmen": 57840
+        },
+        {
+          "name": "Zhecheva, Desislava",
+          "stimmen": 56449
+        },
+        {
+          "name": "Maximino dos Santos, Adriana",
+          "stimmen": 55948
+        },
+        {
+          "name": "Richter, Margarete",
+          "stimmen": 55770
+        },
+        {
+          "name": "Lauterwald, Johannes",
+          "stimmen": 55505
+        },
+        {
+          "name": "Denkwitz, Manuel",
+          "stimmen": 54328
+        }
+      ]
+    },
+    {
+      "shortName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "color": "#CC0000",
+      "percent": 16.6,
+      "votesAbsolute": 3692240,
+      "votesWeighted": 40767,
+      "seats": 15,
+      "elected": [
+        {
+          "name": "Dr. Hartwig, Ina",
+          "stimmen": 59578
+        },
+        {
+          "name": "Müller, Kolja",
+          "stimmen": 57163
+        },
+        {
+          "name": "Gannoukh, Abdenassar",
+          "stimmen": 54945
+        },
+        {
+          "name": "Busch, Ursula",
+          "stimmen": 51815
+        },
+        {
+          "name": "Luxen, Kristina",
+          "stimmen": 50202
+        },
+        {
+          "name": "Avdić, Dijana",
+          "stimmen": 47358
+        },
+        {
+          "name": "Kunze, Sylvia",
+          "stimmen": 47001
+        },
+        {
+          "name": "Witsch, Simon",
+          "stimmen": 46731
+        },
+        {
+          "name": "Schulz-Nurtsch, Stella",
+          "stimmen": 46366
+        },
+        {
+          "name": "Podstatny, Roger",
+          "stimmen": 45688
+        },
+        {
+          "name": "Lamjahdi, Mustapha",
+          "stimmen": 45484
+        },
+        {
+          "name": "Dr. Kanbiçak, Türkân",
+          "stimmen": 45155
+        },
+        {
+          "name": "Ataç, Sarya",
+          "stimmen": 45096
+        },
+        {
+          "name": "Khenissi, Rachid",
+          "stimmen": 44636
+        },
+        {
+          "name": "Voigt, Lena",
+          "stimmen": 44414
+        }
+      ]
+    },
+    {
+      "shortName": "Die Linke",
+      "fullName": "DIE LINKE.Eschborn",
+      "color": "#999999",
+      "percent": 9.2,
+      "votesAbsolute": 2049227,
+      "votesWeighted": 22626,
+      "seats": 9,
+      "elected": [
+        {
+          "name": "Dr. Mehler-Würzbach, Daniela",
+          "stimmen": 74720
+        },
+        {
+          "name": "Müller, Michael",
+          "stimmen": 71728
+        },
+        {
+          "name": "Waissi, Mona",
+          "stimmen": 71587
+        },
+        {
+          "name": "Pauli, Dominike",
+          "stimmen": 68500
+        },
+        {
+          "name": "Avan, Deniz",
+          "stimmen": 67897
+        },
+        {
+          "name": "Dalhoff, Ayşe",
+          "stimmen": 66977
+        },
+        {
+          "name": "Aličić, Benjamin",
+          "stimmen": 65610
+        },
+        {
+          "name": "Leitschuh, Heike",
+          "stimmen": 65325
+        },
+        {
+          "name": "Passadakis, Alexis",
+          "stimmen": 64919
+        }
+      ]
+    },
+    {
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "color": "#0032C8",
+      "percent": 8.2,
+      "votesAbsolute": 1835971,
+      "votesWeighted": 20272,
+      "seats": 8,
+      "elected": [
+        {
+          "name": "Fuchs, Markus",
+          "stimmen": 43601
+        },
+        {
+          "name": "Klinger, Willy",
+          "stimmen": 42195
+        },
+        {
+          "name": "Schneider, Jens-Friedrich",
+          "stimmen": 42147
+        },
+        {
+          "name": "Krause, Monika",
+          "stimmen": 41991
+        },
+        {
+          "name": "Radmann, Maximilian",
+          "stimmen": 41304
+        },
+        {
+          "name": "Csapó, John",
+          "stimmen": 41202
+        },
+        {
+          "name": "Gratowski, Martin",
+          "stimmen": 40948
+        },
+        {
+          "name": "Meier, Norbert",
+          "stimmen": 40887
+        }
+      ]
+    },
+    {
+      "shortName": "Volt",
+      "fullName": "Volt Deutschland",
+      "color": "#6f30a7",
+      "percent": 4.8,
+      "votesAbsolute": 1069223,
+      "votesWeighted": 11806,
+      "seats": 5,
+      "elected": [
+        {
+          "name": "O'Sullivan, Eileen",
+          "stimmen": 49219
+        },
+        {
+          "name": "Mengel, Tiara-Maria",
+          "stimmen": 42849
+        },
+        {
+          "name": "Englert, Tim",
+          "stimmen": 42611
+        },
+        {
+          "name": "Winghart, Philipp",
+          "stimmen": 38976
+        },
+        {
+          "name": "Winkler, Grit",
+          "stimmen": 38818
+        }
+      ]
+    },
+    {
+      "shortName": "FDP",
+      "fullName": "Freie Demokratische Partei",
+      "color": "#F4B93B",
+      "percent": 4.6,
+      "votesAbsolute": 1020214,
+      "votesWeighted": 11265,
+      "seats": 4,
+      "elected": [
+        {
+          "name": "Wüst, Stephanie",
+          "stimmen": 20659
+        },
+        {
+          "name": "Schnitzler, Isabel",
+          "stimmen": 18268
+        },
+        {
+          "name": "Papke, Sebastian",
+          "stimmen": 16964
+        },
+        {
+          "name": "Häussler, Ingrid",
+          "stimmen": 16233
+        }
+      ]
+    },
+    {
+      "shortName": "BFF",
+      "fullName": "Bürger Für Frankfurt",
+      "color": "#999999",
+      "percent": 1.4,
+      "votesAbsolute": 316752,
+      "votesWeighted": 3497,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Pfeiffer, Mathias",
+          "stimmen": 9672
+        }
+      ]
+    },
+    {
+      "shortName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit",
+      "color": "#B4B4B4",
+      "percent": 1.2,
+      "votesAbsolute": 272316,
+      "votesWeighted": 3007,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Yilmaz, Eyup",
+          "stimmen": 10472
+        }
+      ]
+    },
+    {
+      "shortName": "IBF",
+      "fullName": "Ich bin ein Frankfurter",
+      "color": "#999999",
+      "percent": 1.0,
+      "votesAbsolute": 212413,
+      "votesWeighted": 2345,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Medoff, Jumas",
+          "stimmen": 9391
+        }
+      ]
+    },
+    {
+      "shortName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "color": "#b51f29",
+      "percent": 1.0,
+      "votesAbsolute": 223280,
+      "votesWeighted": 2465,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Wehnemann, Claudia",
+          "stimmen": 9522
+        }
+      ]
+    },
+    {
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "color": "#999999",
+      "percent": 1.0,
+      "votesAbsolute": 213253,
+      "votesWeighted": 2355,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Pärisch, Eric",
+          "stimmen": 5851
+        }
+      ]
+    },
+    {
+      "shortName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH UMWELT TIERSCHUTZ",
+      "color": "#c0ca31",
+      "percent": 0.9,
+      "votesAbsolute": 211729,
+      "votesWeighted": 2338,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Dr. Schmidt, Johannes",
+          "stimmen": 9647
+        }
+      ]
+    },
+    {
+      "shortName": "ELF",
+      "fullName": "EUROPA LISTE FÜR FRANKFURT",
+      "color": "#999999",
+      "percent": 0.9,
+      "votesAbsolute": 208242,
+      "votesWeighted": 2299,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Brillante, Luigi",
+          "stimmen": 8301
+        }
+      ]
+    },
+    {
+      "shortName": "DFRA",
+      "fullName": "DieFrankfurter",
+      "color": "#999999",
+      "percent": 0.9,
+      "votesAbsolute": 208867,
+      "votesWeighted": 2306,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Bäppler-Wolf, Thomas (Künstlern.: Bäppi La Belle)",
+          "stimmen": 11872
+        }
+      ]
+    },
+    {
+      "shortName": "ÖkoLinX",
+      "fullName": "ÖkoLinX",
+      "color": "#B4B4B4",
+      "percent": 0.7,
+      "votesAbsolute": 160191,
+      "votesWeighted": 1769,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Ditfurth, Jutta",
+          "stimmen": 10763
+        }
+      ]
+    },
+    {
+      "shortName": "BIG",
+      "fullName": "Bündnis für Innovation & Gerechtigkeit",
+      "color": "#B4B4B4",
+      "percent": 0.7,
+      "votesAbsolute": 148727,
+      "votesWeighted": 1642,
+      "seats": 1,
+      "elected": [
+        {
+          "name": "Yıldız, Haluk",
+          "stimmen": 4731
+        }
+      ]
+    },
+    {
+      "shortName": "MERA25",
+      "fullName": "MERA25 - Gemeinsam für Frieden, Solidarität und Freiheit",
+      "color": "#B4B4B4",
+      "percent": 0.4,
+      "votesAbsolute": 81798,
+      "votesWeighted": 903,
+      "seats": 0,
+      "elected": []
+    },
+    {
+      "shortName": "Frankfurt-Sozial!",
+      "fullName": "Frankfurt-Sozial!",
+      "color": "#999999",
+      "percent": 0.4,
+      "votesAbsolute": 94641,
+      "votesWeighted": 1045,
+      "seats": 0,
+      "elected": []
+    },
+    {
+      "shortName": "Gartenpartei Ffm",
+      "fullName": "Gartenpartei Frankfurt am Main",
+      "color": "#B4B4B4",
+      "percent": 0.2,
+      "votesAbsolute": 49530,
+      "votesWeighted": 547,
+      "seats": 0,
+      "elected": []
+    },
+    {
+      "shortName": "PIRATEN",
+      "fullName": "Piratenpartei Deutschland",
+      "color": "#cd5138",
+      "percent": 0.1,
+      "votesAbsolute": 13282,
+      "votesWeighted": 147,
+      "seats": 0,
+      "elected": []
+    },
+    {
+      "shortName": "GUG",
+      "fullName": "Global Unity in Germany",
+      "color": "#999999",
+      "percent": 0.0,
+      "votesAbsolute": 2334,
+      "votesWeighted": 26,
+      "seats": 0,
+      "elected": []
+    }
+  ],
+  "sources": [
+    "https://statistikportal.frankfurt.de/fwa/kw2026/Kapitel_1_1.html",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

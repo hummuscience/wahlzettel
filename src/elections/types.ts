@@ -27,6 +27,11 @@ export interface ElectionBase {
   dataFile: string;
   partyColors: Record<string, string>;
   infoUrl?: string;
+
+  // Optional: filename in public/data/ holding the official election result.
+  // When set, the ballot annotates each candidate row with their citywide
+  // Stimmen and shows a results panel comparing to the user's ballot.
+  resultsFile?: string;
 }
 
 // Süd-Kommunal: N≈seats votes, kumulieren ≤3, panaschieren, striking, Listenkreuz.
