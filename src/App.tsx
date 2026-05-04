@@ -24,6 +24,9 @@ import { PracticalInfoDrawerContent } from './components/info/PracticalInfoDrawe
 import { GuidedTour } from './components/tour/GuidedTour';
 import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
+import { ResultsSummary } from './components/results/ResultsSummary';
+import { ResultsSeatsPanel } from './components/results/ResultsSeatsPanel';
+import { getElectionMode } from './utils/electionMode';
 import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
 import type { Mmp2VoteData } from './archetypes/mmp-2vote';
 import { Ballot as ClosedListBallot } from './archetypes/closed-list';
@@ -354,6 +357,9 @@ function App() {
     );
   }
 
+  const mode = getElectionMode(electionConfig, electionResults);
+  const isPost = mode === 'post';
+
   return (
     <ElectionProvider config={electionConfig}>
       <div className="min-h-screen flex flex-col">
@@ -364,7 +370,7 @@ function App() {
           onShare={handleShare}
           onPrint={handlePrint}
           onSwitchBallot={handleSwitchBallot}
-          shouldPulse={tour.shouldPulse}
+          shouldPulse={!isPost && tour.shouldPulse}
           allVotesUsed={derived.isComplete}
         />
 
@@ -385,7 +391,11 @@ function App() {
 
         <main className="flex-1">
           <div className="max-w-[1400px] mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
-            <WalkthroughSection totalStimmen={electionData.totalStimmen} />
+            {isPost && electionResults ? (
+              <ResultsSummary results={electionResults} electionConfig={electionConfig} />
+            ) : (
+              <WalkthroughSection totalStimmen={electionData.totalStimmen} />
+            )}
 
             <div className="flex-1 min-w-0">
               <BallotView
@@ -400,7 +410,11 @@ function App() {
               />
             </div>
 
-            <PracticalInfo />
+            {isPost && electionResults ? (
+              <ResultsSeatsPanel results={electionResults} partyColors={electionConfig.partyColors} />
+            ) : (
+              <PracticalInfo />
+            )}
           </div>
         </main>
 
@@ -415,14 +429,16 @@ function App() {
           <PracticalInfoDrawerContent />
         </MobileDrawer>
 
-        <GuidedTour
-          isActive={tour.isActive}
-          currentStep={tour.currentStep}
-          totalStimmen={electionData.totalStimmen}
-          onNext={tour.next}
-          onPrev={tour.prev}
-          onClose={tour.close}
-        />
+        {!isPost && (
+          <GuidedTour
+            isActive={tour.isActive}
+            currentStep={tour.currentStep}
+            totalStimmen={electionData.totalStimmen}
+            onNext={tour.next}
+            onPrev={tour.prev}
+            onClose={tour.close}
+          />
+        )}
 
         {shareData && (
           <ShareDialog
