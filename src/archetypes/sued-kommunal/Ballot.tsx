@@ -16,6 +16,9 @@ interface BallotViewProps {
   dispatch: React.Dispatch<VoteAction>;
   isListVoteActive: (partyListNumber: number) => boolean;
   getListAllocation: (partyListNumber: number) => Record<string, number> | null;
+  /** True in post-election mode. Strips voting controls (Listenkreuz,
+   * VoteCircles, strike) and renders a read-only results table. */
+  readOnly?: boolean;
 }
 
 export function BallotView({
@@ -27,6 +30,7 @@ export function BallotView({
   dispatch,
   isListVoteActive,
   getListAllocation,
+  readOnly = false,
 }: BallotViewProps) {
   const { t } = useTranslation('ballot');
   const { t: te } = useTranslation('election');
@@ -147,6 +151,7 @@ export function BallotView({
             resultsIndex={resultsIndex}
             partyMaxStimmen={partyMaxStimmen}
             electedPositions={electedPositions}
+            readOnly={readOnly}
           />
         </div>
       </div>

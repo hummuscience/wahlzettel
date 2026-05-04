@@ -28,6 +28,9 @@ interface PartyPageProps {
   partyMaxStimmen?: number | null;
   /** Set of ballot positions in THIS party that won a seat. Null when no results. */
   electedPositions?: Set<number> | null;
+  /** True in post-election mode. Hides KopfleisteCheckbox, strike btn,
+   * VoteCircles. Position-prefix numbering (Hessen) is also dropped. */
+  readOnly?: boolean;
 }
 
 export function PartyPage({
@@ -47,6 +50,7 @@ export function PartyPage({
   resultsIndex,
   partyMaxStimmen,
   electedPositions,
+  readOnly = false,
 }: PartyPageProps) {
   const { t } = useTranslation('ballot');
   const electionConfig = useElection();
@@ -108,11 +112,13 @@ export function PartyPage({
         </div>
       </div>
 
-      <KopfleisteCheckbox
-        isChecked={isListVoteActive}
-        onToggle={handleToggleList}
-        stimmenFromList={stimmenFromList}
-      />
+      {!readOnly && (
+        <KopfleisteCheckbox
+          isChecked={isListVoteActive}
+          onToggle={handleToggleList}
+          stimmenFromList={stimmenFromList}
+        />
+      )}
 
       <div ref={scrollRef} className="flex-1 overflow-y-auto">
         {party.candidates.map(candidate => {
@@ -126,7 +132,9 @@ export function PartyPage({
               ? individualVote.stimmen
               : listVotes;
 
-          const displayPosition = candidateNumbering === 'list-prefix'
+          // In read-only post-mode, drop the Hessen list-prefix (101, 102, …)
+          // — it's a write-in voting aid that's irrelevant when results are final.
+          const displayPosition = !readOnly && candidateNumbering === 'list-prefix'
             ? party.listNumber * 100 + candidate.position
             : candidate.position;
 
@@ -153,6 +161,7 @@ export function PartyPage({
               partyMaxStimmen={partyMaxStimmen ?? null}
               partyColor={partyColor}
               isElected={electedPositions?.has(candidate.position) ?? false}
+              readOnly={readOnly}
             />
           );
         })}

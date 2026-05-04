@@ -364,30 +364,32 @@ function App() {
     <ElectionProvider config={electionConfig}>
       <div className="min-h-screen flex flex-col">
         <Header
-          onTourRestart={tour.restart}
-          onWalkthroughToggle={toggleWalkthrough}
-          onInfoToggle={toggleInfo}
-          onShare={handleShare}
-          onPrint={handlePrint}
+          onTourRestart={isPost ? undefined : tour.restart}
+          onWalkthroughToggle={isPost ? undefined : toggleWalkthrough}
+          onInfoToggle={isPost ? undefined : toggleInfo}
+          onShare={isPost ? undefined : handleShare}
+          onPrint={isPost ? undefined : handlePrint}
           onSwitchBallot={handleSwitchBallot}
           shouldPulse={!isPost && tour.shouldPulse}
           allVotesUsed={derived.isComplete}
         />
 
-        <VoteStatusBar
-          totalUsed={derived.totalStimmenUsed}
-          totalMax={electionData.totalStimmen}
-          isComplete={derived.isComplete}
-          isOverLimit={derived.isOverLimit}
-          stimmenPerParty={derived.stimmenPerParty}
-          parties={electionData.parties.map(p => ({
-            listNumber: p.listNumber,
-            shortName: p.shortName,
-          }))}
-          onReset={resetBallot}
-          voteState={state}
-          electionType={currentElectionType}
-        />
+        {!isPost && (
+          <VoteStatusBar
+            totalUsed={derived.totalStimmenUsed}
+            totalMax={electionData.totalStimmen}
+            isComplete={derived.isComplete}
+            isOverLimit={derived.isOverLimit}
+            stimmenPerParty={derived.stimmenPerParty}
+            parties={electionData.parties.map(p => ({
+              listNumber: p.listNumber,
+              shortName: p.shortName,
+            }))}
+            onReset={resetBallot}
+            voteState={state}
+            electionType={currentElectionType}
+          />
+        )}
 
         <main className="flex-1">
           <div className="max-w-[1400px] mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
@@ -407,6 +409,7 @@ function App() {
                 dispatch={dispatch}
                 isListVoteActive={isListVoteActive}
                 getListAllocation={getListAllocation}
+                readOnly={isPost}
               />
             </div>
 
