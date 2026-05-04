@@ -26,6 +26,8 @@ interface Election {
   emoji: string;
   stimmen: number;
   themeColor: string;
+  /** True when an official result is available for this election. */
+  hasResults?: boolean;
 }
 
 interface CityEntry {
@@ -40,6 +42,8 @@ interface StatewideElection {
   slug: string;
   label: string;
   themeColor: string;
+  /** True when an official result is available for this election. */
+  hasResults?: boolean;
 }
 
 const STATEWIDE_ELECTIONS: StatewideElection[] = [
@@ -84,7 +88,7 @@ const CITIES: CityEntry[] = [
     name: 'Frankfurt',
     stateId: 'he',
     elections: [
-      { slug: 'frankfurt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 93, themeColor: '#003870' },
+      { slug: 'frankfurt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 93, themeColor: '#003870', hasResults: true },
       { slug: 'frankfurt-kav', label: 'Kommunale Ausländervertretung', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 37, themeColor: '#003870' },
     ],
   },
@@ -425,6 +429,20 @@ const STATES_WITH_ELECTIONS = new Set([
   ...STATEWIDE_ELECTIONS.map(e => e.stateId),
 ]);
 
+// States that have at least one election with published results — used to
+// stamp a "✓ Ergebnisse" indicator on the map.
+const STATES_WITH_RESULTS = new Set<string>();
+for (const city of CITIES) {
+  if (city.elections.some(e => e.hasResults)) STATES_WITH_RESULTS.add(city.stateId);
+}
+for (const e of STATEWIDE_ELECTIONS) {
+  if (e.hasResults) STATES_WITH_RESULTS.add(e.stateId);
+}
+
+function cityHasAnyResults(city: CityEntry): boolean {
+  return city.elections.some(e => e.hasResults);
+}
+
 // Quick lookup for statewide elections
 const STATEWIDE_BY_STATE: Record<string, StatewideElection[]> = {};
 for (const e of STATEWIDE_ELECTIONS) {
@@ -450,6 +468,17 @@ function buildCityRequestUrl(stateId?: string): string {
     return `${base}&bundesland=${encodeURIComponent(STATE_NAMES[stateId])}`;
   }
   return base;
+}
+
+/** Small green pill marking an election that has published results.
+ * Used both on the state-view list tiles and the city's election cards. */
+function ResultsBadge() {
+  return (
+    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 text-[10px] font-semibold uppercase tracking-wide">
+      <span aria-hidden="true">✓</span>
+      Ergebnis
+    </span>
+  );
 }
 
 interface ElectionPickerProps {
@@ -514,21 +543,38 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
                 );
               })}
               {/* Labels for states with elections */}
-              {Array.from(STATES_WITH_ELECTIONS).map(stateId => (
-                <text
-                  key={`label-${stateId}`}
-                  x={STATE_LABEL_POS[stateId]?.x ?? 0}
-                  y={STATE_LABEL_POS[stateId]?.y ?? 0}
-                  textAnchor="middle"
-                  fontSize="14"
-                  fontWeight="700"
-                  fill={hoveredState === stateId ? '#1d4ed8' : '#1e3a5f'}
-                  className="pointer-events-none select-none transition-colors duration-150"
-                  style={{ textShadow: '0 0 4px white, 0 0 4px white, 0 0 4px white' }}
-                >
-                  {STATE_NAMES[stateId]}
-                </text>
-              ))}
+              {Array.from(STATES_WITH_ELECTIONS).map(stateId => {
+                const pos = STATE_LABEL_POS[stateId];
+                if (!pos) return null;
+                const hasResults = STATES_WITH_RESULTS.has(stateId);
+                return (
+                  <g key={`label-${stateId}`} className="pointer-events-none select-none">
+                    <text
+                      x={pos.x}
+                      y={pos.y}
+                      textAnchor="middle"
+                      fontSize="14"
+                      fontWeight="700"
+                      fill={hoveredState === stateId ? '#1d4ed8' : '#1e3a5f'}
+                      className="transition-colors duration-150"
+                      style={{ textShadow: '0 0 4px white, 0 0 4px white, 0 0 4px white' }}
+                    >
+                      {STATE_NAMES[stateId]}
+                    </text>
+                    {hasResults && (
+                      <g transform={`translate(${pos.x}, ${pos.y + 14})`}>
+                        <rect x={-22} y={0} width={44} height={11} rx={5.5}
+                          fill="#16a34a" />
+                        <text x={0} y={8.5} textAnchor="middle" fontSize="8"
+                          fontWeight="700" fill="#ffffff"
+                          letterSpacing="0.3">
+                          ✓ Ergebnis
+                        </text>
+                      </g>
+                    )}
+                  </g>
+                );
+              })}
             </svg>
           </div>
         </div>
@@ -575,7 +621,10 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
                     {election.label}
                   </span>
                 </div>
-                <span className="text-gray-300 group-hover:text-gray-500 transition-colors">›</span>
+                <div className="flex items-center gap-2">
+                  {election.hasResults && <ResultsBadge />}
+                  <span className="text-gray-300 group-hover:text-gray-500 transition-colors">›</span>
+                </div>
               </button>
             ))}
 
@@ -603,6 +652,7 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
                   </span>
                 </div>
                 <div className="flex items-center gap-2 text-xs text-gray-400">
+                  {cityHasAnyResults(city) && <ResultsBadge />}
                   {city.elections.length > 1 && (
                     <span className="px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
                       {city.elections.length} Wahlen
@@ -681,7 +731,10 @@ export function ElectionPicker({ onChoose }: ElectionPickerProps) {
               className="text-start rounded-xl border border-gray-200 hover:border-[color:var(--btn-color)] hover:shadow-md p-5 transition-all group bg-white"
               style={{ '--btn-color': election.themeColor } as React.CSSProperties}
             >
-              <span className="text-3xl mb-3 block">{election.emoji}</span>
+              <div className="flex items-start justify-between mb-3">
+                <span className="text-3xl block">{election.emoji}</span>
+                {election.hasResults && <ResultsBadge />}
+              </div>
               <p className="text-base font-semibold text-gray-900 group-hover:text-[color:var(--btn-color)] transition-colors">
                 {election.label}
               </p>

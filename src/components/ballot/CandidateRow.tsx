@@ -73,9 +73,10 @@ export const CandidateRow = memo(function CandidateRow({
       ? Math.max(0, Math.min(100, (actualStimmen / partyMaxStimmen) * 100))
       : null;
 
-  // Subtler alpha for elected — see followup discussion. 0.30 reads as
-  // "this row matters" without crushing dark text on dark party colours.
-  const meterOpacity = isElected ? 0.3 : 0.15;
+  // Strong alpha for elected so the bar reads as a saturated block; a
+  // dimmer alpha for non-elected so the row recedes but its proportion
+  // remains visible.
+  const meterOpacity = isElected ? 0.7 : 0.25;
 
   return (
     <div
