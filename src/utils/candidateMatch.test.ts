@@ -1,57 +1,49 @@
 import { describe, it, expect } from 'vitest';
-import { candidateKey, indexResultsParty, lookupCandidate } from './candidateMatch';
+import { indexResultsParty, lookupCandidate } from './candidateMatch';
 import type { ResultsParty } from '../types/results';
 
-describe('candidateMatch', () => {
-  it('builds a "Lastname, Firstname" key', () => {
-    expect(candidateKey('Kößler', 'Nils')).toBe('Kößler, Nils');
-  });
+const party: ResultsParty = {
+  listNumber: 1,
+  shortName: 'CDU',
+  fullName: 'CDU full',
+  color: '#000',
+  percent: 25,
+  votesAbsolute: null,
+  votesWeighted: null,
+  seats: 2,
+  candidates: [
+    { position: 1, lastName: 'Dr. Kößler', firstName: 'Nils', stimmen: 75628 },
+    { position: 2, lastName: 'Serke', firstName: 'Susanne', stimmen: 72687 },
+    // A non-elected position whose tally exists
+    { position: 47, lastName: 'Mustermann', firstName: 'Erika', stimmen: 50123 },
+    // A position present in the candidate list but with no vote tally
+    { position: 94, lastName: 'Trinter', firstName: 'Thomas', stimmen: null },
+  ],
+};
 
-  it('preserves title prefixes already present in lastName', () => {
-    // The data file stores "Dr. Kößler" as the lastName already — we round-trip it.
-    expect(candidateKey('Dr. Kößler', 'Nils')).toBe('Dr. Kößler, Nils');
-  });
-
-  it('normalises curly apostrophes to straight ones', () => {
-    // Frankfurt data has 'O‘Sullivan' (U+2018), results have "O'Sullivan" (U+0027).
-    expect(candidateKey('O‘Sullivan', 'Eileen')).toBe("O'Sullivan, Eileen");
-  });
-
-  const party: ResultsParty = {
-    shortName: 'CDU',
-    fullName: 'CDU full',
-    color: '#000',
-    percent: 25,
-    votesAbsolute: null,
-    votesWeighted: null,
-    seats: 2,
-    elected: [
-      { name: 'Dr. Kößler, Nils', stimmen: 75628 },
-      { name: "O'Sullivan, Eileen", stimmen: 49219 },
-      { name: 'Bäppler-Wolf, Thomas (Künstlern.: Bäppi La Belle)', stimmen: 11872 },
-    ],
-  };
-
-  it('looks up by exact key', () => {
+describe('indexResultsParty + lookupCandidate', () => {
+  it('finds an elected top candidate', () => {
     const idx = indexResultsParty(party);
-    const found = lookupCandidate(idx, 'Dr. Kößler', 'Nils');
+    const found = lookupCandidate(idx, 1);
+    expect(found?.lastName).toBe('Dr. Kößler');
     expect(found?.stimmen).toBe(75628);
   });
 
-  it('matches a curly-apostrophe ballot name against straight-apostrophe results', () => {
+  it('finds a non-elected candidate that still has a vote tally', () => {
     const idx = indexResultsParty(party);
-    const found = lookupCandidate(idx, 'O‘Sullivan', 'Eileen');
-    expect(found?.stimmen).toBe(49219);
+    const found = lookupCandidate(idx, 47);
+    expect(found?.stimmen).toBe(50123);
   });
 
-  it('strips parenthetical suffixes from results names', () => {
+  it('returns the entry for a candidate whose stimmen is null (post-roster add)', () => {
     const idx = indexResultsParty(party);
-    const found = lookupCandidate(idx, 'Bäppler-Wolf', 'Thomas');
-    expect(found?.stimmen).toBe(11872);
+    const found = lookupCandidate(idx, 94);
+    expect(found).not.toBeNull();
+    expect(found?.stimmen).toBeNull();
   });
 
-  it('returns null for non-elected candidates', () => {
+  it('returns null for a position not in the index', () => {
     const idx = indexResultsParty(party);
-    expect(lookupCandidate(idx, 'Mustermann', 'Erika')).toBeNull();
+    expect(lookupCandidate(idx, 999)).toBeNull();
   });
 });

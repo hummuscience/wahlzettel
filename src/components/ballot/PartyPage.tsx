@@ -22,10 +22,12 @@ interface PartyPageProps {
   hasNext: boolean;
   prevName?: string;
   nextName?: string;
-  /** Index of {"Lastname, Firstname" → ResultsCandidate} for THIS party. Null when no results available. */
-  resultsIndex?: Map<string, ResultsCandidate> | null;
-  /** Highest Stimmen any elected candidate of THIS party received — denominator for the shade bar. */
+  /** Index of {position → ResultsCandidate} for THIS party. Null when no results available. */
+  resultsIndex?: Map<number, ResultsCandidate> | null;
+  /** Highest Stimmen any candidate of THIS party received — denominator for the shade bar. */
   partyMaxStimmen?: number | null;
+  /** Set of ballot positions in THIS party that won a seat. Null when no results. */
+  electedPositions?: Set<number> | null;
 }
 
 export function PartyPage({
@@ -44,6 +46,7 @@ export function PartyPage({
   nextName,
   resultsIndex,
   partyMaxStimmen,
+  electedPositions,
 }: PartyPageProps) {
   const { t } = useTranslation('ballot');
   const electionConfig = useElection();
@@ -128,7 +131,7 @@ export function PartyPage({
             : candidate.position;
 
           const resultMatch = resultsIndex
-            ? lookupCandidate(resultsIndex, candidate.lastName, candidate.firstName)
+            ? lookupCandidate(resultsIndex, candidate.position)
             : null;
 
           return (
@@ -149,6 +152,7 @@ export function PartyPage({
               actualStimmen={resultMatch?.stimmen ?? null}
               partyMaxStimmen={partyMaxStimmen ?? null}
               partyColor={partyColor}
+              isElected={electedPositions?.has(candidate.position) ?? false}
             />
           );
         })}

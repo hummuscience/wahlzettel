@@ -20,6 +20,8 @@ interface CandidateRowProps {
   partyMaxStimmen?: number | null;
   /** Resolved party color hex for tinting the shade-bar background. */
   partyColor?: string | null;
+  /** True when this candidate ranks in the party's top-N (won a seat). */
+  isElected?: boolean;
 }
 
 /** Format an integer with German thousands separators: 75628 → "75.628". */
@@ -43,6 +45,7 @@ export const CandidateRow = memo(function CandidateRow({
   actualStimmen,
   partyMaxStimmen,
   partyColor,
+  isElected,
 }: CandidateRowProps) {
   const handleVoteChange = useCallback(
     (newStimmen: number) => {
@@ -78,11 +81,11 @@ export const CandidateRow = memo(function CandidateRow({
       {shadePercent !== null && !isStruck && (
         <div
           aria-hidden="true"
-          className="absolute inset-y-0 left-0 pointer-events-none transition-[width] duration-300"
+          className="absolute inset-y-0 left-0 pointer-events-none transition-[width,opacity] duration-300"
           style={{
             width: `${shadePercent}%`,
             backgroundColor: partyColor ?? '#9ca3af',
-            opacity: 0.18,
+            opacity: isElected ? 0.5 : 0.18,
           }}
         />
       )}

@@ -56,25 +56,44 @@ export function BallotView({
   const listAlloc = getListAllocation(activeParty.listNumber);
   const struckIds = listSelections[activeParty.listNumber]?.struckCandidateIds || [];
 
-  // Look up the results for the active party (may be missing if party didn't
-  // win seats, or absent entirely if no results are configured for this election).
+  // Look up the results for the active party. Match by listNumber (canonical key).
   const activePartyResults = useMemo<ResultsParty | null>(() => {
     if (!electionResults) return null;
     return (
-      electionResults.parties.find(p => p.shortName === activeParty.shortName) ?? null
+      electionResults.parties.find(p => p.listNumber === activeParty.listNumber) ?? null
     );
-  }, [electionResults, activeParty.shortName]);
+  }, [electionResults, activeParty.listNumber]);
 
   const resultsIndex = useMemo(() => {
     if (!activePartyResults) return null;
     return indexResultsParty(activePartyResults);
   }, [activePartyResults]);
 
-  // Per-party shade-bar denominator: the highest Stimmen any elected member of
-  // this party received. Falls back to null when this party didn't elect anyone.
+  // Per-party shade-bar denominator: the highest Stimmen any candidate of this
+  // party received (regardless of whether they got elected). Null when no
+  // results are configured.
   const partyMaxStimmen = useMemo(() => {
-    if (!activePartyResults || activePartyResults.elected.length === 0) return null;
-    return Math.max(...activePartyResults.elected.map(c => c.stimmen));
+    if (!activePartyResults) return null;
+    let max = 0;
+    for (const c of activePartyResults.candidates) {
+      if (c.stimmen != null && c.stimmen > max) max = c.stimmen;
+    }
+    return max > 0 ? max : null;
+  }, [activePartyResults]);
+
+  // Set of ballot positions that won a seat in this party — the top N
+  // candidates by Stimmen, where N = party.seats. Used to render those rows
+  // with a stronger shade-bar alpha so the user can see at a glance who
+  // made it into parliament.
+  const electedPositions = useMemo<Set<number> | null>(() => {
+    if (!activePartyResults || activePartyResults.seats <= 0) return null;
+    const ranked = activePartyResults.candidates
+      .filter(c => c.stimmen != null)
+      .slice() // don't mutate
+      .sort((a, b) => (b.stimmen as number) - (a.stimmen as number));
+    return new Set(
+      ranked.slice(0, activePartyResults.seats).map(c => c.position),
+    );
   }, [activePartyResults]);
 
   // When a list vote is active, individual votes reduce the list allocation,
@@ -127,6 +146,7 @@ export function BallotView({
             nextName={activeIndex < parties.length - 1 ? parties[activeIndex + 1].shortName : undefined}
             resultsIndex={resultsIndex}
             partyMaxStimmen={partyMaxStimmen}
+            electedPositions={electedPositions}
           />
         </div>
       </div>
