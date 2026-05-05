@@ -7,11 +7,9 @@ Specifically the consolidated XML download at
 which contains per-party totals + seats + percent (with deltas vs. prior
 election) for every kreisfreie Stadt in Bayern.
 
-Per-CANDIDATE data is NOT here — Bayern's centralized portal stops at the
-party level. Each city's own Wahlamt may publish detail; this adapter
-covers party-level results only. Downstream UI (HemicyclePanel, summary,
-coalitions) works fine without per-candidate Stimmen — the candidate
-rows render without shade-bars, just position + name.
+For per-CANDIDATE Stimmen, run `parse-bayern-candidates.py` afterwards —
+that companion scrapes the per-city result-portal HTML (movaplus
+template) and enriches the existing results-{slug}.json files in place.
 
 Usage:
   python3 scripts/parse-bayern-results.py [<slug>...]
