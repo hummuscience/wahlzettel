@@ -62,6 +62,12 @@ function App() {
     segments: PartySegment[];
   } | null>(null);
   const [printUrl, setPrintUrl] = useState<string | null>(null);
+  // In post-election mode the hemicycle and the ballot's party tabs share a
+  // single active-party index so clicking a seat in the hemicycle drives the
+  // ballot. In pre-mode the index stays encapsulated inside BallotView; this
+  // hook just returns 0 and is ignored. Hook MUST be at top-level — moving
+  // it past the early-returns above would violate the Rules of Hooks.
+  const [postActiveIdx, setPostActiveIdx] = useState(0);
 
   const allowMultipleListVotes =
     electionConfig?.ballotKind === 'sued-kommunal'
@@ -360,11 +366,6 @@ function App() {
 
   const mode = getElectionMode(electionConfig, electionResults);
   const isPost = mode === 'post';
-
-  // In post-mode the hemicycle and the ballot's party tabs share a single
-  // active-party index so clicking a seat in the hemicycle jumps the ballot.
-  // Pre-mode keeps the index encapsulated in BallotView.
-  const [postActiveIdx, setPostActiveIdx] = useState(0);
 
   return (
     <ElectionProvider config={electionConfig}>
