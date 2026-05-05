@@ -136,168 +136,168 @@ const CITIES: CityEntry[] = [
     name: 'Amberg',
     stateId: 'by',
     elections: [
-      { slug: 'amberg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#4a6741' },
+      { slug: 'amberg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#4a6741', hasResults: true },
     ],
   },
   {
     name: 'Augsburg',
     stateId: 'by',
     elections: [
-      { slug: 'augsburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 60, themeColor: '#006847' },
+      { slug: 'augsburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 60, themeColor: '#006847', hasResults: true },
     ],
   },
   {
     name: 'Aschaffenburg',
     stateId: 'by',
     elections: [
-      { slug: 'aschaffenburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#d32f2f' },
+      { slug: 'aschaffenburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#d32f2f', hasResults: true },
     ],
   },
   {
     name: 'Bamberg',
     stateId: 'by',
     elections: [
-      { slug: 'bamberg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#8B4513' },
+      { slug: 'bamberg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#8B4513', hasResults: true },
     ],
   },
   {
     name: 'Bayreuth',
     stateId: 'by',
     elections: [
-      { slug: 'bayreuth-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#c41e3a' },
+      { slug: 'bayreuth-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#c41e3a', hasResults: true },
     ],
   },
   {
     name: 'Coburg',
     stateId: 'by',
     elections: [
-      { slug: 'coburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#1a3c6e' },
+      { slug: 'coburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#1a3c6e', hasResults: true },
     ],
   },
   {
     name: 'Erlangen',
     stateId: 'by',
     elections: [
-      { slug: 'erlangen-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#003366' },
+      { slug: 'erlangen-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#003366', hasResults: true },
     ],
   },
   {
     name: 'Fürth',
     stateId: 'by',
     elections: [
-      { slug: 'fuerth-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#006633' },
+      { slug: 'fuerth-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#006633', hasResults: true },
     ],
   },
   {
     name: 'Hof',
     stateId: 'by',
     elections: [
-      { slug: 'hof-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#8B0000' },
+      { slug: 'hof-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#8B0000', hasResults: true },
     ],
   },
   {
     name: 'Ingolstadt',
     stateId: 'by',
     elections: [
-      { slug: 'ingolstadt-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#0072bc' },
+      { slug: 'ingolstadt-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#0072bc', hasResults: true },
     ],
   },
   {
     name: 'Kaufbeuren',
     stateId: 'by',
     elections: [
-      { slug: 'kaufbeuren-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#2e7d32' },
+      { slug: 'kaufbeuren-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#2e7d32', hasResults: true },
     ],
   },
   {
     name: 'Kempten',
     stateId: 'by',
     elections: [
-      { slug: 'kempten-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#006847' },
+      { slug: 'kempten-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#006847', hasResults: true },
     ],
   },
   {
     name: 'Landshut',
     stateId: 'by',
     elections: [
-      { slug: 'landshut-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#c62828' },
+      { slug: 'landshut-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#c62828', hasResults: true },
     ],
   },
   {
     name: 'Memmingen',
     stateId: 'by',
     elections: [
-      { slug: 'memmingen-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#1976d2' },
+      { slug: 'memmingen-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#1976d2', hasResults: true },
     ],
   },
   {
     name: 'München',
     stateId: 'by',
     elections: [
-      { slug: 'muenchen-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 80, themeColor: '#1a4d8f' },
+      { slug: 'muenchen-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 80, themeColor: '#1a4d8f', hasResults: true },
     ],
   },
   {
     name: 'Nürnberg',
     stateId: 'by',
     elections: [
-      { slug: 'nuernberg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 70, themeColor: '#c41e3a' },
+      { slug: 'nuernberg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 70, themeColor: '#c41e3a', hasResults: true },
     ],
   },
   {
     name: 'Passau',
     stateId: 'by',
     elections: [
-      { slug: 'passau-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#c41e3a' },
+      { slug: 'passau-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#c41e3a', hasResults: true },
     ],
   },
   {
     name: 'Regensburg',
     stateId: 'by',
     elections: [
-      { slug: 'regensburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#004f9f' },
+      { slug: 'regensburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#004f9f', hasResults: true },
     ],
   },
   {
     name: 'Rosenheim',
     stateId: 'by',
     elections: [
-      { slug: 'rosenheim-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#1a5276' },
+      { slug: 'rosenheim-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#1a5276', hasResults: true },
     ],
   },
   {
     name: 'Schwabach',
     stateId: 'by',
     elections: [
-      { slug: 'schwabach-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#f9a825' },
+      { slug: 'schwabach-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#f9a825', hasResults: true },
     ],
   },
   {
     name: 'Schweinfurt',
     stateId: 'by',
     elections: [
-      { slug: 'schweinfurt-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#003f72' },
+      { slug: 'schweinfurt-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 44, themeColor: '#003f72', hasResults: true },
     ],
   },
   {
     name: 'Straubing',
     stateId: 'by',
     elections: [
-      { slug: 'straubing-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#004e8a' },
+      { slug: 'straubing-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#004e8a', hasResults: true },
     ],
   },
   {
     name: 'Würzburg',
     stateId: 'by',
     elections: [
-      { slug: 'wuerzburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#8B0000' },
+      { slug: 'wuerzburg-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 50, themeColor: '#8B0000', hasResults: true },
     ],
   },
   {
     name: 'Weiden i.d.OPf.',
     stateId: 'by',
     elections: [
-      { slug: 'weiden-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#1565c0' },
+      { slug: 'weiden-stadtrat', label: 'Stadtrat', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 40, themeColor: '#1565c0', hasResults: true },
     ],
   },
   {

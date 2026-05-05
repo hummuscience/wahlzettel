@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#004422',
 
   dataFile: 'fuerth-stadtrat.json',
+  resultsFile: 'results-fuerth-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.fuerth.de/wahlen',
 };

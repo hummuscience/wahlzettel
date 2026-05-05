@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#0d47a1',
 
   dataFile: 'memmingen-stadtrat.json',
+  resultsFile: 'results-memmingen-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.memmingen.de/politik-verwaltung/wahlen.html',
 };

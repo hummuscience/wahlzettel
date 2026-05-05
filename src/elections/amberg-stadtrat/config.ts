@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#2d3f28',
 
   dataFile: 'amberg-stadtrat.json',
+  resultsFile: 'results-amberg-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://amberg.de/kommunalwahl',
 };

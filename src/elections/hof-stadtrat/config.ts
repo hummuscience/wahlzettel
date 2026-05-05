@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#520000',
 
   dataFile: 'hof-stadtrat.json',
+  resultsFile: 'results-hof-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.hof.de/rathaus-service/buergerservice/wahlen/kommunalwahl-2026',
 };

@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#002544',
 
   dataFile: 'schweinfurt-stadtrat.json',
+  resultsFile: 'results-schweinfurt-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.schweinfurt.de/rathaus-politik/stadt/wahlen/kommunalwahlen-2026/',
 };

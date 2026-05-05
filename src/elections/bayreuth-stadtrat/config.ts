@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#8b1528',
 
   dataFile: 'bayreuth-stadtrat.json',
+  resultsFile: 'results-bayreuth-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.bayreuth.de/wahlen',
 };

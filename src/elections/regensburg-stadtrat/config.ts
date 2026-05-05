@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#003370',
 
   dataFile: 'regensburg-stadtrat.json',
+  resultsFile: 'results-regensburg-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.regensburg.de/rathaus/wahlen',
 };

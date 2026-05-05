@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#004d80',
 
   dataFile: 'ingolstadt-stadtrat.json',
+  resultsFile: 'results-ingolstadt-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.ingolstadt.de/Rathaus_Politik/Wahlen/Kommunalwahlen/',
 };

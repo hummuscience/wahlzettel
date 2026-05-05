@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#8b1528',
 
   dataFile: 'passau-stadtrat.json',
+  resultsFile: 'results-passau-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.passau.de/rathaus-buergerservice/dienstleistungen/a-z/kommunalwahl-2026/',
 };

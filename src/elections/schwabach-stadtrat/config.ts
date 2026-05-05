@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#f57f17',
 
   dataFile: 'schwabach-stadtrat.json',
+  resultsFile: 'results-schwabach-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.schwabach.de/de/wahlamt',
 };

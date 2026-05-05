@@ -1,0 +1,2115 @@
+{
+  "election": "aschaffenburg-stadtrat",
+  "stand": "2026-03-09",
+  "totalSeats": 44,
+  "totals": {
+    "validVotes": 1111302,
+    "validBallots": 28731,
+    "wahlberechtigte": 53872,
+    "waehlerGesamt": 29805,
+    "ungueltigeStimmzettel": 1074,
+    "kandidatenInsgesamt": 278,
+    "frauenInsgesamt": null,
+    "ballotsWithListenkreuz": null,
+    "ballotsWithListenkreuzPercent": null,
+    "turnout": 55.3
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "CSU",
+      "fullName": "CSU",
+      "color": "#000000",
+      "percent": 28.0,
+      "votesAbsolute": 311343,
+      "votesWeighted": 8049,
+      "seats": 12,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Schlemmer",
+          "firstName": "Markus",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 2,
+          "lastName": "Euler",
+          "firstName": "Jessica",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 3,
+          "lastName": "Bausback",
+          "firstName": "Prof. Dr. Winfried",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 4,
+          "lastName": "Weber",
+          "firstName": "Marcus",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 5,
+          "lastName": "Alfen",
+          "firstName": "Michael",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 6,
+          "lastName": "Koch",
+          "firstName": "Dr. Petra",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 7,
+          "lastName": "Bausback",
+          "firstName": "Dr. Maria",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 8,
+          "lastName": "Sander",
+          "firstName": "Angelica",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 9,
+          "lastName": "Gerlach",
+          "firstName": "Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 10,
+          "lastName": "Rath",
+          "firstName": "Johanna",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 11,
+          "lastName": "Reusch",
+          "firstName": "Robin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 12,
+          "lastName": "Otter",
+          "firstName": "Gerald",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 13,
+          "lastName": "Grimm",
+          "firstName": "Jochen",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 14,
+          "lastName": "Merten",
+          "firstName": "Daniel",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 15,
+          "lastName": "Tramaglino",
+          "firstName": "Pasquale",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 16,
+          "lastName": "Schneider-Häcker",
+          "firstName": "Corinna",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 17,
+          "lastName": "Brundyn",
+          "firstName": "Klara",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 18,
+          "lastName": "Kullmann",
+          "firstName": "Natalie",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 19,
+          "lastName": "Holder",
+          "firstName": "Flora Ira Marie",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 20,
+          "lastName": "Gärtner",
+          "firstName": "Jürgen",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 21,
+          "lastName": "Kremer",
+          "firstName": "Markus",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 22,
+          "lastName": "Schleicher",
+          "firstName": "Gustav",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 23,
+          "lastName": "Völker",
+          "firstName": "Fabian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 24,
+          "lastName": "Christl",
+          "firstName": "Frank",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 25,
+          "lastName": "med.",
+          "firstName": "Dr. Löwer Robert",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 26,
+          "lastName": "Heyde",
+          "firstName": "Tobias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 27,
+          "lastName": "Bernard",
+          "firstName": "Patrick",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 28,
+          "lastName": "Bretzigheimer",
+          "firstName": "Dagmar",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 29,
+          "lastName": "Marx",
+          "firstName": "Gerald",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 30,
+          "lastName": "Deckert",
+          "firstName": "Simon",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 31,
+          "lastName": "Schramm",
+          "firstName": "Alexandra",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 32,
+          "lastName": "Elsesser",
+          "firstName": "André",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 33,
+          "lastName": "Wilhelm",
+          "firstName": "Laurent",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 34,
+          "lastName": "Junge",
+          "firstName": "Philipp",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 35,
+          "lastName": "Giloj",
+          "firstName": "Marcel",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 36,
+          "lastName": "Schmitz",
+          "firstName": "Theo",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 37,
+          "lastName": "Dooley",
+          "firstName": "Jessica",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 38,
+          "lastName": "Rusek",
+          "firstName": "Sebastian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 39,
+          "lastName": "Er",
+          "firstName": "Cüneyt",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 40,
+          "lastName": "Schumbert",
+          "firstName": "Dominik",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 41,
+          "lastName": "Heinz",
+          "firstName": "Andreas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 42,
+          "lastName": "Manus",
+          "firstName": "Juliane",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 43,
+          "lastName": "Hofmann",
+          "firstName": "David",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 44,
+          "lastName": "Kolb",
+          "firstName": "Karl Georg",
+          "profession": null,
+          "stimmen": null
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "SPD",
+      "fullName": "SPD",
+      "color": "#e3000f",
+      "percent": 22.7,
+      "votesAbsolute": 252150,
+      "votesWeighted": 6519,
+      "seats": 10,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Herzing",
+          "firstName": "Jürgen",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 2,
+          "lastName": "Fehlner",
+          "firstName": "Martina",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 3,
+          "lastName": "Leiderer",
+          "firstName": "Eric",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 4,
+          "lastName": "Kaiser",
+          "firstName": "Anna-Christina",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 5,
+          "lastName": "Henke",
+          "firstName": "Dr. Erich",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 6,
+          "lastName": "Dröschel",
+          "firstName": "Stefanie",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 7,
+          "lastName": "Stegmann",
+          "firstName": "Karl Heinz",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 8,
+          "lastName": "Wrobel",
+          "firstName": "Sonja",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 9,
+          "lastName": "Wortmann",
+          "firstName": "Björn",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 10,
+          "lastName": "Narloch",
+          "firstName": "Elisa",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 11,
+          "lastName": "Flaton",
+          "firstName": "Uwe",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 12,
+          "lastName": "Erhard",
+          "firstName": "Esther",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 13,
+          "lastName": "Wüst",
+          "firstName": "Tobias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 14,
+          "lastName": "Haas",
+          "firstName": "Erika",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 15,
+          "lastName": "Michniok",
+          "firstName": "Manuel",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 16,
+          "lastName": "Pranghofer-Weide",
+          "firstName": "Esther",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 17,
+          "lastName": "Gerlach",
+          "firstName": "Dieter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 18,
+          "lastName": "Singelmann",
+          "firstName": "Ulrike",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 19,
+          "lastName": "Adloo",
+          "firstName": "Kassra",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 20,
+          "lastName": "Salefsky",
+          "firstName": "Birgit",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 21,
+          "lastName": "Wenzel",
+          "firstName": "Matthias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 22,
+          "lastName": "Zöller",
+          "firstName": "Pierre",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 23,
+          "lastName": "Pancarci",
+          "firstName": "Özcan",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 24,
+          "lastName": "Stoll",
+          "firstName": "Peter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 25,
+          "lastName": "Torić",
+          "firstName": "Hasan",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 26,
+          "lastName": "Dietrich",
+          "firstName": "Helge",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 27,
+          "lastName": "Leiderer",
+          "firstName": "Manuel",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 28,
+          "lastName": "Ranker",
+          "firstName": "Nicole",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 29,
+          "lastName": "Stürmer",
+          "firstName": "Wolfram",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 30,
+          "lastName": "Goes",
+          "firstName": "Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 31,
+          "lastName": "Sommer",
+          "firstName": "Karl",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 32,
+          "lastName": "Bubenzer",
+          "firstName": "Paul",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 33,
+          "lastName": "Skrobek",
+          "firstName": "Walter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 34,
+          "lastName": "Kazan",
+          "firstName": "Serkan",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 35,
+          "lastName": "phil.",
+          "firstName": "Dr. Paczesny Reinhard",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 36,
+          "lastName": "Torić",
+          "firstName": "Tim",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 37,
+          "lastName": "Brehm",
+          "firstName": "Maximilian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 38,
+          "lastName": "Jungewelter",
+          "firstName": "Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 39,
+          "lastName": "med.",
+          "firstName": "Dr. Göbel Mathias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 40,
+          "lastName": "med.",
+          "firstName": "Dr. Henke Julia",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 41,
+          "lastName": "med.",
+          "firstName": "Dr. Böhlau Reinhard",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 42,
+          "lastName": "Lenz-Böhlau",
+          "firstName": "Anne",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 43,
+          "lastName": "Herzog",
+          "firstName": "Matthias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 44,
+          "lastName": "Herzog",
+          "firstName": "Klaus",
+          "profession": null,
+          "stimmen": null
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "GRÜNE",
+      "fullName": "GRÜNE",
+      "color": "#1AA037",
+      "percent": 15.0,
+      "votesAbsolute": 166337,
+      "votesWeighted": 4301,
+      "seats": 7,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Hartl",
+          "firstName": "Monika",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 2,
+          "lastName": "Handt",
+          "firstName": "Dennis",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 3,
+          "lastName": "Tews",
+          "firstName": "Nicola",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 4,
+          "lastName": "Weckwerth",
+          "firstName": "Elias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 5,
+          "lastName": "Handt",
+          "firstName": "Emilia",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 6,
+          "lastName": "Wagener",
+          "firstName": "Niklas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 7,
+          "lastName": "jur.",
+          "firstName": "Dr. Holzheu Nicole",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 8,
+          "lastName": "Giegerich",
+          "firstName": "Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 9,
+          "lastName": "Ruf",
+          "firstName": "Rosemarie",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 10,
+          "lastName": "Markert",
+          "firstName": "Michael",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 11,
+          "lastName": "Fleckenstein",
+          "firstName": "Gabriele",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 12,
+          "lastName": "Eisert",
+          "firstName": "Dominik",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 13,
+          "lastName": "Stemmler",
+          "firstName": "Sinja",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 14,
+          "lastName": "Michaeli",
+          "firstName": "Peter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 15,
+          "lastName": "Stapf",
+          "firstName": "Hildegard",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 16,
+          "lastName": "Simon",
+          "firstName": "Dirk",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 17,
+          "lastName": "Hepp",
+          "firstName": "Johanna",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 18,
+          "lastName": "Schittig",
+          "firstName": "Martin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 19,
+          "lastName": "Büttner",
+          "firstName": "Constanze",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 20,
+          "lastName": "med.",
+          "firstName": "Dr. Grimm Wolfgang",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 21,
+          "lastName": "Büttner",
+          "firstName": "Maria",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 22,
+          "lastName": "Sommer",
+          "firstName": "Yannick",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 23,
+          "lastName": "Hofmann",
+          "firstName": "Barbara",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 24,
+          "lastName": "Doll",
+          "firstName": "Andreas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 25,
+          "lastName": "Borger",
+          "firstName": "Katharina",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 26,
+          "lastName": "Stahl",
+          "firstName": "Marco",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 27,
+          "lastName": "Orth",
+          "firstName": "Christiane",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 28,
+          "lastName": "Sattmann",
+          "firstName": "Dr. Ralph",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 29,
+          "lastName": "Gerweck",
+          "firstName": "Simone",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 30,
+          "lastName": "Heß",
+          "firstName": "Michael",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 31,
+          "lastName": "Gerlach",
+          "firstName": "Larissa",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 32,
+          "lastName": "Müller-Conrad",
+          "firstName": "Elke",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 33,
+          "lastName": "Epe-Jungeblodt",
+          "firstName": "Franziska",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 34,
+          "lastName": "Ortmann",
+          "firstName": "Julia",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 35,
+          "lastName": "Gerweck",
+          "firstName": "Claudia",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 36,
+          "lastName": "Gerhard",
+          "firstName": "Kai",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 37,
+          "lastName": "Rohrmeier",
+          "firstName": "Maria",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 38,
+          "lastName": "Syndikus",
+          "firstName": "Rudolf",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 39,
+          "lastName": "Friedrich",
+          "firstName": "Kerstin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 40,
+          "lastName": "Panzner",
+          "firstName": "Michael",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 41,
+          "lastName": "Wörner",
+          "firstName": "Gudrun",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 42,
+          "lastName": "Helm",
+          "firstName": "Wolfgang",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 43,
+          "lastName": "Kraus",
+          "firstName": "Silke",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 44,
+          "lastName": "Büttner",
+          "firstName": "Johannes",
+          "profession": null,
+          "stimmen": null
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "AfD",
+      "fullName": "AfD",
+      "color": "#009ee0",
+      "percent": 13.1,
+      "votesAbsolute": 145271,
+      "votesWeighted": 3756,
+      "seats": 6,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Petri",
+          "firstName": "Carmen",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 2,
+          "lastName": "Keller",
+          "firstName": "Falko",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 3,
+          "lastName": "Reisel",
+          "firstName": "Norbert",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 4,
+          "lastName": "Storm",
+          "firstName": "Ramona",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 5,
+          "lastName": "Väth",
+          "firstName": "Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 6,
+          "lastName": "Billinger",
+          "firstName": "Jens",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 7,
+          "lastName": "Franke",
+          "firstName": "Lothar",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 8,
+          "lastName": "Kraft",
+          "firstName": "André",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 9,
+          "lastName": "Kraus",
+          "firstName": "Andreas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 10,
+          "lastName": "Petermann",
+          "firstName": "Jürgen",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 11,
+          "lastName": "Herrmann",
+          "firstName": "Peter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 12,
+          "lastName": "Doncheva",
+          "firstName": "Iglika",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 13,
+          "lastName": "Taschowsky",
+          "firstName": "Peter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 14,
+          "lastName": "Ruge",
+          "firstName": "Marco",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 15,
+          "lastName": "Kulau",
+          "firstName": "Juri",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 16,
+          "lastName": "Schwarz",
+          "firstName": "Kerstin",
+          "profession": null,
+          "stimmen": null
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "shortName": "Die Linke",
+      "fullName": "Die Linke",
+      "color": "#be3075",
+      "percent": 5.9,
+      "votesAbsolute": 65704,
+      "votesWeighted": 1699,
+      "seats": 3,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Halmen",
+          "firstName": "Lateesha",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 2,
+          "lastName": "Kraus",
+          "firstName": "Sebastian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 3,
+          "lastName": "Hahner",
+          "firstName": "Ember",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 4,
+          "lastName": "Vidia",
+          "firstName": "Farid",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 5,
+          "lastName": "Teuscher",
+          "firstName": "Axel",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 6,
+          "lastName": "Normann",
+          "firstName": "Amelia",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 7,
+          "lastName": "D'Onofrio",
+          "firstName": "Janka",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 8,
+          "lastName": "Merget",
+          "firstName": "Marius",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 9,
+          "lastName": "Matyssek",
+          "firstName": "Aliena",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 10,
+          "lastName": "Weidner",
+          "firstName": "Florian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 11,
+          "lastName": "Weidner",
+          "firstName": "Johanna",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 12,
+          "lastName": "Bert",
+          "firstName": "Julian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 13,
+          "lastName": "Rumpel",
+          "firstName": "Franziska",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 14,
+          "lastName": "Dühr",
+          "firstName": "Tobias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 15,
+          "lastName": "Reymer",
+          "firstName": "Sandra",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 16,
+          "lastName": "Braun",
+          "firstName": "Malte",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 17,
+          "lastName": "Burkl",
+          "firstName": "Luisa",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 18,
+          "lastName": "Rosenberger",
+          "firstName": "Philipp",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 19,
+          "lastName": "Schickling",
+          "firstName": "Johanna",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 20,
+          "lastName": "Philipp",
+          "firstName": "Kai",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 21,
+          "lastName": "Teuscher",
+          "firstName": "Meike",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 22,
+          "lastName": "Burkl",
+          "firstName": "Veronika",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 23,
+          "lastName": "Romero",
+          "firstName": "Richter Raul",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 24,
+          "lastName": "Krampe",
+          "firstName": "Paul",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 25,
+          "lastName": "Klein",
+          "firstName": "Timo",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 26,
+          "lastName": "D'Onofrio",
+          "firstName": "Luca",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 27,
+          "lastName": "Sarassis",
+          "firstName": "Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 28,
+          "lastName": "Bernhard",
+          "firstName": "Max",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 29,
+          "lastName": "Maruschke",
+          "firstName": "Tillmann",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 30,
+          "lastName": "Ziemlich",
+          "firstName": "Christian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 31,
+          "lastName": "Ortmann",
+          "firstName": "Sven",
+          "profession": null,
+          "stimmen": null
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "shortName": "Junge Union",
+      "fullName": "Junge Union",
+      "color": null,
+      "percent": 4.1,
+      "votesAbsolute": 45652,
+      "votesWeighted": 1180,
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "listNumber": 6,
+      "shortName": "FDP",
+      "fullName": "FDP",
+      "color": "#ffed00",
+      "percent": 3.3,
+      "votesAbsolute": 36404,
+      "votesWeighted": 941,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Dalberg",
+          "firstName": "Julian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 2,
+          "lastName": "Frey",
+          "firstName": "Constanze",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 3,
+          "lastName": "Bohn",
+          "firstName": "Lukas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 4,
+          "lastName": "Klein",
+          "firstName": "Karsten",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 5,
+          "lastName": "Tobias",
+          "firstName": "Katrin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 6,
+          "lastName": "Verhoefen",
+          "firstName": "Nikolas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 7,
+          "lastName": "Obermeier",
+          "firstName": "Michael",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 8,
+          "lastName": "Kusy",
+          "firstName": "Julia",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 9,
+          "lastName": "Fehlig",
+          "firstName": "Albrecht",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 10,
+          "lastName": "Fisch",
+          "firstName": "Steffen",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 11,
+          "lastName": "Poullie",
+          "firstName": "Marcel",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 12,
+          "lastName": "Michel",
+          "firstName": "Kevin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 13,
+          "lastName": "Klein",
+          "firstName": "Susanne",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 14,
+          "lastName": "Sander",
+          "firstName": "Peter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 15,
+          "lastName": "Turbatu",
+          "firstName": "Ioana Cristina",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 16,
+          "lastName": "Ruppel",
+          "firstName": "Maximilian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 17,
+          "lastName": "Dalberg",
+          "firstName": "Vanessa",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 18,
+          "lastName": "Neef",
+          "firstName": "Jürgen",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 19,
+          "lastName": "Klein",
+          "firstName": "Joachim",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 20,
+          "lastName": "Hirschbeck",
+          "firstName": "Dr. Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 21,
+          "lastName": "Klein",
+          "firstName": "Karin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 22,
+          "lastName": "Müller",
+          "firstName": "André",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 23,
+          "lastName": "Trummer",
+          "firstName": "Wolfgang",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 24,
+          "lastName": "Kern",
+          "firstName": "Harald",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 25,
+          "lastName": "Tobias",
+          "firstName": "Irmgard",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 26,
+          "lastName": "Kühnel",
+          "firstName": "Matthias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 27,
+          "lastName": "Reiserth",
+          "firstName": "Michael",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 28,
+          "lastName": "Klomp",
+          "firstName": "Walter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 29,
+          "lastName": "Gaul",
+          "firstName": "Manuel",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 30,
+          "lastName": "Dalberg",
+          "firstName": "Joanna",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 31,
+          "lastName": "Sperlich",
+          "firstName": "Marco",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 32,
+          "lastName": "Verhoefen",
+          "firstName": "Peter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 33,
+          "lastName": "Frey",
+          "firstName": "Günter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 34,
+          "lastName": "Kugolowski",
+          "firstName": "Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 35,
+          "lastName": "Telkemeier",
+          "firstName": "Tobias",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 36,
+          "lastName": "Kissig",
+          "firstName": "Andreas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 37,
+          "lastName": "Zöller",
+          "firstName": "Thore",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 38,
+          "lastName": "Hintzenstern",
+          "firstName": "Hans-Jürgen",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 39,
+          "lastName": "Flechsenhaar",
+          "firstName": "Magnus",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 40,
+          "lastName": "Goldapp",
+          "firstName": "Christian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 41,
+          "lastName": "Meyer-Bothling",
+          "firstName": "Bob",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 42,
+          "lastName": "Klein",
+          "firstName": "Siegfried",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 43,
+          "lastName": "Weyrauch",
+          "firstName": "Jens",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 44,
+          "lastName": "Klein",
+          "firstName": "Karoline",
+          "profession": null,
+          "stimmen": null
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "color": "#f7a800",
+      "percent": 3.0,
+      "votesAbsolute": 33157,
+      "votesWeighted": 857,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Kolb",
+          "firstName": "Veit",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 2,
+          "lastName": "Komo",
+          "firstName": "Jacky",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 3,
+          "lastName": "Forman",
+          "firstName": "Josef",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 4,
+          "lastName": "Schuck",
+          "firstName": "Andreas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 5,
+          "lastName": "Strunz",
+          "firstName": "Cheyenne",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 6,
+          "lastName": "Friedrich",
+          "firstName": "Benno",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 7,
+          "lastName": "Huhn",
+          "firstName": "Udo",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 8,
+          "lastName": "Grimm",
+          "firstName": "Yasmin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 9,
+          "lastName": "Steinicke",
+          "firstName": "Maik",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 10,
+          "lastName": "Brandenbusch",
+          "firstName": "René",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 11,
+          "lastName": "Hermann",
+          "firstName": "Joshua",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 12,
+          "lastName": "Petri",
+          "firstName": "Felix",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 13,
+          "lastName": "Jung",
+          "firstName": "Sophia",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 14,
+          "lastName": "Piosetzny",
+          "firstName": "Claudia",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 15,
+          "lastName": "Kunkel",
+          "firstName": "Janet",
+          "profession": null,
+          "stimmen": null
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "shortName": "ÖDP",
+      "fullName": "ÖDP",
+      "color": "#f58220",
+      "percent": 2.5,
+      "votesAbsolute": 27813,
+      "votesWeighted": 719,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Schmitt",
+          "firstName": "Bernhard",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 2,
+          "lastName": "Dehn",
+          "firstName": "Katharina",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 3,
+          "lastName": "Streib",
+          "firstName": "Alfred",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 4,
+          "lastName": "Seitz",
+          "firstName": "Dr. Ursula",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 5,
+          "lastName": "Müller",
+          "firstName": "Thomas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 6,
+          "lastName": "med.",
+          "firstName": "Dr. Deuerling Dagmar",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 7,
+          "lastName": "Lang",
+          "firstName": "Rudolf",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 8,
+          "lastName": "Fertig",
+          "firstName": "Elke",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 9,
+          "lastName": "Blaschke",
+          "firstName": "Joachim",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 10,
+          "lastName": "Bauer",
+          "firstName": "Katrin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 11,
+          "lastName": "Scheibler",
+          "firstName": "Kurt",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 12,
+          "lastName": "Dirschedl",
+          "firstName": "Karin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 13,
+          "lastName": "Elbert",
+          "firstName": "Christopher",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 14,
+          "lastName": "Lüder",
+          "firstName": "Luis",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 15,
+          "lastName": "Kumar",
+          "firstName": "Haresh",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 16,
+          "lastName": "Asp",
+          "firstName": "Ursula",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 17,
+          "lastName": "Zänglein",
+          "firstName": "Peter",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 18,
+          "lastName": "Bauer",
+          "firstName": "Martin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 19,
+          "lastName": "Bohley",
+          "firstName": "Monika",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 20,
+          "lastName": "Meister",
+          "firstName": "Katrin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 21,
+          "lastName": "Bauer",
+          "firstName": "Alexander",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 22,
+          "lastName": "Kullmann",
+          "firstName": "Beate",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 23,
+          "lastName": "Loy",
+          "firstName": "Albert",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 24,
+          "lastName": "Sefrin",
+          "firstName": "Monika",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 25,
+          "lastName": "Bauer",
+          "firstName": "Elisabeth",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 26,
+          "lastName": "Riedenauer",
+          "firstName": "Andreas",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 27,
+          "lastName": "Zänglein",
+          "firstName": "Hildegard",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 28,
+          "lastName": "Riedel",
+          "firstName": "Ursula",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 29,
+          "lastName": "Steinle",
+          "firstName": "Regina",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 30,
+          "lastName": "Eich",
+          "firstName": "Ursula",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 31,
+          "lastName": "Griffin",
+          "firstName": "Kevin",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 32,
+          "lastName": "Neumann",
+          "firstName": "Horst",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 33,
+          "lastName": "Jung",
+          "firstName": "Karl-Heinz",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 34,
+          "lastName": "Grote",
+          "firstName": "Timm",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 35,
+          "lastName": "Rausch",
+          "firstName": "Benno",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 36,
+          "lastName": "Stürmer",
+          "firstName": "Ursula",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 37,
+          "lastName": "Lauf",
+          "firstName": "Christian",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 38,
+          "lastName": "Roth-Franz",
+          "firstName": "Ute",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 39,
+          "lastName": "Meininger",
+          "firstName": "Herbert",
+          "profession": null,
+          "stimmen": null
+        },
+        {
+          "position": 40,
+          "lastName": "Steinle",
+          "firstName": "Werner",
+          "profession": null,
+          "stimmen": null
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "shortName": "Kommunale Initiative",
+      "fullName": "Kommunale Initiative",
+      "color": null,
+      "percent": 2.5,
+      "votesAbsolute": 27471,
+      "votesWeighted": 710,
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "listNumber": 11,
+      "shortName": "UBV",
+      "fullName": "UBV",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": null,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": []
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖDP",
+    "Die PARTEI",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "PIRATEN",
+    "Gartenpartei",
+    "FDP",
+    "FREIE WÄHLER",
+    "FW",
+    "CSU",
+    "CDU",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://kommunalwahl2026.bayern.de/downloads/gremienwahl/Kommunalwahl_Gremien_Kreisfreie_Staedte.xml"
+  ]
+}

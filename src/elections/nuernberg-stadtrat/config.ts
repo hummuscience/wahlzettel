@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#8b1528',
 
   dataFile: 'nuernberg-stadtrat.json',
+  resultsFile: 'results-nuernberg-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.nuernberg.de/internet/wahlen/',
 };

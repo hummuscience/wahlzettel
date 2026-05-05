@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#5c0000',
 
   dataFile: 'wuerzburg-stadtrat.json',
+  resultsFile: 'results-wuerzburg-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.wuerzburg.de/wahlen',
 };

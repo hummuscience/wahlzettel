@@ -1,0 +1,161 @@
+{
+  "election": "ansbach-stadtrat",
+  "stand": "2026-03-11",
+  "totalSeats": 40,
+  "totals": {
+    "validVotes": 615065,
+    "validBallots": 17039,
+    "wahlberechtigte": 27259,
+    "waehlerGesamt": 17502,
+    "ungueltigeStimmzettel": 463,
+    "kandidatenInsgesamt": null,
+    "frauenInsgesamt": null,
+    "ballotsWithListenkreuz": null,
+    "ballotsWithListenkreuzPercent": null,
+    "turnout": 64.2
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "CSU",
+      "fullName": "CSU",
+      "color": "#000000",
+      "percent": 25.6,
+      "votesAbsolute": 157756,
+      "votesWeighted": 4370,
+      "seats": 10,
+      "candidates": []
+    },
+    {
+      "listNumber": 3,
+      "shortName": "AfD",
+      "fullName": "AfD",
+      "color": "#009ee0",
+      "percent": 14.6,
+      "votesAbsolute": 89939,
+      "votesWeighted": 2492,
+      "seats": 6,
+      "candidates": []
+    },
+    {
+      "listNumber": 9,
+      "shortName": "Die Ansbacher",
+      "fullName": "Die Ansbacher",
+      "color": null,
+      "percent": 12.9,
+      "votesAbsolute": 79578,
+      "votesWeighted": 2205,
+      "seats": 5,
+      "candidates": []
+    },
+    {
+      "listNumber": 4,
+      "shortName": "GRÜNE",
+      "fullName": "GRÜNE",
+      "color": "#1AA037",
+      "percent": 10.8,
+      "votesAbsolute": 66499,
+      "votesWeighted": 1842,
+      "seats": 4,
+      "candidates": []
+    },
+    {
+      "listNumber": 5,
+      "shortName": "SPD",
+      "fullName": "SPD",
+      "color": "#e3000f",
+      "percent": 9.2,
+      "votesAbsolute": 56583,
+      "votesWeighted": 1567,
+      "seats": 4,
+      "candidates": []
+    },
+    {
+      "listNumber": 6,
+      "shortName": "Bürgerinitiative Ansbacher Parteiloser e.V.",
+      "fullName": "Bürgerinitiative Ansbacher Parteiloser e.V.",
+      "color": null,
+      "percent": 7.6,
+      "votesAbsolute": 46868,
+      "votesWeighted": 1298,
+      "seats": 3,
+      "candidates": []
+    },
+    {
+      "listNumber": 2,
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "color": "#f7a800",
+      "percent": 6.5,
+      "votesAbsolute": 39800,
+      "votesWeighted": 1103,
+      "seats": 3,
+      "candidates": []
+    },
+    {
+      "listNumber": 7,
+      "shortName": "Offene Linke Ansbach",
+      "fullName": "Offene Linke Ansbach",
+      "color": null,
+      "percent": 5.9,
+      "votesAbsolute": 36113,
+      "votesWeighted": 1000,
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "listNumber": 8,
+      "shortName": "ÖDP",
+      "fullName": "ÖDP",
+      "color": "#f58220",
+      "percent": 4.5,
+      "votesAbsolute": 27608,
+      "votesWeighted": 765,
+      "seats": 2,
+      "candidates": []
+    },
+    {
+      "listNumber": 10,
+      "shortName": "Die Linke",
+      "fullName": "Die Linke",
+      "color": "#be3075",
+      "percent": 2.3,
+      "votesAbsolute": 14321,
+      "votesWeighted": 397,
+      "seats": 1,
+      "candidates": []
+    },
+    {
+      "listNumber": 11,
+      "shortName": "FDP",
+      "fullName": "FDP",
+      "color": "#ffed00",
+      "percent": null,
+      "votesAbsolute": null,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": []
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖDP",
+    "Die PARTEI",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "PIRATEN",
+    "Gartenpartei",
+    "FDP",
+    "FREIE WÄHLER",
+    "FW",
+    "CSU",
+    "CDU",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://kommunalwahl2026.bayern.de/downloads/gremienwahl/Kommunalwahl_Gremien_Kreisfreie_Staedte.xml"
+  ]
+}

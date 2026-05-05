@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#c62828',
 
   dataFile: 'aschaffenburg-stadtrat.json',
+  resultsFile: 'results-aschaffenburg-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.aschaffenburg.de/Politik-Verwaltung/Wahlen/',
 };

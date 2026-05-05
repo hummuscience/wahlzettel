@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#0f3047',
 
   dataFile: 'rosenheim-stadtrat.json',
+  resultsFile: 'results-rosenheim-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.rosenheim.de/politik-verwaltung/wahlen-buergerbeteiligung/kommunalwahlen-2026/',
 };

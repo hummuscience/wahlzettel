@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#5c2d0e',
 
   dataFile: 'bamberg-stadtrat.json',
+  resultsFile: 'results-bamberg-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.stadt.bamberg.de/wahlen',
 };

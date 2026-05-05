@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#0e2f5a',
 
   dataFile: 'muenchen-stadtrat.json',
+  resultsFile: 'results-muenchen-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://stadt.muenchen.de/infos/kommunalwahlen.html',
 };

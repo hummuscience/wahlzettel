@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#0f2440',
 
   dataFile: 'coburg-stadtrat.json',
+  resultsFile: 'results-coburg-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.coburg.de/stadtpolitik/wahlen-und-abstimmungen/',
 };

@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#003d2a',
 
   dataFile: 'kempten-stadtrat.json',
+  resultsFile: 'results-kempten-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.kempten.de/40490.html',
 };

@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#002e52',
 
   dataFile: 'straubing-stadtrat.json',
+  resultsFile: 'results-straubing-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.straubing.de/rathaus-verwaltung/politik/kommunalwahl-2026/',
 };

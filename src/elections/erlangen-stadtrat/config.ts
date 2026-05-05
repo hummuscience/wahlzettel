@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#001f3f',
 
   dataFile: 'erlangen-stadtrat.json',
+  resultsFile: 'results-erlangen-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.erlangen.de/wahlen',
 };

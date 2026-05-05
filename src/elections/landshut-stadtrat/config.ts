@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#b71c1c',
 
   dataFile: 'landshut-stadtrat.json',
+  resultsFile: 'results-landshut-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.landshut.de/rathaus-politik/wahlen',
 };

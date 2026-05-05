@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#1b5e20',
 
   dataFile: 'kaufbeuren-stadtrat.json',
+  resultsFile: 'results-kaufbeuren-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.kaufbeuren.de/nav/stadtrat-verwaltung/wahlen.aspx',
 };

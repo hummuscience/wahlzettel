@@ -22,6 +22,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#004a32',
 
   dataFile: 'augsburg-stadtrat.json',
+  resultsFile: 'results-augsburg-stadtrat.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.augsburg.de/buergerservice/wahlen',
 };
