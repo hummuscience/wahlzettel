@@ -19,6 +19,12 @@ interface BallotViewProps {
   /** True in post-election mode. Strips voting controls (Listenkreuz,
    * VoteCircles, strike) and renders a read-only results table. */
   readOnly?: boolean;
+  /** Optional controlled active-party index. When provided alongside
+   * `onActiveIndexChange`, the ballot becomes a controlled component —
+   * the parent (e.g. App in post-mode) drives which party tab is active.
+   * When omitted, the ballot manages its own internal state. */
+  activeIndex?: number;
+  onActiveIndexChange?: (i: number) => void;
 }
 
 export function BallotView({
@@ -31,21 +37,39 @@ export function BallotView({
   isListVoteActive,
   getListAllocation,
   readOnly = false,
+  activeIndex: controlledActiveIndex,
+  onActiveIndexChange,
 }: BallotViewProps) {
   const { t } = useTranslation('ballot');
   const { t: te } = useTranslation('election');
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [internalActiveIndex, setInternalActiveIndex] = useState(0);
 
   const parties = electionData.parties;
+  const isControlled = controlledActiveIndex !== undefined;
+  const activeIndex = isControlled ? controlledActiveIndex : internalActiveIndex;
+  const setActiveIndex = useCallback(
+    (next: number | ((prev: number) => number)) => {
+      const value = typeof next === 'function'
+        ? (next as (prev: number) => number)(activeIndex)
+        : next;
+      if (isControlled) {
+        onActiveIndexChange?.(value);
+      } else {
+        setInternalActiveIndex(value);
+      }
+    },
+    [isControlled, onActiveIndexChange, activeIndex],
+  );
+
   const activeParty = parties[activeIndex];
 
   const handlePrev = useCallback(() => {
     setActiveIndex(i => Math.max(0, i - 1));
-  }, []);
+  }, [setActiveIndex]);
 
   const handleNext = useCallback(() => {
     setActiveIndex(i => Math.min(parties.length - 1, i + 1));
-  }, [parties.length]);
+  }, [parties.length, setActiveIndex]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {

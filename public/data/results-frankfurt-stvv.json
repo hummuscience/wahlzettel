@@ -8120,6 +8120,30 @@
       ]
     }
   ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
   "sources": [
     "https://votemanager-ffm.ekom21cdn.de/2026-03-15/06412000/daten/opendata/Open-Data-06412000-Stadtverordnetenwahl-Gemeinde.csv",
     "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",

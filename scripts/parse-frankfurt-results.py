@@ -288,12 +288,26 @@ def main() -> None:
         "turnout": parse_float(csv_field(h_header, h_row, "Wahlbeteiligung")),
     }
 
+    # Editorial: left-to-right ideological order for the hemicycle. Tweaks
+    # welcome — for parties with mixed/local positioning (BFF, IBF, BIG,
+    # GUG, DFRA, ELF, BSW), placement is best-effort.
+    ideological_order = [
+        "Die Linke", "ÖkoLinX", "MERA25", "Die PARTEI", "Frankfurt-Sozial!",
+        "SPD", "GRÜNE", "Volt",
+        "Tierschutzpartei", "Gartenpartei Ffm", "PIRATEN", "GUG",
+        "FDP", "FREIE WÄHLER",
+        "CDU",
+        "BFF", "IBF", "ELF", "DFRA", "BIG", "BSW",
+        "AfD",
+    ]
+
     out = {
         "election": ELECTION_SLUG,
         "stand": stand,
         "totalSeats": TOTAL_SEATS,
         "totals": totals,
         "parties": parties_out,
+        "ideologicalOrder": ideological_order,
         "sources": [
             VOTEMANAGER_CSV_URL,
             HESSEN_CSV_URL,

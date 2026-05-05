@@ -1,153 +1,221 @@
-import type { ResultsData } from '../../types/results';
+import { useMemo, useState } from 'react';
+import type { ResultsData, ResultsParty } from '../../types/results';
 import { getPartyColor } from '../../data/partyColors';
 
 interface ResultsSeatsPanelProps {
   results: ResultsData;
   partyColors: Record<string, string>;
+  /** When provided, hovering a seat highlights that party and clicking it
+   * jumps the ballot's active party tab to the matching shortName. */
+  onPickParty?: (shortName: string) => void;
 }
 
-/** Replaces PracticalInfo in post-election mode. Visualises the 93 seats as a
- * hemicycle of coloured dots (one dot per seat, left-to-right by party order),
- * with a legend below. */
-export function ResultsSeatsPanel({ results, partyColors }: ResultsSeatsPanelProps) {
-  const partiesWithSeats = results.parties.filter(p => p.seats > 0);
+/** Civic-style hemicycle Sitzverteilung — port of the design handoff's
+ * `HemicyclePanel`. Seats are placed left-to-right by `ideologicalOrder`
+ * (falling back to seat-count desc when absent). Hover any seat to "pop
+ * out" its whole party radially; click to drive the ballot's active tab. */
+export function ResultsSeatsPanel({
+  results,
+  partyColors,
+  onPickParty,
+}: ResultsSeatsPanelProps) {
   const totalSeats = results.totalSeats;
+  const majority = Math.ceil(totalSeats / 2);
+  const [hover, setHover] = useState<string | null>(null);
 
-  // Build a flat seat list in display order. Within a hemicycle the
-  // convention is to show parties in the order they're listed (typically
-  // left-to-right ideologically). We sort by seat count desc as a neutral
-  // proxy since the data doesn't carry an ideological axis.
-  const seatsFlat: { partyShort: string; color: string }[] = [];
-  for (const p of partiesWithSeats) {
-    const color = getPartyColor(p.shortName, partyColors);
-    for (let i = 0; i < p.seats; i++) {
-      seatsFlat.push({ partyShort: p.shortName, color });
-    }
-  }
+  const placed = useMemo(
+    () => buildHemicycle(
+      results.parties,
+      results.ideologicalOrder ?? null,
+      partyColors,
+    ),
+    [results.parties, results.ideologicalOrder, partyColors],
+  );
 
-  // Hemicycle layout: place each seat on a half-circle. Use a simple model
-  // where seats are arranged in N concentric arcs, distributed proportionally
-  // by available arc length so dots stay roughly evenly spaced.
-  // For 93 seats, 5 rows works well: ~14, 16, 18, 21, 24 ≈ 93.
-  const rows = 5;
-  const seatsPerRow = computeSeatsPerRow(totalSeats, rows);
-  const innerRadius = 40;   // inner arc radius
-  const outerRadius = 88;   // outer arc radius
-  const dotRadius = 4.0;
-  const viewBoxW = 200;
-  const viewBoxH = 110;
-  const cx = viewBoxW / 2;
-  const cy = viewBoxH - 4;  // baseline near bottom
+  const hoveredParty = hover
+    ? results.parties.find(p => p.shortName === hover)
+    : null;
 
-  // Place each seat: assign rows in order, place left-to-right in each row.
-  const placed: { x: number; y: number; color: string; partyShort: string }[] = [];
-  let seatIdx = 0;
-  for (let r = 0; r < rows; r++) {
-    const radius = innerRadius + ((outerRadius - innerRadius) * r) / Math.max(rows - 1, 1);
-    const seatsInRow = seatsPerRow[r];
-    for (let s = 0; s < seatsInRow; s++) {
-      // Half-circle: angle from π (left) to 0 (right), excluding endpoints
-      // slightly so dots don't touch the baseline.
-      const t = (s + 0.5) / seatsInRow; // 0..1 across the row
-      const angle = Math.PI - t * Math.PI;
-      const x = cx + radius * Math.cos(angle);
-      const y = cy - radius * Math.sin(angle);
-      const seat = seatsFlat[seatIdx++];
-      if (!seat) break;
-      placed.push({ x, y, color: seat.color, partyShort: seat.partyShort });
-    }
-  }
+  // SVG geometry — matches the handoff: viewBox 0 0 440 220, origin (220, 195)
+  const cx0 = 220;
+  const cy0 = 195;
+  const popKpx = 5;
 
   return (
-    <section className="hidden lg:block lg:w-64 lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto">
-      <h2 className="text-lg font-bold mb-1">Sitzverteilung</h2>
-      <p className="text-xs text-gray-500 mb-3">
-        {totalSeats} Sitze · Hare-Niemeyer
-      </p>
-
-      <div className="bg-white rounded-lg border border-gray-200 shadow-sm p-3 mb-3">
-        <svg
-          viewBox={`0 0 ${viewBoxW} ${viewBoxH}`}
-          className="w-full"
-          role="img"
-          aria-label={`Sitzverteilung Hemizyklus: ${partiesWithSeats.map(p => `${p.shortName} ${p.seats}`).join(', ')}`}
+    <section className="bg-white border border-gray-200 rounded-lg shadow-sm px-3.5 pt-4 pb-2">
+      <div className="flex items-baseline justify-between mb-1.5">
+        <h2 className="text-sm font-bold m-0">
+          Sitzverteilung
+          {hoveredParty && (
+            <span className="ml-2 text-[11px] font-medium text-gray-500">
+              · {hoveredParty.shortName} {hoveredParty.seats}
+            </span>
+          )}
+        </h2>
+        <span
+          className="text-[10px] text-gray-500 tracking-wider"
+          style={{ fontFamily: '"JetBrains Mono", ui-monospace, monospace' }}
         >
-          {placed.map((seat, i) => (
+          {totalSeats} SITZE · HARE-NIEMEYER
+        </span>
+      </div>
+      <svg
+        viewBox="0 0 440 220"
+        className="w-full block"
+        role="img"
+        aria-label={`Sitzverteilung Hemizyklus mit ${totalSeats} Sitzen`}
+        onMouseLeave={() => setHover(null)}
+      >
+        {placed.map((s, i) => {
+          const isHover = hover && s.partyShort === hover;
+          const dimmed = hover && !isHover;
+          const { x, y } = isHover
+            ? popOffset(s.x, s.y, cx0, cy0, popKpx)
+            : { x: s.x, y: s.y };
+          return (
             <circle
               key={i}
-              cx={seat.x}
-              cy={seat.y}
-              r={dotRadius}
-              fill={seat.color}
-              stroke="#fff"
-              strokeWidth="0.6"
+              cx={x}
+              cy={y}
+              r={isHover ? 7.5 : 6.5}
+              fill={s.color}
+              stroke={isHover ? '#111827' : '#fff'}
+              strokeWidth={isHover ? 1.2 : 0.8}
+              opacity={dimmed ? 0.18 : 1}
+              style={{
+                cursor: onPickParty ? 'pointer' : 'default',
+                transition: 'cx 140ms ease, cy 140ms ease, opacity 140ms ease, r 140ms ease',
+              }}
+              onMouseEnter={() => setHover(s.partyShort)}
+              onClick={() => onPickParty?.(s.partyShort)}
             >
-              <title>{seat.partyShort}</title>
+              <title>
+                {s.partyShort}
+                {onPickParty ? ' · klicken um zur Liste zu springen' : ''}
+              </title>
             </circle>
-          ))}
-        </svg>
-        <div className="text-center text-3xl font-bold tabular-nums mt-2">
+          );
+        })}
+        <line
+          x1={cx0} y1={cy0}
+          x2={cx0} y2={20}
+          stroke="#111827" strokeWidth={1}
+          strokeDasharray="2 2" opacity={0.35}
+        />
+        <text
+          x={cx0} y={14} textAnchor="middle"
+          fontSize={9} fill="#6b7280"
+          style={{ fontFamily: '"JetBrains Mono", ui-monospace, monospace' }}
+        >
+          MEHRHEIT · {majority}
+        </text>
+        <text
+          x={cx0} y={180} textAnchor="middle"
+          fontSize={36} fontWeight={500} fill="#111827"
+          style={{ fontFamily: '"Fraunces", Georgia, serif' }}
+        >
           {totalSeats}
-        </div>
-        <div className="text-center text-[10px] text-gray-400 -mt-1">Sitze gesamt</div>
-      </div>
-
-      <div className="bg-white rounded-lg border border-gray-200 shadow-sm p-3">
-        <h3 className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wide">Legende</h3>
-        <ul className="space-y-1">
-          {partiesWithSeats.map(p => {
-            const color = getPartyColor(p.shortName, partyColors);
-            return (
-              <li key={p.shortName} className="flex items-center gap-2 text-xs">
-                <span className="w-3 h-3 rounded-sm shrink-0" style={{ backgroundColor: color }} aria-hidden />
-                <span className="flex-1 min-w-0 truncate">{p.shortName}</span>
-                <span className="tabular-nums font-semibold">{p.seats}</span>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-
-      {results.sources.length > 0 && (
-        <p className="text-[10px] text-gray-400 mt-3 leading-tight">
-          Quelle:{' '}
-          {results.sources.map((url, i) => {
-            const host = (() => {
-              try { return new URL(url).hostname.replace(/^www\./, ''); } catch { return url; }
-            })();
-            return (
-              <span key={url}>
-                {i > 0 && ', '}
-                <a href={url} target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">
-                  {host}
-                </a>
-              </span>
-            );
-          })}
-        </p>
-      )}
+        </text>
+        <text
+          x={cx0} y={195} textAnchor="middle"
+          fontSize={9} fill="#6b7280"
+          letterSpacing={1}
+          style={{ fontFamily: '"JetBrains Mono", ui-monospace, monospace' }}
+        >
+          SITZE
+        </text>
+      </svg>
     </section>
   );
 }
 
-/** Distribute `total` seats across `rows` arcs so the inner row is shortest
- * and the outer row is longest, with the count growing roughly linearly with
- * arc circumference. Returns an array of length `rows`. */
-function computeSeatsPerRow(total: number, rows: number): number[] {
-  // Weight by circumference of each row's arc (proportional to radius).
-  const weights = Array.from({ length: rows }, (_, r) => 1 + r * 0.7);
-  const sum = weights.reduce((a, b) => a + b, 0);
-  const raw = weights.map(w => (total * w) / sum);
+/** Place each of `totalSeats` dots on a half-circle, ordered ideologically
+ * left-to-right. Mirrors `buildHemicycleO()` from the design handoff. */
+function buildHemicycle(
+  parties: ResultsParty[],
+  ideologicalOrder: string[] | null,
+  partyColors: Record<string, string>,
+): Array<{ x: number; y: number; color: string; partyShort: string }> {
+  // Resolve party order: ideologicalOrder when provided, then any unlisted
+  // parties with seats appended by seat count desc (so we never silently
+  // drop a party that wasn't in the editorial array).
+  const seatfulParties = parties.filter(p => p.seats > 0);
+  let ordered: ResultsParty[];
+  if (ideologicalOrder && ideologicalOrder.length > 0) {
+    const byName = new Map(seatfulParties.map(p => [p.shortName, p]));
+    ordered = [];
+    for (const name of ideologicalOrder) {
+      const p = byName.get(name);
+      if (p) ordered.push(p);
+    }
+    // Append any seatful party not in the order (sorted by seats desc)
+    const placed = new Set(ordered.map(p => p.shortName));
+    const leftovers = seatfulParties
+      .filter(p => !placed.has(p.shortName))
+      .sort((a, b) => b.seats - a.seats);
+    ordered.push(...leftovers);
+  } else {
+    ordered = [...seatfulParties].sort((a, b) => b.seats - a.seats);
+  }
+
+  // Flat seat list in order
+  type FlatSeat = { color: string; partyShort: string };
+  const flat: FlatSeat[] = [];
+  for (const p of ordered) {
+    const color = getPartyColor(p.shortName, partyColors);
+    for (let i = 0; i < p.seats; i++) {
+      flat.push({ color, partyShort: p.shortName });
+    }
+  }
+
+  // Geometry — handoff values: 6 rows, inner 95, outer 175, origin (220, 195)
+  const rows = 6;
+  const innerR = 95;
+  const outerR = 175;
+  const cx = 220;
+  const cy = 195;
+  const totalSeats = flat.length;
+
+  // Distribute seats across rows weighted by 1 + r*0.55 (matches handoff)
+  const weights = Array.from({ length: rows }, (_, r) => 1 + r * 0.55);
+  const sumW = weights.reduce((a, b) => a + b, 0);
+  const raw = weights.map(w => (totalSeats * w) / sumW);
   const floored = raw.map(Math.floor);
   let running = floored.reduce((a, b) => a + b, 0);
-  // Distribute the remainder by largest fractional part
-  const remainders = raw.map((r, i) => ({ idx: i, frac: r - floored[i] }))
-    .sort((a, b) => b.frac - a.frac);
-  let i = 0;
-  while (running < total) {
-    floored[remainders[i % rows].idx]++;
+  const remainders = raw
+    .map((v, i) => ({ i, f: v - floored[i] }))
+    .sort((a, b) => b.f - a.f);
+  let k = 0;
+  while (running < totalSeats) {
+    floored[remainders[k % rows].i]++;
     running++;
-    i++;
+    k++;
   }
-  return floored;
+
+  const placed: Array<{ x: number; y: number; color: string; partyShort: string }> = [];
+  let idx = 0;
+  for (let r = 0; r < rows; r++) {
+    const radius = innerR + ((outerR - innerR) * r) / Math.max(rows - 1, 1);
+    for (let s = 0; s < floored[r]; s++) {
+      const t = (s + 0.5) / floored[r];
+      const angle = Math.PI - t * Math.PI;
+      const seat = flat[idx++];
+      if (!seat) break;
+      placed.push({
+        x: cx + radius * Math.cos(angle),
+        y: cy - radius * Math.sin(angle),
+        color: seat.color,
+        partyShort: seat.partyShort,
+      });
+    }
+  }
+  return placed;
+}
+
+/** Push a point radially outward from the hemicycle origin by `k` px. */
+function popOffset(x: number, y: number, cx: number, cy: number, k: number) {
+  const dx = x - cx;
+  const dy = y - cy;
+  const len = Math.hypot(dx, dy) || 1;
+  return { x: x + (dx / len) * k, y: y + (dy / len) * k };
 }

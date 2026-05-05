@@ -59,5 +59,9 @@ export interface ResultsData {
   totalSeats: number;
   totals: ResultsTotals;
   parties: ResultsParty[];
+  /** Optional left-to-right ideological ordering of party shortNames, used to
+   * arrange seats on the hemicycle (Linke … AfD). Editorial — when absent,
+   * consumers fall back to seat-count desc. */
+  ideologicalOrder?: string[];
   sources: string[];
 }

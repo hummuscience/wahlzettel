@@ -26,6 +26,7 @@ import { useGuidedTour } from './components/tour/useGuidedTour';
 import { ElectionPicker } from './components/ElectionPicker';
 import { ResultsSummary } from './components/results/ResultsSummary';
 import { ResultsSeatsPanel } from './components/results/ResultsSeatsPanel';
+import { ResultsCoalitionsPanel } from './components/results/ResultsCoalitionsPanel';
 import { getElectionMode } from './utils/electionMode';
 import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
 import type { Mmp2VoteData } from './archetypes/mmp-2vote';
@@ -360,6 +361,11 @@ function App() {
   const mode = getElectionMode(electionConfig, electionResults);
   const isPost = mode === 'post';
 
+  // In post-mode the hemicycle and the ballot's party tabs share a single
+  // active-party index so clicking a seat in the hemicycle jumps the ballot.
+  // Pre-mode keeps the index encapsulated in BallotView.
+  const [postActiveIdx, setPostActiveIdx] = useState(0);
+
   return (
     <ElectionProvider config={electionConfig}>
       <div className="min-h-screen flex flex-col">
@@ -394,29 +400,64 @@ function App() {
         <main className="flex-1">
           <div className="max-w-[1400px] mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
             {isPost && electionResults ? (
-              <ResultsSummary results={electionResults} electionConfig={electionConfig} />
+              <>
+                {/* Ballot fills the wide column */}
+                <div className="flex-1 min-w-0">
+                  <BallotView
+                    electionData={electionData}
+                    electionResults={electionResults}
+                    candidateVotes={state.candidateVotes}
+                    listSelections={state.listSelections}
+                    derived={derived}
+                    dispatch={dispatch}
+                    isListVoteActive={isListVoteActive}
+                    getListAllocation={getListAllocation}
+                    readOnly
+                    activeIndex={postActiveIdx}
+                    onActiveIndexChange={setPostActiveIdx}
+                  />
+                </div>
+                {/* Sticky right rail: hemicycle + summary + coalitions */}
+                <aside
+                  className="hidden lg:flex lg:w-[360px] lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto flex-col gap-3.5"
+                >
+                  <ResultsSeatsPanel
+                    results={electionResults}
+                    partyColors={electionConfig.partyColors}
+                    onPickParty={(shortName) => {
+                      const idx = electionData.parties.findIndex(
+                        p => p.shortName === shortName,
+                      );
+                      if (idx >= 0) setPostActiveIdx(idx);
+                    }}
+                  />
+                  <ResultsSummary
+                    results={electionResults}
+                    electionConfig={electionConfig}
+                  />
+                  <ResultsCoalitionsPanel
+                    results={electionResults}
+                    partyColors={electionConfig.partyColors}
+                  />
+                </aside>
+              </>
             ) : (
-              <WalkthroughSection totalStimmen={electionData.totalStimmen} />
-            )}
-
-            <div className="flex-1 min-w-0">
-              <BallotView
-                electionData={electionData}
-                electionResults={electionResults}
-                candidateVotes={state.candidateVotes}
-                listSelections={state.listSelections}
-                derived={derived}
-                dispatch={dispatch}
-                isListVoteActive={isListVoteActive}
-                getListAllocation={getListAllocation}
-                readOnly={isPost}
-              />
-            </div>
-
-            {isPost && electionResults ? (
-              <ResultsSeatsPanel results={electionResults} partyColors={electionConfig.partyColors} />
-            ) : (
-              <PracticalInfo />
+              <>
+                <WalkthroughSection totalStimmen={electionData.totalStimmen} />
+                <div className="flex-1 min-w-0">
+                  <BallotView
+                    electionData={electionData}
+                    electionResults={electionResults}
+                    candidateVotes={state.candidateVotes}
+                    listSelections={state.listSelections}
+                    derived={derived}
+                    dispatch={dispatch}
+                    isListVoteActive={isListVoteActive}
+                    getListAllocation={getListAllocation}
+                  />
+                </div>
+                <PracticalInfo />
+              </>
             )}
           </div>
         </main>
