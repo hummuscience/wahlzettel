@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#002266',
 
   dataFile: 'ruesselsheim-kav.json',
+  resultsFile: 'results-ruesselsheim-kav.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.ruesselsheim.de/rathaus/wahlen/',
 };

@@ -1,0 +1,507 @@
+{
+  "election": "giessen-kav",
+  "stand": "2026-03-15",
+  "totalSeats": null,
+  "totals": {
+    "validVotes": 42169,
+    "validBallots": 1690,
+    "wahlberechtigte": 17413,
+    "waehlerGesamt": 1834,
+    "ungueltigeStimmzettel": 144,
+    "kandidatenInsgesamt": 57,
+    "frauenInsgesamt": 159,
+    "ballotsWithListenkreuz": 20669,
+    "ballotsWithListenkreuzPercent": 59.2,
+    "turnout": 56.0
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "Avramkina",
+      "fullName": "Avramkina, Daria (Einzelbewerberin)",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 395,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Avramkina",
+          "firstName": "Daria",
+          "profession": "",
+          "stimmen": 395
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "GI",
+      "fullName": "Gießen International",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 28223,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Tesfaghiorghis",
+          "firstName": "Eden",
+          "profession": "",
+          "stimmen": 1741
+        },
+        {
+          "position": 2,
+          "lastName": "Sahin",
+          "firstName": "Zeynal",
+          "profession": "",
+          "stimmen": 1833
+        },
+        {
+          "position": 3,
+          "lastName": "Joo Chang",
+          "firstName": "Lilia",
+          "profession": "",
+          "stimmen": 1569
+        },
+        {
+          "position": 4,
+          "lastName": "Yemane",
+          "firstName": "Alem",
+          "profession": "",
+          "stimmen": 1358
+        },
+        {
+          "position": 5,
+          "lastName": "Farah",
+          "firstName": "Sagell",
+          "profession": "",
+          "stimmen": 1030
+        },
+        {
+          "position": 6,
+          "lastName": "Madjidian",
+          "firstName": "Nader",
+          "profession": "",
+          "stimmen": 1007
+        },
+        {
+          "position": 7,
+          "lastName": "Cetin",
+          "firstName": "Sema",
+          "profession": "",
+          "stimmen": 1016
+        },
+        {
+          "position": 8,
+          "lastName": "Safe Alden",
+          "firstName": "Hassan",
+          "profession": "",
+          "stimmen": 991
+        },
+        {
+          "position": 9,
+          "lastName": "Erdogan",
+          "firstName": "Zeynep",
+          "profession": "",
+          "stimmen": 939
+        },
+        {
+          "position": 10,
+          "lastName": "Tcheua Ngatchou",
+          "firstName": "Stephane",
+          "profession": "",
+          "stimmen": 1043
+        },
+        {
+          "position": 12,
+          "lastName": "Jayakrishnan",
+          "firstName": "Selva",
+          "profession": "",
+          "stimmen": 1263
+        },
+        {
+          "position": 15,
+          "lastName": "Atorvin",
+          "firstName": "Nataliia",
+          "profession": "",
+          "stimmen": 1103
+        },
+        {
+          "position": 16,
+          "lastName": "Bewketu",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 1201
+        },
+        {
+          "position": 17,
+          "lastName": "Asenai",
+          "firstName": "Rihan Mohammed",
+          "profession": "",
+          "stimmen": 860
+        },
+        {
+          "position": 18,
+          "lastName": "Seyfaldin",
+          "firstName": "Ferhad",
+          "profession": "",
+          "stimmen": 905
+        },
+        {
+          "position": 19,
+          "lastName": "Traore",
+          "firstName": "Alex",
+          "profession": "",
+          "stimmen": 862
+        },
+        {
+          "position": 20,
+          "lastName": "Koçyiğit",
+          "firstName": "Adar",
+          "profession": "",
+          "stimmen": 916
+        },
+        {
+          "position": 21,
+          "lastName": "Alwahbi",
+          "firstName": "Fatehia",
+          "profession": "",
+          "stimmen": 829
+        },
+        {
+          "position": 23,
+          "lastName": "Adhikari",
+          "firstName": "Anu",
+          "profession": "",
+          "stimmen": 873
+        },
+        {
+          "position": 24,
+          "lastName": "Alcheikho",
+          "firstName": "Alan",
+          "profession": "",
+          "stimmen": 841
+        },
+        {
+          "position": 25,
+          "lastName": "Malik",
+          "firstName": "Mhammad",
+          "profession": "",
+          "stimmen": 757
+        },
+        {
+          "position": 26,
+          "lastName": "Mesho",
+          "firstName": "Hasan",
+          "profession": "",
+          "stimmen": 847
+        },
+        {
+          "position": 27,
+          "lastName": "Mella Haji",
+          "firstName": "Haiffa",
+          "profession": "",
+          "stimmen": 834
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "ViT",
+      "fullName": "Liste für Vielfalt und Teilhabe",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 3571,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Ruman",
+          "firstName": "Ehab",
+          "profession": "",
+          "stimmen": 364
+        },
+        {
+          "position": 2,
+          "lastName": "Faysal",
+          "firstName": "Ahmad",
+          "profession": "",
+          "stimmen": 331
+        },
+        {
+          "position": 3,
+          "lastName": "Şen",
+          "firstName": "Ayşe",
+          "profession": "",
+          "stimmen": 373
+        },
+        {
+          "position": 4,
+          "lastName": "Jalala",
+          "firstName": "Hamid",
+          "profession": "",
+          "stimmen": 316
+        },
+        {
+          "position": 5,
+          "lastName": "Bouzan",
+          "firstName": "Karim",
+          "profession": "",
+          "stimmen": 325
+        },
+        {
+          "position": 9,
+          "lastName": "Veeroju",
+          "firstName": "Venkatesh",
+          "profession": "",
+          "stimmen": 374
+        },
+        {
+          "position": 10,
+          "lastName": "Veeroju",
+          "firstName": "Swathi",
+          "profession": "",
+          "stimmen": 308
+        },
+        {
+          "position": 11,
+          "lastName": "Jouda",
+          "firstName": "Wesam",
+          "profession": "",
+          "stimmen": 216
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "KURD",
+      "fullName": "Kurdistan Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 2575,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 2,
+          "lastName": "Özalp",
+          "firstName": "Rengin",
+          "profession": "",
+          "stimmen": 251
+        },
+        {
+          "position": 3,
+          "lastName": "Seyfaldin",
+          "firstName": "Eva",
+          "profession": "",
+          "stimmen": 374
+        },
+        {
+          "position": 4,
+          "lastName": "Saz",
+          "firstName": "Mahmut",
+          "profession": "",
+          "stimmen": 230
+        },
+        {
+          "position": 5,
+          "lastName": "Akinci",
+          "firstName": "Rafide",
+          "profession": "",
+          "stimmen": 243
+        },
+        {
+          "position": 6,
+          "lastName": "Özalp",
+          "firstName": "Emine",
+          "profession": "",
+          "stimmen": 222
+        },
+        {
+          "position": 7,
+          "lastName": "Özalp",
+          "firstName": "Mehmet",
+          "profession": "",
+          "stimmen": 217
+        },
+        {
+          "position": 8,
+          "lastName": "Özalp",
+          "firstName": "Abdulhalim",
+          "profession": "",
+          "stimmen": 206
+        },
+        {
+          "position": 9,
+          "lastName": "Altahlo",
+          "firstName": "Ayaz",
+          "profession": "",
+          "stimmen": 288
+        },
+        {
+          "position": 10,
+          "lastName": "Altahlo",
+          "firstName": "Houzan",
+          "profession": "",
+          "stimmen": 287
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "UL",
+      "fullName": "Ukraine Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 7405,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Dzhukh",
+          "firstName": "Kateryna",
+          "profession": "",
+          "stimmen": 625
+        },
+        {
+          "position": 2,
+          "lastName": "Plitko",
+          "firstName": "Svitlana",
+          "profession": "",
+          "stimmen": 585
+        },
+        {
+          "position": 3,
+          "lastName": "Tkachyenko",
+          "firstName": "Oleh",
+          "profession": "",
+          "stimmen": 378
+        },
+        {
+          "position": 4,
+          "lastName": "Zakharova",
+          "firstName": "Liudmyla",
+          "profession": "",
+          "stimmen": 554
+        },
+        {
+          "position": 5,
+          "lastName": "Kulbachna",
+          "firstName": "Olena",
+          "profession": "",
+          "stimmen": 540
+        },
+        {
+          "position": 6,
+          "lastName": "Golub",
+          "firstName": "Alexandr",
+          "profession": "",
+          "stimmen": 570
+        },
+        {
+          "position": 7,
+          "lastName": "Kulish",
+          "firstName": "Hanna",
+          "profession": "",
+          "stimmen": 547
+        },
+        {
+          "position": 8,
+          "lastName": "Golub",
+          "firstName": "Inna",
+          "profession": "",
+          "stimmen": 429
+        },
+        {
+          "position": 9,
+          "lastName": "Komarova",
+          "firstName": "Liudmyla",
+          "profession": "",
+          "stimmen": 383
+        },
+        {
+          "position": 10,
+          "lastName": "Verkalets",
+          "firstName": "Roman",
+          "profession": "",
+          "stimmen": 511
+        },
+        {
+          "position": 11,
+          "lastName": "Gutsul",
+          "firstName": "Nazarii",
+          "profession": "",
+          "stimmen": 452
+        },
+        {
+          "position": 12,
+          "lastName": "Rubtsova",
+          "firstName": "Tetyana",
+          "profession": "",
+          "stimmen": 414
+        },
+        {
+          "position": 13,
+          "lastName": "Udod",
+          "firstName": "Tetiana",
+          "profession": "",
+          "stimmen": 426
+        },
+        {
+          "position": 14,
+          "lastName": "Kryzhanovska",
+          "firstName": "Olga",
+          "profession": "",
+          "stimmen": 297
+        },
+        {
+          "position": 15,
+          "lastName": "Rozbytskyi",
+          "firstName": "Vitalii",
+          "profession": "",
+          "stimmen": 281
+        },
+        {
+          "position": 16,
+          "lastName": "Levkova",
+          "firstName": "Yelizavieta",
+          "profession": "",
+          "stimmen": 413
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-gi.ekom21cdn.de/2026-03-15/06531005/daten/opendata/Open-Data-06531005-Auslaenderbeiratswahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

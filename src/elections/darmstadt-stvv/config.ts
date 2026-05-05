@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#003366',
 
   dataFile: 'darmstadt-stvv.json',
+  resultsFile: 'results-darmstadt-stvv.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.darmstadt.de/rathaus/wahlen',
 };

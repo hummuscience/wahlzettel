@@ -1,0 +1,793 @@
+{
+  "election": "offenbach-kav",
+  "stand": "2026-03-15",
+  "totalSeats": 1,
+  "totals": {
+    "validVotes": 84588,
+    "validBallots": 3686,
+    "wahlberechtigte": 51373,
+    "waehlerGesamt": 3986,
+    "ungueltigeStimmzettel": 300,
+    "kandidatenInsgesamt": 91,
+    "frauenInsgesamt": 171,
+    "ballotsWithListenkreuz": 16069,
+    "ballotsWithListenkreuzPercent": 46.8,
+    "turnout": 36.4
+  },
+  "parties": [
+    {
+      "listNumber": 5,
+      "shortName": "Ofa e.V.",
+      "fullName": "Offenbach für alle e.V.",
+      "color": "#999999",
+      "percent": 1.8,
+      "votesAbsolute": 13496,
+      "votesWeighted": 588,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Cadena Perez de Prinz",
+          "firstName": "Yakeline",
+          "profession": "",
+          "stimmen": 1684
+        },
+        {
+          "position": 2,
+          "lastName": "Edéus",
+          "firstName": "John",
+          "profession": "",
+          "stimmen": 1572
+        },
+        {
+          "position": 3,
+          "lastName": "Junker-Latocha",
+          "firstName": "Brian",
+          "profession": "",
+          "stimmen": 1583
+        },
+        {
+          "position": 4,
+          "lastName": "Henao Cadena",
+          "firstName": "Sarah",
+          "profession": "",
+          "stimmen": 1626
+        },
+        {
+          "position": 5,
+          "lastName": "da Silva",
+          "firstName": "Helena",
+          "profession": "",
+          "stimmen": 1726
+        },
+        {
+          "position": 6,
+          "lastName": "Zoth",
+          "firstName": "Karlheinz",
+          "profession": "",
+          "stimmen": 1085
+        },
+        {
+          "position": 7,
+          "lastName": "Edéus",
+          "firstName": "Jana",
+          "profession": "",
+          "stimmen": 1112
+        },
+        {
+          "position": 8,
+          "lastName": "Terka",
+          "firstName": "Kamil",
+          "profession": "",
+          "stimmen": 1071
+        },
+        {
+          "position": 9,
+          "lastName": "Edéus",
+          "firstName": "Viking",
+          "profession": "",
+          "stimmen": 1027
+        },
+        {
+          "position": 10,
+          "lastName": "Edéus",
+          "firstName": "Emil",
+          "profession": "",
+          "stimmen": 1010
+        }
+      ]
+    },
+    {
+      "listNumber": 1,
+      "shortName": "TUO",
+      "fullName": "Offenbach Türk Birliği – Türkische Union Offenbach",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 2207,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Tunç",
+          "firstName": "Selim",
+          "profession": "",
+          "stimmen": 420
+        },
+        {
+          "position": 2,
+          "lastName": "Ergisi",
+          "firstName": "Sevgi",
+          "profession": "",
+          "stimmen": 381
+        },
+        {
+          "position": 3,
+          "lastName": "Yeşilyurt",
+          "firstName": "Mehmet",
+          "profession": "",
+          "stimmen": 379
+        },
+        {
+          "position": 4,
+          "lastName": "Aber",
+          "firstName": "Cemal",
+          "profession": "",
+          "stimmen": 339
+        },
+        {
+          "position": 5,
+          "lastName": "Ülker",
+          "firstName": "Kismet",
+          "profession": "",
+          "stimmen": 340
+        },
+        {
+          "position": 6,
+          "lastName": "Babaoğlu",
+          "firstName": "Cemil",
+          "profession": "",
+          "stimmen": 348
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "PAU",
+      "fullName": "Progressive Ausländer Union",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 3680,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Latif Mir",
+          "firstName": "Abdul",
+          "profession": "",
+          "stimmen": 469
+        },
+        {
+          "position": 2,
+          "lastName": "Khan",
+          "firstName": "Zafar Ullah",
+          "profession": "",
+          "stimmen": 444
+        },
+        {
+          "position": 3,
+          "lastName": "Asif",
+          "firstName": "Mahmood",
+          "profession": "",
+          "stimmen": 434
+        },
+        {
+          "position": 4,
+          "lastName": "Warraich",
+          "firstName": "Mukhtar",
+          "profession": "",
+          "stimmen": 403
+        },
+        {
+          "position": 5,
+          "lastName": "Ahmed",
+          "firstName": "Muzaffar",
+          "profession": "",
+          "stimmen": 421
+        },
+        {
+          "position": 6,
+          "lastName": "Hassan",
+          "firstName": "Shahid",
+          "profession": "",
+          "stimmen": 322
+        },
+        {
+          "position": 7,
+          "lastName": "Mir",
+          "firstName": "Shahzad Latif",
+          "profession": "",
+          "stimmen": 298
+        },
+        {
+          "position": 8,
+          "lastName": "Shoaib",
+          "firstName": "Muhammad",
+          "profession": "",
+          "stimmen": 300
+        },
+        {
+          "position": 9,
+          "lastName": "Latif",
+          "firstName": "Amtul Basit",
+          "profession": "",
+          "stimmen": 271
+        },
+        {
+          "position": 10,
+          "lastName": "Naz",
+          "firstName": "Najma",
+          "profession": "",
+          "stimmen": 318
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "MEO",
+      "fullName": "Miteinander Offenbach",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 18957,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Öztürk",
+          "firstName": "Servet",
+          "profession": "",
+          "stimmen": 1686
+        },
+        {
+          "position": 2,
+          "lastName": "Elmas",
+          "firstName": "Filiz",
+          "profession": "",
+          "stimmen": 1664
+        },
+        {
+          "position": 3,
+          "lastName": "Elmas",
+          "firstName": "Hüseyin",
+          "profession": "",
+          "stimmen": 1576
+        },
+        {
+          "position": 4,
+          "lastName": "Saltik",
+          "firstName": "Muhammed",
+          "profession": "",
+          "stimmen": 1608
+        },
+        {
+          "position": 5,
+          "lastName": "Dilci",
+          "firstName": "Fikri",
+          "profession": "",
+          "stimmen": 1474
+        },
+        {
+          "position": 6,
+          "lastName": "Bark",
+          "firstName": "Ayşe Melek",
+          "profession": "",
+          "stimmen": 1499
+        },
+        {
+          "position": 7,
+          "lastName": "Çavuş",
+          "firstName": "Merve",
+          "profession": "",
+          "stimmen": 1493
+        },
+        {
+          "position": 8,
+          "lastName": "Coşkun",
+          "firstName": "Enise",
+          "profession": "",
+          "stimmen": 1368
+        },
+        {
+          "position": 9,
+          "lastName": "Doğan",
+          "firstName": "Fatih",
+          "profession": "",
+          "stimmen": 1334
+        },
+        {
+          "position": 10,
+          "lastName": "Sari",
+          "firstName": "Muhammed",
+          "profession": "",
+          "stimmen": 1200
+        },
+        {
+          "position": 11,
+          "lastName": "Gölge",
+          "firstName": "Ergün",
+          "profession": "",
+          "stimmen": 821
+        },
+        {
+          "position": 12,
+          "lastName": "Kale",
+          "firstName": "Azra",
+          "profession": "",
+          "stimmen": 834
+        },
+        {
+          "position": 13,
+          "lastName": "Yüzgeç",
+          "firstName": "Yaşar",
+          "profession": "",
+          "stimmen": 733
+        },
+        {
+          "position": 14,
+          "lastName": "Koca",
+          "firstName": "Muhammed",
+          "profession": "",
+          "stimmen": 766
+        },
+        {
+          "position": 15,
+          "lastName": "Candan",
+          "firstName": "Yunus",
+          "profession": "",
+          "stimmen": 901
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "ML",
+      "fullName": "Multikulturelle Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 11910,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Rafoud",
+          "firstName": "Abdelkader",
+          "profession": "",
+          "stimmen": 1484
+        },
+        {
+          "position": 2,
+          "lastName": "Larhemouchi",
+          "firstName": "Jamila",
+          "profession": "",
+          "stimmen": 1022
+        },
+        {
+          "position": 3,
+          "lastName": "Velagić",
+          "firstName": "Ismet",
+          "profession": "",
+          "stimmen": 980
+        },
+        {
+          "position": 4,
+          "lastName": "Hadžić",
+          "firstName": "Jonuz",
+          "profession": "",
+          "stimmen": 985
+        },
+        {
+          "position": 5,
+          "lastName": "Madani",
+          "firstName": "Abedin",
+          "profession": "",
+          "stimmen": 949
+        },
+        {
+          "position": 6,
+          "lastName": "Sanfilippo Frittola",
+          "firstName": "Giuseppe",
+          "profession": "",
+          "stimmen": 1079
+        },
+        {
+          "position": 7,
+          "lastName": "Chisari",
+          "firstName": "Giuseppe",
+          "profession": "",
+          "stimmen": 1043
+        },
+        {
+          "position": 8,
+          "lastName": "Jama Abdi",
+          "firstName": "Farah",
+          "profession": "",
+          "stimmen": 943
+        },
+        {
+          "position": 9,
+          "lastName": "Madani",
+          "firstName": "Natasha",
+          "profession": "",
+          "stimmen": 947
+        },
+        {
+          "position": 10,
+          "lastName": "Maazouzi",
+          "firstName": "Ahmed",
+          "profession": "",
+          "stimmen": 861
+        },
+        {
+          "position": 11,
+          "lastName": "Saber",
+          "firstName": "Abdelkader",
+          "profession": "",
+          "stimmen": 835
+        },
+        {
+          "position": 12,
+          "lastName": "El Kadaui Zarioh",
+          "firstName": "El Mokhtar",
+          "profession": "",
+          "stimmen": 782
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "shortName": "PIRATEN",
+      "fullName": "Piratenpartei Deutschland",
+      "color": "#cd5138",
+      "percent": null,
+      "votesAbsolute": 4301,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Engels",
+          "firstName": "Grigorij",
+          "profession": "",
+          "stimmen": 506
+        },
+        {
+          "position": 2,
+          "lastName": "Milenkovic",
+          "firstName": "Tatjana",
+          "profession": "",
+          "stimmen": 541
+        },
+        {
+          "position": 3,
+          "lastName": "Dr. Kadyrbajewa",
+          "firstName": "Dschamilja",
+          "profession": "",
+          "stimmen": 517
+        },
+        {
+          "position": 4,
+          "lastName": "Silea",
+          "firstName": "Traian-Vlad",
+          "profession": "",
+          "stimmen": 451
+        },
+        {
+          "position": 5,
+          "lastName": "Dr. Engels",
+          "firstName": "Ilja",
+          "profession": "",
+          "stimmen": 539
+        },
+        {
+          "position": 6,
+          "lastName": "Melnikov",
+          "firstName": "Anatolii",
+          "profession": "",
+          "stimmen": 344
+        },
+        {
+          "position": 7,
+          "lastName": "Melnikova",
+          "firstName": "Elena",
+          "profession": "",
+          "stimmen": 394
+        },
+        {
+          "position": 8,
+          "lastName": "Novikov",
+          "firstName": "Mihail",
+          "profession": "",
+          "stimmen": 339
+        },
+        {
+          "position": 9,
+          "lastName": "Novikova",
+          "firstName": "Larisa",
+          "profession": "",
+          "stimmen": 361
+        },
+        {
+          "position": 10,
+          "lastName": "Chifeac",
+          "firstName": "Liubov",
+          "profession": "",
+          "stimmen": 309
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "shortName": "SL",
+      "fullName": "Serbische Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 3839,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Crnogorac",
+          "firstName": "Andjelka",
+          "profession": "",
+          "stimmen": 480
+        },
+        {
+          "position": 2,
+          "lastName": "Ugrčić",
+          "firstName": "Saša",
+          "profession": "",
+          "stimmen": 444
+        },
+        {
+          "position": 3,
+          "lastName": "Bakal",
+          "firstName": "Dalibor",
+          "profession": "",
+          "stimmen": 433
+        },
+        {
+          "position": 4,
+          "lastName": "Jovanovski",
+          "firstName": "Robert",
+          "profession": "",
+          "stimmen": 470
+        },
+        {
+          "position": 5,
+          "lastName": "Milovanović",
+          "firstName": "Sara",
+          "profession": "",
+          "stimmen": 484
+        },
+        {
+          "position": 6,
+          "lastName": "Ugrčić",
+          "firstName": "Arijela",
+          "profession": "",
+          "stimmen": 427
+        },
+        {
+          "position": 7,
+          "lastName": "Milenković",
+          "firstName": "Milorad",
+          "profession": "",
+          "stimmen": 433
+        },
+        {
+          "position": 8,
+          "lastName": "Čorlija",
+          "firstName": "Marko",
+          "profession": "",
+          "stimmen": 331
+        },
+        {
+          "position": 9,
+          "lastName": "Tomić",
+          "firstName": "Branislav",
+          "profession": "",
+          "stimmen": 337
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "shortName": "GGO",
+      "fullName": "Griechische Gemeinschaft Offenbach",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 18525,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Bellou",
+          "firstName": "Zacharoula",
+          "profession": "",
+          "stimmen": 2261
+        },
+        {
+          "position": 2,
+          "lastName": "Chantzaras",
+          "firstName": "Christos",
+          "profession": "",
+          "stimmen": 2217
+        },
+        {
+          "position": 3,
+          "lastName": "Floudas",
+          "firstName": "Ioannis",
+          "profession": "",
+          "stimmen": 2181
+        },
+        {
+          "position": 4,
+          "lastName": "Almpanaki",
+          "firstName": "Alexandra",
+          "profession": "",
+          "stimmen": 2151
+        },
+        {
+          "position": 5,
+          "lastName": "Ananiadou",
+          "firstName": "Alexandra",
+          "profession": "",
+          "stimmen": 1535
+        },
+        {
+          "position": 6,
+          "lastName": "Chatzisymeonidis",
+          "firstName": "Ioannis",
+          "profession": "",
+          "stimmen": 1688
+        },
+        {
+          "position": 7,
+          "lastName": "Chantzara",
+          "firstName": "Eleni",
+          "profession": "",
+          "stimmen": 1894
+        },
+        {
+          "position": 8,
+          "lastName": "Basiou",
+          "firstName": "Iliana",
+          "profession": "",
+          "stimmen": 1589
+        },
+        {
+          "position": 9,
+          "lastName": "Gkimpis",
+          "firstName": "Ilias",
+          "profession": "",
+          "stimmen": 1366
+        },
+        {
+          "position": 10,
+          "lastName": "Drantsiou Stampoulidou",
+          "firstName": "Eleanna",
+          "profession": "",
+          "stimmen": 1643
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "shortName": "TG",
+      "fullName": "Türkische Gemeinschaft",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 7673,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Demirezen",
+          "firstName": "Naime",
+          "profession": "",
+          "stimmen": 969
+        },
+        {
+          "position": 2,
+          "lastName": "Bayrak",
+          "firstName": "Fatih",
+          "profession": "",
+          "stimmen": 952
+        },
+        {
+          "position": 3,
+          "lastName": "Erol",
+          "firstName": "Gökhan",
+          "profession": "",
+          "stimmen": 915
+        },
+        {
+          "position": 4,
+          "lastName": "Türet",
+          "firstName": "Fikri",
+          "profession": "",
+          "stimmen": 890
+        },
+        {
+          "position": 5,
+          "lastName": "Yildiz",
+          "firstName": "Besir Ahmet Yasar",
+          "profession": "",
+          "stimmen": 887
+        },
+        {
+          "position": 6,
+          "lastName": "Kirmizioglu",
+          "firstName": "Ikra Hatun",
+          "profession": "",
+          "stimmen": 880
+        },
+        {
+          "position": 7,
+          "lastName": "Yildirim",
+          "firstName": "Naime",
+          "profession": "",
+          "stimmen": 914
+        },
+        {
+          "position": 8,
+          "lastName": "Yigit",
+          "firstName": "Hüseyin",
+          "profession": "",
+          "stimmen": 634
+        },
+        {
+          "position": 9,
+          "lastName": "Yigit",
+          "firstName": "Melda",
+          "profession": "",
+          "stimmen": 632
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-da.ekom21cdn.de/2026-03-15/06413000/daten/opendata/Open-Data-06413000-Auslaenderbeiratswahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

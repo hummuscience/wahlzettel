@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#520000',
 
   dataFile: 'wetzlar-stvv.json',
+  resultsFile: 'results-wetzlar-stvv.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.wetzlar.de/rathaus/politik/wahlen/kommunalwahl.php',
 };

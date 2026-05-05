@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#1a3d28',
 
   dataFile: 'dadi-kreistag.json',
+  resultsFile: 'results-dadi-kreistag.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.ladadi.de/kommunalwahl',
 };

@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#5c0000',
 
   dataFile: 'fulda-stvv.json',
+  resultsFile: 'results-fulda-stvv.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.fulda.de/rathaus/wahlen/',
 };

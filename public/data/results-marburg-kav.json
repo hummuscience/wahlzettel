@@ -1,0 +1,364 @@
+{
+  "election": "marburg-kav",
+  "stand": "2026-03-15",
+  "totalSeats": null,
+  "totals": {
+    "validVotes": 10214,
+    "validBallots": 764,
+    "wahlberechtigte": 10545,
+    "waehlerGesamt": 822,
+    "ungueltigeStimmzettel": 58,
+    "kandidatenInsgesamt": 40,
+    "frauenInsgesamt": 201,
+    "ballotsWithListenkreuz": 20544,
+    "ballotsWithListenkreuzPercent": 59.8,
+    "turnout": 60.9
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "GOG",
+      "fullName": "Gruppe ohne Grenzen",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 3785,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Cloutier",
+          "firstName": "Sylvie",
+          "profession": "",
+          "stimmen": 362
+        },
+        {
+          "position": 2,
+          "lastName": "Donkova-Schalauske",
+          "firstName": "Kristiana",
+          "profession": "",
+          "stimmen": 305
+        },
+        {
+          "position": 3,
+          "lastName": "Shelbaya",
+          "firstName": "Linda",
+          "profession": "",
+          "stimmen": 316
+        },
+        {
+          "position": 4,
+          "lastName": "Shaheen",
+          "firstName": "Ibrahim Mohammad Ahmad",
+          "profession": "",
+          "stimmen": 308
+        },
+        {
+          "position": 5,
+          "lastName": "Rashidov",
+          "firstName": "Mirza",
+          "profession": "",
+          "stimmen": 201
+        },
+        {
+          "position": 6,
+          "lastName": "Milea",
+          "firstName": "loana",
+          "profession": "",
+          "stimmen": 232
+        },
+        {
+          "position": 7,
+          "lastName": "Alherz",
+          "firstName": "Younes",
+          "profession": "",
+          "stimmen": 193
+        },
+        {
+          "position": 8,
+          "lastName": "Dasdemir",
+          "firstName": "Büsra",
+          "profession": "",
+          "stimmen": 257
+        },
+        {
+          "position": 9,
+          "lastName": "Yamasaki",
+          "firstName": "Eriko",
+          "profession": "",
+          "stimmen": 241
+        },
+        {
+          "position": 10,
+          "lastName": "Taroun",
+          "firstName": "Abdullah",
+          "profession": "",
+          "stimmen": 203
+        },
+        {
+          "position": 11,
+          "lastName": "Kiefer",
+          "firstName": "Celine",
+          "profession": "",
+          "stimmen": 239
+        },
+        {
+          "position": 12,
+          "lastName": "Kuksenko",
+          "firstName": "Valentyna",
+          "profession": "",
+          "stimmen": 322
+        },
+        {
+          "position": 13,
+          "lastName": "Ceceli",
+          "firstName": "Dmitrii",
+          "profession": "",
+          "stimmen": 211
+        },
+        {
+          "position": 14,
+          "lastName": "Breton",
+          "firstName": "Francois",
+          "profession": "",
+          "stimmen": 204
+        },
+        {
+          "position": 15,
+          "lastName": "Abdirahman Farah",
+          "firstName": "Liban",
+          "profession": "",
+          "stimmen": 191
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "IKL",
+      "fullName": "Interkulturelle Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 3497,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Hanspal",
+          "firstName": "Nirmal",
+          "profession": "",
+          "stimmen": 325
+        },
+        {
+          "position": 2,
+          "lastName": "Kovatchev",
+          "firstName": "Svetlana",
+          "profession": "",
+          "stimmen": 336
+        },
+        {
+          "position": 3,
+          "lastName": "Taklikar",
+          "firstName": "Sunil",
+          "profession": "",
+          "stimmen": 331
+        },
+        {
+          "position": 4,
+          "lastName": "Karic Zoric",
+          "firstName": "Tijana",
+          "profession": "",
+          "stimmen": 244
+        },
+        {
+          "position": 5,
+          "lastName": "Mukha",
+          "firstName": "Dmytro",
+          "profession": "",
+          "stimmen": 351
+        },
+        {
+          "position": 6,
+          "lastName": "Wang",
+          "firstName": "Jin",
+          "profession": "",
+          "stimmen": 230
+        },
+        {
+          "position": 7,
+          "lastName": "Andrianov",
+          "firstName": "Grigory",
+          "profession": "",
+          "stimmen": 242
+        },
+        {
+          "position": 8,
+          "lastName": "Alish",
+          "firstName": "Ahmad",
+          "profession": "",
+          "stimmen": 231
+        },
+        {
+          "position": 9,
+          "lastName": "Shilbayeh",
+          "firstName": "Hasan",
+          "profession": "",
+          "stimmen": 221
+        },
+        {
+          "position": 10,
+          "lastName": "Afanasyeva",
+          "firstName": "Zhanna",
+          "profession": "",
+          "stimmen": 235
+        },
+        {
+          "position": 11,
+          "lastName": "Khalid",
+          "firstName": "Rana",
+          "profession": "",
+          "stimmen": 299
+        },
+        {
+          "position": 12,
+          "lastName": "Dolgushyna",
+          "firstName": "Tetiana",
+          "profession": "",
+          "stimmen": 241
+        },
+        {
+          "position": 13,
+          "lastName": "Dr. Baraki",
+          "firstName": "Matin",
+          "profession": "",
+          "stimmen": 211
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "VGZ",
+      "fullName": "Verein Gießener Zugewanderter",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 2932,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Zheng",
+          "firstName": "Xin",
+          "profession": "",
+          "stimmen": 364
+        },
+        {
+          "position": 2,
+          "lastName": "Afoumba",
+          "firstName": "Dolly",
+          "profession": "",
+          "stimmen": 318
+        },
+        {
+          "position": 3,
+          "lastName": "Zhang",
+          "firstName": "Wenhui",
+          "profession": "",
+          "stimmen": 312
+        },
+        {
+          "position": 4,
+          "lastName": "Muhia",
+          "firstName": "Beatrice",
+          "profession": "",
+          "stimmen": 209
+        },
+        {
+          "position": 5,
+          "lastName": "Fazal",
+          "firstName": "Zoraiz",
+          "profession": "",
+          "stimmen": 332
+        },
+        {
+          "position": 6,
+          "lastName": "Fu",
+          "firstName": "Xiaotong",
+          "profession": "",
+          "stimmen": 220
+        },
+        {
+          "position": 7,
+          "lastName": "Kamgo Kamgo",
+          "firstName": "Siegfried",
+          "profession": "",
+          "stimmen": 177
+        },
+        {
+          "position": 8,
+          "lastName": "Laktineh",
+          "firstName": "Jehan",
+          "profession": "",
+          "stimmen": 191
+        },
+        {
+          "position": 9,
+          "lastName": "Barbara da Cruz",
+          "firstName": "Felipe",
+          "profession": "",
+          "stimmen": 250
+        },
+        {
+          "position": 10,
+          "lastName": "Mousson",
+          "firstName": "Ayeih",
+          "profession": "",
+          "stimmen": 180
+        },
+        {
+          "position": 11,
+          "lastName": "Korodowou",
+          "firstName": "Wouloh",
+          "profession": "",
+          "stimmen": 192
+        },
+        {
+          "position": 12,
+          "lastName": "Mamuda",
+          "firstName": "Suleman",
+          "profession": "",
+          "stimmen": 187
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-gi.ekom21cdn.de/2026-03-15/06534014/daten/opendata/Open-Data-06534014-Auslaenderbeiratswahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

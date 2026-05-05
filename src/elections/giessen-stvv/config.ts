@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#004422',
 
   dataFile: 'giessen-stvv.json',
+  resultsFile: 'results-giessen-stvv.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.giessen.de/rathaus/wahlen/',
 };

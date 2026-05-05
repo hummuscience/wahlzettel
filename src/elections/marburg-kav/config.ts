@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#0d1f33',
 
   dataFile: 'marburg-kav.json',
+  resultsFile: 'results-marburg-kav.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.marburg.de/rathaus/wahlen',
 };

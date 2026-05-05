@@ -1,0 +1,701 @@
+{
+  "election": "kassel-kav",
+  "stand": "2026-03-15",
+  "totalSeats": null,
+  "totals": {
+    "validVotes": 99740,
+    "validBallots": 3308,
+    "wahlberechtigte": 38222,
+    "waehlerGesamt": 3477,
+    "ungueltigeStimmzettel": 169,
+    "kandidatenInsgesamt": 83,
+    "frauenInsgesamt": 163,
+    "ballotsWithListenkreuz": 43657,
+    "ballotsWithListenkreuzPercent": 60.3,
+    "turnout": 50.9
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "G 2000",
+      "fullName": "Gemeinschaft 2000",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 24721,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Saygin",
+          "firstName": "Kamil",
+          "profession": "",
+          "stimmen": 1462
+        },
+        {
+          "position": 2,
+          "lastName": "Kuchminskaja-Eimer",
+          "firstName": "Marina",
+          "profession": "",
+          "stimmen": 1239
+        },
+        {
+          "position": 3,
+          "lastName": "Dergui",
+          "firstName": "Omar",
+          "profession": "",
+          "stimmen": 1277
+        },
+        {
+          "position": 4,
+          "lastName": "Yazicioğlu",
+          "firstName": "Semra",
+          "profession": "",
+          "stimmen": 1340
+        },
+        {
+          "position": 5,
+          "lastName": "Öztürk",
+          "firstName": "Caglar",
+          "profession": "",
+          "stimmen": 1600
+        },
+        {
+          "position": 6,
+          "lastName": "Yazicioğlu",
+          "firstName": "Yasemin",
+          "profession": "",
+          "stimmen": 1332
+        },
+        {
+          "position": 7,
+          "lastName": "Saleh",
+          "firstName": "Mustfa",
+          "profession": "",
+          "stimmen": 1164
+        },
+        {
+          "position": 8,
+          "lastName": "Trifonova",
+          "firstName": "Teodora",
+          "profession": "",
+          "stimmen": 1355
+        },
+        {
+          "position": 9,
+          "lastName": "EryörüMk",
+          "firstName": "Seyfettin",
+          "profession": "",
+          "stimmen": 1153
+        },
+        {
+          "position": 10,
+          "lastName": "Yilmaz",
+          "firstName": "Müzeyyen",
+          "profession": "",
+          "stimmen": 989
+        },
+        {
+          "position": 12,
+          "lastName": "Galip",
+          "firstName": "Canan",
+          "profession": "",
+          "stimmen": 844
+        },
+        {
+          "position": 13,
+          "lastName": "Ahmadi",
+          "firstName": "Morteza",
+          "profession": "",
+          "stimmen": 632
+        },
+        {
+          "position": 14,
+          "lastName": "Jendoubi",
+          "firstName": "Saber",
+          "profession": "",
+          "stimmen": 689
+        },
+        {
+          "position": 15,
+          "lastName": "Alkhater",
+          "firstName": "Hasan",
+          "profession": "",
+          "stimmen": 663
+        },
+        {
+          "position": 16,
+          "lastName": "Yemdji Kuete",
+          "firstName": "Merlin",
+          "profession": "",
+          "stimmen": 662
+        },
+        {
+          "position": 17,
+          "lastName": "Salili",
+          "firstName": "Khalid",
+          "profession": "",
+          "stimmen": 612
+        },
+        {
+          "position": 18,
+          "lastName": "Saygin",
+          "firstName": "Ramazan",
+          "profession": "",
+          "stimmen": 820
+        },
+        {
+          "position": 19,
+          "lastName": "Turhal",
+          "firstName": "Kemal",
+          "profession": "",
+          "stimmen": 1124
+        },
+        {
+          "position": 20,
+          "lastName": "Matouk",
+          "firstName": "Omar",
+          "profession": "",
+          "stimmen": 777
+        },
+        {
+          "position": 21,
+          "lastName": "Aksan",
+          "firstName": "Mustafa",
+          "profession": "",
+          "stimmen": 793
+        },
+        {
+          "position": 22,
+          "lastName": "Tanyeri",
+          "firstName": "Altan",
+          "profession": "",
+          "stimmen": 807
+        },
+        {
+          "position": 23,
+          "lastName": "Coban-Yildiz",
+          "firstName": "Hanife",
+          "profession": "",
+          "stimmen": 1291
+        },
+        {
+          "position": 24,
+          "lastName": "Ezawik",
+          "firstName": "Ahmed",
+          "profession": "",
+          "stimmen": 680
+        },
+        {
+          "position": 25,
+          "lastName": "Beloufi a",
+          "firstName": "Rachid",
+          "profession": "",
+          "stimmen": 652
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "Der Kreis",
+      "fullName": "Der Kreis – Kassel",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 21398,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Katrych",
+          "firstName": "Andrii",
+          "profession": "",
+          "stimmen": 1747
+        },
+        {
+          "position": 2,
+          "lastName": "Katrych",
+          "firstName": "Oksana",
+          "profession": "",
+          "stimmen": 1741
+        },
+        {
+          "position": 3,
+          "lastName": "Bohatyrova",
+          "firstName": "Tamara",
+          "profession": "",
+          "stimmen": 1745
+        },
+        {
+          "position": 4,
+          "lastName": "Rusanova",
+          "firstName": "Iryna",
+          "profession": "",
+          "stimmen": 1740
+        },
+        {
+          "position": 5,
+          "lastName": "Kremska",
+          "firstName": "Kateryna",
+          "profession": "",
+          "stimmen": 1714
+        },
+        {
+          "position": 6,
+          "lastName": "Ievtukhovska",
+          "firstName": "Olga",
+          "profession": "",
+          "stimmen": 1723
+        },
+        {
+          "position": 7,
+          "lastName": "Rudnyk",
+          "firstName": "Roman",
+          "profession": "",
+          "stimmen": 1687
+        },
+        {
+          "position": 8,
+          "lastName": "Prykhodko",
+          "firstName": "Anna",
+          "profession": "",
+          "stimmen": 1712
+        },
+        {
+          "position": 9,
+          "lastName": "Kliuchnikov",
+          "firstName": "Denys",
+          "profession": "",
+          "stimmen": 1650
+        },
+        {
+          "position": 10,
+          "lastName": "Rudnyk",
+          "firstName": "Iryna",
+          "profession": "",
+          "stimmen": 1224
+        },
+        {
+          "position": 12,
+          "lastName": "Havrylova",
+          "firstName": "Marharyta",
+          "profession": "",
+          "stimmen": 1170
+        },
+        {
+          "position": 13,
+          "lastName": "Hrekova",
+          "firstName": "Olha",
+          "profession": "",
+          "stimmen": 1183
+        },
+        {
+          "position": 14,
+          "lastName": "Yevtukhovska",
+          "firstName": "Olesia",
+          "profession": "",
+          "stimmen": 1182
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "EUROPA LISTE",
+      "fullName": "EUROPA LISTE",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 11402,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Malva",
+          "firstName": "Pasquale",
+          "profession": "",
+          "stimmen": 1281
+        },
+        {
+          "position": 2,
+          "lastName": "Choutou",
+          "firstName": "Maria",
+          "profession": "",
+          "stimmen": 1350
+        },
+        {
+          "position": 3,
+          "lastName": "Caruso",
+          "firstName": "Mariella",
+          "profession": "",
+          "stimmen": 1318
+        },
+        {
+          "position": 4,
+          "lastName": "Valencia Pereira",
+          "firstName": "Guilermo",
+          "profession": "",
+          "stimmen": 1280
+        },
+        {
+          "position": 5,
+          "lastName": "Taranczewska-Swiatkowska",
+          "firstName": "Joana",
+          "profession": "",
+          "stimmen": 1253
+        },
+        {
+          "position": 6,
+          "lastName": "Ngo Ndjiki",
+          "firstName": "Nina",
+          "profession": "",
+          "stimmen": 1264
+        },
+        {
+          "position": 7,
+          "lastName": "Leone",
+          "firstName": "Pasquale",
+          "profession": "",
+          "stimmen": 1235
+        },
+        {
+          "position": 8,
+          "lastName": "Seminerio",
+          "firstName": "Carmelo",
+          "profession": "",
+          "stimmen": 1188
+        },
+        {
+          "position": 9,
+          "lastName": "Lo Voi",
+          "firstName": "Giusepe",
+          "profession": "",
+          "stimmen": 1233
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "DW",
+      "fullName": "Democratic World",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 14068,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Becker-Hong",
+          "firstName": "Yuanyuan",
+          "profession": "",
+          "stimmen": 1381
+        },
+        {
+          "position": 2,
+          "lastName": "Theleman",
+          "firstName": "Lidia",
+          "profession": "",
+          "stimmen": 1376
+        },
+        {
+          "position": 3,
+          "lastName": "Curacachi-Wiedman",
+          "firstName": "Yesenia",
+          "profession": "",
+          "stimmen": 1087
+        },
+        {
+          "position": 4,
+          "lastName": "Balta",
+          "firstName": "Guelsen",
+          "profession": "",
+          "stimmen": 1207
+        },
+        {
+          "position": 5,
+          "lastName": "Tang",
+          "firstName": "Xiaoyan",
+          "profession": "",
+          "stimmen": 1299
+        },
+        {
+          "position": 6,
+          "lastName": "Mashkina",
+          "firstName": "Anhelina",
+          "profession": "",
+          "stimmen": 1267
+        },
+        {
+          "position": 7,
+          "lastName": "Musie",
+          "firstName": "Senet",
+          "profession": "",
+          "stimmen": 1218
+        },
+        {
+          "position": 8,
+          "lastName": "Eremia",
+          "firstName": "Simona",
+          "profession": "",
+          "stimmen": 1281
+        },
+        {
+          "position": 9,
+          "lastName": "Drzazga",
+          "firstName": "Ewa",
+          "profession": "",
+          "stimmen": 1243
+        },
+        {
+          "position": 10,
+          "lastName": "Vejselovic-Hujdur",
+          "firstName": "Ifeta",
+          "profession": "",
+          "stimmen": 1196
+        },
+        {
+          "position": 11,
+          "lastName": "Song-Boden",
+          "firstName": "Myong-Ree",
+          "profession": "",
+          "stimmen": 1513
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "MML Kassel",
+      "fullName": "Migrantinnen und Migranten Liste Kassel",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 10147,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Mohtadi Ilkhanizadeh",
+          "firstName": "Leila",
+          "profession": "",
+          "stimmen": 914
+        },
+        {
+          "position": 2,
+          "lastName": "Samuel-Ehiwario",
+          "firstName": "Chuks",
+          "profession": "",
+          "stimmen": 880
+        },
+        {
+          "position": 3,
+          "lastName": "Brune",
+          "firstName": "Anelia",
+          "profession": "",
+          "stimmen": 871
+        },
+        {
+          "position": 4,
+          "lastName": "Annesley",
+          "firstName": "Ratnasingham",
+          "profession": "",
+          "stimmen": 716
+        },
+        {
+          "position": 5,
+          "lastName": "Barros Moura Saathoff",
+          "firstName": "Leila",
+          "profession": "",
+          "stimmen": 800
+        },
+        {
+          "position": 6,
+          "lastName": "Andemeskel",
+          "firstName": "Jordanoz",
+          "profession": "",
+          "stimmen": 708
+        },
+        {
+          "position": 7,
+          "lastName": "Diallo",
+          "firstName": "Alhassane",
+          "profession": "",
+          "stimmen": 738
+        },
+        {
+          "position": 8,
+          "lastName": "Haupt-Kayaga",
+          "firstName": "Ivy Violet",
+          "profession": "",
+          "stimmen": 751
+        },
+        {
+          "position": 9,
+          "lastName": "Duru",
+          "firstName": "Eddy",
+          "profession": "",
+          "stimmen": 848
+        },
+        {
+          "position": 10,
+          "lastName": "De Sousa Brito",
+          "firstName": "Yasmin",
+          "profession": "",
+          "stimmen": 621
+        },
+        {
+          "position": 11,
+          "lastName": "Ndoh",
+          "firstName": "Simon",
+          "profession": "",
+          "stimmen": 579
+        },
+        {
+          "position": 12,
+          "lastName": "Almadani",
+          "firstName": "Zohreh",
+          "profession": "",
+          "stimmen": 646
+        },
+        {
+          "position": 13,
+          "lastName": "Araya-Quehl",
+          "firstName": "Freweini",
+          "profession": "",
+          "stimmen": 536
+        },
+        {
+          "position": 14,
+          "lastName": "Hamd",
+          "firstName": "Maram",
+          "profession": "",
+          "stimmen": 539
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "shortName": "ABK",
+      "fullName": "ABK Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 18004,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Wacays",
+          "firstName": "Mohamed",
+          "profession": "",
+          "stimmen": 776
+        },
+        {
+          "position": 2,
+          "lastName": "Ishaq Husein",
+          "firstName": "Ibrahim",
+          "profession": "",
+          "stimmen": 1441
+        },
+        {
+          "position": 3,
+          "lastName": "Abu Shahar",
+          "firstName": "Najah Khadar",
+          "profession": "",
+          "stimmen": 751
+        },
+        {
+          "position": 5,
+          "lastName": "Mohamed Yousef",
+          "firstName": "Ahmed",
+          "profession": "",
+          "stimmen": 1568
+        },
+        {
+          "position": 6,
+          "lastName": "Osman",
+          "firstName": "Axmed",
+          "profession": "",
+          "stimmen": 1584
+        },
+        {
+          "position": 7,
+          "lastName": "Yuusuf Aadan",
+          "firstName": "Ikraan",
+          "profession": "",
+          "stimmen": 1075
+        },
+        {
+          "position": 8,
+          "lastName": "Kahin",
+          "firstName": "Kahin",
+          "profession": "",
+          "stimmen": 1148
+        },
+        {
+          "position": 9,
+          "lastName": "Osman Moalim Muhamud",
+          "firstName": "Usama",
+          "profession": "",
+          "stimmen": 1605
+        },
+        {
+          "position": 10,
+          "lastName": "Abdi",
+          "firstName": "Yasin",
+          "profession": "",
+          "stimmen": 1501
+        },
+        {
+          "position": 11,
+          "lastName": "Mohamed",
+          "firstName": "Asmo",
+          "profession": "",
+          "stimmen": 1680
+        },
+        {
+          "position": 12,
+          "lastName": "Abdullahi Yusuf",
+          "firstName": "Ahmed",
+          "profession": "",
+          "stimmen": 1497
+        },
+        {
+          "position": 14,
+          "lastName": "Ahmed Nuur",
+          "firstName": "Abokar",
+          "profession": "",
+          "stimmen": 1224
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-ks.ekom21cdn.de/2026-03-15/06611000/daten/opendata/Open-Data-06611000-Auslaenderbeiratswahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

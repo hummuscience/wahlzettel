@@ -1,0 +1,1530 @@
+{
+  "election": "wiesbaden-kav",
+  "stand": "2026-03-15",
+  "totalSeats": 11,
+  "totals": {
+    "validVotes": 144146,
+    "validBallots": 5210,
+    "wahlberechtigte": 60350,
+    "waehlerGesamt": 5774,
+    "ungueltigeStimmzettel": 564,
+    "kandidatenInsgesamt": 186,
+    "frauenInsgesamt": 240,
+    "ballotsWithListenkreuz": 63137,
+    "ballotsWithListenkreuzPercent": 63.2,
+    "turnout": 48.1
+  },
+  "parties": [
+    {
+      "listNumber": 6,
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "color": "#0032C8",
+      "percent": 11.9,
+      "votesAbsolute": 14497,
+      "votesWeighted": 11521,
+      "seats": 10,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Corian",
+          "firstName": "Darrel",
+          "profession": "Elektroniker",
+          "stimmen": 1342
+        },
+        {
+          "position": 2,
+          "lastName": "Heller",
+          "firstName": "Gloria",
+          "profession": "Zugbegleiterin",
+          "stimmen": 1019
+        },
+        {
+          "position": 3,
+          "lastName": "Sluzkij",
+          "firstName": "Dmitrij",
+          "profession": "Fachkraft f. Schutz u. Sicherheit",
+          "stimmen": 967
+        },
+        {
+          "position": 4,
+          "lastName": "Jose",
+          "firstName": "Santhosh",
+          "profession": "Ltd. Angestellter",
+          "stimmen": 975
+        },
+        {
+          "position": 5,
+          "lastName": "Rasin",
+          "firstName": "Arkadij",
+          "profession": "Speditionskaufmann",
+          "stimmen": 935
+        },
+        {
+          "position": 6,
+          "lastName": "Di Pace",
+          "firstName": "Luca",
+          "profession": "Auszubildender",
+          "stimmen": 1001
+        },
+        {
+          "position": 7,
+          "lastName": "Ballandies",
+          "firstName": "Najat",
+          "profession": "Friseurin",
+          "stimmen": 897
+        },
+        {
+          "position": 8,
+          "lastName": "Oganesyan",
+          "firstName": "Artur",
+          "profession": "Fachkraft f. Schutz u. Sicherheit",
+          "stimmen": 920
+        },
+        {
+          "position": 9,
+          "lastName": "Knol",
+          "firstName": "Nina",
+          "profession": "Rentnerin",
+          "stimmen": 970
+        },
+        {
+          "position": 10,
+          "lastName": "Younan Maccemous",
+          "firstName": "Rodica",
+          "profession": "Fußpflegerin",
+          "stimmen": 878
+        },
+        {
+          "position": 11,
+          "lastName": "Propp",
+          "firstName": "Irina",
+          "profession": "Unternehmerin",
+          "stimmen": 913
+        },
+        {
+          "position": 12,
+          "lastName": "Tarabrin",
+          "firstName": "Artem",
+          "profession": "Fahrer",
+          "stimmen": 872
+        },
+        {
+          "position": 13,
+          "lastName": "Freundt",
+          "firstName": "Natalia",
+          "profession": "Buchhalterin",
+          "stimmen": 949
+        },
+        {
+          "position": 14,
+          "lastName": "Leuzzi",
+          "firstName": "Tatiana",
+          "profession": "Rentnerin",
+          "stimmen": 916
+        },
+        {
+          "position": 15,
+          "lastName": "Lambrou",
+          "firstName": "Robert",
+          "profession": "Dipl.-Kaufmann",
+          "stimmen": 943
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "color": "#999999",
+      "percent": 1.7,
+      "votesAbsolute": 5241,
+      "votesWeighted": 1643,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Pawlik",
+          "firstName": "Janusz",
+          "profession": "Elektroniker",
+          "stimmen": 700
+        },
+        {
+          "position": 2,
+          "lastName": "Kadir",
+          "firstName": "Amir Omer",
+          "profession": "Monteur",
+          "stimmen": 585
+        },
+        {
+          "position": 3,
+          "lastName": "Abdolvahab",
+          "firstName": "Shahnas",
+          "profession": "Dipl.-Ingenieurin (FH)",
+          "stimmen": 556
+        },
+        {
+          "position": 4,
+          "lastName": "Creţu",
+          "firstName": "Marian-Vlad",
+          "profession": "Elektriker",
+          "stimmen": 570
+        },
+        {
+          "position": 5,
+          "lastName": "Ciobaniuc",
+          "firstName": "Vasile",
+          "profession": "Elektroniker",
+          "stimmen": 571
+        },
+        {
+          "position": 6,
+          "lastName": "Yusein",
+          "firstName": "Ali",
+          "profession": "Fahrradmechaniker",
+          "stimmen": 555
+        },
+        {
+          "position": 7,
+          "lastName": "Ferreira Viana Castela Gouveia",
+          "firstName": "Nadir",
+          "profession": "Büromaschinentechnikerin",
+          "stimmen": 603
+        },
+        {
+          "position": 8,
+          "lastName": "Beșca",
+          "firstName": "Horațiu",
+          "profession": "Kfz-Mechaniker",
+          "stimmen": 549
+        },
+        {
+          "position": 9,
+          "lastName": "Myustedzheb",
+          "firstName": "Erkan",
+          "profession": "Bauhelfer",
+          "stimmen": 552
+        }
+      ]
+    },
+    {
+      "listNumber": 1,
+      "shortName": "BIC",
+      "fullName": "Bündnis für Integration und Chancengleichheit",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 18550,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Amer",
+          "firstName": "Mimoun",
+          "profession": "Lehrer",
+          "stimmen": 1485
+        },
+        {
+          "position": 2,
+          "lastName": "El Yaznasni",
+          "firstName": "Aicha",
+          "profession": "Köchin",
+          "stimmen": 1292
+        },
+        {
+          "position": 3,
+          "lastName": "Taouil",
+          "firstName": "Allal",
+          "profession": "Fahrer",
+          "stimmen": 1123
+        },
+        {
+          "position": 4,
+          "lastName": "Ouadah",
+          "firstName": "Ayachi",
+          "profession": "Postbote",
+          "stimmen": 1202
+        },
+        {
+          "position": 5,
+          "lastName": "El Bali",
+          "firstName": "Abdelhafid",
+          "profession": "Berufskraftfahrer",
+          "stimmen": 1237
+        },
+        {
+          "position": 6,
+          "lastName": "Arena",
+          "firstName": "Farida",
+          "profession": "Selbstständig",
+          "stimmen": 1341
+        },
+        {
+          "position": 7,
+          "lastName": "Karabila",
+          "firstName": "Khalid",
+          "profession": "Dipl.-Ingenieur Elektrotechnik",
+          "stimmen": 1244
+        },
+        {
+          "position": 8,
+          "lastName": "Boutkoulicht",
+          "firstName": "Fikri",
+          "profession": "Rechtsanwalt",
+          "stimmen": 1201
+        },
+        {
+          "position": 9,
+          "lastName": "Tajioui",
+          "firstName": "Salima",
+          "profession": "Gutachterin med. Dienst",
+          "stimmen": 1235
+        },
+        {
+          "position": 10,
+          "lastName": "Chourak",
+          "firstName": "Abdelkarim",
+          "profession": "Müllwerker",
+          "stimmen": 1173
+        },
+        {
+          "position": 11,
+          "lastName": "El Fachtali",
+          "firstName": "Yahya",
+          "profession": "Hausmeister",
+          "stimmen": 1133
+        },
+        {
+          "position": 12,
+          "lastName": "El Mahyaoui",
+          "firstName": "Rachid",
+          "profession": "Sachbearbeiter",
+          "stimmen": 1107
+        },
+        {
+          "position": 13,
+          "lastName": "El Idrissi",
+          "firstName": "Abdelhafid",
+          "profession": "Informatiker",
+          "stimmen": 1088
+        },
+        {
+          "position": 14,
+          "lastName": "Houari",
+          "firstName": "Abdelhafid",
+          "profession": "Maschinenbauingenieur",
+          "stimmen": 1049
+        },
+        {
+          "position": 15,
+          "lastName": "El Hamsi",
+          "firstName": "Samir",
+          "profession": "Busfahrer",
+          "stimmen": 962
+        },
+        {
+          "position": 16,
+          "lastName": "Boudraa",
+          "firstName": "Fouad",
+          "profession": "Industry- u. Strategic-Account-Manager",
+          "stimmen": 678
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "WiF",
+      "fullName": "Wiesbadener interkulturelle Frauenliste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 16801,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Pop",
+          "firstName": "Raluca-Andreea",
+          "profession": "Politikwissenschaftlerin",
+          "stimmen": 2214
+        },
+        {
+          "position": 2,
+          "lastName": "Krajnović",
+          "firstName": "Lana",
+          "profession": "Angestellte",
+          "stimmen": 2161
+        },
+        {
+          "position": 3,
+          "lastName": "Nikolovski",
+          "firstName": "Ljence",
+          "profession": "Sozialpädagogin",
+          "stimmen": 2081
+        },
+        {
+          "position": 4,
+          "lastName": "Panchenko",
+          "firstName": "Oksana",
+          "profession": "Architektin",
+          "stimmen": 2111
+        },
+        {
+          "position": 5,
+          "lastName": "Verezub",
+          "firstName": "Veronika",
+          "profession": "Ingenieurin",
+          "stimmen": 2152
+        },
+        {
+          "position": 6,
+          "lastName": "Laghai",
+          "firstName": "Mahshid",
+          "profession": "Med. Beraterin",
+          "stimmen": 2021
+        },
+        {
+          "position": 7,
+          "lastName": "Oprica",
+          "firstName": "Anca Mihaela",
+          "profession": "Luftsicherheitsassistentin",
+          "stimmen": 2037
+        },
+        {
+          "position": 8,
+          "lastName": "Spriestersbach",
+          "firstName": "Kiomi Soledad",
+          "profession": "Angestellte",
+          "stimmen": 2024
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "ML",
+      "fullName": "Multikulturelle Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 14899,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Gomes",
+          "firstName": "Julius",
+          "profession": "Rentner",
+          "stimmen": 1098
+        },
+        {
+          "position": 2,
+          "lastName": "Upadhayay",
+          "firstName": "Neha Bhardwaj",
+          "profession": "Angestellte",
+          "stimmen": 1035
+        },
+        {
+          "position": 3,
+          "lastName": "Wübbena",
+          "firstName": "Ram Bahadur",
+          "profession": "Arbeiter",
+          "stimmen": 899
+        },
+        {
+          "position": 4,
+          "lastName": "O Connor",
+          "firstName": "Elena",
+          "profession": "Angestellte",
+          "stimmen": 1042
+        },
+        {
+          "position": 5,
+          "lastName": "Altshulyer",
+          "firstName": "Yakiv",
+          "profession": "Freiberufler",
+          "stimmen": 749
+        },
+        {
+          "position": 6,
+          "lastName": "Sharma",
+          "firstName": "Pratibha",
+          "profession": "Kfm. Sachbearbeiterin",
+          "stimmen": 809
+        },
+        {
+          "position": 7,
+          "lastName": "Tambascia",
+          "firstName": "Nicola",
+          "profession": "Arbeiter",
+          "stimmen": 841
+        },
+        {
+          "position": 8,
+          "lastName": "Ponomarova",
+          "firstName": "Yuliia",
+          "profession": "Buchhalterin",
+          "stimmen": 701
+        },
+        {
+          "position": 9,
+          "lastName": "Khadrou",
+          "firstName": "Aiman",
+          "profession": "Büromitarbeiter",
+          "stimmen": 682
+        },
+        {
+          "position": 10,
+          "lastName": "Tezonar",
+          "firstName": "Ezgi",
+          "profession": "Musiklehrerin",
+          "stimmen": 521
+        },
+        {
+          "position": 11,
+          "lastName": "Qayumi",
+          "firstName": "Walid",
+          "profession": "Arbeiter",
+          "stimmen": 460
+        },
+        {
+          "position": 12,
+          "lastName": "Matanic",
+          "firstName": "Ruzica",
+          "profession": "Rentnerin",
+          "stimmen": 533
+        },
+        {
+          "position": 13,
+          "lastName": "Binaku",
+          "firstName": "Arianit",
+          "profession": "Selbstständig",
+          "stimmen": 603
+        },
+        {
+          "position": 14,
+          "lastName": "Schmauß",
+          "firstName": "Oyun",
+          "profession": "Selbstständig",
+          "stimmen": 450
+        },
+        {
+          "position": 15,
+          "lastName": "Soni",
+          "firstName": "Suresh",
+          "profession": "Rentner",
+          "stimmen": 566
+        },
+        {
+          "position": 16,
+          "lastName": "Tewelde Asfaha",
+          "firstName": "Simon",
+          "profession": "Arbeiter",
+          "stimmen": 537
+        },
+        {
+          "position": 17,
+          "lastName": "Kolte",
+          "firstName": "Devashish Sharad",
+          "profession": "Praktikant",
+          "stimmen": 537
+        },
+        {
+          "position": 18,
+          "lastName": "Karimpur",
+          "firstName": "Sayed Wali",
+          "profession": "Hilfskoch",
+          "stimmen": 434
+        },
+        {
+          "position": 19,
+          "lastName": "Khan",
+          "firstName": "Shahin",
+          "profession": "Arbeiter",
+          "stimmen": 477
+        },
+        {
+          "position": 20,
+          "lastName": "Imran",
+          "firstName": "Muhammad",
+          "profession": "Kraftfahrer",
+          "stimmen": 463
+        },
+        {
+          "position": 21,
+          "lastName": "Parvaneh-Sayar",
+          "firstName": "Mohammad-Hossein",
+          "profession": "Arbeitslos",
+          "stimmen": 493
+        },
+        {
+          "position": 22,
+          "lastName": "Alam",
+          "firstName": "Khairul",
+          "profession": "Rentner",
+          "stimmen": 467
+        },
+        {
+          "position": 23,
+          "lastName": "Azad",
+          "firstName": "Mohammad Abul Kalam",
+          "profession": "Selbstständig",
+          "stimmen": 502
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "GURT",
+      "fullName": "Gemeinsam für Ukrainer mit Respekt und Toleranz",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 13269,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Desiak",
+          "firstName": "Serhii",
+          "profession": "Geschäftsführer",
+          "stimmen": 1422
+        },
+        {
+          "position": 2,
+          "lastName": "Grytsai",
+          "firstName": "Maryna",
+          "profession": "Journalistin",
+          "stimmen": 1233
+        },
+        {
+          "position": 3,
+          "lastName": "Platash",
+          "firstName": "Larysa",
+          "profession": "Lehrerin",
+          "stimmen": 1195
+        },
+        {
+          "position": 4,
+          "lastName": "Skvortsova",
+          "firstName": "Olena",
+          "profession": "Wirtschaftsprüferin",
+          "stimmen": 1302
+        },
+        {
+          "position": 5,
+          "lastName": "Erlikhman",
+          "firstName": "Ievgen",
+          "profession": "Selbstständig",
+          "stimmen": 1171
+        },
+        {
+          "position": 6,
+          "lastName": "Kolesnik",
+          "firstName": "Olga",
+          "profession": "Selbstständig",
+          "stimmen": 1297
+        },
+        {
+          "position": 7,
+          "lastName": "Shevchenko",
+          "firstName": "Iryna",
+          "profession": "Rentnerin",
+          "stimmen": 1145
+        },
+        {
+          "position": 8,
+          "lastName": "Zakharova",
+          "firstName": "Anastasiia",
+          "profession": "Grundschullehrerin",
+          "stimmen": 920
+        },
+        {
+          "position": 9,
+          "lastName": "Ivashchenko",
+          "firstName": "Maryna",
+          "profession": "Account-Managerin",
+          "stimmen": 840
+        },
+        {
+          "position": 10,
+          "lastName": "Babenko",
+          "firstName": "Olena",
+          "profession": "Kunsttherapeutin",
+          "stimmen": 955
+        },
+        {
+          "position": 11,
+          "lastName": "Kryvoshei",
+          "firstName": "Yevdokiia",
+          "profession": "Rentnerin",
+          "stimmen": 883
+        },
+        {
+          "position": 12,
+          "lastName": "Kodria",
+          "firstName": "Denys",
+          "profession": "Lehrer",
+          "stimmen": 906
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "shortName": "KDM",
+      "fullName": "Komitee der Migranten",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 3255,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Hassani",
+          "firstName": "Raheleh",
+          "profession": "Aushilfe",
+          "stimmen": 333
+        },
+        {
+          "position": 2,
+          "lastName": "Alizadeh",
+          "firstName": "Esmail",
+          "profession": "Warehouse Operator",
+          "stimmen": 316
+        },
+        {
+          "position": 3,
+          "lastName": "Hussaini",
+          "firstName": "Zahra",
+          "profession": "Hausfrau",
+          "stimmen": 332
+        },
+        {
+          "position": 4,
+          "lastName": "Ali",
+          "firstName": "Parwin",
+          "profession": "Dozentin",
+          "stimmen": 324
+        },
+        {
+          "position": 5,
+          "lastName": "Yosufi",
+          "firstName": "Kamran",
+          "profession": "Student",
+          "stimmen": 308
+        },
+        {
+          "position": 6,
+          "lastName": "Schakib",
+          "firstName": "Mahmuda",
+          "profession": "Rentnerin",
+          "stimmen": 294
+        },
+        {
+          "position": 7,
+          "lastName": "Roshan",
+          "firstName": "Sameer",
+          "profession": "Elektriker",
+          "stimmen": 309
+        },
+        {
+          "position": 8,
+          "lastName": "Naimi",
+          "firstName": "Hosnieh",
+          "profession": "Zahnarzthelferin",
+          "stimmen": 293
+        },
+        {
+          "position": 9,
+          "lastName": "Khawari",
+          "firstName": "Razia",
+          "profession": "Maßschneiderin",
+          "stimmen": 297
+        },
+        {
+          "position": 10,
+          "lastName": "Jan",
+          "firstName": "Farid",
+          "profession": "Koch",
+          "stimmen": 230
+        },
+        {
+          "position": 11,
+          "lastName": "Haidari",
+          "firstName": "Parwin",
+          "profession": "Rentnerin",
+          "stimmen": 219
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "shortName": "AKW",
+      "fullName": "Aktiv für Wiesbaden",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 9542,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Hassan",
+          "firstName": "Buqari Abdi",
+          "profession": "Dolmetscher",
+          "stimmen": 1086
+        },
+        {
+          "position": 2,
+          "lastName": "Ali",
+          "firstName": "Mohamed Mukhtar Mohamed",
+          "profession": "Softwareentwickler",
+          "stimmen": 1046
+        },
+        {
+          "position": 3,
+          "lastName": "Abdi",
+          "firstName": "Oumalkaire Moussa",
+          "profession": "Auszubildende",
+          "stimmen": 1013
+        },
+        {
+          "position": 4,
+          "lastName": "Abdi Hassan",
+          "firstName": "Kaltuma",
+          "profession": "Auszubildende",
+          "stimmen": 1017
+        },
+        {
+          "position": 5,
+          "lastName": "Mariano Rainde",
+          "firstName": "Octávio Rodrigo",
+          "profession": "Kfz-Mechatroniker",
+          "stimmen": 1107
+        },
+        {
+          "position": 6,
+          "lastName": "Lopes Souto Amado",
+          "firstName": "Nelson",
+          "profession": "Lagerhelfer",
+          "stimmen": 1092
+        },
+        {
+          "position": 7,
+          "lastName": "Abraham",
+          "firstName": "Lara",
+          "profession": "Erzieherin",
+          "stimmen": 1096
+        },
+        {
+          "position": 8,
+          "lastName": "Owusu",
+          "firstName": "Paulina",
+          "profession": "Pflegehelferin",
+          "stimmen": 1066
+        },
+        {
+          "position": 9,
+          "lastName": "Fadalla",
+          "firstName": "Rozalin Ahmed Mohamed",
+          "profession": "Studentin",
+          "stimmen": 1019
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "shortName": "Ukrainische Union",
+      "fullName": "Ukrainische Union Wiesbaden",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 6377,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Yarova",
+          "firstName": "Larysa",
+          "profession": "Juristin",
+          "stimmen": 715
+        },
+        {
+          "position": 2,
+          "lastName": "Shtonda",
+          "firstName": "Olena",
+          "profession": "Industriekauffrau",
+          "stimmen": 591
+        },
+        {
+          "position": 3,
+          "lastName": "Babaieva",
+          "firstName": "Kateryna",
+          "profession": "Ingenieurin",
+          "stimmen": 661
+        },
+        {
+          "position": 4,
+          "lastName": "Stepaniuk",
+          "firstName": "Mykola",
+          "profession": "Erzieher",
+          "stimmen": 624
+        },
+        {
+          "position": 5,
+          "lastName": "Synytsia",
+          "firstName": "Anastasiia",
+          "profession": "Patent- und Markenanwältin",
+          "stimmen": 623
+        },
+        {
+          "position": 6,
+          "lastName": "Kormilets",
+          "firstName": "Nataliia",
+          "profession": "Fitnesstrainerin",
+          "stimmen": 598
+        },
+        {
+          "position": 7,
+          "lastName": "Melnyk",
+          "firstName": "Yuliia",
+          "profession": "Finanzbuchhalterin",
+          "stimmen": 587
+        },
+        {
+          "position": 8,
+          "lastName": "Nazarova",
+          "firstName": "Nataliia",
+          "profession": "Grundschullehrerin",
+          "stimmen": 550
+        },
+        {
+          "position": 9,
+          "lastName": "Nnajiofor",
+          "firstName": "Olga",
+          "profession": "Außenwirtschaftsmanagerin",
+          "stimmen": 550
+        },
+        {
+          "position": 10,
+          "lastName": "Ostapchenko",
+          "firstName": "Liubov",
+          "profession": "Pädagogin",
+          "stimmen": 430
+        },
+        {
+          "position": 11,
+          "lastName": "Petrova",
+          "firstName": "Mariia",
+          "profession": "Organisationsmanagerin",
+          "stimmen": 448
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "shortName": "S.D.L.",
+      "fullName": "Syrische Demokratische Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 8575,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Haydo",
+          "firstName": "Sulayman",
+          "profession": "Friseurmeister",
+          "stimmen": 1192
+        },
+        {
+          "position": 2,
+          "lastName": "Barsom",
+          "firstName": "Samir",
+          "profession": "Arbeiter",
+          "stimmen": 1102
+        },
+        {
+          "position": 3,
+          "lastName": "Daho",
+          "firstName": "Rimon",
+          "profession": "Rentner",
+          "stimmen": 797
+        },
+        {
+          "position": 4,
+          "lastName": "Afram",
+          "firstName": "Abdulmasih",
+          "profession": "Fahrer",
+          "stimmen": 899
+        },
+        {
+          "position": 5,
+          "lastName": "Yacoub",
+          "firstName": "Nassra",
+          "profession": "Küchenhelferin",
+          "stimmen": 886
+        },
+        {
+          "position": 6,
+          "lastName": "Alid",
+          "firstName": "Roza",
+          "profession": "Hausfrau",
+          "stimmen": 657
+        },
+        {
+          "position": 7,
+          "lastName": "Ghabro",
+          "firstName": "Mansora",
+          "profession": "Erzieherin",
+          "stimmen": 914
+        },
+        {
+          "position": 8,
+          "lastName": "Falloh",
+          "firstName": "Issam",
+          "profession": "Elektroingenieur",
+          "stimmen": 624
+        },
+        {
+          "position": 9,
+          "lastName": "Geurges",
+          "firstName": "Samy",
+          "profession": "Fahrer",
+          "stimmen": 606
+        },
+        {
+          "position": 10,
+          "lastName": "Abyad",
+          "firstName": "Wael",
+          "profession": "Hausmeister",
+          "stimmen": 437
+        },
+        {
+          "position": 11,
+          "lastName": "Malki",
+          "firstName": "Gabriel",
+          "profession": "Schüler",
+          "stimmen": 461
+        }
+      ]
+    },
+    {
+      "listNumber": 11,
+      "shortName": "AUW",
+      "fullName": "Assyrische Union Wiesbaden",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 4632,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Alkan",
+          "firstName": "Sabri",
+          "profession": "Schneider",
+          "stimmen": 820
+        },
+        {
+          "position": 2,
+          "lastName": "Masoud",
+          "firstName": "Reta",
+          "profession": "Notarfachangestellte",
+          "stimmen": 777
+        },
+        {
+          "position": 3,
+          "lastName": "Masoud",
+          "firstName": "Shafer",
+          "profession": "Elektroniker",
+          "stimmen": 658
+        },
+        {
+          "position": 4,
+          "lastName": "Issa",
+          "firstName": "Samouil",
+          "profession": "Student",
+          "stimmen": 446
+        },
+        {
+          "position": 5,
+          "lastName": "Thomas",
+          "firstName": "Gabriela",
+          "profession": "Schülerin",
+          "stimmen": 375
+        },
+        {
+          "position": 6,
+          "lastName": "Eshaia",
+          "firstName": "Jasika",
+          "profession": "Sozialarbeiterin",
+          "stimmen": 342
+        },
+        {
+          "position": 7,
+          "lastName": "Isteifo",
+          "firstName": "Gabriel",
+          "profession": "Friseur",
+          "stimmen": 499
+        },
+        {
+          "position": 8,
+          "lastName": "Lahdo",
+          "firstName": "Simon",
+          "profession": "Elektroniker",
+          "stimmen": 326
+        },
+        {
+          "position": 9,
+          "lastName": "Aho",
+          "firstName": "Jouil",
+          "profession": "Zahnmed. Fachangestellte",
+          "stimmen": 210
+        },
+        {
+          "position": 10,
+          "lastName": "Astivo",
+          "firstName": "Gabriel",
+          "profession": "Sachbearbeiter",
+          "stimmen": 179
+        }
+      ]
+    },
+    {
+      "listNumber": 12,
+      "shortName": "Wir gehören zum Stadtbild",
+      "fullName": "Wir gehören zum Stadtbild",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 6588,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Krüger",
+          "firstName": "Inga",
+          "profession": "Co-Geschäftsführerin",
+          "stimmen": 734
+        },
+        {
+          "position": 2,
+          "lastName": "Talay",
+          "firstName": "Tamuna",
+          "profession": "Dozentin",
+          "stimmen": 661
+        },
+        {
+          "position": 3,
+          "lastName": "Ruiz Richter",
+          "firstName": "Carmen",
+          "profession": "Hauswirtschaftshelferin",
+          "stimmen": 665
+        },
+        {
+          "position": 4,
+          "lastName": "Soloveitchik",
+          "firstName": "Mikhail",
+          "profession": "Mathematiker",
+          "stimmen": 676
+        },
+        {
+          "position": 5,
+          "lastName": "Russi",
+          "firstName": "Anna Maria",
+          "profession": "Päd. Fachkraft",
+          "stimmen": 694
+        },
+        {
+          "position": 6,
+          "lastName": "Joshanlou",
+          "firstName": "Elham",
+          "profession": "Künstlerin",
+          "stimmen": 584
+        },
+        {
+          "position": 7,
+          "lastName": "Hayati",
+          "firstName": "Farkhondeh",
+          "profession": "Lehrerin",
+          "stimmen": 568
+        },
+        {
+          "position": 8,
+          "lastName": "de Nittis",
+          "firstName": "Gianluca",
+          "profession": "Schulbegleiter",
+          "stimmen": 609
+        },
+        {
+          "position": 9,
+          "lastName": "Szücs",
+          "firstName": "Luca",
+          "profession": "Studentin",
+          "stimmen": 551
+        },
+        {
+          "position": 10,
+          "lastName": "de Nittis",
+          "firstName": "Leandro",
+          "profession": "Schüler",
+          "stimmen": 448
+        },
+        {
+          "position": 11,
+          "lastName": "Barakzai",
+          "firstName": "Fareshta",
+          "profession": "Zahnärztin",
+          "stimmen": 398
+        }
+      ]
+    },
+    {
+      "listNumber": 13,
+      "shortName": "WPU",
+      "fullName": "WIESBADENER PARS UNION",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 2707,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Shahmohammadi",
+          "firstName": "Zinat",
+          "profession": "Willkommensmanagerin",
+          "stimmen": 294
+        },
+        {
+          "position": 2,
+          "lastName": "Noori",
+          "firstName": "Aisha",
+          "profession": "Arbeitssuchend",
+          "stimmen": 263
+        },
+        {
+          "position": 3,
+          "lastName": "Sediqi",
+          "firstName": "Shaker",
+          "profession": "Selbstständig",
+          "stimmen": 216
+        },
+        {
+          "position": 4,
+          "lastName": "Abdolahian Dehkordi",
+          "firstName": "Ali",
+          "profession": "Planer",
+          "stimmen": 180
+        },
+        {
+          "position": 5,
+          "lastName": "Noorzad",
+          "firstName": "Nasrin",
+          "profession": "Operationstechnische Assistentin",
+          "stimmen": 187
+        },
+        {
+          "position": 6,
+          "lastName": "Moradi",
+          "firstName": "Ilia",
+          "profession": "Schüler",
+          "stimmen": 190
+        },
+        {
+          "position": 7,
+          "lastName": "Maghsoudy",
+          "firstName": "Hajar",
+          "profession": "Verkäuferin",
+          "stimmen": 170
+        },
+        {
+          "position": 8,
+          "lastName": "Noori",
+          "firstName": "Zohreh",
+          "profession": "Auszubildende",
+          "stimmen": 185
+        },
+        {
+          "position": 9,
+          "lastName": "Moradi",
+          "firstName": "Nader",
+          "profession": "Fahrer",
+          "stimmen": 179
+        },
+        {
+          "position": 10,
+          "lastName": "Sediqi",
+          "firstName": "Khawja",
+          "profession": "Arbeitssuchend",
+          "stimmen": 171
+        },
+        {
+          "position": 11,
+          "lastName": "Taghadosifar",
+          "firstName": "Majid",
+          "profession": "Fahrer",
+          "stimmen": 166
+        },
+        {
+          "position": 12,
+          "lastName": "Mahdavifar",
+          "firstName": "Seyed Mostafa",
+          "profession": "Rentner",
+          "stimmen": 156
+        },
+        {
+          "position": 13,
+          "lastName": "Moghani",
+          "firstName": "Zahra",
+          "profession": "Rentnerin",
+          "stimmen": 182
+        },
+        {
+          "position": 14,
+          "lastName": "Razzaghi Esfahani",
+          "firstName": "Sharareh",
+          "profession": "Hausfrau",
+          "stimmen": 168
+        }
+      ]
+    },
+    {
+      "listNumber": 14,
+      "shortName": "DAL",
+      "fullName": "Demokratische Alternative Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 14846,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Yüksel-Fener",
+          "firstName": "Songül",
+          "profession": "Erzieherin",
+          "stimmen": 1481
+        },
+        {
+          "position": 2,
+          "lastName": "Kizilgöz",
+          "firstName": "Ibrahim",
+          "profession": "Angestellter",
+          "stimmen": 1484
+        },
+        {
+          "position": 3,
+          "lastName": "Beyaz",
+          "firstName": "Birgül",
+          "profession": "Lehrerin",
+          "stimmen": 1442
+        },
+        {
+          "position": 4,
+          "lastName": "Tosun",
+          "firstName": "Adile",
+          "profession": "Referentin",
+          "stimmen": 1459
+        },
+        {
+          "position": 5,
+          "lastName": "Yildiz",
+          "firstName": "Muzaffer",
+          "profession": "Abwassertechniker",
+          "stimmen": 1433
+        },
+        {
+          "position": 6,
+          "lastName": "Salah Andish",
+          "firstName": "Rozalin",
+          "profession": "Kursleiterin",
+          "stimmen": 1334
+        },
+        {
+          "position": 7,
+          "lastName": "Al Abedi",
+          "firstName": "Alhareth",
+          "profession": "Praktikant",
+          "stimmen": 1341
+        },
+        {
+          "position": 8,
+          "lastName": "Güler",
+          "firstName": "Hasan Hüseyin",
+          "profession": "Arbeiter",
+          "stimmen": 1383
+        },
+        {
+          "position": 9,
+          "lastName": "Duman",
+          "firstName": "Dilek",
+          "profession": "Marketingexpertin",
+          "stimmen": 1417
+        },
+        {
+          "position": 10,
+          "lastName": "Yerlikaya",
+          "firstName": "Yasemen",
+          "profession": "Sozialarbeiterin",
+          "stimmen": 1030
+        },
+        {
+          "position": 11,
+          "lastName": "Altun Weller",
+          "firstName": "Zehra",
+          "profession": "Freelancerin",
+          "stimmen": 1042
+        }
+      ]
+    },
+    {
+      "listNumber": 15,
+      "shortName": "PAU",
+      "fullName": "Progressive Ausländer Union",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 4367,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Dawood",
+          "firstName": "Mohammad",
+          "profession": "Rangierer",
+          "stimmen": 442
+        },
+        {
+          "position": 2,
+          "lastName": "Ahmad",
+          "firstName": "Jamil",
+          "profession": "Taxifahrer",
+          "stimmen": 312
+        },
+        {
+          "position": 3,
+          "lastName": "Ehsan",
+          "firstName": "Muhammad",
+          "profession": "Angestellter",
+          "stimmen": 290
+        },
+        {
+          "position": 4,
+          "lastName": "Maqsoom",
+          "firstName": "Mohammad",
+          "profession": "Angestellter",
+          "stimmen": 295
+        },
+        {
+          "position": 5,
+          "lastName": "Langah",
+          "firstName": "Saleem Akbar",
+          "profession": "Buchhalter",
+          "stimmen": 286
+        },
+        {
+          "position": 6,
+          "lastName": "Bashir",
+          "firstName": "Mudassar",
+          "profession": "Koch",
+          "stimmen": 285
+        },
+        {
+          "position": 7,
+          "lastName": "Ahmad",
+          "firstName": "Abid Mansoor",
+          "profession": "Angestellter",
+          "stimmen": 266
+        },
+        {
+          "position": 8,
+          "lastName": "Ahmed",
+          "firstName": "Bashir",
+          "profession": "Rentner",
+          "stimmen": 278
+        },
+        {
+          "position": 9,
+          "lastName": "Mehmood",
+          "firstName": "Tahir",
+          "profession": "Buchhalter",
+          "stimmen": 272
+        },
+        {
+          "position": 10,
+          "lastName": "Malik",
+          "firstName": "Khalid Waseem",
+          "profession": "Hausmann",
+          "stimmen": 266
+        },
+        {
+          "position": 11,
+          "lastName": "Rana",
+          "firstName": "Asif Javed",
+          "profession": "Taxifahrer",
+          "stimmen": 284
+        },
+        {
+          "position": 12,
+          "lastName": "Ahmad",
+          "firstName": "Laeeq",
+          "profession": "Selbstständig",
+          "stimmen": 260
+        },
+        {
+          "position": 13,
+          "lastName": "Rehman",
+          "firstName": "Saif Ur",
+          "profession": "Hausmann",
+          "stimmen": 265
+        },
+        {
+          "position": 14,
+          "lastName": "Shamas",
+          "firstName": "Inam",
+          "profession": "Hausmann",
+          "stimmen": 276
+        },
+        {
+          "position": 15,
+          "lastName": "Ahmed",
+          "firstName": "Abrar",
+          "profession": "Taxifahrer",
+          "stimmen": 290
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-wi.ekom21cdn.de/2026-03-15/06414000/daten/opendata/Open-Data-06414000-Auslaenderbeiratswahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

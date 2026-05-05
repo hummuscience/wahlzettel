@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#002650',
 
   dataFile: 'frankfurt-kav.json',
+  resultsFile: 'results-frankfurt-kav.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://frankfurt.de/wahlen',
 };

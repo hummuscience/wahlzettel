@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#1a3f2f',
 
   dataFile: 'bad-homburg-stvv.json',
+  resultsFile: 'results-bad-homburg-stvv.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.bad-homburg.de/leben-in-bad-homburg/rathaus-politik/wahlen/',
 };

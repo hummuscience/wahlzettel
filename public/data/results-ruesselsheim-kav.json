@@ -1,0 +1,519 @@
+{
+  "election": "ruesselsheim-kav",
+  "stand": "2026-03-15",
+  "totalSeats": 2,
+  "totals": {
+    "validVotes": 43042,
+    "validBallots": 2197,
+    "wahlberechtigte": 17830,
+    "waehlerGesamt": 2345,
+    "ungueltigeStimmzettel": 148,
+    "kandidatenInsgesamt": 57,
+    "frauenInsgesamt": 95,
+    "ballotsWithListenkreuz": 11526,
+    "ballotsWithListenkreuzPercent": 57.4,
+    "turnout": 45.1
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "Abi",
+      "fullName": "Aktive Bürgerinitiative",
+      "color": "#999999",
+      "percent": 3.9,
+      "votesAbsolute": 10092,
+      "votesWeighted": 758,
+      "seats": 2,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Yildiz",
+          "firstName": "Muhammed Ali",
+          "profession": "",
+          "stimmen": 1510
+        },
+        {
+          "position": 2,
+          "lastName": "Alp",
+          "firstName": "Bilal",
+          "profession": "",
+          "stimmen": 1456
+        },
+        {
+          "position": 3,
+          "lastName": "El Hallaoui",
+          "firstName": "Yusuf",
+          "profession": "",
+          "stimmen": 1414
+        },
+        {
+          "position": 4,
+          "lastName": "Coskun",
+          "firstName": "Emre",
+          "profession": "",
+          "stimmen": 1444
+        },
+        {
+          "position": 5,
+          "lastName": "Tokat",
+          "firstName": "Mirac",
+          "profession": "",
+          "stimmen": 1400
+        },
+        {
+          "position": 6,
+          "lastName": "Coskun",
+          "firstName": "Berdan",
+          "profession": "",
+          "stimmen": 946
+        },
+        {
+          "position": 7,
+          "lastName": "Can",
+          "firstName": "Mahmut Mustafa",
+          "profession": "",
+          "stimmen": 981
+        },
+        {
+          "position": 8,
+          "lastName": "Akcakin",
+          "firstName": "Emre",
+          "profession": "",
+          "stimmen": 941
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "L2000",
+      "fullName": "Liste 2000",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 7530,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Dayankaç",
+          "firstName": "Neslihan Vildan",
+          "profession": "",
+          "stimmen": 835
+        },
+        {
+          "position": 2,
+          "lastName": "Chrominska",
+          "firstName": "Oliwia Katarzyna",
+          "profession": "",
+          "stimmen": 796
+        },
+        {
+          "position": 3,
+          "lastName": "Dayankaç",
+          "firstName": "Adnan",
+          "profession": "",
+          "stimmen": 885
+        },
+        {
+          "position": 4,
+          "lastName": "Safel",
+          "firstName": "Yıldıray",
+          "profession": "",
+          "stimmen": 723
+        },
+        {
+          "position": 5,
+          "lastName": "Bakışkan",
+          "firstName": "Rafet",
+          "profession": "",
+          "stimmen": 671
+        },
+        {
+          "position": 6,
+          "lastName": "Göktürk",
+          "firstName": "Ayşe",
+          "profession": "",
+          "stimmen": 459
+        },
+        {
+          "position": 7,
+          "lastName": "Efe",
+          "firstName": "Mustafa",
+          "profession": "",
+          "stimmen": 501
+        },
+        {
+          "position": 8,
+          "lastName": "Pomak",
+          "firstName": "Mümin",
+          "profession": "",
+          "stimmen": 237
+        },
+        {
+          "position": 9,
+          "lastName": "Schiliro",
+          "firstName": "Angelo",
+          "profession": "",
+          "stimmen": 319
+        },
+        {
+          "position": 10,
+          "lastName": "Denysenko",
+          "firstName": "Mykhailo",
+          "profession": "",
+          "stimmen": 277
+        },
+        {
+          "position": 11,
+          "lastName": "Kellecioglu",
+          "firstName": "Kamil",
+          "profession": "",
+          "stimmen": 334
+        },
+        {
+          "position": 12,
+          "lastName": "Keser",
+          "firstName": "Ünsal",
+          "profession": "",
+          "stimmen": 335
+        },
+        {
+          "position": 13,
+          "lastName": "Bostan",
+          "firstName": "Yılmaz",
+          "profession": "",
+          "stimmen": 426
+        },
+        {
+          "position": 14,
+          "lastName": "Cevik",
+          "firstName": "Ibrahim",
+          "profession": "",
+          "stimmen": 466
+        },
+        {
+          "position": 15,
+          "lastName": "Safel",
+          "firstName": "Coskun",
+          "profession": "",
+          "stimmen": 266
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "FL",
+      "fullName": "Freie Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 5016,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Sevimli-Allali",
+          "firstName": "Meltem",
+          "profession": "",
+          "stimmen": 674
+        },
+        {
+          "position": 2,
+          "lastName": "Bouyardan",
+          "firstName": "Mohamed",
+          "profession": "",
+          "stimmen": 544
+        },
+        {
+          "position": 3,
+          "lastName": "Ünal",
+          "firstName": "Hakan",
+          "profession": "",
+          "stimmen": 701
+        },
+        {
+          "position": 4,
+          "lastName": "Lhajiui",
+          "firstName": "Mohamed",
+          "profession": "",
+          "stimmen": 394
+        },
+        {
+          "position": 5,
+          "lastName": "Belli",
+          "firstName": "Alperen",
+          "profession": "",
+          "stimmen": 560
+        },
+        {
+          "position": 6,
+          "lastName": "Boussof",
+          "firstName": "Ali",
+          "profession": "",
+          "stimmen": 400
+        },
+        {
+          "position": 7,
+          "lastName": "Keskin",
+          "firstName": "Fatih",
+          "profession": "",
+          "stimmen": 551
+        },
+        {
+          "position": 8,
+          "lastName": "Koca",
+          "firstName": "Erdal",
+          "profession": "",
+          "stimmen": 629
+        },
+        {
+          "position": 9,
+          "lastName": "Irmak",
+          "firstName": "Cuma Burak",
+          "profession": "",
+          "stimmen": 563
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "So-Li",
+      "fullName": "Solidaritätsliste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 5583,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Çelik",
+          "firstName": "Ümit",
+          "profession": "",
+          "stimmen": 802
+        },
+        {
+          "position": 2,
+          "lastName": "Agatay",
+          "firstName": "Ahmet",
+          "profession": "",
+          "stimmen": 781
+        },
+        {
+          "position": 3,
+          "lastName": "Yildiz",
+          "firstName": "Alkan",
+          "profession": "",
+          "stimmen": 784
+        },
+        {
+          "position": 4,
+          "lastName": "Çelik",
+          "firstName": "Oktay",
+          "profession": "",
+          "stimmen": 793
+        },
+        {
+          "position": 5,
+          "lastName": "Akbas",
+          "firstName": "Helin",
+          "profession": "",
+          "stimmen": 797
+        },
+        {
+          "position": 6,
+          "lastName": "Bostan",
+          "firstName": "Sabri",
+          "profession": "",
+          "stimmen": 813
+        },
+        {
+          "position": 7,
+          "lastName": "Aydın",
+          "firstName": "Ali Kemal",
+          "profession": "",
+          "stimmen": 813
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "ID",
+      "fullName": "Internationale Demokraten",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 10819,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Safi",
+          "firstName": "Nektaria",
+          "profession": "",
+          "stimmen": 1499
+        },
+        {
+          "position": 2,
+          "lastName": "Froudaki Kessidou",
+          "firstName": "Melina Angelina",
+          "profession": "",
+          "stimmen": 1490
+        },
+        {
+          "position": 3,
+          "lastName": "Dimitropoulou",
+          "firstName": "Panagiota",
+          "profession": "",
+          "stimmen": 1489
+        },
+        {
+          "position": 4,
+          "lastName": "Kalpinis",
+          "firstName": "Anastasios",
+          "profession": "",
+          "stimmen": 1474
+        },
+        {
+          "position": 5,
+          "lastName": "Soka",
+          "firstName": "Christina",
+          "profession": "",
+          "stimmen": 1469
+        },
+        {
+          "position": 6,
+          "lastName": "Athinioti",
+          "firstName": "Ermioni",
+          "profession": "",
+          "stimmen": 1079
+        },
+        {
+          "position": 7,
+          "lastName": "Veloni",
+          "firstName": "Maria",
+          "profession": "",
+          "stimmen": 1185
+        },
+        {
+          "position": 8,
+          "lastName": "Veloni",
+          "firstName": "Magdalini",
+          "profession": "",
+          "stimmen": 1134
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "shortName": "Ali",
+      "fullName": "Aktive Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 4002,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Selvi",
+          "firstName": "Ugur",
+          "profession": "",
+          "stimmen": 515
+        },
+        {
+          "position": 2,
+          "lastName": "Kahraman",
+          "firstName": "Hüseyin",
+          "profession": "",
+          "stimmen": 339
+        },
+        {
+          "position": 3,
+          "lastName": "Memiş",
+          "firstName": "Alaettin",
+          "profession": "",
+          "stimmen": 480
+        },
+        {
+          "position": 4,
+          "lastName": "Selvi",
+          "firstName": "Ibrahim",
+          "profession": "",
+          "stimmen": 435
+        },
+        {
+          "position": 5,
+          "lastName": "Özgeniş",
+          "firstName": "Hanzala",
+          "profession": "",
+          "stimmen": 285
+        },
+        {
+          "position": 6,
+          "lastName": "Aksüt",
+          "firstName": "Ibrahim",
+          "profession": "",
+          "stimmen": 244
+        },
+        {
+          "position": 7,
+          "lastName": "Memiş",
+          "firstName": "Meryem",
+          "profession": "",
+          "stimmen": 415
+        },
+        {
+          "position": 8,
+          "lastName": "Billor",
+          "firstName": "Fadime",
+          "profession": "",
+          "stimmen": 410
+        },
+        {
+          "position": 9,
+          "lastName": "Akpinar",
+          "firstName": "Adem",
+          "profession": "",
+          "stimmen": 546
+        },
+        {
+          "position": 10,
+          "lastName": "Harputluogullari",
+          "firstName": "Elif",
+          "profession": "",
+          "stimmen": 333
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-da.ekom21cdn.de/2026-03-15/06433012/daten/opendata/Open-Data-06433012-Auslaenderbeiratswahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

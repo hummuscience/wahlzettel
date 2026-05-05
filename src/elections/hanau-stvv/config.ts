@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#8e0023',
 
   dataFile: 'hanau-stvv.json',
+  resultsFile: 'results-hanau-stvv.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.hanau.de/rathaus/wahlen/',
 };

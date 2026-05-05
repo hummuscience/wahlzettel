@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#0e3047',
 
   dataFile: 'offenbach-kav.json',
+  resultsFile: 'results-offenbach-kav.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.offenbach.de/rathaus/wahlen/',
 };

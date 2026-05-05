@@ -1,0 +1,414 @@
+{
+  "election": "darmstadt-kav",
+  "stand": "2026-03-15",
+  "totalSeats": 1,
+  "totals": {
+    "validVotes": 55303,
+    "validBallots": 2867,
+    "wahlberechtigte": 36457,
+    "waehlerGesamt": 3213,
+    "ungueltigeStimmzettel": 346,
+    "kandidatenInsgesamt": 42,
+    "frauenInsgesamt": 205,
+    "ballotsWithListenkreuz": 40594,
+    "ballotsWithListenkreuzPercent": 60.9,
+    "turnout": 58.3
+  },
+  "parties": [
+    {
+      "listNumber": 5,
+      "shortName": "SfD",
+      "fullName": "Stimme für Darmstadt",
+      "color": "#999999",
+      "percent": 0.8,
+      "votesAbsolute": 9322,
+      "votesWeighted": 516,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Altintas",
+          "firstName": "Senay",
+          "profession": "",
+          "stimmen": 1414
+        },
+        {
+          "position": 2,
+          "lastName": "Cengiz",
+          "firstName": "Ümit",
+          "profession": "",
+          "stimmen": 1368
+        },
+        {
+          "position": 3,
+          "lastName": "Tetik",
+          "firstName": "Orhan",
+          "profession": "",
+          "stimmen": 1299
+        },
+        {
+          "position": 4,
+          "lastName": "Demirci",
+          "firstName": "Ercan",
+          "profession": "",
+          "stimmen": 1298
+        },
+        {
+          "position": 5,
+          "lastName": "Demirci",
+          "firstName": "Bilal",
+          "profession": "",
+          "stimmen": 1300
+        },
+        {
+          "position": 6,
+          "lastName": "Uğurlu",
+          "firstName": "Elyesa",
+          "profession": "",
+          "stimmen": 1331
+        },
+        {
+          "position": 7,
+          "lastName": "Atlı",
+          "firstName": "Atila",
+          "profession": "",
+          "stimmen": 1312
+        }
+      ]
+    },
+    {
+      "listNumber": 1,
+      "shortName": "LDV Darmstadt",
+      "fullName": "Liste der Vielfalt Darmstadt",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 9281,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Bensafi",
+          "firstName": "Said",
+          "profession": "",
+          "stimmen": 1508
+        },
+        {
+          "position": 2,
+          "lastName": "Ettaqi",
+          "firstName": "Noura",
+          "profession": "",
+          "stimmen": 1497
+        },
+        {
+          "position": 3,
+          "lastName": "Bensafi",
+          "firstName": "Jaouad",
+          "profession": "",
+          "stimmen": 1423
+        },
+        {
+          "position": 4,
+          "lastName": "Lakud",
+          "firstName": "Yusuf",
+          "profession": "",
+          "stimmen": 1238
+        },
+        {
+          "position": 5,
+          "lastName": "Elgayed",
+          "firstName": "Amir",
+          "profession": "",
+          "stimmen": 1205
+        },
+        {
+          "position": 6,
+          "lastName": "Al Abdullah",
+          "firstName": "Omar",
+          "profession": "",
+          "stimmen": 1193
+        },
+        {
+          "position": 7,
+          "lastName": "Kasem",
+          "firstName": "Nouralddin",
+          "profession": "",
+          "stimmen": 1217
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "LdS",
+      "fullName": "Liste der Solidarität",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 1955,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Parlak",
+          "firstName": "Dursun",
+          "profession": "",
+          "stimmen": 659
+        },
+        {
+          "position": 2,
+          "lastName": "Zengin",
+          "firstName": "Elif",
+          "profession": "",
+          "stimmen": 697
+        },
+        {
+          "position": 3,
+          "lastName": "Parlak",
+          "firstName": "Gülsen",
+          "profession": "",
+          "stimmen": 599
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "Die Internationalen",
+      "fullName": "Die Internationalen",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 19074,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 2,
+          "lastName": "Kurt",
+          "firstName": "Eda",
+          "profession": "",
+          "stimmen": 2244
+        },
+        {
+          "position": 3,
+          "lastName": "Dogan",
+          "firstName": "Nuriye",
+          "profession": "",
+          "stimmen": 2070
+        },
+        {
+          "position": 5,
+          "lastName": "Zarifi",
+          "firstName": "Atiqullah",
+          "profession": "",
+          "stimmen": 1862
+        },
+        {
+          "position": 6,
+          "lastName": "Ali Ulusow",
+          "firstName": "Abdishakur",
+          "profession": "",
+          "stimmen": 1790
+        },
+        {
+          "position": 7,
+          "lastName": "Mahamed",
+          "firstName": "Aden Abdullahi",
+          "profession": "",
+          "stimmen": 1795
+        },
+        {
+          "position": 8,
+          "lastName": "Eleftheriadis",
+          "firstName": "Bożena",
+          "profession": "",
+          "stimmen": 1566
+        },
+        {
+          "position": 9,
+          "lastName": "Eleftheriadis",
+          "firstName": "Ioannis",
+          "profession": "",
+          "stimmen": 1484
+        },
+        {
+          "position": 10,
+          "lastName": "Larosa",
+          "firstName": "Domenico",
+          "profession": "",
+          "stimmen": 1709
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "POLONIA DARMSTADT",
+      "fullName": "POLONIA DARMSTADT",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 7290,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Piotrowska",
+          "firstName": "Aleksandra",
+          "profession": "",
+          "stimmen": 1123
+        },
+        {
+          "position": 2,
+          "lastName": "Babiś",
+          "firstName": "Barbara",
+          "profession": "",
+          "stimmen": 1044
+        },
+        {
+          "position": 3,
+          "lastName": "Jankowski",
+          "firstName": "Magdalena",
+          "profession": "",
+          "stimmen": 1047
+        },
+        {
+          "position": 4,
+          "lastName": "Dr. Karabowicz",
+          "firstName": "Radosław",
+          "profession": "",
+          "stimmen": 1086
+        },
+        {
+          "position": 5,
+          "lastName": "Klich",
+          "firstName": "Anna",
+          "profession": "",
+          "stimmen": 1050
+        },
+        {
+          "position": 6,
+          "lastName": "Heller",
+          "firstName": "Elżbieta",
+          "profession": "",
+          "stimmen": 996
+        },
+        {
+          "position": 7,
+          "lastName": "Stelter",
+          "firstName": "Antoni",
+          "profession": "",
+          "stimmen": 944
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "shortName": "PAU",
+      "fullName": "Progressive Ausländer Union",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 8381,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Arshad Ahmad",
+          "firstName": "Shahbaz",
+          "profession": "",
+          "stimmen": 1297
+        },
+        {
+          "position": 2,
+          "lastName": "Akbar",
+          "firstName": "Javed",
+          "profession": "",
+          "stimmen": 924
+        },
+        {
+          "position": 3,
+          "lastName": "Yaqub",
+          "firstName": "Muhammad",
+          "profession": "",
+          "stimmen": 1057
+        },
+        {
+          "position": 4,
+          "lastName": "Mahmood",
+          "firstName": "Amer",
+          "profession": "",
+          "stimmen": 818
+        },
+        {
+          "position": 5,
+          "lastName": "Rashid",
+          "firstName": "Adnan",
+          "profession": "",
+          "stimmen": 647
+        },
+        {
+          "position": 6,
+          "lastName": "Nisar",
+          "firstName": "Syeda Rehana",
+          "profession": "",
+          "stimmen": 977
+        },
+        {
+          "position": 7,
+          "lastName": "Barry",
+          "firstName": "Adama Oury",
+          "profession": "",
+          "stimmen": 792
+        },
+        {
+          "position": 8,
+          "lastName": "Singh",
+          "firstName": "Davinder",
+          "profession": "",
+          "stimmen": 864
+        },
+        {
+          "position": 9,
+          "lastName": "Hamza Hammoud Mohammad Za'arir",
+          "firstName": "",
+          "profession": "",
+          "stimmen": 508
+        },
+        {
+          "position": 10,
+          "lastName": "Loun",
+          "firstName": "Waheed Ahmad",
+          "profession": "",
+          "stimmen": 497
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-da.ekom21cdn.de/2026-03-15/06411000/daten/opendata/Open-Data-06411000-Auslaenderbeiratswahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

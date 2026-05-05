@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#003d36',
 
   dataFile: 'wiesbaden-stvv.json',
+  resultsFile: 'results-wiesbaden-stvv.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.wiesbaden.de/rathaus/wahlen',
 };

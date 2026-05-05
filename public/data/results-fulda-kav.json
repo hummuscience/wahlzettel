@@ -1,0 +1,416 @@
+{
+  "election": "fulda-kav",
+  "stand": "2026-03-15",
+  "totalSeats": 12,
+  "totals": {
+    "validVotes": 12212,
+    "validBallots": 1183,
+    "wahlberechtigte": 12174,
+    "waehlerGesamt": 1236,
+    "ungueltigeStimmzettel": 53,
+    "kandidatenInsgesamt": 44,
+    "frauenInsgesamt": 114,
+    "ballotsWithListenkreuz": 14799,
+    "ballotsWithListenkreuzPercent": 58.1,
+    "turnout": 52.0
+  },
+  "parties": [
+    {
+      "listNumber": 3,
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "color": "#0032C8",
+      "percent": 20.1,
+      "votesAbsolute": 945,
+      "votesWeighted": 4979,
+      "seats": 12,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Kaffo Tallaffo",
+          "firstName": "Alain",
+          "profession": "",
+          "stimmen": 312
+        },
+        {
+          "position": 2,
+          "lastName": "Gilbert",
+          "firstName": "Artur",
+          "profession": "",
+          "stimmen": 318
+        },
+        {
+          "position": 3,
+          "lastName": "Reinisch",
+          "firstName": "Peter",
+          "profession": "",
+          "stimmen": 315
+        }
+      ]
+    },
+    {
+      "listNumber": 1,
+      "shortName": "IGA",
+      "fullName": "Internationale Gruppe Ausländerbeirat",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 1470,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Dr. Wardak",
+          "firstName": "Naim",
+          "profession": "",
+          "stimmen": 306
+        },
+        {
+          "position": 2,
+          "lastName": "Mamlouk",
+          "firstName": "Delia",
+          "profession": "",
+          "stimmen": 197
+        },
+        {
+          "position": 3,
+          "lastName": "Torokhova",
+          "firstName": "Elizaveta",
+          "profession": "",
+          "stimmen": 154
+        },
+        {
+          "position": 4,
+          "lastName": "Sliusar",
+          "firstName": "Kateryna",
+          "profession": "",
+          "stimmen": 138
+        },
+        {
+          "position": 5,
+          "lastName": "Sydorianskyi",
+          "firstName": "Vadym",
+          "profession": "",
+          "stimmen": 122
+        },
+        {
+          "position": 6,
+          "lastName": "Katramiz",
+          "firstName": "Nadia",
+          "profession": "",
+          "stimmen": 141
+        },
+        {
+          "position": 7,
+          "lastName": "Uyguc",
+          "firstName": "Nafiye",
+          "profession": "",
+          "stimmen": 150
+        },
+        {
+          "position": 8,
+          "lastName": "Figen",
+          "firstName": "Tugba",
+          "profession": "",
+          "stimmen": 152
+        },
+        {
+          "position": 9,
+          "lastName": "Mamlouk",
+          "firstName": "Bana",
+          "profession": "",
+          "stimmen": 110
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "FB",
+      "fullName": "Friedensbrücke",
+      "color": "#999999",
+      "percent": null,
+      "votesAbsolute": 1061,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Dalmis",
+          "firstName": "Nihat",
+          "profession": "",
+          "stimmen": 185
+        },
+        {
+          "position": 2,
+          "lastName": "Küçükler",
+          "firstName": "Ramazan",
+          "profession": "",
+          "stimmen": 96
+        },
+        {
+          "position": 3,
+          "lastName": "Eren",
+          "firstName": "Kadri",
+          "profession": "",
+          "stimmen": 89
+        },
+        {
+          "position": 4,
+          "lastName": "Akdogan",
+          "firstName": "Mahmut",
+          "profession": "",
+          "stimmen": 91
+        },
+        {
+          "position": 5,
+          "lastName": "Erdin",
+          "firstName": "Erman",
+          "profession": "",
+          "stimmen": 76
+        },
+        {
+          "position": 6,
+          "lastName": "Şahin",
+          "firstName": "Ahmet",
+          "profession": "",
+          "stimmen": 93
+        },
+        {
+          "position": 7,
+          "lastName": "Günay",
+          "firstName": "Murat",
+          "profession": "",
+          "stimmen": 67
+        },
+        {
+          "position": 8,
+          "lastName": "Soylu",
+          "firstName": "Ramazan",
+          "profession": "",
+          "stimmen": 82
+        },
+        {
+          "position": 9,
+          "lastName": "Bilgir",
+          "firstName": "Beyhan",
+          "profession": "",
+          "stimmen": 76
+        },
+        {
+          "position": 10,
+          "lastName": "Özger",
+          "firstName": "Hülya",
+          "profession": "",
+          "stimmen": 141
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "ISL",
+      "fullName": "Internationale Sozialdemokratische Liste",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 6619,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Demir",
+          "firstName": "Abdulkerim",
+          "profession": "",
+          "stimmen": 888
+        },
+        {
+          "position": 2,
+          "lastName": "Atanasova",
+          "firstName": "Ivana",
+          "profession": "",
+          "stimmen": 702
+        },
+        {
+          "position": 3,
+          "lastName": "Acar",
+          "firstName": "Ebru",
+          "profession": "",
+          "stimmen": 653
+        },
+        {
+          "position": 4,
+          "lastName": "Biçakci",
+          "firstName": "Silvia",
+          "profession": "",
+          "stimmen": 656
+        },
+        {
+          "position": 5,
+          "lastName": "Chelovan",
+          "firstName": "Svitlana",
+          "profession": "",
+          "stimmen": 649
+        },
+        {
+          "position": 6,
+          "lastName": "Stojovska",
+          "firstName": "Dragana",
+          "profession": "",
+          "stimmen": 608
+        },
+        {
+          "position": 7,
+          "lastName": "Urhan",
+          "firstName": "Filiz",
+          "profession": "",
+          "stimmen": 548
+        },
+        {
+          "position": 8,
+          "lastName": "Abdo",
+          "firstName": "Ghandi",
+          "profession": "",
+          "stimmen": 531
+        },
+        {
+          "position": 9,
+          "lastName": "Aydemir",
+          "firstName": "Ayten",
+          "profession": "",
+          "stimmen": 480
+        },
+        {
+          "position": 10,
+          "lastName": "Bayadrah",
+          "firstName": "Abdel Majid",
+          "profession": "",
+          "stimmen": 384
+        },
+        {
+          "position": 11,
+          "lastName": "Yilmaz",
+          "firstName": "Aysel",
+          "profession": "",
+          "stimmen": 520
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "DUF",
+      "fullName": "Demokratische Union Fulda",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 2117,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Panackal",
+          "firstName": "Cyriac Tomy",
+          "profession": "",
+          "stimmen": 260
+        },
+        {
+          "position": 2,
+          "lastName": "Majoros",
+          "firstName": "Attila",
+          "profession": "",
+          "stimmen": 286
+        },
+        {
+          "position": 3,
+          "lastName": "von Donop",
+          "firstName": "Solvita",
+          "profession": "",
+          "stimmen": 216
+        },
+        {
+          "position": 4,
+          "lastName": "Bodhe",
+          "firstName": "Vedant Vinayak",
+          "profession": "",
+          "stimmen": 223
+        },
+        {
+          "position": 5,
+          "lastName": "Guseva-Lind",
+          "firstName": "Regina",
+          "profession": "",
+          "stimmen": 197
+        },
+        {
+          "position": 6,
+          "lastName": "Iqbal",
+          "firstName": "Muhammad Haris",
+          "profession": "",
+          "stimmen": 185
+        },
+        {
+          "position": 7,
+          "lastName": "Anjum",
+          "firstName": "",
+          "profession": "",
+          "stimmen": 166
+        },
+        {
+          "position": 8,
+          "lastName": "Moolakkattu Sunny",
+          "firstName": "Albert",
+          "profession": "",
+          "stimmen": 169
+        },
+        {
+          "position": 9,
+          "lastName": "Kanombirira",
+          "firstName": "Mazvita Vanessa",
+          "profession": "",
+          "stimmen": 149
+        },
+        {
+          "position": 10,
+          "lastName": "Low",
+          "firstName": "Khang Ling",
+          "profession": "",
+          "stimmen": 154
+        },
+        {
+          "position": 11,
+          "lastName": "Siluks",
+          "firstName": "Aigars",
+          "profession": "",
+          "stimmen": 112
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-ks.ekom21cdn.de/2026-03-15/06631009/daten/opendata/Open-Data-06631009-Auslaenderbeiratswahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

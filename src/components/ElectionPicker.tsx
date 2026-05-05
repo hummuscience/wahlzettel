@@ -66,22 +66,22 @@ const CITIES: CityEntry[] = [
     name: 'Darmstadt',
     stateId: 'he',
     elections: [
-      { slug: 'darmstadt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004e8a' },
-      { slug: 'darmstadt-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 21, themeColor: '#004e8a' },
+      { slug: 'darmstadt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004e8a', hasResults: true },
+      { slug: 'darmstadt-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 21, themeColor: '#004e8a', hasResults: true },
     ],
   },
   {
     name: 'Landkreis Darmstadt-Dieburg',
     stateId: 'he',
     elections: [
-      { slug: 'dadi-kreistag', label: 'Kreistag', descriptionKey: 'kreistagDesc', emoji: '🏛️', stimmen: 81, themeColor: '#2e5e3f' },
+      { slug: 'dadi-kreistag', label: 'Kreistag', descriptionKey: 'kreistagDesc', emoji: '🏛️', stimmen: 81, themeColor: '#2e5e3f', hasResults: true },
     ],
   },
   {
     name: 'Bad Homburg',
     stateId: 'he',
     elections: [
-      { slug: 'bad-homburg-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 49, themeColor: '#2e6b4f' },
+      { slug: 'bad-homburg-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 49, themeColor: '#2e6b4f', hasResults: true },
     ],
   },
   {
@@ -89,47 +89,47 @@ const CITIES: CityEntry[] = [
     stateId: 'he',
     elections: [
       { slug: 'frankfurt-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 93, themeColor: '#003870', hasResults: true },
-      { slug: 'frankfurt-kav', label: 'Kommunale Ausländervertretung', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 37, themeColor: '#003870' },
+      { slug: 'frankfurt-kav', label: 'Kommunale Ausländervertretung', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 37, themeColor: '#003870', hasResults: true },
     ],
   },
   {
     name: 'Fulda',
     stateId: 'he',
     elections: [
-      { slug: 'fulda-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#8B0000' },
-      { slug: 'fulda-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 11, themeColor: '#8B0000' },
+      { slug: 'fulda-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#8B0000', hasResults: true },
+      { slug: 'fulda-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 11, themeColor: '#8B0000', hasResults: true },
     ],
   },
   {
     name: 'Gießen',
     stateId: 'he',
     elections: [
-      { slug: 'giessen-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#006633' },
-      { slug: 'giessen-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 31, themeColor: '#006633' },
+      { slug: 'giessen-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#006633', hasResults: true },
+      { slug: 'giessen-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 31, themeColor: '#006633', hasResults: true },
     ],
   },
   {
     name: 'Hanau',
     stateId: 'he',
     elections: [
-      { slug: 'hanau-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#c41e3a' },
-      { slug: 'hanau-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 15, themeColor: '#c41e3a' },
+      { slug: 'hanau-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#c41e3a', hasResults: true },
+      { slug: 'hanau-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 15, themeColor: '#c41e3a', hasResults: true },
     ],
   },
   {
     name: 'Kassel',
     stateId: 'he',
     elections: [
-      { slug: 'kassel-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004f9f' },
-      { slug: 'kassel-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 37, themeColor: '#004f9f' },
+      { slug: 'kassel-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#004f9f', hasResults: true },
+      { slug: 'kassel-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 37, themeColor: '#004f9f', hasResults: true },
     ],
   },
   {
     name: 'Marburg',
     stateId: 'he',
     elections: [
-      { slug: 'marburg-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#163455' },
-      { slug: 'marburg-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 15, themeColor: '#163455' },
+      { slug: 'marburg-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#163455', hasResults: true },
+      { slug: 'marburg-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 15, themeColor: '#163455', hasResults: true },
     ],
   },
   {
@@ -304,31 +304,31 @@ const CITIES: CityEntry[] = [
     name: 'Offenbach',
     stateId: 'he',
     elections: [
-      { slug: 'offenbach-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#1a5276' },
-      { slug: 'offenbach-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 25, themeColor: '#1a5276' },
+      { slug: 'offenbach-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 71, themeColor: '#1a5276', hasResults: true },
+      { slug: 'offenbach-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 25, themeColor: '#1a5276', hasResults: true },
     ],
   },
   {
     name: 'Rüsselsheim',
     stateId: 'he',
     elections: [
-      { slug: 'ruesselsheim-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 45, themeColor: '#003399' },
-      { slug: 'ruesselsheim-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 21, themeColor: '#003399' },
+      { slug: 'ruesselsheim-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 45, themeColor: '#003399', hasResults: true },
+      { slug: 'ruesselsheim-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 21, themeColor: '#003399', hasResults: true },
     ],
   },
   {
     name: 'Wetzlar',
     stateId: 'he',
     elections: [
-      { slug: 'wetzlar-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#8B0000' },
+      { slug: 'wetzlar-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 59, themeColor: '#8B0000', hasResults: true },
     ],
   },
   {
     name: 'Wiesbaden',
     stateId: 'he',
     elections: [
-      { slug: 'wiesbaden-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 81, themeColor: '#00594f' },
-      { slug: 'wiesbaden-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 31, themeColor: '#00594f' },
+      { slug: 'wiesbaden-stvv', label: 'Stadtverordnetenversammlung', descriptionKey: 'stvvDesc', emoji: '🇩🇪', stimmen: 81, themeColor: '#00594f', hasResults: true },
+      { slug: 'wiesbaden-kav', label: 'Ausländerbeirat', descriptionKey: 'kavDesc', emoji: '🌍', stimmen: 31, themeColor: '#00594f', hasResults: true },
     ],
   },
   {

@@ -23,6 +23,7 @@ const config: SuedKommunalConfig = {
   themeColorDark: '#003670',
 
   dataFile: 'kassel-kav.json',
+  resultsFile: 'results-kassel-kav.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.kassel.de/buerger/rathaus_und_politik/wahlen/',
 };

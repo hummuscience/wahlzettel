@@ -1,0 +1,4862 @@
+{
+  "election": "wiesbaden-stvv",
+  "stand": "2026-03-15",
+  "totalSeats": 75,
+  "totals": {
+    "validVotes": 7550084,
+    "validBallots": 96584,
+    "wahlberechtigte": 158649,
+    "waehlerGesamt": 99964,
+    "ungueltigeStimmzettel": 3380,
+    "kandidatenInsgesamt": 662,
+    "frauenInsgesamt": 240,
+    "ballotsWithListenkreuz": 63137,
+    "ballotsWithListenkreuzPercent": 63.2,
+    "turnout": 48.1
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
+      "color": "#3D3D3D",
+      "percent": 26.5,
+      "votesAbsolute": 1997559,
+      "votesWeighted": 25554,
+      "seats": 21,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Georgi",
+          "firstName": "Daniela",
+          "profession": "Beamtin",
+          "stimmen": 33325
+        },
+        {
+          "position": 2,
+          "lastName": "Obermayr",
+          "firstName": "Dr.",
+          "profession": "Gerhard, Schulleiter",
+          "stimmen": 34917
+        },
+        {
+          "position": 3,
+          "lastName": "Karipidou",
+          "firstName": "Sofia",
+          "profession": "Rechtsanwältin",
+          "stimmen": 29000
+        },
+        {
+          "position": 4,
+          "lastName": "Dahlen",
+          "firstName": "Marc",
+          "profession": "Rechtsanwalt",
+          "stimmen": 28721
+        },
+        {
+          "position": 5,
+          "lastName": "Melzer",
+          "firstName": "Janna",
+          "profession": "Beamtin",
+          "stimmen": 28177
+        },
+        {
+          "position": 6,
+          "lastName": "Jacobs",
+          "firstName": "Nikolas Werner",
+          "profession": "Ministerialrat",
+          "stimmen": 27305
+        },
+        {
+          "position": 7,
+          "lastName": "Schilderoth",
+          "firstName": "Myriam",
+          "profession": "Angestellte",
+          "stimmen": 27254
+        },
+        {
+          "position": 8,
+          "lastName": "Völker",
+          "firstName": "Dr.",
+          "profession": "Reinhard, Arzt",
+          "stimmen": 27538
+        },
+        {
+          "position": 9,
+          "lastName": "Röck-Knüttel",
+          "firstName": "Nicole",
+          "profession": "Archivarin",
+          "stimmen": 26781
+        },
+        {
+          "position": 10,
+          "lastName": "Köhler",
+          "firstName": "Manuel",
+          "profession": "Dipl.-Rechtspfleger",
+          "stimmen": 27659
+        },
+        {
+          "position": 11,
+          "lastName": "Wagenbach",
+          "firstName": "Louise-Lydia",
+          "profession": "Referentin",
+          "stimmen": 26805
+        },
+        {
+          "position": 12,
+          "lastName": "Tsiridis",
+          "firstName": "Eleftherios",
+          "profession": "Angestellter",
+          "stimmen": 26377
+        },
+        {
+          "position": 13,
+          "lastName": "Kozlov",
+          "firstName": "Elena",
+          "profession": "Ministerialbeamtin",
+          "stimmen": 26022
+        },
+        {
+          "position": 14,
+          "lastName": "Weck",
+          "firstName": "André",
+          "profession": "Industriekaufmann",
+          "stimmen": 25817
+        },
+        {
+          "position": 15,
+          "lastName": "van Gool",
+          "firstName": "Eline",
+          "profession": "Studentin",
+          "stimmen": 25804
+        },
+        {
+          "position": 16,
+          "lastName": "Pfeifer",
+          "firstName": "Rainer",
+          "profession": "Pensionär",
+          "stimmen": 26754
+        },
+        {
+          "position": 17,
+          "lastName": "Benecke",
+          "firstName": "Joerg",
+          "profession": "Dipl.-Betriebswirt (FH)",
+          "stimmen": 25954
+        },
+        {
+          "position": 18,
+          "lastName": "Woitschell",
+          "firstName": "Martin",
+          "profession": "Ministerialbeamter",
+          "stimmen": 25726
+        },
+        {
+          "position": 19,
+          "lastName": "Dreyer",
+          "firstName": "Claudia",
+          "profession": "Lehrerin",
+          "stimmen": 26324
+        },
+        {
+          "position": 20,
+          "lastName": "Guderjahn",
+          "firstName": "Björn",
+          "profession": "Referent",
+          "stimmen": 25673
+        },
+        {
+          "position": 21,
+          "lastName": "Auth",
+          "firstName": "Marcus",
+          "profession": "Dipl.-Betriebswirt",
+          "stimmen": 25363
+        },
+        {
+          "position": 22,
+          "lastName": "Friedrich",
+          "firstName": "Dennis",
+          "profession": "Ltd. Angestellter",
+          "stimmen": 25274
+        },
+        {
+          "position": 23,
+          "lastName": "Baumstark",
+          "firstName": "Theo",
+          "profession": "Handwerksmeister",
+          "stimmen": 29372
+        },
+        {
+          "position": 24,
+          "lastName": "Fichtenkamm",
+          "firstName": "Daniel",
+          "profession": "Gymnasiallehrer",
+          "stimmen": 24682
+        },
+        {
+          "position": 25,
+          "lastName": "Bauer",
+          "firstName": "Stefan",
+          "profession": "Finanzwirt",
+          "stimmen": 25267
+        },
+        {
+          "position": 26,
+          "lastName": "Vogel",
+          "firstName": "Wilhelm",
+          "profession": "Rentner",
+          "stimmen": 24860
+        },
+        {
+          "position": 27,
+          "lastName": "Boto Rodriguez",
+          "firstName": "Anja",
+          "profession": "Finanzcontrollerin",
+          "stimmen": 24897
+        },
+        {
+          "position": 28,
+          "lastName": "Akpinar",
+          "firstName": "Abdül",
+          "profession": "Unternehmer",
+          "stimmen": 24189
+        },
+        {
+          "position": 29,
+          "lastName": "Reinhold",
+          "firstName": "Marc",
+          "profession": "Polizeibeamter",
+          "stimmen": 24216
+        },
+        {
+          "position": 30,
+          "lastName": "Seidensticker",
+          "firstName": "Eberhard",
+          "profession": "Dachdeckermeister",
+          "stimmen": 26152
+        },
+        {
+          "position": 31,
+          "lastName": "Schmidt",
+          "firstName": "Dr.",
+          "profession": "Axel, Professor",
+          "stimmen": 24723
+        },
+        {
+          "position": 32,
+          "lastName": "Salzmann",
+          "firstName": "Irmtraut",
+          "profession": "Osteopathin",
+          "stimmen": 25015
+        },
+        {
+          "position": 33,
+          "lastName": "Wittkowski",
+          "firstName": "Dr.",
+          "profession": "Bernd, Vizepräsident VGH a. D.",
+          "stimmen": 25202
+        },
+        {
+          "position": 34,
+          "lastName": "Yachoua",
+          "firstName": "Joel William",
+          "profession": "Polizeibeamter",
+          "stimmen": 23922
+        },
+        {
+          "position": 35,
+          "lastName": "Heeser",
+          "firstName": "Frank",
+          "profession": "Kfm. Angestellter",
+          "stimmen": 24081
+        },
+        {
+          "position": 36,
+          "lastName": "Liebert",
+          "firstName": "Adrian",
+          "profession": "Rechtsanwalt",
+          "stimmen": 23845
+        },
+        {
+          "position": 37,
+          "lastName": "Orgun",
+          "firstName": "Süheyla",
+          "profession": "Beamtin",
+          "stimmen": 23839
+        },
+        {
+          "position": 38,
+          "lastName": "Giesche",
+          "firstName": "Mike",
+          "profession": "Dipl.-Kaufmann",
+          "stimmen": 23895
+        },
+        {
+          "position": 39,
+          "lastName": "Zaleski",
+          "firstName": "Mario",
+          "profession": "Geschäftsführer",
+          "stimmen": 23577
+        },
+        {
+          "position": 40,
+          "lastName": "Trillitzsch",
+          "firstName": "Linus",
+          "profession": "Bereichsleiter",
+          "stimmen": 23976
+        },
+        {
+          "position": 41,
+          "lastName": "Weber",
+          "firstName": "Marina",
+          "profession": "Studentin",
+          "stimmen": 24274
+        },
+        {
+          "position": 42,
+          "lastName": "Licata",
+          "firstName": "Pietro",
+          "profession": "Dipl.-Betriebswirt",
+          "stimmen": 24065
+        },
+        {
+          "position": 43,
+          "lastName": "Michel",
+          "firstName": "Markus",
+          "profession": "Reiseverkehrskaufmann",
+          "stimmen": 24412
+        },
+        {
+          "position": 44,
+          "lastName": "Klinkmüller",
+          "firstName": "Leonhard",
+          "profession": "Dipl.-Ingenieur",
+          "stimmen": 23808
+        },
+        {
+          "position": 45,
+          "lastName": "Gökmen",
+          "firstName": "Nazli",
+          "profession": "Wirtschaftsjuristin",
+          "stimmen": 23439
+        },
+        {
+          "position": 46,
+          "lastName": "Zamperoni",
+          "firstName": "Haiko",
+          "profession": "Arzt",
+          "stimmen": 26328
+        },
+        {
+          "position": 47,
+          "lastName": "Lauer",
+          "firstName": "Stephan",
+          "profession": "Beamter",
+          "stimmen": 23901
+        },
+        {
+          "position": 48,
+          "lastName": "Löwer",
+          "firstName": "Stefan",
+          "profession": "Beamter",
+          "stimmen": 23582
+        },
+        {
+          "position": 49,
+          "lastName": "Schneider",
+          "firstName": "André",
+          "profession": "Steuerfachangestellter",
+          "stimmen": 23313
+        },
+        {
+          "position": 50,
+          "lastName": "Grether",
+          "firstName": "Ulf",
+          "profession": "Dipl.-Ingenieur Maschinenbau",
+          "stimmen": 23382
+        },
+        {
+          "position": 51,
+          "lastName": "Becker",
+          "firstName": "Bernd",
+          "profession": "Verwaltungsfachangestellter",
+          "stimmen": 23395
+        },
+        {
+          "position": 52,
+          "lastName": "Kohl",
+          "firstName": "Stefan",
+          "profession": "Beamter",
+          "stimmen": 23779
+        },
+        {
+          "position": 53,
+          "lastName": "Kempte",
+          "firstName": "Miriam",
+          "profession": "Angestellte",
+          "stimmen": 23612
+        },
+        {
+          "position": 54,
+          "lastName": "Domes",
+          "firstName": "Nicholas",
+          "profession": "Lehrer",
+          "stimmen": 23621
+        },
+        {
+          "position": 55,
+          "lastName": "Gebhardt",
+          "firstName": "Jürgen",
+          "profession": "Betriebswirt",
+          "stimmen": 23365
+        },
+        {
+          "position": 56,
+          "lastName": "Henneveld",
+          "firstName": "Tim",
+          "profession": "Kaufmann",
+          "stimmen": 23906
+        },
+        {
+          "position": 57,
+          "lastName": "Scholz",
+          "firstName": "Rico",
+          "profession": "Selbstständig",
+          "stimmen": 22994
+        },
+        {
+          "position": 58,
+          "lastName": "Heller",
+          "firstName": "Astrid",
+          "profession": "Bundesbeamtin",
+          "stimmen": 23370
+        },
+        {
+          "position": 59,
+          "lastName": "Bernard",
+          "firstName": "Dr.",
+          "profession": "Hermann, Rechtsanwalt",
+          "stimmen": 23306
+        },
+        {
+          "position": 60,
+          "lastName": "Leist",
+          "firstName": "Lina",
+          "profession": "Studienrätin",
+          "stimmen": 23152
+        },
+        {
+          "position": 61,
+          "lastName": "Müller",
+          "firstName": "Claus",
+          "profession": "Pensionär",
+          "stimmen": 22839
+        },
+        {
+          "position": 62,
+          "lastName": "Joder",
+          "firstName": "Harald",
+          "profession": "Berater",
+          "stimmen": 22742
+        },
+        {
+          "position": 63,
+          "lastName": "Chamoun",
+          "firstName": "Karim",
+          "profession": "Elektrotechniker",
+          "stimmen": 22631
+        },
+        {
+          "position": 64,
+          "lastName": "Conrad-Köller",
+          "firstName": "Kirsten",
+          "profession": "Lehrerin",
+          "stimmen": 22733
+        },
+        {
+          "position": 65,
+          "lastName": "Sepp",
+          "firstName": "Tassilo",
+          "profession": "Vertriebsmanager",
+          "stimmen": 22913
+        },
+        {
+          "position": 66,
+          "lastName": "Cardoso-Przepiorka",
+          "firstName": "Christina",
+          "profession": "Referentin",
+          "stimmen": 22821
+        },
+        {
+          "position": 67,
+          "lastName": "Schmelz",
+          "firstName": "Carsten",
+          "profession": "Unternehmensberater Compliance",
+          "stimmen": 22335
+        },
+        {
+          "position": 68,
+          "lastName": "Schuchardt",
+          "firstName": "Georg",
+          "profession": "Versicherungskaufmann",
+          "stimmen": 22264
+        },
+        {
+          "position": 69,
+          "lastName": "Mommsen",
+          "firstName": "Arnd",
+          "profession": "Dipl.-Wirtschaftsjurist",
+          "stimmen": 21984
+        },
+        {
+          "position": 70,
+          "lastName": "Völker",
+          "firstName": "Sabine",
+          "profession": "Social-Media-Koordinatorin",
+          "stimmen": 22641
+        },
+        {
+          "position": 71,
+          "lastName": "Schröder",
+          "firstName": "Dr.",
+          "profession": "Kristina, Bundesministerin a. D.",
+          "stimmen": 24868
+        },
+        {
+          "position": 72,
+          "lastName": "Rönsch",
+          "firstName": "Hannelore",
+          "profession": "Bundesministerin a. D.",
+          "stimmen": 23966
+        },
+        {
+          "position": 73,
+          "lastName": "Jentsch",
+          "firstName": "Dr.",
+          "profession": "Doris, Stadträtin a. D.",
+          "stimmen": 23326
+        },
+        {
+          "position": 74,
+          "lastName": "Korbach",
+          "firstName": "Dr.",
+          "profession": "Stefan, Bundestagsabgeordneter",
+          "stimmen": 22638
+        },
+        {
+          "position": 75,
+          "lastName": "Lorz",
+          "firstName": "Dr.",
+          "profession": "Ralph Alexander, Staatsminister",
+          "stimmen": 23530
+        },
+        {
+          "position": 76,
+          "lastName": "Jung",
+          "firstName": "Ingmar",
+          "profession": "Staatsminister",
+          "stimmen": 23223
+        },
+        {
+          "position": 77,
+          "lastName": "Wallmann",
+          "firstName": "Astrid",
+          "profession": "Landtagsabgeordnete",
+          "stimmen": 25276
+        },
+        {
+          "position": 78,
+          "lastName": "Eichner",
+          "firstName": "Tanja Yvonne",
+          "profession": "Staatssekretärin",
+          "stimmen": 20236
+        },
+        {
+          "position": 79,
+          "lastName": "Scholz",
+          "firstName": "Rose-Lore",
+          "profession": "Stadträtin a. D.",
+          "stimmen": 20674
+        },
+        {
+          "position": 80,
+          "lastName": "Müller",
+          "firstName": "Dr.",
+          "profession": "Helmut, Oberbürgermeister a. D.",
+          "stimmen": 20110
+        },
+        {
+          "position": 81,
+          "lastName": "Klee",
+          "firstName": "Horst",
+          "profession": "Geschäftsführer",
+          "stimmen": 20525
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "color": "#CC0000",
+      "percent": 22.3,
+      "votesAbsolute": 1684045,
+      "votesWeighted": 21543,
+      "seats": 18,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Gottwald",
+          "firstName": "Silas",
+          "profession": "Geschäftsführer",
+          "stimmen": 35012
+        },
+        {
+          "position": 2,
+          "lastName": "Hoffmann-Fessner",
+          "firstName": "Susanne",
+          "profession": "Beamtin",
+          "stimmen": 27566
+        },
+        {
+          "position": 3,
+          "lastName": "David",
+          "firstName": "Michael",
+          "profession": "Pensionär",
+          "stimmen": 26051
+        },
+        {
+          "position": 4,
+          "lastName": "Gabriel",
+          "firstName": "Christa",
+          "profession": "Rentnerin",
+          "stimmen": 27000
+        },
+        {
+          "position": 5,
+          "lastName": "Becker",
+          "firstName": "Marius",
+          "profession": "Student",
+          "stimmen": 24399
+        },
+        {
+          "position": 6,
+          "lastName": "Ludwig-Braun",
+          "firstName": "Sabine",
+          "profession": "Juristin",
+          "stimmen": 24906
+        },
+        {
+          "position": 7,
+          "lastName": "Schwarze",
+          "firstName": "Thomas",
+          "profession": "Beamter i. R.",
+          "stimmen": 23780
+        },
+        {
+          "position": 8,
+          "lastName": "Sand",
+          "firstName": "Silvana",
+          "profession": "Studentin",
+          "stimmen": 24447
+        },
+        {
+          "position": 9,
+          "lastName": "Alikhani",
+          "firstName": "Farsin",
+          "profession": "IT-Architekt",
+          "stimmen": 23480
+        },
+        {
+          "position": 10,
+          "lastName": "Tomaschky-Fritz",
+          "firstName": "Helga",
+          "profession": "Beamtin i. R.",
+          "stimmen": 23488
+        },
+        {
+          "position": 11,
+          "lastName": "Egert",
+          "firstName": "Urban",
+          "profession": "Kriminalbeamter a. D.",
+          "stimmen": 23314
+        },
+        {
+          "position": 12,
+          "lastName": "Maino-Amer",
+          "firstName": "Isabel",
+          "profession": "Krankenschwester",
+          "stimmen": 23055
+        },
+        {
+          "position": 13,
+          "lastName": "Yoseph",
+          "firstName": "Aman",
+          "profession": "Gewerkschaftssekretär",
+          "stimmen": 22251
+        },
+        {
+          "position": 14,
+          "lastName": "Kaiser",
+          "firstName": "Anou",
+          "profession": "Studentin",
+          "stimmen": 22086
+        },
+        {
+          "position": 15,
+          "lastName": "Siabanoglou",
+          "firstName": "Halil",
+          "profession": "Jurist",
+          "stimmen": 21822
+        },
+        {
+          "position": 16,
+          "lastName": "Zimmermann-Dutton",
+          "firstName": "Melina",
+          "profession": "Angestellte",
+          "stimmen": 21953
+        },
+        {
+          "position": 17,
+          "lastName": "Becher",
+          "firstName": "Nico",
+          "profession": "Angestellter",
+          "stimmen": 21822
+        },
+        {
+          "position": 18,
+          "lastName": "Koch",
+          "firstName": "Catharina",
+          "profession": "Hörakustikmeisterin",
+          "stimmen": 22264
+        },
+        {
+          "position": 19,
+          "lastName": "Tobschall",
+          "firstName": "Joachim",
+          "profession": "Musiker",
+          "stimmen": 22313
+        },
+        {
+          "position": 20,
+          "lastName": "Matthes",
+          "firstName": "Kerstin",
+          "profession": "Selbstständig",
+          "stimmen": 21550
+        },
+        {
+          "position": 21,
+          "lastName": "Vu",
+          "firstName": "Giang",
+          "profession": "Beamter",
+          "stimmen": 21671
+        },
+        {
+          "position": 22,
+          "lastName": "Gilcher",
+          "firstName": "Carolin",
+          "profession": "Business-Development-Managerin",
+          "stimmen": 21120
+        },
+        {
+          "position": 23,
+          "lastName": "Koch",
+          "firstName": "Wilfried",
+          "profession": "Rentner",
+          "stimmen": 20795
+        },
+        {
+          "position": 24,
+          "lastName": "Neumann",
+          "firstName": "Birgit",
+          "profession": "Pensionärin",
+          "stimmen": 21433
+        },
+        {
+          "position": 25,
+          "lastName": "Gibis",
+          "firstName": "Carl",
+          "profession": "Student",
+          "stimmen": 20573
+        },
+        {
+          "position": 26,
+          "lastName": "Rose",
+          "firstName": "Rahel",
+          "profession": "Lehrerin",
+          "stimmen": 21185
+        },
+        {
+          "position": 27,
+          "lastName": "Hans",
+          "firstName": "Bastian",
+          "profession": "Geschäftsführer",
+          "stimmen": 20253
+        },
+        {
+          "position": 28,
+          "lastName": "Winckelmann",
+          "firstName": "Eva-Maria",
+          "profession": "Rechtsanwältin",
+          "stimmen": 21365
+        },
+        {
+          "position": 29,
+          "lastName": "Hofmeister",
+          "firstName": "Frank",
+          "profession": "Sachbearbeiter",
+          "stimmen": 20145
+        },
+        {
+          "position": 30,
+          "lastName": "Gjura",
+          "firstName": "Dorieta",
+          "profession": "Beamtin",
+          "stimmen": 20172
+        },
+        {
+          "position": 31,
+          "lastName": "Stork",
+          "firstName": "Dr.",
+          "profession": "Christof, Kinder- u. Jugendarzt i. R.",
+          "stimmen": 21097
+        },
+        {
+          "position": 32,
+          "lastName": "Shahmohammadi",
+          "firstName": "Zinat",
+          "profession": "Willkommensmanagerin",
+          "stimmen": 20062
+        },
+        {
+          "position": 33,
+          "lastName": "Hofmann",
+          "firstName": "Alexander",
+          "profession": "Landtagsabgeordneter",
+          "stimmen": 20542
+        },
+        {
+          "position": 34,
+          "lastName": "Glück",
+          "firstName": "Michaela",
+          "profession": "Berufsschullehrerin",
+          "stimmen": 20603
+        },
+        {
+          "position": 35,
+          "lastName": "Hönig",
+          "firstName": "Dario",
+          "profession": "Auszubildender",
+          "stimmen": 19927
+        },
+        {
+          "position": 36,
+          "lastName": "Vogt",
+          "firstName": "Petra",
+          "profession": "Beamtin i. R.",
+          "stimmen": 20583
+        },
+        {
+          "position": 37,
+          "lastName": "Uebersohn",
+          "firstName": "Dr.",
+          "profession": "Gerhard, Jurist",
+          "stimmen": 20690
+        },
+        {
+          "position": 38,
+          "lastName": "Wolf",
+          "firstName": "Gaby",
+          "profession": "Rentnerin",
+          "stimmen": 21008
+        },
+        {
+          "position": 39,
+          "lastName": "Kashif",
+          "firstName": "Nasim",
+          "profession": "Notfallsanitäter",
+          "stimmen": 20336
+        },
+        {
+          "position": 40,
+          "lastName": "Wever",
+          "firstName": "Margrieta",
+          "profession": "Lehrerin",
+          "stimmen": 19972
+        },
+        {
+          "position": 41,
+          "lastName": "Strank",
+          "firstName": "Dr.",
+          "profession": "Oliver, Rechtsanwalt",
+          "stimmen": 20066
+        },
+        {
+          "position": 42,
+          "lastName": "Levinas",
+          "firstName": "Perim",
+          "profession": "Studentin",
+          "stimmen": 19602
+        },
+        {
+          "position": 43,
+          "lastName": "Ninsa",
+          "firstName": "Wolfgang",
+          "profession": "Dipl.-Pädagoge",
+          "stimmen": 19553
+        },
+        {
+          "position": 44,
+          "lastName": "Matheis",
+          "firstName": "Karina",
+          "profession": "Krankenschwester",
+          "stimmen": 20065
+        },
+        {
+          "position": 45,
+          "lastName": "Braner",
+          "firstName": "Dr.",
+          "profession": "Ehsan, Referent",
+          "stimmen": 19749
+        },
+        {
+          "position": 46,
+          "lastName": "Nestler",
+          "firstName": "Nicole",
+          "profession": "Politikwissenschaftlerin",
+          "stimmen": 20199
+        },
+        {
+          "position": 47,
+          "lastName": "Ney",
+          "firstName": "Alexander",
+          "profession": "Student",
+          "stimmen": 19593
+        },
+        {
+          "position": 48,
+          "lastName": "Weck",
+          "firstName": "Angela",
+          "profession": "Managerin interne Kommunikation",
+          "stimmen": 19993
+        },
+        {
+          "position": 49,
+          "lastName": "Weber",
+          "firstName": "Harald",
+          "profession": "Rentner",
+          "stimmen": 19832
+        },
+        {
+          "position": 50,
+          "lastName": "Behr",
+          "firstName": "Mechthild",
+          "profession": "Verwaltungsjuristin",
+          "stimmen": 19731
+        },
+        {
+          "position": 51,
+          "lastName": "Bouyajdad",
+          "firstName": "Youness",
+          "profession": "Schüler",
+          "stimmen": 19753
+        },
+        {
+          "position": 52,
+          "lastName": "Fessner",
+          "firstName": "Hannah-Teresa",
+          "profession": "Studentin",
+          "stimmen": 19708
+        },
+        {
+          "position": 53,
+          "lastName": "Presber",
+          "firstName": "Roland",
+          "profession": "Rentner",
+          "stimmen": 19664
+        },
+        {
+          "position": 54,
+          "lastName": "Jacobi",
+          "firstName": "Meike",
+          "profession": "Bürokauffrau",
+          "stimmen": 19988
+        },
+        {
+          "position": 55,
+          "lastName": "Yalciner",
+          "firstName": "Ömür",
+          "profession": "Einzelhandelskaufmann",
+          "stimmen": 20026
+        },
+        {
+          "position": 56,
+          "lastName": "Fessner",
+          "firstName": "Lea-Marie",
+          "profession": "Studentin",
+          "stimmen": 19575
+        },
+        {
+          "position": 57,
+          "lastName": "Winckelmann",
+          "firstName": "Andreas",
+          "profession": "Staatsanwalt",
+          "stimmen": 19747
+        },
+        {
+          "position": 58,
+          "lastName": "Aral",
+          "firstName": "Beril",
+          "profession": "Juristin",
+          "stimmen": 19173
+        },
+        {
+          "position": 59,
+          "lastName": "Korte",
+          "firstName": "Dominic",
+          "profession": "Einzelhandelskaufmann",
+          "stimmen": 19252
+        },
+        {
+          "position": 60,
+          "lastName": "Döcke",
+          "firstName": "Sandra",
+          "profession": "Polizistin",
+          "stimmen": 19572
+        },
+        {
+          "position": 61,
+          "lastName": "Funger",
+          "firstName": "Silas",
+          "profession": "Kriminalkommissar",
+          "stimmen": 19028
+        },
+        {
+          "position": 62,
+          "lastName": "Eckmann",
+          "firstName": "Sonja",
+          "profession": "Freiberuflerin",
+          "stimmen": 19159
+        },
+        {
+          "position": 63,
+          "lastName": "Buchroth",
+          "firstName": "Robert",
+          "profession": "Beamter",
+          "stimmen": 19060
+        },
+        {
+          "position": 64,
+          "lastName": "Hülsing",
+          "firstName": "Ute",
+          "profession": "Rentnerin",
+          "stimmen": 19100
+        },
+        {
+          "position": 65,
+          "lastName": "Hubl",
+          "firstName": "Lucas",
+          "profession": "Auszubildender",
+          "stimmen": 18662
+        },
+        {
+          "position": 66,
+          "lastName": "Heisig-Bunas",
+          "firstName": "Inga",
+          "profession": "Oberstudienrätin",
+          "stimmen": 18949
+        },
+        {
+          "position": 67,
+          "lastName": "Enzmann",
+          "firstName": "Arno",
+          "profession": "Rentner",
+          "stimmen": 18466
+        },
+        {
+          "position": 68,
+          "lastName": "Weber",
+          "firstName": "Pia",
+          "profession": "Floristin",
+          "stimmen": 18945
+        },
+        {
+          "position": 69,
+          "lastName": "Reinsch",
+          "firstName": "Wolfgang",
+          "profession": "Pensionär",
+          "stimmen": 18762
+        },
+        {
+          "position": 70,
+          "lastName": "Hirdes",
+          "firstName": "Katja",
+          "profession": "Referentin",
+          "stimmen": 18326
+        },
+        {
+          "position": 71,
+          "lastName": "Schuster",
+          "firstName": "Rainer",
+          "profession": "Rentner",
+          "stimmen": 18329
+        },
+        {
+          "position": 72,
+          "lastName": "Apel",
+          "firstName": "Michaela",
+          "profession": "Rechtsanwältin",
+          "stimmen": 18589
+        },
+        {
+          "position": 73,
+          "lastName": "Nehrbaß",
+          "firstName": "Helmut",
+          "profession": "Schulleiter i. R.",
+          "stimmen": 18660
+        },
+        {
+          "position": 74,
+          "lastName": "Hebenstreit",
+          "firstName": "Lelia",
+          "profession": "Angestellte",
+          "stimmen": 18002
+        },
+        {
+          "position": 75,
+          "lastName": "Imholz",
+          "firstName": "Axel",
+          "profession": "Stadtkämmerer a. D.",
+          "stimmen": 18637
+        },
+        {
+          "position": 76,
+          "lastName": "Pflugradt",
+          "firstName": "Evelyn",
+          "profession": "Pensionärin",
+          "stimmen": 17393
+        },
+        {
+          "position": 77,
+          "lastName": "Goßmann",
+          "firstName": "Arno",
+          "profession": "Bürgermeister a. D.",
+          "stimmen": 18347
+        },
+        {
+          "position": 78,
+          "lastName": "Ruf",
+          "firstName": "Nadine",
+          "profession": "Dipl.-Betriebswirtin",
+          "stimmen": 18496
+        },
+        {
+          "position": 79,
+          "lastName": "Schmehl",
+          "firstName": "Dr.",
+          "profession": "Hendrik, Stadtkämmerer",
+          "stimmen": 17003
+        },
+        {
+          "position": 80,
+          "lastName": "Becher",
+          "firstName": "Dr.",
+          "profession": "Patricia, Stadträtin",
+          "stimmen": 16699
+        },
+        {
+          "position": 81,
+          "lastName": "Mende",
+          "firstName": "Gert-Uwe",
+          "profession": "Oberbürgermeister",
+          "stimmen": 24501
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "color": "#339900",
+      "percent": 15.2,
+      "votesAbsolute": 1149630,
+      "votesWeighted": 14707,
+      "seats": 12,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Bonnet",
+          "firstName": "Gesine",
+          "profession": "Redakteurin",
+          "stimmen": 36414
+        },
+        {
+          "position": 2,
+          "lastName": "Kraft",
+          "firstName": "Martin",
+          "profession": "Designer",
+          "stimmen": 32563
+        },
+        {
+          "position": 3,
+          "lastName": "Andes-Müller",
+          "firstName": "Dorothée",
+          "profession": "Dipl.-Ingenieurin",
+          "stimmen": 33240
+        },
+        {
+          "position": 4,
+          "lastName": "Kisseler",
+          "firstName": "Felix",
+          "profession": "Fraktionsgeschäftsführer",
+          "stimmen": 31252
+        },
+        {
+          "position": 5,
+          "lastName": "Siedenburg",
+          "firstName": "Nele",
+          "profession": "Studentin",
+          "stimmen": 32734
+        },
+        {
+          "position": 6,
+          "lastName": "Dylla",
+          "firstName": "Simon",
+          "profession": "Beamter",
+          "stimmen": 29931
+        },
+        {
+          "position": 7,
+          "lastName": "Scholtz",
+          "firstName": "Carolin Julia",
+          "profession": "Freiberuflerin",
+          "stimmen": 31448
+        },
+        {
+          "position": 8,
+          "lastName": "Raudies",
+          "firstName": "Oliver",
+          "profession": "IT-Projektmanager",
+          "stimmen": 29202
+        },
+        {
+          "position": 9,
+          "lastName": "Thomas",
+          "firstName": "Rebecca",
+          "profession": "Lehrerin",
+          "stimmen": 30908
+        },
+        {
+          "position": 10,
+          "lastName": "Seipel-Rotter",
+          "firstName": "Hendrik",
+          "profession": "Pressesprecher",
+          "stimmen": 29213
+        },
+        {
+          "position": 11,
+          "lastName": "Özkan",
+          "firstName": "Dilek",
+          "profession": "Fachadministratorin",
+          "stimmen": 29518
+        },
+        {
+          "position": 12,
+          "lastName": "Bohnert",
+          "firstName": "David",
+          "profession": "Gesundheitsökonom",
+          "stimmen": 27828
+        },
+        {
+          "position": 13,
+          "lastName": "Hartenbach",
+          "firstName": "Ann-Kathrin",
+          "profession": "Kulturreferentin",
+          "stimmen": 29265
+        },
+        {
+          "position": 14,
+          "lastName": "Pfefferkorn",
+          "firstName": "Philipp",
+          "profession": "Chemiker (B.Sc.)",
+          "stimmen": 27566
+        },
+        {
+          "position": 15,
+          "lastName": "Bermes",
+          "firstName": "Petra",
+          "profession": "Selbstständig",
+          "stimmen": 28834
+        },
+        {
+          "position": 16,
+          "lastName": "Geisberger",
+          "firstName": "David",
+          "profession": "Betriebswirt",
+          "stimmen": 26735
+        },
+        {
+          "position": 17,
+          "lastName": "Linker",
+          "firstName": "Sarah",
+          "profession": "Sozialarbeiterin",
+          "stimmen": 28048
+        },
+        {
+          "position": 18,
+          "lastName": "Luderschmidt",
+          "firstName": "Dr.",
+          "profession": "Johannes, Hochschullehrer",
+          "stimmen": 27205
+        },
+        {
+          "position": 19,
+          "lastName": "Schmiedeke",
+          "firstName": "Jacqueline",
+          "profession": "Studentin",
+          "stimmen": 27360
+        },
+        {
+          "position": 20,
+          "lastName": "Fleischhauer",
+          "firstName": "Henning",
+          "profession": "Prozessmanager",
+          "stimmen": 26042
+        },
+        {
+          "position": 21,
+          "lastName": "Bittner",
+          "firstName": "Yvonne Carolyne",
+          "profession": "Erzieherin",
+          "stimmen": 26834
+        },
+        {
+          "position": 22,
+          "lastName": "Schmitt",
+          "firstName": "Daniel",
+          "profession": "Selbstständig",
+          "stimmen": 25210
+        },
+        {
+          "position": 23,
+          "lastName": "Bai",
+          "firstName": "Ursula",
+          "profession": "Bankangestellte",
+          "stimmen": 26368
+        },
+        {
+          "position": 24,
+          "lastName": "Braun",
+          "firstName": "Karl",
+          "profession": "Kfm. Angestellter",
+          "stimmen": 24878
+        },
+        {
+          "position": 25,
+          "lastName": "Heinrich",
+          "firstName": "Lea",
+          "profession": "Verkehrsplanerin",
+          "stimmen": 25725
+        },
+        {
+          "position": 26,
+          "lastName": "Deuling",
+          "firstName": "Stefan",
+          "profession": "IT-Berater",
+          "stimmen": 23979
+        },
+        {
+          "position": 27,
+          "lastName": "Michel",
+          "firstName": "Martina Claire",
+          "profession": "Biologin i. R.",
+          "stimmen": 24715
+        },
+        {
+          "position": 28,
+          "lastName": "Bretzke",
+          "firstName": "Axel",
+          "profession": "Professor a. D.",
+          "stimmen": 13754
+        },
+        {
+          "position": 29,
+          "lastName": "Mohr",
+          "firstName": "Olivia",
+          "profession": "Physiotherapeutin",
+          "stimmen": 14855
+        },
+        {
+          "position": 30,
+          "lastName": "Hagenmüller",
+          "firstName": "Axel",
+          "profession": "Dipl.-Ingenieur i. R.",
+          "stimmen": 13705
+        },
+        {
+          "position": 31,
+          "lastName": "Ruppert",
+          "firstName": "Katja",
+          "profession": "Kfm. Angestellte",
+          "stimmen": 14864
+        },
+        {
+          "position": 32,
+          "lastName": "Steidle",
+          "firstName": "Kilian",
+          "profession": "Polit. Referent",
+          "stimmen": 13602
+        },
+        {
+          "position": 33,
+          "lastName": "Kornmüller-Bolte",
+          "firstName": "Daniela",
+          "profession": "Betriebswirtin",
+          "stimmen": 14519
+        },
+        {
+          "position": 34,
+          "lastName": "Sander",
+          "firstName": "Helge",
+          "profession": "Elektroniker",
+          "stimmen": 13685
+        },
+        {
+          "position": 35,
+          "lastName": "Frölich",
+          "firstName": "Annette",
+          "profession": "Dipl.-Ingenieurin Architektur",
+          "stimmen": 14820
+        },
+        {
+          "position": 36,
+          "lastName": "Klauenflügel",
+          "firstName": "Jochen",
+          "profession": "Arzt",
+          "stimmen": 13603
+        },
+        {
+          "position": 37,
+          "lastName": "Wittmann",
+          "firstName": "Dr.",
+          "profession": "Sabine, Architektin",
+          "stimmen": 14866
+        },
+        {
+          "position": 38,
+          "lastName": "Schachler",
+          "firstName": "Thomas",
+          "profession": "Unternehmer",
+          "stimmen": 13402
+        },
+        {
+          "position": 39,
+          "lastName": "Delank",
+          "firstName": "Hanna",
+          "profession": "Angestellte",
+          "stimmen": 14378
+        },
+        {
+          "position": 40,
+          "lastName": "Borries",
+          "firstName": "Tobias",
+          "profession": "Grafikdesigner",
+          "stimmen": 13414
+        },
+        {
+          "position": 41,
+          "lastName": "Guo",
+          "firstName": "Jianing Melissa",
+          "profession": "Biochemikerin",
+          "stimmen": 14354
+        },
+        {
+          "position": 42,
+          "lastName": "Bodenschatz",
+          "firstName": "Martin",
+          "profession": "Verkehrsplaner",
+          "stimmen": 13357
+        },
+        {
+          "position": 43,
+          "lastName": "Crecelius",
+          "firstName": "Lena",
+          "profession": "Abteilungsleiterin",
+          "stimmen": 14324
+        },
+        {
+          "position": 44,
+          "lastName": "Fischer",
+          "firstName": "Julius",
+          "profession": "Steuerassistent",
+          "stimmen": 13284
+        },
+        {
+          "position": 45,
+          "lastName": "Krafczyk",
+          "firstName": "Claudia",
+          "profession": "Redakteurin",
+          "stimmen": 14306
+        },
+        {
+          "position": 46,
+          "lastName": "Lorenz",
+          "firstName": "Michael",
+          "profession": "Rentner",
+          "stimmen": 13265
+        },
+        {
+          "position": 47,
+          "lastName": "Bär",
+          "firstName": "Claudia",
+          "profession": "Sozialpädagogin",
+          "stimmen": 14385
+        },
+        {
+          "position": 48,
+          "lastName": "Janofske",
+          "firstName": "Lars Leon",
+          "profession": "IT-Consultant",
+          "stimmen": 13078
+        },
+        {
+          "position": 49,
+          "lastName": "Heine",
+          "firstName": "Janet",
+          "profession": "Dipl.-Ökonomin",
+          "stimmen": 14038
+        },
+        {
+          "position": 50,
+          "lastName": "Paulus",
+          "firstName": "Jochen",
+          "profession": "Journalist",
+          "stimmen": 13055
+        },
+        {
+          "position": 51,
+          "lastName": "Reinhardt",
+          "firstName": "Dr.",
+          "profession": "Tilli, Selbstständig",
+          "stimmen": 14121
+        },
+        {
+          "position": 52,
+          "lastName": "Thomas",
+          "firstName": "Klaus",
+          "profession": "Archivmitarbeiter",
+          "stimmen": 12986
+        },
+        {
+          "position": 53,
+          "lastName": "Segner",
+          "firstName": "Cordula",
+          "profession": "Rentnerin",
+          "stimmen": 13745
+        },
+        {
+          "position": 54,
+          "lastName": "Hinninger",
+          "firstName": "Christiane",
+          "profession": "Bürgermeisterin",
+          "stimmen": 14850
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "color": "#0032C8",
+      "percent": 11.9,
+      "votesAbsolute": 900643,
+      "votesWeighted": 11521,
+      "seats": 10,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Seldenreich",
+          "firstName": "Denis",
+          "profession": "Selbstständig",
+          "stimmen": 34336
+        },
+        {
+          "position": 2,
+          "lastName": "Offermanns",
+          "firstName": "Ralf",
+          "profession": "Fachinformatiker",
+          "stimmen": 34033
+        },
+        {
+          "position": 3,
+          "lastName": "Lambrou",
+          "firstName": "Robert",
+          "profession": "Dipl.-Kaufmann",
+          "stimmen": 34012
+        },
+        {
+          "position": 4,
+          "lastName": "Thamm",
+          "firstName": "Dr.",
+          "profession": "Sven, Dipl.-Chemiker",
+          "stimmen": 33838
+        },
+        {
+          "position": 5,
+          "lastName": "Schöttle",
+          "firstName": "Dr.",
+          "profession": "Taybat, Sprachwissenschaftlerin",
+          "stimmen": 33541
+        },
+        {
+          "position": 6,
+          "lastName": "Knoll",
+          "firstName": "Oleg",
+          "profession": "Berufsbetreuer",
+          "stimmen": 33167
+        },
+        {
+          "position": 7,
+          "lastName": "Ballandies",
+          "firstName": "Henry",
+          "profession": "Selbst. Kaufmann",
+          "stimmen": 32975
+        },
+        {
+          "position": 8,
+          "lastName": "Speckhardt",
+          "firstName": "Rainer",
+          "profession": "Rentner",
+          "stimmen": 32978
+        },
+        {
+          "position": 9,
+          "lastName": "Schmitt-Windisch",
+          "firstName": "Hajo",
+          "profession": "Rentner",
+          "stimmen": 32660
+        },
+        {
+          "position": 10,
+          "lastName": "Indrei",
+          "firstName": "Daniel",
+          "profession": "Student",
+          "stimmen": 32439
+        },
+        {
+          "position": 11,
+          "lastName": "Claar",
+          "firstName": "Sebastian",
+          "profession": "Verwaltungsfachangestellter",
+          "stimmen": 32082
+        },
+        {
+          "position": 12,
+          "lastName": "Kott",
+          "firstName": "Christian",
+          "profession": "Volljurist",
+          "stimmen": 22967
+        },
+        {
+          "position": 13,
+          "lastName": "Heller",
+          "firstName": "Gloria",
+          "profession": "Zugbegleiterin",
+          "stimmen": 23119
+        },
+        {
+          "position": 14,
+          "lastName": "Sluzkij",
+          "firstName": "Dmitrij",
+          "profession": "Fachkraft f. Schutz u. Sicherheit",
+          "stimmen": 22732
+        },
+        {
+          "position": 15,
+          "lastName": "Koriller",
+          "firstName": "Daniela",
+          "profession": "Rentnerin",
+          "stimmen": 22957
+        },
+        {
+          "position": 16,
+          "lastName": "Zibulski",
+          "firstName": "Jana",
+          "profession": "Psychologin",
+          "stimmen": 22780
+        },
+        {
+          "position": 17,
+          "lastName": "Krüger",
+          "firstName": "Nils",
+          "profession": "Polit. Referent",
+          "stimmen": 22772
+        },
+        {
+          "position": 18,
+          "lastName": "Giesa",
+          "firstName": "Monika",
+          "profession": "Rentnerin",
+          "stimmen": 22830
+        },
+        {
+          "position": 19,
+          "lastName": "Krestan",
+          "firstName": "Sabine",
+          "profession": "Angestellte",
+          "stimmen": 22713
+        },
+        {
+          "position": 20,
+          "lastName": "Büßing",
+          "firstName": "Lara",
+          "profession": "Hausfrau",
+          "stimmen": 22704
+        },
+        {
+          "position": 21,
+          "lastName": "Krüpper",
+          "firstName": "Stephanie",
+          "profession": "Hausfrau",
+          "stimmen": 22556
+        },
+        {
+          "position": 22,
+          "lastName": "Lork",
+          "firstName": "Dr.",
+          "profession": "Klaus-Dieter, Dipl.-Chemiker",
+          "stimmen": 22865
+        },
+        {
+          "position": 23,
+          "lastName": "Koriller",
+          "firstName": "Dieter",
+          "profession": "Pensionär",
+          "stimmen": 22376
+        },
+        {
+          "position": 24,
+          "lastName": "Kaiser",
+          "firstName": "Rudolf",
+          "profession": "Arbeiter",
+          "stimmen": 22440
+        },
+        {
+          "position": 25,
+          "lastName": "Heller",
+          "firstName": "Holger",
+          "profession": "Berufskraftfahrer",
+          "stimmen": 22370
+        },
+        {
+          "position": 26,
+          "lastName": "Gysler",
+          "firstName": "Jacques",
+          "profession": "SMD-Operator",
+          "stimmen": 22046
+        },
+        {
+          "position": 27,
+          "lastName": "Rychlik",
+          "firstName": "Klaus",
+          "profession": "Polizeibeamter",
+          "stimmen": 21963
+        },
+        {
+          "position": 28,
+          "lastName": "Wichelmann",
+          "firstName": "Michael",
+          "profession": "Anlagenmechaniker",
+          "stimmen": 21755
+        },
+        {
+          "position": 29,
+          "lastName": "Rehwald",
+          "firstName": "Ulrich",
+          "profession": "Rentner",
+          "stimmen": 21593
+        },
+        {
+          "position": 30,
+          "lastName": "Scherbini",
+          "firstName": "André",
+          "profession": "Dipl.-Betriebswirt",
+          "stimmen": 21454
+        },
+        {
+          "position": 31,
+          "lastName": "Schulz",
+          "firstName": "Peter",
+          "profession": "Rentner",
+          "stimmen": 21595
+        },
+        {
+          "position": 32,
+          "lastName": "Bausch",
+          "firstName": "Roman",
+          "profession": "Politiker",
+          "stimmen": 21555
+        },
+        {
+          "position": 33,
+          "lastName": "Weegels",
+          "firstName": "Sandra",
+          "profession": "Landtagsabgeordnete",
+          "stimmen": 21622
+        },
+        {
+          "position": 34,
+          "lastName": "Prill",
+          "firstName": "Dietmar",
+          "profession": "Erwerbsunfähigkeitsrentner",
+          "stimmen": 21369
+        },
+        {
+          "position": 35,
+          "lastName": "Gerber",
+          "firstName": "Heinz",
+          "profession": "Dipl.-Informatiker",
+          "stimmen": 21449
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "FDP",
+      "fullName": "Freie Demokratische Partei",
+      "color": "#F4B93B",
+      "percent": 5.0,
+      "votesAbsolute": 380436,
+      "votesWeighted": 4867,
+      "seats": 4,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Diers",
+          "firstName": "Christian",
+          "profession": "Geschäftsführer",
+          "stimmen": 12522
+        },
+        {
+          "position": 2,
+          "lastName": "Schob",
+          "firstName": "Sylvia",
+          "profession": "Mediatorin",
+          "stimmen": 10680
+        },
+        {
+          "position": 3,
+          "lastName": "Schwalbach",
+          "firstName": "Lucas",
+          "profession": "Rechtsanwalt",
+          "stimmen": 7632
+        },
+        {
+          "position": 4,
+          "lastName": "Rutten",
+          "firstName": "Sebastian",
+          "profession": "Rechtsanwalt",
+          "stimmen": 6943
+        },
+        {
+          "position": 5,
+          "lastName": "Winkelmann",
+          "firstName": "Alexander",
+          "profession": "Rechtsassessor",
+          "stimmen": 6983
+        },
+        {
+          "position": 6,
+          "lastName": "Wild",
+          "firstName": "Jeanette-Christine",
+          "profession": "Geschäftsführerin",
+          "stimmen": 6477
+        },
+        {
+          "position": 7,
+          "lastName": "Becker",
+          "firstName": "Nathalie",
+          "profession": "Wirtschaftswissenschaftlerin",
+          "stimmen": 6363
+        },
+        {
+          "position": 8,
+          "lastName": "Bouffier",
+          "firstName": "Katinka",
+          "profession": "Angestellte",
+          "stimmen": 6950
+        },
+        {
+          "position": 9,
+          "lastName": "Laudien",
+          "firstName": "Joseph",
+          "profession": "Beamter",
+          "stimmen": 5646
+        },
+        {
+          "position": 10,
+          "lastName": "Gödde",
+          "firstName": "Patrick",
+          "profession": "Student",
+          "stimmen": 5518
+        },
+        {
+          "position": 11,
+          "lastName": "Enders",
+          "firstName": "Sophia",
+          "profession": "Angestellte",
+          "stimmen": 5649
+        },
+        {
+          "position": 12,
+          "lastName": "Bickelmann",
+          "firstName": "Daniela",
+          "profession": "Reiseverkehrskauffrau",
+          "stimmen": 5434
+        },
+        {
+          "position": 13,
+          "lastName": "Jester",
+          "firstName": "Axel",
+          "profession": "Berater",
+          "stimmen": 5091
+        },
+        {
+          "position": 14,
+          "lastName": "Bülow",
+          "firstName": "Sabrina",
+          "profession": "Tax-Managerin",
+          "stimmen": 5169
+        },
+        {
+          "position": 15,
+          "lastName": "Grebner",
+          "firstName": "Lorenz",
+          "profession": "Verwaltungsfachangestellter",
+          "stimmen": 5099
+        },
+        {
+          "position": 16,
+          "lastName": "Katnawatos",
+          "firstName": "Lothar",
+          "profession": "Rentner",
+          "stimmen": 5076
+        },
+        {
+          "position": 17,
+          "lastName": "Ostermann",
+          "firstName": "Katharina",
+          "profession": "Unternehmensberaterin",
+          "stimmen": 5114
+        },
+        {
+          "position": 18,
+          "lastName": "Winkelmann",
+          "firstName": "Ulrich",
+          "profession": "Rentner",
+          "stimmen": 5057
+        },
+        {
+          "position": 19,
+          "lastName": "Koch",
+          "firstName": "Bianca",
+          "profession": "Selbstständig",
+          "stimmen": 4982
+        },
+        {
+          "position": 20,
+          "lastName": "Lube",
+          "firstName": "Frank-Julian",
+          "profession": "Angestellter",
+          "stimmen": 4822
+        },
+        {
+          "position": 21,
+          "lastName": "Voss-Fels",
+          "firstName": "Freya",
+          "profession": "Angestellte",
+          "stimmen": 5027
+        },
+        {
+          "position": 22,
+          "lastName": "Kissel",
+          "firstName": "Sebastian",
+          "profession": "Regierungsdirektor",
+          "stimmen": 4794
+        },
+        {
+          "position": 23,
+          "lastName": "Toth",
+          "firstName": "Ingeborg",
+          "profession": "Journalistin",
+          "stimmen": 4776
+        },
+        {
+          "position": 24,
+          "lastName": "Pietsch",
+          "firstName": "Andreas",
+          "profession": "Winzer",
+          "stimmen": 4832
+        },
+        {
+          "position": 25,
+          "lastName": "Lohrmann",
+          "firstName": "Andrea",
+          "profession": "Assistentin der Geschäftsleitung",
+          "stimmen": 4777
+        },
+        {
+          "position": 26,
+          "lastName": "Khubeis",
+          "firstName": "Nabiel",
+          "profession": "Dipl.-Biologe",
+          "stimmen": 4561
+        },
+        {
+          "position": 27,
+          "lastName": "Frings",
+          "firstName": "Dr.",
+          "profession": "Kerstin, Dipl.-Volkswirtin",
+          "stimmen": 4850
+        },
+        {
+          "position": 28,
+          "lastName": "Rusvay",
+          "firstName": "Sándor",
+          "profession": "Selbst. Betriebswirt",
+          "stimmen": 4418
+        },
+        {
+          "position": 29,
+          "lastName": "Buderus",
+          "firstName": "Rena",
+          "profession": "Kauffrau",
+          "stimmen": 4553
+        },
+        {
+          "position": 30,
+          "lastName": "Reinerth",
+          "firstName": "Theo",
+          "profession": "Angestellter",
+          "stimmen": 4415
+        },
+        {
+          "position": 31,
+          "lastName": "Helbig",
+          "firstName": "Lilian",
+          "profession": "Assistentin",
+          "stimmen": 4451
+        },
+        {
+          "position": 32,
+          "lastName": "Balzer",
+          "firstName": "Dr.",
+          "profession": "Wolfgang, Rentner",
+          "stimmen": 4634
+        },
+        {
+          "position": 33,
+          "lastName": "Schug",
+          "firstName": "Nataliia",
+          "profession": "Product Owner (IT)",
+          "stimmen": 4452
+        },
+        {
+          "position": 34,
+          "lastName": "Sinnemann",
+          "firstName": "Peter",
+          "profession": "Angestellter",
+          "stimmen": 4366
+        },
+        {
+          "position": 35,
+          "lastName": "Rusvay",
+          "firstName": "Dagmar",
+          "profession": "Unternehmerin",
+          "stimmen": 4400
+        },
+        {
+          "position": 36,
+          "lastName": "Völke",
+          "firstName": "Udo Alexander",
+          "profession": "Dipl.-Kaufmann",
+          "stimmen": 4335
+        },
+        {
+          "position": 37,
+          "lastName": "Sperling",
+          "firstName": "Susanne",
+          "profession": "Journalistin",
+          "stimmen": 4415
+        },
+        {
+          "position": 38,
+          "lastName": "Doğan",
+          "firstName": "Dergah Xolo",
+          "profession": "IT-Systemadministrator",
+          "stimmen": 4322
+        },
+        {
+          "position": 39,
+          "lastName": "Bothe-Fehl",
+          "firstName": "Ines",
+          "profession": "Rentnerin",
+          "stimmen": 4386
+        },
+        {
+          "position": 40,
+          "lastName": "Neuwirth",
+          "firstName": "Nicolas",
+          "profession": "Geowissenschaftler",
+          "stimmen": 4351
+        },
+        {
+          "position": 41,
+          "lastName": "Zhang",
+          "firstName": "Guochao",
+          "profession": "Designerin",
+          "stimmen": 4277
+        },
+        {
+          "position": 42,
+          "lastName": "Pohlenz",
+          "firstName": "Hans-Henning",
+          "profession": "Rentner",
+          "stimmen": 4404
+        },
+        {
+          "position": 43,
+          "lastName": "Theel",
+          "firstName": "Paulina",
+          "profession": "Rechtsanwältin",
+          "stimmen": 4357
+        },
+        {
+          "position": 44,
+          "lastName": "Kirstein",
+          "firstName": "Denny",
+          "profession": "Audiologe",
+          "stimmen": 4313
+        },
+        {
+          "position": 45,
+          "lastName": "Bernhardt",
+          "firstName": "Sylvia",
+          "profession": "Dipl.-Mediendesignerin",
+          "stimmen": 4350
+        },
+        {
+          "position": 46,
+          "lastName": "Orth",
+          "firstName": "Markus",
+          "profession": "Geschäftsführer",
+          "stimmen": 4372
+        },
+        {
+          "position": 47,
+          "lastName": "Pohlenz",
+          "firstName": "Angelika",
+          "profession": "Rentnerin",
+          "stimmen": 4388
+        },
+        {
+          "position": 48,
+          "lastName": "Otto",
+          "firstName": "Jan",
+          "profession": "Angestellter",
+          "stimmen": 4273
+        },
+        {
+          "position": 49,
+          "lastName": "Dumont du Voitel",
+          "firstName": "Sabine",
+          "profession": "Juristin",
+          "stimmen": 4418
+        },
+        {
+          "position": 50,
+          "lastName": "Nelles",
+          "firstName": "Maximilian",
+          "profession": "Pricing-Manager",
+          "stimmen": 4211
+        },
+        {
+          "position": 51,
+          "lastName": "Rosa",
+          "firstName": "Dorli",
+          "profession": "Pensionärin",
+          "stimmen": 4262
+        },
+        {
+          "position": 52,
+          "lastName": "Sernau",
+          "firstName": "Ralf",
+          "profession": "Geschäftsführer",
+          "stimmen": 4209
+        },
+        {
+          "position": 53,
+          "lastName": "Binzenhöfer",
+          "firstName": "Marc",
+          "profession": "Selbstständig",
+          "stimmen": 4293
+        },
+        {
+          "position": 54,
+          "lastName": "Gerhardt",
+          "firstName": "Marlies",
+          "profession": "Pharmazeutin i. R.",
+          "stimmen": 4237
+        },
+        {
+          "position": 55,
+          "lastName": "Hißnauer",
+          "firstName": "Felix",
+          "profession": "Angestellter",
+          "stimmen": 4391
+        },
+        {
+          "position": 56,
+          "lastName": "Gruner",
+          "firstName": "Jasmin",
+          "profession": "Beamtin",
+          "stimmen": 4318
+        },
+        {
+          "position": 57,
+          "lastName": "Hartwich",
+          "firstName": "Noah",
+          "profession": "Investmentmanager",
+          "stimmen": 4188
+        },
+        {
+          "position": 58,
+          "lastName": "Hunger",
+          "firstName": "Marie Thérèse",
+          "profession": "Referentin",
+          "stimmen": 4233
+        },
+        {
+          "position": 59,
+          "lastName": "Man",
+          "firstName": "Lucas",
+          "profession": "Angestellter",
+          "stimmen": 4144
+        },
+        {
+          "position": 60,
+          "lastName": "Eikelmann",
+          "firstName": "Alexandra",
+          "profession": "Angestellte",
+          "stimmen": 4245
+        },
+        {
+          "position": 61,
+          "lastName": "Elsbeck",
+          "firstName": "Gregor",
+          "profession": "Marketing-Manager",
+          "stimmen": 4066
+        },
+        {
+          "position": 62,
+          "lastName": "Aksoy",
+          "firstName": "Embiya",
+          "profession": "Sozialarbeiterin",
+          "stimmen": 4151
+        },
+        {
+          "position": 63,
+          "lastName": "Bux",
+          "firstName": "Kevin",
+          "profession": "Schüler",
+          "stimmen": 4091
+        },
+        {
+          "position": 64,
+          "lastName": "Beierer-Schmidt",
+          "firstName": "Martina",
+          "profession": "Tierärztin i. R.",
+          "stimmen": 4090
+        },
+        {
+          "position": 65,
+          "lastName": "Rzytki",
+          "firstName": "Reinhard",
+          "profession": "Oberstudiendirektor a. D.",
+          "stimmen": 4195
+        },
+        {
+          "position": 66,
+          "lastName": "Wodniok",
+          "firstName": "Andreas",
+          "profession": "Rentner",
+          "stimmen": 4072
+        },
+        {
+          "position": 67,
+          "lastName": "Pöllinger",
+          "firstName": "Jakob",
+          "profession": "Student",
+          "stimmen": 4017
+        },
+        {
+          "position": 68,
+          "lastName": "Lukas",
+          "firstName": "Dr.",
+          "profession": "Martin, Zahnarzt",
+          "stimmen": 4180
+        },
+        {
+          "position": 69,
+          "lastName": "Diers",
+          "firstName": "Carsten",
+          "profession": "Geschäftsführer",
+          "stimmen": 4217
+        },
+        {
+          "position": 70,
+          "lastName": "Weber",
+          "firstName": "Harald",
+          "profession": "Rechtsanwalt",
+          "stimmen": 3966
+        },
+        {
+          "position": 71,
+          "lastName": "Fletcher",
+          "firstName": "Andreas",
+          "profession": "Projektmanager",
+          "stimmen": 3935
+        },
+        {
+          "position": 72,
+          "lastName": "Krombach",
+          "firstName": "Tobias",
+          "profession": "Berater",
+          "stimmen": 3939
+        },
+        {
+          "position": 73,
+          "lastName": "Budrus",
+          "firstName": "Boris",
+          "profession": "Volljurist",
+          "stimmen": 3872
+        },
+        {
+          "position": 74,
+          "lastName": "Becker",
+          "firstName": "Dr.",
+          "profession": "Lasse, Unternehmer",
+          "stimmen": 4127
+        },
+        {
+          "position": 75,
+          "lastName": "Funk",
+          "firstName": "Jürgen",
+          "profession": "Geschäftsführer",
+          "stimmen": 3856
+        },
+        {
+          "position": 76,
+          "lastName": "Rentsch",
+          "firstName": "Florian",
+          "profession": "Vorstandsvorsitzender",
+          "stimmen": 4147
+        },
+        {
+          "position": 77,
+          "lastName": "Kuhn",
+          "firstName": "Peter Ludwig",
+          "profession": "Dipl.-Kaufmann",
+          "stimmen": 3750
+        },
+        {
+          "position": 78,
+          "lastName": "Enders",
+          "firstName": "Gabriele",
+          "profession": "Angestellte",
+          "stimmen": 3875
+        },
+        {
+          "position": 79,
+          "lastName": "von Scheidt",
+          "firstName": "Helmut",
+          "profession": "Oberstudiendirektor i. R.",
+          "stimmen": 3685
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "shortName": "Volt",
+      "fullName": "Volt Deutschland",
+      "color": "#6f30a7",
+      "percent": 4.4,
+      "votesAbsolute": 335644,
+      "votesWeighted": 4294,
+      "seats": 4,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Lüttich",
+          "firstName": "Moira",
+          "profession": "Sozialarbeiterin",
+          "stimmen": 17113
+        },
+        {
+          "position": 2,
+          "lastName": "Weber",
+          "firstName": "Daniel",
+          "profession": "Praxismanager",
+          "stimmen": 15844
+        },
+        {
+          "position": 3,
+          "lastName": "Xavier Vinha",
+          "firstName": "Maria João",
+          "profession": "Softwareentwicklerin",
+          "stimmen": 15790
+        },
+        {
+          "position": 4,
+          "lastName": "Sprengard",
+          "firstName": "Achim",
+          "profession": "Wirtschaftsprüfer",
+          "stimmen": 14205
+        },
+        {
+          "position": 5,
+          "lastName": "Wolf",
+          "firstName": "Regina",
+          "profession": "Kommunikationsdesignerin",
+          "stimmen": 14575
+        },
+        {
+          "position": 6,
+          "lastName": "Wende",
+          "firstName": "Antonio",
+          "profession": "Teamleiter",
+          "stimmen": 13252
+        },
+        {
+          "position": 7,
+          "lastName": "Brieger",
+          "firstName": "Kathrin",
+          "profession": "Angestellte",
+          "stimmen": 13660
+        },
+        {
+          "position": 8,
+          "lastName": "Raszka",
+          "firstName": "Patrick",
+          "profession": "IT-Application-Manager",
+          "stimmen": 12538
+        },
+        {
+          "position": 9,
+          "lastName": "Leskien",
+          "firstName": "Jasmine",
+          "profession": "Erzieherin",
+          "stimmen": 13065
+        },
+        {
+          "position": 10,
+          "lastName": "Erizgi",
+          "firstName": "Ömür",
+          "profession": "Versicherungsmathematiker",
+          "stimmen": 12293
+        },
+        {
+          "position": 11,
+          "lastName": "Werli",
+          "firstName": "Vera",
+          "profession": "Rentnerin",
+          "stimmen": 12359
+        },
+        {
+          "position": 12,
+          "lastName": "Grillich",
+          "firstName": "Philipp",
+          "profession": "Konservator",
+          "stimmen": 11643
+        },
+        {
+          "position": 13,
+          "lastName": "König",
+          "firstName": "Carina",
+          "profession": "Gesundheitsmanagerin",
+          "stimmen": 12112
+        },
+        {
+          "position": 14,
+          "lastName": "Brielmayer",
+          "firstName": "Stephan",
+          "profession": "Beamter i. R.",
+          "stimmen": 11422
+        },
+        {
+          "position": 15,
+          "lastName": "Tessmann",
+          "firstName": "Vivien",
+          "profession": "Flugbegleiterin",
+          "stimmen": 11693
+        },
+        {
+          "position": 16,
+          "lastName": "Sigwart",
+          "firstName": "Paul",
+          "profession": "Auszubildender",
+          "stimmen": 11261
+        },
+        {
+          "position": 17,
+          "lastName": "Layes-Oğurlu",
+          "firstName": "Astrid",
+          "profession": "Pädagogin (M.A.)",
+          "stimmen": 11543
+        },
+        {
+          "position": 18,
+          "lastName": "Tessmann",
+          "firstName": "Martin",
+          "profession": "Pilot",
+          "stimmen": 11067
+        },
+        {
+          "position": 19,
+          "lastName": "Streit",
+          "firstName": "Daniela",
+          "profession": "Sozialarbeiterin",
+          "stimmen": 11417
+        },
+        {
+          "position": 20,
+          "lastName": "Linker",
+          "firstName": "Philip",
+          "profession": "Notfallsanitäter",
+          "stimmen": 11101
+        },
+        {
+          "position": 21,
+          "lastName": "Rubbel",
+          "firstName": "Monika",
+          "profession": "Rentnerin",
+          "stimmen": 11271
+        },
+        {
+          "position": 22,
+          "lastName": "Porada",
+          "firstName": "Wolfgang",
+          "profession": "Dipl.-Physiker",
+          "stimmen": 10821
+        },
+        {
+          "position": 23,
+          "lastName": "Metzger",
+          "firstName": "Maren",
+          "profession": "Zahnärztin",
+          "stimmen": 11000
+        },
+        {
+          "position": 24,
+          "lastName": "Kaufmann",
+          "firstName": "Niclas",
+          "profession": "IT-Architekt",
+          "stimmen": 10661
+        },
+        {
+          "position": 25,
+          "lastName": "Sprengard",
+          "firstName": "Andrea",
+          "profession": "Bankkauffrau",
+          "stimmen": 10941
+        },
+        {
+          "position": 26,
+          "lastName": "Meier",
+          "firstName": "Edwin",
+          "profession": "Beamter",
+          "stimmen": 7677
+        },
+        {
+          "position": 27,
+          "lastName": "Fachinger",
+          "firstName": "Lukas",
+          "profession": "Elektroniker",
+          "stimmen": 7743
+        },
+        {
+          "position": 28,
+          "lastName": "Ritter",
+          "firstName": "Achim",
+          "profession": "Beamter i. R.",
+          "stimmen": 7577
+        }
+      ]
+    },
+    {
+      "listNumber": 15,
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "color": "#999999",
+      "percent": 1.7,
+      "votesAbsolute": 128466,
+      "votesWeighted": 1643,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Bedürftig",
+          "firstName": "Matthias",
+          "profession": "Umzugsunternehmer",
+          "stimmen": 4872
+        },
+        {
+          "position": 2,
+          "lastName": "Stegmann",
+          "firstName": "Yannis",
+          "profession": "Kriminalbeamter",
+          "stimmen": 3966
+        },
+        {
+          "position": 3,
+          "lastName": "Kreft",
+          "firstName": "Eike Stefan",
+          "profession": "Bankkaufmann",
+          "stimmen": 3618
+        },
+        {
+          "position": 4,
+          "lastName": "Rau",
+          "firstName": "Benjamin",
+          "profession": "Kfz-Mechatroniker",
+          "stimmen": 3603
+        },
+        {
+          "position": 5,
+          "lastName": "Berndt",
+          "firstName": "Michaela",
+          "profession": "Selbstständig",
+          "stimmen": 3519
+        },
+        {
+          "position": 6,
+          "lastName": "Bedürftig",
+          "firstName": "Maximilian",
+          "profession": "Kfz-Mechatroniker",
+          "stimmen": 3367
+        },
+        {
+          "position": 7,
+          "lastName": "Uhde",
+          "firstName": "Christina",
+          "profession": "Schneidermeisterin",
+          "stimmen": 3218
+        },
+        {
+          "position": 8,
+          "lastName": "Pawlik",
+          "firstName": "Janusz",
+          "profession": "Elektroniker",
+          "stimmen": 1856
+        },
+        {
+          "position": 9,
+          "lastName": "Bullmann",
+          "firstName": "Thorsten",
+          "profession": "Schreiner",
+          "stimmen": 1873
+        },
+        {
+          "position": 10,
+          "lastName": "Creţu",
+          "firstName": "Marian-Vlad",
+          "profession": "Elektriker",
+          "stimmen": 1765
+        },
+        {
+          "position": 11,
+          "lastName": "Mincho",
+          "firstName": "Rene",
+          "profession": "Lkw-Fahrer",
+          "stimmen": 1690
+        },
+        {
+          "position": 12,
+          "lastName": "Bedürftig",
+          "firstName": "Jan",
+          "profession": "Gärtner",
+          "stimmen": 1883
+        },
+        {
+          "position": 13,
+          "lastName": "Abdolvahab",
+          "firstName": "Shahnas",
+          "profession": "Dipl.-Ingenieurin (FH)",
+          "stimmen": 1633
+        },
+        {
+          "position": 14,
+          "lastName": "Beșca",
+          "firstName": "Horațiu",
+          "profession": "Kfz-Mechaniker",
+          "stimmen": 1625
+        },
+        {
+          "position": 15,
+          "lastName": "Schulz",
+          "firstName": "Ernst Otto",
+          "profession": "Kaufmann",
+          "stimmen": 1667
+        },
+        {
+          "position": 16,
+          "lastName": "Ruddeck",
+          "firstName": "Wilfried",
+          "profession": "Elektriker",
+          "stimmen": 1631
+        },
+        {
+          "position": 17,
+          "lastName": "Spies",
+          "firstName": "Sarah",
+          "profession": "Dachdeckerin",
+          "stimmen": 1803
+        },
+        {
+          "position": 18,
+          "lastName": "Lendle",
+          "firstName": "Marcel",
+          "profession": "Land- u. Baumaschinenmechatroniker",
+          "stimmen": 1769
+        },
+        {
+          "position": 19,
+          "lastName": "Hardert-Heß",
+          "firstName": "Monika",
+          "profession": "Bürokauffrau",
+          "stimmen": 1705
+        },
+        {
+          "position": 20,
+          "lastName": "Wojtowicz-Schulz",
+          "firstName": "Iwona",
+          "profession": "Kauffrau",
+          "stimmen": 1645
+        },
+        {
+          "position": 21,
+          "lastName": "Becker",
+          "firstName": "Claudius",
+          "profession": "Grafikdesigner",
+          "stimmen": 1620
+        },
+        {
+          "position": 22,
+          "lastName": "Ciobaniuc",
+          "firstName": "Vasile",
+          "profession": "Elektroniker",
+          "stimmen": 1548
+        },
+        {
+          "position": 23,
+          "lastName": "Bullmann",
+          "firstName": "Meike",
+          "profession": "Erzieherin",
+          "stimmen": 1668
+        },
+        {
+          "position": 24,
+          "lastName": "Maas",
+          "firstName": "Niklas",
+          "profession": "Monteur",
+          "stimmen": 1572
+        },
+        {
+          "position": 25,
+          "lastName": "Spies",
+          "firstName": "Horst",
+          "profession": "Jurist",
+          "stimmen": 1560
+        },
+        {
+          "position": 26,
+          "lastName": "Hoffmann",
+          "firstName": "Bianca",
+          "profession": "Kommunikationsexpertin",
+          "stimmen": 1667
+        },
+        {
+          "position": 27,
+          "lastName": "Steinbach",
+          "firstName": "Matthias",
+          "profession": "Dipl.-Betriebswirt (FH)",
+          "stimmen": 1590
+        },
+        {
+          "position": 28,
+          "lastName": "Schaus",
+          "firstName": "Detlev",
+          "profession": "Angestellter",
+          "stimmen": 1527
+        },
+        {
+          "position": 29,
+          "lastName": "Etz",
+          "firstName": "Nils",
+          "profession": "Pflegedienstleitung",
+          "stimmen": 1559
+        },
+        {
+          "position": 30,
+          "lastName": "Johnson",
+          "firstName": "Dennis",
+          "profession": "Verkaufsleiter",
+          "stimmen": 1496
+        },
+        {
+          "position": 31,
+          "lastName": "Schimmele",
+          "firstName": "Christoph",
+          "profession": "Rettungsassistent",
+          "stimmen": 1495
+        },
+        {
+          "position": 32,
+          "lastName": "Geißler",
+          "firstName": "Marcus",
+          "profession": "Elektrotechniker",
+          "stimmen": 1536
+        },
+        {
+          "position": 33,
+          "lastName": "Bünger",
+          "firstName": "Annette",
+          "profession": "Rentnerin",
+          "stimmen": 1577
+        },
+        {
+          "position": 34,
+          "lastName": "Quint",
+          "firstName": "Oliver",
+          "profession": "Kfz-Mechaniker",
+          "stimmen": 1575
+        },
+        {
+          "position": 35,
+          "lastName": "Koring",
+          "firstName": "Dirk",
+          "profession": "Berater",
+          "stimmen": 1486
+        },
+        {
+          "position": 36,
+          "lastName": "Stark",
+          "firstName": "Isabella",
+          "profession": "Hausfrau",
+          "stimmen": 1594
+        },
+        {
+          "position": 37,
+          "lastName": "Riggio",
+          "firstName": "Riccardo",
+          "profession": "Kfm. f. Büromanagement",
+          "stimmen": 1524
+        },
+        {
+          "position": 38,
+          "lastName": "Gutermann",
+          "firstName": "Gabriele",
+          "profession": "Rentnerin",
+          "stimmen": 1548
+        },
+        {
+          "position": 39,
+          "lastName": "Böhme",
+          "firstName": "Markus",
+          "profession": "Fachlagerist",
+          "stimmen": 1501
+        },
+        {
+          "position": 40,
+          "lastName": "Bünger",
+          "firstName": "Helmut",
+          "profession": "Ingenieur",
+          "stimmen": 1473
+        },
+        {
+          "position": 41,
+          "lastName": "Geißler",
+          "firstName": "Manuela",
+          "profession": "Angestellte",
+          "stimmen": 1555
+        },
+        {
+          "position": 42,
+          "lastName": "Gutermann",
+          "firstName": "André",
+          "profession": "Monteur",
+          "stimmen": 1484
+        },
+        {
+          "position": 43,
+          "lastName": "Stark",
+          "firstName": "Lucas",
+          "profession": "Arbeitssuchend",
+          "stimmen": 1496
+        },
+        {
+          "position": 44,
+          "lastName": "Kraus",
+          "firstName": "Peter",
+          "profession": "Tischler",
+          "stimmen": 1487
+        },
+        {
+          "position": 45,
+          "lastName": "Wöhle",
+          "firstName": "Thomas",
+          "profession": "Angestellter",
+          "stimmen": 1436
+        },
+        {
+          "position": 46,
+          "lastName": "Roggeman",
+          "firstName": "Denise",
+          "profession": "Zahnarzthelferin",
+          "stimmen": 1499
+        },
+        {
+          "position": 47,
+          "lastName": "Borisov",
+          "firstName": "Hristo",
+          "profession": "Bauhelfer",
+          "stimmen": 1423
+        },
+        {
+          "position": 48,
+          "lastName": "Myustedzheb",
+          "firstName": "Erkan",
+          "profession": "Bauhelfer",
+          "stimmen": 1415
+        },
+        {
+          "position": 49,
+          "lastName": "Mezes",
+          "firstName": "Nikolaus",
+          "profession": "Angestellter",
+          "stimmen": 1428
+        },
+        {
+          "position": 50,
+          "lastName": "Scherf",
+          "firstName": "Monika",
+          "profession": "Angestellte",
+          "stimmen": 1562
+        },
+        {
+          "position": 51,
+          "lastName": "Möller",
+          "firstName": "Kenneth",
+          "profession": "Monteur",
+          "stimmen": 1439
+        },
+        {
+          "position": 52,
+          "lastName": "Artar",
+          "firstName": "Hüseyin",
+          "profession": "Maschinenführer",
+          "stimmen": 1437
+        },
+        {
+          "position": 53,
+          "lastName": "Roggeman",
+          "firstName": "Claude",
+          "profession": "Busfahrer",
+          "stimmen": 1435
+        },
+        {
+          "position": 54,
+          "lastName": "Hofmann",
+          "firstName": "Harald",
+          "profession": "Pensionär",
+          "stimmen": 1429
+        },
+        {
+          "position": 55,
+          "lastName": "Butzbach",
+          "firstName": "Helgard",
+          "profession": "Rentnerin",
+          "stimmen": 1439
+        },
+        {
+          "position": 56,
+          "lastName": "Kula",
+          "firstName": "Dorota",
+          "profession": "Selbstständig",
+          "stimmen": 1462
+        },
+        {
+          "position": 57,
+          "lastName": "Uhlig",
+          "firstName": "Sören",
+          "profession": "Stuckateur",
+          "stimmen": 1441
+        },
+        {
+          "position": 58,
+          "lastName": "Klein",
+          "firstName": "Sascha",
+          "profession": "Maschinenführer",
+          "stimmen": 1437
+        },
+        {
+          "position": 59,
+          "lastName": "Yusein",
+          "firstName": "Ali",
+          "profession": "Fahrradmechaniker",
+          "stimmen": 1432
+        },
+        {
+          "position": 60,
+          "lastName": "Bahri",
+          "firstName": "Nader",
+          "profession": "Karosseriebauer",
+          "stimmen": 1398
+        },
+        {
+          "position": 61,
+          "lastName": "Roth-Eufinger",
+          "firstName": "Ludmilla",
+          "profession": "Rentnerin",
+          "stimmen": 1426
+        },
+        {
+          "position": 62,
+          "lastName": "Hauptrock",
+          "firstName": "Kevin",
+          "profession": "Monteur",
+          "stimmen": 1411
+        },
+        {
+          "position": 63,
+          "lastName": "Christmann",
+          "firstName": "Silko",
+          "profession": "Koch",
+          "stimmen": 1412
+        },
+        {
+          "position": 64,
+          "lastName": "Wißgott",
+          "firstName": "Christopher",
+          "profession": "Monteur",
+          "stimmen": 1396
+        },
+        {
+          "position": 65,
+          "lastName": "Kreuz",
+          "firstName": "Loredana",
+          "profession": "Gastronomiehelferin",
+          "stimmen": 1454
+        },
+        {
+          "position": 66,
+          "lastName": "Lefter",
+          "firstName": "Vasile",
+          "profession": "Karosseriemechaniker",
+          "stimmen": 1382
+        },
+        {
+          "position": 67,
+          "lastName": "Mirăuţi",
+          "firstName": "Livia",
+          "profession": "Pflegefachkraft",
+          "stimmen": 1403
+        },
+        {
+          "position": 68,
+          "lastName": "Lefter",
+          "firstName": "Vasilisa-Viorica",
+          "profession": "Reinigungskraft",
+          "stimmen": 1383
+        },
+        {
+          "position": 69,
+          "lastName": "Vîlcu",
+          "firstName": "Petrișor",
+          "profession": "Selbstständig",
+          "stimmen": 1376
+        },
+        {
+          "position": 70,
+          "lastName": "Ciobanu",
+          "firstName": "Adrian",
+          "profession": "Sanitär-, Heizungs- u. Klimatechniker",
+          "stimmen": 1364
+        },
+        {
+          "position": 71,
+          "lastName": "Vîlcu",
+          "firstName": "Ștefania-Cristina",
+          "profession": "Verkäuferin",
+          "stimmen": 1384
+        },
+        {
+          "position": 72,
+          "lastName": "Vîlcu",
+          "firstName": "Alina Gabriela",
+          "profession": "Restaurantfachfrau",
+          "stimmen": 1390
+        },
+        {
+          "position": 73,
+          "lastName": "Vîlcu",
+          "firstName": "Mihaela",
+          "profession": "Reinigungskraft",
+          "stimmen": 1369
+        },
+        {
+          "position": 74,
+          "lastName": "Mirăuti",
+          "firstName": "Liviu",
+          "profession": "Elektriker",
+          "stimmen": 1358
+        }
+      ]
+    },
+    {
+      "listNumber": 12,
+      "shortName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
+      "color": "#B4B4B4",
+      "percent": 1.5,
+      "votesAbsolute": 112674,
+      "votesWeighted": 1441,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Wilhelmy",
+          "firstName": "Veit",
+          "profession": "Schornsteinfegermeister",
+          "stimmen": 4855
+        },
+        {
+          "position": 2,
+          "lastName": "Appelhans",
+          "firstName": "Eugen",
+          "profession": "Facharzt",
+          "stimmen": 4586
+        },
+        {
+          "position": 3,
+          "lastName": "Bohrmann",
+          "firstName": "Mario",
+          "profession": "Versicherungskaufmann",
+          "stimmen": 4758
+        },
+        {
+          "position": 4,
+          "lastName": "Alkan",
+          "firstName": "Nail",
+          "profession": "Dipl.-Informatiker",
+          "stimmen": 4474
+        },
+        {
+          "position": 5,
+          "lastName": "Akyüz",
+          "firstName": "Sahhan",
+          "profession": "Angestellter",
+          "stimmen": 4369
+        },
+        {
+          "position": 6,
+          "lastName": "Barth",
+          "firstName": "Esther",
+          "profession": "Angestellte",
+          "stimmen": 4307
+        },
+        {
+          "position": 7,
+          "lastName": "Flügge",
+          "firstName": "Lena",
+          "profession": "Eventmanagerin",
+          "stimmen": 4398
+        },
+        {
+          "position": 8,
+          "lastName": "Sallinger-Nolte",
+          "firstName": "Maritta",
+          "profession": "Krankenschwester",
+          "stimmen": 4220
+        },
+        {
+          "position": 9,
+          "lastName": "Befard",
+          "firstName": "Karola",
+          "profession": "Rentnerin",
+          "stimmen": 4211
+        },
+        {
+          "position": 10,
+          "lastName": "Lechner-Befard",
+          "firstName": "Jürgen",
+          "profession": "Rentner",
+          "stimmen": 4121
+        },
+        {
+          "position": 11,
+          "lastName": "Dittrich",
+          "firstName": "Eckhart",
+          "profession": "Dipl.-Ingenieur",
+          "stimmen": 4092
+        },
+        {
+          "position": 12,
+          "lastName": "Loch",
+          "firstName": "Gabriele",
+          "profession": "Rentnerin",
+          "stimmen": 4119
+        },
+        {
+          "position": 13,
+          "lastName": "Barth",
+          "firstName": "Keike",
+          "profession": "Rentnerin",
+          "stimmen": 4059
+        },
+        {
+          "position": 14,
+          "lastName": "Karim",
+          "firstName": "Nesaar",
+          "profession": "Student",
+          "stimmen": 4101
+        },
+        {
+          "position": 15,
+          "lastName": "Stein",
+          "firstName": "Frank",
+          "profession": "Rentner",
+          "stimmen": 4007
+        },
+        {
+          "position": 16,
+          "lastName": "Turan",
+          "firstName": "Lema",
+          "profession": "Angestellte",
+          "stimmen": 4028
+        },
+        {
+          "position": 17,
+          "lastName": "Flügge",
+          "firstName": "Martin",
+          "profession": "Chemiker",
+          "stimmen": 3976
+        },
+        {
+          "position": 18,
+          "lastName": "Krebber",
+          "firstName": "Elmar",
+          "profession": "Dipl.-Ingenieur Architektur",
+          "stimmen": 4051
+        },
+        {
+          "position": 19,
+          "lastName": "Alkan",
+          "firstName": "Habip",
+          "profession": "Schuhmacher",
+          "stimmen": 4014
+        },
+        {
+          "position": 20,
+          "lastName": "Schneider",
+          "firstName": "Natascha",
+          "profession": "Kfm. Angestellte",
+          "stimmen": 4016
+        },
+        {
+          "position": 21,
+          "lastName": "Varlik",
+          "firstName": "Erol",
+          "profession": "Industriemeister",
+          "stimmen": 3873
+        },
+        {
+          "position": 22,
+          "lastName": "Tatar",
+          "firstName": "Sedrettin",
+          "profession": "Gastronom",
+          "stimmen": 3832
+        },
+        {
+          "position": 23,
+          "lastName": "Schell",
+          "firstName": "Nikolaus",
+          "profession": "Kfz-Mechaniker",
+          "stimmen": 3811
+        },
+        {
+          "position": 24,
+          "lastName": "Schneider",
+          "firstName": "Konstantin",
+          "profession": "Lagerist",
+          "stimmen": 2752
+        },
+        {
+          "position": 25,
+          "lastName": "Schell",
+          "firstName": "Thomas",
+          "profession": "Sporttrainer",
+          "stimmen": 2734
+        },
+        {
+          "position": 26,
+          "lastName": "Jacoby",
+          "firstName": "Bernd",
+          "profession": "Rentner",
+          "stimmen": 2725
+        },
+        {
+          "position": 27,
+          "lastName": "Brauch",
+          "firstName": "Manfred",
+          "profession": "Rechtsanwalt",
+          "stimmen": 2685
+        },
+        {
+          "position": 28,
+          "lastName": "Stein",
+          "firstName": "Marion",
+          "profession": "Verkäuferin",
+          "stimmen": 2731
+        },
+        {
+          "position": 29,
+          "lastName": "Balcı",
+          "firstName": "Kerem",
+          "profession": "Student",
+          "stimmen": 2769
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "shortName": "PRO AUTO",
+      "fullName": "PRO AUTO – Die Bürgerlichen!",
+      "color": "#B4B4B4",
+      "percent": 1.3,
+      "votesAbsolute": 99608,
+      "votesWeighted": 1274,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Hill",
+          "firstName": "Christian",
+          "profession": "Kaufmann",
+          "stimmen": 5856
+        },
+        {
+          "position": 2,
+          "lastName": "Schaefer",
+          "firstName": "Günter",
+          "profession": "Dipl.-Volkswirt",
+          "stimmen": 3785
+        },
+        {
+          "position": 3,
+          "lastName": "Tiebing",
+          "firstName": "Peer-Sebastian",
+          "profession": "Ltd. Angestellter",
+          "stimmen": 3555
+        },
+        {
+          "position": 4,
+          "lastName": "Wieltsch",
+          "firstName": "Jens-Werner",
+          "profession": "Rentner",
+          "stimmen": 3205
+        },
+        {
+          "position": 5,
+          "lastName": "Hünewinkel",
+          "firstName": "Konstantin",
+          "profession": "Rentner",
+          "stimmen": 3086
+        },
+        {
+          "position": 6,
+          "lastName": "Klarmann",
+          "firstName": "Carola",
+          "profession": "Hörakustikmeisterin",
+          "stimmen": 2948
+        },
+        {
+          "position": 7,
+          "lastName": "Schneider",
+          "firstName": "Peer-Alvar",
+          "profession": "Auszubildender",
+          "stimmen": 2682
+        },
+        {
+          "position": 8,
+          "lastName": "Fischer",
+          "firstName": "Saskia",
+          "profession": "Kfm. Angestellte",
+          "stimmen": 2765
+        },
+        {
+          "position": 9,
+          "lastName": "Aslan",
+          "firstName": "Serdar",
+          "profession": "Dipl.-Ingenieur",
+          "stimmen": 2625
+        },
+        {
+          "position": 10,
+          "lastName": "Hübner",
+          "firstName": "Günny",
+          "profession": "Rentner",
+          "stimmen": 2638
+        },
+        {
+          "position": 11,
+          "lastName": "Wolf",
+          "firstName": "Dr.",
+          "profession": "Evelyn, Ärztin",
+          "stimmen": 2683
+        },
+        {
+          "position": 12,
+          "lastName": "Schäfer",
+          "firstName": "Hans-Georg",
+          "profession": "Rentner",
+          "stimmen": 2418
+        },
+        {
+          "position": 13,
+          "lastName": "Heinzmann",
+          "firstName": "Erik",
+          "profession": "Kaufmann",
+          "stimmen": 2504
+        },
+        {
+          "position": 14,
+          "lastName": "Budecker",
+          "firstName": "Dieter",
+          "profession": "Gastronom",
+          "stimmen": 2540
+        },
+        {
+          "position": 15,
+          "lastName": "Spintig",
+          "firstName": "Thomas",
+          "profession": "Rechtsanwalt",
+          "stimmen": 2397
+        },
+        {
+          "position": 16,
+          "lastName": "Schirmacher",
+          "firstName": "Dirk",
+          "profession": "Unternehmer",
+          "stimmen": 2334
+        },
+        {
+          "position": 17,
+          "lastName": "Surkus",
+          "firstName": "Andreas",
+          "profession": "Kaufmann",
+          "stimmen": 2260
+        },
+        {
+          "position": 18,
+          "lastName": "Hamacher",
+          "firstName": "Bernd",
+          "profession": "Gastronom",
+          "stimmen": 2303
+        },
+        {
+          "position": 19,
+          "lastName": "Katzer",
+          "firstName": "Jörgen",
+          "profession": "Polizeidirektor",
+          "stimmen": 2252
+        },
+        {
+          "position": 20,
+          "lastName": "Wilke",
+          "firstName": "Andrea",
+          "profession": "Dipl.-Ingenieurin Architektur",
+          "stimmen": 2336
+        },
+        {
+          "position": 21,
+          "lastName": "Bauer",
+          "firstName": "Martin",
+          "profession": "Angestellter",
+          "stimmen": 2230
+        },
+        {
+          "position": 22,
+          "lastName": "Choitz",
+          "firstName": "Berndt",
+          "profession": "Rentner",
+          "stimmen": 2185
+        },
+        {
+          "position": 23,
+          "lastName": "Schwindenhammer",
+          "firstName": "Andreas",
+          "profession": "Kfz-Mechaniker",
+          "stimmen": 2238
+        },
+        {
+          "position": 24,
+          "lastName": "Neubecker",
+          "firstName": "Dorothea",
+          "profession": "Heilpraktikerin",
+          "stimmen": 2222
+        },
+        {
+          "position": 25,
+          "lastName": "Palermo",
+          "firstName": "Simone",
+          "profession": "Hausmeister",
+          "stimmen": 2241
+        },
+        {
+          "position": 26,
+          "lastName": "Kreuzer",
+          "firstName": "Erika",
+          "profession": "Rentnerin",
+          "stimmen": 2180
+        },
+        {
+          "position": 27,
+          "lastName": "Scharmann",
+          "firstName": "Peter",
+          "profession": "Rentner",
+          "stimmen": 2173
+        },
+        {
+          "position": 28,
+          "lastName": "Hohmann",
+          "firstName": "Hayde",
+          "profession": "Pflegefachkraft",
+          "stimmen": 2104
+        },
+        {
+          "position": 29,
+          "lastName": "Goebel",
+          "firstName": "Achim",
+          "profession": "Kaufmann",
+          "stimmen": 2106
+        },
+        {
+          "position": 30,
+          "lastName": "Barletta",
+          "firstName": "Francescantonio",
+          "profession": "Unternehmer",
+          "stimmen": 2094
+        },
+        {
+          "position": 31,
+          "lastName": "Busch",
+          "firstName": "Hans-Helmut",
+          "profession": "Landschaftsarchitekt i. R.",
+          "stimmen": 2076
+        },
+        {
+          "position": 32,
+          "lastName": "Schreiner",
+          "firstName": "Joachim",
+          "profession": "Kaufmann",
+          "stimmen": 2100
+        },
+        {
+          "position": 33,
+          "lastName": "Römer",
+          "firstName": "Brigitte",
+          "profession": "Rentnerin",
+          "stimmen": 2116
+        },
+        {
+          "position": 34,
+          "lastName": "Lenz",
+          "firstName": "Lorenzo",
+          "profession": "Gerüstbauer",
+          "stimmen": 2071
+        },
+        {
+          "position": 35,
+          "lastName": "Beckenbach",
+          "firstName": "Hermann",
+          "profession": "Dachdecker",
+          "stimmen": 2055
+        },
+        {
+          "position": 36,
+          "lastName": "Hill",
+          "firstName": "Burgunde",
+          "profession": "Rentnerin",
+          "stimmen": 2102
+        },
+        {
+          "position": 37,
+          "lastName": "Ries",
+          "firstName": "Jakob",
+          "profession": "Rentner",
+          "stimmen": 2034
+        },
+        {
+          "position": 38,
+          "lastName": "Mathy",
+          "firstName": "Manfred",
+          "profession": "Rentner",
+          "stimmen": 2061
+        },
+        {
+          "position": 39,
+          "lastName": "Michel",
+          "firstName": "Thomas",
+          "profession": "Metzgermeister",
+          "stimmen": 2013
+        },
+        {
+          "position": 40,
+          "lastName": "Hill",
+          "firstName": "Bernd",
+          "profession": "Kaufmann i. R.",
+          "stimmen": 2035
+        }
+      ]
+    },
+    {
+      "listNumber": 11,
+      "shortName": "Die Gerechtigkeitspartei",
+      "fullName": "Die Gerechtigkeitspartei – Team Todenhöfer",
+      "color": "#B4B4B4",
+      "percent": 0.7,
+      "votesAbsolute": 51210,
+      "votesWeighted": 655,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Maddaghri",
+          "firstName": "Omar",
+          "profession": "Angestellter",
+          "stimmen": 2311
+        },
+        {
+          "position": 2,
+          "lastName": "Kör",
+          "firstName": "Ilker",
+          "profession": "Dipl.-Ingenieur Bau",
+          "stimmen": 1944
+        },
+        {
+          "position": 3,
+          "lastName": "Rößel",
+          "firstName": "Marcel",
+          "profession": "Dipl.-Betriebswirt",
+          "stimmen": 1791
+        },
+        {
+          "position": 4,
+          "lastName": "Ehrenreich",
+          "firstName": "Selma",
+          "profession": "Pflegedienstleiterin",
+          "stimmen": 1375
+        },
+        {
+          "position": 5,
+          "lastName": "Ali",
+          "firstName": "Dr.",
+          "profession": "Tarek Salah Mohamed, Facharzt für Allgemeinmedizin",
+          "stimmen": 1515
+        },
+        {
+          "position": 6,
+          "lastName": "Avdovic",
+          "firstName": "Sabahudin",
+          "profession": "Angestellter",
+          "stimmen": 1318
+        },
+        {
+          "position": 7,
+          "lastName": "Akinci",
+          "firstName": "Emirhan",
+          "profession": "Chemikant",
+          "stimmen": 1331
+        },
+        {
+          "position": 8,
+          "lastName": "Özer",
+          "firstName": "Necati",
+          "profession": "Unternehmer",
+          "stimmen": 1339
+        },
+        {
+          "position": 9,
+          "lastName": "Tokmak",
+          "firstName": "Gülsüm",
+          "profession": "Rechtsanwaltsfachangestellte",
+          "stimmen": 1302
+        },
+        {
+          "position": 10,
+          "lastName": "Doluca",
+          "firstName": "Dilek",
+          "profession": "Angestellte",
+          "stimmen": 1331
+        },
+        {
+          "position": 11,
+          "lastName": "Yilmaz",
+          "firstName": "Süleyman",
+          "profession": "Angestellter",
+          "stimmen": 1298
+        },
+        {
+          "position": 12,
+          "lastName": "Budak",
+          "firstName": "Muhammed",
+          "profession": "Angestellter",
+          "stimmen": 1313
+        },
+        {
+          "position": 13,
+          "lastName": "Akman",
+          "firstName": "Fatih",
+          "profession": "Bankkaufmann",
+          "stimmen": 1280
+        },
+        {
+          "position": 14,
+          "lastName": "El Arras",
+          "firstName": "Leila",
+          "profession": "Arbeiterin",
+          "stimmen": 1314
+        },
+        {
+          "position": 15,
+          "lastName": "El Ghaouty",
+          "firstName": "Omar",
+          "profession": "Angestellter",
+          "stimmen": 1319
+        },
+        {
+          "position": 16,
+          "lastName": "Abu-Alhija'a",
+          "firstName": "Rana",
+          "profession": "Arbeiterin",
+          "stimmen": 1223
+        },
+        {
+          "position": 17,
+          "lastName": "Özcan",
+          "firstName": "Akin",
+          "profession": "Zahnarzt",
+          "stimmen": 1298
+        },
+        {
+          "position": 18,
+          "lastName": "Mansi",
+          "firstName": "Ramy",
+          "profession": "Student",
+          "stimmen": 1190
+        },
+        {
+          "position": 19,
+          "lastName": "Gago",
+          "firstName": "Mehmet Ali Faruk",
+          "profession": "Angestellter",
+          "stimmen": 1190
+        },
+        {
+          "position": 20,
+          "lastName": "Benmeuraiem",
+          "firstName": "Abed",
+          "profession": "Angestellter",
+          "stimmen": 1195
+        },
+        {
+          "position": 21,
+          "lastName": "Acar",
+          "firstName": "Nilüfer",
+          "profession": "Friseurmeisterin",
+          "stimmen": 1257
+        },
+        {
+          "position": 22,
+          "lastName": "Koubaa",
+          "firstName": "Mourad",
+          "profession": "Sozialarbeiter",
+          "stimmen": 1235
+        },
+        {
+          "position": 23,
+          "lastName": "Boujmal",
+          "firstName": "Amin",
+          "profession": "Fahrlehrer",
+          "stimmen": 1239
+        },
+        {
+          "position": 24,
+          "lastName": "Chilah",
+          "firstName": "Samir",
+          "profession": "Angestellter",
+          "stimmen": 1214
+        },
+        {
+          "position": 25,
+          "lastName": "Tahiri",
+          "firstName": "Hassan",
+          "profession": "Angestellter",
+          "stimmen": 1281
+        },
+        {
+          "position": 26,
+          "lastName": "Yilmaz",
+          "firstName": "Mehmet Ali",
+          "profession": "Angestellter",
+          "stimmen": 1261
+        },
+        {
+          "position": 27,
+          "lastName": "Erdem",
+          "firstName": "Erol",
+          "profession": "Bäcker",
+          "stimmen": 1227
+        },
+        {
+          "position": 28,
+          "lastName": "Kazmaci",
+          "firstName": "Enes-Malik",
+          "profession": "Arbeiter",
+          "stimmen": 1213
+        },
+        {
+          "position": 29,
+          "lastName": "El Idrissi",
+          "firstName": "Abdelhafid",
+          "profession": "Informatiker",
+          "stimmen": 1247
+        },
+        {
+          "position": 30,
+          "lastName": "Karimi",
+          "firstName": "Mohammed Nassim",
+          "profession": "Arbeiter",
+          "stimmen": 1193
+        },
+        {
+          "position": 31,
+          "lastName": "Karatay",
+          "firstName": "Riza",
+          "profession": "Schreiner",
+          "stimmen": 1202
+        },
+        {
+          "position": 32,
+          "lastName": "Tokmak",
+          "firstName": "Muhammed Mustafa",
+          "profession": "Industriemechaniker",
+          "stimmen": 1214
+        },
+        {
+          "position": 33,
+          "lastName": "Ullah Khan",
+          "firstName": "Usman",
+          "profession": "Unternehmer",
+          "stimmen": 1128
+        },
+        {
+          "position": 34,
+          "lastName": "Yahya",
+          "firstName": "Eveline",
+          "profession": "Angestellte",
+          "stimmen": 1176
+        },
+        {
+          "position": 35,
+          "lastName": "El Battahi",
+          "firstName": "Abdelaziz",
+          "profession": "Rentner",
+          "stimmen": 1228
+        },
+        {
+          "position": 36,
+          "lastName": "Yahya",
+          "firstName": "Bilal",
+          "profession": "Friseur",
+          "stimmen": 1248
+        },
+        {
+          "position": 37,
+          "lastName": "Omer Oglou",
+          "firstName": "Kamouran",
+          "profession": "Arbeiter",
+          "stimmen": 1135
+        },
+        {
+          "position": 38,
+          "lastName": "Yahya",
+          "firstName": "Jamal",
+          "profession": "Unternehmer",
+          "stimmen": 1183
+        },
+        {
+          "position": 39,
+          "lastName": "Musleh",
+          "firstName": "Wael Mohammad Asaad",
+          "profession": "Angestellter",
+          "stimmen": 1152
+        }
+      ]
+    },
+    {
+      "listNumber": 13,
+      "shortName": "FWG",
+      "fullName": "FWG Wiesbaden e.V.",
+      "color": "#999999",
+      "percent": 0.7,
+      "votesAbsolute": 54455,
+      "votesWeighted": 697,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Bachmann",
+          "firstName": "Christian",
+          "profession": "Einkaufsleiter",
+          "stimmen": 2823
+        },
+        {
+          "position": 2,
+          "lastName": "Oschmann",
+          "firstName": "Petermartin",
+          "profession": "Rechtsanwalt",
+          "stimmen": 2536
+        },
+        {
+          "position": 3,
+          "lastName": "Thiele",
+          "firstName": "Borries",
+          "profession": "Oberstudienrat",
+          "stimmen": 2128
+        },
+        {
+          "position": 4,
+          "lastName": "Weikert",
+          "firstName": "Eric Johnny",
+          "profession": "Speditionskaufmann",
+          "stimmen": 2092
+        },
+        {
+          "position": 5,
+          "lastName": "Gutzeit",
+          "firstName": "Andreas",
+          "profession": "Kaufmann",
+          "stimmen": 2154
+        },
+        {
+          "position": 6,
+          "lastName": "Söhngen",
+          "firstName": "Thilo",
+          "profession": "Geschäftsführer",
+          "stimmen": 2059
+        },
+        {
+          "position": 7,
+          "lastName": "Metz",
+          "firstName": "Claudia",
+          "profession": "Friseurmeisterin",
+          "stimmen": 1974
+        },
+        {
+          "position": 8,
+          "lastName": "Landler",
+          "firstName": "Roman",
+          "profession": "Selbst. Caterer",
+          "stimmen": 1424
+        },
+        {
+          "position": 9,
+          "lastName": "Wall",
+          "firstName": "Florian",
+          "profession": "Dipl.-Ingenieur",
+          "stimmen": 1468
+        },
+        {
+          "position": 10,
+          "lastName": "Becht",
+          "firstName": "Björn",
+          "profession": "Teamleiter",
+          "stimmen": 1384
+        },
+        {
+          "position": 11,
+          "lastName": "Schröder",
+          "firstName": "Thomas",
+          "profession": "Tischlermeister",
+          "stimmen": 1311
+        },
+        {
+          "position": 12,
+          "lastName": "Nicholie",
+          "firstName": "Susi",
+          "profession": "Erzieherin",
+          "stimmen": 1357
+        },
+        {
+          "position": 13,
+          "lastName": "Kleinsimlinghaus",
+          "firstName": "Michael",
+          "profession": "Rentner",
+          "stimmen": 1387
+        },
+        {
+          "position": 14,
+          "lastName": "Kolodziejczak",
+          "firstName": "Anna",
+          "profession": "Techn. Schneiderin",
+          "stimmen": 1301
+        },
+        {
+          "position": 15,
+          "lastName": "Olesch",
+          "firstName": "Tim",
+          "profession": "Techniker",
+          "stimmen": 1411
+        },
+        {
+          "position": 16,
+          "lastName": "Engel",
+          "firstName": "Kerstin",
+          "profession": "Fußpflegerin",
+          "stimmen": 1365
+        },
+        {
+          "position": 17,
+          "lastName": "Maurer",
+          "firstName": "André",
+          "profession": "Techn. Angestellter",
+          "stimmen": 1278
+        },
+        {
+          "position": 18,
+          "lastName": "Wall",
+          "firstName": "Nadja",
+          "profession": "Köchin",
+          "stimmen": 1377
+        },
+        {
+          "position": 19,
+          "lastName": "Becht",
+          "firstName": "Dieter",
+          "profession": "Serviceingenieur",
+          "stimmen": 1248
+        },
+        {
+          "position": 20,
+          "lastName": "Schröder",
+          "firstName": "Petra",
+          "profession": "Bankkauffrau",
+          "stimmen": 1304
+        },
+        {
+          "position": 21,
+          "lastName": "Seifert",
+          "firstName": "Edgar",
+          "profession": "Logistiker",
+          "stimmen": 1249
+        },
+        {
+          "position": 22,
+          "lastName": "Waldherr",
+          "firstName": "Uwe",
+          "profession": "Elektrotechniker",
+          "stimmen": 1225
+        },
+        {
+          "position": 23,
+          "lastName": "Söhngen",
+          "firstName": "Monika",
+          "profession": "Rechtsanwaltsgehilfin",
+          "stimmen": 1356
+        },
+        {
+          "position": 24,
+          "lastName": "Fey",
+          "firstName": "Wolfgang",
+          "profession": "Rentner",
+          "stimmen": 1276
+        },
+        {
+          "position": 25,
+          "lastName": "Gärber",
+          "firstName": "Sigrun",
+          "profession": "Marketing- und Kommunikationswirtin",
+          "stimmen": 1242
+        },
+        {
+          "position": 26,
+          "lastName": "Hofschneider",
+          "firstName": "Michael",
+          "profession": "IT-Operationsmanager",
+          "stimmen": 1196
+        },
+        {
+          "position": 27,
+          "lastName": "Becht",
+          "firstName": "Nina",
+          "profession": "Erzieherin",
+          "stimmen": 1283
+        },
+        {
+          "position": 28,
+          "lastName": "Petry",
+          "firstName": "Dieter",
+          "profession": "Rentner",
+          "stimmen": 1186
+        },
+        {
+          "position": 29,
+          "lastName": "Gutzeit",
+          "firstName": "Vinzent",
+          "profession": "Vertriebssachbearbeiter",
+          "stimmen": 1280
+        },
+        {
+          "position": 30,
+          "lastName": "Kula",
+          "firstName": "Damian",
+          "profession": "Busfahrer",
+          "stimmen": 1199
+        },
+        {
+          "position": 31,
+          "lastName": "Wozniczka",
+          "firstName": "Jörg",
+          "profession": "Rentner",
+          "stimmen": 1203
+        },
+        {
+          "position": 32,
+          "lastName": "Meinhardt",
+          "firstName": "Klaus Otto",
+          "profession": "Geschäftsführer",
+          "stimmen": 1254
+        },
+        {
+          "position": 33,
+          "lastName": "Schäfer",
+          "firstName": "Hellmut",
+          "profession": "Rentner",
+          "stimmen": 1176
+        },
+        {
+          "position": 34,
+          "lastName": "Bachmann",
+          "firstName": "Christiane",
+          "profession": "Grundschullehrerin",
+          "stimmen": 1319
+        },
+        {
+          "position": 35,
+          "lastName": "Koller",
+          "firstName": "Werner",
+          "profession": "Techn. Angestellter",
+          "stimmen": 1184
+        },
+        {
+          "position": 36,
+          "lastName": "Jugenheimer",
+          "firstName": "Rüdiger",
+          "profession": "Bürokaufmann",
+          "stimmen": 1168
+        },
+        {
+          "position": 37,
+          "lastName": "Meinhardt",
+          "firstName": "Martina",
+          "profession": "Goldschmiedin",
+          "stimmen": 1278
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "shortName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "color": "#b51f29",
+      "percent": 0.5,
+      "votesAbsolute": 40981,
+      "votesWeighted": 524,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Haker",
+          "firstName": "Lukas",
+          "profession": "Politiker",
+          "stimmen": 4231
+        },
+        {
+          "position": 2,
+          "lastName": "Deyer",
+          "firstName": "Christopher",
+          "profession": "Buchhändler",
+          "stimmen": 2892
+        },
+        {
+          "position": 3,
+          "lastName": "Schikora",
+          "firstName": "Nicole",
+          "profession": "Friseurin",
+          "stimmen": 2964
+        },
+        {
+          "position": 4,
+          "lastName": "Meier",
+          "firstName": "Max",
+          "profession": "Aktuar",
+          "stimmen": 2408
+        },
+        {
+          "position": 5,
+          "lastName": "Radtke",
+          "firstName": "Mirco",
+          "profession": "päd. Mitarbeiter",
+          "stimmen": 2262
+        },
+        {
+          "position": 6,
+          "lastName": "Korreng",
+          "firstName": "Martin",
+          "profession": "Polizeibeamter",
+          "stimmen": 2172
+        },
+        {
+          "position": 7,
+          "lastName": "Schmidt",
+          "firstName": "Mark",
+          "profession": "Bildungsunternehmer",
+          "stimmen": 2119
+        },
+        {
+          "position": 8,
+          "lastName": "Müller",
+          "firstName": "Lukas",
+          "profession": "Politiker",
+          "stimmen": 2069
+        },
+        {
+          "position": 9,
+          "lastName": "Kiesewetter",
+          "firstName": "Michelle Vanessa",
+          "profession": "Erzieherin",
+          "stimmen": 2348
+        },
+        {
+          "position": 10,
+          "lastName": "Nitzschke",
+          "firstName": "Ruben Blu",
+          "profession": "Eingliederungshelfer",
+          "stimmen": 2004
+        },
+        {
+          "position": 11,
+          "lastName": "Nashwan",
+          "firstName": "Mohammed",
+          "profession": "Politiker",
+          "stimmen": 1976
+        },
+        {
+          "position": 12,
+          "lastName": "Lütkenhorst",
+          "firstName": "Niclas",
+          "profession": "Auszubildender",
+          "stimmen": 1907
+        },
+        {
+          "position": 13,
+          "lastName": "Lukas",
+          "firstName": "Pascal",
+          "profession": "Student",
+          "stimmen": 1929
+        },
+        {
+          "position": 14,
+          "lastName": "Gladow",
+          "firstName": "Julius",
+          "profession": "Student",
+          "stimmen": 1920
+        },
+        {
+          "position": 15,
+          "lastName": "Ntatis",
+          "firstName": "Leonidas",
+          "profession": "Student",
+          "stimmen": 1901
+        },
+        {
+          "position": 16,
+          "lastName": "Heun",
+          "firstName": "Nico Salvador",
+          "profession": "Fachinformatiker",
+          "stimmen": 1897
+        },
+        {
+          "position": 17,
+          "lastName": "Haker",
+          "firstName": "Jens",
+          "profession": "Koch",
+          "stimmen": 2035
+        },
+        {
+          "position": 18,
+          "lastName": "Born",
+          "firstName": "Volker",
+          "profession": "Journalist",
+          "stimmen": 1947
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "shortName": "BLW",
+      "fullName": "Bürgerliste Wiesbaden",
+      "color": "#999999",
+      "percent": 0.3,
+      "votesAbsolute": 24261,
+      "votesWeighted": 310,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Kienast-Dittrich",
+          "firstName": "Renate",
+          "profession": "Rentnerin",
+          "stimmen": 1565
+        },
+        {
+          "position": 2,
+          "lastName": "Bürcky",
+          "firstName": "Heiko",
+          "profession": "Angestellter",
+          "stimmen": 1111
+        },
+        {
+          "position": 3,
+          "lastName": "Reiß",
+          "firstName": "Thorsten",
+          "profession": "Verleger",
+          "stimmen": 1131
+        },
+        {
+          "position": 4,
+          "lastName": "Radzanowski",
+          "firstName": "Stefan",
+          "profession": "Industriemechaniker",
+          "stimmen": 1033
+        },
+        {
+          "position": 5,
+          "lastName": "Radzanowski",
+          "firstName": "Kevin",
+          "profession": "Simulationspilot",
+          "stimmen": 992
+        },
+        {
+          "position": 6,
+          "lastName": "Steinheimer",
+          "firstName": "Christian",
+          "profession": "Rentner",
+          "stimmen": 895
+        },
+        {
+          "position": 7,
+          "lastName": "Monzel",
+          "firstName": "Andrea",
+          "profession": "Angestellte",
+          "stimmen": 960
+        },
+        {
+          "position": 8,
+          "lastName": "Ungermann",
+          "firstName": "Michael",
+          "profession": "Bürokaufmann",
+          "stimmen": 850
+        },
+        {
+          "position": 9,
+          "lastName": "Heuer",
+          "firstName": "Waltraud",
+          "profession": "Pensionärin",
+          "stimmen": 886
+        },
+        {
+          "position": 10,
+          "lastName": "Steinheimer",
+          "firstName": "Birgit",
+          "profession": "Rentnerin",
+          "stimmen": 894
+        },
+        {
+          "position": 11,
+          "lastName": "Ungermann",
+          "firstName": "Andrea",
+          "profession": "Rentnerin",
+          "stimmen": 878
+        },
+        {
+          "position": 12,
+          "lastName": "Weimer",
+          "firstName": "Renate",
+          "profession": "Rentnerin",
+          "stimmen": 851
+        },
+        {
+          "position": 13,
+          "lastName": "Buzmann",
+          "firstName": "Sascha",
+          "profession": "Angestellter",
+          "stimmen": 835
+        },
+        {
+          "position": 14,
+          "lastName": "Baumgärtner",
+          "firstName": "Julian",
+          "profession": "Dipl.-Kaufmann",
+          "stimmen": 848
+        },
+        {
+          "position": 15,
+          "lastName": "Dengler",
+          "firstName": "Heiner",
+          "profession": "Rentner",
+          "stimmen": 784
+        },
+        {
+          "position": 16,
+          "lastName": "Prieto Fink",
+          "firstName": "Isabel",
+          "profession": "Kfm. Angestellte",
+          "stimmen": 834
+        },
+        {
+          "position": 17,
+          "lastName": "Kunz",
+          "firstName": "Nico",
+          "profession": "Pflegehelfer",
+          "stimmen": 820
+        },
+        {
+          "position": 18,
+          "lastName": "Bauer",
+          "firstName": "Sabrina",
+          "profession": "Kauffrau",
+          "stimmen": 848
+        },
+        {
+          "position": 19,
+          "lastName": "Christ",
+          "firstName": "Marco",
+          "profession": "Elektriker",
+          "stimmen": 794
+        },
+        {
+          "position": 20,
+          "lastName": "Azouaou",
+          "firstName": "Ourida",
+          "profession": "Köchin",
+          "stimmen": 797
+        },
+        {
+          "position": 21,
+          "lastName": "Azouaou",
+          "firstName": "Mouloud",
+          "profession": "Rentner",
+          "stimmen": 758
+        },
+        {
+          "position": 22,
+          "lastName": "Thomas",
+          "firstName": "Barbara",
+          "profession": "Med. Fachangestellte",
+          "stimmen": 808
+        },
+        {
+          "position": 23,
+          "lastName": "Radzanowski",
+          "firstName": "Anja",
+          "profession": "Finanzbuchhalterin",
+          "stimmen": 804
+        },
+        {
+          "position": 24,
+          "lastName": "Nöthe",
+          "firstName": "Jürgen",
+          "profession": "Chemiekant",
+          "stimmen": 756
+        },
+        {
+          "position": 25,
+          "lastName": "Bree",
+          "firstName": "Dina",
+          "profession": "Dipl.-Ingenieurin",
+          "stimmen": 803
+        },
+        {
+          "position": 26,
+          "lastName": "Meißner",
+          "firstName": "Wolfgang",
+          "profession": "Rentner",
+          "stimmen": 553
+        },
+        {
+          "position": 27,
+          "lastName": "Behrens",
+          "firstName": "Wolfgang",
+          "profession": "Weinfachhändler",
+          "stimmen": 569
+        },
+        {
+          "position": 28,
+          "lastName": "Behrens",
+          "firstName": "Ursula",
+          "profession": "Rentnerin",
+          "stimmen": 604
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "shortName": "DIE LINKE",
+      "fullName": "DIE LINKE",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 586762,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "von Seemen",
+          "firstName": "Ingo",
+          "profession": "Fraktionsgeschäftsführer",
+          "stimmen": 24270
+        },
+        {
+          "position": 2,
+          "lastName": "Coigné",
+          "firstName": "Mechthilde",
+          "profession": "Industriekauffrau",
+          "stimmen": 24090
+        },
+        {
+          "position": 3,
+          "lastName": "Stiller",
+          "firstName": "Elisa",
+          "profession": "Schülerin",
+          "stimmen": 23891
+        },
+        {
+          "position": 4,
+          "lastName": "Winter",
+          "firstName": "Daniel",
+          "profession": "Kriminalbeamter",
+          "stimmen": 23008
+        },
+        {
+          "position": 5,
+          "lastName": "Sand",
+          "firstName": "Krystina",
+          "profession": "IT-Produktmanagerin",
+          "stimmen": 22852
+        },
+        {
+          "position": 6,
+          "lastName": "Maritzen",
+          "firstName": "Ronny",
+          "profession": "Selbstständig",
+          "stimmen": 21784
+        },
+        {
+          "position": 7,
+          "lastName": "Yüksel-Fener",
+          "firstName": "Songül",
+          "profession": "Erzieherin",
+          "stimmen": 22057
+        },
+        {
+          "position": 8,
+          "lastName": "Golyschkin",
+          "firstName": "Vladislav",
+          "profession": "Krankenpfleger",
+          "stimmen": 20781
+        },
+        {
+          "position": 9,
+          "lastName": "Langer",
+          "firstName": "Natascha",
+          "profession": "Studentin",
+          "stimmen": 21368
+        },
+        {
+          "position": 10,
+          "lastName": "Löbcke",
+          "firstName": "Jona",
+          "profession": "Politikwissenschaftler",
+          "stimmen": 15286
+        },
+        {
+          "position": 11,
+          "lastName": "Kurapkat",
+          "firstName": "Lisa",
+          "profession": "Angestellte",
+          "stimmen": 15671
+        },
+        {
+          "position": 12,
+          "lastName": "Kizilgöz",
+          "firstName": "Ibrahim",
+          "profession": "Angestellter",
+          "stimmen": 15250
+        },
+        {
+          "position": 13,
+          "lastName": "Russi",
+          "firstName": "Anna Maria",
+          "profession": "Päd. Fachkraft",
+          "stimmen": 15423
+        },
+        {
+          "position": 14,
+          "lastName": "Kaffenberger",
+          "firstName": "Bodo",
+          "profession": "Rentner",
+          "stimmen": 14408
+        },
+        {
+          "position": 15,
+          "lastName": "Verzagt",
+          "firstName": "Hanna",
+          "profession": "Psychologin (M.Sc.)",
+          "stimmen": 15247
+        },
+        {
+          "position": 16,
+          "lastName": "Büsgen",
+          "firstName": "Michael",
+          "profession": "Referent",
+          "stimmen": 14061
+        },
+        {
+          "position": 17,
+          "lastName": "König",
+          "firstName": "Katja",
+          "profession": "Selbstständig",
+          "stimmen": 15026
+        },
+        {
+          "position": 18,
+          "lastName": "Mergen",
+          "firstName": "Manuel",
+          "profession": "Beamter",
+          "stimmen": 13930
+        },
+        {
+          "position": 19,
+          "lastName": "Zarabian",
+          "firstName": "Nava",
+          "profession": "Öffentlichkeitsrefentin",
+          "stimmen": 14594
+        },
+        {
+          "position": 20,
+          "lastName": "Yildiz",
+          "firstName": "Muzaffer",
+          "profession": "Abwassertechniker",
+          "stimmen": 14405
+        },
+        {
+          "position": 21,
+          "lastName": "Thumulka",
+          "firstName": "Miriam",
+          "profession": "Studentin",
+          "stimmen": 14495
+        },
+        {
+          "position": 22,
+          "lastName": "Harz",
+          "firstName": "Michael",
+          "profession": "Ingenieur",
+          "stimmen": 13735
+        },
+        {
+          "position": 23,
+          "lastName": "Beste",
+          "firstName": "Marion",
+          "profession": "Lehrerin i. R.",
+          "stimmen": 14364
+        },
+        {
+          "position": 24,
+          "lastName": "Heinemann",
+          "firstName": "Stefan",
+          "profession": "Zimmerermeister",
+          "stimmen": 13632
+        },
+        {
+          "position": 25,
+          "lastName": "Naveed",
+          "firstName": "Yasmin",
+          "profession": "Lehrerin",
+          "stimmen": 14525
+        },
+        {
+          "position": 26,
+          "lastName": "Al Abedi",
+          "firstName": "Alhareth",
+          "profession": "Praktikant",
+          "stimmen": 13851
+        },
+        {
+          "position": 27,
+          "lastName": "Bänsch",
+          "firstName": "Gabriele-Marie",
+          "profession": "Lehrerin",
+          "stimmen": 14013
+        },
+        {
+          "position": 28,
+          "lastName": "Heinz",
+          "firstName": "Frank-Peter",
+          "profession": "Sekretär",
+          "stimmen": 13146
+        },
+        {
+          "position": 29,
+          "lastName": "Helios",
+          "firstName": "Diotima",
+          "profession": "Studentin",
+          "stimmen": 13615
+        },
+        {
+          "position": 30,
+          "lastName": "Ladwig",
+          "firstName": "Mike",
+          "profession": "Systembetreuer",
+          "stimmen": 13215
+        },
+        {
+          "position": 31,
+          "lastName": "Ruiz Richter",
+          "firstName": "Carmen",
+          "profession": "Hauswirtschaftshelferin",
+          "stimmen": 13727
+        },
+        {
+          "position": 32,
+          "lastName": "Klein",
+          "firstName": "Thomas",
+          "profession": "Dipl.-Soziologe",
+          "stimmen": 13129
+        },
+        {
+          "position": 33,
+          "lastName": "Freter",
+          "firstName": "Kristin",
+          "profession": "Sozialpädagogin",
+          "stimmen": 13648
+        },
+        {
+          "position": 34,
+          "lastName": "Jurisch",
+          "firstName": "Matthias",
+          "profession": "Informatiker",
+          "stimmen": 13097
+        },
+        {
+          "position": 35,
+          "lastName": "Enders",
+          "firstName": "Erika",
+          "profession": "Kunstpädagogin",
+          "stimmen": 13799
+        },
+        {
+          "position": 36,
+          "lastName": "Damar",
+          "firstName": "Ali",
+          "profession": "Hotelmanager",
+          "stimmen": 13369
+        }
+      ]
+    },
+    {
+      "listNumber": 14,
+      "shortName": "PdF",
+      "fullName": "Partei des Fortschritts",
+      "color": "#B4B4B4",
+      "percent": 0.0,
+      "votesAbsolute": 3710,
+      "votesWeighted": 47,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Walter",
+          "firstName": "Markus",
+          "profession": "Dipl.-Pädagoge",
+          "stimmen": 1288
+        },
+        {
+          "position": 2,
+          "lastName": "Walter",
+          "firstName": "Fynn",
+          "profession": "Beamter",
+          "stimmen": 1281
+        },
+        {
+          "position": 3,
+          "lastName": "Stieglitz",
+          "firstName": "Marcel",
+          "profession": "Geschäftsführer",
+          "stimmen": 1141
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-wi.ekom21cdn.de/2026-03-15/06414000/daten/opendata/Open-Data-06414000-Stadtverordnetenwahl-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}

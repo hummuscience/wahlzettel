@@ -1,0 +1,3074 @@
+{
+  "election": "kassel-stvv",
+  "stand": "2026-03-15",
+  "totalSeats": 71,
+  "totals": {
+    "validVotes": 4702119,
+    "validBallots": 69447,
+    "wahlberechtigte": 109288,
+    "waehlerGesamt": 72344,
+    "ungueltigeStimmzettel": 2897,
+    "kandidatenInsgesamt": 410,
+    "frauenInsgesamt": 163,
+    "ballotsWithListenkreuz": 43657,
+    "ballotsWithListenkreuzPercent": 60.3,
+    "turnout": 50.9
+  },
+  "parties": [
+    {
+      "listNumber": 4,
+      "shortName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "color": "#339900",
+      "percent": 22.4,
+      "votesAbsolute": 1052313,
+      "votesWeighted": 15542,
+      "seats": 16,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Butte",
+          "firstName": "Stephanie",
+          "profession": "",
+          "stimmen": 34937
+        },
+        {
+          "position": 2,
+          "lastName": "Gündar",
+          "firstName": "Mustafa",
+          "profession": "",
+          "stimmen": 34111
+        },
+        {
+          "position": 3,
+          "lastName": "Koch",
+          "firstName": "Eva",
+          "profession": "",
+          "stimmen": 33678
+        },
+        {
+          "position": 4,
+          "lastName": "Volmer",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 30872
+        },
+        {
+          "position": 5,
+          "lastName": "Dr. van den Hövel-Hanemann",
+          "firstName": "Martina",
+          "profession": "",
+          "stimmen": 32735
+        },
+        {
+          "position": 6,
+          "lastName": "Gerlach",
+          "firstName": "Malte",
+          "profession": "",
+          "stimmen": 30410
+        },
+        {
+          "position": 7,
+          "lastName": "Sperl",
+          "firstName": "Natalie",
+          "profession": "",
+          "stimmen": 31742
+        },
+        {
+          "position": 8,
+          "lastName": "Dr. Hoppe-Kilpper",
+          "firstName": "Martin",
+          "profession": "",
+          "stimmen": 29769
+        },
+        {
+          "position": 9,
+          "lastName": "Holtermann",
+          "firstName": "Selina",
+          "profession": "",
+          "stimmen": 30829
+        },
+        {
+          "position": 10,
+          "lastName": "Rönz",
+          "firstName": "Gernot",
+          "profession": "",
+          "stimmen": 29000
+        },
+        {
+          "position": 11,
+          "lastName": "Köpp",
+          "firstName": "Dorothee",
+          "profession": "",
+          "stimmen": 29946
+        },
+        {
+          "position": 12,
+          "lastName": "Grande",
+          "firstName": "Nicolas",
+          "profession": "",
+          "stimmen": 27780
+        },
+        {
+          "position": 13,
+          "lastName": "Adam",
+          "firstName": "Martha",
+          "profession": "",
+          "stimmen": 28709
+        },
+        {
+          "position": 14,
+          "lastName": "Scherbaum",
+          "firstName": "Michel",
+          "profession": "",
+          "stimmen": 27456
+        },
+        {
+          "position": 15,
+          "lastName": "Lipschik",
+          "firstName": "Anja",
+          "profession": "",
+          "stimmen": 29238
+        },
+        {
+          "position": 16,
+          "lastName": "Dr. Jürgens",
+          "firstName": "Andreas",
+          "profession": "",
+          "stimmen": 27968
+        },
+        {
+          "position": 17,
+          "lastName": "Stafyllaraki",
+          "firstName": "Maria",
+          "profession": "",
+          "stimmen": 27914
+        },
+        {
+          "position": 18,
+          "lastName": "Hochheimer",
+          "firstName": "Fynn",
+          "profession": "",
+          "stimmen": 26015
+        },
+        {
+          "position": 19,
+          "lastName": "Noureddine",
+          "firstName": "Amina",
+          "profession": "",
+          "stimmen": 26893
+        },
+        {
+          "position": 20,
+          "lastName": "Krassnig",
+          "firstName": "Phillip",
+          "profession": "",
+          "stimmen": 24937
+        },
+        {
+          "position": 21,
+          "lastName": "Herz",
+          "firstName": "Julia",
+          "profession": "",
+          "stimmen": 16915
+        },
+        {
+          "position": 22,
+          "lastName": "Lottermoser",
+          "firstName": "Dave",
+          "profession": "",
+          "stimmen": 14984
+        },
+        {
+          "position": 23,
+          "lastName": "Fürsch",
+          "firstName": "Ruth",
+          "profession": "",
+          "stimmen": 15842
+        },
+        {
+          "position": 24,
+          "lastName": "Ehlers",
+          "firstName": "Sebastian",
+          "profession": "",
+          "stimmen": 14764
+        },
+        {
+          "position": 25,
+          "lastName": "Sandberg",
+          "firstName": "Katharina",
+          "profession": "",
+          "stimmen": 15588
+        },
+        {
+          "position": 26,
+          "lastName": "Blume",
+          "firstName": "Ronny",
+          "profession": "",
+          "stimmen": 14602
+        },
+        {
+          "position": 27,
+          "lastName": "Herbold",
+          "firstName": "Ann-Christine",
+          "profession": "",
+          "stimmen": 15264
+        },
+        {
+          "position": 28,
+          "lastName": "Fährmann",
+          "firstName": "Emil",
+          "profession": "",
+          "stimmen": 14445
+        },
+        {
+          "position": 29,
+          "lastName": "Al-Samarraie-Träger",
+          "firstName": "Joana",
+          "profession": "",
+          "stimmen": 15675
+        },
+        {
+          "position": 30,
+          "lastName": "Schulze",
+          "firstName": "Marcus",
+          "profession": "",
+          "stimmen": 14251
+        },
+        {
+          "position": 31,
+          "lastName": "Mijatovi ć",
+          "firstName": "Sandra",
+          "profession": "",
+          "stimmen": 15812
+        },
+        {
+          "position": 32,
+          "lastName": "Dr. Händel",
+          "firstName": "Philipp",
+          "profession": "",
+          "stimmen": 14309
+        },
+        {
+          "position": 33,
+          "lastName": "Linne",
+          "firstName": "Kerstin",
+          "profession": "",
+          "stimmen": 15183
+        },
+        {
+          "position": 34,
+          "lastName": "Amtsberg",
+          "firstName": "Stephan",
+          "profession": "",
+          "stimmen": 14269
+        },
+        {
+          "position": 35,
+          "lastName": "Knipping",
+          "firstName": "Marianne",
+          "profession": "",
+          "stimmen": 14838
+        },
+        {
+          "position": 36,
+          "lastName": "Peters",
+          "firstName": "Carsten",
+          "profession": "",
+          "stimmen": 14190
+        },
+        {
+          "position": 37,
+          "lastName": "Tesfaiesus",
+          "firstName": "Awet",
+          "profession": "",
+          "stimmen": 15113
+        },
+        {
+          "position": 38,
+          "lastName": "Lange",
+          "firstName": "Norbert",
+          "profession": "",
+          "stimmen": 13849
+        },
+        {
+          "position": 39,
+          "lastName": "Vullriede",
+          "firstName": "Gesa",
+          "profession": "",
+          "stimmen": 14413
+        },
+        {
+          "position": 40,
+          "lastName": "Mijatovi ć",
+          "firstName": "Boris",
+          "profession": "",
+          "stimmen": 15716
+        },
+        {
+          "position": 41,
+          "lastName": "Hesse",
+          "firstName": "Karoline",
+          "profession": "",
+          "stimmen": 14515
+        },
+        {
+          "position": 42,
+          "lastName": "Zinke",
+          "firstName": "Susanne",
+          "profession": "",
+          "stimmen": 14445
+        },
+        {
+          "position": 43,
+          "lastName": "Eltzner",
+          "firstName": "Sophie",
+          "profession": "",
+          "stimmen": 14322
+        },
+        {
+          "position": 44,
+          "lastName": "Kapusta",
+          "firstName": "Ulrike",
+          "profession": "",
+          "stimmen": 14177
+        },
+        {
+          "position": 45,
+          "lastName": "Pfeil",
+          "firstName": "Luzie",
+          "profession": "",
+          "stimmen": 14354
+        },
+        {
+          "position": 46,
+          "lastName": "Eickmeyer",
+          "firstName": "Henning",
+          "profession": "",
+          "stimmen": 13879
+        },
+        {
+          "position": 47,
+          "lastName": "Gronemann",
+          "firstName": "Vanessa",
+          "profession": "",
+          "stimmen": 15079
+        },
+        {
+          "position": 48,
+          "lastName": "Hanschke",
+          "firstName": "Lucian",
+          "profession": "",
+          "stimmen": 13592
+        },
+        {
+          "position": 49,
+          "lastName": "Müller",
+          "firstName": "Karin",
+          "profession": "",
+          "stimmen": 14709
+        },
+        {
+          "position": 50,
+          "lastName": "Neitzel",
+          "firstName": "Judith",
+          "profession": "",
+          "stimmen": 13933
+        },
+        {
+          "position": 51,
+          "lastName": "Hesse",
+          "firstName": "Christine",
+          "profession": "",
+          "stimmen": 14347
+        }
+      ]
+    },
+    {
+      "listNumber": 1,
+      "shortName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
+      "color": "#3D3D3D",
+      "percent": 20.0,
+      "votesAbsolute": 939228,
+      "votesWeighted": 13872,
+      "seats": 14,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Bathon",
+          "firstName": "Maximilian",
+          "profession": "",
+          "stimmen": 30024
+        },
+        {
+          "position": 2,
+          "lastName": "Knieling",
+          "firstName": "Annette",
+          "profession": "",
+          "stimmen": 28549
+        },
+        {
+          "position": 3,
+          "lastName": "Augustin",
+          "firstName": "Holger",
+          "profession": "",
+          "stimmen": 28092
+        },
+        {
+          "position": 4,
+          "lastName": "Grotov",
+          "firstName": "Alexander",
+          "profession": "",
+          "stimmen": 27519
+        },
+        {
+          "position": 5,
+          "lastName": "Dahere",
+          "firstName": "Alisare",
+          "profession": "",
+          "stimmen": 26929
+        },
+        {
+          "position": 6,
+          "lastName": "Schäfer",
+          "firstName": "Maximilian",
+          "profession": "",
+          "stimmen": 26968
+        },
+        {
+          "position": 7,
+          "lastName": "Leitschuh",
+          "firstName": "Marcus",
+          "profession": "",
+          "stimmen": 28213
+        },
+        {
+          "position": 8,
+          "lastName": "Römer",
+          "firstName": "Holger",
+          "profession": "",
+          "stimmen": 26662
+        },
+        {
+          "position": 9,
+          "lastName": "Kämpfer-Reuter",
+          "firstName": "Michaela",
+          "profession": "",
+          "stimmen": 26454
+        },
+        {
+          "position": 10,
+          "lastName": "Wilmes",
+          "firstName": "Vera",
+          "profession": "",
+          "stimmen": 26305
+        },
+        {
+          "position": 11,
+          "lastName": "Paschenko",
+          "firstName": "Natalie",
+          "profession": "",
+          "stimmen": 25704
+        },
+        {
+          "position": 12,
+          "lastName": "Koppelmann",
+          "firstName": "Mark",
+          "profession": "",
+          "stimmen": 25338
+        },
+        {
+          "position": 13,
+          "lastName": "Dierlich",
+          "firstName": "Tim",
+          "profession": "",
+          "stimmen": 25210
+        },
+        {
+          "position": 14,
+          "lastName": "Göckenjan",
+          "firstName": "Paul",
+          "profession": "",
+          "stimmen": 24541
+        },
+        {
+          "position": 15,
+          "lastName": "Arroyo Portillo",
+          "firstName": "Lea",
+          "profession": "",
+          "stimmen": 24317
+        },
+        {
+          "position": 16,
+          "lastName": "Weilbach",
+          "firstName": "Patrick",
+          "profession": "",
+          "stimmen": 23672
+        },
+        {
+          "position": 17,
+          "lastName": "Lajsev",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 13704
+        },
+        {
+          "position": 18,
+          "lastName": "Rüter",
+          "firstName": "Anne",
+          "profession": "",
+          "stimmen": 14067
+        },
+        {
+          "position": 19,
+          "lastName": "Braband",
+          "firstName": "Markus",
+          "profession": "",
+          "stimmen": 14259
+        },
+        {
+          "position": 20,
+          "lastName": "Weskamp",
+          "firstName": "Laura",
+          "profession": "",
+          "stimmen": 14033
+        },
+        {
+          "position": 21,
+          "lastName": "Grund",
+          "firstName": "Matthias",
+          "profession": "",
+          "stimmen": 13696
+        },
+        {
+          "position": 22,
+          "lastName": "Schindler",
+          "firstName": "Stephan",
+          "profession": "",
+          "stimmen": 13475
+        },
+        {
+          "position": 23,
+          "lastName": "Risch",
+          "firstName": "Matthias",
+          "profession": "",
+          "stimmen": 13557
+        },
+        {
+          "position": 24,
+          "lastName": "Nowakewitz",
+          "firstName": "Jasmin",
+          "profession": "",
+          "stimmen": 13500
+        },
+        {
+          "position": 25,
+          "lastName": "Mathias",
+          "firstName": "Walter",
+          "profession": "",
+          "stimmen": 13298
+        },
+        {
+          "position": 26,
+          "lastName": "Hörmann",
+          "firstName": "Jan",
+          "profession": "",
+          "stimmen": 13648
+        },
+        {
+          "position": 27,
+          "lastName": "Tomasek",
+          "firstName": "Jan",
+          "profession": "",
+          "stimmen": 12960
+        },
+        {
+          "position": 28,
+          "lastName": "Aschraf",
+          "firstName": "Emil",
+          "profession": "",
+          "stimmen": 12928
+        },
+        {
+          "position": 29,
+          "lastName": "Lindner",
+          "firstName": "Juliane",
+          "profession": "",
+          "stimmen": 13282
+        },
+        {
+          "position": 30,
+          "lastName": "Becker",
+          "firstName": "Stephan",
+          "profession": "",
+          "stimmen": 13091
+        },
+        {
+          "position": 31,
+          "lastName": "Reith",
+          "firstName": "Christian",
+          "profession": "",
+          "stimmen": 13039
+        },
+        {
+          "position": 32,
+          "lastName": "Cucuzza",
+          "firstName": "Salvatore",
+          "profession": "",
+          "stimmen": 12863
+        },
+        {
+          "position": 33,
+          "lastName": "Schmidt",
+          "firstName": "Pauline",
+          "profession": "",
+          "stimmen": 13138
+        },
+        {
+          "position": 34,
+          "lastName": "Dr. Aldea",
+          "firstName": "Oliver",
+          "profession": "",
+          "stimmen": 13007
+        },
+        {
+          "position": 35,
+          "lastName": "Bathon",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 13481
+        },
+        {
+          "position": 36,
+          "lastName": "Dippel",
+          "firstName": "Claudia",
+          "profession": "",
+          "stimmen": 13264
+        },
+        {
+          "position": 37,
+          "lastName": "Pinks",
+          "firstName": "Matthias",
+          "profession": "",
+          "stimmen": 12770
+        },
+        {
+          "position": 38,
+          "lastName": "Wrotny",
+          "firstName": "Tim",
+          "profession": "",
+          "stimmen": 12731
+        },
+        {
+          "position": 39,
+          "lastName": "Messner",
+          "firstName": "Noah",
+          "profession": "",
+          "stimmen": 12746
+        },
+        {
+          "position": 40,
+          "lastName": "Wilmes",
+          "firstName": "Lara",
+          "profession": "",
+          "stimmen": 13052
+        },
+        {
+          "position": 41,
+          "lastName": "Agih",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 12860
+        },
+        {
+          "position": 42,
+          "lastName": "Dr. von Rüden",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 13618
+        },
+        {
+          "position": 43,
+          "lastName": "Heuser",
+          "firstName": "Gudrun",
+          "profession": "",
+          "stimmen": 12893
+        },
+        {
+          "position": 44,
+          "lastName": "Fürst",
+          "firstName": "Mark-Oliver",
+          "profession": "",
+          "stimmen": 12614
+        },
+        {
+          "position": 45,
+          "lastName": "Kisiala",
+          "firstName": "Juliane",
+          "profession": "",
+          "stimmen": 12943
+        },
+        {
+          "position": 46,
+          "lastName": "Siebrecht",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 12858
+        },
+        {
+          "position": 47,
+          "lastName": "Streiter",
+          "firstName": "Vincent",
+          "profession": "",
+          "stimmen": 12834
+        },
+        {
+          "position": 48,
+          "lastName": "Paschenko",
+          "firstName": "Svetlana",
+          "profession": "",
+          "stimmen": 12658
+        },
+        {
+          "position": 49,
+          "lastName": "Wilke",
+          "firstName": "Arno",
+          "profession": "",
+          "stimmen": 12772
+        },
+        {
+          "position": 50,
+          "lastName": "Dr. Behschad",
+          "firstName": "Maik",
+          "profession": "",
+          "stimmen": 13239
+        },
+        {
+          "position": 51,
+          "lastName": "Schwalm",
+          "firstName": "Jutta",
+          "profession": "",
+          "stimmen": 12836
+        },
+        {
+          "position": 52,
+          "lastName": "Herrmann-Kirchberg",
+          "firstName": "Barbara",
+          "profession": "",
+          "stimmen": 12841
+        },
+        {
+          "position": 53,
+          "lastName": "Schmidt",
+          "firstName": "Heinz",
+          "profession": "",
+          "stimmen": 12563
+        },
+        {
+          "position": 54,
+          "lastName": "Kühne-Hörmann",
+          "firstName": "Eva",
+          "profession": "",
+          "stimmen": 13941
+        },
+        {
+          "position": 55,
+          "lastName": "Dr. Gehb",
+          "firstName": "Jürgen",
+          "profession": "",
+          "stimmen": 13672
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "color": "#CC0000",
+      "percent": 19.9,
+      "votesAbsolute": 935129,
+      "votesWeighted": 13811,
+      "seats": 14,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Kalveram",
+          "firstName": "Esther",
+          "profession": "",
+          "stimmen": 19394
+        },
+        {
+          "position": 2,
+          "lastName": "Bettermann",
+          "firstName": "Daniel",
+          "profession": "",
+          "stimmen": 19284
+        },
+        {
+          "position": 3,
+          "lastName": "Müller",
+          "firstName": "Finja",
+          "profession": "",
+          "stimmen": 17983
+        },
+        {
+          "position": 4,
+          "lastName": "Mittenmayer",
+          "firstName": "Orry",
+          "profession": "",
+          "stimmen": 16958
+        },
+        {
+          "position": 5,
+          "lastName": "Kopec",
+          "firstName": "Ramona",
+          "profession": "",
+          "stimmen": 15707
+        },
+        {
+          "position": 6,
+          "lastName": "Zeidler",
+          "firstName": "Christoph",
+          "profession": "",
+          "stimmen": 15783
+        },
+        {
+          "position": 7,
+          "lastName": "Dr. Janusch",
+          "firstName": "Cornelia",
+          "profession": "",
+          "stimmen": 15930
+        },
+        {
+          "position": 8,
+          "lastName": "Dr. Hechelmann",
+          "firstName": "Ron-Hendrik",
+          "profession": "",
+          "stimmen": 15173
+        },
+        {
+          "position": 9,
+          "lastName": "Boczkowski",
+          "firstName": "Judith-Annette",
+          "profession": "",
+          "stimmen": 14652
+        },
+        {
+          "position": 10,
+          "lastName": "Decker",
+          "firstName": "Wolfgang",
+          "profession": "",
+          "stimmen": 16076
+        },
+        {
+          "position": 11,
+          "lastName": "Ullrich",
+          "firstName": "Petra",
+          "profession": "",
+          "stimmen": 14383
+        },
+        {
+          "position": 12,
+          "lastName": "Mohanadhasan Thevagar",
+          "firstName": "-",
+          "profession": "",
+          "stimmen": 14676
+        },
+        {
+          "position": 13,
+          "lastName": "Prabaharan",
+          "firstName": "Kepiaya",
+          "profession": "",
+          "stimmen": 14386
+        },
+        {
+          "position": 14,
+          "lastName": "Seidel",
+          "firstName": "Dieter",
+          "profession": "",
+          "stimmen": 13912
+        },
+        {
+          "position": 15,
+          "lastName": "Opper",
+          "firstName": "Julia",
+          "profession": "",
+          "stimmen": 13982
+        },
+        {
+          "position": 16,
+          "lastName": "Lang",
+          "firstName": "Mario",
+          "profession": "",
+          "stimmen": 15028
+        },
+        {
+          "position": 17,
+          "lastName": "Daum",
+          "firstName": "Tanja",
+          "profession": "",
+          "stimmen": 13847
+        },
+        {
+          "position": 18,
+          "lastName": "Nitsch",
+          "firstName": "Andreas",
+          "profession": "",
+          "stimmen": 13416
+        },
+        {
+          "position": 19,
+          "lastName": "Brand",
+          "firstName": "Hannah",
+          "profession": "",
+          "stimmen": 14031
+        },
+        {
+          "position": 20,
+          "lastName": "Düsterdieck",
+          "firstName": "Mirko",
+          "profession": "",
+          "stimmen": 13442
+        },
+        {
+          "position": 21,
+          "lastName": "Pysall",
+          "firstName": "Anna-Lena",
+          "profession": "",
+          "stimmen": 13561
+        },
+        {
+          "position": 22,
+          "lastName": "Markl",
+          "firstName": "Stefan",
+          "profession": "",
+          "stimmen": 13072
+        },
+        {
+          "position": 23,
+          "lastName": "Coban-Yildiz",
+          "firstName": "Hanife",
+          "profession": "",
+          "stimmen": 14100
+        },
+        {
+          "position": 24,
+          "lastName": "Humburg",
+          "firstName": "Philipp",
+          "profession": "",
+          "stimmen": 13466
+        },
+        {
+          "position": 25,
+          "lastName": "Dr. Busse",
+          "firstName": "Annette",
+          "profession": "",
+          "stimmen": 13594
+        },
+        {
+          "position": 26,
+          "lastName": "Alex",
+          "firstName": "Helmut",
+          "profession": "",
+          "stimmen": 13392
+        },
+        {
+          "position": 27,
+          "lastName": "Schweikert",
+          "firstName": "Vanessa",
+          "profession": "",
+          "stimmen": 13208
+        },
+        {
+          "position": 28,
+          "lastName": "Heß",
+          "firstName": "Niklas",
+          "profession": "",
+          "stimmen": 12874
+        },
+        {
+          "position": 29,
+          "lastName": "Nödler",
+          "firstName": "Sabine",
+          "profession": "",
+          "stimmen": 13399
+        },
+        {
+          "position": 30,
+          "lastName": "Stiepert",
+          "firstName": "Ralph",
+          "profession": "",
+          "stimmen": 12625
+        },
+        {
+          "position": 31,
+          "lastName": "Bachmann",
+          "firstName": "Jutta",
+          "profession": "",
+          "stimmen": 13300
+        },
+        {
+          "position": 32,
+          "lastName": "Zaun",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 12537
+        },
+        {
+          "position": 33,
+          "lastName": "Woborschil",
+          "firstName": "Stefanie",
+          "profession": "",
+          "stimmen": 12799
+        },
+        {
+          "position": 34,
+          "lastName": "Schmidt",
+          "firstName": "Holger",
+          "profession": "",
+          "stimmen": 12558
+        },
+        {
+          "position": 35,
+          "lastName": "Schade",
+          "firstName": "Clara",
+          "profession": "",
+          "stimmen": 12974
+        },
+        {
+          "position": 36,
+          "lastName": "Trömer",
+          "firstName": "Stefan",
+          "profession": "",
+          "stimmen": 12574
+        },
+        {
+          "position": 37,
+          "lastName": "Iben",
+          "firstName": "Nicole",
+          "profession": "",
+          "stimmen": 13121
+        },
+        {
+          "position": 38,
+          "lastName": "Merz",
+          "firstName": "Manfred Heinrich",
+          "profession": "",
+          "stimmen": 12824
+        },
+        {
+          "position": 39,
+          "lastName": "Brand",
+          "firstName": "Delia",
+          "profession": "",
+          "stimmen": 12648
+        },
+        {
+          "position": 40,
+          "lastName": "Yassin",
+          "firstName": "Ilyas",
+          "profession": "",
+          "stimmen": 13383
+        },
+        {
+          "position": 41,
+          "lastName": "Reimann",
+          "firstName": "Heidemarie",
+          "profession": "",
+          "stimmen": 12842
+        },
+        {
+          "position": 42,
+          "lastName": "Schwerdtfeger",
+          "firstName": "Wolfgang",
+          "profession": "",
+          "stimmen": 12833
+        },
+        {
+          "position": 43,
+          "lastName": "Battenberg",
+          "firstName": "Sonja",
+          "profession": "",
+          "stimmen": 12713
+        },
+        {
+          "position": 44,
+          "lastName": "Wolk",
+          "firstName": "Uwe",
+          "profession": "",
+          "stimmen": 12309
+        },
+        {
+          "position": 45,
+          "lastName": "Bergmann",
+          "firstName": ", Anke Anke",
+          "profession": "",
+          "stimmen": 12952
+        },
+        {
+          "position": 46,
+          "lastName": "Sprafke",
+          "firstName": "Norbert",
+          "profession": "",
+          "stimmen": 13082
+        },
+        {
+          "position": 47,
+          "lastName": "Schmandt",
+          "firstName": "Irmgard",
+          "profession": "",
+          "stimmen": 12075
+        },
+        {
+          "position": 48,
+          "lastName": "Malekzada",
+          "firstName": "Asib",
+          "profession": "",
+          "stimmen": 12022
+        },
+        {
+          "position": 49,
+          "lastName": "Israel",
+          "firstName": "Kathrin",
+          "profession": "",
+          "stimmen": 12164
+        },
+        {
+          "position": 50,
+          "lastName": "Hildebrandt",
+          "firstName": "Fabian",
+          "profession": "",
+          "stimmen": 12079
+        },
+        {
+          "position": 51,
+          "lastName": "von Stockhausen",
+          "firstName": "Freia",
+          "profession": "",
+          "stimmen": 12479
+        },
+        {
+          "position": 52,
+          "lastName": "Knöfel",
+          "firstName": "Johannes",
+          "profession": "",
+          "stimmen": 12030
+        },
+        {
+          "position": 53,
+          "lastName": "Jordan",
+          "firstName": "Ingeborg",
+          "profession": "",
+          "stimmen": 12031
+        },
+        {
+          "position": 54,
+          "lastName": "Aßmann",
+          "firstName": "Werner",
+          "profession": "",
+          "stimmen": 11926
+        },
+        {
+          "position": 55,
+          "lastName": "Krause",
+          "firstName": "Vera",
+          "profession": "",
+          "stimmen": 12187
+        },
+        {
+          "position": 56,
+          "lastName": "Hildebrandt",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 11845
+        },
+        {
+          "position": 57,
+          "lastName": "Gernhardt",
+          "firstName": "Silke",
+          "profession": "",
+          "stimmen": 11736
+        },
+        {
+          "position": 58,
+          "lastName": "Beyerlein",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 11528
+        },
+        {
+          "position": 59,
+          "lastName": "Börner",
+          "firstName": "Ilona",
+          "profession": "",
+          "stimmen": 12144
+        },
+        {
+          "position": 60,
+          "lastName": "Werner",
+          "firstName": "Axel",
+          "profession": "",
+          "stimmen": 11471
+        },
+        {
+          "position": 61,
+          "lastName": "Ayalp",
+          "firstName": "Teslihan",
+          "profession": "",
+          "stimmen": 12402
+        },
+        {
+          "position": 62,
+          "lastName": "Crome",
+          "firstName": "Malte",
+          "profession": "",
+          "stimmen": 11399
+        },
+        {
+          "position": 63,
+          "lastName": "Berkenheger",
+          "firstName": "Ann-Katrin",
+          "profession": "",
+          "stimmen": 11478
+        },
+        {
+          "position": 64,
+          "lastName": "Schöneweiß",
+          "firstName": "Jörg",
+          "profession": "",
+          "stimmen": 11152
+        },
+        {
+          "position": 65,
+          "lastName": "Schläger",
+          "firstName": "Wanja-Isidor",
+          "profession": "",
+          "stimmen": 10985
+        },
+        {
+          "position": 66,
+          "lastName": "Rüppel",
+          "firstName": "Sascha",
+          "profession": "",
+          "stimmen": 10896
+        },
+        {
+          "position": 67,
+          "lastName": "Jordan",
+          "firstName": "Hendrik",
+          "profession": "",
+          "stimmen": 10953
+        },
+        {
+          "position": 68,
+          "lastName": "Zeidler",
+          "firstName": "Volker",
+          "profession": "",
+          "stimmen": 11575
+        },
+        {
+          "position": 69,
+          "lastName": "Brehm",
+          "firstName": "Helmuth",
+          "profession": "",
+          "stimmen": 10558
+        },
+        {
+          "position": 70,
+          "lastName": "Schuy",
+          "firstName": "Hans Josef",
+          "profession": "",
+          "stimmen": 10022
+        },
+        {
+          "position": 71,
+          "lastName": "Menges",
+          "firstName": "Flemming",
+          "profession": "",
+          "stimmen": 9209
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "shortName": "Die Linke",
+      "fullName": "DIE LINKE",
+      "color": "#999999",
+      "percent": 15.1,
+      "votesAbsolute": 710330,
+      "votesWeighted": 10491,
+      "seats": 11,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Bock",
+          "firstName": "Violetta",
+          "profession": "",
+          "stimmen": 39014
+        },
+        {
+          "position": 2,
+          "lastName": "Schury",
+          "firstName": "Stephanie",
+          "profession": "",
+          "stimmen": 33271
+        },
+        {
+          "position": 3,
+          "lastName": "Leidig",
+          "firstName": "Sabine",
+          "profession": "",
+          "stimmen": 32450
+        },
+        {
+          "position": 4,
+          "lastName": "Sarikaya",
+          "firstName": "Atila",
+          "profession": "",
+          "stimmen": 30782
+        },
+        {
+          "position": 5,
+          "lastName": "Farighi",
+          "firstName": "Marwa",
+          "profession": "",
+          "stimmen": 30818
+        },
+        {
+          "position": 6,
+          "lastName": "Jasper",
+          "firstName": "Arvid",
+          "profession": "",
+          "stimmen": 29636
+        },
+        {
+          "position": 7,
+          "lastName": "Michel",
+          "firstName": "Heike",
+          "profession": "",
+          "stimmen": 29748
+        },
+        {
+          "position": 8,
+          "lastName": "Timtik",
+          "firstName": "Ali",
+          "profession": "",
+          "stimmen": 29837
+        },
+        {
+          "position": 9,
+          "lastName": "Häußer-Domes",
+          "firstName": "Ingrid",
+          "profession": "",
+          "stimmen": 28999
+        },
+        {
+          "position": 10,
+          "lastName": "Getzschmann",
+          "firstName": "Lutz",
+          "profession": "",
+          "stimmen": 27548
+        },
+        {
+          "position": 11,
+          "lastName": "Jung",
+          "firstName": "Katharina",
+          "profession": "",
+          "stimmen": 28443
+        },
+        {
+          "position": 12,
+          "lastName": "Wößner",
+          "firstName": "Frank",
+          "profession": "",
+          "stimmen": 20058
+        },
+        {
+          "position": 13,
+          "lastName": "Bartsch",
+          "firstName": "Ria",
+          "profession": "",
+          "stimmen": 20931
+        },
+        {
+          "position": 14,
+          "lastName": "Schön",
+          "firstName": "Calvin",
+          "profession": "",
+          "stimmen": 19623
+        },
+        {
+          "position": 15,
+          "lastName": "Schönig",
+          "firstName": "Sophia",
+          "profession": "",
+          "stimmen": 20807
+        },
+        {
+          "position": 16,
+          "lastName": "Klippert",
+          "firstName": "Jürgen",
+          "profession": "",
+          "stimmen": 19450
+        },
+        {
+          "position": 17,
+          "lastName": "Schmid",
+          "firstName": "Nora",
+          "profession": "",
+          "stimmen": 20522
+        },
+        {
+          "position": 18,
+          "lastName": "Aitoutalamte",
+          "firstName": "Walid",
+          "profession": "",
+          "stimmen": 19593
+        },
+        {
+          "position": 19,
+          "lastName": "Sümmermann",
+          "firstName": "Luisa",
+          "profession": "",
+          "stimmen": 20276
+        },
+        {
+          "position": 20,
+          "lastName": "Gertenbach",
+          "firstName": "Martin",
+          "profession": "",
+          "stimmen": 19170
+        },
+        {
+          "position": 21,
+          "lastName": "Blattner",
+          "firstName": "Sabine",
+          "profession": "",
+          "stimmen": 19659
+        },
+        {
+          "position": 22,
+          "lastName": "Lavan",
+          "firstName": "Steven",
+          "profession": "",
+          "stimmen": 18574
+        },
+        {
+          "position": 23,
+          "lastName": "Danger",
+          "firstName": "Elida",
+          "profession": "",
+          "stimmen": 19378
+        },
+        {
+          "position": 24,
+          "lastName": "Garbelmann",
+          "firstName": "Axel",
+          "profession": "",
+          "stimmen": 18918
+        },
+        {
+          "position": 25,
+          "lastName": "Sönmez",
+          "firstName": "Yasemin",
+          "profession": "",
+          "stimmen": 19644
+        },
+        {
+          "position": 26,
+          "lastName": "Boeddinghaus",
+          "firstName": "Kai",
+          "profession": "",
+          "stimmen": 18931
+        },
+        {
+          "position": 27,
+          "lastName": "Müller",
+          "firstName": "Franziska",
+          "profession": "",
+          "stimmen": 19102
+        },
+        {
+          "position": 28,
+          "lastName": "Redelberger",
+          "firstName": "Frank",
+          "profession": "",
+          "stimmen": 17945
+        },
+        {
+          "position": 29,
+          "lastName": "Bardenheuer",
+          "firstName": "Astrid",
+          "profession": "",
+          "stimmen": 19067
+        },
+        {
+          "position": 30,
+          "lastName": "Huhn",
+          "firstName": "Milan",
+          "profession": "",
+          "stimmen": 18136
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "color": "#0032C8",
+      "percent": 11.3,
+      "votesAbsolute": 530370,
+      "votesWeighted": 7833,
+      "seats": 8,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Dreyer",
+          "firstName": "Sven René",
+          "profession": "",
+          "stimmen": 23185
+        },
+        {
+          "position": 2,
+          "lastName": "Moses-Meil",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 22861
+        },
+        {
+          "position": 3,
+          "lastName": "Hansmann",
+          "firstName": "Norbert",
+          "profession": "",
+          "stimmen": 22857
+        },
+        {
+          "position": 4,
+          "lastName": "Schenk",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 22827
+        },
+        {
+          "position": 5,
+          "lastName": "Bieniecki",
+          "firstName": "Tizian Daniel",
+          "profession": "",
+          "stimmen": 22621
+        },
+        {
+          "position": 6,
+          "lastName": "Schade",
+          "firstName": "Andreas",
+          "profession": "",
+          "stimmen": 22617
+        },
+        {
+          "position": 7,
+          "lastName": "Schenk",
+          "firstName": "Gerhard",
+          "profession": "",
+          "stimmen": 22542
+        },
+        {
+          "position": 8,
+          "lastName": "Engel",
+          "firstName": "Karlheinz",
+          "profession": "",
+          "stimmen": 22459
+        },
+        {
+          "position": 9,
+          "lastName": "Müsch",
+          "firstName": "Jürgen",
+          "profession": "",
+          "stimmen": 22437
+        },
+        {
+          "position": 10,
+          "lastName": "Sosna",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 22452
+        },
+        {
+          "position": 11,
+          "lastName": "Johst",
+          "firstName": "Sibylle",
+          "profession": "",
+          "stimmen": 22426
+        },
+        {
+          "position": 12,
+          "lastName": "Rieth",
+          "firstName": "Stefan",
+          "profession": "",
+          "stimmen": 22282
+        },
+        {
+          "position": 13,
+          "lastName": "Kumpf",
+          "firstName": "Nora",
+          "profession": "",
+          "stimmen": 22371
+        },
+        {
+          "position": 14,
+          "lastName": "Michl",
+          "firstName": "Marion",
+          "profession": "",
+          "stimmen": 22292
+        },
+        {
+          "position": 15,
+          "lastName": "Smieja",
+          "firstName": "Brigitte",
+          "profession": "",
+          "stimmen": 22257
+        },
+        {
+          "position": 16,
+          "lastName": "Anagnostu",
+          "firstName": "Wilhelm",
+          "profession": "",
+          "stimmen": 22260
+        },
+        {
+          "position": 17,
+          "lastName": "Kumpf",
+          "firstName": "Diethard",
+          "profession": "",
+          "stimmen": 22166
+        },
+        {
+          "position": 18,
+          "lastName": "Riemann",
+          "firstName": "Erika",
+          "profession": "",
+          "stimmen": 22276
+        },
+        {
+          "position": 19,
+          "lastName": "Kuntze",
+          "firstName": "Wilfried",
+          "profession": "",
+          "stimmen": 22098
+        },
+        {
+          "position": 20,
+          "lastName": "Michl",
+          "firstName": "Frank",
+          "profession": "",
+          "stimmen": 22094
+        },
+        {
+          "position": 21,
+          "lastName": "Oberjörg",
+          "firstName": "Norbert",
+          "profession": "",
+          "stimmen": 21937
+        },
+        {
+          "position": 22,
+          "lastName": "Thiele",
+          "firstName": "Fritz",
+          "profession": "",
+          "stimmen": 21938
+        },
+        {
+          "position": 23,
+          "lastName": "Schenk",
+          "firstName": "Viola",
+          "profession": "",
+          "stimmen": 22020
+        },
+        {
+          "position": 24,
+          "lastName": "Schenk",
+          "firstName": "Wilfried",
+          "profession": "",
+          "stimmen": 15095
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "FDP",
+      "fullName": "Freie Demokratische Partei",
+      "color": "#F4B93B",
+      "percent": 3.3,
+      "votesAbsolute": 153873,
+      "votesWeighted": 2273,
+      "seats": 2,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Nölke",
+          "firstName": "Matthias",
+          "profession": "",
+          "stimmen": 6630
+        },
+        {
+          "position": 2,
+          "lastName": "Bickel",
+          "firstName": "Sascha",
+          "profession": "",
+          "stimmen": 5264
+        },
+        {
+          "position": 3,
+          "lastName": "Dr. Wurbs",
+          "firstName": "Richard",
+          "profession": "",
+          "stimmen": 5724
+        },
+        {
+          "position": 4,
+          "lastName": "Sommer",
+          "firstName": "Pascal",
+          "profession": "",
+          "stimmen": 5166
+        },
+        {
+          "position": 5,
+          "lastName": "Zaremba",
+          "firstName": "Manuela",
+          "profession": "",
+          "stimmen": 4867
+        },
+        {
+          "position": 6,
+          "lastName": "Menzel",
+          "firstName": "Jürgen",
+          "profession": "",
+          "stimmen": 4425
+        },
+        {
+          "position": 7,
+          "lastName": "Nebelung",
+          "firstName": "Niklas",
+          "profession": "",
+          "stimmen": 4623
+        },
+        {
+          "position": 8,
+          "lastName": "Bentz",
+          "firstName": "Christoph",
+          "profession": "",
+          "stimmen": 4294
+        },
+        {
+          "position": 9,
+          "lastName": "Dr. Hatzky",
+          "firstName": "Marcel",
+          "profession": "",
+          "stimmen": 4325
+        },
+        {
+          "position": 10,
+          "lastName": "Fricke",
+          "firstName": "Renate",
+          "profession": "",
+          "stimmen": 4491
+        },
+        {
+          "position": 11,
+          "lastName": "Ranki",
+          "firstName": "Paavo",
+          "profession": "",
+          "stimmen": 3807
+        },
+        {
+          "position": 12,
+          "lastName": "Krollpfeiffer",
+          "firstName": "Roman",
+          "profession": "",
+          "stimmen": 3828
+        },
+        {
+          "position": 13,
+          "lastName": "Faltermeier",
+          "firstName": "Maximilian",
+          "profession": "",
+          "stimmen": 3626
+        },
+        {
+          "position": 14,
+          "lastName": "Bähre",
+          "firstName": "Alexander",
+          "profession": "",
+          "stimmen": 2265
+        },
+        {
+          "position": 15,
+          "lastName": "Hofmann",
+          "firstName": "Carl-Philipp",
+          "profession": "",
+          "stimmen": 2220
+        },
+        {
+          "position": 16,
+          "lastName": "Decker",
+          "firstName": "Alexej",
+          "profession": "",
+          "stimmen": 2143
+        },
+        {
+          "position": 17,
+          "lastName": "Kurka",
+          "firstName": "Markus",
+          "profession": "",
+          "stimmen": 2167
+        },
+        {
+          "position": 18,
+          "lastName": "Hohmann",
+          "firstName": "Anna",
+          "profession": "",
+          "stimmen": 2310
+        },
+        {
+          "position": 19,
+          "lastName": "Weber",
+          "firstName": "Matthias",
+          "profession": "",
+          "stimmen": 2201
+        },
+        {
+          "position": 20,
+          "lastName": "Wehbi",
+          "firstName": "Zeinab",
+          "profession": "",
+          "stimmen": 2143
+        },
+        {
+          "position": 21,
+          "lastName": "Janßen",
+          "firstName": "Erik",
+          "profession": "",
+          "stimmen": 2066
+        },
+        {
+          "position": 22,
+          "lastName": "Dr. Berger",
+          "firstName": "Irina",
+          "profession": "",
+          "stimmen": 2443
+        },
+        {
+          "position": 23,
+          "lastName": "Giesa",
+          "firstName": "Jonas",
+          "profession": "",
+          "stimmen": 2042
+        },
+        {
+          "position": 24,
+          "lastName": "Vater",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 2082
+        },
+        {
+          "position": 25,
+          "lastName": "Dr. Wenzel",
+          "firstName": "Philip",
+          "profession": "",
+          "stimmen": 2160
+        },
+        {
+          "position": 26,
+          "lastName": "Schaaf",
+          "firstName": "Manuel",
+          "profession": "",
+          "stimmen": 1997
+        },
+        {
+          "position": 27,
+          "lastName": "Wollenhaupt",
+          "firstName": "Philipp",
+          "profession": "",
+          "stimmen": 2096
+        },
+        {
+          "position": 28,
+          "lastName": "Benderoth",
+          "firstName": "Boris",
+          "profession": "",
+          "stimmen": 2187
+        },
+        {
+          "position": 29,
+          "lastName": "Gertenbach",
+          "firstName": "Sebastian",
+          "profession": "",
+          "stimmen": 2000
+        },
+        {
+          "position": 30,
+          "lastName": "Kolle",
+          "firstName": "Dennis",
+          "profession": "",
+          "stimmen": 2017
+        },
+        {
+          "position": 31,
+          "lastName": "Knak",
+          "firstName": "Christoph",
+          "profession": "",
+          "stimmen": 2006
+        },
+        {
+          "position": 32,
+          "lastName": "Werhahn",
+          "firstName": "Franziska",
+          "profession": "",
+          "stimmen": 2110
+        },
+        {
+          "position": 33,
+          "lastName": "Dr. Eujen-Schröder",
+          "firstName": "Jan",
+          "profession": "",
+          "stimmen": 2041
+        },
+        {
+          "position": 34,
+          "lastName": "Klauzer",
+          "firstName": "André",
+          "profession": "",
+          "stimmen": 1937
+        },
+        {
+          "position": 35,
+          "lastName": "Krieger",
+          "firstName": "Niclas",
+          "profession": "",
+          "stimmen": 2018
+        },
+        {
+          "position": 36,
+          "lastName": "Kunz",
+          "firstName": "Karsten",
+          "profession": "",
+          "stimmen": 1947
+        },
+        {
+          "position": 37,
+          "lastName": "Lange",
+          "firstName": "Moritz",
+          "profession": "",
+          "stimmen": 1958
+        },
+        {
+          "position": 38,
+          "lastName": "Rohde",
+          "firstName": "Danny",
+          "profession": "",
+          "stimmen": 1964
+        },
+        {
+          "position": 39,
+          "lastName": "Martens",
+          "firstName": "Kristin",
+          "profession": "",
+          "stimmen": 1979
+        },
+        {
+          "position": 40,
+          "lastName": "Mattern",
+          "firstName": "Hadrian",
+          "profession": "",
+          "stimmen": 1968
+        },
+        {
+          "position": 41,
+          "lastName": "Rettenmaier",
+          "firstName": "Samuel",
+          "profession": "",
+          "stimmen": 1969
+        },
+        {
+          "position": 42,
+          "lastName": "Grein",
+          "firstName": "Lars",
+          "profession": "",
+          "stimmen": 1896
+        },
+        {
+          "position": 43,
+          "lastName": "Meckelburg",
+          "firstName": "Peter",
+          "profession": "",
+          "stimmen": 2067
+        },
+        {
+          "position": 44,
+          "lastName": "Theuffel-Werhahn",
+          "firstName": "Berthold",
+          "profession": "",
+          "stimmen": 1964
+        },
+        {
+          "position": 45,
+          "lastName": "Appel",
+          "firstName": "Christian",
+          "profession": "",
+          "stimmen": 1934
+        },
+        {
+          "position": 46,
+          "lastName": "Dr. Buschmeier",
+          "firstName": "Andreas",
+          "profession": "",
+          "stimmen": 2138
+        },
+        {
+          "position": 47,
+          "lastName": "Ernst",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 1944
+        },
+        {
+          "position": 48,
+          "lastName": "Fricke",
+          "firstName": "Burkhard",
+          "profession": "",
+          "stimmen": 2021
+        },
+        {
+          "position": 49,
+          "lastName": "Gerke",
+          "firstName": "Thilko",
+          "profession": "",
+          "stimmen": 2504
+        },
+        {
+          "position": 50,
+          "lastName": "Dr. Walter",
+          "firstName": "Frank",
+          "profession": "",
+          "stimmen": 2383
+        },
+        {
+          "position": 51,
+          "lastName": "Meise",
+          "firstName": "Günter",
+          "profession": "",
+          "stimmen": 1886
+        },
+        {
+          "position": 52,
+          "lastName": "Bergmann",
+          "firstName": "Angelika",
+          "profession": "",
+          "stimmen": 2038
+        },
+        {
+          "position": 53,
+          "lastName": "Behrens",
+          "firstName": "Bernd",
+          "profession": "",
+          "stimmen": 2054
+        },
+        {
+          "position": 54,
+          "lastName": "Rausch",
+          "firstName": "Gunther",
+          "profession": "",
+          "stimmen": 1834
+        },
+        {
+          "position": 55,
+          "lastName": "Eckhardt",
+          "firstName": "Elfriede",
+          "profession": "",
+          "stimmen": 1860
+        },
+        {
+          "position": 56,
+          "lastName": "Schmidt",
+          "firstName": "Gisela",
+          "profession": "",
+          "stimmen": 1929
+        },
+        {
+          "position": 57,
+          "lastName": "Schöps",
+          "firstName": "Karin",
+          "profession": "",
+          "stimmen": 1906
+        },
+        {
+          "position": 58,
+          "lastName": "Oberbrunner",
+          "firstName": "Frank",
+          "profession": "",
+          "stimmen": 2009
+        }
+      ]
+    },
+    {
+      "listNumber": 13,
+      "shortName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
+      "color": "#B4B4B4",
+      "percent": 3.1,
+      "votesAbsolute": 146984,
+      "votesWeighted": 2171,
+      "seats": 2,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Kilian",
+          "firstName": "Juri",
+          "profession": "",
+          "stimmen": 7542
+        },
+        {
+          "position": 2,
+          "lastName": "Sen",
+          "firstName": "Dilara",
+          "profession": "",
+          "stimmen": 7142
+        },
+        {
+          "position": 3,
+          "lastName": "Özgönül",
+          "firstName": "Florian",
+          "profession": "",
+          "stimmen": 6609
+        },
+        {
+          "position": 4,
+          "lastName": "Heckel",
+          "firstName": "Louis-Claas",
+          "profession": "",
+          "stimmen": 6479
+        },
+        {
+          "position": 5,
+          "lastName": "Saleh",
+          "firstName": "Mustfa",
+          "profession": "",
+          "stimmen": 6526
+        },
+        {
+          "position": 6,
+          "lastName": "Dergui",
+          "firstName": "Omar",
+          "profession": "",
+          "stimmen": 6379
+        },
+        {
+          "position": 7,
+          "lastName": "Gelver",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 6263
+        },
+        {
+          "position": 8,
+          "lastName": "Yildirim",
+          "firstName": "Nuray",
+          "profession": "",
+          "stimmen": 6404
+        },
+        {
+          "position": 9,
+          "lastName": "Awung",
+          "firstName": "Stephen Ekokobe",
+          "profession": "",
+          "stimmen": 6178
+        },
+        {
+          "position": 10,
+          "lastName": "Omayrat",
+          "firstName": "Khaled",
+          "profession": "",
+          "stimmen": 6124
+        },
+        {
+          "position": 11,
+          "lastName": "Willers",
+          "firstName": "Johanna",
+          "profession": "",
+          "stimmen": 6272
+        },
+        {
+          "position": 12,
+          "lastName": "Alff",
+          "firstName": "Carsten",
+          "profession": "",
+          "stimmen": 6001
+        },
+        {
+          "position": 13,
+          "lastName": "Mahbubie",
+          "firstName": "Ramin",
+          "profession": "",
+          "stimmen": 5912
+        },
+        {
+          "position": 14,
+          "lastName": "Demir",
+          "firstName": "Can",
+          "profession": "",
+          "stimmen": 6028
+        },
+        {
+          "position": 15,
+          "lastName": "A ş çi",
+          "firstName": "Kazim",
+          "profession": "",
+          "stimmen": 6144
+        },
+        {
+          "position": 16,
+          "lastName": "Korkusuz",
+          "firstName": "Ismail",
+          "profession": "",
+          "stimmen": 5914
+        },
+        {
+          "position": 17,
+          "lastName": "Dr. Gruyters",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 6015
+        },
+        {
+          "position": 18,
+          "lastName": "Dahl",
+          "firstName": "Katrin",
+          "profession": "",
+          "stimmen": 5993
+        },
+        {
+          "position": 19,
+          "lastName": "Afsharieh Meshkan",
+          "firstName": "Sepideh",
+          "profession": "",
+          "stimmen": 5779
+        },
+        {
+          "position": 20,
+          "lastName": "Marinelli",
+          "firstName": "Giulia",
+          "profession": "",
+          "stimmen": 5877
+        },
+        {
+          "position": 21,
+          "lastName": "Sen",
+          "firstName": "Zeliha",
+          "profession": "",
+          "stimmen": 5807
+        },
+        {
+          "position": 22,
+          "lastName": "Ehlers",
+          "firstName": "Klaus",
+          "profession": "",
+          "stimmen": 5727
+        },
+        {
+          "position": 23,
+          "lastName": "Müller",
+          "firstName": "Hans-Günter",
+          "profession": "",
+          "stimmen": 5768
+        },
+        {
+          "position": 24,
+          "lastName": "Pavlov",
+          "firstName": "Valentin",
+          "profession": "",
+          "stimmen": 4101
+        }
+      ]
+    },
+    {
+      "listNumber": 11,
+      "shortName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH UMWELT TIERSCHUTZ",
+      "color": "#c0ca31",
+      "percent": 1.8,
+      "votesAbsolute": 84047,
+      "votesWeighted": 1241,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Standop",
+          "firstName": "Tim",
+          "profession": "",
+          "stimmen": 5119
+        },
+        {
+          "position": 2,
+          "lastName": "Höhmann",
+          "firstName": "Dietmar",
+          "profession": "",
+          "stimmen": 4339
+        },
+        {
+          "position": 3,
+          "lastName": "Knabe",
+          "firstName": "Sebastian",
+          "profession": "",
+          "stimmen": 4068
+        },
+        {
+          "position": 4,
+          "lastName": "Standop",
+          "firstName": "Melanie",
+          "profession": "",
+          "stimmen": 4294
+        },
+        {
+          "position": 5,
+          "lastName": "Knauf",
+          "firstName": "Frederike",
+          "profession": "",
+          "stimmen": 4034
+        },
+        {
+          "position": 6,
+          "lastName": "Dr. Dloczik",
+          "firstName": "Larissa",
+          "profession": "",
+          "stimmen": 3976
+        },
+        {
+          "position": 7,
+          "lastName": "Jordan",
+          "firstName": "Jeanette",
+          "profession": "",
+          "stimmen": 3684
+        },
+        {
+          "position": 8,
+          "lastName": "Bringmann",
+          "firstName": "Anne",
+          "profession": "",
+          "stimmen": 3618
+        },
+        {
+          "position": 9,
+          "lastName": "Schweiger",
+          "firstName": "Diana",
+          "profession": "",
+          "stimmen": 3579
+        },
+        {
+          "position": 10,
+          "lastName": "Nünning",
+          "firstName": "Nora",
+          "profession": "",
+          "stimmen": 3497
+        },
+        {
+          "position": 11,
+          "lastName": "Gallinger",
+          "firstName": "Helga",
+          "profession": "",
+          "stimmen": 3356
+        },
+        {
+          "position": 12,
+          "lastName": "Eisfelder Eisfelder",
+          "firstName": "Elke",
+          "profession": "",
+          "stimmen": 3386
+        },
+        {
+          "position": 13,
+          "lastName": "Griesmann",
+          "firstName": "Hannah",
+          "profession": "",
+          "stimmen": 3332
+        },
+        {
+          "position": 14,
+          "lastName": "Lindenlauf",
+          "firstName": "Petra",
+          "profession": "",
+          "stimmen": 3261
+        },
+        {
+          "position": 15,
+          "lastName": "Drenger",
+          "firstName": "Annika",
+          "profession": "",
+          "stimmen": 3258
+        },
+        {
+          "position": 16,
+          "lastName": "Schröter",
+          "firstName": "Luise",
+          "profession": "",
+          "stimmen": 3236
+        },
+        {
+          "position": 17,
+          "lastName": "Siegmann",
+          "firstName": "Julia",
+          "profession": "",
+          "stimmen": 3236
+        },
+        {
+          "position": 18,
+          "lastName": "Steuer",
+          "firstName": "Claudia",
+          "profession": "",
+          "stimmen": 3184
+        },
+        {
+          "position": 19,
+          "lastName": "Nastajus",
+          "firstName": "Eimantas",
+          "profession": "",
+          "stimmen": 3081
+        },
+        {
+          "position": 20,
+          "lastName": "Klünder",
+          "firstName": "Frank",
+          "profession": "",
+          "stimmen": 3044
+        },
+        {
+          "position": 21,
+          "lastName": "Dilcher",
+          "firstName": "Andreas",
+          "profession": "",
+          "stimmen": 2994
+        },
+        {
+          "position": 22,
+          "lastName": "Wichmann",
+          "firstName": "David",
+          "profession": "",
+          "stimmen": 2979
+        },
+        {
+          "position": 23,
+          "lastName": "Schönfelder",
+          "firstName": "Tina",
+          "profession": "",
+          "stimmen": 3166
+        },
+        {
+          "position": 24,
+          "lastName": "Deibele",
+          "firstName": "Susanne",
+          "profession": "",
+          "stimmen": 2326
+        }
+      ]
+    },
+    {
+      "listNumber": 12,
+      "shortName": "Volt",
+      "fullName": "Volt Deutschland",
+      "color": "#6f30a7",
+      "percent": 1.4,
+      "votesAbsolute": 65772,
+      "votesWeighted": 971,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Scharf",
+          "firstName": "Timo",
+          "profession": "",
+          "stimmen": 7866
+        },
+        {
+          "position": 2,
+          "lastName": "Scholz",
+          "firstName": "Roman",
+          "profession": "",
+          "stimmen": 6371
+        },
+        {
+          "position": 3,
+          "lastName": "Werner",
+          "firstName": "Harald",
+          "profession": "",
+          "stimmen": 5972
+        },
+        {
+          "position": 4,
+          "lastName": "Homburg",
+          "firstName": "Niclas",
+          "profession": "",
+          "stimmen": 5429
+        },
+        {
+          "position": 5,
+          "lastName": "Taher",
+          "firstName": "Andrea",
+          "profession": "",
+          "stimmen": 6228
+        },
+        {
+          "position": 6,
+          "lastName": "Dr. Lawerenz",
+          "firstName": "Martin",
+          "profession": "",
+          "stimmen": 5405
+        },
+        {
+          "position": 7,
+          "lastName": "Karnebogen",
+          "firstName": "Nele",
+          "profession": "",
+          "stimmen": 5567
+        },
+        {
+          "position": 8,
+          "lastName": "Arndt",
+          "firstName": "Dario",
+          "profession": "",
+          "stimmen": 4735
+        },
+        {
+          "position": 9,
+          "lastName": "Fehmer",
+          "firstName": "Lukas",
+          "profession": "",
+          "stimmen": 4618
+        },
+        {
+          "position": 10,
+          "lastName": "Tepe",
+          "firstName": "Johannes",
+          "profession": "",
+          "stimmen": 4630
+        },
+        {
+          "position": 11,
+          "lastName": "Junker",
+          "firstName": "Marvin",
+          "profession": "",
+          "stimmen": 4516
+        },
+        {
+          "position": 12,
+          "lastName": "Kuczora",
+          "firstName": "Marvin",
+          "profession": "",
+          "stimmen": 4435
+        }
+      ]
+    },
+    {
+      "listNumber": 7,
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "color": "#999999",
+      "percent": 0.8,
+      "votesAbsolute": 38738,
+      "votesWeighted": 572,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Klobuczynski",
+          "firstName": "Christian",
+          "profession": "",
+          "stimmen": 2575
+        },
+        {
+          "position": 2,
+          "lastName": "Gleuel",
+          "firstName": "Vera",
+          "profession": "",
+          "stimmen": 2108
+        },
+        {
+          "position": 3,
+          "lastName": "Petersen",
+          "firstName": "Olaf",
+          "profession": "",
+          "stimmen": 1843
+        },
+        {
+          "position": 4,
+          "lastName": "Gleuel-Löcken",
+          "firstName": "Bastian",
+          "profession": "",
+          "stimmen": 1719
+        },
+        {
+          "position": 5,
+          "lastName": "Smigiel",
+          "firstName": "Patrick",
+          "profession": "",
+          "stimmen": 1641
+        },
+        {
+          "position": 6,
+          "lastName": "Brunsch",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 1594
+        },
+        {
+          "position": 7,
+          "lastName": "Engelke",
+          "firstName": "Helga",
+          "profession": "",
+          "stimmen": 1874
+        },
+        {
+          "position": 8,
+          "lastName": "Dr. Dodenhöft",
+          "firstName": "Bettina",
+          "profession": "",
+          "stimmen": 1788
+        },
+        {
+          "position": 9,
+          "lastName": "Dr. Dodenhöft",
+          "firstName": "Martin",
+          "profession": "",
+          "stimmen": 1661
+        },
+        {
+          "position": 10,
+          "lastName": "Umbach",
+          "firstName": "Elfriede",
+          "profession": "",
+          "stimmen": 1596
+        },
+        {
+          "position": 11,
+          "lastName": "Gutmann-Vitale",
+          "firstName": "Peter Gebhard",
+          "profession": "",
+          "stimmen": 1484
+        },
+        {
+          "position": 12,
+          "lastName": "Beuermann",
+          "firstName": "Holger",
+          "profession": "",
+          "stimmen": 1484
+        },
+        {
+          "position": 13,
+          "lastName": "Beuermann",
+          "firstName": "Marina",
+          "profession": "",
+          "stimmen": 1574
+        },
+        {
+          "position": 14,
+          "lastName": "Löcken",
+          "firstName": "Klaus",
+          "profession": "",
+          "stimmen": 1467
+        },
+        {
+          "position": 15,
+          "lastName": "Mengis",
+          "firstName": "Vanessa",
+          "profession": "",
+          "stimmen": 1540
+        },
+        {
+          "position": 16,
+          "lastName": "Mengis",
+          "firstName": "Dennis",
+          "profession": "",
+          "stimmen": 1459
+        },
+        {
+          "position": 17,
+          "lastName": "Gerhold",
+          "firstName": "Gabriele",
+          "profession": "",
+          "stimmen": 1467
+        },
+        {
+          "position": 18,
+          "lastName": "Beuermann",
+          "firstName": "Miguel",
+          "profession": "",
+          "stimmen": 1434
+        },
+        {
+          "position": 19,
+          "lastName": "Bimler",
+          "firstName": "Axel",
+          "profession": "",
+          "stimmen": 1406
+        },
+        {
+          "position": 20,
+          "lastName": "Zufall",
+          "firstName": "Carsten",
+          "profession": "",
+          "stimmen": 1453
+        },
+        {
+          "position": 21,
+          "lastName": "Göbel",
+          "firstName": "Florian",
+          "profession": "",
+          "stimmen": 1406
+        },
+        {
+          "position": 22,
+          "lastName": "Nilhofer",
+          "firstName": "Katharina",
+          "profession": "",
+          "stimmen": 1054
+        },
+        {
+          "position": 23,
+          "lastName": "Minotto",
+          "firstName": "Ulrich",
+          "profession": "",
+          "stimmen": 1028
+        },
+        {
+          "position": 24,
+          "lastName": "Moeurs",
+          "firstName": "Bernd",
+          "profession": "",
+          "stimmen": 1009
+        },
+        {
+          "position": 25,
+          "lastName": "Kirchner",
+          "firstName": "Corinna",
+          "profession": "",
+          "stimmen": 1074
+        }
+      ]
+    },
+    {
+      "listNumber": 8,
+      "shortName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "color": "#b51f29",
+      "percent": 0.6,
+      "votesAbsolute": 27353,
+      "votesWeighted": 404,
+      "seats": 1,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Kluge",
+          "firstName": "Viktoria",
+          "profession": "",
+          "stimmen": 3391
+        },
+        {
+          "position": 2,
+          "lastName": "Schneider",
+          "firstName": "Ingo-Volker",
+          "profession": "",
+          "stimmen": 2342
+        },
+        {
+          "position": 3,
+          "lastName": "Käufl er",
+          "firstName": "Stefan",
+          "profession": "",
+          "stimmen": 2103
+        },
+        {
+          "position": 4,
+          "lastName": "Rieger",
+          "firstName": "Jennifer",
+          "profession": "",
+          "stimmen": 2178
+        },
+        {
+          "position": 5,
+          "lastName": "Boese",
+          "firstName": "Pelle",
+          "profession": "",
+          "stimmen": 1880
+        },
+        {
+          "position": 6,
+          "lastName": "Sadkow",
+          "firstName": "Waleria",
+          "profession": "",
+          "stimmen": 1874
+        },
+        {
+          "position": 7,
+          "lastName": "Goßmann",
+          "firstName": "Ralf",
+          "profession": "",
+          "stimmen": 1706
+        },
+        {
+          "position": 8,
+          "lastName": "Böttger",
+          "firstName": "Eike",
+          "profession": "",
+          "stimmen": 1810
+        },
+        {
+          "position": 9,
+          "lastName": "Klene",
+          "firstName": "Theresa",
+          "profession": "",
+          "stimmen": 1779
+        },
+        {
+          "position": 10,
+          "lastName": "Dr. Boese",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 1765
+        },
+        {
+          "position": 11,
+          "lastName": "Sekund",
+          "firstName": "Sven",
+          "profession": "",
+          "stimmen": 1621
+        },
+        {
+          "position": 12,
+          "lastName": "Sispela",
+          "firstName": "Pia",
+          "profession": "",
+          "stimmen": 1771
+        },
+        {
+          "position": 13,
+          "lastName": "Göbert",
+          "firstName": "Alexander",
+          "profession": "",
+          "stimmen": 1564
+        },
+        {
+          "position": 14,
+          "lastName": "Hartelt",
+          "firstName": "Manuel",
+          "profession": "",
+          "stimmen": 1569
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "shortName": "MERA25",
+      "fullName": "MERA25 – Gemeinsam für Frieden, Solidarität und Freiheit",
+      "color": "#B4B4B4",
+      "percent": 0.2,
+      "votesAbsolute": 8000,
+      "votesWeighted": 118,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Albrecht",
+          "firstName": "Sina",
+          "profession": "",
+          "stimmen": 1622
+        },
+        {
+          "position": 2,
+          "lastName": "Stade",
+          "firstName": "Michael",
+          "profession": "",
+          "stimmen": 1031
+        },
+        {
+          "position": 3,
+          "lastName": "Greinke",
+          "firstName": "Fabian",
+          "profession": "",
+          "stimmen": 851
+        },
+        {
+          "position": 4,
+          "lastName": "Kidane",
+          "firstName": "Eden",
+          "profession": "",
+          "stimmen": 808
+        },
+        {
+          "position": 5,
+          "lastName": "Hakim",
+          "firstName": "Amy-Sophie",
+          "profession": "",
+          "stimmen": 865
+        },
+        {
+          "position": 6,
+          "lastName": "Makali",
+          "firstName": "Abdelmonaïm",
+          "profession": "",
+          "stimmen": 728
+        },
+        {
+          "position": 7,
+          "lastName": "Rassuljar",
+          "firstName": "Malalai",
+          "profession": "",
+          "stimmen": 731
+        },
+        {
+          "position": 8,
+          "lastName": "Rassuljar",
+          "firstName": "Scharif",
+          "profession": "",
+          "stimmen": 676
+        },
+        {
+          "position": 9,
+          "lastName": "Saleh",
+          "firstName": "Amin",
+          "profession": "",
+          "stimmen": 688
+        }
+      ]
+    },
+    {
+      "listNumber": 9,
+      "shortName": "Ehrenamt und Sport",
+      "fullName": "Ehrenamt und Sport für Kassel",
+      "color": null,
+      "percent": null,
+      "votesAbsolute": 9982,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": [
+        {
+          "position": 1,
+          "lastName": "Schmid",
+          "firstName": "Valentin",
+          "profession": "",
+          "stimmen": 1389
+        },
+        {
+          "position": 2,
+          "lastName": "Christ",
+          "firstName": "Thomas",
+          "profession": "",
+          "stimmen": 941
+        },
+        {
+          "position": 3,
+          "lastName": "Pressler",
+          "firstName": "Bernd",
+          "profession": "",
+          "stimmen": 863
+        },
+        {
+          "position": 4,
+          "lastName": "Knaf",
+          "firstName": "Benjamin",
+          "profession": "",
+          "stimmen": 684
+        },
+        {
+          "position": 5,
+          "lastName": "Bürger",
+          "firstName": "Henrike",
+          "profession": "",
+          "stimmen": 788
+        },
+        {
+          "position": 6,
+          "lastName": "Ast",
+          "firstName": "Kolja",
+          "profession": "",
+          "stimmen": 712
+        },
+        {
+          "position": 7,
+          "lastName": "Freund",
+          "firstName": "Paul",
+          "profession": "",
+          "stimmen": 650
+        },
+        {
+          "position": 8,
+          "lastName": "Bödefeld",
+          "firstName": "Lasse",
+          "profession": "",
+          "stimmen": 690
+        },
+        {
+          "position": 9,
+          "lastName": "Gottschling",
+          "firstName": "Dirk",
+          "profession": "",
+          "stimmen": 605
+        },
+        {
+          "position": 10,
+          "lastName": "Mahlow",
+          "firstName": "Lukas",
+          "profession": "",
+          "stimmen": 589
+        },
+        {
+          "position": 11,
+          "lastName": "Martinovi ć",
+          "firstName": "Sinisa",
+          "profession": "",
+          "stimmen": 722
+        },
+        {
+          "position": 12,
+          "lastName": "Freund",
+          "firstName": "Christian",
+          "profession": "",
+          "stimmen": 589
+        },
+        {
+          "position": 13,
+          "lastName": "Markert",
+          "firstName": "Tanja",
+          "profession": "",
+          "stimmen": 760
+        }
+      ]
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "ÖkoLinX",
+    "MERA25",
+    "Die PARTEI",
+    "Frankfurt-Sozial!",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Tierschutzpartei",
+    "Gartenpartei Ffm",
+    "PIRATEN",
+    "GUG",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BFF",
+    "IBF",
+    "ELF",
+    "DFRA",
+    "BIG",
+    "BSW",
+    "AfD"
+  ],
+  "sources": [
+    "https://votemanager-ks.ekom21cdn.de/2026-03-15/06611000/daten/opendata/Open-Data-06611000-Wahl-zur-Stadtverordnetenversammlung-Gemeinde.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/Wahlergebnisse_Gemeindewahl2026_Hessen.csv",
+    "https://wahlen.hessen-kw26.23degrees.eu/assets/parties.json"
+  ]
+}
