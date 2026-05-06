@@ -402,8 +402,9 @@ function App() {
           <div className="max-w-[1400px] mx-auto px-4 py-4 flex flex-col lg:flex-row lg:gap-4 lg:items-start">
             {isPost && electionResults ? (
               <>
-                {/* Ballot fills the wide column */}
-                <div className="flex-1 min-w-0">
+                {/* Ballot fills the wide column on desktop, drops below the
+                    summary panels on mobile */}
+                <div className="flex-1 min-w-0 order-2 lg:order-1">
                   <BallotView
                     electionData={electionData}
                     electionResults={electionResults}
@@ -418,9 +419,9 @@ function App() {
                     onActiveIndexChange={setPostActiveIdx}
                   />
                 </div>
-                {/* Sticky right rail: hemicycle + summary + coalitions */}
+                {/* Right rail on desktop, full-width stack ABOVE the ballot on mobile */}
                 <aside
-                  className="hidden lg:flex lg:w-[360px] lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto flex-col gap-3.5"
+                  className="flex flex-col gap-3.5 mb-4 order-1 lg:order-2 lg:mb-0 lg:w-[360px] lg:shrink-0 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto"
                 >
                   <ResultsSeatsPanel
                     results={electionResults}
