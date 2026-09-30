@@ -38,3 +38,6 @@ scripts/extracted_text.txt
 # Tooling caches
 .claude/
 .playwright-mcp/
+
+# Python bytecode
+__pycache__/

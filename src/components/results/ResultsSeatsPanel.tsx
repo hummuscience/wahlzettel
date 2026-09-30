@@ -8,6 +8,9 @@ interface ResultsSeatsPanelProps {
   /** When provided, hovering a seat highlights that party and clicking it
    * jumps the ballot's active party tab to the matching shortName. */
   onPickParty?: (shortName: string) => void;
+  /** Allocation method shown in the header. Defaults to Hare-Niemeyer
+   * (Hessen/Bayern Kommunalwahl). */
+  seatMethodLabel?: string;
 }
 
 /** Civic-style hemicycle Sitzverteilung — port of the design handoff's
@@ -18,6 +21,7 @@ export function ResultsSeatsPanel({
   results,
   partyColors,
   onPickParty,
+  seatMethodLabel = 'HARE-NIEMEYER',
 }: ResultsSeatsPanelProps) {
   const totalSeats = results.totalSeats;
   const majority = Math.ceil(totalSeats / 2);
@@ -56,7 +60,7 @@ export function ResultsSeatsPanel({
           className="text-[10px] text-gray-500 tracking-wider"
           style={{ fontFamily: '"JetBrains Mono", ui-monospace, monospace' }}
         >
-          {totalSeats} SITZE · HARE-NIEMEYER
+          {totalSeats} SITZE · {seatMethodLabel}
         </span>
       </div>
       <svg
@@ -192,24 +196,29 @@ function buildHemicycle(
     k++;
   }
 
-  const placed: Array<{ x: number; y: number; color: string; partyShort: string }> = [];
-  let idx = 0;
+  // Compute every seat slot first, then hand seats out left-to-right by
+  // angle so each party forms a wedge through all rows (filling row by row
+  // would stack parties into concentric rings instead).
+  const slots: Array<{ x: number; y: number; angle: number }> = [];
   for (let r = 0; r < rows; r++) {
     const radius = innerR + ((outerR - innerR) * r) / Math.max(rows - 1, 1);
     for (let s = 0; s < floored[r]; s++) {
       const t = (s + 0.5) / floored[r];
       const angle = Math.PI - t * Math.PI;
-      const seat = flat[idx++];
-      if (!seat) break;
-      placed.push({
+      slots.push({
         x: cx + radius * Math.cos(angle),
         y: cy - radius * Math.sin(angle),
-        color: seat.color,
-        partyShort: seat.partyShort,
+        angle,
       });
     }
   }
-  return placed;
+  slots.sort((a, b) => b.angle - a.angle);
+  return slots.slice(0, flat.length).map((slot, i) => ({
+    x: slot.x,
+    y: slot.y,
+    color: flat[i].color,
+    partyShort: flat[i].partyShort,
+  }));
 }
 
 /** Push a point radially outward from the hemicycle origin by `k` px. */

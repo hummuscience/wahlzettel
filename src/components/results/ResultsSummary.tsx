@@ -7,6 +7,12 @@ interface ResultsSummaryProps {
   };
 }
 
+// Land-level elections carry only the ISO-ish code in region.land.
+const LAND_NAMES: Record<string, string> = {
+  BE: 'Berlin', BW: 'Baden-Württemberg', BY: 'Bayern', HE: 'Hessen',
+  HH: 'Hamburg', HB: 'Bremen',
+};
+
 /** German thousands-separator formatter. */
 function fmt(n: number | null | undefined): string {
   if (n == null) return '–';
@@ -32,12 +38,16 @@ function fmtDate(iso: string): string {
 export function ResultsSummary({ results, electionConfig }: ResultsSummaryProps) {
   const place = electionConfig.region.gemeinde
     ?? electionConfig.region.bezirk
+    ?? LAND_NAMES[electionConfig.region.land]
     ?? electionConfig.region.land;
   return (
     <section className="bg-white border border-gray-200 rounded-lg shadow-sm p-3.5">
       <div className="flex items-baseline justify-between mb-2">
         <h2 className="text-sm font-bold m-0">{place} hat gewählt</h2>
-        <span className="text-[10px] text-gray-400">{fmtDate(results.stand)}</span>
+        <span className="text-[10px] text-gray-400">
+          {results.status === 'vorläufig' && 'Vorläufig · '}
+          {fmtDate(results.stand)}
+        </span>
       </div>
       <div className="grid grid-cols-[1fr_auto] gap-x-3 gap-y-1.5 text-xs">
         <span className="text-gray-500">Wahlbeteiligung</span>
@@ -54,13 +64,17 @@ export function ResultsSummary({ results, electionConfig }: ResultsSummaryProps)
         <span className="text-right tabular-nums">{fmt(results.totals.validBallots)}</span>
         <span className="text-gray-500">Gültige Stimmen</span>
         <span className="text-right tabular-nums">{fmt(results.totals.validVotes)}</span>
-        <span className="text-gray-500">Bewerber:innen</span>
-        <span className="text-right tabular-nums">
-          {fmt(results.totals.kandidatenInsgesamt)}
-          {results.totals.frauenInsgesamt != null && (
-            <span className="text-gray-400"> · {fmt(results.totals.frauenInsgesamt)} ♀</span>
-          )}
-        </span>
+        {results.totals.kandidatenInsgesamt != null && (
+          <>
+            <span className="text-gray-500">Bewerber:innen</span>
+            <span className="text-right tabular-nums">
+              {fmt(results.totals.kandidatenInsgesamt)}
+              {results.totals.frauenInsgesamt != null && (
+                <span className="text-gray-400"> · {fmt(results.totals.frauenInsgesamt)} ♀</span>
+              )}
+            </span>
+          </>
+        )}
         {results.totals.ballotsWithListenkreuzPercent != null && (
           <>
             <span className="text-gray-500">Listenkreuz</span>
@@ -77,6 +91,10 @@ export function ResultsSummary({ results, electionConfig }: ResultsSummaryProps)
           {results.sources.map((url, i) => {
             let host = url;
             try { host = new URL(url).hostname.replace(/^www\./, ''); } catch { /* keep as-is */ }
+            // Several pages from one portal → show the host once.
+            if (results.sources.slice(0, i).some(u => u.includes(`//${host}`) || u.includes(`.${host}`))) {
+              return null;
+            }
             return (
               <span key={url}>
                 {i > 0 && ', '}

@@ -19,6 +19,7 @@ const config: ClosedListConfig = {
   themeColorDark: '#a3050d',
 
   dataFile: 'berlin-bvv-marzahn-hellersdorf.json',
+  resultsFile: 'results-berlin-bvv-marzahn-hellersdorf.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/',
 };

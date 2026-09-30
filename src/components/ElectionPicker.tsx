@@ -58,6 +58,7 @@ const STATEWIDE_ELECTIONS: StatewideElection[] = [
     slug: 'berlin-abgh',
     label: 'Abgeordnetenhaus 2026',
     themeColor: '#e30613',
+    hasResults: true,
   },
 ];
 
@@ -335,84 +336,84 @@ const CITIES: CityEntry[] = [
     name: 'Charlottenburg-Wilmersdorf',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-charlottenburg-wilmersdorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-charlottenburg-wilmersdorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Friedrichshain-Kreuzberg',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-friedrichshain-kreuzberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-friedrichshain-kreuzberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Lichtenberg',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-lichtenberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-lichtenberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Marzahn-Hellersdorf',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-marzahn-hellersdorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-marzahn-hellersdorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Mitte',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-mitte', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-mitte', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Neukölln',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-neukoelln', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-neukoelln', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Pankow',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-pankow', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-pankow', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Reinickendorf',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-reinickendorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-reinickendorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Spandau',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-spandau', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-spandau', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Steglitz-Zehlendorf',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-steglitz-zehlendorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-steglitz-zehlendorf', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Tempelhof-Schöneberg',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-tempelhof-schoeneberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-tempelhof-schoeneberg', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
   {
     name: 'Treptow-Köpenick',
     stateId: 'be',
     elections: [
-      { slug: 'berlin-bvv-treptow-koepenick', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613' },
+      { slug: 'berlin-bvv-treptow-koepenick', label: 'BVV 2026', descriptionKey: 'bvvDesc', emoji: '🏛️', stimmen: 1, themeColor: '#e30613', hasResults: true },
     ],
   },
 ];

@@ -19,6 +19,7 @@ const config: ClosedListConfig = {
   themeColorDark: '#a3050d',
 
   dataFile: 'berlin-bvv-steglitz-zehlendorf.json',
+  resultsFile: 'results-berlin-bvv-steglitz-zehlendorf.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/',
 };

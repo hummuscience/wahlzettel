@@ -19,6 +19,7 @@ const config: ClosedListConfig = {
   themeColorDark: '#a3050d',
 
   dataFile: 'berlin-bvv-treptow-koepenick.json',
+  resultsFile: 'results-berlin-bvv-treptow-koepenick.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/',
 };

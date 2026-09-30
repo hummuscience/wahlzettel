@@ -12,6 +12,12 @@ export interface ResultsCandidate {
    * available (e.g. positions added to the roster after ballots were
    * printed, or candidates struck from a list before election day). */
   stimmen: number | null;
+  /** Berlin: only elected members are listed, each flagged here. */
+  elected?: boolean;
+  /** AGH: how the seat was won — Direktmandat or Landes-/Bezirksliste. */
+  via?: 'wahlkreis' | 'liste';
+  /** AGH Direktmandat: Wahlkreis name, e.g. "Mitte 5". */
+  wahlkreis?: string;
 }
 
 export interface ResultsParty {
@@ -29,8 +35,19 @@ export interface ResultsParty {
   votesAbsolute: number | null;
   /** Gewichtete Stimmen — Hessen's seat-allocation input. */
   votesWeighted: number | null;
+  /** Change in vote share vs. the previous election, %-points. */
+  percentChange?: number | null;
   /** Seats won. 0 if the party didn't make it in. */
   seats: number;
+  /** MMP only: Wahlkreise won via Erststimme. */
+  direktmandate?: number;
+  /** MMP only: the party's Erststimmen (constituency) result. `percent` /
+   * `votesAbsolute` above are the Zweitstimmen. */
+  erststimmen?: {
+    votesAbsolute: number | null;
+    percent: number | null;
+    percentChange: number | null;
+  } | null;
   /** Every candidate on the party's ballot list — winners AND non-winners.
    * Ordered by ballot position. */
   candidates: ResultsCandidate[];
@@ -52,10 +69,21 @@ export interface ResultsTotals {
   ballotsWithListenkreuzPercent: number | null;
 }
 
+export interface ResultsWahlkreis {
+  /** Official code, e.g. "0105". */
+  id: string;
+  name: string;
+  bezirk: string;
+  winner: { lastName: string; firstName: string; party: string };
+}
+
 export interface ResultsData {
   election: string;
   /** Date string of the data snapshot, e.g. "2026-03-27". */
   stand: string;
+  /** Preliminary (election night) vs. final (Wahlausschuss) result.
+   * Absent = treated as final. */
+  status?: 'vorläufig' | 'endgültig';
   totalSeats: number;
   totals: ResultsTotals;
   parties: ResultsParty[];
@@ -63,5 +91,7 @@ export interface ResultsData {
    * arrange seats on the hemicycle (Linke … AfD). Editorial — when absent,
    * consumers fall back to seat-count desc. */
   ideologicalOrder?: string[];
+  /** MMP only: Direktmandat winner per Wahlkreis. */
+  wahlkreise?: ResultsWahlkreis[];
   sources: string[];
 }

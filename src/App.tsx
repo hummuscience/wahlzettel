@@ -28,6 +28,7 @@ import { ResultsSummary } from './components/results/ResultsSummary';
 import { ResultsSeatsPanel } from './components/results/ResultsSeatsPanel';
 import { ResultsCoalitionsPanel } from './components/results/ResultsCoalitionsPanel';
 import { getElectionMode } from './utils/electionMode';
+import { ResultsOnlyView } from './components/results/ResultsOnlyView';
 import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
 import type { Mmp2VoteData } from './archetypes/mmp-2vote';
 import { Ballot as ClosedListBallot } from './archetypes/closed-list';
@@ -293,6 +294,26 @@ function App() {
         </main>
         <Footer />
       </div>
+    );
+  }
+
+  // Archetypes without a results-aware ballot: after election day, swap the
+  // ballot for the party-level results screen (no candidate data needed).
+  if (
+    (electionConfig.ballotKind === 'mmp-2vote' || electionConfig.ballotKind === 'closed-list')
+    && electionResults
+    && getElectionMode(electionConfig, electionResults) === 'post'
+  ) {
+    return (
+      <ElectionProvider config={electionConfig}>
+        <div className="min-h-screen flex flex-col">
+          <Header onSwitchBallot={handleSwitchBallot} />
+          <main className="flex-1">
+            <ResultsOnlyView config={electionConfig} results={electionResults} />
+          </main>
+          <Footer />
+        </div>
+      </ElectionProvider>
     );
   }
 

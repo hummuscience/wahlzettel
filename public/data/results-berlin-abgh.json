@@ -1,0 +1,2616 @@
+{
+  "election": "berlin-abgh",
+  "stand": "2026-09-21",
+  "status": "vorläufig",
+  "totalSeats": 158,
+  "totals": {
+    "validVotes": 1824514,
+    "validBallots": 1824514,
+    "wahlberechtigte": 2487318,
+    "waehlerGesamt": 1846170,
+    "ungueltigeStimmzettel": 21656,
+    "turnout": 74.2,
+    "kandidatenInsgesamt": null,
+    "frauenInsgesamt": null,
+    "ballotsWithListenkreuz": null,
+    "ballotsWithListenkreuzPercent": null
+  },
+  "parties": [
+    {
+      "listNumber": 4,
+      "shortName": "Die Linke",
+      "fullName": "Die Linke",
+      "color": "#5f316e",
+      "percent": 25.65,
+      "percentChange": 13.45,
+      "votesAbsolute": 468060,
+      "votesWeighted": null,
+      "seats": 47,
+      "direktmandate": 28,
+      "erststimmen": {
+        "votesAbsolute": 435898,
+        "percent": 24.05,
+        "percentChange": 11.74
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Diederich",
+          "firstName": "Leonard",
+          "via": "wahlkreis",
+          "wahlkreis": "Mitte 2"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Umgelter",
+          "firstName": "Dr. Andreas",
+          "via": "wahlkreis",
+          "wahlkreis": "Mitte 5"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kleedörfer",
+          "firstName": "Martha",
+          "via": "wahlkreis",
+          "wahlkreis": "Mitte 6"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Janssen",
+          "firstName": "Deike",
+          "via": "wahlkreis",
+          "wahlkreis": "Mitte 7"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Eralp",
+          "firstName": "Elif",
+          "via": "wahlkreis",
+          "wahlkreis": "Friedrichshain-Kreuzberg 1"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Efler",
+          "firstName": "Michael",
+          "via": "wahlkreis",
+          "wahlkreis": "Friedrichshain-Kreuzberg 2"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wolter-Ehling",
+          "firstName": "Kerstin",
+          "via": "wahlkreis",
+          "wahlkreis": "Friedrichshain-Kreuzberg 3"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Valgolio",
+          "firstName": "Damiano",
+          "via": "wahlkreis",
+          "wahlkreis": "Friedrichshain-Kreuzberg 4"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Spiegel",
+          "firstName": "Ekkehard",
+          "via": "wahlkreis",
+          "wahlkreis": "Friedrichshain-Kreuzberg 5"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Zebisch",
+          "firstName": "Christian",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 3"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Springob",
+          "firstName": "Enja",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 5"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bigos",
+          "firstName": "Maria",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 6"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schrader",
+          "firstName": "Niklas",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 7"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schirmer",
+          "firstName": "Maximilian",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 9"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schenker",
+          "firstName": "Niklas",
+          "via": "wahlkreis",
+          "wahlkreis": "Charlottenburg-Wilmersdorf 1"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wulfes",
+          "firstName": "Thomas",
+          "via": "wahlkreis",
+          "wahlkreis": "Spandau 3"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bremer",
+          "firstName": "Sarah",
+          "via": "wahlkreis",
+          "wahlkreis": "Tempelhof-Schöneberg 4"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Emde",
+          "firstName": "Vanessa",
+          "via": "wahlkreis",
+          "wahlkreis": "Neukölln 1"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Dehne",
+          "firstName": "Philipp-Martin",
+          "via": "wahlkreis",
+          "wahlkreis": "Neukölln 2"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Taheri",
+          "firstName": "Rouzbeh",
+          "via": "wahlkreis",
+          "wahlkreis": "Neukölln 3"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Warnke",
+          "firstName": "Moritz",
+          "via": "wahlkreis",
+          "wahlkreis": "Treptow-Köpenick 1"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Pfitzmann",
+          "firstName": "Lisa",
+          "via": "wahlkreis",
+          "wahlkreis": "Treptow-Köpenick 2"
+        },
+        {
+          "position": 23,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kromrey",
+          "firstName": "Dr. Hans",
+          "via": "wahlkreis",
+          "wahlkreis": "Treptow-Köpenick 7"
+        },
+        {
+          "position": 24,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Engelmann",
+          "firstName": "Claudia",
+          "via": "wahlkreis",
+          "wahlkreis": "Lichtenberg 3"
+        },
+        {
+          "position": 25,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Leonhardt",
+          "firstName": "Antonio",
+          "via": "wahlkreis",
+          "wahlkreis": "Lichtenberg 4"
+        },
+        {
+          "position": 26,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Klein",
+          "firstName": "Hendrikje",
+          "via": "wahlkreis",
+          "wahlkreis": "Lichtenberg 5"
+        },
+        {
+          "position": 27,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Behrens",
+          "firstName": "Julia",
+          "via": "wahlkreis",
+          "wahlkreis": "Lichtenberg 6"
+        },
+        {
+          "position": 28,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Caballero Alvarez",
+          "firstName": "Pilar",
+          "via": "wahlkreis",
+          "wahlkreis": "Reinickendorf 1"
+        },
+        {
+          "position": 29,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schulze",
+          "firstName": "Tobias",
+          "via": "liste"
+        },
+        {
+          "position": 30,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Cichon",
+          "firstName": "Ruby",
+          "via": "liste"
+        },
+        {
+          "position": 31,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Häber",
+          "firstName": "Maxi",
+          "via": "liste"
+        },
+        {
+          "position": 32,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Aglibut",
+          "firstName": "Coco",
+          "via": "liste"
+        },
+        {
+          "position": 33,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Radde",
+          "firstName": "Sonja",
+          "via": "liste"
+        },
+        {
+          "position": 34,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gronde-Brunner",
+          "firstName": "Frederike-Sophie",
+          "via": "liste"
+        },
+        {
+          "position": 35,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Atakul",
+          "firstName": "Ender",
+          "via": "liste"
+        },
+        {
+          "position": 36,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Otto",
+          "firstName": "Marcus",
+          "via": "liste"
+        },
+        {
+          "position": 37,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Brychcy",
+          "firstName": "Franziska",
+          "via": "liste"
+        },
+        {
+          "position": 38,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Günter",
+          "firstName": "Dr. Bettina",
+          "via": "liste"
+        },
+        {
+          "position": 39,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Marg",
+          "firstName": "Katharina",
+          "via": "liste"
+        },
+        {
+          "position": 40,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Staudt",
+          "firstName": "Elisabeth",
+          "via": "liste"
+        },
+        {
+          "position": 41,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Șenyüz",
+          "firstName": "Asya",
+          "via": "liste"
+        },
+        {
+          "position": 42,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Yilmaz-Bergk",
+          "firstName": "Betül Havva",
+          "via": "liste"
+        },
+        {
+          "position": 43,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Terkan",
+          "firstName": "Eda",
+          "via": "liste"
+        },
+        {
+          "position": 44,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ostehr",
+          "firstName": "Steffen",
+          "via": "liste"
+        },
+        {
+          "position": 45,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tielebein",
+          "firstName": "Björn",
+          "via": "liste"
+        },
+        {
+          "position": 46,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bigall",
+          "firstName": "Sarah",
+          "via": "liste"
+        },
+        {
+          "position": 47,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gerke",
+          "firstName": "Jessica",
+          "via": "liste"
+        }
+      ]
+    },
+    {
+      "listNumber": 1,
+      "shortName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
+      "color": "#576164",
+      "percent": 18.77,
+      "percentChange": -9.46,
+      "votesAbsolute": 342516,
+      "votesWeighted": null,
+      "seats": 34,
+      "direktmandate": 27,
+      "erststimmen": {
+        "votesAbsolute": 367302,
+        "percent": 20.27,
+        "percentChange": -9.45
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kraft",
+          "firstName": "Johannes",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 1"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bocian",
+          "firstName": "Lars",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 2"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hack",
+          "firstName": "Ariturel",
+          "via": "wahlkreis",
+          "wahlkreis": "Charlottenburg-Wilmersdorf 2"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Niemczyk",
+          "firstName": "Aldona",
+          "via": "wahlkreis",
+          "wahlkreis": "Charlottenburg-Wilmersdorf 4"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Khalatbari",
+          "firstName": "Sandra",
+          "via": "wahlkreis",
+          "wahlkreis": "Charlottenburg-Wilmersdorf 5"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Badenberg",
+          "firstName": "Dr. Felor",
+          "via": "wahlkreis",
+          "wahlkreis": "Charlottenburg-Wilmersdorf 7"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Meißner",
+          "firstName": "Bettina",
+          "via": "wahlkreis",
+          "wahlkreis": "Spandau 1"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Melzer",
+          "firstName": "Heiko",
+          "via": "wahlkreis",
+          "wahlkreis": "Spandau 4"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wegner",
+          "firstName": "Kai",
+          "via": "wahlkreis",
+          "wahlkreis": "Spandau 5"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Cywinski",
+          "firstName": "Tom",
+          "via": "wahlkreis",
+          "wahlkreis": "Steglitz-Zehlendorf 2"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hoffmann",
+          "firstName": "Jens",
+          "via": "wahlkreis",
+          "wahlkreis": "Steglitz-Zehlendorf 3"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Seibeld",
+          "firstName": "Cornelia",
+          "via": "wahlkreis",
+          "wahlkreis": "Steglitz-Zehlendorf 4"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hahnfeld",
+          "firstName": "Marco",
+          "via": "wahlkreis",
+          "wahlkreis": "Steglitz-Zehlendorf 5"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wegener",
+          "firstName": "Christoph",
+          "via": "wahlkreis",
+          "wahlkreis": "Steglitz-Zehlendorf 6"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Standfuß",
+          "firstName": "Stephan",
+          "via": "wahlkreis",
+          "wahlkreis": "Steglitz-Zehlendorf 7"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Simon",
+          "firstName": "Roman",
+          "via": "wahlkreis",
+          "wahlkreis": "Tempelhof-Schöneberg 5"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Körber",
+          "firstName": "Scott",
+          "via": "wahlkreis",
+          "wahlkreis": "Tempelhof-Schöneberg 6"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Zander",
+          "firstName": "Christian",
+          "via": "wahlkreis",
+          "wahlkreis": "Tempelhof-Schöneberg 7"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Förster",
+          "firstName": "Christopher",
+          "via": "wahlkreis",
+          "wahlkreis": "Neukölln 4"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Juhnke",
+          "firstName": "Dr. Robbin",
+          "via": "wahlkreis",
+          "wahlkreis": "Neukölln 5"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schenk",
+          "firstName": "Olaf",
+          "via": "wahlkreis",
+          "wahlkreis": "Neukölln 6"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Günther-Wünsch",
+          "firstName": "Katharina",
+          "via": "wahlkreis",
+          "wahlkreis": "Marzahn-Hellersdorf 5"
+        },
+        {
+          "position": 23,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Pätzold",
+          "firstName": "Dr. Martin",
+          "via": "wahlkreis",
+          "wahlkreis": "Lichtenberg 2"
+        },
+        {
+          "position": 24,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schönebeck",
+          "firstName": "Felix",
+          "via": "wahlkreis",
+          "wahlkreis": "Reinickendorf 2"
+        },
+        {
+          "position": 25,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Graßelt",
+          "firstName": "Niklas",
+          "via": "wahlkreis",
+          "wahlkreis": "Reinickendorf 3"
+        },
+        {
+          "position": 26,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Klon",
+          "firstName": "Tomasz",
+          "via": "wahlkreis",
+          "wahlkreis": "Reinickendorf 4"
+        },
+        {
+          "position": 27,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gamp",
+          "firstName": "Richard",
+          "via": "wahlkreis",
+          "wahlkreis": "Reinickendorf 6"
+        },
+        {
+          "position": 28,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schaal",
+          "firstName": "Lucas",
+          "via": "liste"
+        },
+        {
+          "position": 29,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Rissmann",
+          "firstName": "Sven Nico",
+          "via": "liste"
+        },
+        {
+          "position": 30,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wansner",
+          "firstName": "Kurt",
+          "via": "liste"
+        },
+        {
+          "position": 31,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Evers",
+          "firstName": "Stefan",
+          "via": "liste"
+        },
+        {
+          "position": 32,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Penn",
+          "firstName": "Maik",
+          "via": "liste"
+        },
+        {
+          "position": 33,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Herrmann",
+          "firstName": "Alexander",
+          "via": "liste"
+        },
+        {
+          "position": 34,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Freymark",
+          "firstName": "Danny",
+          "via": "liste"
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "color": "#80cdec",
+      "percent": 16.26,
+      "percentChange": 7.17,
+      "votesAbsolute": 296601,
+      "votesWeighted": null,
+      "seats": 29,
+      "direktmandate": 12,
+      "erststimmen": {
+        "votesAbsolute": 289372,
+        "percent": 15.97,
+        "percentChange": 6.96
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Mohr",
+          "firstName": "Herbert",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 4"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Otti",
+          "firstName": "Andreas",
+          "via": "wahlkreis",
+          "wahlkreis": "Spandau 2"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bertram",
+          "firstName": "Alexander",
+          "via": "wahlkreis",
+          "wahlkreis": "Treptow-Köpenick 4"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Henkel",
+          "firstName": "Denis",
+          "via": "wahlkreis",
+          "wahlkreis": "Treptow-Köpenick 5"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Trefzer",
+          "firstName": "Martin",
+          "via": "wahlkreis",
+          "wahlkreis": "Treptow-Köpenick 6"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Lindemann",
+          "firstName": "Gunnar",
+          "via": "wahlkreis",
+          "wahlkreis": "Marzahn-Hellersdorf 1"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Dummer",
+          "firstName": "Anneliese",
+          "via": "wahlkreis",
+          "wahlkreis": "Marzahn-Hellersdorf 2"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Auricht",
+          "firstName": "Jeannette",
+          "via": "wahlkreis",
+          "wahlkreis": "Marzahn-Hellersdorf 3"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Koblischke",
+          "firstName": "Martin",
+          "via": "wahlkreis",
+          "wahlkreis": "Marzahn-Hellersdorf 4"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Geißler",
+          "firstName": "Jörn",
+          "via": "wahlkreis",
+          "wahlkreis": "Marzahn-Hellersdorf 6"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Knaute",
+          "firstName": "Stephan",
+          "via": "wahlkreis",
+          "wahlkreis": "Lichtenberg 1"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ubbelohde",
+          "firstName": "Carsten",
+          "via": "wahlkreis",
+          "wahlkreis": "Reinickendorf 5"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kohler",
+          "firstName": "Martin",
+          "via": "liste"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Scheermesser",
+          "firstName": "Frank",
+          "via": "liste"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Eckert",
+          "firstName": "David",
+          "via": "liste"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Adrat",
+          "firstName": "Julian",
+          "via": "liste"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Brinker",
+          "firstName": "Dr. Kristin",
+          "via": "liste"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Krüger",
+          "firstName": "Daniel",
+          "via": "liste"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gröber",
+          "firstName": "Sarah-Emanuela",
+          "via": "liste"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bronson",
+          "firstName": "Dr. Hugh",
+          "via": "liste"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Conradi",
+          "firstName": "Dr. Ralf-Günther",
+          "via": "liste"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bernicke",
+          "firstName": "Marc-Philipp",
+          "via": "liste"
+        },
+        {
+          "position": 23,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Vallendar",
+          "firstName": "Marc",
+          "via": "liste"
+        },
+        {
+          "position": 24,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hansel",
+          "firstName": "Frank-Christian",
+          "via": "liste"
+        },
+        {
+          "position": 25,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Eschricht",
+          "firstName": "Robert",
+          "via": "liste"
+        },
+        {
+          "position": 26,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wiedenhaupt",
+          "firstName": "Rolf",
+          "via": "liste"
+        },
+        {
+          "position": 27,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Pauli",
+          "firstName": "Hendrik",
+          "via": "liste"
+        },
+        {
+          "position": 28,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tabor",
+          "firstName": "Tommy",
+          "via": "liste"
+        },
+        {
+          "position": 29,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Streeck",
+          "firstName": "Jan-Philip",
+          "via": "liste"
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "color": "#008549",
+      "percent": 14.29,
+      "percentChange": -4.1,
+      "votesAbsolute": 260700,
+      "votesWeighted": null,
+      "seats": 26,
+      "direktmandate": 10,
+      "erststimmen": {
+        "votesAbsolute": 297065,
+        "percent": 16.39,
+        "percentChange": -2.76
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gebel",
+          "firstName": "Silke",
+          "via": "wahlkreis",
+          "wahlkreis": "Mitte 1"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Omar",
+          "firstName": "Jian",
+          "via": "wahlkreis",
+          "wahlkreis": "Mitte 3"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kurt",
+          "firstName": "Taylan",
+          "via": "wahlkreis",
+          "wahlkreis": "Mitte 4"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Billig",
+          "firstName": "Daniela",
+          "via": "wahlkreis",
+          "wahlkreis": "Pankow 8"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Vandrey",
+          "firstName": "Dr. Petra",
+          "via": "wahlkreis",
+          "wahlkreis": "Charlottenburg-Wilmersdorf 3"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Zimmer",
+          "firstName": "Jakob",
+          "via": "wahlkreis",
+          "wahlkreis": "Charlottenburg-Wilmersdorf 6"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wojahn",
+          "firstName": "Tonka",
+          "via": "wahlkreis",
+          "wahlkreis": "Steglitz-Zehlendorf 1"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Walter",
+          "firstName": "Sebastian",
+          "via": "wahlkreis",
+          "wahlkreis": "Tempelhof-Schöneberg 1"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Zander-Rade",
+          "firstName": "Martina",
+          "via": "wahlkreis",
+          "wahlkreis": "Tempelhof-Schöneberg 2"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Störmer",
+          "firstName": "Christoph",
+          "via": "wahlkreis",
+          "wahlkreis": "Tempelhof-Schöneberg 3"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schumacher",
+          "firstName": "Elina",
+          "via": "liste"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ahmadi",
+          "firstName": "Gollaleh",
+          "via": "liste"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schulze",
+          "firstName": "André",
+          "via": "liste"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ghirmai",
+          "firstName": "Philmon",
+          "via": "liste"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Haghanipour",
+          "firstName": "Bahar",
+          "via": "liste"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hassepaß",
+          "firstName": "Oda",
+          "via": "liste"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schedlich",
+          "firstName": "Klara Josephine",
+          "via": "liste"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Grothe",
+          "firstName": "Pascal",
+          "via": "liste"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Graf",
+          "firstName": "Werner",
+          "via": "liste"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schmidt",
+          "firstName": "Bogusz",
+          "via": "liste"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ehlers",
+          "firstName": "Daniela",
+          "via": "liste"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Steinmetz",
+          "firstName": "Charlotte",
+          "via": "liste"
+        },
+        {
+          "position": 23,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kapek",
+          "firstName": "Antje",
+          "via": "liste"
+        },
+        {
+          "position": 24,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Jarasch",
+          "firstName": "Bettina",
+          "via": "liste"
+        },
+        {
+          "position": 25,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ebrahimpour Mirzaie",
+          "firstName": "Ario",
+          "via": "liste"
+        },
+        {
+          "position": 26,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wapler",
+          "firstName": "Christoph",
+          "via": "liste"
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "color": "#c0003d",
+      "percent": 12.11,
+      "percentChange": -6.28,
+      "votesAbsolute": 220939,
+      "votesWeighted": null,
+      "seats": 22,
+      "direktmandate": 1,
+      "erststimmen": {
+        "votesAbsolute": 248501,
+        "percent": 13.71,
+        "percentChange": -6.22
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Düsterhöft",
+          "firstName": "Lars",
+          "via": "wahlkreis",
+          "wahlkreis": "Treptow-Köpenick 3"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schulz",
+          "firstName": "Mathias",
+          "via": "liste"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Lasić",
+          "firstName": "Dr. Maja",
+          "via": "liste"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Aydin",
+          "firstName": "Sevim",
+          "via": "liste"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tietje",
+          "firstName": "Rona",
+          "via": "liste"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Buchner",
+          "firstName": "Dennis",
+          "via": "liste"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Dörstelmann",
+          "firstName": "Florian",
+          "via": "liste"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Biewener",
+          "firstName": "Dr. Ann-Kathrin",
+          "via": "liste"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Saleh",
+          "firstName": "Raed",
+          "via": "liste"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Atli",
+          "firstName": "Sebahat",
+          "via": "liste"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Krach",
+          "firstName": "Steffen",
+          "via": "liste"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Czyborra",
+          "firstName": "Dr. Ina",
+          "via": "liste"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Matz",
+          "firstName": "Martin",
+          "via": "liste"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Neumann",
+          "firstName": "Wiebke",
+          "via": "liste"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Özdemir",
+          "firstName": "Orkan",
+          "via": "liste"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Çağlar",
+          "firstName": "Derya",
+          "via": "liste"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hopp",
+          "firstName": "Marcel",
+          "via": "liste"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Dittmar",
+          "firstName": "Julia",
+          "via": "liste"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Spranger",
+          "firstName": "Iris",
+          "via": "liste"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Lüdke",
+          "firstName": "Tamara",
+          "via": "liste"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "König",
+          "firstName": "Bettina",
+          "via": "liste"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Meyer",
+          "firstName": "Sven",
+          "via": "liste"
+        }
+      ]
+    },
+    {
+      "listNumber": 16,
+      "shortName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit",
+      "color": "#cd386c",
+      "percent": 4.72,
+      "percentChange": 4.72,
+      "votesAbsolute": 86041,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 75788,
+        "percent": 4.18,
+        "percentChange": 4.18
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 6,
+      "shortName": "FDP",
+      "fullName": "Freie Demokratische Partei",
+      "color": "#f7bc3d",
+      "percent": 2.54,
+      "percentChange": -2.1,
+      "votesAbsolute": 46341,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 40370,
+        "percent": 2.23,
+        "percentChange": -1.63
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 7,
+      "shortName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH KLIMA TIERSCHUTZ",
+      "color": "#c0ca31",
+      "percent": 2.12,
+      "percentChange": -0.27,
+      "votesAbsolute": 38642,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 10232,
+        "percent": 0.56,
+        "percentChange": -2.34
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 9,
+      "shortName": "Volt",
+      "fullName": "Volt Deutschland",
+      "color": "#6f30a7",
+      "percent": 2.08,
+      "percentChange": 1.15,
+      "votesAbsolute": 37880,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 40598,
+        "percent": 2.24,
+        "percentChange": 2.24
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 8,
+      "shortName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "color": "#b51f29",
+      "percent": 0.74,
+      "percentChange": -0.68,
+      "votesAbsolute": 13536,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 4781,
+        "percent": 0.26,
+        "percentChange": -1.39
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 17,
+      "shortName": "PdF",
+      "fullName": "Partei des Fortschritts",
+      "color": "#858585",
+      "percent": 0.32,
+      "percentChange": 0.32,
+      "votesAbsolute": 5760,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 12,
+      "shortName": "ÖDP",
+      "fullName": "Ökologisch-Demokratische Partei",
+      "color": "#f9df3a",
+      "percent": 0.14,
+      "percentChange": 0.03,
+      "votesAbsolute": 2560,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 11,
+      "shortName": "DKP",
+      "fullName": "Deutsche Kommunistische Partei",
+      "color": "#858585",
+      "percent": 0.11,
+      "percentChange": -0.05,
+      "votesAbsolute": 2070,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 252,
+        "percent": 0.01,
+        "percentChange": 0.01
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 10,
+      "shortName": "Die Urbane.",
+      "fullName": "Die Urbane. Eine HipHop Partei",
+      "color": "#858585",
+      "percent": 0.09,
+      "percentChange": -0.11,
+      "votesAbsolute": 1551,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 15,
+      "shortName": "SGP",
+      "fullName": "Sozialistische Gleichheitspartei, Vierte Internationale",
+      "color": "#858585",
+      "percent": 0.04,
+      "percentChange": -0.01,
+      "votesAbsolute": 716,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 13,
+      "shortName": "HEIMAT",
+      "fullName": "Die Heimat",
+      "color": "#ca8831",
+      "percent": 0.03,
+      "percentChange": -0.08,
+      "votesAbsolute": 521,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 14,
+      "shortName": "B*",
+      "fullName": "bergpartei, die überpartei",
+      "color": "#858585",
+      "percent": 0.0,
+      "percentChange": -0.07,
+      "votesAbsolute": 80,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 43,
+        "percent": 0.0,
+        "percentChange": 0.0
+      },
+      "candidates": []
+    }
+  ],
+  "wahlkreise": [
+    {
+      "id": "0101",
+      "name": "Mitte 1",
+      "bezirk": "Mitte",
+      "winner": {
+        "lastName": "Gebel",
+        "firstName": "Silke",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0102",
+      "name": "Mitte 2",
+      "bezirk": "Mitte",
+      "winner": {
+        "lastName": "Diederich",
+        "firstName": "Leonard",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0103",
+      "name": "Mitte 3",
+      "bezirk": "Mitte",
+      "winner": {
+        "lastName": "Omar",
+        "firstName": "Jian",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0104",
+      "name": "Mitte 4",
+      "bezirk": "Mitte",
+      "winner": {
+        "lastName": "Kurt",
+        "firstName": "Taylan",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0105",
+      "name": "Mitte 5",
+      "bezirk": "Mitte",
+      "winner": {
+        "lastName": "Umgelter",
+        "firstName": "Dr. Andreas",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0106",
+      "name": "Mitte 6",
+      "bezirk": "Mitte",
+      "winner": {
+        "lastName": "Kleedörfer",
+        "firstName": "Martha",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0107",
+      "name": "Mitte 7",
+      "bezirk": "Mitte",
+      "winner": {
+        "lastName": "Janssen",
+        "firstName": "Deike",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0201",
+      "name": "Friedrichshain-Kreuzberg 1",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "winner": {
+        "lastName": "Eralp",
+        "firstName": "Elif",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0202",
+      "name": "Friedrichshain-Kreuzberg 2",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "winner": {
+        "lastName": "Efler",
+        "firstName": "Michael",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0203",
+      "name": "Friedrichshain-Kreuzberg 3",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "winner": {
+        "lastName": "Wolter-Ehling",
+        "firstName": "Kerstin",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0204",
+      "name": "Friedrichshain-Kreuzberg 4",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "winner": {
+        "lastName": "Valgolio",
+        "firstName": "Damiano",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0205",
+      "name": "Friedrichshain-Kreuzberg 5",
+      "bezirk": "Friedrichshain-Kreuzberg",
+      "winner": {
+        "lastName": "Spiegel",
+        "firstName": "Ekkehard",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0301",
+      "name": "Pankow 1",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Kraft",
+        "firstName": "Johannes",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0302",
+      "name": "Pankow 2",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Bocian",
+        "firstName": "Lars",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0303",
+      "name": "Pankow 3",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Zebisch",
+        "firstName": "Christian",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0304",
+      "name": "Pankow 4",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Mohr",
+        "firstName": "Herbert",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "0305",
+      "name": "Pankow 5",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Springob",
+        "firstName": "Enja",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0306",
+      "name": "Pankow 6",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Bigos",
+        "firstName": "Maria",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0307",
+      "name": "Pankow 7",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Schrader",
+        "firstName": "Niklas",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0308",
+      "name": "Pankow 8",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Billig",
+        "firstName": "Daniela",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0309",
+      "name": "Pankow 9",
+      "bezirk": "Pankow",
+      "winner": {
+        "lastName": "Schirmer",
+        "firstName": "Maximilian",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0401",
+      "name": "Charlottenburg-Wilmersdorf 1",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "winner": {
+        "lastName": "Schenker",
+        "firstName": "Niklas",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0402",
+      "name": "Charlottenburg-Wilmersdorf 2",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "winner": {
+        "lastName": "Hack",
+        "firstName": "Ariturel",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0403",
+      "name": "Charlottenburg-Wilmersdorf 3",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "winner": {
+        "lastName": "Vandrey",
+        "firstName": "Dr. Petra",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0404",
+      "name": "Charlottenburg-Wilmersdorf 4",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "winner": {
+        "lastName": "Niemczyk",
+        "firstName": "Aldona",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0405",
+      "name": "Charlottenburg-Wilmersdorf 5",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "winner": {
+        "lastName": "Khalatbari",
+        "firstName": "Sandra",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0406",
+      "name": "Charlottenburg-Wilmersdorf 6",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "winner": {
+        "lastName": "Zimmer",
+        "firstName": "Jakob",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0407",
+      "name": "Charlottenburg-Wilmersdorf 7",
+      "bezirk": "Charlottenburg-Wilmersdorf",
+      "winner": {
+        "lastName": "Badenberg",
+        "firstName": "Dr. Felor",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0501",
+      "name": "Spandau 1",
+      "bezirk": "Spandau",
+      "winner": {
+        "lastName": "Meißner",
+        "firstName": "Bettina",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0502",
+      "name": "Spandau 2",
+      "bezirk": "Spandau",
+      "winner": {
+        "lastName": "Otti",
+        "firstName": "Andreas",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "0503",
+      "name": "Spandau 3",
+      "bezirk": "Spandau",
+      "winner": {
+        "lastName": "Wulfes",
+        "firstName": "Thomas",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0504",
+      "name": "Spandau 4",
+      "bezirk": "Spandau",
+      "winner": {
+        "lastName": "Melzer",
+        "firstName": "Heiko",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0505",
+      "name": "Spandau 5",
+      "bezirk": "Spandau",
+      "winner": {
+        "lastName": "Wegner",
+        "firstName": "Kai",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0601",
+      "name": "Steglitz-Zehlendorf 1",
+      "bezirk": "Steglitz-Zehlendorf",
+      "winner": {
+        "lastName": "Wojahn",
+        "firstName": "Tonka",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0602",
+      "name": "Steglitz-Zehlendorf 2",
+      "bezirk": "Steglitz-Zehlendorf",
+      "winner": {
+        "lastName": "Cywinski",
+        "firstName": "Tom",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0603",
+      "name": "Steglitz-Zehlendorf 3",
+      "bezirk": "Steglitz-Zehlendorf",
+      "winner": {
+        "lastName": "Hoffmann",
+        "firstName": "Jens",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0604",
+      "name": "Steglitz-Zehlendorf 4",
+      "bezirk": "Steglitz-Zehlendorf",
+      "winner": {
+        "lastName": "Seibeld",
+        "firstName": "Cornelia",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0605",
+      "name": "Steglitz-Zehlendorf 5",
+      "bezirk": "Steglitz-Zehlendorf",
+      "winner": {
+        "lastName": "Hahnfeld",
+        "firstName": "Marco",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0606",
+      "name": "Steglitz-Zehlendorf 6",
+      "bezirk": "Steglitz-Zehlendorf",
+      "winner": {
+        "lastName": "Wegener",
+        "firstName": "Christoph",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0607",
+      "name": "Steglitz-Zehlendorf 7",
+      "bezirk": "Steglitz-Zehlendorf",
+      "winner": {
+        "lastName": "Standfuß",
+        "firstName": "Stephan",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0701",
+      "name": "Tempelhof-Schöneberg 1",
+      "bezirk": "Tempelhof-Schöneberg",
+      "winner": {
+        "lastName": "Walter",
+        "firstName": "Sebastian",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0702",
+      "name": "Tempelhof-Schöneberg 2",
+      "bezirk": "Tempelhof-Schöneberg",
+      "winner": {
+        "lastName": "Zander-Rade",
+        "firstName": "Martina",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0703",
+      "name": "Tempelhof-Schöneberg 3",
+      "bezirk": "Tempelhof-Schöneberg",
+      "winner": {
+        "lastName": "Störmer",
+        "firstName": "Christoph",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "0704",
+      "name": "Tempelhof-Schöneberg 4",
+      "bezirk": "Tempelhof-Schöneberg",
+      "winner": {
+        "lastName": "Bremer",
+        "firstName": "Sarah",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0705",
+      "name": "Tempelhof-Schöneberg 5",
+      "bezirk": "Tempelhof-Schöneberg",
+      "winner": {
+        "lastName": "Simon",
+        "firstName": "Roman",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0706",
+      "name": "Tempelhof-Schöneberg 6",
+      "bezirk": "Tempelhof-Schöneberg",
+      "winner": {
+        "lastName": "Körber",
+        "firstName": "Scott",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0707",
+      "name": "Tempelhof-Schöneberg 7",
+      "bezirk": "Tempelhof-Schöneberg",
+      "winner": {
+        "lastName": "Zander",
+        "firstName": "Christian",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0801",
+      "name": "Neukölln 1",
+      "bezirk": "Neukölln",
+      "winner": {
+        "lastName": "Emde",
+        "firstName": "Vanessa",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0802",
+      "name": "Neukölln 2",
+      "bezirk": "Neukölln",
+      "winner": {
+        "lastName": "Dehne",
+        "firstName": "Philipp-Martin",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0803",
+      "name": "Neukölln 3",
+      "bezirk": "Neukölln",
+      "winner": {
+        "lastName": "Taheri",
+        "firstName": "Rouzbeh",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0804",
+      "name": "Neukölln 4",
+      "bezirk": "Neukölln",
+      "winner": {
+        "lastName": "Förster",
+        "firstName": "Christopher",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0805",
+      "name": "Neukölln 5",
+      "bezirk": "Neukölln",
+      "winner": {
+        "lastName": "Juhnke",
+        "firstName": "Dr. Robbin",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0806",
+      "name": "Neukölln 6",
+      "bezirk": "Neukölln",
+      "winner": {
+        "lastName": "Schenk",
+        "firstName": "Olaf",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "0901",
+      "name": "Treptow-Köpenick 1",
+      "bezirk": "Treptow-Köpenick",
+      "winner": {
+        "lastName": "Warnke",
+        "firstName": "Moritz",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0902",
+      "name": "Treptow-Köpenick 2",
+      "bezirk": "Treptow-Köpenick",
+      "winner": {
+        "lastName": "Pfitzmann",
+        "firstName": "Lisa",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "0903",
+      "name": "Treptow-Köpenick 3",
+      "bezirk": "Treptow-Köpenick",
+      "winner": {
+        "lastName": "Düsterhöft",
+        "firstName": "Lars",
+        "party": "SPD"
+      }
+    },
+    {
+      "id": "0904",
+      "name": "Treptow-Köpenick 4",
+      "bezirk": "Treptow-Köpenick",
+      "winner": {
+        "lastName": "Bertram",
+        "firstName": "Alexander",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "0905",
+      "name": "Treptow-Köpenick 5",
+      "bezirk": "Treptow-Köpenick",
+      "winner": {
+        "lastName": "Henkel",
+        "firstName": "Denis",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "0906",
+      "name": "Treptow-Köpenick 6",
+      "bezirk": "Treptow-Köpenick",
+      "winner": {
+        "lastName": "Trefzer",
+        "firstName": "Martin",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "0907",
+      "name": "Treptow-Köpenick 7",
+      "bezirk": "Treptow-Köpenick",
+      "winner": {
+        "lastName": "Kromrey",
+        "firstName": "Dr. Hans",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "1001",
+      "name": "Marzahn-Hellersdorf 1",
+      "bezirk": "Marzahn-Hellersdorf",
+      "winner": {
+        "lastName": "Lindemann",
+        "firstName": "Gunnar",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "1002",
+      "name": "Marzahn-Hellersdorf 2",
+      "bezirk": "Marzahn-Hellersdorf",
+      "winner": {
+        "lastName": "Dummer",
+        "firstName": "Anneliese",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "1003",
+      "name": "Marzahn-Hellersdorf 3",
+      "bezirk": "Marzahn-Hellersdorf",
+      "winner": {
+        "lastName": "Auricht",
+        "firstName": "Jeannette",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "1004",
+      "name": "Marzahn-Hellersdorf 4",
+      "bezirk": "Marzahn-Hellersdorf",
+      "winner": {
+        "lastName": "Koblischke",
+        "firstName": "Martin",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "1005",
+      "name": "Marzahn-Hellersdorf 5",
+      "bezirk": "Marzahn-Hellersdorf",
+      "winner": {
+        "lastName": "Günther-Wünsch",
+        "firstName": "Katharina",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "1006",
+      "name": "Marzahn-Hellersdorf 6",
+      "bezirk": "Marzahn-Hellersdorf",
+      "winner": {
+        "lastName": "Geißler",
+        "firstName": "Jörn",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "1101",
+      "name": "Lichtenberg 1",
+      "bezirk": "Lichtenberg",
+      "winner": {
+        "lastName": "Knaute",
+        "firstName": "Stephan",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "1102",
+      "name": "Lichtenberg 2",
+      "bezirk": "Lichtenberg",
+      "winner": {
+        "lastName": "Pätzold",
+        "firstName": "Dr. Martin",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "1103",
+      "name": "Lichtenberg 3",
+      "bezirk": "Lichtenberg",
+      "winner": {
+        "lastName": "Engelmann",
+        "firstName": "Claudia",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "1104",
+      "name": "Lichtenberg 4",
+      "bezirk": "Lichtenberg",
+      "winner": {
+        "lastName": "Leonhardt",
+        "firstName": "Antonio",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "1105",
+      "name": "Lichtenberg 5",
+      "bezirk": "Lichtenberg",
+      "winner": {
+        "lastName": "Klein",
+        "firstName": "Hendrikje",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "1106",
+      "name": "Lichtenberg 6",
+      "bezirk": "Lichtenberg",
+      "winner": {
+        "lastName": "Behrens",
+        "firstName": "Julia",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "1201",
+      "name": "Reinickendorf 1",
+      "bezirk": "Reinickendorf",
+      "winner": {
+        "lastName": "Caballero Alvarez",
+        "firstName": "Pilar",
+        "party": "Die Linke"
+      }
+    },
+    {
+      "id": "1202",
+      "name": "Reinickendorf 2",
+      "bezirk": "Reinickendorf",
+      "winner": {
+        "lastName": "Schönebeck",
+        "firstName": "Felix",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "1203",
+      "name": "Reinickendorf 3",
+      "bezirk": "Reinickendorf",
+      "winner": {
+        "lastName": "Graßelt",
+        "firstName": "Niklas",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "1204",
+      "name": "Reinickendorf 4",
+      "bezirk": "Reinickendorf",
+      "winner": {
+        "lastName": "Klon",
+        "firstName": "Tomasz",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "1205",
+      "name": "Reinickendorf 5",
+      "bezirk": "Reinickendorf",
+      "winner": {
+        "lastName": "Ubbelohde",
+        "firstName": "Carsten",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "1206",
+      "name": "Reinickendorf 6",
+      "bezirk": "Reinickendorf",
+      "winner": {
+        "lastName": "Gamp",
+        "firstName": "Richard",
+        "party": "CDU"
+      }
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "DKP",
+    "SGP",
+    "Die PARTEI",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Die Urbane",
+    "Tierschutzpartei",
+    "ÖDP",
+    "PdF",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BSW",
+    "AfD",
+    "HEIMAT"
+  ],
+  "sources": [
+    "https://wahlen-berlin.de/wahlen/BE2026/Afspraes/agh/ergebnisse.html",
+    "https://wahlen-berlin.de/wahlen/BE2026/Afspraes/agh/gewaehlte.html"
+  ]
+}

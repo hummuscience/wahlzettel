@@ -1,0 +1,621 @@
+{
+  "election": "berlin-bvv-steglitz-zehlendorf",
+  "stand": "2026-09-21",
+  "status": "vorläufig",
+  "totalSeats": 55,
+  "totals": {
+    "validVotes": 175673,
+    "validBallots": 175673,
+    "wahlberechtigte": 231410,
+    "waehlerGesamt": 176807,
+    "ungueltigeStimmzettel": 1134,
+    "turnout": 76.4,
+    "kandidatenInsgesamt": null,
+    "frauenInsgesamt": null,
+    "ballotsWithListenkreuz": null,
+    "ballotsWithListenkreuzPercent": null
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
+      "color": "#576164",
+      "percent": 28.51,
+      "percentChange": -7.6,
+      "votesAbsolute": 50093,
+      "votesWeighted": null,
+      "seats": 18,
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Richter",
+          "firstName": "Tim"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Rögner-Francke",
+          "firstName": "Horst-René"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wirrwitz",
+          "firstName": "Karen"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Steinhoff",
+          "firstName": "Patrick"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Sijbrandij",
+          "firstName": "Małgorzata"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hippe",
+          "firstName": "Torsten"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hahnfeld",
+          "firstName": "Ute"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Lücke",
+          "firstName": "Bernhard"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Perduss",
+          "firstName": "Jeannine"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Voigt",
+          "firstName": "Sebastian"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Baumbach",
+          "firstName": "Barbara Maria"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Fröhlich",
+          "firstName": "Ralf"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Roll",
+          "firstName": "Beate"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kronhagel",
+          "firstName": "Jens"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Aras",
+          "firstName": "Fikriye"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Cywinski",
+          "firstName": "Daniel"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hamboch",
+          "firstName": "Claudia"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Mc Laughlin",
+          "firstName": "Michael"
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "color": "#008549",
+      "percent": 21.74,
+      "percentChange": 0.09,
+      "votesAbsolute": 38184,
+      "votesWeighted": null,
+      "seats": 13,
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kipf",
+          "firstName": "Ulrike"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Aykal",
+          "firstName": "Urban"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Martens",
+          "firstName": "Johanna"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kräß",
+          "firstName": "Alexander"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wagner",
+          "firstName": "Marianne"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Zeyrek",
+          "firstName": "Enis"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Jonjić",
+          "firstName": "Adrijana"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kosmas",
+          "firstName": "Dr. Konstantinos"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ruhl",
+          "firstName": "Klara"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Pauls",
+          "firstName": "Emil"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Vasiliades",
+          "firstName": "Birgit"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Krone",
+          "firstName": "Jonas"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Radtke",
+          "firstName": "Marlene"
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "color": "#c0003d",
+      "percent": 14.75,
+      "percentChange": -4.13,
+      "votesAbsolute": 25920,
+      "votesWeighted": null,
+      "seats": 9,
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Böhm",
+          "firstName": "Carolina"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Buchta",
+          "firstName": "Norbert"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Macmillan",
+          "firstName": "Carolyn"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ziffels",
+          "firstName": "Rainer"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Trau Beinert",
+          "firstName": "Kim Alexandra"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Focke",
+          "firstName": "Klaus"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Golm",
+          "firstName": "Salome"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Barriga Polzin",
+          "firstName": "Joel"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Trenczek",
+          "firstName": "Ellinor"
+        }
+      ]
+    },
+    {
+      "listNumber": 4,
+      "shortName": "Die Linke",
+      "fullName": "Die Linke",
+      "color": "#5f316e",
+      "percent": 12.61,
+      "percentChange": 7.93,
+      "votesAbsolute": 22161,
+      "votesWeighted": null,
+      "seats": 7,
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Egginger-Gonzalez",
+          "firstName": "Dr. Dennis"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "von Fumetti",
+          "firstName": "Emilia"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Günter",
+          "firstName": "Dr. Bettina"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Berger",
+          "firstName": "Søren"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Müller",
+          "firstName": "Klaus"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wiebelt",
+          "firstName": "Lara"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gruner",
+          "firstName": "Mathias"
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "color": "#80cdec",
+      "percent": 10.52,
+      "percentChange": 4.95,
+      "votesAbsolute": 18476,
+      "votesWeighted": null,
+      "seats": 6,
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Graffstädt",
+          "firstName": "Volker"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Päßler",
+          "firstName": "Frank"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Georgi",
+          "firstName": "Hans-Jürgen"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Döhnert",
+          "firstName": "Peer"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Estenried",
+          "firstName": "Yasmin"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hammermeister",
+          "firstName": "Jonas"
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "shortName": "FDP",
+      "fullName": "Freie Demokratische Partei",
+      "color": "#f7bc3d",
+      "percent": 4.06,
+      "percentChange": -2.48,
+      "votesAbsolute": 7139,
+      "votesWeighted": null,
+      "seats": 2,
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Grawert",
+          "firstName": "Sören"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Habbel",
+          "firstName": "Gregor"
+        }
+      ]
+    },
+    {
+      "listNumber": 10,
+      "shortName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit",
+      "color": "#cd386c",
+      "percent": 2.85,
+      "percentChange": 2.85,
+      "votesAbsolute": 5009,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": []
+    },
+    {
+      "listNumber": 8,
+      "shortName": "Volt",
+      "fullName": "Volt Deutschland",
+      "color": "#6f30a7",
+      "percent": 2.73,
+      "percentChange": 1.54,
+      "votesAbsolute": 4795,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": []
+    },
+    {
+      "listNumber": 7,
+      "shortName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH KLIMA TIERSCHUTZ",
+      "color": "#c0ca31",
+      "percent": 1.8,
+      "percentChange": -0.48,
+      "votesAbsolute": 3158,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": []
+    },
+    {
+      "listNumber": 9,
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "color": "#0076b6",
+      "percent": 0.26,
+      "percentChange": -0.15,
+      "votesAbsolute": 450,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": []
+    },
+    {
+      "listNumber": 11,
+      "shortName": "Losdemokratie – Partei für eine starke Bürgerschaft",
+      "fullName": "Losdemokratie – Partei für eine starke Bürgerschaft",
+      "color": "#858585",
+      "percent": 0.16,
+      "percentChange": 0.16,
+      "votesAbsolute": 288,
+      "votesWeighted": null,
+      "seats": 0,
+      "candidates": []
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "DKP",
+    "SGP",
+    "Die PARTEI",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "Die Urbane",
+    "Tierschutzpartei",
+    "ÖDP",
+    "PdF",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "BSW",
+    "AfD",
+    "HEIMAT"
+  ],
+  "sources": [
+    "https://wahlen-berlin.de/wahlen/BE2026/Afspraes/bvv/ergebnisse_bezirk_06.html",
+    "https://wahlen-berlin.de/wahlen/BE2026/Afspraes/bvv/gewaehlte.html"
+  ]
+}

@@ -23,6 +23,7 @@ const config: Mmp2VoteConfig = {
   themeColorDark: '#a3050d',
 
   dataFile: 'berlin-abgh.json',
+  resultsFile: 'results-berlin-abgh.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/',
 };

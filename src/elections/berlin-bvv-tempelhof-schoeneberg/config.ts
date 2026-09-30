@@ -19,6 +19,7 @@ const config: ClosedListConfig = {
   themeColorDark: '#a3050d',
 
   dataFile: 'berlin-bvv-tempelhof-schoeneberg.json',
+  resultsFile: 'results-berlin-bvv-tempelhof-schoeneberg.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.berlin.de/wahlen/wahlen/berliner-wahlen-2026/',
 };
