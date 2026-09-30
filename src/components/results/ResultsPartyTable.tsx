@@ -88,7 +88,7 @@ export function ResultsPartyTable({
         <div className="contents text-[10px] uppercase tracking-wider text-gray-400">
           <span className="px-4 py-1 border-b border-gray-100">Partei</span>
           <span className="px-2 py-1 border-b border-gray-100 text-right">%</span>
-          <span className="px-2 py-1 border-b border-gray-100 text-right">{hasDelta ? '± 2023' : ''}</span>
+          <span className="px-2 py-1 border-b border-gray-100 text-right">{hasDelta ? `± ${results.previousYear ?? ''}`.trim() : ''}</span>
           <span className="pl-2 pr-4 py-1 border-b border-gray-100 text-right">Sitze</span>
         </div>
         {visible.map(p => {

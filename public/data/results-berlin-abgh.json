@@ -2,6 +2,7 @@
   "election": "berlin-abgh",
   "stand": "2026-09-21",
   "status": "vorläufig",
+  "previousYear": 2023,
   "totalSeats": 158,
   "totals": {
     "validVotes": 1824514,

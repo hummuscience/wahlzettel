@@ -29,5 +29,18 @@
   "contactMessage": "Message",
   "contactSend": "Send",
   "contactSuccess": "Message sent – thank you!",
-  "contactError": "Failed to send. Please try again."
+  "contactError": "Failed to send. Please try again.",
+  "pending": {
+    "kicker": "Coming up",
+    "inDays_one": "in {{count}} day",
+    "inDays_other": "in {{count}} days",
+    "body": "Candidates and lists are not final yet. As soon as the electoral committee has admitted the nominations – expected from {{date}} – you can try the ballot here.",
+    "votes": "Votes",
+    "votesMmp": "2 – first vote for a person in your constituency, second vote for a party",
+    "votesClosedList": "1 – for one party list",
+    "threshold": "Threshold",
+    "thresholdMinority": "{{pct}} % (does not apply to national-minority parties)",
+    "seatMethod": "Seat allocation",
+    "officialInfo": "Official election information"
+  }
 }

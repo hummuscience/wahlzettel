@@ -23,6 +23,7 @@ const config: Mmp2VoteConfig = {
   themeColorDark: '#8b6914',
 
   dataFile: 'bw-landtagswahl.json',
+  resultsFile: 'results-bw-landtagswahl.json',
   partyColors: PARTY_COLORS,
   infoUrl: 'https://www.landtagswahl-bw.de',
 };

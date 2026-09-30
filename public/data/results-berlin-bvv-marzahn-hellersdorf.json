@@ -2,6 +2,7 @@
   "election": "berlin-bvv-marzahn-hellersdorf",
   "stand": "2026-09-21",
   "status": "vorläufig",
+  "previousYear": 2023,
   "totalSeats": 55,
   "totals": {
     "validVotes": 138677,

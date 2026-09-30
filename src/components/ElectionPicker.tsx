@@ -52,6 +52,7 @@ const STATEWIDE_ELECTIONS: StatewideElection[] = [
     slug: 'bw-landtagswahl',
     label: 'Landtagswahl 2026',
     themeColor: '#d4a017',
+    hasResults: true,
   },
   {
     stateId: 'be',

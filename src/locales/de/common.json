@@ -29,5 +29,18 @@
   "contactMessage": "Nachricht",
   "contactSend": "Absenden",
   "contactSuccess": "Nachricht gesendet – vielen Dank!",
-  "contactError": "Fehler beim Senden. Bitte versuche es erneut."
+  "contactError": "Fehler beim Senden. Bitte versuche es erneut.",
+  "pending": {
+    "kicker": "Demnächst",
+    "inDays_one": "in {{count}} Tag",
+    "inDays_other": "in {{count}} Tagen",
+    "body": "Die Kandidat:innen und Listen stehen noch nicht fest. Sobald der Wahlausschuss die Wahlvorschläge zugelassen hat – voraussichtlich ab {{date}} – kannst du hier den Stimmzettel ausprobieren.",
+    "votes": "Stimmen",
+    "votesMmp": "2 – Erststimme für eine Person im Wahlkreis, Zweitstimme für eine Partei",
+    "votesClosedList": "1 – für die Liste einer Partei",
+    "threshold": "Sperrklausel",
+    "thresholdMinority": "{{pct}} % (gilt nicht für Parteien nationaler Minderheiten)",
+    "seatMethod": "Sitzverteilung",
+    "officialInfo": "Offizielle Informationen zur Wahl"
+  }
 }

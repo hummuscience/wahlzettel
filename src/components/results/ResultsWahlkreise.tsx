@@ -24,13 +24,20 @@ export function ResultsWahlkreise({ wahlkreise, partyColors, activeParty }: Resu
       </div>
       <div className="flex flex-col gap-2">
         {[...byBezirk].map(([bezirk, wks]) => (
-          <div key={bezirk} className="grid grid-cols-[9.5rem_1fr] gap-2 items-center max-sm:grid-cols-1 max-sm:gap-1">
-            <span className="text-xs text-gray-600 truncate">{bezirk}</span>
+          <div
+            key={bezirk}
+            className={bezirk
+              ? 'grid grid-cols-[9.5rem_1fr] gap-2 items-center max-sm:grid-cols-1 max-sm:gap-1'
+              : ''}
+          >
+            {/* Flat grid when the Land has no Bezirke (e.g. BW) */}
+            {bezirk && <span className="text-xs text-gray-600 truncate">{bezirk}</span>}
             <div className="flex flex-wrap gap-1">
               {wks.map(wk => {
                 const w = wk.winner;
                 const dim = activeParty && activeParty !== w.party;
-                const nr = wk.name.match(/\d+$/)?.[0] ?? wk.id;
+                // Berlin: "Mitte 5" → 5 within its Bezirk; elsewhere the Land-wide number
+                const nr = bezirk ? (wk.name.match(/\d+$/)?.[0] ?? wk.id) : String(Number(wk.id));
                 return (
                   <span
                     key={wk.id}

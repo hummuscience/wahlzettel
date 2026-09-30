@@ -1,0 +1,84 @@
+name: Weekly election check
+
+# Mondays 05:00 UTC, plus manual runs from the Actions tab.
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit refreshed results
+  issues: write     # upsert the report issue
+  actions: write    # trigger deploy.yml (GITHUB_TOKEN pushes don't fire `push`)
+
+concurrency:
+  group: weekly-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      - name: Run checks
+        id: check
+        # Non-zero only when a results extractor failed; still post the report.
+        continue-on-error: true
+        run: python3 scripts/weekly-check.py --report weekly-report.md
+
+      - name: Validate refreshed results
+        id: changed
+        run: |
+          if [ -n "$(git status --porcelain -- public/data)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git status --short -- public/data
+            npx tsc -b
+            npx vitest run
+            npm run build
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and deploy
+        if: steps.changed.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "wahlzettel-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git commit -m "results: weekly refresh $(date -u +%F)"
+          git push origin HEAD:main
+          gh workflow run deploy.yml --ref main
+          printf '\n**Ergebnisse aktualisiert und veröffentlicht.**\n' >> weekly-report.md
+
+      - name: Post report issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create election-watch --color 0e8a16 \
+            --description "Weekly election check" 2>/dev/null || true
+          num=$(gh issue list --label election-watch --state open --json number --jq '.[0].number')
+          if [ -n "$num" ]; then
+            gh issue edit "$num" --body-file weekly-report.md
+            gh issue comment "$num" --body "Report aktualisiert: $(date -u +%F) · [Lauf](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+          else
+            gh issue create --title "Wahl-Check: anstehende Wahlen & Ergebnisse" \
+              --label election-watch --body-file weekly-report.md
+          fi
+
+      - name: Fail if an extractor failed
+        if: steps.check.outcome == 'failure'
+        run: exit 1

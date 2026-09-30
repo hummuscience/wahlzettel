@@ -29,6 +29,7 @@ import { ResultsSeatsPanel } from './components/results/ResultsSeatsPanel';
 import { ResultsCoalitionsPanel } from './components/results/ResultsCoalitionsPanel';
 import { getElectionMode } from './utils/electionMode';
 import { ResultsOnlyView } from './components/results/ResultsOnlyView';
+import { PendingCandidatesView } from './components/PendingCandidatesView';
 import { Ballot as LandtagswahlBallot } from './archetypes/mmp-2vote';
 import type { Mmp2VoteData } from './archetypes/mmp-2vote';
 import { Ballot as ClosedListBallot } from './archetypes/closed-list';
@@ -310,6 +311,27 @@ function App() {
           <Header onSwitchBallot={handleSwitchBallot} />
           <main className="flex-1">
             <ResultsOnlyView config={electionConfig} results={electionResults} />
+          </main>
+          <Footer />
+        </div>
+      </ElectionProvider>
+    );
+  }
+
+  // Upcoming election whose candidate lists aren't published yet: show the
+  // "coming soon" page instead of an empty ballot.
+  const noCandidates =
+    (electionConfig.ballotKind === 'mmp-2vote' && landtagswahlData
+      && landtagswahlData.listen.length === 0 && landtagswahlData.wahlkreise.length === 0)
+    || (electionConfig.ballotKind === 'closed-list' && closedListData
+      && closedListData.parties.length === 0);
+  if (noCandidates) {
+    return (
+      <ElectionProvider config={electionConfig}>
+        <div className="min-h-screen flex flex-col">
+          <Header onSwitchBallot={handleSwitchBallot} />
+          <main className="flex-1">
+            <PendingCandidatesView config={electionConfig} />
           </main>
           <Footer />
         </div>

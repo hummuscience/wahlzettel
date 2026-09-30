@@ -1,0 +1,2607 @@
+{
+  "election": "bw-landtagswahl",
+  "stand": "2026-03-27",
+  "status": "endgültig",
+  "previousYear": 2021,
+  "totalSeats": 157,
+  "totals": {
+    "validVotes": 5375109,
+    "validBallots": 5375109,
+    "wahlberechtigte": 7764858,
+    "waehlerGesamt": 5406737,
+    "ungueltigeStimmzettel": 31628,
+    "turnout": 69.6,
+    "kandidatenInsgesamt": null,
+    "frauenInsgesamt": null,
+    "ballotsWithListenkreuz": null,
+    "ballotsWithListenkreuzPercent": null
+  },
+  "parties": [
+    {
+      "listNumber": 1,
+      "shortName": "GRÜNE",
+      "fullName": "BÜNDNIS 90/DIE GRÜNEN",
+      "color": "#008939",
+      "percent": 30.2,
+      "percentChange": -2.44,
+      "votesAbsolute": 1623208,
+      "votesWeighted": null,
+      "seats": 56,
+      "direktmandate": 13,
+      "erststimmen": {
+        "votesAbsolute": 1368015,
+        "percent": 25.53,
+        "percentChange": -7.11
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Aras",
+          "firstName": "Muhterem",
+          "via": "wahlkreis",
+          "wahlkreis": "Stuttgart I"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Özdemir",
+          "firstName": "Cem",
+          "via": "wahlkreis",
+          "wahlkreis": "Stuttgart II"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hildenbrand",
+          "firstName": "Oliver",
+          "via": "wahlkreis",
+          "wahlkreis": "Stuttgart III"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Olschowski",
+          "firstName": "Petra",
+          "via": "wahlkreis",
+          "wahlkreis": "Stuttgart IV"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Leidig",
+          "firstName": "Dr. Ute",
+          "via": "wahlkreis",
+          "wahlkreis": "Karlsruhe I"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bauer",
+          "firstName": "Benjamin",
+          "via": "wahlkreis",
+          "wahlkreis": "Karlsruhe II"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kollmann",
+          "firstName": "Florian",
+          "via": "wahlkreis",
+          "wahlkreis": "Heidelberg"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Zimmer",
+          "firstName": "Elke",
+          "via": "wahlkreis",
+          "wahlkreis": "Mannheim II"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Evers",
+          "firstName": "Daniela",
+          "via": "wahlkreis",
+          "wahlkreis": "Freiburg I"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Saint-Cast",
+          "firstName": "Nadyne",
+          "via": "wahlkreis",
+          "wahlkreis": "Freiburg II"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Erikli",
+          "firstName": "Nese",
+          "via": "wahlkreis",
+          "wahlkreis": "Konstanz"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hagmann",
+          "firstName": "Sarah",
+          "via": "wahlkreis",
+          "wahlkreis": "Lörrach"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Lede Abal",
+          "firstName": "Daniel",
+          "via": "wahlkreis",
+          "wahlkreis": "Tübingen"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Walker",
+          "firstName": "Thekla",
+          "via": "liste"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schwarz",
+          "firstName": "Andreas",
+          "via": "liste"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Boser",
+          "firstName": "Sandra",
+          "via": "liste"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Haggenmüller",
+          "firstName": "Pascal",
+          "via": "liste"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Krebs",
+          "firstName": "Petra",
+          "via": "liste"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Lindlohr",
+          "firstName": "Andrea",
+          "via": "liste"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Baumann",
+          "firstName": "Dr. Andre",
+          "via": "liste"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Holmberg",
+          "firstName": "Cindy",
+          "via": "liste"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Haßler",
+          "firstName": "Florian",
+          "via": "liste"
+        },
+        {
+          "position": 23,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Poreski",
+          "firstName": "Thomas",
+          "via": "liste"
+        },
+        {
+          "position": 24,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Joukov",
+          "firstName": "Michael",
+          "via": "liste"
+        },
+        {
+          "position": 25,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Sperling",
+          "firstName": "Swantje",
+          "via": "liste"
+        },
+        {
+          "position": 26,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Metzger",
+          "firstName": "Jens",
+          "via": "liste"
+        },
+        {
+          "position": 27,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schweizer",
+          "firstName": "Clara",
+          "via": "liste"
+        },
+        {
+          "position": 28,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hahn",
+          "firstName": "Martin",
+          "via": "liste"
+        },
+        {
+          "position": 29,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hentschel",
+          "firstName": "Thomas",
+          "via": "liste"
+        },
+        {
+          "position": 30,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Braun",
+          "firstName": "Martina",
+          "via": "liste"
+        },
+        {
+          "position": 31,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Köhler",
+          "firstName": "Erwin",
+          "via": "liste"
+        },
+        {
+          "position": 32,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tok",
+          "firstName": "Tayfun",
+          "via": "liste"
+        },
+        {
+          "position": 33,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Deparnay-Grunenberg",
+          "firstName": "Anna",
+          "via": "liste"
+        },
+        {
+          "position": 34,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Nentwich",
+          "firstName": "Ralf",
+          "via": "liste"
+        },
+        {
+          "position": 35,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Mettenleiter",
+          "firstName": "Bernd",
+          "via": "liste"
+        },
+        {
+          "position": 36,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Günter",
+          "firstName": "Meike",
+          "via": "liste"
+        },
+        {
+          "position": 37,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Nüssle",
+          "firstName": "Niklas",
+          "via": "liste"
+        },
+        {
+          "position": 38,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gericke",
+          "firstName": "Silke",
+          "via": "liste"
+        },
+        {
+          "position": 39,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Seimer",
+          "firstName": "Peter",
+          "via": "liste"
+        },
+        {
+          "position": 40,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tuncer",
+          "firstName": "Fadime",
+          "via": "liste"
+        },
+        {
+          "position": 41,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Veits",
+          "firstName": "Yannick",
+          "via": "liste"
+        },
+        {
+          "position": 42,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Resch",
+          "firstName": "Clara",
+          "via": "liste"
+        },
+        {
+          "position": 43,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bayer",
+          "firstName": "Gerd",
+          "via": "liste"
+        },
+        {
+          "position": 44,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Seemann",
+          "firstName": "Stefanie",
+          "via": "liste"
+        },
+        {
+          "position": 45,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Katzenstein",
+          "firstName": "Hermann",
+          "via": "liste"
+        },
+        {
+          "position": 46,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Achterberg",
+          "firstName": "Gudula",
+          "via": "liste"
+        },
+        {
+          "position": 47,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tonojan",
+          "firstName": "Rüdiger",
+          "via": "liste"
+        },
+        {
+          "position": 48,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ott",
+          "firstName": "Dr. Mariska",
+          "via": "liste"
+        },
+        {
+          "position": 49,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Belling",
+          "firstName": "Dr. Daniel",
+          "via": "liste"
+        },
+        {
+          "position": 50,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Geldner",
+          "firstName": "Lea",
+          "via": "liste"
+        },
+        {
+          "position": 51,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Keune",
+          "firstName": "Kai",
+          "via": "liste"
+        },
+        {
+          "position": 52,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Frank",
+          "firstName": "Saskia",
+          "via": "liste"
+        },
+        {
+          "position": 53,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Eichin",
+          "firstName": "Artur",
+          "via": "liste"
+        },
+        {
+          "position": 54,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wiech",
+          "firstName": "Anna",
+          "via": "liste"
+        },
+        {
+          "position": 55,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gürbüz",
+          "firstName": "Berat",
+          "via": "liste"
+        },
+        {
+          "position": 56,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Seifert",
+          "firstName": "Maren",
+          "via": "liste"
+        }
+      ]
+    },
+    {
+      "listNumber": 2,
+      "shortName": "CDU",
+      "fullName": "Christlich Demokratische Union Deutschlands",
+      "color": "#2d3c4b",
+      "percent": 29.69,
+      "percentChange": 5.64,
+      "votesAbsolute": 1595929,
+      "votesWeighted": null,
+      "seats": 56,
+      "direktmandate": 56,
+      "erststimmen": {
+        "votesAbsolute": 1837689,
+        "percent": 34.29,
+        "percentChange": 10.24
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Dvořák-Vučetić",
+          "firstName": "Regina",
+          "via": "wahlkreis",
+          "wahlkreis": "Böblingen"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Stickel",
+          "firstName": "Albrecht",
+          "via": "wahlkreis",
+          "wahlkreis": "Leonberg"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Deuschle",
+          "firstName": "Andreas",
+          "via": "wahlkreis",
+          "wahlkreis": "Esslingen"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Pfau-Weller",
+          "firstName": "Dr. Natalie",
+          "via": "wahlkreis",
+          "wahlkreis": "Kirchheim"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Steege",
+          "firstName": "Maren",
+          "via": "wahlkreis",
+          "wahlkreis": "Nürtingen"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schweizer",
+          "firstName": "Sarah",
+          "via": "wahlkreis",
+          "wahlkreis": "Göppingen"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Razavi",
+          "firstName": "Nicole",
+          "via": "wahlkreis",
+          "wahlkreis": "Geislingen"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tietze",
+          "firstName": "Lukas",
+          "via": "wahlkreis",
+          "wahlkreis": "Ludwigsburg"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Epple",
+          "firstName": "Konrad",
+          "via": "wahlkreis",
+          "wahlkreis": "Vaihingen"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Vogt",
+          "firstName": "Tobias",
+          "via": "wahlkreis",
+          "wahlkreis": "Bietigheim-Bissingen"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Lorek",
+          "firstName": "Siegfried",
+          "via": "wahlkreis",
+          "wahlkreis": "Waiblingen"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gehring",
+          "firstName": "Christian",
+          "via": "wahlkreis",
+          "wahlkreis": "Schorndorf"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Steinat",
+          "firstName": "Dr. Jens",
+          "via": "wahlkreis",
+          "wahlkreis": "Backnang"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Strobl",
+          "firstName": "Thomas",
+          "via": "wahlkreis",
+          "wahlkreis": "Heilbronn"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Preusch",
+          "firstName": "Dr. Michael",
+          "via": "wahlkreis",
+          "wahlkreis": "Eppingen"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Huber",
+          "firstName": "Isabell",
+          "via": "wahlkreis",
+          "wahlkreis": "Neckarsulm"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Breitkreuz",
+          "firstName": "Dr. Tim",
+          "via": "wahlkreis",
+          "wahlkreis": "Hohenlohe"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Rathgeb",
+          "firstName": "Isabell",
+          "via": "wahlkreis",
+          "wahlkreis": "Schwäbisch Hall"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Reinhart",
+          "firstName": "Dr. Wolfgang",
+          "via": "wahlkreis",
+          "wahlkreis": "Main-Tauber"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kolb",
+          "firstName": "Michael",
+          "via": "wahlkreis",
+          "wahlkreis": "Heidenheim"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bückner",
+          "firstName": "Tim",
+          "via": "wahlkreis",
+          "wahlkreis": "Schwäbisch Gmünd"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Mack",
+          "firstName": "Winfried",
+          "via": "wahlkreis",
+          "wahlkreis": "Aalen"
+        },
+        {
+          "position": 23,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schwarz",
+          "firstName": "Dr. Thorsten",
+          "via": "wahlkreis",
+          "wahlkreis": "Bruchsal"
+        },
+        {
+          "position": 24,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Mayr",
+          "firstName": "Ansgar",
+          "via": "wahlkreis",
+          "wahlkreis": "Bretten"
+        },
+        {
+          "position": 25,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Saladino",
+          "firstName": "Lorenzo",
+          "via": "wahlkreis",
+          "wahlkreis": "Ettlingen"
+        },
+        {
+          "position": 26,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Becker",
+          "firstName": "Dr. Alexander",
+          "via": "wahlkreis",
+          "wahlkreis": "Rastatt"
+        },
+        {
+          "position": 27,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "von Loga",
+          "firstName": "Cornelia",
+          "via": "wahlkreis",
+          "wahlkreis": "Baden-Baden"
+        },
+        {
+          "position": 28,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Staab",
+          "firstName": "Christiane",
+          "via": "wahlkreis",
+          "wahlkreis": "Wiesloch"
+        },
+        {
+          "position": 29,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hauk",
+          "firstName": "Peter",
+          "via": "wahlkreis",
+          "wahlkreis": "Neckar-Odenwald"
+        },
+        {
+          "position": 30,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schneider",
+          "firstName": "Dr. Bastian",
+          "via": "wahlkreis",
+          "wahlkreis": "Weinheim"
+        },
+        {
+          "position": 31,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Sturm",
+          "firstName": "Andreas",
+          "via": "wahlkreis",
+          "wahlkreis": "Schwetzingen"
+        },
+        {
+          "position": 32,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schütte",
+          "firstName": "Dr. Albrecht",
+          "via": "wahlkreis",
+          "wahlkreis": "Sinsheim"
+        },
+        {
+          "position": 33,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Renner",
+          "firstName": "Andreas",
+          "via": "wahlkreis",
+          "wahlkreis": "Pforzheim"
+        },
+        {
+          "position": 34,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hirsch",
+          "firstName": "Carl Christian",
+          "via": "wahlkreis",
+          "wahlkreis": "Calw"
+        },
+        {
+          "position": 35,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gunzelmann",
+          "firstName": "Nico",
+          "via": "wahlkreis",
+          "wahlkreis": "Enz"
+        },
+        {
+          "position": 36,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schindele",
+          "firstName": "Katrin",
+          "via": "wahlkreis",
+          "wahlkreis": "Freudenstadt"
+        },
+        {
+          "position": 37,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Rapp",
+          "firstName": "Dr. Patrick",
+          "via": "wahlkreis",
+          "wahlkreis": "Breisgau"
+        },
+        {
+          "position": 38,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wernet",
+          "firstName": "Stefanie",
+          "via": "wahlkreis",
+          "wahlkreis": "Emmendingen"
+        },
+        {
+          "position": 39,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gentges",
+          "firstName": "Marion",
+          "via": "wahlkreis",
+          "wahlkreis": "Lahr"
+        },
+        {
+          "position": 40,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schebesta",
+          "firstName": "Volker",
+          "via": "wahlkreis",
+          "wahlkreis": "Offenburg"
+        },
+        {
+          "position": 41,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Merkel",
+          "firstName": "Dr. Katrin",
+          "via": "wahlkreis",
+          "wahlkreis": "Kehl"
+        },
+        {
+          "position": 42,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Teufel",
+          "firstName": "Stefan",
+          "via": "wahlkreis",
+          "wahlkreis": "Rottweil"
+        },
+        {
+          "position": 43,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Braun",
+          "firstName": "Andreas",
+          "via": "wahlkreis",
+          "wahlkreis": "Villingen-Schwenningen"
+        },
+        {
+          "position": 44,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wolf",
+          "firstName": "Guido",
+          "via": "wahlkreis",
+          "wahlkreis": "Tuttlingen-Donaueschingen"
+        },
+        {
+          "position": 45,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Stetter",
+          "firstName": "Christoph",
+          "via": "wahlkreis",
+          "wahlkreis": "Singen"
+        },
+        {
+          "position": 46,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Herzog",
+          "firstName": "Simon",
+          "via": "wahlkreis",
+          "wahlkreis": "Waldshut"
+        },
+        {
+          "position": 47,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Menton",
+          "firstName": "Dr. Maximilian",
+          "via": "wahlkreis",
+          "wahlkreis": "Reutlingen"
+        },
+        {
+          "position": 48,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hailfinger",
+          "firstName": "Manuel",
+          "via": "wahlkreis",
+          "wahlkreis": "Hechingen-Münsingen"
+        },
+        {
+          "position": 49,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hoffmeister-Kraut",
+          "firstName": "Dr. Nicole",
+          "via": "wahlkreis",
+          "wahlkreis": "Balingen"
+        },
+        {
+          "position": 50,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schneider",
+          "firstName": "Mario",
+          "via": "wahlkreis",
+          "wahlkreis": "Ulm"
+        },
+        {
+          "position": 51,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hagel",
+          "firstName": "Manuel",
+          "via": "wahlkreis",
+          "wahlkreis": "Ehingen"
+        },
+        {
+          "position": 52,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Dörflinger",
+          "firstName": "Thomas",
+          "via": "wahlkreis",
+          "wahlkreis": "Biberach"
+        },
+        {
+          "position": 53,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bruns",
+          "firstName": "Dr. Alexander",
+          "via": "wahlkreis",
+          "wahlkreis": "Bodensee"
+        },
+        {
+          "position": 54,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Haser",
+          "firstName": "Raimund",
+          "via": "wahlkreis",
+          "wahlkreis": "Wangen"
+        },
+        {
+          "position": 55,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Rommelspacher",
+          "firstName": "Antje",
+          "via": "wahlkreis",
+          "wahlkreis": "Ravensburg"
+        },
+        {
+          "position": 56,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Boos",
+          "firstName": "Ilona",
+          "via": "wahlkreis",
+          "wahlkreis": "Sigmaringen"
+        }
+      ]
+    },
+    {
+      "listNumber": 5,
+      "shortName": "AfD",
+      "fullName": "Alternative für Deutschland",
+      "color": "#00ccff",
+      "percent": 18.8,
+      "percentChange": 9.06,
+      "votesAbsolute": 1010574,
+      "votesWeighted": null,
+      "seats": 35,
+      "direktmandate": 1,
+      "erststimmen": {
+        "votesAbsolute": 1009984,
+        "percent": 18.85,
+        "percentChange": 9.1
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Pepperl",
+          "firstName": "Dr. Bernhard",
+          "via": "wahlkreis",
+          "wahlkreis": "Mannheim I"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Sänze",
+          "firstName": "Emil",
+          "via": "liste"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Rothweiler",
+          "firstName": "Martin",
+          "via": "liste"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Baron",
+          "firstName": "Anton",
+          "via": "liste"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Lindenschmid",
+          "firstName": "Daniel",
+          "via": "liste"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Klecker",
+          "firstName": "Dennis",
+          "via": "liste"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Klauß",
+          "firstName": "Miguel",
+          "via": "liste"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Eisenhut",
+          "firstName": "Bernhard",
+          "via": "liste"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Haug",
+          "firstName": "Carmen",
+          "via": "liste"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kolb",
+          "firstName": "Karlheinz",
+          "via": "liste"
+        },
+        {
+          "position": 11,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hörner",
+          "firstName": "Hans-Peter",
+          "via": "liste"
+        },
+        {
+          "position": 12,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Scheer",
+          "firstName": "Sandro",
+          "via": "liste"
+        },
+        {
+          "position": 13,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Zimmer",
+          "firstName": "Alexsei",
+          "via": "liste"
+        },
+        {
+          "position": 14,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kuhs",
+          "firstName": "Joachim",
+          "via": "liste"
+        },
+        {
+          "position": 15,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Boutakoglou",
+          "firstName": "Nikolaos",
+          "via": "liste"
+        },
+        {
+          "position": 16,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Auer",
+          "firstName": "Andreas",
+          "via": "liste"
+        },
+        {
+          "position": 17,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Köhler",
+          "firstName": "Christian",
+          "via": "liste"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hegel",
+          "firstName": "Chris",
+          "via": "liste"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schwarz",
+          "firstName": "Stephan",
+          "via": "liste"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schäfer",
+          "firstName": "Christian",
+          "via": "liste"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Knorr",
+          "firstName": "Emely",
+          "via": "liste"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Köthe",
+          "firstName": "Stephan",
+          "via": "liste"
+        },
+        {
+          "position": 23,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gerner",
+          "firstName": "Maximilian",
+          "via": "liste"
+        },
+        {
+          "position": 24,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Ernst",
+          "firstName": "Rüdiger",
+          "via": "liste"
+        },
+        {
+          "position": 25,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Baur",
+          "firstName": "Hans-Peter",
+          "via": "liste"
+        },
+        {
+          "position": 26,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Schäfer",
+          "firstName": "Christine",
+          "via": "liste"
+        },
+        {
+          "position": 27,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "van Ryt",
+          "firstName": "Sebastian",
+          "via": "liste"
+        },
+        {
+          "position": 28,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Rottmann",
+          "firstName": "Daniel",
+          "via": "liste"
+        },
+        {
+          "position": 29,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wolle",
+          "firstName": "Carola",
+          "via": "liste"
+        },
+        {
+          "position": 30,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Grammel",
+          "firstName": "Andreas",
+          "via": "liste"
+        },
+        {
+          "position": 31,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tsoulopoulos",
+          "firstName": "Christoforos",
+          "via": "liste"
+        },
+        {
+          "position": 32,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Stein",
+          "firstName": "Udo",
+          "via": "liste"
+        },
+        {
+          "position": 33,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Rittweg",
+          "firstName": "Kay",
+          "via": "liste"
+        },
+        {
+          "position": 34,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Hermann",
+          "firstName": "Kurt",
+          "via": "liste"
+        },
+        {
+          "position": 35,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Freiherr von Wangenheim",
+          "firstName": "Uwe",
+          "via": "liste"
+        }
+      ]
+    },
+    {
+      "listNumber": 3,
+      "shortName": "SPD",
+      "fullName": "Sozialdemokratische Partei Deutschlands",
+      "color": "#e3000f",
+      "percent": 5.55,
+      "percentChange": -5.47,
+      "votesAbsolute": 298297,
+      "votesWeighted": null,
+      "seats": 10,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 450169,
+        "percent": 8.4,
+        "percentChange": -2.62
+      },
+      "candidates": [
+        {
+          "position": 1,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Stoch",
+          "firstName": "Andreas",
+          "via": "liste"
+        },
+        {
+          "position": 2,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kliche-Behnke",
+          "firstName": "Dr. Dorothea",
+          "via": "liste"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Binder",
+          "firstName": "Sascha",
+          "via": "liste"
+        },
+        {
+          "position": 4,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Sigg",
+          "firstName": "Viviane",
+          "via": "liste"
+        },
+        {
+          "position": 5,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Fulst-Blei",
+          "firstName": "Dr. Stefan",
+          "via": "liste"
+        },
+        {
+          "position": 6,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Steinhülb-Joos",
+          "firstName": "Katrin",
+          "via": "liste"
+        },
+        {
+          "position": 7,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Fink",
+          "firstName": "Nicolas",
+          "via": "liste"
+        },
+        {
+          "position": 8,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Kirschbaum",
+          "firstName": "Simone",
+          "via": "liste"
+        },
+        {
+          "position": 9,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Weirauch",
+          "firstName": "Dr. Boris",
+          "via": "liste"
+        },
+        {
+          "position": 10,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Wulff",
+          "firstName": "Annkathrin",
+          "via": "liste"
+        }
+      ]
+    },
+    {
+      "listNumber": 6,
+      "shortName": "Die Linke",
+      "fullName": "Die Linke",
+      "color": "#e6007b",
+      "percent": 4.41,
+      "percentChange": 0.84,
+      "votesAbsolute": 236975,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 265198,
+        "percent": 4.95,
+        "percentChange": 1.38
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 4,
+      "shortName": "FDP",
+      "fullName": "Freie Demokratische Partei",
+      "color": "#ffed00",
+      "percent": 4.38,
+      "percentChange": -6.08,
+      "votesAbsolute": 235598,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 256137,
+        "percent": 4.78,
+        "percentChange": -5.68
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 7,
+      "shortName": "FREIE WÄHLER",
+      "fullName": "FREIE WÄHLER",
+      "color": "#F29204",
+      "percent": 1.91,
+      "percentChange": -1.1,
+      "votesAbsolute": 102716,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 54559,
+        "percent": 1.02,
+        "percentChange": -1.99
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 16,
+      "shortName": "BSW",
+      "fullName": "Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit",
+      "color": "#a21749",
+      "percent": 1.42,
+      "percentChange": 1.42,
+      "votesAbsolute": 76439,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 31293,
+        "percent": 0.58,
+        "percentChange": 0.58
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 20,
+      "shortName": "Tierschutzpartei",
+      "fullName": "PARTEI MENSCH UMWELT TIERSCHUTZ",
+      "color": "#018787",
+      "percent": 0.93,
+      "percentChange": 0.93,
+      "votesAbsolute": 49827,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 2132,
+        "percent": 0.04,
+        "percentChange": 0.04
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 12,
+      "shortName": "Volt",
+      "fullName": "Volt Deutschland",
+      "color": "#502379",
+      "percent": 0.85,
+      "percentChange": 0.38,
+      "votesAbsolute": 45842,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 52207,
+        "percent": 0.97,
+        "percentChange": 0.51
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 8,
+      "shortName": "Die PARTEI",
+      "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "color": "#b91023",
+      "percent": 0.42,
+      "percentChange": -0.8,
+      "votesAbsolute": 22765,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 8529,
+        "percent": 0.16,
+        "percentChange": -1.06
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 9,
+      "shortName": "dieBasis",
+      "fullName": "Basisdemokratische Partei Deutschland",
+      "color": "#00cdd8",
+      "percent": 0.28,
+      "percentChange": -0.72,
+      "votesAbsolute": 15126,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 3091,
+        "percent": 0.06,
+        "percentChange": -0.94
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 13,
+      "shortName": "Bündnis C",
+      "fullName": "Bündnis C - Christen für Deutschland",
+      "color": "#00529c",
+      "percent": 0.23,
+      "percentChange": 0.15,
+      "votesAbsolute": 12533,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 4068,
+        "percent": 0.08,
+        "percentChange": -0.01
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 21,
+      "shortName": "WerteUnion",
+      "fullName": "WerteUnion",
+      "color": "#646464",
+      "percent": 0.21,
+      "percentChange": 0.21,
+      "votesAbsolute": 11323,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 4659,
+        "percent": 0.09,
+        "percentChange": 0.09
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 11,
+      "shortName": "ÖDP",
+      "fullName": "Ökologisch-Demokratische Partei",
+      "color": "#ffa338",
+      "percent": 0.17,
+      "percentChange": -0.6,
+      "votesAbsolute": 9339,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 5705,
+        "percent": 0.11,
+        "percentChange": -0.67
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 18,
+      "shortName": "PDR",
+      "fullName": "Partei der Rentner",
+      "color": "#7e68b0",
+      "percent": 0.17,
+      "percentChange": 0.17,
+      "votesAbsolute": 9017,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 17,
+      "shortName": "Die Gerechtigkeitspartei",
+      "fullName": "Die Gerechtigkeitspartei ‒ Team Todenhöfer",
+      "color": "#d4d0d3",
+      "percent": 0.14,
+      "percentChange": 0.14,
+      "votesAbsolute": 7315,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 644,
+        "percent": 0.01,
+        "percentChange": 0.01
+      },
+      "candidates": []
+    },
+    {
+      "listNumber": 15,
+      "shortName": "Verjüngungsforschung",
+      "fullName": "Partei für Verjüngungsforschung",
+      "color": "#b5b2b4",
+      "percent": 0.07,
+      "percentChange": 0.06,
+      "votesAbsolute": 3526,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 19,
+      "shortName": "PdF",
+      "fullName": "Partei des Fortschritts",
+      "color": "#FFB27F",
+      "percent": 0.07,
+      "percentChange": 0.07,
+      "votesAbsolute": 3649,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 10,
+      "shortName": "KlimalisteBW",
+      "fullName": "Klimaliste Baden-Württemberg",
+      "color": "#e1ede0",
+      "percent": 0.05,
+      "percentChange": -0.83,
+      "votesAbsolute": 2764,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 14,
+      "shortName": "PdH",
+      "fullName": "Partei der Humanisten",
+      "color": "#ededed",
+      "percent": 0.04,
+      "percentChange": 0.02,
+      "votesAbsolute": 2347,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": null,
+      "candidates": []
+    },
+    {
+      "listNumber": 22,
+      "shortName": "Übrige",
+      "fullName": "Übrige",
+      "color": "#eeeeee",
+      "percent": 0.0,
+      "percentChange": -1.04,
+      "votesAbsolute": 0,
+      "votesWeighted": null,
+      "seats": 0,
+      "direktmandate": 0,
+      "erststimmen": {
+        "votesAbsolute": 5108,
+        "percent": 0.1,
+        "percentChange": -0.95
+      },
+      "candidates": []
+    }
+  ],
+  "wahlkreise": [
+    {
+      "id": "01",
+      "name": "Stuttgart I",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Aras",
+        "firstName": "Muhterem",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "02",
+      "name": "Stuttgart II",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Özdemir",
+        "firstName": "Cem",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "03",
+      "name": "Stuttgart III",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Hildenbrand",
+        "firstName": "Oliver",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "04",
+      "name": "Stuttgart IV",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Olschowski",
+        "firstName": "Petra",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "05",
+      "name": "Böblingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Dvořák-Vučetić",
+        "firstName": "Regina",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "06",
+      "name": "Leonberg",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Stickel",
+        "firstName": "Albrecht",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "07",
+      "name": "Esslingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Deuschle",
+        "firstName": "Andreas",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "08",
+      "name": "Kirchheim",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Pfau-Weller",
+        "firstName": "Dr. Natalie",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "09",
+      "name": "Nürtingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Steege",
+        "firstName": "Maren",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Göppingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Schweizer",
+        "firstName": "Sarah",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Geislingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Razavi",
+        "firstName": "Nicole",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Ludwigsburg",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Tietze",
+        "firstName": "Lukas",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Vaihingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Epple",
+        "firstName": "Konrad",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Bietigheim-Bissingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Vogt",
+        "firstName": "Tobias",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Waiblingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Lorek",
+        "firstName": "Siegfried",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Schorndorf",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Gehring",
+        "firstName": "Christian",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Backnang",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Steinat",
+        "firstName": "Dr. Jens",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Heilbronn",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Strobl",
+        "firstName": "Thomas",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "19",
+      "name": "Eppingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Preusch",
+        "firstName": "Dr. Michael",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Neckarsulm",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Huber",
+        "firstName": "Isabell",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "21",
+      "name": "Hohenlohe",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Breitkreuz",
+        "firstName": "Dr. Tim",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "22",
+      "name": "Schwäbisch Hall",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Rathgeb",
+        "firstName": "Isabell",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "23",
+      "name": "Main-Tauber",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Reinhart",
+        "firstName": "Dr. Wolfgang",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "24",
+      "name": "Heidenheim",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Kolb",
+        "firstName": "Michael",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "25",
+      "name": "Schwäbisch Gmünd",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Bückner",
+        "firstName": "Tim",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "26",
+      "name": "Aalen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Mack",
+        "firstName": "Winfried",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "27",
+      "name": "Karlsruhe I",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Leidig",
+        "firstName": "Dr. Ute",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "28",
+      "name": "Karlsruhe II",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Bauer",
+        "firstName": "Benjamin",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "29",
+      "name": "Bruchsal",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Schwarz",
+        "firstName": "Dr. Thorsten",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "30",
+      "name": "Bretten",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Mayr",
+        "firstName": "Ansgar",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "31",
+      "name": "Ettlingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Saladino",
+        "firstName": "Lorenzo",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "32",
+      "name": "Rastatt",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Becker",
+        "firstName": "Dr. Alexander",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "33",
+      "name": "Baden-Baden",
+      "bezirk": "",
+      "winner": {
+        "lastName": "von Loga",
+        "firstName": "Cornelia",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "34",
+      "name": "Heidelberg",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Kollmann",
+        "firstName": "Florian",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "35",
+      "name": "Mannheim I",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Pepperl",
+        "firstName": "Dr. Bernhard",
+        "party": "AfD"
+      }
+    },
+    {
+      "id": "36",
+      "name": "Mannheim II",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Zimmer",
+        "firstName": "Elke",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "37",
+      "name": "Wiesloch",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Staab",
+        "firstName": "Christiane",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "38",
+      "name": "Neckar-Odenwald",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Hauk",
+        "firstName": "Peter",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "39",
+      "name": "Weinheim",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Schneider",
+        "firstName": "Dr. Bastian",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "40",
+      "name": "Schwetzingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Sturm",
+        "firstName": "Andreas",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "41",
+      "name": "Sinsheim",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Schütte",
+        "firstName": "Dr. Albrecht",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "42",
+      "name": "Pforzheim",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Renner",
+        "firstName": "Andreas",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "43",
+      "name": "Calw",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Hirsch",
+        "firstName": "Carl Christian",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "44",
+      "name": "Enz",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Gunzelmann",
+        "firstName": "Nico",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "45",
+      "name": "Freudenstadt",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Schindele",
+        "firstName": "Katrin",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "46",
+      "name": "Freiburg I",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Evers",
+        "firstName": "Daniela",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "47",
+      "name": "Freiburg II",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Saint-Cast",
+        "firstName": "Nadyne",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "48",
+      "name": "Breisgau",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Rapp",
+        "firstName": "Dr. Patrick",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "49",
+      "name": "Emmendingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Wernet",
+        "firstName": "Stefanie",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "50",
+      "name": "Lahr",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Gentges",
+        "firstName": "Marion",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "51",
+      "name": "Offenburg",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Schebesta",
+        "firstName": "Volker",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "52",
+      "name": "Kehl",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Merkel",
+        "firstName": "Dr. Katrin",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "53",
+      "name": "Rottweil",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Teufel",
+        "firstName": "Stefan",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "54",
+      "name": "Villingen-Schwenningen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Braun",
+        "firstName": "Andreas",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "55",
+      "name": "Tuttlingen-Donaueschingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Wolf",
+        "firstName": "Guido",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "56",
+      "name": "Konstanz",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Erikli",
+        "firstName": "Nese",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "57",
+      "name": "Singen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Stetter",
+        "firstName": "Christoph",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "58",
+      "name": "Lörrach",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Hagmann",
+        "firstName": "Sarah",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "59",
+      "name": "Waldshut",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Herzog",
+        "firstName": "Simon",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "60",
+      "name": "Reutlingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Menton",
+        "firstName": "Dr. Maximilian",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "61",
+      "name": "Hechingen-Münsingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Hailfinger",
+        "firstName": "Manuel",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "62",
+      "name": "Tübingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Lede Abal",
+        "firstName": "Daniel",
+        "party": "GRÜNE"
+      }
+    },
+    {
+      "id": "63",
+      "name": "Balingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Hoffmeister-Kraut",
+        "firstName": "Dr. Nicole",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "64",
+      "name": "Ulm",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Schneider",
+        "firstName": "Mario",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "65",
+      "name": "Ehingen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Hagel",
+        "firstName": "Manuel",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "66",
+      "name": "Biberach",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Dörflinger",
+        "firstName": "Thomas",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "67",
+      "name": "Bodensee",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Bruns",
+        "firstName": "Dr. Alexander",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "68",
+      "name": "Wangen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Haser",
+        "firstName": "Raimund",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "69",
+      "name": "Ravensburg",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Rommelspacher",
+        "firstName": "Antje",
+        "party": "CDU"
+      }
+    },
+    {
+      "id": "70",
+      "name": "Sigmaringen",
+      "bezirk": "",
+      "winner": {
+        "lastName": "Boos",
+        "firstName": "Ilona",
+        "party": "CDU"
+      }
+    }
+  ],
+  "ideologicalOrder": [
+    "Die Linke",
+    "Die PARTEI",
+    "SPD",
+    "GRÜNE",
+    "Volt",
+    "KlimalisteBW",
+    "Tierschutzpartei",
+    "ÖDP",
+    "FDP",
+    "FREIE WÄHLER",
+    "CDU",
+    "Bündnis C",
+    "Werteunion",
+    "BSW",
+    "dieBasis",
+    "AfD"
+  ],
+  "sources": [
+    "https://wahlen.statistik-bw.de/ltw26/ergebnispraesentation.html"
+  ]
+}

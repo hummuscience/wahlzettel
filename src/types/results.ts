@@ -35,7 +35,8 @@ export interface ResultsParty {
   votesAbsolute: number | null;
   /** Gewichtete Stimmen — Hessen's seat-allocation input. */
   votesWeighted: number | null;
-  /** Change in vote share vs. the previous election, %-points. */
+  /** Change in vote share vs. the previous election (ResultsData.previousYear),
+   * %-points. */
   percentChange?: number | null;
   /** Seats won. 0 if the party didn't make it in. */
   seats: number;
@@ -84,6 +85,8 @@ export interface ResultsData {
   /** Preliminary (election night) vs. final (Wahlausschuss) result.
    * Absent = treated as final. */
   status?: 'vorläufig' | 'endgültig';
+  /** Year of the election that `percentChange` compares against. */
+  previousYear?: number;
   totalSeats: number;
   totals: ResultsTotals;
   parties: ResultsParty[];
