@@ -27,6 +27,9 @@ export interface ElectionBase {
   dataFile: string;
   partyColors: Record<string, string>;
   infoUrl?: string;
+  /** ISO date from which the admitted candidate lists are expected (Wahlausschuss
+   * decision / official gazette). Shown on the "Demnächst" page. */
+  candidatesExpected?: string;
 
   // Optional: filename in public/data/ holding the official election result.
   // When set, the ballot annotates each candidate row with their citywide

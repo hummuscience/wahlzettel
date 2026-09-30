@@ -80,6 +80,11 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    // Election bundles are added asynchronously after the page has rendered;
+    // re-render on add/remove, or a fast data fetch leaves generic texts.
+    react: {
+      bindI18nStore: 'added removed',
+    },
   });
 
 // Set initial dir/lang attributes based on detected language
@@ -267,6 +272,26 @@ const I18N_IMPORTERS: Record<string, Record<string, () => Promise<ElectionI18nMo
     ar: () => import('./elections/bayreuth-stadtrat/i18n/ar.json'),
     uk: () => import('./elections/bayreuth-stadtrat/i18n/uk.json'),
     ru: () => import('./elections/bayreuth-stadtrat/i18n/ru.json'),
+  },
+  'berlin-abgh': {
+    de: () => import('./elections/berlin-abgh/i18n/de.json'),
+    en: () => import('./elections/berlin-abgh/i18n/en.json'),
+  },
+  'saarland-landtagswahl': {
+    de: () => import('./elections/saarland-landtagswahl/i18n/de.json'),
+    en: () => import('./elections/saarland-landtagswahl/i18n/en.json'),
+  },
+  'sh-landtagswahl': {
+    de: () => import('./elections/sh-landtagswahl/i18n/de.json'),
+    en: () => import('./elections/sh-landtagswahl/i18n/en.json'),
+  },
+  'nrw-landtagswahl': {
+    de: () => import('./elections/nrw-landtagswahl/i18n/de.json'),
+    en: () => import('./elections/nrw-landtagswahl/i18n/en.json'),
+  },
+  'nds-landtagswahl': {
+    de: () => import('./elections/nds-landtagswahl/i18n/de.json'),
+    en: () => import('./elections/nds-landtagswahl/i18n/en.json'),
   },
   'bw-landtagswahl': {
     de: () => import('./elections/bw-landtagswahl/i18n/de.json'),

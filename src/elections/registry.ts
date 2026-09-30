@@ -311,6 +311,25 @@ const ELECTIONS: ElectionEntry[] = [
     slug: 'berlin-bvv-reinickendorf',
     shareTypeCode: 60,
     load: () => import('./berlin-bvv-reinickendorf/config').then(m => m.default),
+  },  {
+    slug: 'saarland-landtagswahl',
+    shareTypeCode: 61,
+    load: () => import('./saarland-landtagswahl/config').then(m => m.default),
+  },
+  {
+    slug: 'sh-landtagswahl',
+    shareTypeCode: 62,
+    load: () => import('./sh-landtagswahl/config').then(m => m.default),
+  },
+  {
+    slug: 'nrw-landtagswahl',
+    shareTypeCode: 63,
+    load: () => import('./nrw-landtagswahl/config').then(m => m.default),
+  },
+  {
+    slug: 'nds-landtagswahl',
+    shareTypeCode: 64,
+    load: () => import('./nds-landtagswahl/config').then(m => m.default),
   },
 ];
 

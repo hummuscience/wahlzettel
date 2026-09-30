@@ -7,9 +7,9 @@ const SEAT_METHOD_NAME = {
   sainteLague: 'Sainte-Laguë/Schepers',
 } as const;
 
-/** Days before election day when the Wahlausschuss has usually admitted
- * the lists — used for the "voraussichtlich ab" hint. */
-const LISTS_LEAD_DAYS = 75;
+/** Fallback when the config has no `candidatesExpected`: lists are usually
+ * admitted ~8 weeks before election day. */
+const LISTS_LEAD_DAYS = 55;
 
 function fmtDate(d: Date, lang: string): string {
   return d.toLocaleDateString(lang === 'de' ? 'de-DE' : lang, {
@@ -24,7 +24,9 @@ export function PendingCandidatesView({ config, now = new Date() }: { config: El
   const { t: te } = useTranslation('election');
   const day = new Date(`${config.date}T00:00:00Z`);
   const days = Math.ceil((day.getTime() - now.getTime()) / 86_400_000);
-  const listsFrom = new Date(day.getTime() - LISTS_LEAD_DAYS * 86_400_000);
+  const listsFrom = config.candidatesExpected
+    ? new Date(`${config.candidatesExpected}T00:00:00Z`)
+    : new Date(day.getTime() - LISTS_LEAD_DAYS * 86_400_000);
 
   const facts: Array<[string, string]> = [];
   if (config.ballotKind === 'mmp-2vote') {

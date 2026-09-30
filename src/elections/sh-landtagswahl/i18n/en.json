@@ -1,0 +1,16 @@
+{
+  "title": "Schleswig-Holstein State Election 2027",
+  "subtitle": "Practice the state election – interactive & easy to understand",
+  "electionName": "Schleswig-Holstein State Election 2027",
+  "electionShort": "Schleswig-Holstein · State parliament 2027",
+  "ballotSubtitle": "on 18 April 2027",
+  "electionDateValue": "Sunday, 18 April 2027, 8 am – 6 pm",
+  "moreInfoLink": "schleswig-holstein.de/wahlen",
+  "moreInfoUrl": "https://www.schleswig-holstein.de/DE/landesregierung/themen/demokratie-gesellschaft/wahlen/Wahlen-in-SH/Landtagswahl/landtagswahlen_node",
+  "disclaimer": "This is a private information service, not affiliated with the state of Schleswig-Holstein or its returning officer. No guarantee of accuracy.",
+  "madeWith": "Made with ♥ for Schleswig-Holstein",
+  "erststimme": "First vote",
+  "zweitstimme": "Second vote",
+  "erststimmeDesc": "Choose a candidate in your constituency",
+  "zweitstimmeDesc": "Choose a party list"
+}

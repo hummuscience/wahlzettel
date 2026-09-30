@@ -61,6 +61,30 @@ const STATEWIDE_ELECTIONS: StatewideElection[] = [
     themeColor: '#e30613',
     hasResults: true,
   },
+  {
+    stateId: 'sl',
+    slug: 'saarland-landtagswahl',
+    label: 'Landtagswahl 2027',
+    themeColor: '#005ca9',
+  },
+  {
+    stateId: 'sh',
+    slug: 'sh-landtagswahl',
+    label: 'Landtagswahl 2027',
+    themeColor: '#003a78',
+  },
+  {
+    stateId: 'nw',
+    slug: 'nrw-landtagswahl',
+    label: 'Landtagswahl 2027',
+    themeColor: '#007a3d',
+  },
+  {
+    stateId: 'ni',
+    slug: 'nds-landtagswahl',
+    label: 'Landtagswahl 2027',
+    themeColor: '#c8102e',
+  },
 ];
 
 const CITIES: CityEntry[] = [
@@ -462,6 +486,10 @@ const STATE_LABEL_POS: Record<string, { x: number; y: number }> = {
   he: { x: 200, y: 476 },
   by: { x: 370, y: 620 },
   be: { x: 410, y: 280 },
+  sh: { x: 258, y: 80 },
+  ni: { x: 200, y: 232 },
+  nw: { x: 95, y: 372 },
+  sl: { x: 62, y: 580 },
 };
 
 function buildCityRequestUrl(stateId?: string): string {

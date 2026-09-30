@@ -1,0 +1,16 @@
+{
+  "title": "North Rhine-Westphalia State Election 2027",
+  "subtitle": "Practice the state election – interactive & easy to understand",
+  "electionName": "North Rhine-Westphalia State Election 2027",
+  "electionShort": "North Rhine-Westphalia · State parliament 2027",
+  "ballotSubtitle": "on 25 April 2027",
+  "electionDateValue": "Sunday, 25 April 2027, 8 am – 6 pm",
+  "moreInfoLink": "im.nrw/landtagswahl-2027",
+  "moreInfoUrl": "https://www.im.nrw/landtagswahl-2027-am-25-april-2027",
+  "disclaimer": "This is a private information service, not affiliated with the state of North Rhine-Westphalia or its returning officer. No guarantee of accuracy.",
+  "madeWith": "Made with ♥ for North Rhine-Westphalia",
+  "erststimme": "First vote",
+  "zweitstimme": "Second vote",
+  "erststimmeDesc": "Choose a candidate in your constituency",
+  "zweitstimmeDesc": "Choose a party list"
+}
