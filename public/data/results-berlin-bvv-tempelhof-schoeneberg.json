@@ -1,15 +1,15 @@
 {
   "election": "berlin-bvv-tempelhof-schoeneberg",
-  "stand": "2026-09-21",
+  "stand": "2026-10-12",
   "status": "vorläufig",
   "previousYear": 2023,
   "totalSeats": 55,
   "totals": {
-    "validVotes": 180805,
-    "validBallots": 180805,
+    "validVotes": 180806,
+    "validBallots": 180806,
     "wahlberechtigte": 255021,
-    "waehlerGesamt": 182141,
-    "ungueltigeStimmzettel": 1336,
+    "waehlerGesamt": 182145,
+    "ungueltigeStimmzettel": 1339,
     "turnout": 71.4,
     "kandidatenInsgesamt": null,
     "frauenInsgesamt": null,
@@ -24,7 +24,7 @@
       "color": "#008549",
       "percent": 22.69,
       "percentChange": -1.06,
-      "votesAbsolute": 41026,
+      "votesAbsolute": 41024,
       "votesWeighted": null,
       "seats": 14,
       "candidates": [
@@ -149,7 +149,7 @@
       "color": "#5f316e",
       "percent": 20.29,
       "percentChange": 12.35,
-      "votesAbsolute": 36681,
+      "votesAbsolute": 36682,
       "votesWeighted": null,
       "seats": 12,
       "candidates": [
@@ -513,7 +513,7 @@
       "color": "#cd386c",
       "percent": 3.8,
       "percentChange": 3.8,
-      "votesAbsolute": 6866,
+      "votesAbsolute": 6867,
       "votesWeighted": null,
       "seats": 2,
       "candidates": [
@@ -578,7 +578,7 @@
       "color": "#858585",
       "percent": 0.18,
       "percentChange": 0.18,
-      "votesAbsolute": 323,
+      "votesAbsolute": 324,
       "votesWeighted": null,
       "seats": 0,
       "candidates": []

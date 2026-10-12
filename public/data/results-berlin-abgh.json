@@ -1,15 +1,15 @@
 {
   "election": "berlin-abgh",
-  "stand": "2026-09-21",
+  "stand": "2026-10-12",
   "status": "vorläufig",
   "previousYear": 2023,
-  "totalSeats": 158,
+  "totalSeats": 153,
   "totals": {
-    "validVotes": 1824514,
-    "validBallots": 1824514,
+    "validVotes": 1825672,
+    "validBallots": 1825672,
     "wahlberechtigte": 2487318,
-    "waehlerGesamt": 1846170,
-    "ungueltigeStimmzettel": 21656,
+    "waehlerGesamt": 1846344,
+    "ungueltigeStimmzettel": 20672,
     "turnout": 74.2,
     "kandidatenInsgesamt": null,
     "frauenInsgesamt": null,
@@ -22,16 +22,16 @@
       "shortName": "Die Linke",
       "fullName": "Die Linke",
       "color": "#5f316e",
-      "percent": 25.65,
+      "percent": 25.66,
       "percentChange": 13.45,
-      "votesAbsolute": 468060,
+      "votesAbsolute": 468391,
       "votesWeighted": null,
-      "seats": 47,
+      "seats": 45,
       "direktmandate": 28,
       "erststimmen": {
-        "votesAbsolute": 435898,
-        "percent": 24.05,
-        "percentChange": 11.74
+        "votesAbsolute": 435893,
+        "percent": 24.04,
+        "percentChange": 11.73
       },
       "candidates": [
         {
@@ -346,21 +346,12 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Aglibut",
-          "firstName": "Coco",
-          "via": "liste"
-        },
-        {
-          "position": 33,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
           "lastName": "Radde",
           "firstName": "Sonja",
           "via": "liste"
         },
         {
-          "position": 34,
+          "position": 33,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -369,7 +360,7 @@
           "via": "liste"
         },
         {
-          "position": 35,
+          "position": 34,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -378,7 +369,7 @@
           "via": "liste"
         },
         {
-          "position": 36,
+          "position": 35,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -387,7 +378,7 @@
           "via": "liste"
         },
         {
-          "position": 37,
+          "position": 36,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -396,16 +387,7 @@
           "via": "liste"
         },
         {
-          "position": 38,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Günter",
-          "firstName": "Dr. Bettina",
-          "via": "liste"
-        },
-        {
-          "position": 39,
+          "position": 37,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -414,7 +396,7 @@
           "via": "liste"
         },
         {
-          "position": 40,
+          "position": 38,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -423,7 +405,7 @@
           "via": "liste"
         },
         {
-          "position": 41,
+          "position": 39,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -432,7 +414,7 @@
           "via": "liste"
         },
         {
-          "position": 42,
+          "position": 40,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -441,7 +423,7 @@
           "via": "liste"
         },
         {
-          "position": 43,
+          "position": 41,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -450,7 +432,7 @@
           "via": "liste"
         },
         {
-          "position": 44,
+          "position": 42,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -459,16 +441,7 @@
           "via": "liste"
         },
         {
-          "position": 45,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Tielebein",
-          "firstName": "Björn",
-          "via": "liste"
-        },
-        {
-          "position": 46,
+          "position": 43,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -477,7 +450,16 @@
           "via": "liste"
         },
         {
-          "position": 47,
+          "position": 44,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Tielebein",
+          "firstName": "Björn",
+          "via": "liste"
+        },
+        {
+          "position": 45,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -494,13 +476,13 @@
       "color": "#576164",
       "percent": 18.77,
       "percentChange": -9.46,
-      "votesAbsolute": 342516,
+      "votesAbsolute": 342746,
       "votesWeighted": null,
-      "seats": 34,
-      "direktmandate": 27,
+      "seats": 33,
+      "direktmandate": 26,
       "erststimmen": {
-        "votesAbsolute": 367302,
-        "percent": 20.27,
+        "votesAbsolute": 367377,
+        "percent": 20.26,
         "percentChange": -9.45
       },
       "candidates": [
@@ -569,23 +551,13 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Meißner",
-          "firstName": "Bettina",
-          "via": "wahlkreis",
-          "wahlkreis": "Spandau 1"
-        },
-        {
-          "position": 8,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
           "lastName": "Melzer",
           "firstName": "Heiko",
           "via": "wahlkreis",
           "wahlkreis": "Spandau 4"
         },
         {
-          "position": 9,
+          "position": 8,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -595,7 +567,7 @@
           "wahlkreis": "Spandau 5"
         },
         {
-          "position": 10,
+          "position": 9,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -605,7 +577,7 @@
           "wahlkreis": "Steglitz-Zehlendorf 2"
         },
         {
-          "position": 11,
+          "position": 10,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -615,7 +587,7 @@
           "wahlkreis": "Steglitz-Zehlendorf 3"
         },
         {
-          "position": 12,
+          "position": 11,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -625,7 +597,7 @@
           "wahlkreis": "Steglitz-Zehlendorf 4"
         },
         {
-          "position": 13,
+          "position": 12,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -635,7 +607,7 @@
           "wahlkreis": "Steglitz-Zehlendorf 5"
         },
         {
-          "position": 14,
+          "position": 13,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -645,7 +617,7 @@
           "wahlkreis": "Steglitz-Zehlendorf 6"
         },
         {
-          "position": 15,
+          "position": 14,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -655,7 +627,7 @@
           "wahlkreis": "Steglitz-Zehlendorf 7"
         },
         {
-          "position": 16,
+          "position": 15,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -665,7 +637,7 @@
           "wahlkreis": "Tempelhof-Schöneberg 5"
         },
         {
-          "position": 17,
+          "position": 16,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -675,7 +647,7 @@
           "wahlkreis": "Tempelhof-Schöneberg 6"
         },
         {
-          "position": 18,
+          "position": 17,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -685,7 +657,7 @@
           "wahlkreis": "Tempelhof-Schöneberg 7"
         },
         {
-          "position": 19,
+          "position": 18,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -695,7 +667,7 @@
           "wahlkreis": "Neukölln 4"
         },
         {
-          "position": 20,
+          "position": 19,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -705,7 +677,7 @@
           "wahlkreis": "Neukölln 5"
         },
         {
-          "position": 21,
+          "position": 20,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -715,7 +687,7 @@
           "wahlkreis": "Neukölln 6"
         },
         {
-          "position": 22,
+          "position": 21,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -725,7 +697,7 @@
           "wahlkreis": "Marzahn-Hellersdorf 5"
         },
         {
-          "position": 23,
+          "position": 22,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -735,7 +707,7 @@
           "wahlkreis": "Lichtenberg 2"
         },
         {
-          "position": 24,
+          "position": 23,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -745,7 +717,7 @@
           "wahlkreis": "Reinickendorf 2"
         },
         {
-          "position": 25,
+          "position": 24,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -755,7 +727,7 @@
           "wahlkreis": "Reinickendorf 3"
         },
         {
-          "position": 26,
+          "position": 25,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -765,7 +737,7 @@
           "wahlkreis": "Reinickendorf 4"
         },
         {
-          "position": 27,
+          "position": 26,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -775,7 +747,7 @@
           "wahlkreis": "Reinickendorf 6"
         },
         {
-          "position": 28,
+          "position": 27,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -784,7 +756,7 @@
           "via": "liste"
         },
         {
-          "position": 29,
+          "position": 28,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -793,7 +765,7 @@
           "via": "liste"
         },
         {
-          "position": 30,
+          "position": 29,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -802,7 +774,7 @@
           "via": "liste"
         },
         {
-          "position": 31,
+          "position": 30,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -811,7 +783,7 @@
           "via": "liste"
         },
         {
-          "position": 32,
+          "position": 31,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -820,7 +792,7 @@
           "via": "liste"
         },
         {
-          "position": 33,
+          "position": 32,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -829,7 +801,7 @@
           "via": "liste"
         },
         {
-          "position": 34,
+          "position": 33,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -844,14 +816,14 @@
       "shortName": "AfD",
       "fullName": "Alternative für Deutschland",
       "color": "#80cdec",
-      "percent": 16.26,
-      "percentChange": 7.17,
-      "votesAbsolute": 296601,
+      "percent": 16.25,
+      "percentChange": 7.16,
+      "votesAbsolute": 296718,
       "votesWeighted": null,
       "seats": 29,
-      "direktmandate": 12,
+      "direktmandate": 13,
       "erststimmen": {
-        "votesAbsolute": 289372,
+        "votesAbsolute": 289441,
         "percent": 15.97,
         "percentChange": 6.96
       },
@@ -871,13 +843,23 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
+          "lastName": "Tabor",
+          "firstName": "Tommy",
+          "via": "wahlkreis",
+          "wahlkreis": "Spandau 1"
+        },
+        {
+          "position": 3,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
           "lastName": "Otti",
           "firstName": "Andreas",
           "via": "wahlkreis",
           "wahlkreis": "Spandau 2"
         },
         {
-          "position": 3,
+          "position": 4,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -887,7 +869,7 @@
           "wahlkreis": "Treptow-Köpenick 4"
         },
         {
-          "position": 4,
+          "position": 5,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -897,7 +879,7 @@
           "wahlkreis": "Treptow-Köpenick 5"
         },
         {
-          "position": 5,
+          "position": 6,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -907,7 +889,7 @@
           "wahlkreis": "Treptow-Köpenick 6"
         },
         {
-          "position": 6,
+          "position": 7,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -917,7 +899,7 @@
           "wahlkreis": "Marzahn-Hellersdorf 1"
         },
         {
-          "position": 7,
+          "position": 8,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -927,7 +909,7 @@
           "wahlkreis": "Marzahn-Hellersdorf 2"
         },
         {
-          "position": 8,
+          "position": 9,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -937,7 +919,7 @@
           "wahlkreis": "Marzahn-Hellersdorf 3"
         },
         {
-          "position": 9,
+          "position": 10,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -947,7 +929,7 @@
           "wahlkreis": "Marzahn-Hellersdorf 4"
         },
         {
-          "position": 10,
+          "position": 11,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -957,7 +939,7 @@
           "wahlkreis": "Marzahn-Hellersdorf 6"
         },
         {
-          "position": 11,
+          "position": 12,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -967,7 +949,7 @@
           "wahlkreis": "Lichtenberg 1"
         },
         {
-          "position": 12,
+          "position": 13,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -977,7 +959,7 @@
           "wahlkreis": "Reinickendorf 5"
         },
         {
-          "position": 13,
+          "position": 14,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -986,97 +968,7 @@
           "via": "liste"
         },
         {
-          "position": 14,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Scheermesser",
-          "firstName": "Frank",
-          "via": "liste"
-        },
-        {
           "position": 15,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Eckert",
-          "firstName": "David",
-          "via": "liste"
-        },
-        {
-          "position": 16,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Adrat",
-          "firstName": "Julian",
-          "via": "liste"
-        },
-        {
-          "position": 17,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Brinker",
-          "firstName": "Dr. Kristin",
-          "via": "liste"
-        },
-        {
-          "position": 18,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Krüger",
-          "firstName": "Daniel",
-          "via": "liste"
-        },
-        {
-          "position": 19,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Gröber",
-          "firstName": "Sarah-Emanuela",
-          "via": "liste"
-        },
-        {
-          "position": 20,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Bronson",
-          "firstName": "Dr. Hugh",
-          "via": "liste"
-        },
-        {
-          "position": 21,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Conradi",
-          "firstName": "Dr. Ralf-Günther",
-          "via": "liste"
-        },
-        {
-          "position": 22,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Bernicke",
-          "firstName": "Marc-Philipp",
-          "via": "liste"
-        },
-        {
-          "position": 23,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
-          "lastName": "Vallendar",
-          "firstName": "Marc",
-          "via": "liste"
-        },
-        {
-          "position": 24,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1085,7 +977,7 @@
           "via": "liste"
         },
         {
-          "position": 25,
+          "position": 16,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1094,12 +986,93 @@
           "via": "liste"
         },
         {
-          "position": 26,
+          "position": 17,
           "stimmen": null,
           "elected": true,
           "profession": null,
           "lastName": "Wiedenhaupt",
           "firstName": "Rolf",
+          "via": "liste"
+        },
+        {
+          "position": 18,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Scheermesser",
+          "firstName": "Frank",
+          "via": "liste"
+        },
+        {
+          "position": 19,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Bernicke",
+          "firstName": "Marc-Philipp",
+          "via": "liste"
+        },
+        {
+          "position": 20,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Eckert",
+          "firstName": "David",
+          "via": "liste"
+        },
+        {
+          "position": 21,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Streeck",
+          "firstName": "Jan-Philip",
+          "via": "liste"
+        },
+        {
+          "position": 22,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Vallendar",
+          "firstName": "Marc",
+          "via": "liste"
+        },
+        {
+          "position": 23,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Adrat",
+          "firstName": "Julian",
+          "via": "liste"
+        },
+        {
+          "position": 24,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Brinker",
+          "firstName": "Dr. Kristin",
+          "via": "liste"
+        },
+        {
+          "position": 25,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Krüger",
+          "firstName": "Daniel",
+          "via": "liste"
+        },
+        {
+          "position": 26,
+          "stimmen": null,
+          "elected": true,
+          "profession": null,
+          "lastName": "Gröber",
+          "firstName": "Sarah-Emanuela",
           "via": "liste"
         },
         {
@@ -1116,8 +1089,8 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Tabor",
-          "firstName": "Tommy",
+          "lastName": "Bronson",
+          "firstName": "Dr. Hugh",
           "via": "liste"
         },
         {
@@ -1125,8 +1098,8 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Streeck",
-          "firstName": "Jan-Philip",
+          "lastName": "Conradi",
+          "firstName": "Dr. Ralf-Günther",
           "via": "liste"
         }
       ]
@@ -1138,12 +1111,12 @@
       "color": "#008549",
       "percent": 14.29,
       "percentChange": -4.1,
-      "votesAbsolute": 260700,
+      "votesAbsolute": 260896,
       "votesWeighted": null,
-      "seats": 26,
+      "seats": 25,
       "direktmandate": 10,
       "erststimmen": {
-        "votesAbsolute": 297065,
+        "votesAbsolute": 297100,
         "percent": 16.39,
         "percentChange": -2.76
       },
@@ -1298,21 +1271,12 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Hassepaß",
-          "firstName": "Oda",
-          "via": "liste"
-        },
-        {
-          "position": 17,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
           "lastName": "Schedlich",
           "firstName": "Klara Josephine",
           "via": "liste"
         },
         {
-          "position": 18,
+          "position": 17,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1321,7 +1285,7 @@
           "via": "liste"
         },
         {
-          "position": 19,
+          "position": 18,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1330,7 +1294,7 @@
           "via": "liste"
         },
         {
-          "position": 20,
+          "position": 19,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1339,7 +1303,7 @@
           "via": "liste"
         },
         {
-          "position": 21,
+          "position": 20,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1348,7 +1312,7 @@
           "via": "liste"
         },
         {
-          "position": 22,
+          "position": 21,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1357,7 +1321,7 @@
           "via": "liste"
         },
         {
-          "position": 23,
+          "position": 22,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1366,7 +1330,7 @@
           "via": "liste"
         },
         {
-          "position": 24,
+          "position": 23,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1375,7 +1339,7 @@
           "via": "liste"
         },
         {
-          "position": 25,
+          "position": 24,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1384,7 +1348,7 @@
           "via": "liste"
         },
         {
-          "position": 26,
+          "position": 25,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1401,14 +1365,14 @@
       "color": "#c0003d",
       "percent": 12.11,
       "percentChange": -6.28,
-      "votesAbsolute": 220939,
+      "votesAbsolute": 221116,
       "votesWeighted": null,
-      "seats": 22,
+      "seats": 21,
       "direktmandate": 1,
       "erststimmen": {
-        "votesAbsolute": 248501,
-        "percent": 13.71,
-        "percentChange": -6.22
+        "votesAbsolute": 248721,
+        "percent": 13.72,
+        "percentChange": -6.21
       },
       "candidates": [
         {
@@ -1525,8 +1489,8 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Matz",
-          "firstName": "Martin",
+          "lastName": "Neumann",
+          "firstName": "Wiebke",
           "via": "liste"
         },
         {
@@ -1534,8 +1498,8 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Neumann",
-          "firstName": "Wiebke",
+          "lastName": "Özdemir",
+          "firstName": "Orkan",
           "via": "liste"
         },
         {
@@ -1543,8 +1507,8 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Özdemir",
-          "firstName": "Orkan",
+          "lastName": "Hopp",
+          "firstName": "Marcel",
           "via": "liste"
         },
         {
@@ -1561,21 +1525,12 @@
           "stimmen": null,
           "elected": true,
           "profession": null,
-          "lastName": "Hopp",
-          "firstName": "Marcel",
-          "via": "liste"
-        },
-        {
-          "position": 18,
-          "stimmen": null,
-          "elected": true,
-          "profession": null,
           "lastName": "Dittmar",
           "firstName": "Julia",
           "via": "liste"
         },
         {
-          "position": 19,
+          "position": 18,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1584,7 +1539,7 @@
           "via": "liste"
         },
         {
-          "position": 20,
+          "position": 19,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1593,7 +1548,7 @@
           "via": "liste"
         },
         {
-          "position": 21,
+          "position": 20,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1602,7 +1557,7 @@
           "via": "liste"
         },
         {
-          "position": 22,
+          "position": 21,
           "stimmen": null,
           "elected": true,
           "profession": null,
@@ -1617,14 +1572,14 @@
       "shortName": "BSW",
       "fullName": "Bündnis Sahra Wagenknecht - Vernunft und Gerechtigkeit",
       "color": "#cd386c",
-      "percent": 4.72,
-      "percentChange": 4.72,
-      "votesAbsolute": 86041,
+      "percent": 4.73,
+      "percentChange": 4.73,
+      "votesAbsolute": 86350,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
       "erststimmen": {
-        "votesAbsolute": 75788,
+        "votesAbsolute": 75704,
         "percent": 4.18,
         "percentChange": 4.18
       },
@@ -1637,12 +1592,12 @@
       "color": "#f7bc3d",
       "percent": 2.54,
       "percentChange": -2.1,
-      "votesAbsolute": 46341,
+      "votesAbsolute": 46384,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
       "erststimmen": {
-        "votesAbsolute": 40370,
+        "votesAbsolute": 40410,
         "percent": 2.23,
         "percentChange": -1.63
       },
@@ -1655,12 +1610,12 @@
       "color": "#c0ca31",
       "percent": 2.12,
       "percentChange": -0.27,
-      "votesAbsolute": 38642,
+      "votesAbsolute": 38678,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
       "erststimmen": {
-        "votesAbsolute": 10232,
+        "votesAbsolute": 10236,
         "percent": 0.56,
         "percentChange": -2.34
       },
@@ -1673,12 +1628,12 @@
       "color": "#6f30a7",
       "percent": 2.08,
       "percentChange": 1.15,
-      "votesAbsolute": 37880,
+      "votesAbsolute": 37950,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
       "erststimmen": {
-        "votesAbsolute": 40598,
+        "votesAbsolute": 40638,
         "percent": 2.24,
         "percentChange": 2.24
       },
@@ -1689,14 +1644,14 @@
       "shortName": "Die PARTEI",
       "fullName": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
       "color": "#b51f29",
-      "percent": 0.74,
-      "percentChange": -0.68,
-      "votesAbsolute": 13536,
+      "percent": 0.73,
+      "percentChange": -0.69,
+      "votesAbsolute": 13349,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
       "erststimmen": {
-        "votesAbsolute": 4781,
+        "votesAbsolute": 4804,
         "percent": 0.26,
         "percentChange": -1.39
       },
@@ -1707,9 +1662,9 @@
       "shortName": "PdF",
       "fullName": "Partei des Fortschritts",
       "color": "#858585",
-      "percent": 0.32,
-      "percentChange": 0.32,
-      "votesAbsolute": 5760,
+      "percent": 0.31,
+      "percentChange": 0.31,
+      "votesAbsolute": 5700,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
@@ -1737,7 +1692,7 @@
       "color": "#858585",
       "percent": 0.11,
       "percentChange": -0.05,
-      "votesAbsolute": 2070,
+      "votesAbsolute": 2051,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
@@ -1753,9 +1708,9 @@
       "shortName": "Die Urbane.",
       "fullName": "Die Urbane. Eine HipHop Partei",
       "color": "#858585",
-      "percent": 0.09,
+      "percent": 0.08,
       "percentChange": -0.11,
-      "votesAbsolute": 1551,
+      "votesAbsolute": 1518,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
@@ -1768,8 +1723,8 @@
       "fullName": "Sozialistische Gleichheitspartei, Vierte Internationale",
       "color": "#858585",
       "percent": 0.04,
-      "percentChange": -0.01,
-      "votesAbsolute": 716,
+      "percentChange": -0.02,
+      "votesAbsolute": 663,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
@@ -1797,12 +1752,12 @@
       "color": "#858585",
       "percent": 0.0,
       "percentChange": -0.07,
-      "votesAbsolute": 80,
+      "votesAbsolute": 81,
       "votesWeighted": null,
       "seats": 0,
       "direktmandate": 0,
       "erststimmen": {
-        "votesAbsolute": 43,
+        "votesAbsolute": 44,
         "percent": 0.0,
         "percentChange": 0.0
       },
@@ -2095,9 +2050,9 @@
       "name": "Spandau 1",
       "bezirk": "Spandau",
       "winner": {
-        "lastName": "Meißner",
-        "firstName": "Bettina",
-        "party": "CDU"
+        "lastName": "Tabor",
+        "firstName": "Tommy",
+        "party": "AfD"
       }
     },
     {

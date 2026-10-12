@@ -1,15 +1,15 @@
 {
   "election": "berlin-bvv-lichtenberg",
-  "stand": "2026-09-21",
+  "stand": "2026-10-12",
   "status": "vorläufig",
   "previousYear": 2023,
   "totalSeats": 55,
   "totals": {
-    "validVotes": 146132,
-    "validBallots": 146132,
+    "validVotes": 146127,
+    "validBallots": 146127,
     "wahlberechtigte": 214195,
-    "waehlerGesamt": 147438,
-    "ungueltigeStimmzettel": 1306,
+    "waehlerGesamt": 147435,
+    "ungueltigeStimmzettel": 1308,
     "turnout": 68.8,
     "kandidatenInsgesamt": null,
     "frauenInsgesamt": null,
@@ -24,7 +24,7 @@
       "color": "#5f316e",
       "percent": 30.38,
       "percentChange": 7.28,
-      "votesAbsolute": 44394,
+      "votesAbsolute": 44393,
       "votesWeighted": null,
       "seats": 18,
       "candidates": [
@@ -306,7 +306,7 @@
       "color": "#576164",
       "percent": 14.16,
       "percentChange": -9.63,
-      "votesAbsolute": 20693,
+      "votesAbsolute": 20692,
       "votesWeighted": null,
       "seats": 8,
       "candidates": [
@@ -383,7 +383,7 @@
       "color": "#008549",
       "percent": 8.93,
       "percentChange": -2.9,
-      "votesAbsolute": 13044,
+      "votesAbsolute": 13046,
       "votesWeighted": null,
       "seats": 5,
       "candidates": [
@@ -436,7 +436,7 @@
       "color": "#c0003d",
       "percent": 8.59,
       "percentChange": -6.67,
-      "votesAbsolute": 12555,
+      "votesAbsolute": 12557,
       "votesWeighted": null,
       "seats": 5,
       "candidates": [
@@ -489,7 +489,7 @@
       "color": "#cd386c",
       "percent": 7.0,
       "percentChange": 7.0,
-      "votesAbsolute": 10229,
+      "votesAbsolute": 10224,
       "votesWeighted": null,
       "seats": 4,
       "candidates": [
@@ -567,7 +567,7 @@
       "color": "#f7bc3d",
       "percent": 1.7,
       "percentChange": -1.26,
-      "votesAbsolute": 2483,
+      "votesAbsolute": 2482,
       "votesWeighted": null,
       "seats": 0,
       "candidates": []
@@ -579,7 +579,7 @@
       "color": "#ca8831",
       "percent": 0.26,
       "percentChange": 0.07,
-      "votesAbsolute": 375,
+      "votesAbsolute": 374,
       "votesWeighted": null,
       "seats": 0,
       "candidates": []

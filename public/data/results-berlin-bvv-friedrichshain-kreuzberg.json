@@ -1,15 +1,15 @@
 {
   "election": "berlin-bvv-friedrichshain-kreuzberg",
-  "stand": "2026-09-21",
+  "stand": "2026-10-12",
   "status": "vorläufig",
   "previousYear": 2023,
   "totalSeats": 55,
   "totals": {
-    "validVotes": 141614,
-    "validBallots": 141614,
+    "validVotes": 141618,
+    "validBallots": 141618,
     "wahlberechtigte": 197690,
-    "waehlerGesamt": 142364,
-    "ungueltigeStimmzettel": 750,
+    "waehlerGesamt": 142365,
+    "ungueltigeStimmzettel": 747,
     "turnout": 72.0,
     "kandidatenInsgesamt": null,
     "frauenInsgesamt": null,
@@ -24,7 +24,7 @@
       "color": "#5f316e",
       "percent": 40.09,
       "percentChange": 19.64,
-      "votesAbsolute": 56774,
+      "votesAbsolute": 56777,
       "votesWeighted": null,
       "seats": 24,
       "candidates": [
@@ -362,7 +362,7 @@
       "color": "#c0003d",
       "percent": 8.76,
       "percentChange": -4.8,
-      "votesAbsolute": 12399,
+      "votesAbsolute": 12400,
       "votesWeighted": null,
       "seats": 5,
       "candidates": [

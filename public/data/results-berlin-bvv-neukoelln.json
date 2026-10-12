@@ -1,14 +1,14 @@
 {
   "election": "berlin-bvv-neukoelln",
-  "stand": "2026-09-21",
+  "stand": "2026-10-12",
   "status": "vorläufig",
   "previousYear": 2023,
   "totalSeats": 55,
   "totals": {
-    "validVotes": 141803,
-    "validBallots": 141803,
+    "validVotes": 141814,
+    "validBallots": 141814,
     "wahlberechtigte": 221105,
-    "waehlerGesamt": 143024,
+    "waehlerGesamt": 143035,
     "ungueltigeStimmzettel": 1221,
     "turnout": 64.7,
     "kandidatenInsgesamt": null,
@@ -189,7 +189,7 @@
       "color": "#576164",
       "percent": 15.56,
       "percentChange": -11.62,
-      "votesAbsolute": 22062,
+      "votesAbsolute": 22066,
       "votesWeighted": null,
       "seats": 9,
       "candidates": [
@@ -274,7 +274,7 @@
       "color": "#008549",
       "percent": 14.81,
       "percentChange": -2.26,
-      "votesAbsolute": 20999,
+      "votesAbsolute": 21006,
       "votesWeighted": null,
       "seats": 9,
       "candidates": [
@@ -359,7 +359,7 @@
       "color": "#80cdec",
       "percent": 13.63,
       "percentChange": 6.14,
-      "votesAbsolute": 19331,
+      "votesAbsolute": 19332,
       "votesWeighted": null,
       "seats": 8,
       "candidates": [
@@ -540,9 +540,9 @@
       "shortName": "Tierschutzpartei",
       "fullName": "PARTEI MENSCH KLIMA TIERSCHUTZ",
       "color": "#c0ca31",
-      "percent": 2.1,
+      "percent": 2.09,
       "percentChange": -0.56,
-      "votesAbsolute": 2972,
+      "votesAbsolute": 2970,
       "votesWeighted": null,
       "seats": 0,
       "candidates": []
@@ -554,7 +554,7 @@
       "color": "#6f30a7",
       "percent": 1.6,
       "percentChange": 0.81,
-      "votesAbsolute": 2263,
+      "votesAbsolute": 2264,
       "votesWeighted": null,
       "seats": 0,
       "candidates": []
